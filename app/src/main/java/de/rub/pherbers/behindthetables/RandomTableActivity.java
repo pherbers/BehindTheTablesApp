@@ -15,7 +15,9 @@ import java.util.Observable;
 import java.util.Observer;
 
 import de.rub.pherbers.behindthetables.adapter.RandomTableListAdapter;
+import de.rub.pherbers.behindthetables.data.RandomTable;
 import de.rub.pherbers.behindthetables.data.TableCollection;
+import de.rub.pherbers.behindthetables.data.TableCollectionContainer;
 import de.rub.pherbers.behindthetables.data.TableReader;
 
 public class RandomTableActivity extends AppCompatActivity implements Observer{
@@ -31,10 +33,17 @@ public class RandomTableActivity extends AppCompatActivity implements Observer{
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        try {
-            table = TableReader.readTable(getResources().openRawResource(R.raw.table_4y5pl2));
-        } catch (IOException e) {
-            e.printStackTrace();
+        TableCollectionContainer tableCollectionContainer = TableCollectionContainer.getTableCollectionContainer();
+        if(!tableCollectionContainer.containsKey("asdf")) {
+            try {
+                table = TableReader.readTable(getResources().openRawResource(R.raw.table_4y5pl2));
+                tableCollectionContainer.put("asdf", table);
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+        else {
+            table = tableCollectionContainer.get("asdf");
         }
 
         if (table != null) {
@@ -64,8 +73,12 @@ public class RandomTableActivity extends AppCompatActivity implements Observer{
 
     @Override
     public void update(Observable o, Object arg) {
-        listAdapter.notifyDataSetChanged();
-        listView.postInvalidate();
+        if(o instanceof RandomTable && arg instanceof Integer) {
+            int index = (int) arg;
+            listView.collapseGroup(index);
+            listAdapter.notifyDataSetChanged();
+            listView.postInvalidate();
+        }
     }
 
     public void diceRollAction(View mView) {

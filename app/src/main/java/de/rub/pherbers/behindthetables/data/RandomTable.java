@@ -12,13 +12,15 @@ public class RandomTable extends Observable {
     private String name;
     private String dice;
     private List<TableEntry> entries;
+    private int tableIndex;
 
     private int rolledIndex = -1;
 
-    public RandomTable(String name, String dice, List<TableEntry> entries) {
+    public RandomTable(String name, String dice, int index, List<TableEntry> entries) {
         this.name = name;
         this.entries = entries;
         this.dice = dice;
+        this.tableIndex = index;
     }
 
     public String getName() {
@@ -45,6 +47,14 @@ public class RandomTable extends Observable {
         this.entries = entries;
     }
 
+    public int getTableIndex() {
+        return tableIndex;
+    }
+
+    public void setTableIndex(int tableIndex) {
+        this.tableIndex = tableIndex;
+    }
+
     public int getRolledIndex() {
         return rolledIndex;
     }
@@ -52,7 +62,7 @@ public class RandomTable extends Observable {
     public void setRolledIndex(int rolledIndex) {
         this.rolledIndex = rolledIndex;
         setChanged();
-        notifyObservers();
+        notifyObservers(tableIndex);
     }
 
     public boolean hasRolled() {

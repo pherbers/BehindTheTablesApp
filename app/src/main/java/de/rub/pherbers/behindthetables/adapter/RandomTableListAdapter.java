@@ -68,17 +68,23 @@ public class RandomTableListAdapter extends BaseExpandableListAdapter {
 
     @Override
     public View getGroupView(int groupPosition, boolean isExpanded, View convertView, ViewGroup parent) {
+        final RandomTable group = getGroup(groupPosition);
+        String text = group.toString();
+
         LinearLayout ll = new LinearLayout(context);
         LayoutInflater li = LayoutInflater.from(context);
         View v = li.inflate(R.layout.table_group_layout, parent, false);
 
         TextView tv = (TextView) v.findViewById(R.id.table_group_text);
+        tv.setText(text);
         ImageButton btn = (ImageButton) v.findViewById(R.id.table_group_roll_button);
         btn.setFocusable(false);
-        RandomTable group = getGroup(groupPosition);
-        String text = group.toString();
-        tv.setText(text);
-
+        btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                group.roll();
+            }
+        });
         ll.setOrientation(LinearLayout.VERTICAL);
         ll.setLayoutParams(new ViewGroup.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT));
 

@@ -41,14 +41,16 @@ public class TableReader {
     private static List<RandomTable> readTableListJson(JsonReader jr) throws IOException {
         jr.beginArray();
         List<RandomTable> tables = new ArrayList<>();
+        int i = 0;
         while(jr.hasNext()) {
-            tables.add(readTableJson(jr));
+            tables.add(readTableJson(jr, i));
+            i++;
         }
         jr.endArray();
         return tables;
     }
 
-    private static RandomTable readTableJson(JsonReader jr) throws IOException {
+    private static RandomTable readTableJson(JsonReader jr, int index) throws IOException {
         String title = "Table";
         String dice = "xdy";
         List<TableEntry> entries = new ArrayList<>();
@@ -72,7 +74,7 @@ public class TableReader {
             }
         }
         jr.endObject();
-        RandomTable table = new RandomTable(title, dice, entries);
+        RandomTable table = new RandomTable(title, dice, index, entries);
         return table;
     }
 }
