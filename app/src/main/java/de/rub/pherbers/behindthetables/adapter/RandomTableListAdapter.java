@@ -64,7 +64,7 @@ public class RandomTableListAdapter extends BaseAdapter {
             Timber.i("Reused a view!");
         } else {
             RandomTable group = getItem(position);
-            view = new RandomTableView(context, parent, group);
+            view = new RandomTableView(context, parent, group, position);
         }
         return view;
     }

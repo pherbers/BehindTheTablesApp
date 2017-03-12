@@ -72,6 +72,7 @@ public class RandomTableActivity extends AppCompatActivity implements Observer{
 
         listAdapter = new RandomTableListAdapter(this, table);
         listView.setAdapter(listAdapter);
+        listView.setTranscriptMode(ListView.TRANSCRIPT_MODE_ALWAYS_SCROLL);
 
         TextView tv = (TextView) findViewById(R.id.random_table_title);
         tv.setText(table.getTitle());
@@ -108,4 +109,7 @@ public class RandomTableActivity extends AppCompatActivity implements Observer{
 
     }
 
+    public void scrollToPosition(int pos) {
+        listView.smoothScrollToPosition(pos);
+    }
 }

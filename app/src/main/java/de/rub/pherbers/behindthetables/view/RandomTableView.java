@@ -2,10 +2,12 @@ package de.rub.pherbers.behindthetables.view;
 
 import android.app.Activity;
 import android.content.Context;
+import android.os.Handler;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.animation.Animation;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
@@ -14,6 +16,7 @@ import android.widget.TextView;
 import java.util.ArrayList;
 
 import de.rub.pherbers.behindthetables.R;
+import de.rub.pherbers.behindthetables.RandomTableActivity;
 import de.rub.pherbers.behindthetables.data.RandomTable;
 import de.rub.pherbers.behindthetables.data.TableEntry;
 import timber.log.Timber;
@@ -25,14 +28,18 @@ import timber.log.Timber;
 public class RandomTableView extends LinearLayout {
 
     private RandomTable table;
+    private int pos;
+
+    private static final int ANIM_DURATION = 200;
 
     private ArrayList<View> childEntryViews;
     private View highlightedView;
 
-    public RandomTableView(Context context, ViewGroup parent, RandomTable ptable) {
+    public RandomTableView(Context context, ViewGroup parent, RandomTable ptable, int pos) {
         super(context);
         //Timber.i("New child");
         this.table = ptable;
+        this.pos = pos;
 
         LayoutInflater li = LayoutInflater.from(context);
         View v = li.inflate(R.layout.table_group_layout, parent, false);
@@ -60,12 +67,6 @@ public class RandomTableView extends LinearLayout {
                 appendChild(i, parent, false, table.isExpanded(), false);
         }
 
-        setOnClickListener(new OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                toggle();
-            }
-        });
 
     }
 
@@ -115,36 +116,83 @@ public class RandomTableView extends LinearLayout {
 
     public void expand() {
         Timber.i("Expand");
+        ExpandCollapseAnimation anim = null;
         for(int i = 0; i < childEntryViews.size(); i++) {
             View entryView = childEntryViews.get(i);
-            if (entryView != highlightedView) {
+            if(entryView != highlightedView) {
                 ExpandCollapseAnimation.setHeightForWrapContent((Activity) getContext(), entryView);
-                ExpandCollapseAnimation anim = new ExpandCollapseAnimation(entryView, 100);
+                anim = new ExpandCollapseAnimation(entryView, ANIM_DURATION);
                 entryView.startAnimation(anim);
             }
+
+        }
+        if (anim != null) {
+            anim.setAnimationListener(new Animation.AnimationListener() {
+                @Override
+                public void onAnimationStart(Animation animation) {
+
+                }
+
+                @Override
+                public void onAnimationEnd(Animation animation) {
+                    final Handler handler = new Handler();
+                    handler.postDelayed(new Runnable() {
+                        @Override
+                        public void run() {((RandomTableActivity) getContext()).scrollToPosition(pos);}
+                    }, 10);
+                }
+
+                @Override
+                public void onAnimationRepeat(Animation animation) {
+
+                }
+            });
         }
         table.setExpanded(true);
     }
 
     public void collapse() {
         Timber.i("Collapse");
+        ExpandCollapseAnimation anim = null;
         for(int i = 0; i < childEntryViews.size(); i++) {
             View entryView = childEntryViews.get(i);
             if(entryView != highlightedView) {
-                ExpandCollapseAnimation anim = new ExpandCollapseAnimation(entryView, 100);
+                ExpandCollapseAnimation.setHeightForWrapContent((Activity) getContext(), entryView);
+                anim = new ExpandCollapseAnimation(entryView, ANIM_DURATION);
                 entryView.startAnimation(anim);
             }
+
+        }
+        if (anim != null) {
+            anim.setAnimationListener(new Animation.AnimationListener() {
+                @Override
+                public void onAnimationStart(Animation animation) {
+
+                }
+
+                @Override
+                public void onAnimationEnd(Animation animation) {
+                    final Handler handler = new Handler();
+                    handler.postDelayed(new Runnable() {
+                        @Override
+                        public void run() {((RandomTableActivity) getContext()).scrollToPosition(pos);}
+                    }, 10);
+                }
+
+                @Override
+                public void onAnimationRepeat(Animation animation) {
+
+                }
+            });
         }
         table.setExpanded(false);
     }
 
     public void toggle() {
-        Timber.i("pretoggle" + table.isExpanded());
         if(!table.isExpanded())
             expand();
         else
             collapse();
-        Timber.i("posttoggle" + table.isExpanded());
         //table.toggle();
     }
 
