@@ -61,8 +61,8 @@ public class RandomTableActivity extends AppCompatActivity implements Observer{
                 RandomTableView rtv = (RandomTableView) view;
                 Timber.i("Click");
                 rtv.toggle();
-                listAdapter.notifyDataSetChanged();
-                listView.postInvalidate();
+                //listAdapter.notifyDataSetChanged();
+                //listView.postInvalidate();
 
                 // Scroll to expanded list
                 listView.smoothScrollToPosition(position);

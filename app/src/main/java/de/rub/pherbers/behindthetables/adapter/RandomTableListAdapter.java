@@ -58,14 +58,16 @@ public class RandomTableListAdapter extends BaseAdapter {
 
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
-        RandomTable group = getItem(position);
-
-        final RandomTableView view = new RandomTableView(context, parent, group);
-
+        RandomTableView view;
+        if (convertView != null) {
+            view = (RandomTableView) convertView;
+            Timber.i("Reused a view!");
+        } else {
+            RandomTable group = getItem(position);
+            view = new RandomTableView(context, parent, group);
+        }
         return view;
     }
-
-
 
     @Override
     public int getItemViewType(int position) {

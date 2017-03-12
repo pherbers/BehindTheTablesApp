@@ -1,26 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/table_entry_layout"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:orientation="vertical"
-    android:paddingStart="@dimen/table_entry_margin"
-    android:paddingEnd="@dimen/table_entry_margin">
+    android:orientation="vertical">
 
 
-    <LinearLayout
-        android:orientation="horizontal"
+    <View
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
 
         <TextView
-            android:text="10."
+            android:id="@+id/table_entry_dive_value"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:id="@+id/table_entry_dive_value"
-            android:textAppearance="@android:style/TextAppearance.Medium"
             android:gravity="center_vertical|end"
             android:maxLines="1"
-            android:minWidth="40sp"/>
+            android:minWidth="40sp"
+            android:text="10."
+            android:textAppearance="@android:style/TextAppearance.Medium" />
 
         <TextView
             android:id="@+id/table_entry_text"
@@ -33,4 +37,5 @@
             android:textAppearance="@android:style/TextAppearance.Small" />
 
     </LinearLayout>
+
 </LinearLayout>

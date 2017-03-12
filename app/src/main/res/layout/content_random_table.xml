@@ -69,9 +69,10 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:descendantFocusability="blocksDescendants"
-        android:dividerHeight="1sp"
+        android:divider="@android:color/darker_gray"
+        android:dividerHeight="1dp"
         android:footerDividersEnabled="true"
         android:groupIndicator="@null"
-        android:headerDividersEnabled="true" />
+        android:headerDividersEnabled="true"/>
 
 </LinearLayout>
