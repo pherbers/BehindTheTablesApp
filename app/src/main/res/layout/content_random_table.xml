@@ -5,19 +5,22 @@
     android:id="@+id/content_random_table"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingBottom="0sp"
+    android:paddingLeft="0sp"
+    android:paddingRight="0sp"
     android:paddingTop="@dimen/activity_vertical_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="de.rub.pherbers.behindthetables.RandomTableActivity"
     tools:showIn="@layout/activity_random_table"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="@color/colorTableOdd">
 
     <LinearLayout
         android:orientation="horizontal"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin">
 
         <TextView
             android:text="Random Mage's Tower"
@@ -34,13 +37,15 @@
             android:layout_weight="3" />
 
         <ImageButton
+            android:id="@+id/imageButton"
+            style="@style/Widget.AppCompat.ImageButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:srcCompat="@android:drawable/btn_star"
-            android:id="@+id/imageButton"
             android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:elevation="0dp"
             android:onClick="diceRollAction"
-            />
+            app:srcCompat="@android:drawable/ic_menu_rotate" />
 
     </LinearLayout>
 
@@ -48,7 +53,9 @@
     android:text="Description"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:id="@+id/random_table_desc" />
+    android:id="@+id/random_table_desc"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin" />
 
     <View
         android:layout_width="match_parent"

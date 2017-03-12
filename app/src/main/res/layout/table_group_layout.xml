@@ -2,23 +2,31 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+    android:layout_height="wrap_content"
+    android:background="@color/colorTableOdd"
+    android:paddingBottom="6sp"
+    android:paddingTop="6sp">
 
     <TextView
-        android:text="TextView"
+        android:id="@+id/table_group_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/table_group_text"
         android:layout_gravity="center_vertical"
+        android:layout_marginStart="@dimen/table_entry_margin"
         android:layout_weight="0.1"
-        android:textAppearance="@android:style/TextAppearance.Medium"/>
+        android:fontFamily="sans-serif"
+        android:text="The tower's shape is approximately that of..."
+        android:textAppearance="@android:style/TextAppearance.Medium" />
 
     <ImageButton
+        android:id="@+id/table_group_roll_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:srcCompat="@android:drawable/btn_star"
-        android:id="@+id/table_group_roll_button"
+        android:layout_gravity="center_vertical"
         android:layout_weight="0.9"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/reroll_single_table_btn"
         android:focusable="false"
-        android:focusableInTouchMode="false"/>
+        android:focusableInTouchMode="false"
+        app:srcCompat="@android:drawable/ic_menu_rotate" />
 </LinearLayout>

@@ -23,12 +23,14 @@
             android:minWidth="40sp"/>
 
         <TextView
-            android:text="A watchful golem (d6): 1. bone; 2. chain; 3. clay; 4. flesh; 5. iron; 6. stone.A watchful golem (d6): 1. bone; 2. chain; 3. clay; 4. flesh; 5. iron; 6. stone.A watchful golem (d6): 1. bone; 2. chain; 3. clay; 4. flesh; 5. iron; 6. stone."
+            android:id="@+id/table_entry_text"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:id="@+id/table_entry_text"
             android:layout_marginStart="@dimen/text_margin"
-            android:gravity="center_vertical"/>
+            android:fontFamily="sans-serif"
+            android:gravity="center_vertical"
+            android:text="A watchful golem (d6): 1. bone; 2. chain; 3. clay; 4. flesh; 5. iron; 6. stone.A watchful golem (d6): 1. bone; 2. chain; 3. clay; 4. flesh; 5. iron; 6. stone.A watchful golem (d6): 1. bone; 2. chain; 3. clay; 4. flesh; 5. iron; 6. stone."
+            android:textAppearance="@android:style/TextAppearance.Small" />
 
     </LinearLayout>
 </LinearLayout>

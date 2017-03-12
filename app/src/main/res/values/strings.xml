@@ -92,4 +92,5 @@
     </string>
     <string name="action_settings">Settings</string>
     <string name="dice_entry_string">%1$d.</string>
+    <string name="reroll_single_table_btn">Reroll this table</string>
 </resources>

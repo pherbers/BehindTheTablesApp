@@ -90,13 +90,13 @@ public class RandomTableListAdapter extends BaseExpandableListAdapter {
         if(!isExpanded && group.hasRolled()) {
             ImageView divider = new ImageView(context);
             LinearLayout.LayoutParams lp = new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, 3);
-            lp.setMarginStart(context.getResources().getDimensionPixelOffset(R.dimen.child_view_divider_margin));
+            lp.setMarginStart(context.getResources().getDimensionPixelOffset(R.dimen.child_view_divider_margin)*0);
             divider.setLayoutParams(lp);
             // divider.setImageDrawable(context.getResources().getDrawable(android.R.attr.listDivider, context.getTheme()));
             divider.setBackground(context.getResources().getDrawable(android.R.drawable.divider_horizontal_bright));
             ll.addView(divider);
             View childView = getChildView(groupPosition, group.getRolledIndex(), false, convertView, parent);
-            childView.setBackgroundColor(context.getResources().getColor(android.R.color.transparent));
+            childView.setBackgroundColor(context.getResources().getColor(R.color.colorTableHighlight));
             ll.addView(childView);
         }
 
@@ -117,7 +117,11 @@ public class RandomTableListAdapter extends BaseExpandableListAdapter {
         diceentry.setText(context.getString(R.string.dice_entry_string, te.getDiceValue()));
 
         if(getGroup(groupPosition).getRolledIndex() == childPosition) {
-            v.setBackgroundColor(context.getResources().getColor(R.color.colorLightPrimary));
+            v.setBackgroundColor(context.getResources().getColor(R.color.colorTableHighlight));
+        } else if (childPosition % 2 == 0) {
+            v.setBackgroundColor(context.getResources().getColor(R.color.colorTableEven));
+        } else {
+            v.setBackgroundColor(context.getResources().getColor(R.color.colorTableOdd));
         }
         return v;
     }
