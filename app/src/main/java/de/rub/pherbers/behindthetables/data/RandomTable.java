@@ -16,6 +16,8 @@ public class RandomTable extends Observable {
 
     private int rolledIndex = -1;
 
+    private boolean expanded = false;
+
     public RandomTable(String name, String dice, int index, List<TableEntry> entries) {
         this.name = name;
         this.entries = entries;
@@ -75,6 +77,18 @@ public class RandomTable extends Observable {
 
     public int size() {
         return entries.size();
+    }
+
+    public boolean isExpanded() {
+        return expanded;
+    }
+
+    public void setExpanded(boolean expanded) {
+        this.expanded = expanded;
+    }
+
+    public void toggle() {
+        setExpanded(!isExpanded());
     }
 
     @Override

@@ -4,8 +4,11 @@ import android.os.Bundle;
 import android.os.PersistableBundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ExpandableListView;
+import android.widget.ListView;
 import android.widget.TextView;
 
 import java.io.IOException;
@@ -17,11 +20,13 @@ import de.rub.pherbers.behindthetables.data.RandomTable;
 import de.rub.pherbers.behindthetables.data.TableCollection;
 import de.rub.pherbers.behindthetables.data.TableCollectionContainer;
 import de.rub.pherbers.behindthetables.data.TableReader;
+import de.rub.pherbers.behindthetables.view.RandomTableView;
+import timber.log.Timber;
 
 public class RandomTableActivity extends AppCompatActivity implements Observer{
 
     private TableCollection table;
-    private ExpandableListView listView;
+    private ListView listView;
     private RandomTableListAdapter listAdapter;
 
     @Override
@@ -48,18 +53,25 @@ public class RandomTableActivity extends AppCompatActivity implements Observer{
             table.addObserver(this);
         }
 
-        listView = (ExpandableListView) findViewById(R.id.random_table_list);
+        listView = (ListView) findViewById(R.id.random_table_list);
+
+        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                RandomTableView rtv = (RandomTableView) view;
+                Timber.i("Click");
+                rtv.toggle();
+                listAdapter.notifyDataSetChanged();
+                listView.postInvalidate();
+
+                // Scroll to expanded list
+                listView.smoothScrollToPosition(position);
+            }
+        });
+
 
         listAdapter = new RandomTableListAdapter(this, table);
         listView.setAdapter(listAdapter);
-
-        listView.setOnChildClickListener(new ExpandableListView.OnChildClickListener() {
-            @Override
-            public boolean onChildClick(ExpandableListView parent, View v, int groupPosition, int childPosition, long id) {
-                listAdapter.getGroup(groupPosition).setRolledIndex(childPosition);
-                return true;
-            }
-        });
 
         TextView tv = (TextView) findViewById(R.id.random_table_title);
         tv.setText(table.getTitle());
@@ -81,7 +93,6 @@ public class RandomTableActivity extends AppCompatActivity implements Observer{
     public void update(Observable o, Object arg) {
         if(o instanceof RandomTable && arg instanceof Integer) {
             int index = (int) arg;
-            listView.collapseGroup(index);
             listAdapter.notifyDataSetChanged();
             listView.postInvalidate();
         }

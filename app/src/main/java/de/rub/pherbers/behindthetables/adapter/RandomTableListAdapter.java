@@ -1,25 +1,32 @@
 package de.rub.pherbers.behindthetables.adapter;
 
 import android.content.Context;
+import android.database.DataSetObservable;
+import android.database.DataSetObserver;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.BaseAdapter;
 import android.widget.BaseExpandableListAdapter;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.ListAdapter;
 import android.widget.TextView;
+
 
 import de.rub.pherbers.behindthetables.R;
 import de.rub.pherbers.behindthetables.data.RandomTable;
 import de.rub.pherbers.behindthetables.data.TableCollection;
 import de.rub.pherbers.behindthetables.data.TableEntry;
+import de.rub.pherbers.behindthetables.view.RandomTableView;
+import timber.log.Timber;
 
 /**
  * Created by Patrick on 11.03.2017.
  */
 
-public class RandomTableListAdapter extends BaseExpandableListAdapter {
+public class RandomTableListAdapter extends BaseAdapter {
 
     private TableCollection tableCollection;
     private Context context;
@@ -30,33 +37,18 @@ public class RandomTableListAdapter extends BaseExpandableListAdapter {
     }
 
     @Override
-    public int getGroupCount() {
+    public int getCount() {
         return tableCollection.getTables().size();
     }
 
     @Override
-    public int getChildrenCount(int groupPosition) {
-        return tableCollection.getTables().get(groupPosition).size();
+    public RandomTable getItem(int position) {
+        return tableCollection.getTables().get(position);
     }
 
     @Override
-    public RandomTable getGroup(int groupPosition) {
-        return tableCollection.getTables().get(groupPosition);
-    }
-
-    @Override
-    public TableEntry getChild(int groupPosition, int childPosition) {
-        return tableCollection.getTables().get(groupPosition).getEntries().get(childPosition);
-    }
-
-    @Override
-    public long getGroupId(int groupPosition) {
-        return groupPosition;
-    }
-
-    @Override
-    public long getChildId(int groupPosition, int childPosition) {
-        return childPosition;
+    public long getItemId(int position) {
+        return position;
     }
 
     @Override
@@ -65,70 +57,38 @@ public class RandomTableListAdapter extends BaseExpandableListAdapter {
     }
 
     @Override
-    public View getGroupView(int groupPosition, boolean isExpanded, View convertView, ViewGroup parent) {
-        final RandomTable group = getGroup(groupPosition);
-        String text = group.toString();
+    public View getView(int position, View convertView, ViewGroup parent) {
+        RandomTable group = getItem(position);
 
-        LinearLayout ll = new LinearLayout(context);
-        LayoutInflater li = LayoutInflater.from(context);
-        View v = li.inflate(R.layout.table_group_layout, parent, false);
+        final RandomTableView view = new RandomTableView(context, parent, group);
 
-        TextView tv = (TextView) v.findViewById(R.id.table_group_text);
-        tv.setText(text);
-        ImageButton btn = (ImageButton) v.findViewById(R.id.table_group_roll_button);
-        btn.setFocusable(false);
-        btn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                group.roll();
-            }
-        });
-        ll.setOrientation(LinearLayout.VERTICAL);
-        ll.setLayoutParams(new ViewGroup.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT));
+        return view;
+    }
 
-        ll.addView(v);
-        if(!isExpanded && group.hasRolled()) {
-            ImageView divider = new ImageView(context);
-            LinearLayout.LayoutParams lp = new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, 3);
-            lp.setMarginStart(context.getResources().getDimensionPixelOffset(R.dimen.child_view_divider_margin)*0);
-            divider.setLayoutParams(lp);
-            // divider.setImageDrawable(context.getResources().getDrawable(android.R.attr.listDivider, context.getTheme()));
-            divider.setBackground(context.getResources().getDrawable(android.R.drawable.divider_horizontal_bright));
-            ll.addView(divider);
-            View childView = getChildView(groupPosition, group.getRolledIndex(), false, convertView, parent);
-            childView.setBackgroundColor(context.getResources().getColor(R.color.colorTableHighlight));
-            ll.addView(childView);
-        }
 
-        return ll;
+
+    @Override
+    public int getItemViewType(int position) {
+        return IGNORE_ITEM_VIEW_TYPE;
     }
 
     @Override
-    public View getChildView(int groupPosition, int childPosition, boolean isLastChild, View convertView, ViewGroup parent) {
-        LayoutInflater li = LayoutInflater.from(context);
-        View v = li.inflate(R.layout.table_entry_layout, parent, false);
-        // TextView tv = (TextView) v.findViewById(android.R.id.text1);
-        // String text = getChild(groupPosition, childPosition).toString();
-        // tv.setText(text);
-        TextView textentry = (TextView) v.findViewById(R.id.table_entry_text);
-        TextView diceentry = (TextView) v.findViewById(R.id.table_entry_dive_value);
-        TableEntry te = getChild(groupPosition, childPosition);
-        textentry.setText(te.getText());
-        diceentry.setText(context.getString(R.string.dice_entry_string, te.getDiceValue()));
-
-        if(getGroup(groupPosition).getRolledIndex() == childPosition) {
-            v.setBackgroundColor(context.getResources().getColor(R.color.colorTableHighlight));
-        } else if (childPosition % 2 == 0) {
-            v.setBackgroundColor(context.getResources().getColor(R.color.colorTableEven));
-        } else {
-            v.setBackgroundColor(context.getResources().getColor(R.color.colorTableOdd));
-        }
-        return v;
+    public int getViewTypeCount() {
+        return 1;
     }
 
     @Override
-    public boolean isChildSelectable(int groupPosition, int childPosition) {
+    public boolean isEmpty() {
+        return tableCollection.getTables().isEmpty();
+    }
+
+    @Override
+    public boolean areAllItemsEnabled() {
         return true;
     }
 
+    @Override
+    public boolean isEnabled(int position) {
+        return true;
+    }
 }

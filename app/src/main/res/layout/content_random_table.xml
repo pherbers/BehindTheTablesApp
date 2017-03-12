@@ -64,7 +64,7 @@
         android:layout_marginTop="@dimen/activity_vertical_margin"
         />
 
-    <ExpandableListView
+    <ListView
         android:id="@+id/random_table_list"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
