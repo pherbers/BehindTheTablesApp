@@ -35,7 +35,7 @@ public class RandomTableView extends LinearLayout {
     private ArrayList<View> childEntryViews;
     private View highlightedView;
 
-    public RandomTableView(Context context, ViewGroup parent, RandomTable ptable, int pos) {
+    public RandomTableView(Context context, final ViewGroup parent, RandomTable ptable, int pos) {
         super(context);
         //Timber.i("New child");
         this.table = ptable;
@@ -51,7 +51,9 @@ public class RandomTableView extends LinearLayout {
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Timber.d("Click Entry Btn");
                 RandomTableView.this.table.roll();
+                ((RandomTableActivity)getContext()).redrawList();
             }
         });
         setOrientation(LinearLayout.VERTICAL);
@@ -66,8 +68,6 @@ public class RandomTableView extends LinearLayout {
             else
                 appendChild(i, parent, false, table.isExpanded(), false);
         }
-
-
     }
 
     private void appendChild(int entrypos, ViewGroup parent, boolean addDivider, boolean visible, boolean highlight) {

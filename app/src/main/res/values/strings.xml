@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">BehindTheTables</string>
+    <string name="app_name">Behind the Tables</string>
     <string name="title_activity_random_table">RandomTableActivity</string>
     <string name="large_text">
         "Material is the metaphor.\n\n"

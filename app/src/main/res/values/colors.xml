@@ -4,7 +4,7 @@
     <color name="colorPrimaryDark">#b36f3d</color>
     <color name="colorAccent">#ffcf88</color>
     <color name="colorLightPrimary">#e7dfd9</color>
-    <color name="colorTableOdd">#e7dfd9</color>
-    <color name="colorTableEven">#f1efed</color>
+    <color name="colorTableOdd">#f1efed</color>
+    <color name="colorTableEven">#e7dfd9</color>
     <color name="colorTableHighlight">#e9cfbc</color>
 </resources>

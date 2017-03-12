@@ -43,18 +43,6 @@ public class TableCollection {
         this.title = title;
     }
 
-    public void addObserver(Observer o) {
-        for(RandomTable table: tables) {
-            table.addObserver(o);
-        }
-    }
-
-    public void removeObserver(Observer o) {
-        for(RandomTable table: tables) {
-            table.deleteObserver(o);
-        }
-    }
-
     public void rollAllTables() {
         for(RandomTable table: tables) {
             table.roll();

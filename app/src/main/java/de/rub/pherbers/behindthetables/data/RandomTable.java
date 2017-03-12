@@ -8,7 +8,7 @@ import java.util.Random;
  * Created by Patrick on 11.03.2017.
  */
 
-public class RandomTable extends Observable {
+public class RandomTable {
     private String name;
     private String dice;
     private List<TableEntry> entries;
@@ -63,8 +63,6 @@ public class RandomTable extends Observable {
 
     public void setRolledIndex(int rolledIndex) {
         this.rolledIndex = rolledIndex;
-        setChanged();
-        notifyObservers(tableIndex);
     }
 
     public boolean hasRolled() {

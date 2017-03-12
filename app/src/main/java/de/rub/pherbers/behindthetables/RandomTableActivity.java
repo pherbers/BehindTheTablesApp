@@ -4,19 +4,14 @@ import android.os.Bundle;
 import android.os.PersistableBundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
-import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
-import android.widget.ExpandableListView;
 import android.widget.ListView;
 import android.widget.TextView;
 
 import java.io.IOException;
-import java.util.Observable;
-import java.util.Observer;
-import java.util.Random;
 
 import de.rub.pherbers.behindthetables.adapter.RandomTableListAdapter;
 import de.rub.pherbers.behindthetables.data.RandomTable;
@@ -26,7 +21,7 @@ import de.rub.pherbers.behindthetables.data.TableReader;
 import de.rub.pherbers.behindthetables.view.RandomTableView;
 import timber.log.Timber;
 
-public class RandomTableActivity extends AppCompatActivity implements Observer{
+public class RandomTableActivity extends AppCompatActivity {
 
     private TableCollection table;
     private ListView listView;
@@ -55,9 +50,6 @@ public class RandomTableActivity extends AppCompatActivity implements Observer{
             table = tableCollectionContainer.get("asdf");
         }
 
-        if (table != null) {
-            table.addObserver(this);
-        }
 
         listView = (ListView) findViewById(R.id.random_table_list);
 
@@ -91,22 +83,11 @@ public class RandomTableActivity extends AppCompatActivity implements Observer{
     @Override
     protected void onStop() {
         super.onStop();
-        if (table != null) {
-            table.removeObserver(this);
-        }
-    }
-
-    @Override
-    public void update(Observable o, Object arg) {
-        if(o instanceof RandomTable && arg instanceof Integer) {
-            int index = (int) arg;
-            listAdapter.notifyDataSetChanged();
-            listView.postInvalidate();
-        }
     }
 
     public void diceRollAction(View mView) {
         table.rollAllTables();
+        redrawList();
     }
 
     @Override
@@ -138,6 +119,16 @@ public class RandomTableActivity extends AppCompatActivity implements Observer{
         }
         for(RandomTable t:table.getTables())
             t.setExpanded(true);
+    }
+
+    public void redrawList() {
+        runOnUiThread(new Runnable() {
+            @Override
+            public void run() {
+                listAdapter.notifyDataSetChanged();
+                listView.invalidate();
+            }
+        });
     }
 
     @Override
