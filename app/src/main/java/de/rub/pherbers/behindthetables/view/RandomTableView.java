@@ -114,7 +114,9 @@ public class RandomTableView extends LinearLayout {
         return v;
     }
 
-    public void expand() {
+    public void expand(boolean scroll) {
+        if(table.isExpanded())
+            return;
         Timber.i("Expand");
         ExpandCollapseAnimation anim = null;
         for(int i = 0; i < childEntryViews.size(); i++) {
@@ -126,7 +128,7 @@ public class RandomTableView extends LinearLayout {
             }
 
         }
-        if (anim != null) {
+        if (anim != null && scroll) {
             anim.setAnimationListener(new Animation.AnimationListener() {
                 @Override
                 public void onAnimationStart(Animation animation) {
@@ -151,7 +153,9 @@ public class RandomTableView extends LinearLayout {
         table.setExpanded(true);
     }
 
-    public void collapse() {
+    public void collapse(boolean scroll) {
+        if(!table.isExpanded())
+            return;
         Timber.i("Collapse");
         ExpandCollapseAnimation anim = null;
         for(int i = 0; i < childEntryViews.size(); i++) {
@@ -163,7 +167,7 @@ public class RandomTableView extends LinearLayout {
             }
 
         }
-        if (anim != null) {
+        if (anim != null && scroll) {
             anim.setAnimationListener(new Animation.AnimationListener() {
                 @Override
                 public void onAnimationStart(Animation animation) {
@@ -190,9 +194,9 @@ public class RandomTableView extends LinearLayout {
 
     public void toggle() {
         if(!table.isExpanded())
-            expand();
+            expand(true);
         else
-            collapse();
+            collapse(true);
         //table.toggle();
     }
 

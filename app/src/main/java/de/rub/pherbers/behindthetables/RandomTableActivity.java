@@ -5,6 +5,8 @@ import android.os.PersistableBundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ExpandableListView;
@@ -14,6 +16,7 @@ import android.widget.TextView;
 import java.io.IOException;
 import java.util.Observable;
 import java.util.Observer;
+import java.util.Random;
 
 import de.rub.pherbers.behindthetables.adapter.RandomTableListAdapter;
 import de.rub.pherbers.behindthetables.data.RandomTable;
@@ -35,6 +38,9 @@ public class RandomTableActivity extends AppCompatActivity implements Observer{
         setContentView(R.layout.activity_random_table);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+        if (getSupportActionBar() != null) {
+            getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        }
 
         TableCollectionContainer tableCollectionContainer = TableCollectionContainer.getTableCollectionContainer();
         if(!tableCollectionContainer.containsKey("asdf")) {
@@ -111,5 +117,51 @@ public class RandomTableActivity extends AppCompatActivity implements Observer{
 
     public void scrollToPosition(int pos) {
         listView.smoothScrollToPosition(pos);
+    }
+
+    public void actionCollapseAll() {
+        for(int i = 0; i < listView.getChildCount(); i++) {
+            View v = listView.getChildAt(i);
+            if(v instanceof RandomTableView)
+                ((RandomTableView) v).collapse(false);
+        }
+        for(RandomTable t:table.getTables())
+            t.setExpanded(false);
+        listView.smoothScrollToPosition(0);
+    }
+
+    public void actionExpandAll() {
+        for(int i = 0; i < listView.getChildCount(); i++) {
+            View v = listView.getChildAt(i);
+            if(v instanceof RandomTableView)
+                ((RandomTableView) v).expand(false);
+        }
+        for(RandomTable t:table.getTables())
+            t.setExpanded(true);
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch(item.getItemId()) {
+            case android.R.id.home:
+                finish();
+                break;
+            case R.id.random_table_activity_collapse_all:
+                actionCollapseAll();
+                break;
+            case R.id.random_table_activity_expand_all:
+                actionExpandAll();
+                break;
+            default:
+                Timber.w("Unknown menu in RandomTableActivity");
+                break;
+        }
+        return super.onOptionsItemSelected(item);
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.random_table_activity_menu, menu);
+        return true;
     }
 }
