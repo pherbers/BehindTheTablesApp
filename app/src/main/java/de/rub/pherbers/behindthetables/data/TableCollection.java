@@ -2,9 +2,6 @@ package de.rub.pherbers.behindthetables.data;
 
 import java.util.List;
 import java.util.Observer;
-import java.util.Random;
-
-import de.rub.pherbers.behindthetables.RandomTableActivity;
 
 /**
  * Created by Patrick on 11.03.2017.

@@ -90,6 +90,7 @@ public class RandomTableListAdapter extends BaseExpandableListAdapter {
         if(!isExpanded && group.hasRolled()) {
             ImageView divider = new ImageView(context);
             LinearLayout.LayoutParams lp = new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, 3);
+            lp.setMarginStart(context.getResources().getDimensionPixelOffset(R.dimen.child_view_divider_margin));
             divider.setLayoutParams(lp);
             // divider.setImageDrawable(context.getResources().getDrawable(android.R.attr.listDivider, context.getTheme()));
             divider.setBackground(context.getResources().getDrawable(android.R.drawable.divider_horizontal_bright));

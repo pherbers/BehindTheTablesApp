@@ -3,8 +3,6 @@ package de.rub.pherbers.behindthetables;
 import android.app.Application;
 import android.util.Log;
 
-import java.util.Locale;
-
 import timber.log.Timber;
 
 /**

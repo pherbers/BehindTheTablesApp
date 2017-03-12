@@ -58,14 +58,13 @@
         />
 
     <ExpandableListView
+        android:id="@+id/random_table_list"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/random_table_list"
-        android:footerDividersEnabled="false"
-        android:headerDividersEnabled="true"
-        android:dividerHeight="1sp"
-        android:groupIndicator="@null"
         android:descendantFocusability="blocksDescendants"
-        />
+        android:dividerHeight="1sp"
+        android:footerDividersEnabled="true"
+        android:groupIndicator="@null"
+        android:headerDividersEnabled="true" />
 
 </LinearLayout>

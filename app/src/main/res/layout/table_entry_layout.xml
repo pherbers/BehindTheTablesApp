@@ -3,10 +3,8 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical"
-    android:layout_marginStart="@dimen/table_entry_margin"
-    android:layout_marginTop="@dimen/activity_vertical_margin"
-    android:layout_marginBottom="@dimen/activity_vertical_margin"
-    android:layout_marginEnd="@dimen/activity_horizontal_margin">
+    android:paddingStart="@dimen/table_entry_margin"
+    android:paddingEnd="@dimen/table_entry_margin">
 
 
     <LinearLayout
@@ -20,7 +18,9 @@
             android:layout_height="match_parent"
             android:id="@+id/table_entry_dive_value"
             android:textAppearance="@android:style/TextAppearance.Medium"
-            android:gravity="center_vertical|end" />
+            android:gravity="center_vertical|end"
+            android:maxLines="1"
+            android:minWidth="40sp"/>
 
         <TextView
             android:text="A watchful golem (d6): 1. bone; 2. chain; 3. clay; 4. flesh; 5. iron; 6. stone.A watchful golem (d6): 1. bone; 2. chain; 3. clay; 4. flesh; 5. iron; 6. stone.A watchful golem (d6): 1. bone; 2. chain; 3. clay; 4. flesh; 5. iron; 6. stone."

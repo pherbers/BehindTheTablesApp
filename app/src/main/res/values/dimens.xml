@@ -5,5 +5,7 @@
     <dimen name="app_bar_height">180dp</dimen>
     <dimen name="fab_margin">16dp</dimen>
     <dimen name="text_margin">16dp</dimen>
-    <dimen name="table_entry_margin">32dp</dimen>
+    <dimen name="table_entry_margin">8dp</dimen>
+    <dimen name="dice_entry_min_width">40sp</dimen>
+    <dimen name="child_view_divider_margin">25sp</dimen>
 </resources>
