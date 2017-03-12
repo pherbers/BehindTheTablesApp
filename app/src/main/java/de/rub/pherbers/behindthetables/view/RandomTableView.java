@@ -1,6 +1,8 @@
 package de.rub.pherbers.behindthetables.view;
 
+import android.app.Activity;
 import android.content.Context;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -29,7 +31,7 @@ public class RandomTableView extends LinearLayout {
 
     public RandomTableView(Context context, ViewGroup parent, RandomTable ptable) {
         super(context);
-        Timber.i("New child");
+        //Timber.i("New child");
         this.table = ptable;
 
         LayoutInflater li = LayoutInflater.from(context);
@@ -112,27 +114,37 @@ public class RandomTableView extends LinearLayout {
     }
 
     public void expand() {
-        for(int i = 0; i < getChildCount(); i++)
-            getChildAt(i).setVisibility(View.VISIBLE);
+        Timber.i("Expand");
+        for(int i = 0; i < childEntryViews.size(); i++) {
+            View entryView = childEntryViews.get(i);
+            if (entryView != highlightedView) {
+                ExpandCollapseAnimation.setHeightForWrapContent((Activity) getContext(), entryView);
+                ExpandCollapseAnimation anim = new ExpandCollapseAnimation(entryView, 100);
+                entryView.startAnimation(anim);
+            }
+        }
         table.setExpanded(true);
-        postInvalidate();
     }
 
     public void collapse() {
+        Timber.i("Collapse");
         for(int i = 0; i < childEntryViews.size(); i++) {
             View entryView = childEntryViews.get(i);
-            if(entryView != highlightedView)
-                entryView.setVisibility(View.GONE);
+            if(entryView != highlightedView) {
+                ExpandCollapseAnimation anim = new ExpandCollapseAnimation(entryView, 100);
+                entryView.startAnimation(anim);
+            }
         }
         table.setExpanded(false);
     }
 
     public void toggle() {
-
+        Timber.i("pretoggle" + table.isExpanded());
         if(!table.isExpanded())
             expand();
         else
             collapse();
+        Timber.i("posttoggle" + table.isExpanded());
         //table.toggle();
     }
 
