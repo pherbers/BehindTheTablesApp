@@ -1,11 +1,9 @@
 package de.rub.pherbers.behindthetables;
 
-import android.content.Context;
 import android.os.Bundle;
 import android.os.PersistableBundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
-import android.util.Log;
 import android.view.View;
 import android.widget.ExpandableListView;
 import android.widget.TextView;
@@ -55,6 +53,14 @@ public class RandomTableActivity extends AppCompatActivity implements Observer{
         listAdapter = new RandomTableListAdapter(this, table);
         listView.setAdapter(listAdapter);
 
+        listView.setOnChildClickListener(new ExpandableListView.OnChildClickListener() {
+            @Override
+            public boolean onChildClick(ExpandableListView parent, View v, int groupPosition, int childPosition, long id) {
+                listAdapter.getGroup(groupPosition).setRolledIndex(childPosition);
+                return true;
+            }
+        });
+
         TextView tv = (TextView) findViewById(R.id.random_table_title);
         tv.setText(table.getTitle());
 
@@ -90,4 +96,5 @@ public class RandomTableActivity extends AppCompatActivity implements Observer{
         super.onSaveInstanceState(outState, outPersistentState);
 
     }
+
 }

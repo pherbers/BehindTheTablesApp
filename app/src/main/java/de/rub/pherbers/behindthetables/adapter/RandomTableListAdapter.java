@@ -1,12 +1,10 @@
 package de.rub.pherbers.behindthetables.adapter;
 
 import android.content.Context;
-import android.graphics.Color;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseExpandableListAdapter;
-import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
@@ -96,7 +94,9 @@ public class RandomTableListAdapter extends BaseExpandableListAdapter {
             // divider.setImageDrawable(context.getResources().getDrawable(android.R.attr.listDivider, context.getTheme()));
             divider.setBackground(context.getResources().getDrawable(android.R.drawable.divider_horizontal_bright));
             ll.addView(divider);
-            ll.addView(getChildView(groupPosition, group.getRolledIndex(), false, convertView, parent));
+            View childView = getChildView(groupPosition, group.getRolledIndex(), false, convertView, parent);
+            childView.setBackgroundColor(context.getResources().getColor(android.R.color.transparent));
+            ll.addView(childView);
         }
 
         return ll;
@@ -114,6 +114,10 @@ public class RandomTableListAdapter extends BaseExpandableListAdapter {
         TableEntry te = getChild(groupPosition, childPosition);
         textentry.setText(te.getText());
         diceentry.setText(context.getString(R.string.dice_entry_string, te.getDiceValue()));
+
+        if(getGroup(groupPosition).getRolledIndex() == childPosition) {
+            v.setBackgroundColor(context.getResources().getColor(R.color.colorLightPrimary));
+        }
         return v;
     }
 
@@ -121,4 +125,5 @@ public class RandomTableListAdapter extends BaseExpandableListAdapter {
     public boolean isChildSelectable(int groupPosition, int childPosition) {
         return true;
     }
+
 }

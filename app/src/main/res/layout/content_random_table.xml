@@ -50,6 +50,13 @@
     android:layout_height="wrap_content"
     android:id="@+id/random_table_desc" />
 
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        />
+
     <ExpandableListView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
