@@ -1,8 +1,12 @@
 package de.rub.pherbers.behindthetables;
 
+import android.Manifest;
 import android.app.Application;
+import android.support.v4.app.ActivityCompat;
+import android.support.v4.content.ContextCompat;
 import android.util.Log;
 
+import de.rub.pherbers.behindthetables.sql.DBAdapter;
 import timber.log.Timber;
 
 /**
@@ -10,31 +14,33 @@ import timber.log.Timber;
  */
 
 public class BehindTheTables extends Application {
-    public static final String LOGTAG = "de.rub.btt.";
-    @Override
-    public void onCreate() {
-        super.onCreate();
-        if (BuildConfig.DEBUG) {
-            Timber.plant(new DebugTree());
-        } else {
-            Timber.plant(new ReleaseTree());
-        }
-        Timber.i("Application started via TIMBER!");
+	public static final String APP_TAG = "de.rub.btt.";
 
-    }
+	@Override
+	public void onCreate() {
+		super.onCreate();
+		if (BuildConfig.DEBUG) {
+			Timber.plant(new DebugTree());
+		} else {
+			Timber.plant(new ReleaseTree());
+		}
+		Timber.i("Application started.");
 
-    private class DebugTree extends Timber.DebugTree{
-        @Override
-        protected String createStackElementTag(StackTraceElement element) {
-            return LOGTAG + super.createStackElementTag(element) + ":" + element.getLineNumber();
-        }
-    }
+		//Warming up the DB for future use!
+		new DBAdapter(this).open().close();
+	}
 
-    private class ReleaseTree extends DebugTree {
+	private class DebugTree extends Timber.DebugTree {
+		@Override
+		protected String createStackElementTag(StackTraceElement element) {
+			return APP_TAG + super.createStackElementTag(element) + ":" + element.getLineNumber();
+		}
+	}
 
-        @Override
-        protected boolean isLoggable(String tag, int priority) {
-            return !(priority == Log.VERBOSE || priority == Log.DEBUG || priority == Log.INFO);
-        }
-    }
+	private class ReleaseTree extends DebugTree {
+		@Override
+		protected boolean isLoggable(String tag, int priority) {
+			return !(priority == Log.VERBOSE || priority == Log.DEBUG || priority == Log.INFO);
+		}
+	}
 }

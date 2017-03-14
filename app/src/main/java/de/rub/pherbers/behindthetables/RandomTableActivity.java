@@ -40,7 +40,7 @@ public class RandomTableActivity extends AppCompatActivity {
         TableCollectionContainer tableCollectionContainer = TableCollectionContainer.getTableCollectionContainer();
         if(!tableCollectionContainer.containsKey("asdf")) {
             try {
-                table = TableReader.readTable(getResources().openRawResource(R.raw.table_4y5pl2));
+                table = TableReader.readTable(getResources().openRawResource(R.raw.table_t4y5pl2));
                 tableCollectionContainer.put("asdf", table);
             } catch (IOException e) {
                 e.printStackTrace();
@@ -50,9 +50,7 @@ public class RandomTableActivity extends AppCompatActivity {
             table = tableCollectionContainer.get("asdf");
         }
 
-
         listView = (ListView) findViewById(R.id.random_table_list);
-
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
@@ -67,7 +65,6 @@ public class RandomTableActivity extends AppCompatActivity {
             }
         });
 
-
         listAdapter = new RandomTableListAdapter(this, table);
         listView.setAdapter(listAdapter);
 
@@ -76,7 +73,6 @@ public class RandomTableActivity extends AppCompatActivity {
 
         TextView desc_tv = (TextView) findViewById(R.id.random_table_desc);
         desc_tv.setText(table.getTitle() + " Description");
-
     }
 
     @Override

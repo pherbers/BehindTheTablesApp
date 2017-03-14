@@ -8,4 +8,6 @@
     <dimen name="table_entry_margin">8dp</dimen>
     <dimen name="dice_entry_min_width">40sp</dimen>
     <dimen name="child_view_divider_margin">25sp</dimen>
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
 </resources>

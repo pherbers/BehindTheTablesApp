@@ -95,4 +95,7 @@
     <string name="reroll_single_table_btn">Reroll this table</string>
     <string name="action_collapse_all">Collapse all</string>
     <string name="action_expand_all">Expand all</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
 </resources>
