@@ -1,0 +1,647 @@
+{
+    "description": "These are tables for quickly fleshing out a crafting guild and for adding some quick flavor to an artisan or apprentice craftsman NPC. You really should read /u/TheatreLife's posts to get the most out of this, which includes more information on the materials-to-manufacture pipeline and on gaining renown within a guild.",
+    "id": "43xb2a",
+    "keywords": [
+        "artisans",
+        "journeyman",
+        "craftsman",
+        "craftsfolk",
+        "crafters",
+        "apprentice",
+        "builder",
+        "maker",
+        "guilds",
+        "workshops",
+        "commodities",
+        "resources"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/43xb2a",
+    "related_tables": [],
+    "tables": [
+        {
+            "dice": "d20",
+            "name": "This is a guild for...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Miners."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Foresters."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Farmers."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Laborers."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Smithies."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Barbers and dentists."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Jewelers."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Fools, entertainers, and players."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Shipwrights."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Tanners, furriers, and shoemakers."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Butchers."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Locksmiths and nailsmiths."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "Potters and dyers."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "Saddlers, farriers, and stable masters."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "Joiners, wheelwrights, and coopers."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "Masons."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "Weavers and tailors"
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "Goldsmiths and watchmakers"
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "Learned professionals (d8): 1. alchemists; 2. architects; 3. calligraphers; 4. historians; 5. lawyers and judges; 6. scribes; 7. siege engineers; 8. writers. "
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "Special artisans and artists (d10): 1. brewers; 2. candlers; 3. chefs; 4. glassblowers; 5. historical reenactors; 6. mithrilsmiths; 7. musicians; 8. painters; 9. sculptors; 10. silversmiths."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "This guild's status and control is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Poor; though once great, this guild has fallen on hard times and is struggling to maintain its power."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Brand new, and frantically recruiting members in order to snatch power."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Exponentially rising, a recent boon has granted them great profits."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Slowing, a rising competitor is slowly cutting into profits."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Absolute, they have complete dominance in their field."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Spotty, depending on the will of the coin and the market this guild may be drinking Elven wine or rotten grog."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Unquestioned, they exert complete dominance over all other guilds in the area."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Questionable, though they claim to have control, some operators have undermined it."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "This guild's illicit affairs comprise...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Literally nothing, they are paragons of upright morality."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Staying well within the law, if slipping on a few taxes due to ignorance, of course."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Knowing how to play the political game, they garner a few indirect favors from officials."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Guild leaders having dollar signs for eyes, and setting advantageous prices in the city."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Price floors becoming commonplace, and officials are often bribed in order to overlook some minor illicit activities."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A variety of upper-level bribes, some minor scams, and the dismay of local priests."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Rampant corruption, with large-scale bribery of various city officials and contracts with thieves\u2019 guild and occasionally an assassin."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Pacts with devils, large-scale counterfeiting, and treasonous activities are a normal Tuesday morning for this guild."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "This guild's headquarters is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "The leader's or leaders' personal residence, a large manor."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "The dusty basement of the city's capital hall."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A single, thin, and very tall townhouse that leans slightly into the street."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A moored ship, especially curious in landlocked cities."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "An open-air pavilion centered in the city's bazaar."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Doubling as a large and prestigious bank."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "An opulent demiplane hidden in a shady back-alley."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Jointly shared with all the guilds of the city, and the thieves guild lurks in the sewers below."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Minor Quest: You must fetch a shipment of goods from...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "The city gates, held up by a bureaucratic city official."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "The nearest village, where they're caught up in some small-town superstition."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A relatively nearby city, where there a severe mix-up with the shipments."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "The natural areas one would gather them, yourself, to learn the roots of your trade."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "The stores of the city's banks, which must be paid off from their mortgage."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Across the room where the party receives the quest."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Standard Quest: Recently the guild has lost access to raw materials or manufacturing because of...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A recent venture with a supplier, rival, or local official that has turned out bad."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A trade blockade that has to be resolved."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A thieves\u2019 guild that is targeting the guild, but may be convinced to look somewhere else."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A master using it frivolously, you must go out to harvest a sufficient replacement amount."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A city official banning them, citing it as an immoral substance."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Spending all the coffer's stores on fulfilling a special contract or bribing officials, lacking the foresight to buy sufficient raw materials."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Major Quest: The guild would like you to fetch a rare creature or material from...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "The marketplace of the City of Brass."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "An ancient dwarven stronghold's forges."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A quaint pasture\u2014in the wildest parts of Arborea."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A faraway island, rumored to have cannibals and foul magicks."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A mystic mirage that manifests in a desert for twenty minutes once every century."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "The Plane of Rats (or similar filthy location)."
+                }
+            ]
+        },
+        {
+            "dice": "d4",
+            "name": "The apprentice is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Bored."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Eager to learn."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Frustrated by his or her own mistakes."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Nervously looking about."
+                }
+            ]
+        },
+        {
+            "dice": "d4",
+            "name": "The apprentice seeks someone to...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Give him some tips in the craft."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Purchase an item made by the apprentice."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Tell a tale that inspires creativity."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Sneak off for a drink and some kisses."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The artisan is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A young journeyman."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A mediocre journeyman."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A skilled journeyman."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A veteran of the craft."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A master of the craft."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "An old crafter."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "The artisan has...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A friendly smile."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Keen eyes."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Watery eyes."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A stubborn scowl."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A dour frown."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A missing tooth."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Tired eyes."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "An amused smirk."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "The artisan has...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A limp."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A hunchback."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Unsteady hands when they aren\u2019t at work."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A habit of looking down."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A bulbous nose."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A burn scar on the face."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A wispy mustache."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A thick mustache."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The artisan is particularly skilled at...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Crafting one particular type of item."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Identifying high quality raw materials."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Putting the finishing touches on an item."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Instructing and training apprentices."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Negotiating better prices for goods."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Maneuvering in guild politics."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "The artisan is looking for...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A new apprentice."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A journeyman craftsman to hire."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Rare materials."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A better set of tools."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Someone with whom to talk shop."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Someone who witnessed a recent sporting event."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Someone who is attending an upcoming sporting event."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A mug of strong ale."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The artisan is carrying...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "The tools of his or her trade."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Some raw materials."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A finished product."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A little coin."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A to-do list scrawled on a bit of parchment."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A set of many keys."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A pipe and some tobacco."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A flask of whisky."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The artisan is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A well-known member of the guild."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "An established or up-and-coming leader in the guild."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A new member of the guild, having recently relocated from a distant land."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A quiet guildmember, who doesn\u2019t get involved in guild politics."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "On the outs with guild leadership."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A favorite of some of the guild\u2019s leaders."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The artisan dreams of...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Producing a masterwork of the craft."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Holding the reins of guild leadership."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Retiring peacefully."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Retiring rich."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Running away from it all."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A life of adventure. "
+                }
+            ]
+        }
+    ],
+    "title": "Crafting Guilds",
+    "use_with": [
+        {
+            "link": "43xb06",
+            "title": "Merchant guilds"
+        },
+        {
+            "link": "43ufyr",
+            "title": "Mines"
+        },
+        {
+            "link": "3t5q2e",
+            "title": "Urban gangs"
+        },
+        {
+            "link": "4daxw7",
+            "title": "Urban marketplace"
+        }
+    ]
+}

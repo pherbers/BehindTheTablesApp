@@ -1,0 +1,461 @@
+{
+    "description": "These are tables for quickly coming up some distinctive, individual goblins.",
+    "id": "4fhp6q",
+    "keywords": [
+        "goblin",
+        "goblinoid",
+        "hobgoblin",
+        "underdark",
+        "underboss",
+        "monster"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/4fhp6q",
+    "related_tables": [],
+    "tables": [
+        {
+            "dice": "d20",
+            "name": "This goblin is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A miner."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A forager."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A warrior."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A scout."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A trapmaker."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "An archer."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "An assassin."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A hexer."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A wolf-rider."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A sneak."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "An armorer."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A cook."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "A builder."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "A beastshifter."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "A skullcrusher."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "A thug."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "A warpriest."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "A prankster."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "A blackblade."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "A worthless nobody."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "The goblin is particularly skilled at...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Being sneaky."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Not being seen."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Tracking foes."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Building traps."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Avoiding traps."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Repairing traps."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Foraging for food and water."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Wrangling beasts."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Digging tunnels."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Crafting arms and armor."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Crushing skulls."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Cutting throats."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "The goblin wields...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A rusty sword."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A finely-made sword"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A spiked club."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A wicked looking axe."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A spear decorated with feathers."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Several polished daggers."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A large, serrated dagger."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A pair of curved daggers."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A cracked wooden shield."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A shield, emblazoned with the gangs\u2019 symbol."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Arrows fletched with crow feathers."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Arrows fletched with hawk feathers."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "The goblin wears...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Armor with greasy stains."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Patched leather armor."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Piecemeal chain armor."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A leather helm."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A large skull as a helm."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A wolf-face helm."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A lanyard of severed ears."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A big hoop earring."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A shiny silver belt."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A wolf skin."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A black cloak with a hood."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A large belt purse."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "The goblin\u2019s face has...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Blue warpaint."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "An eyepatch."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Burn scars."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Only one ear."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "No front teeth."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "An unusal tattoo on the forehead."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Stitches closing a wound on the jaw."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A topknot above it."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Several muddy smudges."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A boil oozing pus."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A wisp of a mustache."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Amazing sideburns."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "The goblin has...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "An unsettling stare."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A lean and hungry look."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A maniacal laugh."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A mad cackling laugh."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A high-pitched twittering laugh."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A tendency to snicker at everything."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A nervous twitch."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A difficult time standing still."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A waddle."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A limp."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "An unsavory habit of drooling."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A habit of sniffing loudly."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "Presently, the goblin is looking to...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Find something to eat."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Find something to drink."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Find some coins or gems to steal."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Warn the gang of monster hunters in the area."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Warn the gang of a savage beast in the area."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Report to the gang as to where to find treasure."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Prove its mettle to the gang's boss."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Avoid notice by the gang's boss."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Avoid notice by anyone."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Leave the gang entirely."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Play a cruel prank. "
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Swap distasteful jokes."
+                }
+            ]
+        }
+    ],
+    "title": "Goblins, Individual",
+    "use_with": [
+        {
+            "link": "3unfbm",
+            "title": "Cavern"
+        },
+        {
+            "link": "4ev8l1",
+            "title": "Dinner in a goblin hideout"
+        },
+        {
+            "link": "3sgzxb",
+            "title": "Forest"
+        },
+        {
+            "link": "3sh0hz",
+            "title": "Forest, enchanted"
+        },
+        {
+            "link": "3snvqq",
+            "title": "Goblin gangs"
+        },
+        {
+            "link": "43ufyr",
+            "title": "Mines"
+        },
+        {
+            "link": "42rm5s",
+            "title": "Mountains"
+        },
+        {
+            "link": "4aepj5",
+            "title": "Wolves"
+        }
+    ]
+}

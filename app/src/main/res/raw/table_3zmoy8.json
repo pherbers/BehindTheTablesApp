@@ -1,0 +1,824 @@
+{
+    "description": "These are tables for rapidly generate a military camp along with a handful of interesting NPCs with whom your PCs can interact.",
+    "id": "3zmoy8",
+    "keywords": [
+        "soldier",
+        "military camp",
+        "encampment",
+        "expedition",
+        "corps",
+        "battalion",
+        "general",
+        "warlord",
+        "commander",
+        "soldier",
+        "infantry",
+        "cavalry",
+        "war",
+        "stripes"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/3zmoy8",
+    "related_tables": [
+        {
+            "link": "46ma8g",
+            "title": "Bards"
+        },
+        {
+            "link": "3sl2r2",
+            "title": "Merchant caravans"
+        },
+        {
+            "link": "3sj9ub",
+            "title": "Town NPCs"
+        }
+    ],
+    "tables": [
+        {
+            "dice": "d10",
+            "name": "This tent is functions as...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Barracks."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A chapel or shrine."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A forge (d4): 1. armorer; 2. blacksmith; 3. farrier; 4. swordmaker."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "An infirmary or surgeons\u2019 office."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A mess hall."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Officers\u2019 quarters."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Officers\u2019 mess."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A supply tent (d4): 1. armory; 2. building materials; 3. food, 4. water."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A stable or kennel."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A workshop (d4): 1. cartwright; 2. fletcher; 3. leatherworker; 4. siege engineer."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "Other Landmarks: You see...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A corral or wagon yard."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A guard post or watch tower."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A gatehouse."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Tables that serve as an outdoor mess hall."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A drill yard."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A target range or sparring pit."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Water wells."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A privy or waste pit."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "An outdoor forge or workshop."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A stockade or jail."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Animal pens."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Graves."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The camp\u2019s mounts include...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Camels."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Large draft horses."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Reliable garrons."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Quick-footed palfreys."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Huge destriers."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Exotic mounts (d6): 1. bears; 2. bison; 3. elephants; 4. elk; 5. giant lizards; 6. zebras."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "As hunting or war beasts, the camp has...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Falcons."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Fighting dogs."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Hounds."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Terriers."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Wolves."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Exotic beasts (d10): 1. boars; 2. dire rats; 3. dire wolves; 4. drakes; 5. eagles; 6. lions; 7. owlbears; 8. ravens; 9. tigers; 10. wargs."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The camp\u2019s general mood is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Desperate; a calamity has befallen them."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Solemn; badly outnumbered, battle is nigh."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Foul; morale is bad, and provisions are low."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Tired; the journey is long and longer yet."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Eager; great plunder waits at journey\u2019s end."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Cheerful; victory is all but certain."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The commander is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A brilliant strategist."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A brutish thug."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A dashing swashbuckler."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A celebrated war hero."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "An anointed knight."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A career soldier."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The commander is looking for...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Information regarding enemy positioning."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Information regarding the terrain ahead."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Reinforcements or new recruits."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "News of his hometown."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Revenge against a bitter rival."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Drinking companions and storytellers."
+                }
+            ]
+        },
+        {
+            "dice": "d4",
+            "name": "The commander is trying to avoid...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Barbarians."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Bandits."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "The enemy army."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Hazardous terrain."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The commander carries...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A superbly crafted sword."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A trusted blade and a map."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A lucky charm (rabbit\u2019s foot, old coin)."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "The token of a faraway love."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A pipe and pouch of tobacco."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A little jar of mustache wax."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The soldier fights for...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "The steady pay."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Pure bloodlust."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A chance to escape from life imprisonment."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A chance at vengeance."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "God and country."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Fortune and glory."
+                }
+            ]
+        },
+        {
+            "dice": "d4",
+            "name": "On the soldier\u2019s face is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "An unsightly scar."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A haughty sneer."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A look of sadness."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "An eager grin."
+                }
+            ]
+        },
+        {
+            "dice": "d4",
+            "name": "The soldier carries\u2026",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A highly polished blade."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A letter from a fallen comrade."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A trophy from a fallen enemy."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A ribbon from a faraway maiden."
+                }
+            ]
+        },
+        {
+            "dice": "d4",
+            "name": "The scout is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A daring ranger."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A skilled hunter.\t"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "An expert tracker."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A brutal warrior."
+                }
+            ]
+        },
+        {
+            "dice": "d4",
+            "name": "The scout is looking to...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Help the camp slaughter the enemy."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Keep the camp from marching into a trap."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Hear word of enemy patrols and wild game."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Eat, drink, and be merry."
+                }
+            ]
+        },
+        {
+            "dice": "d4",
+            "name": "The scout carries...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A map with notes scrawled all over it."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A unique trinket or piece of jewelry."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A longbow and a quiver of arrows."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A large knife and climbing gear."
+                }
+            ]
+        },
+        {
+            "dice": "d4",
+            "name": "The armorer is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A meticulous armorsmith."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A blacksmith with some militia experience."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A farrier with little experience with weapons."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A highly-skilled weaponsmith."
+                }
+            ]
+        },
+        {
+            "dice": "d4",
+            "name": "The armorer is looking for...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A new apprentice or a journeyman assistant."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Rare metals."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Dull blades to sharpen."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A mug of strong ale."
+                }
+            ]
+        },
+        {
+            "dice": "d4",
+            "name": "The armorsmith carries...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A hammer."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A metal trinket made by the armorer."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A contract for a set of special plate armor."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Little more than a few coins."
+                }
+            ]
+        },
+        {
+            "dice": "d4",
+            "name": "The quartermaster is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A member of a trading clan."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A member of a prominent family."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A survivor of a terrible battle wound."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Secretly a coward."
+                }
+            ]
+        },
+        {
+            "dice": "d4",
+            "name": "The quartermaster seeks someone to...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Obtain hard-to-get provisions."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Purchase contraband items."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Help win over a sweetheart."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Share a drink and a laugh."
+                }
+            ]
+        },
+        {
+            "dice": "d4",
+            "name": "Currency: The quartermaster trades in...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Coins."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Gems and trinkets."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Meat, foraged roots, and other provisions."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Bones, scalps, teeth, or other grisly trophies."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "The servant is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A squire from a noble house."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A frightened link boy."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A long-time valet or reformed criminal."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A reformed criminal-turned valet."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A prisoner of war."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A mysterious foreigner."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A simple-minded stable hand."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "An expert on horses."
+                }
+            ]
+        },
+        {
+            "dice": "d4",
+            "name": "The servant has...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "An awkward gait."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Incredibly large hands."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Quite an odor."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A ragged beard."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The servant wants to...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Earn a little silver."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Go back home."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Show off an animal\u2019s new trick."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Train with weapons and be a hero."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Earn the affection of his or her master."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Have a drink and a rest."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The cook is looking for...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Someone more important to talk to."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Someone to try an improvised recipe."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Some better ingredients."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A good joke or story."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Someone with whom to share some wine."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "The bottom of a bottle."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The traveler is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A harlot."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A healer."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A minstrel or storyteller."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A peddler."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A preacher."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A refugee."
+                }
+            ]
+        },
+        {
+            "dice": "d4",
+            "name": "The traveler is seeking...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "To find a long lost friend or family member."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "To escape from a troubled past."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "To gain revenge against a bitter rival."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "To survive the war and start over. "
+                }
+            ]
+        },
+        {
+            "dice": "d4",
+            "name": "Tonight, the traveler is looking for...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A little company."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "An opportunity to earn a little coin."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Someone to hear a sad tale."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Drinking companions."
+                }
+            ]
+        }
+    ],
+    "title": "Military Camps",
+    "use_with": [
+        {
+            "link": "4tguyo",
+            "title": "Horses"
+        },
+        {
+            "link": "3tkdty",
+            "title": "Mercenary troops"
+        },
+        {
+            "link": "3tjg9d",
+            "title": "Military companies"
+        },
+        {
+            "link": "3tjdae",
+            "title": "Savage hordes"
+        }
+    ]
+}

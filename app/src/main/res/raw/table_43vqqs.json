@@ -1,0 +1,166 @@
+{
+    "description": "These are tables for adding some flavor to a miner NPC, from a brash get-rich-quick type to a patient old-timer.",
+    "id": "43vqqs",
+    "keywords": [
+        "mines",
+        "miner",
+        "shovel",
+        "pick",
+        "diamonds",
+        "gold",
+        "49ers"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/43vqqs",
+    "related_tables": [],
+    "tables": [
+        {
+            "dice": "d6",
+            "name": "The miner is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "The son of a poor farmer."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "The son of a poor fisherman."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "The son of an old miner."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "An adventurous treasure hunter."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A slave from a foreign land."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A dwarf."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The miner has...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Unkempt hair."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Skin blackened with dust."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Hard, leathery hands."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Long whiskers."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "An excited laugh."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A raspy voice."
+                }
+            ]
+        },
+        {
+            "dice": "d4",
+            "name": "The miner wears...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A sweat-stained shirt."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A belt of tools."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Patched-knee breeches."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A head lamp."
+                }
+            ]
+        },
+        {
+            "dice": "d4",
+            "name": "The miner is looking to...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Get rich quick."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Make some coin to pay off a debt."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Make some coin to send home to family."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Share a drink while prying for rumors."
+                }
+            ]
+        },
+        {
+            "dice": "d4",
+            "name": "The miner carries...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A shovel and a pick."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A length of rope and a lantern."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A pouch of uncut gems or bits of raw ore."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A flask of strong spirits."
+                }
+            ]
+        }
+    ],
+    "title": "Miners",
+    "use_with": [
+        {
+            "link": "3unfbm",
+            "title": "Caverns"
+        },
+        {
+            "link": "3snvqq",
+            "title": "Goblins"
+        },
+        {
+            "link": "43vpxa",
+            "title": "Dwarves"
+        },
+        {
+            "link": "43ufyr",
+            "title": "Mines"
+        },
+        {
+            "link": "42rm5s",
+            "title": "Mountains"
+        }
+    ]
+}

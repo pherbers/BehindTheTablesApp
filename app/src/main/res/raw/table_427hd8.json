@@ -1,0 +1,778 @@
+{
+    "description": "These tables are designed to quickly generate an interesting tomb for your PCs to explore and within which they may die. \n\nThere are many ways to build a tomb, but most tombs are not terribly complicated. I have tombs for important and wealthy individuals in mind with this set of tables. Each tomb will likely have an entry chamber that the PCs will find after passing through the tomb's entrance. The tomb will also have a grand crypt where the deceased individual honored by the tomb is buried\u2014or, where it appears that the person is buried. Other functional rooms and crypts will be arranged in some manner that makes sense in relation to the entry chamber and the grand crypt, or at least makes sense in terms of the history of the tomb's building (and possible expansions).",
+    "id": "427hd8",
+    "keywords": [
+        "tomb",
+        "crypt",
+        "grave",
+        "pharaoh",
+        "king",
+        "vampire",
+        "lich",
+        "dark",
+        "dungeon",
+        "death",
+        "grim reaper",
+        "graveyard",
+        "cemetery",
+        "scary"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/427hd8",
+    "related_tables": [
+        {
+            "link": "3unfbm",
+            "title": "Caverns"
+        },
+        {
+            "link": "3xpb4r",
+            "title": "Temples"
+        }
+    ],
+    "tables": [
+        {
+            "dice": "d20",
+            "name": "This tomb was built for...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "An ancient king."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "An ancient queen."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "An ancient high priest or priestess."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "An ancient sorcerer."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A mighty warrior."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A terrible villain."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A legendary adventurer."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A celebrated war hero."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "An unscrupulous king or queen. "
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A vain mayor or townmaster."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A powerful military commander or warlord."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A powerful witch or wizard."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "A powerful priest or priestess."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "A beloved sovereign."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "A wealthy merchant."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "A member of a noble house."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "A member of the royal family."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "The wife of a wealthy person or ruler."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "The mother of a wealthy person or ruler."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "The child of a wealthy person or ruler."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "The tomb\u2019s entrance is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Yawning open, letting much daylight into the entry chamber."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Behind a huge pair of metal doors (d4):    1. brass; 2. bronze; 3. gold; 4. iron."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Beneath a stone slab."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A simple wooden door framed in stone."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A heavy wooden door framed in stone."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Behind a heavy stone door."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Beneath a gnarled, old tree. "
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Beneath an obelisk or similar monument."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Beneath a large statue."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Hidden by the terrain (d4): 1. boulders; 2. waterfall; 3. rocky overhang; 4. hillock."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Hidden by vegetation (d4): 1. a briar patch; 2. a curtain of moss; 3. enormous tree roots; 4. overgrown vines."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Difficult to access (d4): 1. up or down a cliff face; 2. down a deep hole; 3. in an underwater tunnel; 4. through an illusory rock or wall."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "The tomb\u2019s entrance is guarded by...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A sworn order of devout warriors."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Sellswords."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Large, frightening statues of beasts (d8): 1. bats; 2. bears; 3. dragons; 4. eagles; 5. lions; 6. ravens; 7. snakes; 8. wolves."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Impressive, colossal statues of warriors."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Statues of beautiful maidens, beckoning visitors into a trap."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Several crumbling statues."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Skeletal warriors."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "An unsettling arrangement of bones."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A band of outlaws who are carefully delving its secrets."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Nothing; the tomb is rather homey and welcoming."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The tomb\u2019s grand crypt is located...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Just beyond a heavy door in the entry chamber."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Down a steep set of spiraling stairs from the entry chamber."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "At the end of a long passageway lined with lesser crypts."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "At the end of a long passage lined with statues."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "At the end of a long passageway lined with passageways leading to lesser crypts."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Several levels below the entry chamber."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "The tomb\u2019s layout is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Simple; a large grand crypt with a handful of smaller crypts and rooms adjoining."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Simple with a large entry chamber; the entry chamber leads off to smaller crypts and other rooms."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Multi-layered; access to the lower layers is easy to find."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Multi-layered; access to the lower layers is difficult to find."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Multi-winged; access to some wings is difficult to find."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A series of rooms arranged in a concentric fashion; the grand crypt is located among the inner rooms."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Labyrinthine; designed to deliberately confuse intruders."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Simple with an intricate complex hidden beneath the grand crypt."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "Many of the tomb's interior walls are...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Rough hewn stone."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Smooth cut stone."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Painted or lacquered wood."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Unfinished hardwood."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Decorated with intricate mosaics."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Decorated with elaborate murals."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Decorated with bones and icons of death."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Decorated with sacred texts and runes."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Many of the tomb\u2019s ceilings are...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Uncomfortably close to your head."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Stone, smooth as glass."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Stone, rough and jagged."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Connected to the floor by columns."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Painted or carved with iconic scenes."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Crossed by wooden beams."
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "Rooms: The purpose of this room is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "An antechamber to a crypt or chapel."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A chapel dedicated to protecting the souls of the deceased."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A chapel dedicated to aiding the journey of the souls of the deceased."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A grand crypt for a person of importance (d4): 1. well-known hero; 2. high priest; 3. powerful noble; 4. wealthy merchant."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A false crypt to attract and to trap graverobbers and treasure hunters."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A crypt for immediate family members."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A crypt for previous generations of the family."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A crypt for the spouse of the deceased."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A crypt of unmarked graves."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A reflecting pool or fountain."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A crypt for devoted servants or slaves."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A room dedicated for specific rituals (d3): 1. divinations; 2. funerals; 3. necromancy."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "Gallery dedicated to the deceased (d3):   1. trophies; 2. statues; 3. paintings."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "A guardroom with guards (d6): 1. ghosts; 2. golems; 3. knights; 4. sellswords; 5. cultists; 6. skeletons; 5. wights; 6. zombies."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "A priest\u2019s robing room."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "Storage room for embalming tools."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "Storage room for tools and materials to maintain the tomb."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "Workshop for embalming the dead."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "A crypt hidden by a secret door where the most important person in the tomb rests."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "A priest\u2019s quarters or robing room."
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "Features: You notice...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A small altar set in an alcove in the wall."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A plaque listing a family lineage."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A plaque noting birth and death dates."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A wall sconce holding several candles."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "An empty wall sconce for holding a torch."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A rotten, earthy stench."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A musty, moldy odor."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "The scent of decaying flesh."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A mural depicting a mythological scene."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A small fountain or reflecting pool."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A huge book of sacred texts or prayers."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "An ornate oil lamp."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "A mosaic set into the floor of the room."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "A wide fresco or mural depicting a mythological or historical scene."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "A gilded sarcophagus."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "A simple stone sarcophagus."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "A finely-crafted, heavy wooden coffin."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "A simple, sturdy wooden coffin."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "A stone coffin marked with dates."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "An empty coffin."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The tomb is rumored to...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Hold tremendous treasure."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Be heavily trapped to guard against intruders."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Hold a legendary weapon or artifact."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Bestow a powerful curse on intruders."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "House the remains of someone whose body is widely believed to have been lost."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Have already been cleared of monsters and gold by treasure hunters."
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "What haunts this tomb?",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A swarm of crawling claws."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A covetous wight."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "An ancient demilich."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Malevolent ghosts."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Zombie warriors."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A skeletal hound."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A newly-made vampire."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "An ancient vampire."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A huge, animated pile of bones."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Twisted humanoid skeletons."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A zombie made from a fallen adventurer."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A hateful mummy."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "Skeletal guardians."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "Phantom soldiers."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "The ghost of a fair maiden."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "Hungry ghouls."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "A mad wraith."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "A playful ghost."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "A treacherous spellcaster-turned-lich."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "A vengeful death knight."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "Denizens: What lives in the tomb now?",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Carrion crawler."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Cloaker."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Darkmantle."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Fungi."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Mimics."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Myconids."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Ooze."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Otyugh."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Piercer"
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Roper."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Stirges."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Umber hulk."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "Visitors: Who has entered the tomb of late?",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A devoted old priest or priestess."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A curious young priest or priestess."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A traveler or scholar from afar."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A member of the deceased\u2019s family."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A greedy treasure hunter."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A student of necromancy."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A fugitive serial killer."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A brave but foolish adventurer."
+                }
+            ]
+        }
+    ],
+    "title": "Tombs",
+    "use_with": [
+        {
+            "link": "43uzib",
+            "title": "Dungeon encounters"
+        },
+        {
+            "link": "4boiw9",
+            "title": "Fiends"
+        },
+        {
+            "link": "3w3gbj",
+            "title": "Graverobbers"
+        },
+        {
+            "link": "3w1g84",
+            "title": "Necromancers"
+        },
+        {
+            "link": "3sorre",
+            "title": "Restless undead"
+        },
+        {
+            "link": "3whlp0",
+            "title": "Priests"
+        },
+        {
+            "link": "487awj",
+            "title": "Spiders"
+        },
+        {
+            "link": "43bznq",
+            "title": "Traps"
+        },
+        {
+            "link": "3uzziq",
+            "title": "Treasure hunters"
+        },
+        {
+            "link": "3sq5dx",
+            "title": "Vampires"
+        }
+    ]
+}

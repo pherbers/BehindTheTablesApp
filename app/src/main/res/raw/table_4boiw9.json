@@ -1,0 +1,780 @@
+{
+    "description": "Fiends vary wildly in form and  all share a cruelty and disdain for mortals and an extraplanar origin. These tables are useful for generating a fiend that could be demonic or infernal in origin or hail from a different place entirely. It gives you some unique features of the fiend's appearance, its goals and machinations, and its preferred methods of tormenting mortals.\n\nThe line between demons and devils is not as sharp in my cosmology as it is in others. Devils tend to be less rigid and structured in their schemes and wars than canonical D&amp;D devils, but they are moreso than demons. Demons tend to be less wanton and self-destructive in sowing chaos than canonical D&amp;D demons, but they are moreso than devils. Succubi, rakshasas, and other fiends are possible, but all fiends are rare encounters. Each fiend is a unique manifestation of evil in my world. For this break from canon, I apologize. I may consider separating these tables at some time in the future to better fit the canonical mold.",
+    "id": "4boiw9",
+    "keywords": [
+        "demon",
+        "devil",
+        "fiendish",
+        "half-fiend",
+        "tiefling",
+        "orcus",
+        "baphomet",
+        "yeenoghu",
+        "demogorgon",
+        "graz'zt",
+        "asmodeus",
+        "belial",
+        "glasya",
+        "rakshasa",
+        "yugoloth",
+        "mezzoloth",
+        "mezzodemon",
+        "ultroloth",
+        "incubus",
+        "succubus",
+        "tree-fitty"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/4boiw9",
+    "related_tables": [],
+    "tables": [
+        {
+            "dice": "d12",
+            "name": "Status/Rank: The fiend is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "In the service of a more powerful fiend."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Bound to serve a mortal spellcaster."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Recently freed of its bonds."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Bound to a particularly location."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Recently reborn."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "An ancient and powerful being."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Rapidly ascending in rank."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Recently demoted from a position of greater power."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Rampaging after breaking free of its summoner."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A respected and feared lieutenant of a mighty fiend."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A laughingstock among the mighty fiends of its home realm."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Not entirely certain what its purpose and place may be."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "Skin: The fiend's skin is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Dark crimson."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Blood red."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Blackened."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Pale pink."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Sickly grey."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Burnt orange."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Mottled brown."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Orange-ish tan."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Shiny."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Rough."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Fur-covered."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Scaly."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "Eyes: The fiend's eyes are...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Glowing yellow."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Burning red."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Pitch black."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Deep blue."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "White, with no visible pupils."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Toxic green."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Dull grey."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Midnight blue."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Laughing."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Unblinking and hollow."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "More often closed than open."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Wide and perceptive."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "Head/Face: The fiend has...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A long snout."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Sharp fangs."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "The face of a beautiful woman."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Curved horns."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Short horns."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Long, sharp horns."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Blackened horns."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "An unsettling grin."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A terrifying scowl."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A constant smirk."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Long, dark hair."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Large ears."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "Body: The fiend has...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A well-muscled physique."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A voluptuous feminine shape."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Burnt flesh."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Cracked flesh."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A slender frame."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A thick-set frame."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A tall, bony frame."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A grotesque, obese body."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A lithe, athletic body."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Horrific scars."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Discolored flesh."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Many piercings."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "Appendages: The fiend has...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A pair of leathery wings."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A pair of feathered wings."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Wings pull close to its body to hide from view."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A scaly tail."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A tail ending in a poisoned stinger."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A forked tail."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "An extra pair of arms."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Over-sized pincers in place of hands."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Hooves in place of feet."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Exceptionally long fingernails."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Talons in place of feet."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "The body and legs of a beast (d6): 1. crocodile; 2. goat; 3. lion; 4. serpent; 5. spider; 6. walrus."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "Knowledge and Magic: The fiend possesses...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A missing line from a dark prophecy."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "The soul of a celebrated hero trapped in a gem."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "The soul of a terrifying villain trapped in a gem."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "The true name of a god or goddess."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A contract with an ancient dragon."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A map to the prison of a powerful aberrant being."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A map to the location of a dead god's resting place."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "The key to the gates of a destructive realm."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A key to the gates of the realm of the dead."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Knowledge of the location of a lost city."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A book of morbid omens and prophecies."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A book of foul summoning rituals."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "Weapons/Attacks: The fiend prefers to fight with...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A whip of pure flame."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A sword of elemental lightning."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A cudgel covered in teeth and sharp spikes."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A black steel mace."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A steel sword tempered in blood."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A wicked trident or spear."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Poison-coated arrows."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Life-draining arrows."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Spells and enchantments."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Its minions and thralls."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Its bare fists."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Tooth and claw."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "Goal: The fiend is looking for...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A soul to collect and to keep."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A soul to devour."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Flesh to devour."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Powerful secrets."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A specific person who cheated it."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "An artifact from a previous age."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Something to kill."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Something to burn."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "An opportunity to usurp the place of its fiendish liege."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "An opportunity to prove its value to its fiendish liege."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A lost temple or tomb of story and song."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "The means to open a portal to a dark realm."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Weakness: The fiend cannot resist...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Tasty flesh.\t"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A pretty face.\t"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A stiff drink.\t"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Breaking and smashing things."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Setting things on fire."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A chance to gloat."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "Favorite Prey: The fiend is particularly fond of preying upon...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Beautiful young women."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Handsome young men."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Rulers and tyrants."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Poor, simple folk."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Pious, religious folk."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Mighty warriors."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Greedy and ambitious nobles and merchants."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Sad old men and women."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Sailors, pirates, and fishermen."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Desperate outlaws and thieves."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Talented actors and musicians."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Anyone; the fiend enjoys variety."
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "Favorite Torments: With prey in its clutches, the fiend prefers to...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Dismember its prey savagely."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Devour the flesh of its prey hungrily."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Toy with its prey before killing it."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Seduce its prey before violating the prey sadistically."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Mutilate its prey, leaving a horrifying reminder of the encounter."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Imprison its prey, subjecting it to years of psychological torment."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Torture its prey, keeping it alive and in pain for years."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Trap the soul of its prey in a gem, jar, or other object."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Collect the soul of its prey, sending it along to a fiendish realm."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Mark the soul of its prey, returning to collect it later."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Corrupt its prey, inciting it to commit evil acts."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Devour the soul of its prey, leaving a soulless husk."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "Set dates for meetings then arrive late or cancel at the last minute."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "Set dates for meetings and then never show up, apologize profusely, and promise to \u201cmake it up to you.\u201d"
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "Sow discord between its prey and the prey\u2019s companions."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "Lead its prey far afield while important matters are left undecided."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "Lie to its prey; painting a rosier picture than reality dictates."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "Undermine its prey\u2019s business ventures."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "Enter contracts it knows are flawed in its favor to the prey\u2019s detriment."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "Make promises to its prey for the sole purpose of breaking them."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "Vulnerability: To bind, to summon, or to control the fiend or to drive it back to the shadow, one must...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Speak its true name."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Write its true name in one\u2019s own blood."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Tattoo its true name to one\u2019s breast."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Ritualistically burn a bit of the fiend\u2019s skin."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Graft some of the fiend\u2019s skin to one\u2019s self."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Replace one\u2019s own hand with the fiend\u2019s."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Drink the fiend\u2019s poisonous blood, die from the poison, and be resurrected."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Perform a ritualistic sacrifice of a goat."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Perform a ritualistic sacrifice of a maiden."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Locate the place of the fiend\u2019s birth."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Pay tribute to the fiend\u2019s far more dangerous and powerful liege lord."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Give up; no one\u2019s ever bound this fiend."
+                }
+            ]
+        }
+    ],
+    "title": "Fiends",
+    "use_with": [
+        {
+            "link": "3xyiqs",
+            "title": "Cults"
+        },
+        {
+            "link": "40wc26",
+            "title": "Cultists"
+        },
+        {
+            "link": "43bxpl",
+            "title": "Nightmares"
+        },
+        {
+            "link": "3whlp0",
+            "title": "Priests"
+        },
+        {
+            "link": "44r23c",
+            "title": "Seers"
+        },
+        {
+            "link": "3sqres",
+            "title": "Serial killers"
+        },
+        {
+            "link": "3xpb4r",
+            "title": "Temple"
+        },
+        {
+            "link": "427hd8",
+            "title": "Tomb"
+        },
+        {
+            "link": "3si4ms",
+            "title": "Witches"
+        }
+    ]
+}

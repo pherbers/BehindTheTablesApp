@@ -133,11 +133,6 @@ public class DBAdapter extends Observable {
 
 	// Add a new set of values to the database.
 	public long insertRow(String title, String path, String tags, int fav) {
-		/*
-		 * CHANGE 3:
-		 */
-		// TODO: Update data in the row with new fields.
-		// TODO: Also change the function's arguments to be what you need!
 		// Create row's data:
 		ContentValues initialValues = new ContentValues();
 		initialValues.put(KEY_TABLE_COLLECTION_FAV, fav);

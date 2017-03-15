@@ -1,0 +1,1274 @@
+{
+    "description": "Use these tables to quickly generate a description of an NPC's appearance, his or her emotional range, current emotional state, beliefs, and flaws. \n\nWhen building an NPC I would not choose something from every table. I would definitely choose a result from 2-4 of the tables for the facial features, physical traits, and accessories sections, and I would definitely pick a calm trait and a stress trait. That would give me a few distinguishing features about the NPC's appearance and a sense as to how to role-play the NPC's emotions.",
+    "id": "3zr0h4",
+    "keywords": [
+        "NPC generator",
+        "physical appearance",
+        "facial features",
+        "description",
+        "attitude",
+        "emotion",
+        "mood",
+        "flaws",
+        "quirks",
+        "faith",
+        "religiosity",
+        "insanity"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/3zr0h4",
+    "related_tables": [],
+    "tables": [
+        {
+            "dice": "d20",
+            "name": "Eyes: The person has...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Sleepy eyes."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Shifty eyes."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Watery eyes."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Bright eyes."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Cold eyes."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Smiling eyes."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Close-set eyes."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Wild eyes."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Distant eyes."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A lazy eye."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Piercing eyes."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Watchful eyes."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "Dark eyes."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "Hooded eyes."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "Eyes of two different colors."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "Slightly crossed eyes."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "Wide eyes."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "Beautiful eyes."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "Beady eyes."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "Penetrating eyes."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "Ears: The person has...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Over-sized ears."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Long ear lobes."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Small ears."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Uneven ears."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Hairy ears."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Pointy ears."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Short ear lobes."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Ears that stick out."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Jug-handle ears."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Elaborately pierced ears."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Cauliflower ears."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Ears with improbable tufts of hair."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Mouth: The person has...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Full lips."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Buck-teeth."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Thin lips."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Rotting teeth."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Crooked teeth."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A broken or missing tooth."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Pursed lips."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Dry, cracked lips."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "One or more false teeth."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A mouth that hangs open."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "Nose: The person has...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A crooked nose."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A bulbous nose."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A narrow nose."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A button nose."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A long nose."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A broad nose."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "An angular nose."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A round nose."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A broken nose."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A hawk-like nose."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A wide nose."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A delicate nose."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "Chin or jaw: He/she has...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A pronounced chin."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A cleft chin."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A dimple on the chin."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A rounded chin."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A sharp jawline."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A square jaw."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A round jaw."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "An underbite."
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "Hair: The person has...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Thick hair."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Wispy hair."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Straight hair."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Wavy hair."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Curly hair."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Wiry hair."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Oily hair."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Lush hair."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Poofy hair."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Long braids."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Braids tight against the head."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Very long hair."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "Greasy hair."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "Unruly hair."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "An unusual hairstyle."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "An outdated hairstyle."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "A high-maintenance hairstyle."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "Short-cropped hair."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "A shaved head."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "No hair at all."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "Other: His/her face has...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "High cheekbones."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Tight, drawn cheeks."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Chubby cheeks."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "An unpleasant pustule."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A large mole."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A beauty mark."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Freckles."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Terrible scarring."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Height: The person is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Unusually short."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Short in stature."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Average height."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Slightly above average height."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Well above average height."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Unusually tall."
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "Body: The person\u2019s body is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Thin and delicate."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Of average build."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Well-muscled."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Slightly overweight."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Grotesquely obese."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Lean and lanky."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Lithe and lean."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Thin and wiry. "
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Sinewy and strong."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Flabby and weak."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Lumpy or bent."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Thin and flimsy."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "Soft and chubby."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "Thin and petite."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "Pudgy."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "Big and broad."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "Stocky and strong."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "Bony."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "Wide and ponderous."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "Covered in hair."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Hands: The person has...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Powerful hands."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Delicate hands."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Rough hands."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Soft hands."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A light touch."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A heavy touch."
+                }
+            ]
+        },
+        {
+            "dice": "d4",
+            "name": "Scar: The person has...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A jagged scar."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A dark purple scar."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "An angry red scar."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A long, thin scar."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "Tattoo: The person has...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A dagger tattoo."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "An arrow tattoo."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "An anchor tattoo."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A skull tattoo."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A pair of crossed bones tattoo."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A snake tattoo."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A scorpion tattoo."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A spider web tattoo."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A heart tattoo."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A ring of thorns tattoo."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A mermaid tattoo."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A dragon tattoo."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "Jewelry: The person wears...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "An earring."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Two earrings."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A small chain about the neck."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A large chain about the neck."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A tight choker about the neck."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A brooch."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A ring."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Several rings."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A bracelet."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A nose ring."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A medallion."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "An ornate belt."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "The jewelry is made of\u2026",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Steel."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Bronze."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Pewter."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Silver."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Gold."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Platinum."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Copper."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "One or more gemstones (d12): 1. amethyst; 2. crystal; 3. diamond; 4. emerald; 5. jade; 6. obsidian; 7. opal; 8. pearl; 9. ruby; 10. sapphire; 11. topaz; 12. turquoise."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "Clothes: The person\u2019s clothing is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Crisp and new."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Fashionable and hip."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A bit old-fashioned."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Of the highest quality."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Faded, but in good condition."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Faded and patched."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Torn in places; missing buttons."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Tattered and worn."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Compassionate"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Cheerful"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Reserved"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Outspoken "
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Uninterested "
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Gruff"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Eager "
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Deceitful"
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Foolish "
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Strict"
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Agreeable"
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Mischeivious "
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "Angry "
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "Fearful"
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "Manipulative "
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "Devout"
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "Greedy "
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "Funny"
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "Dour "
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "Fun-Loving"
+                },
+                {
+                    "dice_val": "21",
+                    "entry": "Lazy "
+                },
+                {
+                    "dice_val": "22",
+                    "entry": "Driven "
+                },
+                {
+                    "dice_val": "23",
+                    "entry": "Boastful "
+                },
+                {
+                    "dice_val": "24",
+                    "entry": "Artistic "
+                },
+                {
+                    "dice_val": "25",
+                    "entry": "Assertive "
+                },
+                {
+                    "dice_val": "26",
+                    "entry": "Carefree "
+                },
+                {
+                    "dice_val": "27",
+                    "entry": "Cautious "
+                },
+                {
+                    "dice_val": "28",
+                    "entry": "Confident"
+                },
+                {
+                    "dice_val": "29",
+                    "entry": "Thoughtful"
+                },
+                {
+                    "dice_val": "30",
+                    "entry": "Loyal"
+                },
+                {
+                    "dice_val": "31",
+                    "entry": "Sophisticated "
+                },
+                {
+                    "dice_val": "32",
+                    "entry": "Weak-Willed"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Withdrawn"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Murderous"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Obsessive"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Authoritarian"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Determined"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Brave"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Spiteful"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Belligerent"
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Caustic"
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Reckless"
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Argumentative"
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Gluttonous"
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "Overly Protective"
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "Angry"
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "Cowardly"
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "Meticulous"
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "Sarcastic"
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "Stubborn"
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "Destructive"
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "Practical"
+                },
+                {
+                    "dice_val": "21",
+                    "entry": "Pushy"
+                },
+                {
+                    "dice_val": "22",
+                    "entry": "Fanatical"
+                },
+                {
+                    "dice_val": "23",
+                    "entry": "Secretive"
+                },
+                {
+                    "dice_val": "24",
+                    "entry": "Scornful"
+                },
+                {
+                    "dice_val": "25",
+                    "entry": "Courageous"
+                },
+                {
+                    "dice_val": "26",
+                    "entry": "Impractical"
+                },
+                {
+                    "dice_val": "27",
+                    "entry": "Calculating"
+                },
+                {
+                    "dice_val": "28",
+                    "entry": "Industrious"
+                },
+                {
+                    "dice_val": "29",
+                    "entry": "Manipulative"
+                },
+                {
+                    "dice_val": "30",
+                    "entry": "Destructive"
+                },
+                {
+                    "dice_val": "31",
+                    "entry": "Compulsive"
+                },
+                {
+                    "dice_val": "32",
+                    "entry": "Intolerant"
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "Mood: Now, the person is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Agreeable."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Carefree."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Curious."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Eager."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Friendly."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Happy."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Hopeful."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Upbeat."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Indifferent."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Bored."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Focused."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Suspicious."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "Tired."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "Withdrawn."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "Disagreeable."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "Agitated."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "Angry."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "Despondent."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "Gloomy."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "Nervous."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "The person is a...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Quiet true believer."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Casual observer."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Critical student."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Outspoken cynic."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Open-minded seeker."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Broken heretic."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Cautious listener."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Fanatical true believer."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The person is prejudice against...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Other genders."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "An age group (d3): 1. children; 2. teenagers; 3. elderly."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A social class (d3): 1. ruling class and authority figures; 2. powerful rich; 3. destitute poor."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Social deviants (d3): 1. beggars; 2. drunks; 3. drug-users."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A profession (d12): 1. farmers;  2. artists; 3. clergy; 4. soldiers; 5. fishers; 6. harlots; 7. miners; 8. merchants; 9. scholars; 10. herders; 11. sailors; 12. mages"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A race (d8): 1. dwarves; 2. elves; 3. gnomes;; 4. goblins; 5. half-breeds; 5. halflings; 6. humans; 7. orcs; 8. reptilians."
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "The person...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Fidgets."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Drinks too much."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Eats too much."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Swears often."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Has poor hygiene."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Can\u2019t resist flirting."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Can\u2019t stop staring."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Sweats profusely and easily."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Is a habitual liar."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Embellishes the truth."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Exaggerates details."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Has a short temper."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "Is melodramatic."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "Gossips."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "Chews with an open mouth."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "Often sniffs audibly."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "Believes what you tell him/her."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "Is skeptical of everything."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "Paces."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "Makes poor eye contact. "
+                }
+            ]
+        }
+    ],
+    "title": "NPC Appearance, Personality, Faith, and Flaws",
+    "use_with": []
+}

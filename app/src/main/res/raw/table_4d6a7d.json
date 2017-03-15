@@ -1,0 +1,531 @@
+{
+    "description": "A table for making ships at sea. For both pirates and non-combat encounters alike.",
+    "id": "4d6a7d",
+    "keywords": [
+        "Ships",
+        "sea",
+        "pirates",
+        "naval",
+        "ocean",
+        "npc"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/4d6a7d",
+    "related_tables": [],
+    "tables": [
+        {
+            "dice": "d6",
+            "name": "Size. The ship is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Very small, a one or two-person crew."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Small, with several crew members."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Regular, with a crew around 10-20"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Large, with a crew up to 50."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Very Large with a crew up to a hundred."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Massive, with a crew of several hundred."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Type. The ships type is a...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Warship, a powerful ship ready for combat"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Frigate, a smaller warship with speed and manoeuvrability."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Battleship, highly armed and highly armoured."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Yacht, an expensive pleasure boat."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Ship-town, a floating nomadic town that goes where it pleases."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Cargo ship, going from harbour to harbour with precious cargo."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A transport ship, for transporting soldiers or people from place to place."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Fishing boat, for fishing or perhaps sea monster hunting."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Flagship, that leads a fleet of other ships."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Lifeboat, an emergency boat."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "Style. The boat is built in the style of...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Humans. Practical and functional."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Orcs. Things are spikey, adorned with metal and shamanistic symbols."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Elves. An elegant craft that glides through the water."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Dwarves. A bulky metal ship which cares for use rather than appearance."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Gnomes. A smaller metal or wooden craft with strange curious technology."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Dragonborn. A regal ship with draconic designs."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Halflings. Similar to human design but with smaller stockier design, and more focus on the kitchen."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Unknown. The ship seems strange. Perhaps from a different world."
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "Crew. The crew is made of...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Navy soldiers patrolling the seas for pirates."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Soldiers being transferred to a far off war."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Independent bounty and pirate hunters."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Pirates looking to get plunder any way they can."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A pirate king and his elite crew, who terrifies others."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Pirates who are in mutiny after the captain was killed."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Lawful Pirates who follow a strict code of honour."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Explorers trying to find new places in the world."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Relic Hunters trying to find artefacts under the water."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Fishermen who just want to make their living."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Monster Hunters hunting a sea monster."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Hired privateers who are working for a nearby army."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "Refugees who left their lands."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "Adventurers who are on a grand quest."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "Sailors working simple jobs."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "Monsters who have taken hold of the ship."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "Fiends who have taken hold of the ship."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "A noble and his bodyguards."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "Sailors trying to make a new living on the sea."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "Traders who got way in over their heads."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Power. The ship is powered by...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Sails only."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Sails and rowing."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Rowing."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A mage manipulating the wind and water around the ship."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Sea creatures pulling the ship."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A magical engine."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "An ancient artefact."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A water wheel engine."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Water/wind elementals."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A steampunk engine."
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "Combat. The ship in combat uses...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Nothing. The ship has no defences."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Prayer to their gods."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Harpoons, and pulls the enemy ships closer for boarding."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A battering ram."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Magical energy cannons."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Cannons."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Catapults."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Trebuchets."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Archers."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Great crossbows."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Boarding parties."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Elemental magic."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "Fiendish magic."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "Bombs thrown from crew."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "Smaller ships with boarders."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "Illusions and mind games."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "Spears."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "Spikes on the side of the ship."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "Creatures catapulted at the enemy."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "Hexes and curses."
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "Trait. The ship is strange as...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "It has a large garden filled with trees, flowers and animals."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "The crew is all undead, cursed to travel the seas."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "The crew worships a kraken and the crew has become mutated sea creatures since."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "The crew all happens to be cannibals."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Sea birds constantly circle the ship."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Everyone on the ship is one gender and hates the other."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "The crew seems to have stolen the ship from somewhere else."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "The ship looks like it\u2019s just been in a terrible fight."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "It looks clumsily built."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "The crew all act like nobles and dress in expensive clothing."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "The crew have some kind of blood lust."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "There\u2019s a large amount of animals on the ship."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "The crew is being mind controlled by something."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "The crew is all suffering from a disease."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "The crew is starving."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "The ship is surrounded by mist."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "The ship is carrying a very powerful artefact."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "The ship is being chased."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "The ship is dirty and rotting."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "The ship is booming out loud music."
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "Captain. The Captain is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Not there, the ship has been running without a captain."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A powerful wizard."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A brawler who fights anyone in fist fights to prove his strength."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A paladin bound by godly honour."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A warforged or similar construct."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A druid of the sea."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A different race than the rest of the crew."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Coated in scars and battle wounds."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A charismatic bard."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Silent and slow to trust."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Cursed by something horrific."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Newly appointed."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "On a secret mission."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "On the warpath."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "Trying to make a lot of money."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "Horrifically ugly."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "Amazingly beautiful."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "Obnoxiously short."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "Blind, has two eyepatches."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "Going to betray everyone."
+                }
+            ]
+        }
+    ],
+    "title": "Ships",
+    "use_with": [
+        {
+            "link": "3t5sik",
+            "title": "Pirates"
+        },
+        {
+            "link": "497u5a",
+            "title": "Sailors"
+        }
+    ]
+}

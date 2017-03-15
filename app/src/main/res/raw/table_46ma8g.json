@@ -1,0 +1,700 @@
+{
+    "description": "These are tables for generating an interesting bard to serve as foe, foil, or ally to your PCs, from wonderful singers to seductive dancers.",
+    "id": "46ma8g",
+    "keywords": [
+        "bard",
+        "minstrel",
+        "singer",
+        "fool",
+        "jester",
+        "rogue",
+        "musician",
+        "songs",
+        "actor",
+        "player",
+        "charmer",
+        "writer",
+        "poet",
+        "Shakespeare"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/46ma8g",
+    "related_tables": [
+        {
+            "link": "43emxb",
+            "title": "Castle inhabitants"
+        },
+        {
+            "link": "3zmoy8",
+            "title": "Military camps"
+        },
+        {
+            "link": "3sj9ub",
+            "title": "Town NPCs"
+        },
+        {
+            "link": "3uzziq",
+            "title": "Treasure hunters"
+        },
+        {
+            "link": "4034w3",
+            "title": "Thieves"
+        }
+    ],
+    "tables": [
+        {
+            "dice": "d20",
+            "name": "The bard is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A talented singer."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A graceful dancer."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A virtuoso musician."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A captivating storyteller."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A brilliant poet."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A scholar of history."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A serious actor."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A dashing swashbuckler."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A wise-cracking magician."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A bold knife-thrower."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A slippery con artist."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A lovable jack-of-all-trades."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "A duplicitous spy."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "A witty satirist."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "A gracious knight."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "An enchanting dancer."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "A mysterious foreigner."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "A rowdy jester."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "A master of riddles."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "A terrible singer."
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "Always prepared to make a melody or rhythm, the bard carries his/her...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Bagpipes."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Bells."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Castanets."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Cymbals."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Drum."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Fiddle."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Flute."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Harmonica."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Harp."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Lute."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Lyre."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Mandolin."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "Ocarina."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "Panpipes."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "Shawm."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "Tabor."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "Tambourine."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "Trumpet."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "Viol."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "Zither."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "The bard\u2019s musical instrument is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A gift from a wealthy patron."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A family heirloom."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Very old, but well maintained."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "An old, worn-out thing."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "In need of some repair."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Always out-of-tune."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Decorated with gold."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "The product of a master craftsman."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Something the bard made."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "The instrument of a legendary bard."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "If things get rough, the bard has...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Several sharp daggers."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A lightweight saber."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A finely-crafted shortsword."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A longsword and a good luck charm."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Some well-balanced throwing knives."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A quick-winding crossbow."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A bow of elvish make."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A shortsword of dwarvish make."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A heavy wooden staff."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A dagger in each boot."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A book of hexes and curses."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Quick wits and a gift for lying."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "The bard also carries...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A compromising love letter."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A lacy favor from a maiden."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Some parchment with half-finished poems."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Some faded sheet music."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A silk handkerchief."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "The key to well-guarded treasure chest."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A bundle of old books."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "An alchemy kit and several potions."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A pocket field guide to local herbs."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A faded old map."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A tome of legends and historical lore."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A jar of mustache wax."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "The bard is wearing...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Tight-fitting pants."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A low-cut shirt."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A revealing set of breeches."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A traveler\u2019s cloak."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A heavy peddler\u2019s pack."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A wide-brimmed hat with a large exotic feather (d10): 1. cockatrice; 2. giant eagle;  3. giant owl; 4. griffon; 5. hippogriff; 6. ostrich 7. peacock; 8. phoenix; 9. roc; 10. shadowraven."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Shiny boots made from an exotic hide (d8): 1. basilisk; 2. crocodile; 3. demonskin; 4. dragonscale; 5. drake; 6. flamesnake; 7. lightning lizard; 8. wyvern. "
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A coat made from an exotic hide (d6): 1. dragonscale; 2. leopard; 3. owlbear; 4.  sharkskin; 5. tiger; 6. zebra."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A large golden necklace."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Flashy earrings."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Dancing shoes."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Too much perfume."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "The bard has...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A silver tongue."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A gift for satire and wit."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A beautiful face."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Incredibly good looks."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "An easy smile."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A graceful manner."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A polite gentility."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Impeccable manners."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A foul mouth."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A hearty laugh."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "An alluring quality."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A handsome mustache."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "The bard is looking for...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A new tale to tell."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Inspiration for a song."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A beautiful muse."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Someone to repair a musical instrument."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A catchy melody."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Experimental harmonies."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "An edgy dance move."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A word that rhymes with \u201chippopotamus.\u201d"
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "New styles of poetry."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A legendary artifact."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A hero to immortalize in song."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A night of drinking and merrymaking."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "The bard is always a big hit among...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Fishermen, sailors, and pirates."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Farmers and herders."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Miners and travelers."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Guards, soldiers, and sellswords."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Members of the nobility."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Young children."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Idealistic youths."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Serving girls, slaves, and harlots."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Pretty young maidens."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Lonely wives."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "The bard tells a tale of a recent visit to...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A royal court."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A dangerous mountain."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A legendary tomb."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A distant castle."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A frightening lair."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A celebrated tournament."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A foreign land."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A witch\u2019s home."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A dark prison cell."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A grand festival."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A savage and wild land."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A haunted castle."
+                }
+            ]
+        }
+    ],
+    "title": "Bards",
+    "use_with": [
+        {
+            "link": "43wsio",
+            "title": "Books"
+        },
+        {
+            "link": "43w8zc",
+            "title": "Brothels"
+        },
+        {
+            "link": "43ek9v",
+            "title": "Castles"
+        },
+        {
+            "link": "45iihj",
+            "title": "Damsels in distress"
+        },
+        {
+            "link": "3vh7jd",
+            "title": "Elves, high"
+        },
+        {
+            "link": "3va3dw",
+            "title": "Elves, wood"
+        },
+        {
+            "link": "3xys3d",
+            "title": "Farmfolk"
+        },
+        {
+            "link": "3vlzrw",
+            "title": "Faeriefolk"
+        },
+        {
+            "link": "3tkfho",
+            "title": "Knights"
+        },
+        {
+            "link": "43wnpg",
+            "title": "Harlots"
+        },
+        {
+            "link": "3xyhdl",
+            "title": "Nobles"
+        },
+        {
+            "link": "3tjg9d",
+            "title": "Military companies"
+        },
+        {
+            "link": "3t2qzc",
+            "title": "Outlaw bands"
+        },
+        {
+            "link": "4b8u29",
+            "title": "Reputations of adventurers"
+        },
+        {
+            "link": "46m9xc",
+            "title": "Songs"
+        },
+        {
+            "link": "435mxf",
+            "title": "Tavern goings-on"
+        }
+    ]
+}

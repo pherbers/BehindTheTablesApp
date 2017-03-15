@@ -1,0 +1,668 @@
+{
+    "description": "These are tables for adding quick flavor and encounters to natural caves and cavern complexes. You can use these to generate a single cavern location for an encounter or to set up a map of a subterranean region.",
+    "id": "3unfbm",
+    "keywords": [
+        "cave",
+        "cavern",
+        "Underdark",
+        "darkness",
+        "underground",
+        "subterranean",
+        "spelunking",
+        "dark"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/3unfbm",
+    "related_tables": [
+        {
+            "link": "427hd8",
+            "title": "Tombs"
+        }
+    ],
+    "tables": [
+        {
+            "dice": "d10",
+            "name": "Entrance: The cave mouth is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Wide and tall, letting much daylight into the entry chamber."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A wide sinkhole."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "An easy to spot, narrow passage."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A steep, slippery sloped tunnel."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A man-made tunnel."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A collapsed tunnel, impassable without excavation."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Marked with several warning signs."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Hidden by the terrain (d4): 1. some boulders; 2. a waterfall; 3. a rocky overhang; 4. a hillock."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Hidden by vegetation (d4): 1. a briar patch; 2. a curtain of moss; 3. enormous tree roots; 4. overgrown vines."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Difficult to access (d4): 1. up or down a cliff face; 2. down a deep hole. 3. in an underwater tunnel. 4. through an illusory rock or wall."
+                }
+            ]
+        },
+        {
+            "dice": "d50",
+            "name": "Denizens: What lives in the cave?",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Bullywug."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Carrion crawler."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Chuul."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Cloaker."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Crawling claw."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Cyclops."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Darkmantle."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Shadow dragon."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Drider."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Duergar."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Elves, dark."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Ettin."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "Fomorian."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "Fungi."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "Galeb duhr."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "Gargoyle."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "Ghost."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "Ghoul."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "Giant, hill."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "Giant, stone."
+                },
+                {
+                    "dice_val": "21",
+                    "entry": "Gibbering mouther."
+                },
+                {
+                    "dice_val": "22",
+                    "entry": "Goblins."
+                },
+                {
+                    "dice_val": "23",
+                    "entry": "Grell."
+                },
+                {
+                    "dice_val": "24",
+                    "entry": "Grick."
+                },
+                {
+                    "dice_val": "25",
+                    "entry": "Grimlock."
+                },
+                {
+                    "dice_val": "26",
+                    "entry": "Hobgoblins."
+                },
+                {
+                    "dice_val": "27",
+                    "entry": "Hook Horror."
+                },
+                {
+                    "dice_val": "28",
+                    "entry": "Kobolds."
+                },
+                {
+                    "dice_val": "29",
+                    "entry": "Mephits."
+                },
+                {
+                    "dice_val": "30",
+                    "entry": "Mimic."
+                },
+                {
+                    "dice_val": "31",
+                    "entry": "Myconids."
+                },
+                {
+                    "dice_val": "32",
+                    "entry": "Ogres."
+                },
+                {
+                    "dice_val": "33",
+                    "entry": "Oozes."
+                },
+                {
+                    "dice_val": "34",
+                    "entry": "Orcs."
+                },
+                {
+                    "dice_val": "35",
+                    "entry": "Otyugh."
+                },
+                {
+                    "dice_val": "36",
+                    "entry": "Piercer."
+                },
+                {
+                    "dice_val": "37",
+                    "entry": "Purple worm."
+                },
+                {
+                    "dice_val": "38",
+                    "entry": "Roper."
+                },
+                {
+                    "dice_val": "39",
+                    "entry": "Rust monster."
+                },
+                {
+                    "dice_val": "40",
+                    "entry": "Shadow."
+                },
+                {
+                    "dice_val": "41",
+                    "entry": "Skeleton."
+                },
+                {
+                    "dice_val": "42",
+                    "entry": "Spectre."
+                },
+                {
+                    "dice_val": "43",
+                    "entry": "Stirge."
+                },
+                {
+                    "dice_val": "44",
+                    "entry": "Troglodyte."
+                },
+                {
+                    "dice_val": "45",
+                    "entry": "Troll."
+                },
+                {
+                    "dice_val": "46",
+                    "entry": "Umber hulk."
+                },
+                {
+                    "dice_val": "47",
+                    "entry": "Wraith."
+                },
+                {
+                    "dice_val": "48",
+                    "entry": "Xorn."
+                },
+                {
+                    "dice_val": "49",
+                    "entry": "Yuan-ti."
+                },
+                {
+                    "dice_val": "50",
+                    "entry": "Zombies."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Ecology: The creature is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A predator or a hunter."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A food source for other denizens."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A recently-arrived squatter or invader."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A long-time resident."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A parasite or a scavenger."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A host or the dominant species."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Unusually abundant."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Living in deliberate isolation."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Living in unintentional isolation."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Severely out of place in this cave."
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "Distinguishing Landmark: You see...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A trickle of water flowing down the walls and across the floor."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "An underground lake of potable water."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A pool of stagnant water."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A natural bridge over a chasm."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A narrow chasm with walls close enough to climb between."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A deep chasm with no bottom in sight. "
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A shaft in the ceiling with no light coming from it."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A shaft in the ceiling with dim light coming from it."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A group of stalagmites arranged in a circle."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "An arrangement of two large stalactites and two large stalagmites, reminiscent of fangs in a yawning mouth."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A pair of natural columns."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A large stalactite that has broken off from the ceiling and fallen to the floor."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "An array of many small stalactites spreading across the ceiling."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "A damp wall covered in soft mold."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "A recess in the wall, covered in slimy mold."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "A large patch of glowing fungus."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "A large patch of small mushrooms."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "A group of enormous mushrooms."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "A large cavern with a strong echo."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "A claustrophobic tunnel with a low ceiling."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "Features: You notice...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A cache of abandoned, decrepit mining equipment."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Some old dry bones."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Many bones underfoot."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Evidence of a recent encampment."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "An enormous spider web."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A wide slippery patch of mold on the floor."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "The clatter of rocks falling."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Loose stones underfoot."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "An unstable ceiling."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A distant sound\u2014a scream, hammers at work, footsteps, or drums."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "The name of a previous traveler carved into a wall."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Several ancient runes carved into the wall."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "The cave wall is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Slightly damp."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Dripping wet."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Slick with mold."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Covered in soft fungi."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Dry as a bone."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Rough and dry."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Dry and smooth."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Jagged."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Pockmarked."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Crumbling, with loose bits flaking off."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Crumbling, with large chunks falling off at a touch."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Covered in an unidentifiable slime."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The cave ceiling is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Uncomfortably close to your head."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Covered in stalactites (watch your head!)."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Smooth as glass."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Rough and jagged."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Connected to the floor by natural columns."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "So high it\u2019s difficult to see."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Hazards/Obstacles: You find...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A colony of poisonous mushrooms."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A patch of toxic mold."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "The ceiling caves in."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Several rocks tumble down a sloped wall."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "The floor is very slippery."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Your foot misses the floor as you step into a pit or chasm. "
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "Travelers/Visitors: You come upon...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "An explorer (d4): 1. duergar; 2. goblin; 3. human; 4. kobold."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "An escaped slave (d6): 1. dwarf; 2. goblin; 3. gnome; 4. halfling; 5. human; 6. kobold."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A forager (d4): 1. duergar; 2. goblin; 3. kobold; 4. orc."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A fugitive criminal (d4): 1. heretic; 2. killer; 3. smuggler; 4. thief."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A lost treasure hunter (d4): 1. dwarf; 2. half-elf; 3. high elf; 4. human."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A mapmaker (d4): 1. dwarf; 2. goblin; 3. gnome; 4. svirfneblin."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A messenger (d4): 1. dark elf; 2. goblin; 3. gnome; 4. svirfneblin."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A miner (d6): 1. dwarf; 2. gnome; 3. goblin; 4. human; 5. kobold; 6. svirfneblin."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A prospector (d4): 1. dwarf; 2. gnome; 3. human; 4. svirfneblin."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A scout (d4): 1. dark elf; 2. goblin; 3. kobold; 4. orc."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A soldier (d6): 1. dark elf; 2. duergar; 3. dwarf; 4. goblin; 5. kobold; 6. orc."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A spy (d4): 1. dark elf; 2. duergar; 3. goblin; 4. kobold."
+                }
+            ]
+        }
+    ],
+    "title": "What's in the Cavern?",
+    "use_with": [
+        {
+            "link": "3uzyyj",
+            "title": "Dark elves"
+        },
+        {
+            "link": "3snvqq",
+            "title": "Goblins"
+        },
+        {
+            "link": "42rm5s",
+            "title": "Mountains"
+        },
+        {
+            "link": "50t6ir",
+            "title": "Oozes"
+        },
+        {
+            "link": "3vspx8",
+            "title": "Orcs"
+        },
+        {
+            "link": "3sorre",
+            "title": "Restless undead"
+        },
+        {
+            "link": "487awj",
+            "title": "Spiders"
+        },
+        {
+            "link": "3uzziq",
+            "title": "Treasure hunters"
+        },
+        {
+            "link": "3si4ms",
+            "title": "Witches"
+        }
+    ]
+}

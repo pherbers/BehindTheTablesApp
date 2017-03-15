@@ -1,0 +1,391 @@
+{
+    "description": "These are tables for generating the contestants for a series of gladiatorial events to serve as friends, foes, rivals, or entertainers to your PCs.",
+    "id": "3xyeke",
+    "keywords": [
+        "gladiator",
+        "savage",
+        "arena",
+        "fighter",
+        "games",
+        "pit fighting",
+        "brawling",
+        "melee",
+        "sports",
+        "entertainment",
+        "warrior"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/3xyeke",
+    "related_tables": [
+        {
+            "link": "3xydsw",
+            "title": "Barbarians"
+        }
+    ],
+    "tables": [
+        {
+            "dice": "d8",
+            "name": "The gladiator is armored in...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Nothing."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A leather vest."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A leather jerkin."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "The hides of exotic beasts."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A breastplate."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Chainmail."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "The costume of a foreign adversary."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "The costume of a military hero."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "The gladiator is wielding...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A spear."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A gladius (shortsword)."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Two shortswords."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A spear and a shield."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A shortsword and a shield."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A heavy flail."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A morningstar."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A huge axe."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A whip."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Brass knuckles."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A net and trident."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "An exotic, curved blade."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "The gladiator fights with...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Hit-and-run tactics."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Making a direct assault."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Making a mad charge."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Fancy footwork."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Unpredictable lurches."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Masterful combat maneuvers."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Kicking and stomping."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Lots of taunts and jeers."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Lots of screaming and shouting."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Lots of head-butting."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "The gladiator is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A well-trained slave."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A poorly-trained slave."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A seasoned veteran of the arena."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A veteran of warfare."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A prisoner of war."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A political prisoner."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "The son of a poor man."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A drunk."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A captured criminal."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A former pirate."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A de-frocked priest."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A favorite among the ladies."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "The gladiator fights for...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "The love of the sport."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "The love of someone he cannot have."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Pure bloodlust."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A chance to deal out sadistic torment."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A chance at freedom."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A chance at vengeance."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A chance to escape from life imprisonment."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A chance to escape from execution."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A chance at redemption."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "God and country."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Fortune and glory."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Strength and honor."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "On the gladiator's face is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A nose ring."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A garish earring."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "An empty eye socket."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A grisly scar."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A haughty sneer."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A look of panic."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A look of sadness."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "An eager grin."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A frame of long, beautiful long hair."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Ferocious sideburns."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "An unruly beard."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "An intimidating mustache."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "On the gladiator's body is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A tattoo of a sea creature (d4): 1. fish; 2. kraken; 3. mermaid; 4. octopus."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A tattoo of a great beast (d6): 1. bear; 2. boar; 3. dragon; 4. eagle; 5. lion; 6. wolf."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A tattoo of a skull."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A tattoo of a weapon (d4): 1. arrow; 2. axe; 3. spear; 4. sword."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A festering wound."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A frightening scar."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "The brand of a slave."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "The brand of a soldier."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A pronounced gut."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A frightening amount of bulging muscles."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "An obscene amount of oil."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "An intimidating amount of hair."
+                }
+            ]
+        }
+    ],
+    "title": "Gladiators",
+    "use_with": [
+        {
+            "link": "3xyexk",
+            "title": "Arena games"
+        },
+        {
+            "link": "4b8u29",
+            "title": "Reputations of adventurers"
+        }
+    ]
+}

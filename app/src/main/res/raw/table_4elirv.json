@@ -1,0 +1,401 @@
+{
+    "description": "These are tables for quickly coming up with a flavorful meal or list of food provisions for an encampment of orcs or a settlement conquered by orcs some time ago.",
+    "id": "4elirv",
+    "keywords": [
+        "orcs",
+        "gruumsh",
+        "raiders",
+        "camp",
+        "cookfire",
+        "cannibals",
+        "roasting meat on a pike"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/4elirv",
+    "related_tables": [
+        {
+            "link": "4dpnzh",
+            "title": "Dinner around the campfire"
+        },
+        {
+            "link": "4eaph4",
+            "title": "Dinner among desert nomads"
+        },
+        {
+            "link": "4eaqj0",
+            "title": "Dinner among easterlings"
+        },
+        {
+            "link": "4ev8l1",
+            "title": "Dinner in a goblin hideout"
+        }
+    ],
+    "tables": [
+        {
+            "dice": "d12",
+            "name": "Tonight, in an orkish camp, we dine on...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Stewed."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Roasted."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Skewered."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Raw."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Smoked."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Grilled."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Roasted."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Flame-broiled."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Charred."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Blackened."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Spoiled."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Rotted."
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Songbird."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Mutton."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Pork."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Horse."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Rabbit."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Wild beast."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Lizard."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Snake."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Wolf."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Bear."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Cat."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Dog."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "Manflesh."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "Maiden."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "Soldier."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "Nomad."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "Farmfolk."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "Bandit."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "Dwarf."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "Halfling."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "...with...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Soft potatoes."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Hard potatoes."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "White beans."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Red beans."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Black beans."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Corn mash."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Bitter cabbage."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Weepy cabbage."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Onions."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Turnips."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "...and...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Stale bread."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Crusty biscuits."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Hard tack."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Moldy bread."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Moldy biscuits."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Black mushrooms."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Bloody gravy."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Thick gravy."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Thin gravy."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Moldy fruit."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "On the side, there are some...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Roasted rats."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Raw rat tails."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Maggots."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Rabbit bones."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Old fish."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Dried fish."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Bitter roots."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Chewy roots."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Stale cakes."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Human fingers."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Frogs or toads."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Pig's feet."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "To wash it down, we have some...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Foul ale."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Skunky ale."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Stolen ale."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Strong ale."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Black ale."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Rich porter."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Stolen wine."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Sour wine."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Strong wine."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Pigs' blood."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Man blood."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Stolen whisky."
+                }
+            ]
+        }
+    ],
+    "title": "Dinner in an Orkish Camp",
+    "use_with": [
+        {
+            "link": "3xydsw",
+            "title": "Barbarians"
+        },
+        {
+            "link": "3tich6",
+            "title": "Desert"
+        },
+        {
+            "link": "4brthj",
+            "title": "Individual orcs"
+        },
+        {
+            "link": "4c5hu9",
+            "title": "Orc warlords"
+        },
+        {
+            "link": "3vspx8",
+            "title": "Orkish Clans"
+        },
+        {
+            "link": "47x04h",
+            "title": "Plains"
+        }
+    ]
+}

@@ -1,0 +1,504 @@
+{
+    "description": "",
+    "id": "41vnh6",
+    "keywords": [
+        ""
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/41vnh6",
+    "related_tables": [],
+    "tables": [
+        {
+            "dice": "d20",
+            "name": "Find the...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Big cracked boulder."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Lightning-blasted oak tree."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Rock shaped like a horse."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Stone wall with a piece of volcanic glass ."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Exact center of the village/town/city."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Statue of a famous person."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Shipwreck of an infamous pirate ship."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Bones of the black dragon."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Cavern near the waterfall."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Top of the volcano."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Exact center of the lake."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Abandoned Temple."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "Old Fort."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "Old Standing Circle."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "Road marker leading south."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "Exact center of the longest bridge."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "Hangman's scaffold."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "King's/Queens throne room."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "Crossroads."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "Largest tomb in the cemetery."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "Then...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Go North for 1-4 miles."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Go South for 1-4 miles."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Go East for 1-4 miles."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Go West for 1-4 miles."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Go Northeast for 1-4 miles."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Go Northwest for 1-4 miles."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Go Southeast for 1-4 miles."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Go Southwest for 1-4 miles."
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "Until you find the...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Mountain shaped like a tooth."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Hill shaped like a saddle."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Cliffs of red stone."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Tiny caves in a white hill."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Old fortress ruins."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Dried up creekbed."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Swift-running river."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Waterfall."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Abandoned village."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Tree with a large hole in it."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Toppled statue of a deity."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Landslide of shale and gravel."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "Steep-sided valley with blue flowers."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "Beach strewn with black seashells."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "Broken remains of a watchtower."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "Road marker pointing east."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "Dilapidated hunter's shack."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "Crossroads."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "Hand-cut stairway into the hillside."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "The canyon with natural stairs leading down."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "Then...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Go North for 1-4 miles."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Go South for 1-4 miles."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Go East for 1-4 miles."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Go West for 1-4 miles."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Go Northeast for 1-4 miles."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Go Northwest for 1-4 miles."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Go Southeast for 1-4 miles."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Go Southwest for 1-4 miles."
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "Until you find the...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Rock shaped like a heart."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Mountain shaped like a bird's head."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Petrified forest."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Salt lake."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Dried up swampland."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Broken bridge."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Old abandoned mill."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "The ruined tower of a famous mage."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "The ancient cemetery."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "The mossy limestone cliffs."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "The old granite quarry."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "The abandoned campgrounds."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "The vandalized statue of a former ruler."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "The crossroads."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "The road marker pointing West."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "Shipwreck of a well-known war ship."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "Minaret."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "Quicksand."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "Hills honeycombed with caves."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "Old King's Forest."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "Then...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Go North for 1-4 miles."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Go South for 1-4 miles."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Go East for 1-4 miles."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Go West for 1-4 miles."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Go Northeast for 1-4 miles."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Go Northwest for 1-4 miles."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Go Southeast for 1-4 miles."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Go Southwest for 1-4 miles."
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "You'll find the treasure...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Buried at the foot of a cliff."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Buried under a mighty oak tree."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Buried under some tower ruins."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Buried under a pile of skulls."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Buried in the grave of a famous person."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Hidden at the top of an old tower."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Hidden behind an old painting."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Hidden at the bottom of an old rabbit's warren."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Hidden in the bole of an ancient elm tree."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Hidden in a shipwreck's hold."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Guarded by assassins."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Guarded by monsters."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "Guarded by soldiers."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "Guarded by spirits."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "Guarded by a big monster."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "Protected by magical wards."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "Protected by astral locks."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "Protected by physical traps."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "Protected by necromantic curses."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "Protected by spiritual prayers."
+                }
+            ]
+        }
+    ],
+    "title": "Treasure Maps",
+    "use_with": [
+        {
+            "link": "43wsio",
+            "title": "Books"
+        },
+        {
+            "link": "435djx",
+            "title": "Coins"
+        },
+        {
+            "link": "41vhpr",
+            "title": "Legendary weapons"
+        },
+        {
+            "link": "41vjmj",
+            "title": "Magic wands"
+        },
+        {
+            "link": "43bznq",
+            "title": "Traps"
+        },
+        {
+            "link": "3t5sik",
+            "title": "Pirate crews"
+        },
+        {
+            "link": "438vlw",
+            "title": "Treasure chests"
+        },
+        {
+            "link": "3uzziq",
+            "title": "Treasure hunters"
+        }
+    ]
+}

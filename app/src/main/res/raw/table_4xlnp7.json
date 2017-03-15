@@ -1,0 +1,1007 @@
+{
+    "description": "Use these tables to quickly generate a unique nation for your players. The nation includes the politics, economics, and state of affairs, to add a distinct flair to your player's exploration",
+    "id": "4xlnp7",
+    "keywords": [
+        "nation",
+        "politics",
+        "economics"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/4xlnp7",
+    "related_tables": [],
+    "tables": [
+        {
+            "dice": "d6",
+            "name": "Age: The nation is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Ancient; No one remembers when it was founded"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Very Old; It has been standing for millennia"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Old; It has been around for centuries"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Young; The elderly can remember when it was formed"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Very Young; It was founded within the past generation"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Fledgling: It was very recently founded"
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Political System: The nation is run by...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Democracy; Every citizen has an equal say in how the government is run"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Republic; Individuals represent groups of citizens"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Monarchy; A ruling class passes leadership through a predisposed line of sovereignty"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Empire; A wide-spread collection of states or communities with complex organization to maintain fealty to the ruler"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Dictatorship; A single all-powerful ruler lords over the people"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Tribal; There is no specific ruler, rather there is an uncoordinated group of tribes"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Anarchy; There is no centralized government nor authority. The people are self-policing"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Communism; The ruling class distributes all aspects of society including economics, jobs, resources, and where to live to make sure everyone has an equal share."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Theocracy; Religious leaders hold the power, and laws are dictated by religious beliefs"
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Oligarchy; A small group of people maintain control of the nation"
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "Economics: The dominant economic influence is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Manorial agriculture. Serfs and freemen work their lord's land."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Trade guilds. Conglomerates of tradespeople control the means of producing and distributing the most valuable goods."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Nomadic grazing. Herds of domestic animals roam freely, and people follow their movements."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Feudalism. The rulers control all land, and designate landholders to oversee production, distribution and taxation in those areas."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Cottage industry. Small, family groups produce most trade goods."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Mercantilism. Trade is strictly regulated by the government, in favor of local production."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Corporatism. Different areas of the economy are controlled by defined organizations, often given national charter."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Family conglomeratism. A few key families control production and distribution across multiple industries."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Syndicalism. Groups of workers control production and distribution in different areas of the economy."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Communism. The state controls the means of production, and distributes goods evenly to the population."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Hunting and gathering. Food is obtained by foraging."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Post-scarcity. Most goods needed for survival are available cheaply/freely to all."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "Market system. Goods are produced and traded freely by individuals and groups."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "Industrialism. Mining and manufacturing dominate the economy."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "Knowledge economy. Scribes, theologians and other knowledge workers dominate be economy."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "Mages. Magic-users control the means of production and distribution."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "The church or churches. The means of production and distribution are controlled by religious leaders."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "Manorial agriculture and roll again on this table."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "Trade. There is no centralized currency. Citizens trade for all goods and services"
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "Benevolent Deity. A powerful being or group of powerful beings gives the people what it sees fit."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "Ruler: The ruler(s) of the nation is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A demagogue; He rules the nation through fear and prejudices"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A philosopher"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A military leader"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A council of elders"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A council of randomly selected citizens"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Corporations"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A power hungry dictator"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A manipulative politician"
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A noble philanthropist"
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A religious zealot"
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A puppet of a secret society"
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A figure-head. The real power lies at the local level"
+                }
+            ]
+        },
+        {
+            "dice": "d30",
+            "name": "A unique characteristic of the nation is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "It is undergoing a civil war"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "It is experiencing extreme inflation"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "It is at war with another nation"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "It is controlled by a secret society pulling the strings"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "The political system is collapsing"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "It is believe to be protected by a god"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "The citizens believe it to be the greatest nation in the world"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "It is the home of a legendary warrior"
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "It is the home of a famous philosopher"
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "It is undefeated in battle"
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "It is imperialistic; always trying to conquer new territory"
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "It is isolationist; it does not like interacting with other nations"
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "It is the home of a legendary artifact"
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "It is extremely strict with its laws"
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "Vigilantism is condoned"
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "It is a pillar of moral values"
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "It is generally hated by other nations"
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "Its borders are open to refugees"
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "It is being crippled by sanctions from other nations"
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "It has been invaded by another nation"
+                },
+                {
+                    "dice_val": "21",
+                    "entry": "A popular and respected public figure recently died"
+                },
+                {
+                    "dice_val": "22",
+                    "entry": "Slavery is an accepted practice"
+                },
+                {
+                    "dice_val": "23",
+                    "entry": "Women are considered to be lesser people"
+                },
+                {
+                    "dice_val": "24",
+                    "entry": "Men are considered to be lesser people"
+                },
+                {
+                    "dice_val": "25",
+                    "entry": "The people observe a single day each year when all crime is legal"
+                },
+                {
+                    "dice_val": "26",
+                    "entry": "All trials are settled through death by combat"
+                },
+                {
+                    "dice_val": "27",
+                    "entry": "All trials are settled through a sporting competition"
+                },
+                {
+                    "dice_val": "28",
+                    "entry": "Annual gladiatorial combat is held, and the participants are randomly selected among the citizens"
+                },
+                {
+                    "dice_val": "29",
+                    "entry": "Prisoners are offered a chance at freedom if they can win a gladiatorial game. The games are... (d6): 1. Rigged. Prisoners are not intended to survive; 2. Extremely difficult, almost no one ever survives; 3. Fair. A skilled warrior has a chance at winning; 4. Easy. Just about anyone with a bit of skill can win; 5. Unbalanced; Many enter, only one leaves; 6. Massive. Hundreds enter at a time, but only a few survive"
+                },
+                {
+                    "dice_val": "30",
+                    "entry": "A citizen is randomly selected, and sacrificed annually"
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "Founding: The nation was founded by...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Revolutionaries seeking freedom from an oppressive government"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A power-hungry tyrant"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A religious order"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A philosopher wanting to experiment with a new social order"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A tribe that evolved into a nation"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "An explorer who claimed the land for his own"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A god"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A cult claiming a bastion separate from society"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Autonomous states"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Fiefdoms"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Cities"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Duchies"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Provinces"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Geographical regions"
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "Mood: The citizens are...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Miserable; They hate their government or leaders, and feel oppressed"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Unhappy; They don't like the state of their nation, and don't feel like they are valued or treated well"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Satiated; Though they may not like things about the government, they are happy enough with their current life to risk losing what they have"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Happy; Even if things aren't perfect, they are generally happy with their way of life"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Extremely happy; They love their lives"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Angry; They are being pushed to their limits"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Patriotic; They love their nation, and will die to protect it"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Confused; They people feel like the nation is in a state of turmoil, and don't know what tomorrow will hold"
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Anxious; Something bad is coming, they just know it, even if they don't know what it is"
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Frightened; People gather for safety, or stay in their homes at night"
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Scared; People live in fear of their nation's leaders"
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Indifferent; The politics of the nation are unimportant in day to day life"
+                }
+            ]
+        },
+        {
+            "dice": "d5",
+            "name": "Wealth and Prosperity: The citizens are...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Very well off; They enjoy the finer things in life"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Doing well; Their needs are met, and they have the ability to improve their station in life"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "They have enough to get by, but not enough to improve their station in life"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Poor; The people are barely scraping by"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Desperate; They are lucky to find food and shelter"
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Religion: The nation's approach to religion is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A specific religion is required of all citizens."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A specific religion is encouraged, but not required. All other religions are banned"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "The nation allows a select list of acceptable religions"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "The nation allows any religion, but bans a select list"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "All religions are welcome, though some are discouraged"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "All religions are welcome, though some are encouraged"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Religion is banned all together"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A single religion is very popular, while others are generally considered to be strange or blasphemous"
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Two or more religions are warring to be the only nationally sponsored religion"
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Religion is not important to the people, nor the rulers."
+                }
+            ]
+        },
+        {
+            "dice": "d50",
+            "name": "Laws: A notable law includes...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Capital punishment for most crimes"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Magic is banned"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Drug use is legal"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Alcohol use is banned"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Citizens are not allowed to speak poorly of their leaders"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Military service is required of all citizens"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Hunting of a specific species is banned (d100): 1. Wolves; 2. Lions; 3. Tigers; 4. Chickens; 5. Bears; 6. Elf; 7. Boar; 8. Apes; 9. Monkeys; 10. Axe Beaks; 11. Baboons; 12. Badgers; 13. Blink Dogs; 14. Leopards; 15. Hawks; 16. Eagles; 17. Crocodiles; 18. Alligators; 19. Death Dogs; 20. Dire Wolves; 21. Horses; 22. Deer; 23. Moose; 24. Elephants; 25. Giant Apes; 26. Giant Badgers; 27. Giant Bats; 28. Giant Boar; 29. Giant Centipede; 30. Giant Snakes; 31. Giant Crab; 32. Giant Crocodile; 33. Giant Alligator; 34. Giant Elk; 35. Giant Fire Beetles; 36. Giant Frogs; 37. Goats; 38. Giant Goats; 39. Giant Lizards; 40. Octopuses; 41. Giant Octopuses; 42. Giant Owls; 43. Owls; 44. Giant Rats; 45. Rats; 46. Giant Scorpions; 47. Sharks; 48. Giant Sharks; 49. Giant Spiders; 50. Giant Toads; 51. Giant Vultures; 52. Giant Wasps; 53. Giant Weasels; 54. Weasels; 55. Whales; 56. Hyenas; 57. Jackals; 58. Killer Whales; 59. Mammoths; 60. Dogs; 61. Panthers; 62. Ravens; 63. Rhinoceros; 64. Saber-Toothed Tigers; 65. Worgs; 66. Giraffes; 67. Ankhegs; 68. Cockatrice; 69. Bulettes; 70. Basilisks; 71. Chimera; 72. Dinosaurs; 73. Displacer Beasts; 74. Undead; 75. Gnolls; 76. Goblins; 77. Griffons; 78. Harpies; 79. Hippogriffs; 80. Kobolds; 81. Lizardfolk; 82. Manticore; 83. Ogres; 84. Orcs; 85. Owlbears; 86. Pixies; 87. Sprites; 88. Trolls; 89. Unicorns; 90. Yetis; 91. Demons; 92. Dragons; 93. Giants; 94. Lycanthropes; 95. Cougars; 96. Cats; 97. Turtles; 98. Dolphins; 99. Brownies; 100. Kangaroos"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Religious leaders must register with a local authority"
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Revenge killing is legal"
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Magic users must register with a local authority"
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Begging is illegal"
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Prostitution is illegal"
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "The native population is a protected class"
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "The native population can be hunted for a reward"
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "The native population can be hunted for sport"
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "No one is allowed to own more than an acre of land"
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "Everyone is guaranteed an acre of land"
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "The nation maintains protected land that may be not be used by private citizens"
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "No animal may be ridden"
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "No citizen is allowed to use a pack animal"
+                },
+                {
+                    "dice_val": "21",
+                    "entry": "No citizen is allowed to use animals to assist with farming, or heavy labor"
+                },
+                {
+                    "dice_val": "22",
+                    "entry": "Soldiers are not allowed to enter a citizen's home without permission"
+                },
+                {
+                    "dice_val": "23",
+                    "entry": "A citizen's private property is not allowed to be searched with out permission"
+                },
+                {
+                    "dice_val": "24",
+                    "entry": "Prima Nocta; Leaders have first rights to deflower newly-weds"
+                },
+                {
+                    "dice_val": "25",
+                    "entry": "Animal fighting is banned"
+                },
+                {
+                    "dice_val": "26",
+                    "entry": "It is illegal to impersonate a member of the clergy"
+                },
+                {
+                    "dice_val": "27",
+                    "entry": "It is illegal to bite off another person's leg"
+                },
+                {
+                    "dice_val": "28",
+                    "entry": "It is illegal to walk backwards after sunset"
+                },
+                {
+                    "dice_val": "29",
+                    "entry": "Fishing is prohibited"
+                },
+                {
+                    "dice_val": "30",
+                    "entry": "Divorce is illegal"
+                },
+                {
+                    "dice_val": "31",
+                    "entry": "It is only legal to move large groups of animals at certain times of the day"
+                },
+                {
+                    "dice_val": "32",
+                    "entry": "Profanities may not be spoken in public"
+                },
+                {
+                    "dice_val": "33",
+                    "entry": "It is legal to hunt and kill members of a specific religion"
+                },
+                {
+                    "dice_val": "34",
+                    "entry": "Escape from prison is not illegal"
+                },
+                {
+                    "dice_val": "35",
+                    "entry": "Public affection is illegal"
+                },
+                {
+                    "dice_val": "36",
+                    "entry": "It is illegal to feed animals in public places"
+                },
+                {
+                    "dice_val": "37",
+                    "entry": "All persons in public must be bathed, and perfumed"
+                },
+                {
+                    "dice_val": "38",
+                    "entry": "All food sold must be approved by a local authority"
+                },
+                {
+                    "dice_val": "39",
+                    "entry": "All weapons must be registered with a local authority"
+                },
+                {
+                    "dice_val": "40",
+                    "entry": "All procreation is regulated, and must be approved by the government"
+                },
+                {
+                    "dice_val": "41",
+                    "entry": "All deforestation must be approved by a local authority"
+                },
+                {
+                    "dice_val": "42",
+                    "entry": "All farms must be approved by a local authority"
+                },
+                {
+                    "dice_val": "43",
+                    "entry": "All citizens are required to do regular charity work"
+                },
+                {
+                    "dice_val": "44",
+                    "entry": "Martial weapons are prohibited"
+                },
+                {
+                    "dice_val": "45",
+                    "entry": "Citizens may kill trespassers"
+                },
+                {
+                    "dice_val": "46",
+                    "entry": "Bounty hunting is illegal"
+                },
+                {
+                    "dice_val": "47",
+                    "entry": "Money changing is illegal"
+                },
+                {
+                    "dice_val": "48",
+                    "entry": "Money lending is illegal"
+                },
+                {
+                    "dice_val": "49",
+                    "entry": "Gambling is illegal"
+                },
+                {
+                    "dice_val": "50",
+                    "entry": "Businesses are not allowed to operate an a specific day each week"
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "Language: The common spoken language is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Common"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Dwarvish"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Elvish"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Draconic"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Abyssal"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Celestial"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Deep Speech"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Druidic"
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Giant"
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Gnomish"
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Goblin"
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Gnoll"
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "Halfling"
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "Infernal"
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "Orc"
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "Primordial"
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "Sylvan"
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "Undercommon"
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "Common and one other language (roll again on this table)"
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "Two languages (roll two more times on this table)"
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "Xenophobia: The various races are treated...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Each race hates all other races"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Each race lives in peace with all other races, but stick to their own"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Humans and Demi-humans (dwarves, elves, etc) get along, but do not tolerate sub-humans (goblinoids, orcs, etc)"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Each race tolerates the others, but they don't get along well"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "The races are split into factions. Each faction hates the others"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "The races get along, but a single race is hated by all others (d10): 1. Dwarves; 2. Elves; 3. Tieflings; 4. Humans; 5. Halflings; 6. Gnomes; 7. Gnomes; 8. Hybrid races (half-orcs, half-elves); 9. Dragonborn; 10. An additional race is hated. (roll twice on this table)"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "The races do not get along, but a single race is revered by all others (d10): 1. Dwarves; 2. Elves; 3. Tieflings; 4. Humans; 5. Halflings; 6. Gnomes; 7. Gnomes; 8. Hybrid races (half-orcs, half-elves); 9. Dragonborn; 10. An additional race is revered. (roll twice on this table)"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "The races mix freely"
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Class System: Social classes in the society are determined by...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Age"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Race"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Profession"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Lineage"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Birthplace"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Height"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Wealth"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Gender"
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A physical feature (d3): 1. Eye color; 2. Hair color; 3. Skin color"
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Religion"
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "Social Pariahs: Social outcasts generally include...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Bastards"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Lycanthropes"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "The ill"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "The elderly"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "The homeless"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Mercenaries"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Druids"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Rangers"
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Law breakers"
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Merchants"
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Magic users"
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "The clergy"
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "Local law enforcement"
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "Widows and Widowers"
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "Oath-breakers"
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "The Dishonored"
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "Followers of a specific religion"
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "Drunks"
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "Prostitutes"
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "Foreigners"
+                }
+            ]
+        }
+    ],
+    "title": "Nation",
+    "use_with": []
+}

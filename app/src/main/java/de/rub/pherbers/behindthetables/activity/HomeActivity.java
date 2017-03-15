@@ -74,7 +74,7 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
 	private void discoverTables() {
 		String tableIdentifier = getString(R.string.const_table_identifier).toLowerCase();
 
-		Timber.i("Just to be sure. Known raw file ID: " + R.raw.table_t4y5pl2);
+		Timber.i("Just to be sure. Known raw file ID: " + R.raw.table_4y5pl2);
 		Field[] fields = R.raw.class.getFields();
 		for (int i = 0; i < fields.length - 1; i++) {
 			String name = fields[i].getName();

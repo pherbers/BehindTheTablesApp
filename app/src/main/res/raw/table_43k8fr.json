@@ -1,0 +1,776 @@
+{
+    "description": "Use these tables for quick inspiration to lay out the basics for a prison complex.",
+    "id": "43k8fr",
+    "keywords": [
+        "prison",
+        "inquisitor",
+        "inquisition",
+        "jail",
+        "lockup",
+        "slammer",
+        "torture pits",
+        "dungeons",
+        "pit of despair",
+        "the machine"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/43k8fr",
+    "related_tables": [
+        {
+            "link": "43ek9v",
+            "title": "Castles"
+        },
+        {
+            "link": "43t6g9",
+            "title": "Castle dungeons"
+        }
+    ],
+    "tables": [
+        {
+            "dice": "d12",
+            "name": "The prison is located...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "On a small island on a remote coast."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "On a small island near a city."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "In a tower of a castle."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Beneath a temple complex."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "In an annex on a temple complex."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Beneath a town hall."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "In an annex on a town hall."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Underneath a city, deep below ground."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Behind walls in a fortified rural location (d4): 1. coastland; 2. farmland; 3. mining country; 4. ranchland."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Below ground, in a hidden rural location (d4): 1. coastland; 2. farmland; 3. mining country; 4. ranchland."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Behind walls in a fortified wilerness location (d6): 1. desert, 2. forest, 3. hills; 4. mountains, 5. swamp; 6. tundra."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Below ground, in a hidden wilderness location (d6): 1. desert, 2. forest, 3. hills; 4. mountains, 5. swamp; 6. tundra."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "The prison was built by...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A wise king or queen."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "An ambitious lord or lady."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "An evil tyrant."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A civic committee."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A popular mayor or sheriff."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "An unscrupulous king or queen."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A prosperous merchant guild."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A powerful noble house."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The prison complex is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A sprawling maze of twisting passages."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A sprawling maze of narrow passages."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Organized into small, neat rows of cells or pits."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Organized around a large central cell block or pit."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "An endless series of long corridors."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A series of corridors with very low ceilings."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The prison is surrounded by...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Very high stone walls."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Incredibly thick stone walls."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A curtain wall with many gatehouses."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A moat filled with putrescent water."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A moat filled with thick, boot-sucking mud."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A moat filled with sharp spikes."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Prisoners are held within...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Individual cells, in complete isolation."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Individual cells, but they can see and hear other prisoners."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Individual cells, but they can hear other prisoners."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Cells that accommodate up to two prisoners."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Cells that accommodate up to two prisoners, each shackled to the wall."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Cells that accommodate up to four prisoners."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Cells that accommodate up to four prisoners, each shackled to the wall."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A large chamber with many other prisoners, each shackled to the wall."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Individual pits or wells, open at the top."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "One or more huge pit with many other prisoners."
+                }
+            ]
+        },
+        {
+            "dice": "d4",
+            "name": "The cells\u2019 (or pits\u2019) condition is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Well-maintained; the walls are solid."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Aging, but sturdy; the walls have some cracks."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Decrepit; the walls are crumbling."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "So dark it\u2019s difficult to say."
+                }
+            ]
+        },
+        {
+            "dice": "d4",
+            "name": "Prisoners are treated...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Humanely; they receive reasonable meals, some exercise, and healing when needed."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Like dogs; they receive poor quality meals and enough healing to keep them alive."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Like rats; they receive terrible meals and are plagued by sickness."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Like they don\u2019t exist; occasionally they receive food."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Rooms: This chamber is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A prison cell."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Another prison cell."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A passageway connecting cell blocks."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A guardroom."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "The barracks."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "The jailer\u2019s quarters."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A yard or large indoor space for exercise."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A dining hall."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "An interrogation room."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A torture chamber."
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "Features: You notice...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A wooden door reinforced with steel bands."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Steel bars where you expected a stone wall."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Empty manacles along the wall."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "An empty sconce to hold a torch."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Distant torchlight."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "The floor is uneven."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A crack in the stone floor."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A mouse skittering underfoot."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "The stench of rotting flesh."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "The scent of stale urine."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A putrid smell."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A dank and moldy odor."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "An uncomfortable groaning."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "A faint scratching sound."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "An odd tapping sound."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "The squeaking of rats."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "The shouting of distant voices."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "Howls of agony."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "Horrific screams."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "The clanking of chains."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "The prison is known for...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Many prisoners dying in a terrible plague."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A mass escape in the past."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "The escape of a famous criminal."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Being the final home of a famous criminal."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Being the final home of a legendary hero."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Being haunted by vengeful ghosts."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Its horrific torture pits."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Never suffering a successful escape. "
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Its unusual architectural style."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "The quality of its meals."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "Escape Encounters: You come upon...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A snoozing guard."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A pair of guards on patrol."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A quartet of guards playing cards or dice on their break."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A pack of trained hunting dogs commanded by a high-ranking guard who has been alerted of the escape attempt."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A law official on-site to interrogate another prisoner about an unrelated case."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "An ear-splitting alarm triggers."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A wide, well-lit yard that must be crossed with guards watching it from towers."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A high wall directly in the path of escape."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A barred window in the path of escape."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "The rat-infested kitchens and mess hall."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "An imprisoned serial killer who also attempting to escape."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "An imprisoned thief who is bent on revenge."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "According to rumor, within the prison\u2019s walls lies...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A secret tunnel to the outside."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "The bones of a celebrated outlaw."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "The preserved head of an ancient villain."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A terrible beast to which prisoners are fed."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A missing lord or lady."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A treasure stolen by a notorious prisoner."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A unique and terrible torture device."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "The bones of a deposed king or queen."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "The jailer is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A coward who likes to act tough."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A bully in every sense of the word."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A bastard son of a noble house.\t"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A man who grew up among criminals."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A priest with a puritanical agenda."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A horrible sadist."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A mild-mannered man of faith."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A wicked little man."
+                }
+            ]
+        },
+        {
+            "dice": "d4",
+            "name": "The jailer is concerned about...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Rumors of an upcoming escape attempt."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Losing his job after a messy prisoner death."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Facing a prisoner who creeps him out."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Ways to make a little extra silver."
+                }
+            ]
+        },
+        {
+            "dice": "d4",
+            "name": "The jailer is looking to...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Abuse someone who is defenseless."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Make himself feel powerful."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Reach out to a disturbed prisoner. "
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Swap grisly tales."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "The jailer carries...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A large ring of keys."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A large knife and a sap."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A pale of cold porridge from the kitchens."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A trophy taken from a tortured prisoner."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A pocket-sized prayer book."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A spiked club."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A scourge or whip."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A wineskin."
+                }
+            ]
+        },
+        {
+            "dice": "d4",
+            "name": "The guard took this job for...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "The steady pay."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "The chance to bully others."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "To prove how tough he is."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "To take out his aggression on criminals."
+                }
+            ]
+        },
+        {
+            "dice": "d4",
+            "name": "On the guard\u2019s face is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "An unsightly scar."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A stupid grin."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A blank stare."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A bushy mustache."
+                }
+            ]
+        },
+        {
+            "dice": "d4",
+            "name": "The prisoner has...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A long scraggly beard."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A patchy beard."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Skin draped loosely over his bones."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Boils and sores on his skin."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The prisoner is here because...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "He stole something."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "He killed someone."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "He raped someone."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "He advocated rebellion and unrest."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "He committed an act of fraud."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Someone confused him with someone else."
+                }
+            ]
+        }
+    ],
+    "title": "Prisons",
+    "use_with": [
+        {
+            "link": "43uzib",
+            "title": "Dungeon encounters"
+        },
+        {
+            "link": "3sqres",
+            "title": "Serial killers"
+        },
+        {
+            "link": "4034w3",
+            "title": "Thieves"
+        },
+        {
+            "link": "3tkge0",
+            "title": "Watchmen"
+        }
+    ]
+}

@@ -1,0 +1,350 @@
+{
+    "description": "Use for when a party encounters a treasure chest to give it some tasty flavor.  Delicious, delicious treasure chests.  Can also be used to make Mimics if you feel like it.",
+    "id": "438vlw",
+    "keywords": [
+        "Treasure",
+        "hoarde",
+        "chest",
+        "coins",
+        "mimic",
+        "pirate",
+        "dragon",
+        "furniture"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/438vlw",
+    "related_tables": [],
+    "tables": [
+        {
+            "dice": "d12",
+            "name": "The chest\u2019s style is",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Crude"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Standard"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Fancy"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Elven"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Bejeweled"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Draconic"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Dwarven"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Pretty Princess"
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Pirate"
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Woven"
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Creepy"
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Heavy Duty"
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "It's construction material is",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Old, rotting wood"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Sturdy oak"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Diamondwood"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Iron"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Steel"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Bone"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Obsidian"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Glass"
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Ice"
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Silver"
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Gold"
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Ebony"
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "It has hinges and trim made from",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Iron"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Steel"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Brass"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Silver"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Gold"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Bronze"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Ebony"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Leather"
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Wood"
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Mithril"
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Adamantite"
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Dragon Leather"
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "The chest's definitive marking is",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Artistic Scrollwork"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Tree Pattern"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Dwarven Runes"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Elvish Script"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Lion emblem"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Carving of a Dragon"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Decorative skull"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Glowing Crystals"
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Mystic Sigils"
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Staring Eyes"
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Claw-like feet"
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Bas-relief of a battle"
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "Trap Used",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Poison Dart"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Arrow"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Small explosion"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Alarm"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Pit trap"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Boulder Trap"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Heavy Blade"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Spears"
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Water fills room"
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Sand fills room"
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Poison gas"
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Random Spell"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Lock type",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Padlock"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Internal mechanism"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Combination"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Puzzle Lock"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Password"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Hidden lock mechanism"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Key Location",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Hidden in same room"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Plain sight"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "On guardian"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Another room"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Held by owner"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Lost"
+                }
+            ]
+        }
+    ],
+    "title": "Treasure Chests",
+    "use_with": []
+}

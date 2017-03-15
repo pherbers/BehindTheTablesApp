@@ -1,0 +1,809 @@
+{
+    "description": "These tables are for quickly generating a card game, dice game, or board game to add some cultural flavor to your world. Something where the locals' money can change hands among themselves, where the occasional shark may pack away quite a purse over the course of a few nights, where a traveler who is fingered as a \"ringer\" is run out of town, or where lords and ladies play socially while sipping expensive wine. Three-Dragon Ante is fine and all, but there are so many more possibilities...",
+    "id": "4v0jbu",
+    "keywords": [
+        "game",
+        "gambling",
+        "dice",
+        "cards",
+        "deck",
+        "chess",
+        "checkers",
+        "cyvasse",
+        "cribbage",
+        "d&amp;d"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/4v0jbu",
+    "related_tables": [],
+    "tables": [
+        {
+            "dice": "d12",
+            "name": "This game is played with...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A deck of over 100 cards."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A deck of 53 cards."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A deck of 52 cards."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A deck of 24 cards."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A deck of 22 cards."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A deck with a variable number of cards."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A pair of dice."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Several dice."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Several dice, pencils, and paper."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "One or two dice and a board with pieces."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A board with sets of matching pieces."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A board with sets of individual pieces."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "In this game...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Players have the opportunity to bet once on each player's turn."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Players have several opportunities to bet on each player's turn."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Players have several opportunities to bet each round."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Players must bet before the round is played."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Players must bet before the game begins."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Spectators bet as often as players do."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Spectators typically place bets before the game begins."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Spectators often place bets while the game is in progress."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Cheating is extremely rare or impossible."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Cheating is difficult, and often occurs with the help of someone else in the room."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Cheating is common."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Cheating is encouraged."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "This game is known for...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "High stakes gambling."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Low stakes, social gambling."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Its simple set of rules."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Its complicated set of rules."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "The ease with which anyone can learn to play."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Its class of expert players and their elaborate strategies."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A celebrated instance of cheating that launched a war."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A celebrated instance of cheating that prevented a war."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A legendary match involving a king or queen."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A legendary match involving a witch or wizard."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A storied bet where the loser faced a monster (d8): 1. aberration with many eyes; 2. dragon; 3. demon; 4. devil; 5. elemental; 6. kraken; 7. lich; 8. vampire."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A storied bet in which the winner took something from the loser (d8): 1. airship; 2. ancient text; 3. castle; 4. keys to the city; 5. magic sword; 6. magic wand; 7. princess; 8. treasure hoard."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "The game is popular among...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Sailors and pirates."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Fishermen and dockworkers."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Thieves and knaves."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Knights and lords."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Peasants."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Dwarves."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Miners and smiths."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Goblins and hobgoblins."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Elves."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Noblewomen."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Masons and stonecutters."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Mages and priests."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "The game originated...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Long ago in this region."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Long ago in a foreign land."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Long ago in an unknown location."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "In the recent past in this region."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "In the recent past in this very room."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "In the recent past in a foreign land."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Down along the docks of a bustling port city."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "In a quaint country inn."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "In rough-and-tumble urban tavern."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Along a trade route to an exotic land."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "In the court of a mighty king or queen."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "In the mind of a half-mad wizard."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "On each turn, the player...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Plays a card from his or her hand face up or face down on the table."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Draws one or more cards from a personal deck."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Draws one card from a community deck."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Draws a card from a community deck if he or she has no other plays."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Places a card from his or her hand into the discard pile."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Lays down a pair, a three or four of a kind, or a straight on the table."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Lays down a card to build threes and fours of a kind or straights on the table."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Draws one or more cards from a personal deck."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "To win the game, a player must...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Play all the cards in his or her hand."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Be holding the highest score at the end of the hand."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Be holding the score closest to a target score."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Hold all the cards in the deck."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Win the most tricks over the course of a round."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Be holding the lowest score at the end of the hand."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Bluff and bet their way to having the lowest scoring hand."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Bluff and bet there way to being the highest scoring hand."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "The highest card or hand is called...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "The dragon."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "The lord."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "The crown."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "The queen."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "The alchemist."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "The knight."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "The champion."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "The eagle."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "The lowest card or hand is called...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "The worm."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "The beggar."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "The rat."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "The fool."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "The crone."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "The devil."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "The villain."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "The pigeon."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "On each turn, the player...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Rolls once."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Rolls twice, keeping the better results."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Rolls once or twice, keeping the second result on a reroll."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Rolls at the same time as other players."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Rolls and hides the results from other players."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Rolls and hides the results from him- or herself and from other players."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Rolls and hides the results from him- or herself but not from the other players."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Rolls and waits for an arbiter to make a ruling."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "To win the game, a player must...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Have rolled the highest score in play."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Roll the highest possible score."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Roll the lowest possible score."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Have rolled the lowest score in play."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Achieve a target score over the succession of many rolls."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Outscore his or her opponents over the succession of many rolls."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Bluff and bet their way to having the lowest remaining score."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Bluff and bet there way to being the highest remaining score."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "The highest roll is called...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "The dragon."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "The keep."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "The warship."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "The maiden."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "The thunder."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "The shark."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "The tower."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "The sorcerer."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "The lowest roll is called...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "The snake."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "The thief."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "The dinghy."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "The hag."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "The ghost ship."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "The tuna."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "The pits."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "The demon."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "On a typical turn, the player...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Moves one of his or her pieces on the board."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Places a piece on the board."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Moves two or more of his or her pieces on the board."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Places two or more pieces on the board."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Removes one or more of his or her opponent's pieces by encircling it or flanking it."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Halts his or her opponent's progress by encircling or flanking one or more of the opponent's pieces."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Converts one or more of his or her opponent's pieces by encircling it or flanking it."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Moves his or her piece closer to a destination space on the board."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "To win the game, a player must...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Capture all of his or her opponents pieces."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Kill all of his or her opponents pieces."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Race his or her opponent's pieces through a labyrinth of obstacles."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Maneuver pieces to the far side of his or her opponent's territory."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Capture his or her opponent's headquarters."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Kill his or her opponent's commanding piece."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Score points while navigating pieces through a labyrinth."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Claim territorial positions with pieces before his or her opponent does."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "The most powerful piece or winning maneuver is called...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "The dragon."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "The warhorse."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "The warlord."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "The mastermind."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "The queen."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "The dark lord."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "The treasure chest."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "The sword."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "The weakest piece or biggest blunder is called...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "The minion."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "The foot soldier."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "The goblin."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "The goon."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "The guard."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "The skeleton."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "The trap."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "The club."
+                }
+            ]
+        }
+    ],
+    "title": "Games",
+    "use_with": [
+        {
+            "link": "46ma8g",
+            "title": "Bards"
+        },
+        {
+            "link": "4eaqj0",
+            "title": "Dinner among easterlings"
+        },
+        {
+            "link": "4dv7i9",
+            "title": "Dinner at a country inn"
+        },
+        {
+            "link": "4dv87r",
+            "title": "Dinner at a dockside tavern"
+        },
+        {
+            "link": "4dmepa",
+            "title": "Dinner at a dwarvish alehouse"
+        },
+        {
+            "link": "4dx2z9",
+            "title": "Dinner at a hunters' lodge"
+        },
+        {
+            "link": "4dx43x",
+            "title": "Dinner at a mining town pub"
+        },
+        {
+            "link": "3xys3d",
+            "title": "Farmfolk"
+        },
+        {
+            "link": "43vqqs",
+            "title": "Miners"
+        },
+        {
+            "link": "3xyhdl",
+            "title": "Nobles"
+        },
+        {
+            "link": "3t5sik",
+            "title": "Pirates"
+        },
+        {
+            "link": "497u5a",
+            "title": "Sailors"
+        },
+        {
+            "link": "3tjg9d",
+            "title": "Soldiers"
+        },
+        {
+            "link": "435mxf",
+            "title": "Tavern goings-on"
+        },
+        {
+            "link": "4034w3",
+            "title": "Thieves"
+        }
+    ]
+}

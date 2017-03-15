@@ -1,0 +1,1531 @@
+{
+    "description": "Use these tables for quick inspiration to generate some NPCs who inhabit a castle.",
+    "id": "43emxb",
+    "keywords": [
+        "castle",
+        "lord",
+        "lady",
+        "king",
+        "queen",
+        "prince",
+        "princess",
+        "knight",
+        "archer",
+        "stronghold",
+        "defense",
+        "siege",
+        "battlement",
+        "rampart",
+        "merlon",
+        "stableboy",
+        "hodor"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/43emxb",
+    "related_tables": [
+        {
+            "link": "3sj9ub",
+            "title": "Town NPCs"
+        }
+    ],
+    "tables": [
+        {
+            "dice": "d6",
+            "name": "The lord is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A patient old man."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A wide-eyed young man."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A hot-tempered tyrant."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A patient and benevolent ruler."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A guest, a member of a powerful house."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A guest, a member of a lesser house."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The lord seeks someone to...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Dispose of an enemy."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Negotiate a trade contract."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Prepare the castle\u2019s defenders for war."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Sabotage a rival."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Arrange a beneficial marriage."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Have a good time with."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The lord carries...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Several deeds and titles."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A family heirloom."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Several inventories and invoices."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "An extremely valuable sword."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A compromising love letter."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A letter from a powerful lord or lady."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The lady is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A wise old woman."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A passionate young woman."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A homely young lady."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "An acerbic wit."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A guest, a member of a powerful house."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A guest, a member of a lesser house."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The lady seeks someone to...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Help gain revenge against a bitter rival."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Bring to light a scandal involving an enemy."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Secure a beneficial marriage."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Talk some sense into her husband or father."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Deliver a secret message."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Share some wine and gossip."
+                }
+            ]
+        },
+        {
+            "dice": "d4",
+            "name": "The lady carries...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A family heirloom."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Some very valuable jewels."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A compromising love letter."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A letter from a powerful lord or lady."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The guard serves his liege for...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "The steady pay."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "The chance to bully others."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Love of his liege\u2019s family."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "God and country."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "The chance to demonstrate his valor."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "The possibility of being raised to a knight."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "On the guard\u2019s face is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "An unsightly scar."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A haughty sneer."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A look of sadness."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "An eager grin."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A blank stare."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A bushy mustache."
+                }
+            ]
+        },
+        {
+            "dice": "d4",
+            "name": "The guard carries...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A highly polished blade."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A letter from a fallen comrade."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A trophy from a fallen enemy."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A ribbon from a sweet maiden."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The knight is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A beautiful youth."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A brutish thug."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A celebrated war hero."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A popular tavern patron."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A favorite among the ladies."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Ruggedly handsome."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The knight has sworn to...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Protect his liege from harm."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Defend his liege\u2019s lands."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Avenge his liege\u2019s personal grievances."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Protect his liege\u2019s loved ones."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Advance his liege\u2019s ideals or faith."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Ride to war in his liege\u2019s name. "
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The knight carries...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A finely crafted longsword."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A huge greatsword."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A well-used battleaxe."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A heavy warhammer."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A letter from his liege."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A favor from a faraway maiden."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The retainer is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A squire from a lesser noble house."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A frightened link boy."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A long-time valet or squire."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A reformed criminal-turned valet."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A prisoner of war."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A mysterious foreigner."
+                }
+            ]
+        },
+        {
+            "dice": "d4",
+            "name": "The retainer has...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A black eye."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Wild, shaggy hair."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A terrible stutter."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A lot of self-confidence."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The retainer wants to...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Earn a little silver."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Train with weapons to become a hero."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Earn the affection of his master."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Bring honor to his family name."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Avoid entangling himself in a scandal."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Have a drink and a rest."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The archer is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "An eager young marksman."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "An trigger-happy hotshot.\t"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A braggart and a fool."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A skilled hunter."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "An wily, old veteran."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A local archery champion."
+                }
+            ]
+        },
+        {
+            "dice": "d4",
+            "name": "The archer is looking to...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Help his allies slaughter the enemy."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Keep safe someone special in the castle."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Hear word of any percolating wars."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Eat, drink, and be merry."
+                }
+            ]
+        },
+        {
+            "dice": "d4",
+            "name": "The archer carries...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A longbow with a fraying string."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A longbow crafted of superior wood."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Arrows fletched with the feathers of a wild bird (d6): 1. eagle; 2. hawk; 3. owl; 4. pheasant; 5. raven; 6. swan."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A flask containing a strong drink."
+                }
+            ]
+        },
+        {
+            "dice": "d4",
+            "name": "The smith is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A meticulous armorsmith."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A blacksmith who makes decent swords."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A farrier who can mend swords."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A highly-skilled weaponsmith."
+                }
+            ]
+        },
+        {
+            "dice": "d4",
+            "name": "The smith is looking for...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Someone who can shoe horses."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Steel of the highest quality."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Dull blades to sharpen."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A mug of strong ale."
+                }
+            ]
+        },
+        {
+            "dice": "d4",
+            "name": "The smith carries...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A hammer."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A good luck charm."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A filthy rag."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Little more than a few coins."
+                }
+            ]
+        },
+        {
+            "dice": "d4",
+            "name": "The steward is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A lesser member of the liege\u2019s house."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A lesser member of a powerful house."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A member of a lesser house."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A commoner by birth."
+                }
+            ]
+        },
+        {
+            "dice": "d4",
+            "name": "The steward seeks someone to...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Obtain hard-to-get provisions."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Deliver some letters."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Help win over a sweetheart."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Share a drink and a laugh."
+                }
+            ]
+        },
+        {
+            "dice": "d4",
+            "name": "The steward is concerned about...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "The gold and silver in the treasury."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "The stores of cured meat and hard cheese."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Grains and ale."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "The stores of ale and wine."
+                }
+            ]
+        },
+        {
+            "dice": "d4",
+            "name": "The chaplain is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A devoted acolyte."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "An adept healer."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A wise source of counsel."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A drunken hypocrite."
+                }
+            ]
+        },
+        {
+            "dice": "d4",
+            "name": "The chaplain is looking for...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "News from the surrounding lands."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Sinners and heretics."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "The answer to an ancient mystery."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "The bottom of a goblet."
+                }
+            ]
+        },
+        {
+            "dice": "d4",
+            "name": "The chaplain carries...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A ceremonial cudgel or staff."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A prominently displayed holy symbol."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A pocketbook of sacred texts."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A wineskin."
+                }
+            ]
+        },
+        {
+            "dice": "d4",
+            "name": "The cook greets you with...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A goblet of warm wine."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A chunk of bread and a piece of cheese."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A cup of onion soup."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A tankard of mead."
+                }
+            ]
+        },
+        {
+            "dice": "d4",
+            "name": "The cook is looking for...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Someone to chop onions."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Some better cabbage."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A good joke or story."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "The bottom of a bottle."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The fool is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A dwarf."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Morbidly obese."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Wearing a mask."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Dressed in motley."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Dressed as a faux knight."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Dressed as a faux wizard."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "The fool gets the most laughs from...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Falling stunts."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Gorging himself with food or drink."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Singing silly songs."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Being hit over the head."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Lewd gestures."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Juggling sharp objects."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Swallowing flames."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Witty jokes and observations."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The fool wants nothing more than to...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Bring smiles to others\u2019 faces."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Get as far from this castle as he can."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Exact vengeance against a cruel noble."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Kiss a pretty maiden."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Have a drink and be merry."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Get drunk and feel numb."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The tutor is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A scholar trained at a university."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A wizard trained at an academy."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A wizard who had apprenticed to another."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A self-taught scholar of noble birth."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A monk of an order famed for wisdom."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A priest dedicated to spreading knowledge."
+                }
+            ]
+        },
+        {
+            "dice": "d4",
+            "name": "The tutor\u2019s charges view him/her as...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A trusted friend."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A second father/mother."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A weakling to be antagonized and bullied."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A tyrant to be feared."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "The tutor is particularly well-versed in...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Alchemy."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Ancient mysteries."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Astronomy."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Herb lore."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Mathematics."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Mineralogy."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Military history."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Music."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Poetry and songs."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Political history."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Theater and dance."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Theology."
+                }
+            ]
+        },
+        {
+            "dice": "d4",
+            "name": "The servant is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Her ladyship\u2019s/her lordship\u2019s favorite."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A long-time servant of the household."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "New to the household and always in trouble."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "New to the household and eager to please."
+                }
+            ]
+        },
+        {
+            "dice": "d4",
+            "name": "The servant has...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A pretty smile, but crooked teeth."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Beautiful but sad eyes."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A wide frame."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A bony figure."
+                }
+            ]
+        },
+        {
+            "dice": "d4",
+            "name": "The servant wants to...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Avoid being alone with a particular noble."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Discipline one of the children in the castle."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Earn the affection of her mistress."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Bend your ear for an old folk tale."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The captain is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A lesser member of a noble house."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A brutish thug."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A dashing swashbuckler."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A celebrated war hero."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "An anointed knight."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A career soldier."
+                }
+            ]
+        },
+        {
+            "dice": "d4",
+            "name": "The captain is concerned about...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "The resolve of the new recruits."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "The castle\u2019s food stores."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Sheltering too many commonfolk in a siege."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Running out of ale during a siege."
+                }
+            ]
+        },
+        {
+            "dice": "d4",
+            "name": "The captain is looking for...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Information regarding enemy movements."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Reinforcements or new recruits."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "News of his or his wife\u2019s hometown."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Drinking companions and storytellers."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The captain carries...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A superbly crafted sword."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A trusted blade and a map."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A lucky charm (rabbit\u2019s foot, old coin)."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "The token of a faraway love."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A pipe and pouch of tobacco."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A little jar of mustache wax."
+                }
+            ]
+        },
+        {
+            "dice": "d4",
+            "name": "The horsemaster is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A knight lamed in combat years ago."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "The son of a servant to the liege\u2019s family."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A genius for breeding horses."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A foreigner who grew up in the saddle."
+                }
+            ]
+        },
+        {
+            "dice": "d4",
+            "name": "The horsemaster has...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A sackful of oats strapped to his belt."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A calm demeanor."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A soft-spoken manner."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A pointed beard."
+                }
+            ]
+        },
+        {
+            "dice": "d4",
+            "name": "The horsemaster wants to...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Have the fastest horses ready to carry his liege\u2019s messages."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Tell a tale of a grueling ride."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Bring honor to his family name."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Boast about a prized young mare."
+                }
+            ]
+        },
+        {
+            "dice": "d4",
+            "name": "The stable hand is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A shady-looking character."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "The son of another servant in the castle."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A prisoner-of-war turned servant."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A simple-minded stable boy."
+                }
+            ]
+        },
+        {
+            "dice": "d4",
+            "name": "The stable hand has...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "An awkward gait."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Incredibly large hands."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Quite an odor."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A patchy beard."
+                }
+            ]
+        },
+        {
+            "dice": "d4",
+            "name": "The stable hand wants to...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Earn a little silver."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Avoid being kicked by a horse."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Rise to the position of horsemaster."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Pet the pretty horses."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The huntsman is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A member of the liege\u2019s family."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A bastard son of a noble house.\t"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A gifted tracker."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A former poacher."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A sadistic killer."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A kindly sportsman."
+                }
+            ]
+        },
+        {
+            "dice": "d4",
+            "name": "The huntsman is concerned about...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Reports of strange creatures in the nearby lands."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "The reckless behavior of a fellow hunter."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "How best to protect commonfolk\u2019s livestock."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Bringing enough wine on the next hunt."
+                }
+            ]
+        },
+        {
+            "dice": "d4",
+            "name": "The huntsman is looking to...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Track an unusual beast."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Find the lair of a rare beast."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Find a place where game is plentiful. "
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Swap tales and rumors."
+                }
+            ]
+        },
+        {
+            "dice": "d4",
+            "name": "The huntsman carries...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A sturdy hatchet."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A large knife and a hunting trap."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A finely made longbow."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A trophy or piece of a wild beast."
+                }
+            ]
+        },
+        {
+            "dice": "d4",
+            "name": "The kennelmaster is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "An eccentric dog-trainer.\t"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A skilled hunter."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A short-tempered, portly fellow."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A tall, gregarious fellow."
+                }
+            ]
+        },
+        {
+            "dice": "d4",
+            "name": "The kennelmaster is looking to...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Encourage a hunting expedition."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Improve the breeding stock of the hounds."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Show off a clever hound."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Avoid questions regarding the hounds\u2019 obedience."
+                }
+            ]
+        },
+        {
+            "dice": "d4",
+            "name": "The kennelmaster carries...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A dog whistle."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A rope of some kind of jerky."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A stick or club."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A rope leash."
+                }
+            ]
+        },
+        {
+            "dice": "d4",
+            "name": "The bowyer is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A patient craftsman."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "An old archer, blind in one eye."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A foreigner who puts unusual touches on the bows and feathers he makes."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Skilled at mending bows and arrows, but not so good at making them from raw materials."
+                }
+            ]
+        },
+        {
+            "dice": "d4",
+            "name": "The bowyer is looking for...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Someone who can fletch arrows."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Stray arrowheads."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Intact arrow shafts."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A mug of strong ale."
+                }
+            ]
+        },
+        {
+            "dice": "d4",
+            "name": "The bowyer carries...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A whittling knife."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A quiver of arrows to be mended."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A quiver of newly made arrows."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A bundle of fresh wood cuttings."
+                }
+            ]
+        }
+    ],
+    "title": "Castle Inhabitants",
+    "use_with": [
+        {
+            "link": "43ek9v",
+            "title": "Castles"
+        },
+        {
+            "link": "3sj8mc",
+            "title": "Noble houses"
+        },
+        {
+            "link": "3xyhdl",
+            "title": "Nobles"
+        },
+        {
+            "link": "3tkfho",
+            "title": "Knights"
+        },
+        {
+            "link": "4xvcgo",
+            "title": "Princesses"
+        }
+    ]
+}

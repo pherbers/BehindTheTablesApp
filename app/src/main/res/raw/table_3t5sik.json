@@ -1,0 +1,733 @@
+{
+    "description": "These are tables for generating a rowdy crew of pirates as foe or foil to your PCs.",
+    "id": "3t5sik",
+    "keywords": [
+        "pirate",
+        "mercantile",
+        "maritime",
+        "naval",
+        "seafarer",
+        "sailor",
+        "ship",
+        "sailing",
+        "captain",
+        "NPC",
+        "arr"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/3t5sik",
+    "related_tables": [
+        {
+            "link": "3t2qzc",
+            "title": "Outlaw bands"
+        },
+        {
+            "link": "497u5a",
+            "title": "Sailors"
+        }
+    ],
+    "tables": [
+        {
+            "dice": "d10",
+            "name": "The pirates' ship is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Little more than a raft."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A galley.  "
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A longship.  "
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A catamaran."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A cog.  "
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A hulk.  "
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A carrack.  "
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A caravel.  "
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A schooner.  "
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A dreadnought.  "
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "Presently, the pirates\u2019 ship is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Laden with treasure."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Full of stolen goods."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Well-stocked with provisions."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "In tip-top shape."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "\u201cOn loan\u201d to some other pirates."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "In need of repair."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Barely staying afloat."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Resting beneath the waves."
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "The ship's banner features...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A skull."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A pair of crossed bones."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A skull and cross bones."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A skeletal hand."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A skeletal fish."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A flaming skull."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A clenched fist."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A ghost."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A mermaid."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A pair of crossed cutlasses."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A dagger."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A bloody dagger."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "An albatross."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "A pelican."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "A whale."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "An octopus."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "A swordfish."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "A crab."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "A sea turtle."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "A big tuna."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "The ship's mascot is...",
+            "table_entries": [
+                {
+                    "dice_val": "1-4",
+                    "entry": "A parrot:  "
+                },
+                {
+                    "dice_val": "5-8",
+                    "entry": "A monkey: "
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "An old turtle.  "
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A lazy sea-faring cat.  "
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A pot-belly pig.  "
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A high-energy herding dog."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "The ship's captain is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A dangerous megalomaniac."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A charismatic demagogue."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A mysterious foreigner."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A talented thief."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A member of a prominent family."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A ruthless killer."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A femme fatale."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A charming rogue."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A dashing swashbuckler."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A brutish thug."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "An old sailor."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A celebrated naval hero."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "The crew's attitude toward their captain is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Adoring and loyal."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Friendly and pleased."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Respectful and business-like."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Mercenary and eager."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Terrified and tight-lipped."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Disappointed and indifferent."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Restless and rebellious."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Angry and mutinous."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Crewmembers often sport matching...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Puffy shirts."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Breeches."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Scarves."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Vests."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Bandannas."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Boots."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Tattoos."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Hats."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Scars."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Mustaches."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "The crew's goals include (captain and crewmembers could have different goals)...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Discovery of a legendary hidden treasure."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Domination of the region's maritime trade."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Revenge against a naval hero."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Revenge against a rival pirate crew."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Rebellion against the dominant merchant traders."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A wealthy and peaceful retirement."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Violence to slake their bloodlust."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Drinking all the rum."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Crewmembers typically arm themselves with...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Belaying pins (wooden clubs)."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Throwing knives."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Over-sized daggers."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Serrated daggers."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Cutlasses."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Clubs and daggers."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Brass knuckles."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Bare fists."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Nets and tridents."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Harpoons."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "The pirate crew typically fights with...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Swarm tactics."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Hit-and-run tactics."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Ambush tactics."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Choreographed maneuvers."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Unpredictable maneuvers."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Lots of smiles and jokes."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Lots of fancy footwork."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Lots of screaming and shouting."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Kicking and stomping."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Lots of head-butting."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "The crew's headquarters is hidden in or near...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A rugged seaside cliff."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A hidden lagoon."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A remote island."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A swampy river mouth."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A coastal cave."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A tavern."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A brothel."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A warehouse or shipyard."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A poor fishing village"
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "An old lighthouse."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "The crew is notorious for...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Never leaving survivors."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Feeding captives to sharks."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Tattooing or branding captives."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Scalping captives."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Flaying captives."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Burning seaside villages."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Plundering the ships of a wealthy tyrant."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Using a lot of explosives."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Convening with ghosts."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Romantic escapades."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Singing bawdy songs."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Drinking too much rum. "
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "Tattoo: The pirate has...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A dagger tattoo."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "An anchor tattoo."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A skull tattoo."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A pair of crossed bones tattoo."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A snake tattoo."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A fish tattoo."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A spider web tattoo."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "An octopus tattoo."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A whale tattoo."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A lobster tattoo."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A mermaid tattoo."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A dragon tattoo."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "Distinguishing feature: The pirate has...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A nose ring."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Shiny leather boots."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Gold teeth."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "An oversized dagger in the belt."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A heavy gold chain around the neck."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A wide-brimmed hat."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "An eyepatch."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A long black beard."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A maniacal laugh."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A long, hooked nose."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "An open shirt and a very hairy chest."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Extravagant mustaches."
+                }
+            ]
+        }
+    ],
+    "title": "Pirate Crews",
+    "use_with": [
+        {
+            "link": "435djx",
+            "title": "Coins"
+        },
+        {
+            "link": "3su3be",
+            "title": "Fishing"
+        },
+        {
+            "link": "43uzib",
+            "title": "Sailing ship encounters"
+        },
+        {
+            "link": "4d6a7d",
+            "title": "Ships"
+        },
+        {
+            "link": "4034w3",
+            "title": "Thieves"
+        },
+        {
+            "link": "41vnh6",
+            "title": "Treasure maps"
+        }
+    ]
+}

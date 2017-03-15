@@ -1,0 +1,281 @@
+{
+    "description": "These are tables for generating interesting woodsmen to serve as foil or friend to your PCs, from poachers and fugitives to herbalists and woodcutters.",
+    "id": "3va510",
+    "keywords": [
+        "woodsman",
+        "woodcutter",
+        "lumberjack",
+        "hunter"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/3va510",
+    "related_tables": [],
+    "tables": [
+        {
+            "dice": "d10",
+            "name": "Facial Feature: The woodsman has...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A nose that's been broken."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A twinkle in his eye."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A sour grimace."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A face like stone."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Eyes that do not smile."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A long, hooked nose."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A scar across the brow."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A neatly trimmed beard."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A long, tangled beard."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A thick, lush mustache."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "Apparel: The woodsman wears...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Scuffed leather boots."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Hardy boots and a large belt-buckle."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A boot with a hole in the toe."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A thick fur coat or cloak (d4): 1. bear; 2. otter; 3. sable; 4. wolf."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A rough-spun cloak of sable or grey."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Pants with patched knees."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A fur cap (d4): 1. beaver; 2. fox; 3. raccoon; 4. skunk."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "An open shirt and a very hairy chest."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "Mannerism: The woodsman has...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A hearty laugh."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A forced laugh."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "An easy grin."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Shifty eyes."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A habit of looking away when speaking."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A slow way of speaking."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Few things to say."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A habit of staring."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "Profession: The woodsman is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A strange herbalist.\t"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A scholarly botanist."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A skilled hunter."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A desperate poacher."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A fugitive from justice."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A reclusive trapper."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A poor woodcutter."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A bearded lumberjack."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Goal: The woodsman is looking to...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Track an unusual beast."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Find the lair of a rare beast."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Find a spot where a rare flower grows."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Find a place where game is plentiful."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Find a place where the trees grow tall."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Purchase salt, spices, and other hard-to-come-by supplies."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Sell some of his wares."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Learn some new campfire recipes."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Swap tales and rumors."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Meet a nice girl and settle down."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Possessions: The woodsman carries or wears...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A sturdy hatchet."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A bundle of firewood."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A spear or walking staff."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A large knife and a hunting trap."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A finely made longbow."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A trophy or piece of a wild beast."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "An unusual, curved blade."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A double-bladed axe."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A memento from a faraway sweetheart."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A cotton handkerchief."
+                }
+            ]
+        }
+    ],
+    "title": "Woodsmen",
+    "use_with": [
+        {
+            "link": "3sgzxb",
+            "title": "Forest"
+        },
+        {
+            "link": "3t2qzc",
+            "title": "Outlaw bands"
+        },
+        {
+            "link": "4b8u29",
+            "title": "Reputations of adventurers"
+        }
+    ]
+}

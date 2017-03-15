@@ -1,0 +1,658 @@
+{
+    "description": "These are tables for generating a twisted serial killer to serve as foe or foil to your PCs.",
+    "id": "3sqres",
+    "keywords": [
+        "killer",
+        "villain",
+        "NPC",
+        "psycho"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/3sqres",
+    "related_tables": [
+        {
+            "link": "44wqci",
+            "title": "Assassins"
+        },
+        {
+            "link": "3sq5dx",
+            "title": "Vampires"
+        }
+    ],
+    "tables": [
+        {
+            "dice": "d12",
+            "name": "The killer is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A quiet artisan."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "An eccentric scholar."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A mysterious foreigner."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A talented artist."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A polite shopkeeper."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A peddler of the bizarre."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A femme fatale."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A charming rogue."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A hardened criminal."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A brutish thug."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A religious fanatic."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A veteran soldier."
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "The killer\u2019s modus operandi is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Ingested poison or allergic reaction."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Contact poison applied to a weapon."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Arrow/bolt from range."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Impaling."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Knife in the chest or back."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Multiple stab wounds."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Slitting the throat."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Gutting or eviscerating."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Flaying."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Beheading."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Strangulation."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Hanging."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "Burying alive."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "Drowning."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "Boiling alive."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "Throwing off a roof. "
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "Severe beating."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "Dismemberment."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "Burning alive."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "Feeding to animals."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "The killer is often armed with...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Poisoned daggers."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Throwing knives."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "An over-sized dagger."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A serrated knife."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A crossbow."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A hammer or axe."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A bow and arrows."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A cudgel."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A sickle or scythe."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A garrote and dagger."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Poisoned projectiles."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Bare fists."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The killer\u2019s purposes include...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Sowing fear."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Sowing destruction."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Sowing chaos."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Satisfying personal bloodlust."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Gaining vengeance by hunting down a set of specific individuals."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Vigilante justice."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The killer leaves a victim...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "In a signature pose."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "In a signature location."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "With a note on the corpse."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "With a piece of the corpse missing."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "With an unusual object planted on the corpse."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Where the corpse will never be found."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Timing: The killer typically plans murders for\u2026",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Just after sunrise."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Just after sunset."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Well into the night."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "The toll of midnight."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "After midnight."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Just before sunrise."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "The killer\u2019s base of operations is hidden in or near...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "The killer\u2019s own residence."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "An artisan's shop or guildhall."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A merchant's office."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A tavern."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A brothel."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A warehouse or shipyard."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A temple complex."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "The city's sewers."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "An abandoned guildhall or warehouse."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "An armory or barracks."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "The residence of a wealthy individual or prominent citizen."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "No where. The killer is a transient."
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "The killer\u2019s favorite victims are...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Fishermen and sailors."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Beggars and thieves."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Merchants and moneychangers."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Young noblemen."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Young noblewomen."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Old noblewomen."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Gamblers and drunks."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Priests and monks."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Priestesses."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Serving girls."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Slaves."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Barmaids."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "Harlots and madames."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "Circus performers."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "Foreign travelers."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "Farmwives."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "Peasant girls."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "Inquisitive children."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "Young children."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "Other killers and criminals."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "The killer refuses to kill...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Ugly women."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Beautiful women."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Pregnant women."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Shy children."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Bold children."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Anyone with blue eyes."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Anyone with green eyes."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Anyone with blonde hair."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Anyone with red hair."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Anyone who is blind, deaf, or lame."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "The killer wears\u2026",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Old worn boots."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Shiny leather boots."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A mask covering the face."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A wide-brimmed hat."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A cap pulled low."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A low-cut shirt."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Tight-fitting clothes."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Neatly trimmed mustaches."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "The killer carries\u2026",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "The weapon used in his or her first kill."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A trophy from his/her first kill."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A trophy from every one of his or her kills."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A ledger listing each and every one of his or her kills."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A journal describing in gory detail each and every one of his or her kills"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A token stolen from his or her next mark."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "An exotic weapon."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A highly polished weapon."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A weapon with runes carved into it."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A weapon with a gem embedded in the pommel."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A weapon with soft leather tassels dangling from the pommel."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A weapon made of an unusual material (blackened steel, bone, coral, crude iron, obsidian, stone)."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "The killer is unusually fond of or particular regarding...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Horticulture and floral arrangements."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Fashion trends."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Gourmet cooking."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Personal health and fitness."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Arms and armor maintenance."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Small animals."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "High quality fabrics and leathers."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Foreign music."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Theater troupes and dancers."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Fine wines."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Social status."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Facial hair."
+                }
+            ]
+        }
+    ],
+    "title": "Serial Killers",
+    "use_with": [
+        {
+            "link": "4boiw9",
+            "title": "Fiends"
+        },
+        {
+            "link": "3sh0bv",
+            "title": "Forest, haunted"
+        },
+        {
+            "link": "4780bg",
+            "title": "Poisons"
+        },
+        {
+            "link": "43k8fr",
+            "title": "Prisons"
+        }
+    ]
+}

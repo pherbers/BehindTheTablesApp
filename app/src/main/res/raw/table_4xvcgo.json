@@ -1,0 +1,607 @@
+{
+    "description": "Princesses always make for good flavor in a fantasy world. Histories, legends, songs, tales, and dirty jokes often involve a princess or two. These tables are intended to generate a princess and her tale quickly.",
+    "id": "4xvcgo",
+    "keywords": [
+        "princess",
+        "empress",
+        "queen",
+        "damsel",
+        "lady",
+        "lady-in-waiting",
+        "disney",
+        "jasmine",
+        "elsa",
+        "anna",
+        "ariel",
+        "elayne",
+        "myrcella",
+        "daenarys",
+        "leia",
+        "fiona",
+        "buttercup",
+        "lili"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/4xvcgo",
+    "related_tables": [],
+    "tables": [
+        {
+            "dice": "d12",
+            "name": "The princess is the daughter of...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A tyrannical king."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A foolhardy king."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "An evil queen."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A beloved queen."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A benevolent monarch."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A foreign monarch."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A wicked sorceress."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "The head of an ancient noble house."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A brutal warlord."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A lord of middling power and influence."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A wealthy merchant."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A brilliant conqueror."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "Everyone has heard of this princess, she is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Rather ugly."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Rather vain."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Comically tall."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Comically fat."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Extremely arrogant."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Extremely rich."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Known for insulting a foreign dignitary."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "The survivor of a horrible curse."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "The survivor of a terrible ordeal of captivity."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A singer of legendary talent. "
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "The second most beautiful woman in the world."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "The most beautiful woman in the world."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "The princess has...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Long, dark hair."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Wavy, golden hair."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Neatly braided hair."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Wild, curly hair."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Beautiful, bright eyes."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Dark, captivating eyes."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "An inviting smile."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "An arrogant sneer."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Lush, full lips."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Thoughtful, pursed lips."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Dainty feet."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Over-sized feet."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "The princess's family hopes to marry her to...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A wealthy lord."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "The crown prince."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "The son of a rival house."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "The son of an allied house."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A foreign tyrant."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A foreign prince."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A heroic knight."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A legendary military commander."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "An old widowed king."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A rival claimant to the crown."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A powerful merchant."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "No one; her place is at her father or mother's side."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "The princess, however, can picture herself running off with...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A poor farmboy."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A hunky young blacksmith."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A young lord of low-standing."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "The bastard son of a noble house."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A skilled huntsman."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A brilliant scholar."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A sensitive priest."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A handsome knight."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A charming singer."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A daring thief."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A dashing pirate."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Her favorite attendant."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "The princess's closest friend and confidant is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Her mother."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Her sister."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Her brother."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Her maid."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Her chaperone."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Her tutor."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Her pet (d4): 1. a cat; 2. a horse; 3. a hound; 4. a songbird."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "The guard captain."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A household knight."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A priest or priestess."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Her father or mother's personal nemesis."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Her father or mother's fool."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "The princess is well-versed in...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Painting."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Poetry."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Dancing."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Playing a musical instrument (d4): 1. flute; 2. harp; 3. harpsichord; 4. violin."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Crochet or knitting."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Embroidery or cross-stitch."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Quilting or appliqu\u00e9."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Sewing or weaving."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "History and heraldry."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Politics and diplomacy."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Hymns and prayers."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Seduction."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "...and she's also pretty good at...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Archery."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Swordplay."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Falconry."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Hunting and tracking."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Horseback riding."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Sailing."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Drinking."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Spells and potions."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Making inappropriate, but witty jokes."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Impersonation."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Lying."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Sneaking."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "The princess may have gotten into some trouble when she...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Met a dashing rogue at a common tavern."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Rode into the woods with a handsome knight."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Asked a favor of a tricky witch."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Trespassed in a reclusive witch's garden."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Spoke with a ghostly presence."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Read a forbidden book of lore."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Followed a lady's maid after a feast."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Followed a lord's valet after a feast. "
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Attracted the attention of a powerful devil or vampire."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Discovered a hidden passage in the castle."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Made a pact with another mischievous young lady."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Ran away from home."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "The princess is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Utterly incompetent; she can't dress herself without her maid's help."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Pretty vapid; she's not going to be able to handle this problem on her own."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Rather brash; her boldness often gets her into trouble."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A bit too proud; she hates to ask for help, even when she needs it."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Two-faced; she'll sell out her friends if its to her advantage."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Naive; she's going to get into more trouble if someone doesn't guide her."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Enchanting; she'll charm her way out of her present trouble."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Fearless; she's always poised in the face of danger."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Stubborn; there is no arguing with her once she sets her mind on something."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Clever; she always has a plan to turn any bad situation on its head."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Shrewd; she's capable of outwitting both you and the source of her present trouble."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A badass; don't get in her way."
+                }
+            ]
+        }
+    ],
+    "title": "Princesses",
+    "use_with": [
+        {
+            "link": "46ma8g",
+            "title": "Bards"
+        },
+        {
+            "link": "43wsio",
+            "title": "Books"
+        },
+        {
+            "link": "43ek9v",
+            "title": "Castles"
+        },
+        {
+            "link": "43emxb",
+            "title": "Castle inhabitants"
+        },
+        {
+            "link": "45iihj",
+            "title": "Damsels in distress"
+        },
+        {
+            "link": "3tkfho",
+            "title": "Knights"
+        },
+        {
+            "link": "3sj8mc",
+            "title": "Noble houses"
+        },
+        {
+            "link": "46m9xc",
+            "title": "Songs"
+        },
+        {
+            "link": "3si4ms",
+            "title": "Witches"
+        }
+    ]
+}

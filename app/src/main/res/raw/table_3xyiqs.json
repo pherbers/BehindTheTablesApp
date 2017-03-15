@@ -1,0 +1,452 @@
+{
+    "description": "These are tables for generating an cult to serve as an enemy faction or unlikely ally to your PCs, from death cults to demonic cults and everything in between.",
+    "id": "3xyiqs",
+    "keywords": [
+        "cult",
+        "cultist",
+        "fanatic",
+        "zealot",
+        "prophet",
+        "madness",
+        "sect"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/3xyiqs",
+    "related_tables": [],
+    "tables": [
+        {
+            "dice": "d12",
+            "name": "The cultists revere...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A dragon."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A demon lord."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "An archdevil."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A long-dead ancient hero."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A long-dead ancient villain."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A dead god."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "An aberrant creature."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "An elemental creature."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A primordial."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Primal spirits."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "An exarch of a god."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "The cult\u2019s own leader."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "The cultists meet in...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A secret chamber in a well-known temple."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "The cellar of a popular tavern."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A secret chamber in a well-known guildhall."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "The cellar of a wealthy merchant's house."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "The city sewers."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Ancient catacombs beneath the city."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A cabin in the countryside."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A creepy, dark cave."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A heavily guarded chamber within a castle."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "The stacks of a well-stocked library."
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "The cult\u2019s leader is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A devoted acolyte."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A dogmatic teacher."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "An adept healer."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A charismatic preacher."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "An eccentric scholar."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "An outspoken zealot."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A dangerous megalomaniac."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A charismatic demagogue."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A mysterious foreigner."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A well-known public figure."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A ruthless killer."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A femme fatale."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "A charming rogue."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "A powerful noble."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "A talented artist."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "A religious fanatic."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "A veteran soldier."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "A humble artisan."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "An ancient hero reborn."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "The second coming of a god."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The cult's membership is primarily made up of...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "The poor and downtrodden (d4): 1. beggars; 2. laborers; 3. servants; 4. slaves."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "The wealthy elite (d4): 1. guildmasters; 2. merchants; 3. nobles; 4. royalty."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A segment of another religion's population (d8): 1. sun god; 2. earth mother; 3. death god; 4. huntress; 5. goddess of love; 6. storm god; 7. trickster god; 8. war god."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Members of a particular trade (d8): 1. blacksmiths; 2. carpenters; 3. farmers; 4. fishermen; 5. miners; 6. soldiers 7. stonemasons; 8. weavers."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Members of a particular race (d8): 1. dwarves; 2. elves; 3. gnomes;; 4. goblins; 5. half-breeds; 5. halflings; 6. humans; 7. orcs; 8. reptilians."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Members of all social strata."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "The cult's practices involve (leadership and believers could adhere to different practices)...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Animal sacrifice (d10): 1. bulls; 2. calves; 3. cats; 4. chickens; 5. dogs; 6. goats; 7. pigeons; 8. rabbits; 9. rams; 10. songbirds."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Human sacrifice (d6): 1. children; 2. elderly; 3. harlots; 4. nonbelievers; 5. priests and priestesses; 6. virgins."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Self-mutilation (d10): 1. arm; 2. back; 3. cheek; 4. chest; 5. ear; 6. eye.; 7. feet; 8. finger; 9. genitalia; 10. nose."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Burnt offerings (d6): 1. corpses; 2. rare herbs; 3. sacred incense; 4. high-quality meat; 5. nonbeliever; 6. prisoners."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Offerings of gold, gems, and valuables."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Strange incantations."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Public acts of violence (d4): 1. beatings; 2. looting; 3. murders; 4. riots."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Ritualistic sexual acts (d4): 1. bestiality; 2. breedings; 3. deflowerings; 4. orgies."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "The cult's goals (leadership and believers could have different goals)...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Domination of the city or region."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Destruction of the city or region."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Reincarnation of a long-dead entity."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Declaration of war against a rival city or nation."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Rebellion against the city or nation's elite."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Death to non-believers."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Opening a portal to another plane."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Release of a powerful captive entity."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "The cult\u2019s members must follow a strict rule regarding...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Wearing a flower in the hair or on the lapel (d4): 1. lily; 2. orchid; 3. rose; 4. tulip."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Fashion trends."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Maintaining their personal weapon (d4): 1. club; 2. dagger; 3. handaxe; 4. staff."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Treatment of pets."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Mounting a horse."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Dressing one\u2019s self for worship."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Dressing one\u2019s self for day-to-day activities."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Diet."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Exercise routines."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Bathing."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Styling one\u2019s hair."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Brushing one\u2019s teeth."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "The cult\u2019s members are particularly afraid of or takes special care to avoid...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Hallowed places."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Moonlight."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Sunlight."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Crossing running water."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Sharp wooden objects."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Garlic."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Silver objects."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Relics of the gods."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Sleeping outdoors."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Milk and cheese."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Eating meat."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Sobriety."
+                }
+            ]
+        }
+    ],
+    "title": "Cults",
+    "use_with": [
+        {
+            "link": "40wc26",
+            "title": "Cultists"
+        },
+        {
+            "link": "3uzwi0",
+            "title": "Cultists, snake"
+        },
+        {
+            "link": "4b9wlm",
+            "title": "Dragons"
+        },
+        {
+            "link": "4boiw9",
+            "title": "Fiends"
+        },
+        {
+            "link": "40pjmd",
+            "title": "Monasteries"
+        },
+        {
+            "link": "3shczv",
+            "title": "Pantheons"
+        },
+        {
+            "link": "3whlp0",
+            "title": "Priests"
+        },
+        {
+            "link": "3xpb4r",
+            "title": "Temples"
+        }
+    ]
+}

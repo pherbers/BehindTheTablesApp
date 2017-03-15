@@ -1,0 +1,990 @@
+{
+    "description": "A table for making leaders for orc clans and warbands. Perfect for bosses and minibosses.",
+    "id": "4c5hu9",
+    "keywords": [
+        "Orc",
+        "clan",
+        "tribe",
+        "warriors",
+        "horde",
+        "warlord",
+        "boss",
+        "miniboss"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/4c5hu9",
+    "related_tables": [
+        {
+            "link": "3xydsw",
+            "title": "Barbarians"
+        },
+        {
+            "link": "3tjdae",
+            "title": "Savage Hordes"
+        }
+    ],
+    "tables": [
+        {
+            "dice": "d4",
+            "name": "Race, This Orc is a...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Pureblood Orc, thoroughly orcy through and through leading through strength."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Orog, a particularly intelligent type of orc. Come to lead the warband using its intelligence and tactical skill."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Orgrillon, half orc and half orge this warlord is massive and strong although simpleminded."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Half Orc, potentially not from orc society, this half orc has come to lead the warband with its greater intelligence."
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "Appearance, The warlord has\u2026 ",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A metal jaw replacing their own that they lost in battle. They will show this off by crushing things with it."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A metal claw like arm that it uses in combat with brutal efficiency."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Far larger than usual tusks. Large enough to be uncomfortable and give a slight lisp."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A missing nose, completely torn off in a fight."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Scarring all over their body from being set on fire once."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Missing fingers and dark patches of skin from frostbite being attacked by ice magic."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Fel-like horns that twist and gnarl from his head."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A huge blubbery body, which it proudly uses as a type of armour projectiles just being absorbed by the fat."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A very thin and lithe body for an orc."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Gold and jewels that make up his teeth, replacing its own."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Violently scarified tattoos all over its body. They display its previous victories."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A pole affixed to its armour that has the decapitated heads of every enemy jammed onto it."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "Armour that is made from the bones and scales of a dragon."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "Strange and differently coloured skin for an orc."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "One missing eye, the socket glowing with holy energy."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "Glowing tattoos all over their body, that each come with some strange meaning."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "A large and ornate beard usually dripping with blood."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "Chunks of bone growing out of its skin due to some horrific mutation."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "Self-inflicted notch marks all over their body that count their kills and victories."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "A strangely handsome appearance for an orc."
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "Trait. The orc warlord is known because...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "It\u2019s a massive alcoholic. He drinks kegs and kegs of ale every day and demands ale and other drinks as payment."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "He organises feasts made up of the humanoid prisoners. They\u2019re famous throughout the clan and they aim to take as many prisoners in combat for just this reason."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "It\u2019s a fel-orc tainted by fiendish energy in a similar way to a tiefling. Some fiendish powers come from this."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "He killed the previous warlord in a duel, brutally murdering them."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "He pretends to be chosen by the gods and make it seem that he was chosen to lead his clan. He knows this is just fake but everyone seems to believe them."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "He\u2019s blind in both eyes. Strangely, he\u2019s still just as effective in combat."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "He has sired many children and trained both the girls and boys to be terrifying warriors."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "They\u2019re actually happily married to a witch. Although the other orcs find this strange, they\u2019re too terrified of her to question it out loud."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "It plans to organise a raid against the heavens itself! Currently they\u2019re constructing a planar portal to get there."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Its raids are all against enemies of the orc gods. They think they can hear the gods calling to them and make every choice depending on them."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "It\u2019s known for using biological warfare and disease magic, catapulting diseased corpses into cities."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "It openly is against magic in all forms and aims to hunt down all witches and magic users."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "It kills any orc recruit that doesn\u2019t perform absolutely perfectly. "
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "It\u2019s a lycanthrope who openly uses this power in combat."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "It openly uses necromancy powers to rise the dead soldiers in combat."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "It\u2019s crippled and needs to use a potion to walk and fight. A secret guarded from the rest of the clan."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "It\u2019s greedy and only cares about money and jewels. Every raid is for more money."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "It\u2019s known as a one man army who has defeated an entire enemy army before single handed."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "It wants to unite all the orc clans nearby into a massive  army to take over the entire realm."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "It loves to use alchemy to create powerful weapons of mass destruction and magical potions to make their clan stronger."
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "Combat. The warlord is known to fight with...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A huge two handed sword and slow but powerful attacks."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Death by 1000 cuts. Fast, but tiny attacks with dual daggers."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A traditional orcish waraxe."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Shamanistic elemental magic."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Stealth, trickery and traps."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A greatbow and magical arrows."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A crossbow and magical arrows."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Sword and shield, the shield enchanted with power."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Warlock like magic."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Terrifyingly strong blood magic."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A common usage of potions, for strength and fire breath as well as healing."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Running away, to live another day."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "Catapults and Artillery. "
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "A large sharp flail."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "Fists and spiked knuckles."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "Grapples and throwing attacks."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "Extremely loud magical war cries."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "Two large sharp swords."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "A spiked chain weapon."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "A mage assistant who constantly buffs them with magic and healing."
+                }
+            ]
+        },
+        {
+            "dice": "d100",
+            "name": "Banner. The orc clan has a banner that shows...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Wolfs head."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A skull."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "An animal skull."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Two axes."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "An axe."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Two swords."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Crossed bones."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A laughing face."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A fist."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A dragon."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A wolf."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A hanging man."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "The holy symbol of their god."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "An 8 pointed star."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "A moon."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "A claw."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "Several stars."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "A shield."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "A cross pattern."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "A spotted pattern."
+                },
+                {
+                    "dice_val": "21",
+                    "entry": "A bloody hand."
+                },
+                {
+                    "dice_val": "22",
+                    "entry": "A blood stain."
+                },
+                {
+                    "dice_val": "23",
+                    "entry": "A toothy maw."
+                },
+                {
+                    "dice_val": "24",
+                    "entry": "Teeth."
+                },
+                {
+                    "dice_val": "25",
+                    "entry": "Eyes."
+                },
+                {
+                    "dice_val": "26",
+                    "entry": "A dead elf king."
+                },
+                {
+                    "dice_val": "27",
+                    "entry": "A boot."
+                },
+                {
+                    "dice_val": "28",
+                    "entry": "Several green figures."
+                },
+                {
+                    "dice_val": "29",
+                    "entry": "A strange geometric shape."
+                },
+                {
+                    "dice_val": "30",
+                    "entry": "A beholder."
+                },
+                {
+                    "dice_val": "31",
+                    "entry": "A drake."
+                },
+                {
+                    "dice_val": "32",
+                    "entry": "A lion."
+                },
+                {
+                    "dice_val": "33",
+                    "entry": "A tiger."
+                },
+                {
+                    "dice_val": "34",
+                    "entry": "A shark."
+                },
+                {
+                    "dice_val": "35",
+                    "entry": "Waves."
+                },
+                {
+                    "dice_val": "36",
+                    "entry": "A volcano."
+                },
+                {
+                    "dice_val": "37",
+                    "entry": "A forest."
+                },
+                {
+                    "dice_val": "38",
+                    "entry": "A large tree."
+                },
+                {
+                    "dice_val": "39",
+                    "entry": "The four forces of nature."
+                },
+                {
+                    "dice_val": "40",
+                    "entry": "Fire."
+                },
+                {
+                    "dice_val": "41",
+                    "entry": "Water."
+                },
+                {
+                    "dice_val": "42",
+                    "entry": "Earth."
+                },
+                {
+                    "dice_val": "43",
+                    "entry": "Air."
+                },
+                {
+                    "dice_val": "44",
+                    "entry": "An angry face."
+                },
+                {
+                    "dice_val": "45",
+                    "entry": "Several different faces."
+                },
+                {
+                    "dice_val": "46",
+                    "entry": "Two hands."
+                },
+                {
+                    "dice_val": "47",
+                    "entry": "The last warchief."
+                },
+                {
+                    "dice_val": "48",
+                    "entry": "A strange twenty sided shape with a 20 on one side."
+                },
+                {
+                    "dice_val": "49",
+                    "entry": "A square."
+                },
+                {
+                    "dice_val": "50",
+                    "entry": "A triangle."
+                },
+                {
+                    "dice_val": "51",
+                    "entry": "Some scribble that looks like a toddler made it."
+                },
+                {
+                    "dice_val": "52",
+                    "entry": "A cloud."
+                },
+                {
+                    "dice_val": "53",
+                    "entry": "A ghost."
+                },
+                {
+                    "dice_val": "54",
+                    "entry": "A skeleton."
+                },
+                {
+                    "dice_val": "55",
+                    "entry": "A zombie."
+                },
+                {
+                    "dice_val": "56",
+                    "entry": "A river."
+                },
+                {
+                    "dice_val": "57",
+                    "entry": "The surrounding region."
+                },
+                {
+                    "dice_val": "58",
+                    "entry": "A nude woman."
+                },
+                {
+                    "dice_val": "59",
+                    "entry": "A strong man."
+                },
+                {
+                    "dice_val": "60",
+                    "entry": "Their god."
+                },
+                {
+                    "dice_val": "61",
+                    "entry": "Just black."
+                },
+                {
+                    "dice_val": "62",
+                    "entry": "Just red."
+                },
+                {
+                    "dice_val": "63",
+                    "entry": "Just white."
+                },
+                {
+                    "dice_val": "64",
+                    "entry": "Just green."
+                },
+                {
+                    "dice_val": "65",
+                    "entry": "Just blue."
+                },
+                {
+                    "dice_val": "66",
+                    "entry": "Just yellow."
+                },
+                {
+                    "dice_val": "67",
+                    "entry": "A variance of striped colours."
+                },
+                {
+                    "dice_val": "68",
+                    "entry": "Half and half two colours."
+                },
+                {
+                    "dice_val": "69",
+                    "entry": "A decapitated head."
+                },
+                {
+                    "dice_val": "70",
+                    "entry": "Guts."
+                },
+                {
+                    "dice_val": "71",
+                    "entry": "Tusks."
+                },
+                {
+                    "dice_val": "72",
+                    "entry": "A fiend."
+                },
+                {
+                    "dice_val": "73",
+                    "entry": "An archfiend."
+                },
+                {
+                    "dice_val": "74",
+                    "entry": "The area the orcs came from."
+                },
+                {
+                    "dice_val": "75",
+                    "entry": "A cliff."
+                },
+                {
+                    "dice_val": "76",
+                    "entry": "A tower."
+                },
+                {
+                    "dice_val": "77",
+                    "entry": "A fortress."
+                },
+                {
+                    "dice_val": "78",
+                    "entry": "A monster."
+                },
+                {
+                    "dice_val": "79",
+                    "entry": "Screaming women."
+                },
+                {
+                    "dice_val": "80",
+                    "entry": "Gallows."
+                },
+                {
+                    "dice_val": "81",
+                    "entry": "Headless people."
+                },
+                {
+                    "dice_val": "82",
+                    "entry": "Armour."
+                },
+                {
+                    "dice_val": "83",
+                    "entry": "A helmet."
+                },
+                {
+                    "dice_val": "84",
+                    "entry": "A spear."
+                },
+                {
+                    "dice_val": "85",
+                    "entry": "Two spears."
+                },
+                {
+                    "dice_val": "86",
+                    "entry": "Several spears."
+                },
+                {
+                    "dice_val": "87",
+                    "entry": "A long spiked sword."
+                },
+                {
+                    "dice_val": "88",
+                    "entry": "A bow."
+                },
+                {
+                    "dice_val": "89",
+                    "entry": "An arrow."
+                },
+                {
+                    "dice_val": "90",
+                    "entry": "A crossbow."
+                },
+                {
+                    "dice_val": "91",
+                    "entry": "A cannon."
+                },
+                {
+                    "dice_val": "92",
+                    "entry": "A catapult."
+                },
+                {
+                    "dice_val": "93",
+                    "entry": "A trebuchet."
+                },
+                {
+                    "dice_val": "94",
+                    "entry": "A dark circle."
+                },
+                {
+                    "dice_val": "95",
+                    "entry": "A hand print."
+                },
+                {
+                    "dice_val": "96",
+                    "entry": "A footprint."
+                },
+                {
+                    "dice_val": "97",
+                    "entry": "The symptoms of disease."
+                },
+                {
+                    "dice_val": "98",
+                    "entry": "A potion."
+                },
+                {
+                    "dice_val": "99",
+                    "entry": "Runic symbols."
+                },
+                {
+                    "dice_val": "100",
+                    "entry": "Some face that looks so strangely like the DM."
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "Soldiers. The Warlords main soldiers and warriors are...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Orc barbarians with swarm tactics."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Orc Shamans who have strong elemental magic."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Orc Mage hunters who have wards to protect them from magic."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Powerful orcs who have been engineered and trained from birth to know nothing other than war."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Orc Knights with full armour."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Orc Assassins."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Orc archers and rangers who attack from afar."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Orc monster hunters prepared to take down massive prey."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Orog soldiers who use superior tactics."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Orc riders who ride wargs dire wolves  and horses."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Orges who crush and destroy anyone needed."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Hobgoblin mercenaries used for the most dangerous jobs."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "Ogrillion barbarians and beserkers."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "One amazingly strong and talented orc who can take on massive beasts with ease."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "Half Orcs who follow their orcish side more."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "Orc artillery experts who use catapults and cannons."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "Orc warlocks who have made a pact with fiends for more power."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "Amazonian she-orcs."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "A swarm of young orcs wanting to prove themselves in battle."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "Orc monster handlers who control massive drakes and similar creatures."
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "Minions. The orcs army also has...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Goblins who are used as cannon fodder."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Kobolds convinced with small amounts of gold."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Goblins who are wired with explosives."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Orc peasants attacking with simple weapons."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Prisoners brainwashed to fight for the orcs."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Simple orc warriors."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A clumsy ogre"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A pack of allied gnolls"
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Packs of wargs"
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Packs of dire wolves."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A tamed Wyvern."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A very powerful orc wizard."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "A small fleet of galleys and sailboats."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "A young dragon who assists them."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "Swarms of  giant insects assisting them."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "Conjured elementals."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "Hobgoblin mercenaries."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "Bugbear mercenaries."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "A small family of trolls helping them."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "Undead risen to assist the clan."
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "Base. The clan is based out of...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A small shamanistic orc village."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A massive orc keep with multiple traps and defences such as boiling oil."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A fortress on the back of a dire mammoth."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A dragons old abandoned lair."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A conquered village/town of their enemies."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A forest camp."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A camp in the tundra. "
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A walled off stronghold originally made to be temporary."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A huge pit mine with furnaces and smelters making weaponry."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A solitary island with a shipyard."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A huge orcish city."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "The bones of a titan or a dragon."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "A cavern in a cliff."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "A riverside."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "A coastal cliff."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "A muddy bog."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "A nomadic camp they can put up in hours."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "The middle of the plains."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "A mountainous camp made of rock."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "Somewhere original created to imprison them."
+                }
+            ]
+        }
+    ],
+    "title": "Orcs, Warlords",
+    "use_with": [
+        {
+            "link": "4brthj",
+            "title": "Orcs, Individual"
+        },
+        {
+            "link": "3vspx8",
+            "title": "Orkish Clans"
+        },
+        {
+            "link": "3unfbm",
+            "title": "Caverns"
+        },
+        {
+            "link": "42rm5s",
+            "title": "Mountains"
+        }
+    ]
+}

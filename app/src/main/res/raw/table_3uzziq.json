@@ -1,0 +1,268 @@
+{
+    "description": "These are tables for generating an interesting treasure hunter to serve as ally or rival to your PCs.",
+    "id": "3uzziq",
+    "keywords": [
+        "treasure hunter",
+        "thief",
+        "rogue",
+        "dungeon delver",
+        "indiana jones",
+        "fortune and glory"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/3uzziq",
+    "related_tables": [
+        {
+            "link": "46ma8g",
+            "title": "Bards"
+        },
+        {
+            "link": "3w3gbj",
+            "title": "Graverobbers"
+        }
+    ],
+    "tables": [
+        {
+            "dice": "d6",
+            "name": "The treasure hunter is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A veteran dungeon delver."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A desperate thief."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A reckless fortune seeker.\t"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A well-known adventurer."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A brash, young fool."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A student of history."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The treasure hunter has...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A long, hooked nose."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A cute little button nose."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A scar below the left eye."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Pockmarked cheeks."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "High cheek bones."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A pointy chin."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The treasure hunter...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Hums or sings while walking."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Constantly brushes the hair back from out of his or her face."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Laughs maniacally at everything."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Never smiles and never laughs."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Scratches the elbow frequently."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Picks at his or her teeth after meals."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "The treasure hunter wears...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A nose ring."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A dark red cape."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Shiny leather boots."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Boots with a hole in the left toe."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A heavy gold chain."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A wide-brimmed hat."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A tattoo on the forearm (d6): 1. dagger; 2. dragon; 3. nude figure; 4. skull; 5. snake; 6. thorns."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A long dark ponytail."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Luscious golden curls."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A handkerchief in his breast pocket."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "An open shirt and a very hairy chest."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Extravagant mustaches."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "The treasure hunter carries...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Some hemp rope and a silk handkerchief."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Several over-sized sacks."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Several torches and a much-used knife."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A pocketbook of notes and maps."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A dagger in each boot."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A beautiful antique scabbard."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A well-worn lantern."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Climbing gear\u2014pitons, hammer, and rope."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The treasure hunter is looking for...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Rumors of treasure hoards."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "The location of an ancient crypt or ruin."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A pair of strong arms to haul some gold."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Proof of an ancient fable."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Evidence to disprove a sacred text."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "An ear to listen to some boasting."
+                }
+            ]
+        }
+    ],
+    "title": "Treasure Hunters",
+    "use_with": [
+        {
+            "link": "3unfbm",
+            "title": "Caverns"
+        },
+        {
+            "link": "3tich6",
+            "title": "Deserts"
+        },
+        {
+            "link": "3u4a05",
+            "title": "Jungle"
+        },
+        {
+            "link": "435qlc",
+            "title": "Reputations and rumors"
+        },
+        {
+            "link": "4b8u29",
+            "title": "Reputations of adventurers"
+        },
+        {
+            "link": "427hd8",
+            "title": "Tombs"
+        },
+        {
+            "link": "41vnh6",
+            "title": "Treasure maps"
+        }
+    ]
+}

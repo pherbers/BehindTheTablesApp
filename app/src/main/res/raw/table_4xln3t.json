@@ -1,0 +1,1924 @@
+{
+    "description": "Use these tables to quickly generate a unique continent for your players to play in.",
+    "id": "4xln3t",
+    "keywords": [
+        "world",
+        "continent",
+        "geography",
+        "worldbuilding"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/4xln3t",
+    "related_tables": [],
+    "tables": [
+        {
+            "dice": "d6",
+            "name": "Size: The continent is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Massive; It spans most of the world"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Large; It makes an impact on the shape of the world"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Medium; About as average as average gets"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Small; It may be hard to find with out exploration"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Tiny; It's practically an island"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Amalgamated; A collection of landmasses into a single continent. Roll twice on this table, larger of the two rolls is the area the continent covers, Smaller is the size of the land masses in the area."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "Location: The continent is located...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Polar; It sits one of of the polar ends of the world"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Equatorial; It straddles the world's equator"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Far North; The sun never sets half the year, and never rises the other half"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Far South; The sun never sets half the year, and never rises the other half"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Northern Hemisphere"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Southern Hemisphere"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Runs laterally across both hemispheres"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Hidden; It can not be easily found"
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Sub-Climates: Compared to the rest of the the world, the continent is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Warmer than usual"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Colder than usual"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Windier than usual"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Rainier than usual"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Rather average"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "More tropical than usual"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Incredibly Hot"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Incredibly Cold"
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Incredibly wet"
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "More humid than usual"
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "A unique characteristic of this continent is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "It is home to an ancient volcano that has been erupting for generations"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "It is said to be protected by a god"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "It is the only place to find a rare mineral (d10): 1. Gold; 2. Silver; 3. Copper; 4. Adamantine; 5. Titanium; 6. Tungsten; 7. Platinum; 8. Electrum; 9. Uranium; 10. Unobtanium"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "It is home to the tallest mountain in the world"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "It is home to the largest lake in the world"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "An unnaturally massive number of chickens roam the wild"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Most of it is below sea level"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "It is pock marked with craters"
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A powerful enchantment has befallen it"
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "It has been afflicted by a powerful curse"
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "It is landlocked"
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "It has no neighbouring continents"
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "It was recently ravaged by a major cataclysm (d6): 1. A massive meteor changed the entire landscape; 2. A massive volcano erupted, blacking out the sky; 3. A drought caused massive dust storms, and food became scarce; 4. Massive floods wiped out anyone that was not prepared; 5. A god became angry and punished the people by scorching the land; 6. A pandemic spread like wildfire, killing 60 percent of the population"
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "Massive storms make the coast uninhabitable"
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "At the center is a font of wild magic"
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "It is said to hide a legendary artifact"
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "It was claimed by a legendary hero"
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "It was claimed by a legendary villain"
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "It used to be joined with another continent, but was split asunder."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "It is dominated by a single land type (d10): 1. Mountains; 2. Desert; 3. Forests; 4. Jungle; 5. Tundra; 6. Plains; 7. Lakes; 8. Rivers; 9. Swamp / Marshland; 10. Canyons"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Discovery: When was the continent was discovered?",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Long before memory or written history"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Centuries ago"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A few generations ago"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A generation ago"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Very recently"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "It has not yet been discovered"
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "Discovery: The continent was discovered by...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A travelling merchant looking for new riches"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A nomadic tribe wandering aimlessly"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A small group of pilgrims looking for greener pastures"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Refugees from a massive war"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Colonists sent by the ruler of another land seeking to expand his borders"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Explorers looking for something new and exciting"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Map makers looking for fill in gaps of a map"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A small civilization escaping from a stronger, more dominant monster"
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A small civilization seeking better a better climate"
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Frontiersman pushing the edges of the know world."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "No one, it was the cradle of civilization"
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Priests seeking worshippers"
+                }
+            ]
+        },
+        {
+            "dice": "d100",
+            "name": "Domestic Creatures: Creatures unique to this continent include... (Roll 2d4 times)",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Monkeys"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Apes"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Baboons"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Pelicans"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Deer"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Cows"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Elk"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Bison"
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Coyotes"
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Dingos"
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Wolves"
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Swans"
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "Lions"
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "Tigers"
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "Brown Bears"
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "Grizzly Bears"
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "Polar Bears"
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "Tarantulas"
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "Blink Dogs"
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "Badgers"
+                },
+                {
+                    "dice_val": "21",
+                    "entry": "Wolverines"
+                },
+                {
+                    "dice_val": "22",
+                    "entry": "Black Bears"
+                },
+                {
+                    "dice_val": "23",
+                    "entry": "Giraffes"
+                },
+                {
+                    "dice_val": "24",
+                    "entry": "Llamas"
+                },
+                {
+                    "dice_val": "25",
+                    "entry": "Alpacas"
+                },
+                {
+                    "dice_val": "26",
+                    "entry": "Chickens"
+                },
+                {
+                    "dice_val": "27",
+                    "entry": "Hawks"
+                },
+                {
+                    "dice_val": "28",
+                    "entry": "Eagles"
+                },
+                {
+                    "dice_val": "29",
+                    "entry": "Tortoises"
+                },
+                {
+                    "dice_val": "30",
+                    "entry": "Boars"
+                },
+                {
+                    "dice_val": "31",
+                    "entry": "Cougars"
+                },
+                {
+                    "dice_val": "32",
+                    "entry": "Merekats"
+                },
+                {
+                    "dice_val": "33",
+                    "entry": "Camels"
+                },
+                {
+                    "dice_val": "34",
+                    "entry": "Panthers"
+                },
+                {
+                    "dice_val": "35",
+                    "entry": "Boa Constrictors"
+                },
+                {
+                    "dice_val": "36",
+                    "entry": "Crocodiles"
+                },
+                {
+                    "dice_val": "37",
+                    "entry": "Alligators"
+                },
+                {
+                    "dice_val": "38",
+                    "entry": "Horses"
+                },
+                {
+                    "dice_val": "39",
+                    "entry": "Pandas"
+                },
+                {
+                    "dice_val": "40",
+                    "entry": "Koalas"
+                },
+                {
+                    "dice_val": "41",
+                    "entry": "Kangaroos"
+                },
+                {
+                    "dice_val": "42",
+                    "entry": "Wallabies"
+                },
+                {
+                    "dice_val": "43",
+                    "entry": "Death Dogs"
+                },
+                {
+                    "dice_val": "44",
+                    "entry": "Axe Beaks"
+                },
+                {
+                    "dice_val": "45",
+                    "entry": "Elephants"
+                },
+                {
+                    "dice_val": "46",
+                    "entry": "Flying Snakes"
+                },
+                {
+                    "dice_val": "47",
+                    "entry": "Scorpions"
+                },
+                {
+                    "dice_val": "48",
+                    "entry": "Hyenas"
+                },
+                {
+                    "dice_val": "49",
+                    "entry": "Vultures"
+                },
+                {
+                    "dice_val": "50",
+                    "entry": "Goats"
+                },
+                {
+                    "dice_val": "51",
+                    "entry": "Jackals"
+                },
+                {
+                    "dice_val": "52",
+                    "entry": "Mammoths"
+                },
+                {
+                    "dice_val": "53",
+                    "entry": "Phase Spiders"
+                },
+                {
+                    "dice_val": "54",
+                    "entry": "Rhinoceroses"
+                },
+                {
+                    "dice_val": "55",
+                    "entry": "Saber-Toothed tigers"
+                },
+                {
+                    "dice_val": "56",
+                    "entry": "Worgs"
+                },
+                {
+                    "dice_val": "57",
+                    "entry": "Dire Wolves"
+                },
+                {
+                    "dice_val": "58",
+                    "entry": "Giant Badgers"
+                },
+                {
+                    "dice_val": "59",
+                    "entry": "Giant Rats"
+                },
+                {
+                    "dice_val": "60",
+                    "entry": "Giant Spiders"
+                },
+                {
+                    "dice_val": "61",
+                    "entry": "Dire Chickens"
+                },
+                {
+                    "dice_val": "62",
+                    "entry": "Giant Eagles"
+                },
+                {
+                    "dice_val": "63",
+                    "entry": "Giant Boars"
+                },
+                {
+                    "dice_val": "64",
+                    "entry": "Giant Centipedes"
+                },
+                {
+                    "dice_val": "65",
+                    "entry": "Giant Bats"
+                },
+                {
+                    "dice_val": "66",
+                    "entry": "Giant Snakes"
+                },
+                {
+                    "dice_val": "67",
+                    "entry": "Giant Crabs"
+                },
+                {
+                    "dice_val": "68",
+                    "entry": "Giant Crocodiles"
+                },
+                {
+                    "dice_val": "69",
+                    "entry": "Giant Elk"
+                },
+                {
+                    "dice_val": "70",
+                    "entry": "Giant Fire Beetles"
+                },
+                {
+                    "dice_val": "71",
+                    "entry": "Giant Frogs"
+                },
+                {
+                    "dice_val": "72",
+                    "entry": "Giant Goats"
+                },
+                {
+                    "dice_val": "73",
+                    "entry": "Giant Hyenas"
+                },
+                {
+                    "dice_val": "74",
+                    "entry": "Giant Lizards"
+                },
+                {
+                    "dice_val": "75",
+                    "entry": "Iguanas"
+                },
+                {
+                    "dice_val": "76",
+                    "entry": "Giant Owls"
+                },
+                {
+                    "dice_val": "77",
+                    "entry": "Giant Scorpions"
+                },
+                {
+                    "dice_val": "78",
+                    "entry": "Giant Toads"
+                },
+                {
+                    "dice_val": "79",
+                    "entry": "Giant Vultures"
+                },
+                {
+                    "dice_val": "80",
+                    "entry": "Giant Wasps"
+                },
+                {
+                    "dice_val": "81",
+                    "entry": "Giant Weasels"
+                },
+                {
+                    "dice_val": "82",
+                    "entry": "Weasels"
+                },
+                {
+                    "dice_val": "83",
+                    "entry": "Giant Wolf Spiders"
+                },
+                {
+                    "dice_val": "84",
+                    "entry": "Owlbears"
+                },
+                {
+                    "dice_val": "85",
+                    "entry": "Sloths"
+                },
+                {
+                    "dice_val": "86",
+                    "entry": "Dodo Birds"
+                },
+                {
+                    "dice_val": "87",
+                    "entry": "Basilisks"
+                },
+                {
+                    "dice_val": "88",
+                    "entry": "Cockatrice"
+                },
+                {
+                    "dice_val": "89",
+                    "entry": "Griffons"
+                },
+                {
+                    "dice_val": "90",
+                    "entry": "Hippogriffs"
+                },
+                {
+                    "dice_val": "91",
+                    "entry": "Squirrels"
+                },
+                {
+                    "dice_val": "92",
+                    "entry": "Chipmunks"
+                },
+                {
+                    "dice_val": "93",
+                    "entry": "Buffalo"
+                },
+                {
+                    "dice_val": "94",
+                    "entry": "Ostriches"
+                },
+                {
+                    "dice_val": "95",
+                    "entry": "Zebras"
+                },
+                {
+                    "dice_val": "96",
+                    "entry": "Geese"
+                },
+                {
+                    "dice_val": "97",
+                    "entry": "Mongooses"
+                },
+                {
+                    "dice_val": "98",
+                    "entry": "Lemurs"
+                },
+                {
+                    "dice_val": "99",
+                    "entry": "Pigs"
+                },
+                {
+                    "dice_val": "100",
+                    "entry": "Platypi"
+                }
+            ]
+        },
+        {
+            "dice": "d100",
+            "name": "Foreign Creatures: Creatures imported to this continent include... (Roll 1d4 times)",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Monkeys"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Apes"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Baboons"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Pelicans"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Deer"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Cows"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Elk"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Bison"
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Coyotes"
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Dingos"
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Wolves"
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Swans"
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "Lions"
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "Tigers"
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "Brown Bears"
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "Grizzly Bears"
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "Polar Bears"
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "Tarantulas"
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "Blink Dogs"
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "Badgers"
+                },
+                {
+                    "dice_val": "21",
+                    "entry": "Wolverines"
+                },
+                {
+                    "dice_val": "22",
+                    "entry": "Black Bears"
+                },
+                {
+                    "dice_val": "23",
+                    "entry": "Giraffes"
+                },
+                {
+                    "dice_val": "24",
+                    "entry": "Llamas"
+                },
+                {
+                    "dice_val": "25",
+                    "entry": "Alpacas"
+                },
+                {
+                    "dice_val": "26",
+                    "entry": "Chickens"
+                },
+                {
+                    "dice_val": "27",
+                    "entry": "Hawks"
+                },
+                {
+                    "dice_val": "28",
+                    "entry": "Eagles"
+                },
+                {
+                    "dice_val": "29",
+                    "entry": "Tortoises"
+                },
+                {
+                    "dice_val": "30",
+                    "entry": "Boars"
+                },
+                {
+                    "dice_val": "31",
+                    "entry": "Cougars"
+                },
+                {
+                    "dice_val": "32",
+                    "entry": "Merekats"
+                },
+                {
+                    "dice_val": "33",
+                    "entry": "Camels"
+                },
+                {
+                    "dice_val": "34",
+                    "entry": "Panthers"
+                },
+                {
+                    "dice_val": "35",
+                    "entry": "Boa Constrictors"
+                },
+                {
+                    "dice_val": "36",
+                    "entry": "Crocodiles"
+                },
+                {
+                    "dice_val": "37",
+                    "entry": "Alligators"
+                },
+                {
+                    "dice_val": "38",
+                    "entry": "Horses"
+                },
+                {
+                    "dice_val": "39",
+                    "entry": "Pandas"
+                },
+                {
+                    "dice_val": "40",
+                    "entry": "Koalas"
+                },
+                {
+                    "dice_val": "41",
+                    "entry": "Kangaroos"
+                },
+                {
+                    "dice_val": "42",
+                    "entry": "Wallabies"
+                },
+                {
+                    "dice_val": "43",
+                    "entry": "Death Dogs"
+                },
+                {
+                    "dice_val": "44",
+                    "entry": "Axe Beaks"
+                },
+                {
+                    "dice_val": "45",
+                    "entry": "Elephants"
+                },
+                {
+                    "dice_val": "46",
+                    "entry": "Flying Snakes"
+                },
+                {
+                    "dice_val": "47",
+                    "entry": "Scorpions"
+                },
+                {
+                    "dice_val": "48",
+                    "entry": "Hyenas"
+                },
+                {
+                    "dice_val": "49",
+                    "entry": "Vultures"
+                },
+                {
+                    "dice_val": "50",
+                    "entry": "Goats"
+                },
+                {
+                    "dice_val": "51",
+                    "entry": "Jackals"
+                },
+                {
+                    "dice_val": "52",
+                    "entry": "Mammoths"
+                },
+                {
+                    "dice_val": "53",
+                    "entry": "Phase Spiders"
+                },
+                {
+                    "dice_val": "54",
+                    "entry": "Rhinoceroses"
+                },
+                {
+                    "dice_val": "55",
+                    "entry": "Saber-Toothed tigers"
+                },
+                {
+                    "dice_val": "56",
+                    "entry": "Worgs"
+                },
+                {
+                    "dice_val": "57",
+                    "entry": "Dire Wolves"
+                },
+                {
+                    "dice_val": "58",
+                    "entry": "Giant Badgers"
+                },
+                {
+                    "dice_val": "59",
+                    "entry": "Giant Rats"
+                },
+                {
+                    "dice_val": "60",
+                    "entry": "Giant Spiders"
+                },
+                {
+                    "dice_val": "61",
+                    "entry": "Dire Chickens"
+                },
+                {
+                    "dice_val": "62",
+                    "entry": "Giant Eagles"
+                },
+                {
+                    "dice_val": "63",
+                    "entry": "Giant Boars"
+                },
+                {
+                    "dice_val": "64",
+                    "entry": "Giant Centipedes"
+                },
+                {
+                    "dice_val": "65",
+                    "entry": "Giant Bats"
+                },
+                {
+                    "dice_val": "66",
+                    "entry": "Giant Snakes"
+                },
+                {
+                    "dice_val": "67",
+                    "entry": "Giant Crabs"
+                },
+                {
+                    "dice_val": "68",
+                    "entry": "Giant Crocodiles"
+                },
+                {
+                    "dice_val": "69",
+                    "entry": "Giant Elk"
+                },
+                {
+                    "dice_val": "70",
+                    "entry": "Giant Fire Beetles"
+                },
+                {
+                    "dice_val": "71",
+                    "entry": "Giant Frogs"
+                },
+                {
+                    "dice_val": "72",
+                    "entry": "Giant Goats"
+                },
+                {
+                    "dice_val": "73",
+                    "entry": "Giant Hyenas"
+                },
+                {
+                    "dice_val": "74",
+                    "entry": "Giant Lizards"
+                },
+                {
+                    "dice_val": "75",
+                    "entry": "Iguanas"
+                },
+                {
+                    "dice_val": "76",
+                    "entry": "Giant Owls"
+                },
+                {
+                    "dice_val": "77",
+                    "entry": "Giant Scorpions"
+                },
+                {
+                    "dice_val": "78",
+                    "entry": "Giant Toads"
+                },
+                {
+                    "dice_val": "79",
+                    "entry": "Giant Vultures"
+                },
+                {
+                    "dice_val": "80",
+                    "entry": "Giant Wasps"
+                },
+                {
+                    "dice_val": "81",
+                    "entry": "Giant Weasels"
+                },
+                {
+                    "dice_val": "82",
+                    "entry": "Weasels"
+                },
+                {
+                    "dice_val": "83",
+                    "entry": "Giant Wolf Spiders"
+                },
+                {
+                    "dice_val": "84",
+                    "entry": "Owlbears"
+                },
+                {
+                    "dice_val": "85",
+                    "entry": "Sloths"
+                },
+                {
+                    "dice_val": "86",
+                    "entry": "Dodo Birds"
+                },
+                {
+                    "dice_val": "87",
+                    "entry": "Basilisks"
+                },
+                {
+                    "dice_val": "88",
+                    "entry": "Cockatrice"
+                },
+                {
+                    "dice_val": "89",
+                    "entry": "Griffons"
+                },
+                {
+                    "dice_val": "90",
+                    "entry": "Hippogriffs"
+                },
+                {
+                    "dice_val": "91",
+                    "entry": "Squirrels"
+                },
+                {
+                    "dice_val": "92",
+                    "entry": "Chipmunks"
+                },
+                {
+                    "dice_val": "93",
+                    "entry": "Buffalo"
+                },
+                {
+                    "dice_val": "94",
+                    "entry": "Ostriches"
+                },
+                {
+                    "dice_val": "95",
+                    "entry": "Zebras"
+                },
+                {
+                    "dice_val": "96",
+                    "entry": "Geese"
+                },
+                {
+                    "dice_val": "97",
+                    "entry": "Mongooses"
+                },
+                {
+                    "dice_val": "98",
+                    "entry": "Lemurs"
+                },
+                {
+                    "dice_val": "99",
+                    "entry": "Pigs"
+                },
+                {
+                    "dice_val": "100",
+                    "entry": "Platypi"
+                }
+            ]
+        },
+        {
+            "dice": "d100",
+            "name": "Domestic Plants: Plants unique tot his continent include... (Roll 2d4 Times)",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Roses"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Ferns"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Pine Trees"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Maple Trees"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Birch Trees"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Black Ash Trees"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "White Ash Trees"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Aspens"
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Willows"
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Butternut Trees"
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Black Cherry Trees"
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Chestnut Trees"
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "Cottonwood Trees"
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "Elms"
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "Firs"
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "Hemlock"
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "Hickory"
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "Oak Trees"
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "Spruce Trees"
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "Sycamores"
+                },
+                {
+                    "dice_val": "21",
+                    "entry": "Walnut Trees"
+                },
+                {
+                    "dice_val": "22",
+                    "entry": "Peach Trees"
+                },
+                {
+                    "dice_val": "23",
+                    "entry": "Orange Trees"
+                },
+                {
+                    "dice_val": "24",
+                    "entry": "Plum Trees"
+                },
+                {
+                    "dice_val": "25",
+                    "entry": "Apple Trees"
+                },
+                {
+                    "dice_val": "26",
+                    "entry": "Baobab Trees"
+                },
+                {
+                    "dice_val": "27",
+                    "entry": "Olive Trees"
+                },
+                {
+                    "dice_val": "28",
+                    "entry": "Cedars"
+                },
+                {
+                    "dice_val": "29",
+                    "entry": "Banyan Trees"
+                },
+                {
+                    "dice_val": "30",
+                    "entry": "Yews"
+                },
+                {
+                    "dice_val": "31",
+                    "entry": "Mulberry Trees"
+                },
+                {
+                    "dice_val": "32",
+                    "entry": "Lavender"
+                },
+                {
+                    "dice_val": "33",
+                    "entry": "Beech Trees"
+                },
+                {
+                    "dice_val": "34",
+                    "entry": "Poplars"
+                },
+                {
+                    "dice_val": "35",
+                    "entry": "Pear Trees"
+                },
+                {
+                    "dice_val": "36",
+                    "entry": "Redwoods"
+                },
+                {
+                    "dice_val": "37",
+                    "entry": "Junipers"
+                },
+                {
+                    "dice_val": "38",
+                    "entry": "Strawberries"
+                },
+                {
+                    "dice_val": "39",
+                    "entry": "Blueberries"
+                },
+                {
+                    "dice_val": "40",
+                    "entry": "Blackberries"
+                },
+                {
+                    "dice_val": "41",
+                    "entry": "Raspberries"
+                },
+                {
+                    "dice_val": "42",
+                    "entry": "Potatoes"
+                },
+                {
+                    "dice_val": "43",
+                    "entry": "Carrots"
+                },
+                {
+                    "dice_val": "44",
+                    "entry": "Poppies"
+                },
+                {
+                    "dice_val": "45",
+                    "entry": "Azaleas"
+                },
+                {
+                    "dice_val": "46",
+                    "entry": "Begonias"
+                },
+                {
+                    "dice_val": "47",
+                    "entry": "Bloodroot"
+                },
+                {
+                    "dice_val": "48",
+                    "entry": "Carnations"
+                },
+                {
+                    "dice_val": "49",
+                    "entry": "Chrysanthemum"
+                },
+                {
+                    "dice_val": "50",
+                    "entry": "Tumbleweed"
+                },
+                {
+                    "dice_val": "51",
+                    "entry": "Geranium"
+                },
+                {
+                    "dice_val": "52",
+                    "entry": "Hyacinth"
+                },
+                {
+                    "dice_val": "53",
+                    "entry": "Iris"
+                },
+                {
+                    "dice_val": "54",
+                    "entry": "Celery"
+                },
+                {
+                    "dice_val": "55",
+                    "entry": "Lavender"
+                },
+                {
+                    "dice_val": "56",
+                    "entry": "Morning Glory"
+                },
+                {
+                    "dice_val": "57",
+                    "entry": "Bell Pepper"
+                },
+                {
+                    "dice_val": "58",
+                    "entry": "Mint"
+                },
+                {
+                    "dice_val": "59",
+                    "entry": "Cumin"
+                },
+                {
+                    "dice_val": "60",
+                    "entry": "Oregano"
+                },
+                {
+                    "dice_val": "61",
+                    "entry": "Garlic"
+                },
+                {
+                    "dice_val": "62",
+                    "entry": "Orchid"
+                },
+                {
+                    "dice_val": "63",
+                    "entry": "Sunflower"
+                },
+                {
+                    "dice_val": "64",
+                    "entry": "Tulip"
+                },
+                {
+                    "dice_val": "65",
+                    "entry": "Poison Ivy"
+                },
+                {
+                    "dice_val": "66",
+                    "entry": "Poison Oak"
+                },
+                {
+                    "dice_val": "67",
+                    "entry": "Onions"
+                },
+                {
+                    "dice_val": "68",
+                    "entry": "Spinach"
+                },
+                {
+                    "dice_val": "69",
+                    "entry": "Watermelon"
+                },
+                {
+                    "dice_val": "70",
+                    "entry": "Mustard"
+                },
+                {
+                    "dice_val": "71",
+                    "entry": "Apricot Trees"
+                },
+                {
+                    "dice_val": "72",
+                    "entry": "Banana Trees"
+                },
+                {
+                    "dice_val": "73",
+                    "entry": "Pineapple"
+                },
+                {
+                    "dice_val": "74",
+                    "entry": "Mangos"
+                },
+                {
+                    "dice_val": "75",
+                    "entry": "Palm Trees"
+                },
+                {
+                    "dice_val": "76",
+                    "entry": "Dragonfruit Trees"
+                },
+                {
+                    "dice_val": "77",
+                    "entry": "Avocados"
+                },
+                {
+                    "dice_val": "78",
+                    "entry": "Fig Trees"
+                },
+                {
+                    "dice_val": "79",
+                    "entry": "Grapes"
+                },
+                {
+                    "dice_val": "80",
+                    "entry": "Guava"
+                },
+                {
+                    "dice_val": "81",
+                    "entry": "Kiwifruit"
+                },
+                {
+                    "dice_val": "82",
+                    "entry": "Lemon Trees"
+                },
+                {
+                    "dice_val": "83",
+                    "entry": "Line Trees"
+                },
+                {
+                    "dice_val": "84",
+                    "entry": "Papaya Trees"
+                },
+                {
+                    "dice_val": "85",
+                    "entry": "Pomegranate Trees"
+                },
+                {
+                    "dice_val": "86",
+                    "entry": "Tomatoes"
+                },
+                {
+                    "dice_val": "87",
+                    "entry": "Rice"
+                },
+                {
+                    "dice_val": "88",
+                    "entry": "Brussel Sprouts"
+                },
+                {
+                    "dice_val": "89",
+                    "entry": "Cabbage"
+                },
+                {
+                    "dice_val": "90",
+                    "entry": "Pumpkin"
+                },
+                {
+                    "dice_val": "91",
+                    "entry": "Radishes"
+                },
+                {
+                    "dice_val": "92",
+                    "entry": "Turnips"
+                },
+                {
+                    "dice_val": "93",
+                    "entry": "Corn"
+                },
+                {
+                    "dice_val": "94",
+                    "entry": "Wheat"
+                },
+                {
+                    "dice_val": "95",
+                    "entry": "Bok Choy"
+                },
+                {
+                    "dice_val": "96",
+                    "entry": "Arugula"
+                },
+                {
+                    "dice_val": "97",
+                    "entry": "Ivy"
+                },
+                {
+                    "dice_val": "98",
+                    "entry": "Chickweed"
+                },
+                {
+                    "dice_val": "99",
+                    "entry": "Dandelion"
+                },
+                {
+                    "dice_val": "100",
+                    "entry": "Dill\t"
+                }
+            ]
+        },
+        {
+            "dice": "d100",
+            "name": "Foreign Plants: Plants imported to this continent include... (Roll 1d4 Times)",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Roses"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Ferns"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Pine Trees"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Maple Trees"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Birch Trees"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Black Ash Trees"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "White Ash Trees"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Aspens"
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Willows"
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Butternut Trees"
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Black Cherry Trees"
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Chestnut Trees"
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "Cottonwood Trees"
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "Elms"
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "Firs"
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "Hemlock"
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "Hickory"
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "Oak Trees"
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "Spruce Trees"
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "Sycamores"
+                },
+                {
+                    "dice_val": "21",
+                    "entry": "Walnut Trees"
+                },
+                {
+                    "dice_val": "22",
+                    "entry": "Peach Trees"
+                },
+                {
+                    "dice_val": "23",
+                    "entry": "Orange Trees"
+                },
+                {
+                    "dice_val": "24",
+                    "entry": "Plum Trees"
+                },
+                {
+                    "dice_val": "25",
+                    "entry": "Apple Trees"
+                },
+                {
+                    "dice_val": "26",
+                    "entry": "Baobab Trees"
+                },
+                {
+                    "dice_val": "27",
+                    "entry": "Olive Trees"
+                },
+                {
+                    "dice_val": "28",
+                    "entry": "Cedars"
+                },
+                {
+                    "dice_val": "29",
+                    "entry": "Banyan Trees"
+                },
+                {
+                    "dice_val": "30",
+                    "entry": "Yews"
+                },
+                {
+                    "dice_val": "31",
+                    "entry": "Mulberry Trees"
+                },
+                {
+                    "dice_val": "32",
+                    "entry": "Lavender"
+                },
+                {
+                    "dice_val": "33",
+                    "entry": "Beech Trees"
+                },
+                {
+                    "dice_val": "34",
+                    "entry": "Poplars"
+                },
+                {
+                    "dice_val": "35",
+                    "entry": "Pear Trees"
+                },
+                {
+                    "dice_val": "36",
+                    "entry": "Redwoods"
+                },
+                {
+                    "dice_val": "37",
+                    "entry": "Junipers"
+                },
+                {
+                    "dice_val": "38",
+                    "entry": "Strawberries"
+                },
+                {
+                    "dice_val": "39",
+                    "entry": "Blueberries"
+                },
+                {
+                    "dice_val": "40",
+                    "entry": "Blackberries"
+                },
+                {
+                    "dice_val": "41",
+                    "entry": "Raspberries"
+                },
+                {
+                    "dice_val": "42",
+                    "entry": "Potatoes"
+                },
+                {
+                    "dice_val": "43",
+                    "entry": "Carrots"
+                },
+                {
+                    "dice_val": "44",
+                    "entry": "Poppies"
+                },
+                {
+                    "dice_val": "45",
+                    "entry": "Azaleas"
+                },
+                {
+                    "dice_val": "46",
+                    "entry": "Begonias"
+                },
+                {
+                    "dice_val": "47",
+                    "entry": "Bloodroot"
+                },
+                {
+                    "dice_val": "48",
+                    "entry": "Carnations"
+                },
+                {
+                    "dice_val": "49",
+                    "entry": "Chrysanthemum"
+                },
+                {
+                    "dice_val": "50",
+                    "entry": "Tumbleweed"
+                },
+                {
+                    "dice_val": "51",
+                    "entry": "Geranium"
+                },
+                {
+                    "dice_val": "52",
+                    "entry": "Hyacinth"
+                },
+                {
+                    "dice_val": "53",
+                    "entry": "Iris"
+                },
+                {
+                    "dice_val": "54",
+                    "entry": "Celery"
+                },
+                {
+                    "dice_val": "55",
+                    "entry": "Lavender"
+                },
+                {
+                    "dice_val": "56",
+                    "entry": "Morning Glory"
+                },
+                {
+                    "dice_val": "57",
+                    "entry": "Bell Pepper"
+                },
+                {
+                    "dice_val": "58",
+                    "entry": "Mint"
+                },
+                {
+                    "dice_val": "59",
+                    "entry": "Cumin"
+                },
+                {
+                    "dice_val": "60",
+                    "entry": "Oregano"
+                },
+                {
+                    "dice_val": "61",
+                    "entry": "Garlic"
+                },
+                {
+                    "dice_val": "62",
+                    "entry": "Orchid"
+                },
+                {
+                    "dice_val": "63",
+                    "entry": "Sunflower"
+                },
+                {
+                    "dice_val": "64",
+                    "entry": "Tulip"
+                },
+                {
+                    "dice_val": "65",
+                    "entry": "Poison Ivy"
+                },
+                {
+                    "dice_val": "66",
+                    "entry": "Poison Oak"
+                },
+                {
+                    "dice_val": "67",
+                    "entry": "Onions"
+                },
+                {
+                    "dice_val": "68",
+                    "entry": "Spinach"
+                },
+                {
+                    "dice_val": "69",
+                    "entry": "Watermelon"
+                },
+                {
+                    "dice_val": "70",
+                    "entry": "Mustard"
+                },
+                {
+                    "dice_val": "71",
+                    "entry": "Apricot Trees"
+                },
+                {
+                    "dice_val": "72",
+                    "entry": "Banana Trees"
+                },
+                {
+                    "dice_val": "73",
+                    "entry": "Pineapple"
+                },
+                {
+                    "dice_val": "74",
+                    "entry": "Mangos"
+                },
+                {
+                    "dice_val": "75",
+                    "entry": "Palm Trees"
+                },
+                {
+                    "dice_val": "76",
+                    "entry": "Dragonfruit Trees"
+                },
+                {
+                    "dice_val": "77",
+                    "entry": "Avocados"
+                },
+                {
+                    "dice_val": "78",
+                    "entry": "Fig Trees"
+                },
+                {
+                    "dice_val": "79",
+                    "entry": "Grapes"
+                },
+                {
+                    "dice_val": "80",
+                    "entry": "Guava"
+                },
+                {
+                    "dice_val": "81",
+                    "entry": "Kiwifruit"
+                },
+                {
+                    "dice_val": "82",
+                    "entry": "Lemon Trees"
+                },
+                {
+                    "dice_val": "83",
+                    "entry": "Line Trees"
+                },
+                {
+                    "dice_val": "84",
+                    "entry": "Papaya Trees"
+                },
+                {
+                    "dice_val": "85",
+                    "entry": "Pomegranate Trees"
+                },
+                {
+                    "dice_val": "86",
+                    "entry": "Tomatoes"
+                },
+                {
+                    "dice_val": "87",
+                    "entry": "Rice"
+                },
+                {
+                    "dice_val": "88",
+                    "entry": "Brussel Sprouts"
+                },
+                {
+                    "dice_val": "89",
+                    "entry": "Cabbage"
+                },
+                {
+                    "dice_val": "90",
+                    "entry": "Pumpkin"
+                },
+                {
+                    "dice_val": "91",
+                    "entry": "Radishes"
+                },
+                {
+                    "dice_val": "92",
+                    "entry": "Turnips"
+                },
+                {
+                    "dice_val": "93",
+                    "entry": "Corn"
+                },
+                {
+                    "dice_val": "94",
+                    "entry": "Wheat"
+                },
+                {
+                    "dice_val": "95",
+                    "entry": "Bok Choy"
+                },
+                {
+                    "dice_val": "96",
+                    "entry": "Arugula"
+                },
+                {
+                    "dice_val": "97",
+                    "entry": "Ivy"
+                },
+                {
+                    "dice_val": "98",
+                    "entry": "Chickweed"
+                },
+                {
+                    "dice_val": "99",
+                    "entry": "Dandelion"
+                },
+                {
+                    "dice_val": "100",
+                    "entry": "Dill"
+                }
+            ]
+        }
+    ],
+    "title": "Continent",
+    "use_with": []
+}

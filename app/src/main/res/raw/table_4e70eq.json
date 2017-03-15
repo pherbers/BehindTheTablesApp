@@ -1,0 +1,440 @@
+{
+    "description": "These are tables for quickly coming up with a flavorful meal or menu you might find in a seaside caf\u00e9 or palace, mild-climate beach resort, slightly-upscale restaurant or wine bar, or any place that serves delicious meals.",
+    "id": "4e70eq",
+    "keywords": [
+        "small plates",
+        "tapas",
+        "insalata",
+        "antipasti",
+        "segundi",
+        "mafioso",
+        "wise guys",
+        "louis restaurant"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/4e70eq",
+    "related_tables": [
+        {
+            "link": "4dpl3q",
+            "title": "Breakfast at a city caf\u00e9"
+        },
+        {
+            "link": "4dv87r",
+            "title": "Dinner at a dockside tavern"
+        }
+    ],
+    "tables": [
+        {
+            "dice": "d10",
+            "name": "Tonight, at a seaside cafe, we dine on...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Stewed."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Breaded."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Fried."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Battered."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Baked."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Brined."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Seared."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Peppered."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Salted."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Smoked."
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Clams."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Crab."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Lobster."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Mussels."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Oysters."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Squid."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Shrimp."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Prawns."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Chicken."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Lamb."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Mutton."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Steak."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "Beef."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "Veal."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "Scallops."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "Artichokes."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "Eggplant."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "Sweet sausage."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "Mild sausage."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "Spicy sausage."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "...with...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Golden potatoes."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Red potatoes."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Long, thin pasta."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Short, broad pasta."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Curly pasta."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Spiral pasta."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Red beans."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "White beans."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Garbanzo beans."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Rice."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "...and...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Asparagus."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Broccoli."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Capers."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Scallions."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Small, sweet tomatoes."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Tomato wedges."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Black olives."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Green olives."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Red olives."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Peas."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Carrots."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Arugula."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "...dressed with...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Olive oil and basil."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Olive oil and oregano."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Olive oil and garlic."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Olive oil and lemon juice."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Olive oil and pungent cheese."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Olive oil and vinegar."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "White wine sauce."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Red wine sauce."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Creamy cheese sauce."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Butter sage sauce."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Tomato sauce with basil."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Tomato sauce with garlic."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "On the side, there is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Fresh bread."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Crusty bread."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Buttered bread."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Garlic bread."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A plate of olives."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A plate of almonds."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A plate of pistachios."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A plate of cheeses."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "To wash it down, we have some...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Mediocre ale."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Strong coffee."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Coffee with milk."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Sour wine."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Sweet wine."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "White wine."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Ros\u00e9."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Red wine."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Strong wine."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Brandy."
+                }
+            ]
+        }
+    ],
+    "title": "Dinner at a Seaside Caf\u00e9",
+    "use_with": [
+        {
+            "link": "46ma8g",
+            "title": "Bards"
+        },
+        {
+            "link": "43wnpg",
+            "title": "Harlots"
+        },
+        {
+            "link": "3xyhdl",
+            "title": "Nobles"
+        },
+        {
+            "link": "43xb06",
+            "title": "Merchants"
+        },
+        {
+            "link": "3t5sik",
+            "title": "Pirate crews"
+        },
+        {
+            "link": "497u5a",
+            "title": "Sailors"
+        },
+        {
+            "link": "3sj9ub",
+            "title": "Town NPCs"
+        },
+        {
+            "link": "3t5q2e",
+            "title": "Urban gangs"
+        },
+        {
+            "link": "4daxw7",
+            "title": "Urban marketplace"
+        },
+        {
+            "link": "4cx75p",
+            "title": "Wines"
+        }
+    ]
+}

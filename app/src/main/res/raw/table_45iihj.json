@@ -1,0 +1,353 @@
+{
+    "description": "At every point in an adventurer\u2019s lifetime, there is bound to be a classic \u201cDamsel in Distress\u201d quest. Daughter or son of some wealthy noble or king gets themself captured and it\u2019s up to the latest and greatest local heroes to bring them back. In this scenario, the word \u2018damsel\u2019 is replaced by \u2018noble\u2019 since this can be either a prince or princess.",
+    "id": "45iihj",
+    "keywords": [
+        "damsel",
+        "prince",
+        "princess",
+        "one shot",
+        "adventure"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/45iihj",
+    "related_tables": [],
+    "tables": [
+        {
+            "dice": "d2",
+            "name": "The noble\u2019s gender is",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "male"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "female"
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "The party",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "finds a hastily scrawled note that used finger tips as the pen and blood as the ink"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "experiences a vision of the keep and noble has been reoccurring in your dreams"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "is shown a missing person notice posted by the noble\u2019s family"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "stumbles upon the keep by chance while out adventuring"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "overhears a pair of knights recounting their failure in retreat"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "is asked to investigate the keep(er) due to suspicious activity"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "is stopped by woodland creatures who all begin chattering frantically about the situation"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "hears gossip in the tavern about the noble\u2019s whereabouts"
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "is told about the scenario by a traveling oracle"
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "is captured and taken by the keeper\u2019s henchmen"
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "The noble is being kept in",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "a large magnificent castle on the mountainside"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "a cave burrowed into the side of a hill"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "a pocket dimension that opens only on the full moon"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "a sunken castle with an enchantment that permits water breathing inside of it"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "the brig of a ship anchored just off the coast"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "an abandoned, overgrown temple in the woods"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "a travelling caravan that is difficult to track down"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "a crypt hidden beneath a graveyard"
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "a magical prison inside an amulet worn by the keeper"
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "a hidden kingdom under the ground"
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "The noble is being held by",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "an old witch with imps for henchmen"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "a vampire lord with thrall for henchmen"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "a beholder with nothic henchmen"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "a bandit lord with bandit henchmen"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "a green dragon with half-dragon henchmen"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "a powerful wizard with golem henchmen"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "a medusa with living statues as henchmen"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "a lich and his skeleton henchmen"
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "a satyr prince and his satyr henchmen"
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "an orc warchief and his orc henchmen"
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "The keeper wants",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "gold in exchange"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "the noble as a slave"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "to make a blood sacrifice to their god"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "to use the noble as bait to lure in more prey"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "to sell them to the highest bidder overseas"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "to spark war between nations"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "the noble as a suitor for their son/daughter"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "to fill the void in their life that was caused by a loved one dying"
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "to keep the noble even though taking them happened by accident"
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "to fulfill tradition, it\u2019s nothing personal"
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "The noble in question is",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "beautiful/handsome beyond expression"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "ugly as sin"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "quite overweight"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "much taller than you expected"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "much shorted than you expected"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "very thin and looking under-fed "
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "unusually muscular"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "missing all of their hair"
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "much older compared to their description"
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "completely naked and [roll again]"
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "The real problem is",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "the noble wants to stay"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "the noble insists their family doesn\u2019t really want them to come back"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "the noble has been placed into a catatonic dream state"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "the noble dies on the way back home"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "the noble falls in love with a party member and doesn\u2019t want to leave them"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "the noble is an illusion and is being kept somewhere else [Roll another location]"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "there are six nobles who all look similar to the description"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "the noble is the opposite gender than what you were told"
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "the noble attacks the party in a frenzy and won\u2019t stop until calmed down or knocked unconscious"
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "the noble gets captured again by someone else on the way back [Start over at The damsel is being kept in]"
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Not until much later the party discovers that",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "it was the wrong noble. Oops"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "the noble is a doppleganger looking to infiltrate the family"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "the family did it as a publicity stunt to gain attention and sympathy"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "the noble has been getting captured on purpose to escape their family"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "the family isn\u2019t offering any payment for the noble\u2019s return"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "someone else is offering more gold for the noble than the family"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "all members that family the noble belongs to have since died"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "the noble was likely happier with the keeper"
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "the noble wants to be freed to go where they choose rather than back home"
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "the noble is actually a powerful wizard who invented the whole scenario to see if there is anyone of valor still left in the world"
+                }
+            ]
+        }
+    ],
+    "title": "Damsel in Distress",
+    "use_with": []
+}

@@ -1,0 +1,346 @@
+{
+    "description": "These are tables for quickly coming up with a flavorful meal or list of food provisions for the cookfires in a jungle village or for a subsistence outpost located in a deep and savage tropical forest.",
+    "id": "4elfsw",
+    "keywords": [
+        "Jungle",
+        "rain forest",
+        "tropical",
+        "savage",
+        "amazon",
+        "congo",
+        "heart of darkness",
+        "eating bugs"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/4elfsw",
+    "related_tables": [
+        {
+            "link": "4eaph4",
+            "title": "Dinner among desert nomads"
+        },
+        {
+            "link": "4earls",
+            "title": "Dinner among islanders"
+        },
+        {
+            "link": "4dx2z9",
+            "title": "Dinner at a hunters' lodge"
+        },
+        {
+            "link": "4dpnzh",
+            "title": "Dinner around the campfire"
+        }
+    ],
+    "tables": [
+        {
+            "dice": "d12",
+            "name": "Tonight, among jungle dwellers, we dine on...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Stewed."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Roasted."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Skewered."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Charred."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Smoked."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Grilled."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Sauteed."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Toasted."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Salted."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Peppered."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Pickled."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Fried."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Frog."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Carp."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Crocodile."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Lizard."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Goat."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Songbird."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Waterfowl."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Turtle."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Panther."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Monkey."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Snake."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Boar."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "...with...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Casava."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Taro."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Lettuce."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Avocado."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Onions."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "White beans."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Red beans."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Leafy greens."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Bitter greens."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Hot peppers."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Coconut."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Yams."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "...and...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Banana."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Mango."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Guava."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Figs."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Mixed nuts."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Mixed berries."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "On the side, there are some...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Cockroaches."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Beetles."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Oysters."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Slugs."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Snails."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Clams."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Crayfish."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Grubs."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "To wash it down, we have some...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Skunky beer."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Golden ale."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Sour wine."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Honeyed wine."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Floral tea."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Red tea."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Coffee."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Cocoa."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Water."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Goat's milk."
+                }
+            ]
+        }
+    ],
+    "title": "Dinner among Jungle Dwellers",
+    "use_with": [
+        {
+            "link": "3xydsw",
+            "title": "Barbarians"
+        },
+        {
+            "link": "3su3be",
+            "title": "Fishermen"
+        },
+        {
+            "link": "3u4a05",
+            "title": "Jungle"
+        },
+        {
+            "link": "3uzuni",
+            "title": "Lizardfolk"
+        },
+        {
+            "link": "3sl2r2",
+            "title": "Merchant caravan NPCs"
+        },
+        {
+            "link": "41bq04",
+            "title": "Sellswords"
+        },
+        {
+            "link": "3uzwi0",
+            "title": "Snake cultists"
+        },
+        {
+            "link": "3uzziq",
+            "title": "Treasure hunters"
+        }
+    ]
+}

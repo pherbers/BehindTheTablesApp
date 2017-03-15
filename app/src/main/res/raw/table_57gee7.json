@@ -1,0 +1,1199 @@
+{
+    "description": "These are tables for quickly coming up with an objective for a mission geared at rogues, thieves, and the like. Something that the local thieves' guild, assassins' guild, or outlaw gang might request the PCs do.\n\n*Other useful links:* [Let's Build a Thieves Guild 01](https://www.reddit.com/r/DnDBehindTheScreen/comments/2uxfyy/lets_build_a_thieves_guild_part_1/), [Let's Build a Thieves Guild 02](https://www.reddit.com/r/DnDBehindTheScreen/comments/2uxg1c/lets_build_a_thieves_guild_part_2/), [Let's Build a Heist](https://www.reddit.com/r/DnDBehindTheScreen/comments/3emivn/lets_build_a_heist/), [Let's Build a Rogue Session](https://www.reddit.com/r/DnDBehindTheScreen/comments/3efubx/lets_build_a_rogue_session/), [Confidence Games (Short and Long Cons)](https://www.reddit.com/r/DnDBehindTheScreen/comments/3tj3wi/the_flimflam_man/), [Let's Build a Villain](https://www.reddit.com/r/DnDBehindTheScreen/comments/2ye320/lets_build_a_villain/), [Rogue: Kits and More](https://www.reddit.com/r/DnDBehindTheScreen/comments/44fyf6/rogues_kits_and_more/)",
+    "id": "57gee7",
+    "keywords": [
+        "gang",
+        "thieves",
+        "guild",
+        "thief",
+        "rogue",
+        "thug",
+        "criminal",
+        "ruffian",
+        "street",
+        "NPC",
+        "assassins",
+        "smugglers",
+        "grifters",
+        "con men",
+        "forgery",
+        "intimidation",
+        "protection"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/57gee7",
+    "related_tables": [],
+    "tables": [
+        {
+            "dice": "d10",
+            "name": "Alchemy Missions: Easy",
+            "table_entries": [
+                {
+                    "dice_val": "1-2",
+                    "entry": "Go and pick up some basic reagents and return to the Guild without getting caught."
+                },
+                {
+                    "dice_val": "3-4",
+                    "entry": "Deliver a poisoned weapon without getting caught.  "
+                },
+                {
+                    "dice_val": "5-6",
+                    "entry": "Create a basic poison in quantity, and deliver it to a customer, get paid, and return without getting caught.   "
+                },
+                {
+                    "dice_val": "7-8",
+                    "entry": "Create a basic potion in quantity and deliver it into enemy territory. Return with the money.   "
+                },
+                {
+                    "dice_val": "9-10",
+                    "entry": "Create a previously unknown potion or potion in your skill level.  "
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Alchemy Missions: Medium",
+            "table_entries": [
+                {
+                    "dice_val": "1-2",
+                    "entry": "Harvest intermediate reagents in enemy territory and escape.  "
+                },
+                {
+                    "dice_val": "3-4",
+                    "entry": "Create a previously unknown potion or potion in your skill level.  "
+                },
+                {
+                    "dice_val": "5-6",
+                    "entry": "Steal a shipment of enemy alchemical goods worth at least 500gp.  "
+                },
+                {
+                    "dice_val": "7-8",
+                    "entry": "Create an intermediate potion in quantity and deliver it into enemy territory. Return with the money.  "
+                },
+                {
+                    "dice_val": "9-10",
+                    "entry": "Destroy an enemy's alchemical laboratory and escape.  "
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Alchemy Missions: Hard",
+            "table_entries": [
+                {
+                    "dice_val": "1-2",
+                    "entry": "Create a previously unknown potion or potion in your skill level.  "
+                },
+                {
+                    "dice_val": "3-4",
+                    "entry": "Successfully mix two advanced potions and get a favorable result.   "
+                },
+                {
+                    "dice_val": "5-6",
+                    "entry": "Create an advanced potion in quantity and deliver it into enemy territory. Return with the money.  "
+                },
+                {
+                    "dice_val": "7-8",
+                    "entry": "Oversee the successful application of at least 40 poisoned weapons with an advanced poison.  "
+                },
+                {
+                    "dice_val": "9-10",
+                    "entry": "Successfully reduce your creation time by 25%.  "
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Assassination Missions: Easy",
+            "table_entries": [
+                {
+                    "dice_val": "1-2",
+                    "entry": "Track a target to a location and observe for 4 hours. Do not get caught or be seen. Signal a contact and return.  "
+                },
+                {
+                    "dice_val": "3-4",
+                    "entry": "Kill a target in ambush, through a fixed killzone and escape. Claim credit for it.  "
+                },
+                {
+                    "dice_val": "5-6",
+                    "entry": "Deliver a contact poison to a target in a crowded location. Escape.  "
+                },
+                {
+                    "dice_val": "7-8",
+                    "entry": "Track a target to a location and observe for 1 hour. Trigger a fixed trap and escape.  "
+                },
+                {
+                    "dice_val": "9-10",
+                    "entry": "Deliver ingested poison to a target in an public area. Escape.  "
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Assassination Missions: Medium",
+            "table_entries": [
+                {
+                    "dice_val": "1-2",
+                    "entry": "Kill a political target. Escape.  "
+                },
+                {
+                    "dice_val": "3-4",
+                    "entry": "Kill a target in his own home and steal goods worth at least 500gp.  "
+                },
+                {
+                    "dice_val": "5-6",
+                    "entry": "Kill a target with ingested poison only, at a specific time and date.  "
+                },
+                {
+                    "dice_val": "7-8",
+                    "entry": "Kill a group of targets with a fixed trap.  "
+                },
+                {
+                    "dice_val": "9-10",
+                    "entry": "Kill a group of targets in a public location and claim credit for it.  "
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Assassination Missions: Hard",
+            "table_entries": [
+                {
+                    "dice_val": "1-2",
+                    "entry": "Kill a royal target in a moving vehicle. Escape and claim credit for it.  "
+                },
+                {
+                    "dice_val": "3-4",
+                    "entry": "Kill a political target at a public function with contact poison. Escape.  "
+                },
+                {
+                    "dice_val": "5-6",
+                    "entry": "Kill a group of targets spread across several locations on the same day. Claim credit for it.  "
+                },
+                {
+                    "dice_val": "7-8",
+                    "entry": "Kill a group of targets with ingested poison only, at a specific time and date.  "
+                },
+                {
+                    "dice_val": "9-10",
+                    "entry": "Kill a group of targets with no visible means of assassination on the corpse.  "
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Blackmail Missions: Easy",
+            "table_entries": [
+                {
+                    "dice_val": "1-2",
+                    "entry": "Pick up a payment from a dead drop without being seen. Return to the Guild.  "
+                },
+                {
+                    "dice_val": "3-4",
+                    "entry": "Follow target and observe for 4 hours without being seen. Obtain \"dirt\" on the target. Present blackmail terms worth at least 10gp/month. Escape.  "
+                },
+                {
+                    "dice_val": "5-6",
+                    "entry": "Pick up a payment from a target in enemy territory. Escape and return to the Guild.  "
+                },
+                {
+                    "dice_val": "7-8",
+                    "entry": "Collect evidence against a target in enemy territory. Escape.  "
+                },
+                {
+                    "dice_val": "9-10",
+                    "entry": "Collect evidence on a target in a public location without being seen. Return to the Guild.  "
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Blackmail Missions: Medium",
+            "table_entries": [
+                {
+                    "dice_val": "1-2",
+                    "entry": "Collect evidence on a political target without being seen.  "
+                },
+                {
+                    "dice_val": "3-4",
+                    "entry": "Collect payment from a target, in public, and escape without being identified.  "
+                },
+                {
+                    "dice_val": "5-6",
+                    "entry": "Follow target and observe for 24 hours without being seen. Present blackmail terms worth at least 100gp/month. Successfully blackmail for 6 months.  "
+                },
+                {
+                    "dice_val": "7-8",
+                    "entry": "Pick up a payment from a political target in enemy territory. Escape and return to the Guild.  "
+                },
+                {
+                    "dice_val": "9-10",
+                    "entry": "Collect enough evidence to blackmail 3 targets in one month.  "
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Blackmail Missions: Hard",
+            "table_entries": [
+                {
+                    "dice_val": "1-2",
+                    "entry": "Collect evidence on a royal target without being identified. Blackmail for at least 1000gp/month. Successfully blackmail for at least 3 months.  "
+                },
+                {
+                    "dice_val": "3-4",
+                    "entry": "Maintain a group of at least 3 targets successfully for at least 1 year. Blackmail must be at least 500gp/month.  "
+                },
+                {
+                    "dice_val": "5-6",
+                    "entry": "Successfully blackmail 1 target for 750gp/month. Maintain for at least 3 months.  "
+                },
+                {
+                    "dice_val": "7-8",
+                    "entry": "Collect evidence to blackmail 3 political targets in one month.  "
+                },
+                {
+                    "dice_val": "9-10",
+                    "entry": "Collect enough evidence on your allies to ensure a clean exit strategy, if needed.  "
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Burglary Missions: Easy",
+            "table_entries": [
+                {
+                    "dice_val": "1-2",
+                    "entry": "Steal 10gp worth of goods from a home.  "
+                },
+                {
+                    "dice_val": "3-4",
+                    "entry": "Steal 20gp worth of goods from a business.  "
+                },
+                {
+                    "dice_val": "5-6",
+                    "entry": "Break into a safe and escape with goods worth at least 20gp.  "
+                },
+                {
+                    "dice_val": "7-8",
+                    "entry": "Disarm 3 traps and retreive the package. Escape.  "
+                },
+                {
+                    "dice_val": "9-10",
+                    "entry": "Place a target location under surveillance without being seen for 4 hours. Return to the Guild.  "
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Burglary Missions: Medium",
+            "table_entries": [
+                {
+                    "dice_val": "1-2",
+                    "entry": "Break into a shop with magical defenses. Steal at least 500gp worth of goods. Return to the Guild.  "
+                },
+                {
+                    "dice_val": "3-4",
+                    "entry": "Steal 250gp worth of goods from a home or business.  "
+                },
+                {
+                    "dice_val": "5-6",
+                    "entry": "Break into a vault and escape with goods worth at least 500gp.  "
+                },
+                {
+                    "dice_val": "7-8",
+                    "entry": "Steal an object guarded by constant physical survelliance. Object should be worth at least 250gp.  "
+                },
+                {
+                    "dice_val": "9-10",
+                    "entry": "Steal an object from a political or royal location and escape. Object can be worth anything, but should be unique and memorable.  "
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Burglary Missions: Hard",
+            "table_entries": [
+                {
+                    "dice_val": "1-2",
+                    "entry": "Break into a royal location and steal goods worth at least 1000gp.  "
+                },
+                {
+                    "dice_val": "3-4",
+                    "entry": "Break into a location with physical and magical defenses, as well as constant physical survelliance. Steal an object worth at least 5000gp.  "
+                },
+                {
+                    "dice_val": "5-6",
+                    "entry": "Steal an artefact from any location. Escape and keep in your possession for at least 48 hours.  "
+                },
+                {
+                    "dice_val": "7-8",
+                    "entry": "Rob a moving vehicle of goods worth at least 1000gp and escape.  "
+                },
+                {
+                    "dice_val": "9-10",
+                    "entry": "Break into a Guild House and steal an object that is unique and memorable. Keep it for at least 48 hours.  "
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Con-Game Missions: Easy",
+            "table_entries": [
+                {
+                    "dice_val": "1-2",
+                    "entry": "Swindle a target out of 10gp or equivalent goods. Escape.  "
+                },
+                {
+                    "dice_val": "3-4",
+                    "entry": "Swindle a target out of 20gp or equivalent goods. Escape.  "
+                },
+                {
+                    "dice_val": "5-6",
+                    "entry": "Swindle a target and get the target to promise an additional 10gp later.  "
+                },
+                {
+                    "dice_val": "7-8",
+                    "entry": "Swindle a target and retreive your original investment back as well as keeping the target's money. Escape.  "
+                },
+                {
+                    "dice_val": "9-10",
+                    "entry": "Swindle 3 targets in one day. Any amount over 5gp.  "
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Con-Game Missions: Medium",
+            "table_entries": [
+                {
+                    "dice_val": "1-2",
+                    "entry": "Grift a target out of 500gp or equivalent goods.  "
+                },
+                {
+                    "dice_val": "3-4",
+                    "entry": "Grift a target out of 500gp or equivalent goods and get the target to promise an additional 100gp later.  "
+                },
+                {
+                    "dice_val": "5-6",
+                    "entry": "Swindle a target and get the target arrested before you escape.  "
+                },
+                {
+                    "dice_val": "7-8",
+                    "entry": "Grift a target and retreive your initial investment back as well as keeping the target's money. Escape.  "
+                },
+                {
+                    "dice_val": "9-10",
+                    "entry": "Run a Grift that takes 3 months to finalize and take at least 1000gp or equivalent goods from the target.  "
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Con-Game Missions: Hard",
+            "table_entries": [
+                {
+                    "dice_val": "1-2",
+                    "entry": "Grift a target out of 1000gp or equivalent goods and get the target arrested before you escape.  "
+                },
+                {
+                    "dice_val": "3-4",
+                    "entry": "Grift a political or royal target for at least 500gp or equivalent goods.  "
+                },
+                {
+                    "dice_val": "5-6",
+                    "entry": "Run 3 successful grifts in 1 month for at least 250gp or equivalent goods each.  "
+                },
+                {
+                    "dice_val": "7-8",
+                    "entry": "Swindle a target out of at least 1000gp or equivalent goods and escape without using a distraction.  "
+                },
+                {
+                    "dice_val": "9-10",
+                    "entry": "Become accepted as a legitimate agent in the commercial/political/royal world in a Life Grift.  "
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Fence Missions: Easy",
+            "table_entries": [
+                {
+                    "dice_val": "1-2",
+                    "entry": "Successfully identify and evaluate goods worth at least 10gp.  "
+                },
+                {
+                    "dice_val": "3-4",
+                    "entry": "Successfully identify and evaluate a minor magical item.  "
+                },
+                {
+                    "dice_val": "5-6",
+                    "entry": "Successfully identify a minor cursed item.  "
+                },
+                {
+                    "dice_val": "7-8",
+                    "entry": "Identify 3 counterfeit items.  "
+                },
+                {
+                    "dice_val": "9-10",
+                    "entry": "Sell onwards goods worth at least 20gp.  "
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Fence Missions: Medium",
+            "table_entries": [
+                {
+                    "dice_val": "1-2",
+                    "entry": "Successfully identify and evaluate goods worth at least 500gp.  "
+                },
+                {
+                    "dice_val": "3-4",
+                    "entry": "Successfully identify and evaluate a major magical item.  "
+                },
+                {
+                    "dice_val": "5-6",
+                    "entry": "Successfully identify a major cursed item.  "
+                },
+                {
+                    "dice_val": "7-8",
+                    "entry": "Identify 3 counterfeit items and 3 forgeries in 1 month.  "
+                },
+                {
+                    "dice_val": "9-10",
+                    "entry": "Sell onwards goods worth at least 500gp.  "
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Fence Missions: Hard",
+            "table_entries": [
+                {
+                    "dice_val": "1-2",
+                    "entry": "Successfully identify and evaluate goods worth at least 1000gp.  "
+                },
+                {
+                    "dice_val": "3-4",
+                    "entry": "Successfully identify and evaluate an artefact.  "
+                },
+                {
+                    "dice_val": "5-6",
+                    "entry": "Successfully sell onwards a set of linked magical items.   "
+                },
+                {
+                    "dice_val": "7-8",
+                    "entry": "Successfully identify and evaluate goods in enemy territory and return with the goods to the Guild.  "
+                },
+                {
+                    "dice_val": "9-10",
+                    "entry": "Sell onwards goods worth at least 1000gp.  "
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Fraud Missions: Easy",
+            "table_entries": [
+                {
+                    "dice_val": "1-2",
+                    "entry": "Steal an official paper without getting caught. Return to the Guild.  "
+                },
+                {
+                    "dice_val": "3-4",
+                    "entry": "Steal an official paper in enemy territory without getting caught. Return to the Guild.  "
+                },
+                {
+                    "dice_val": "5-6",
+                    "entry": "Create a forgery or counterfeit item and successfully use it without getting caught.  "
+                },
+                {
+                    "dice_val": "7-8",
+                    "entry": "Create 3 forgeries or counterfeit items worth at least 20gp.  "
+                },
+                {
+                    "dice_val": "9-10",
+                    "entry": "Successfully use a forgery or counterfeit item 3 times.  "
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Fraud Missions: Medium",
+            "table_entries": [
+                {
+                    "dice_val": "1-2",
+                    "entry": "Create a royal or political forgery/counterfeit and sell it for at least 500gp.  "
+                },
+                {
+                    "dice_val": "3-4",
+                    "entry": "Create a forgery/counterfeit object of artistic merit and sell it for at least 500gp.  "
+                },
+                {
+                    "dice_val": "5-6",
+                    "entry": "Steal polticial or royal papers and use them to create at least 3 forgeries.   "
+                },
+                {
+                    "dice_val": "7-8",
+                    "entry": "Create 3 forgery/counterfeit objects worth at least 250gp each.  "
+                },
+                {
+                    "dice_val": "9-10",
+                    "entry": "Create travel documents for a secondary political body (like those from another Kingdom).  "
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Fraud Missions: Hard",
+            "table_entries": [
+                {
+                    "dice_val": "1-2",
+                    "entry": "Create a royal or political forgery/counterfeit and sell it for at least 1000gp.  "
+                },
+                {
+                    "dice_val": "3-4",
+                    "entry": "Create forgeries for at least 20 people to be used in one transaction.  "
+                },
+                {
+                    "dice_val": "5-6",
+                    "entry": "Create royal identification papers.   "
+                },
+                {
+                    "dice_val": "7-8",
+                    "entry": "Steal supplies to create travel, identity and official documents for at least 3 other political bodies.  "
+                },
+                {
+                    "dice_val": "9-10",
+                    "entry": "Create a counterfeit that for an object that is normally displayed in a public location and switch them.  "
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Gambling Missions: Easy",
+            "table_entries": [
+                {
+                    "dice_val": "1-2",
+                    "entry": "Win at least 10gp in one day.  "
+                },
+                {
+                    "dice_val": "3-4",
+                    "entry": "Win at least 5gp from 3 different targets in one day.  "
+                },
+                {
+                    "dice_val": "5-6",
+                    "entry": "Successfully cheat and win at least 10gp.  "
+                },
+                {
+                    "dice_val": "7-8",
+                    "entry": "Successfully bankrupt all opponents in one game.   "
+                },
+                {
+                    "dice_val": "9-10",
+                    "entry": "Successfully cheat and win at least 20gp.  "
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Gambling Missions: Medium",
+            "table_entries": [
+                {
+                    "dice_val": "1-2",
+                    "entry": "Win at least 250gp in one day.  "
+                },
+                {
+                    "dice_val": "3-4",
+                    "entry": "Win at least 50gp from 3 different targets in one day.  "
+                },
+                {
+                    "dice_val": "5-6",
+                    "entry": "Successfully cheat and win at least 500gp.  "
+                },
+                {
+                    "dice_val": "7-8",
+                    "entry": "Successfully bankrupt all opponents in one game and get the losers to agree to another game tomorrow.  "
+                },
+                {
+                    "dice_val": "9-10",
+                    "entry": "Successfully cheat a professional gambler and win at least 100gp.  "
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Gambling Missions: Hard",
+            "table_entries": [
+                {
+                    "dice_val": "1-2",
+                    "entry": "Cheat a gambling establishment of at least 1000gp.  "
+                },
+                {
+                    "dice_val": "3-4",
+                    "entry": "Win at least 1500gp in 1 day.  "
+                },
+                {
+                    "dice_val": "5-6",
+                    "entry": "Successfully cheat a professional gambler and win at least 500gp.  "
+                },
+                {
+                    "dice_val": "7-8",
+                    "entry": "Successfully win a game with at least 19 other competitors.  "
+                },
+                {
+                    "dice_val": "9-10",
+                    "entry": "Successfully rig a mechanical game or a racing competition to win at least 1000gp.  "
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Kidnapping Missions: Easy",
+            "table_entries": [
+                {
+                    "dice_val": "1-2",
+                    "entry": "Track a target for at least 4 hours without being seen.  "
+                },
+                {
+                    "dice_val": "3-4",
+                    "entry": "Track and observe a target in enemy territory for at least 1 hour without being seen. Return to the Guild.  "
+                },
+                {
+                    "dice_val": "5-6",
+                    "entry": "Aduct 1 minor target and hold for at least 48 hours. Demand a ransom of at least 10gp.  "
+                },
+                {
+                    "dice_val": "7-8",
+                    "entry": "Abduct 2 minor targets and hold for at least 24 hours. Demand a ransom of at least 20gp.  "
+                },
+                {
+                    "dice_val": "9-10",
+                    "entry": "Subdue a violent target and hold for at least 8 hours.  "
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Kidnapping Missions: Medium",
+            "table_entries": [
+                {
+                    "dice_val": "1-2",
+                    "entry": "Abduct a major target and hold for at least 24 hours. Demand a ransom of at least 500gp.  "
+                },
+                {
+                    "dice_val": "3-4",
+                    "entry": "Track a target for at least 24 hours without being seen.  "
+                },
+                {
+                    "dice_val": "5-6",
+                    "entry": "Abduct multiple targets and hold for at least 1 hour. Demand a ransom of at least 50gp per target.  "
+                },
+                {
+                    "dice_val": "7-8",
+                    "entry": "Abduct a political target and demand a ransom of at least 250gp. Release the target alive.   "
+                },
+                {
+                    "dice_val": "9-10",
+                    "entry": "Abduct a target from a moving vehicle.  "
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Kidnapping Missions: Hard",
+            "table_entries": [
+                {
+                    "dice_val": "1-2",
+                    "entry": "Abduct multiple targets from a moving vehicle.  "
+                },
+                {
+                    "dice_val": "3-4",
+                    "entry": "Abduct a royal target and demand a ransom of at least 1000gp. Release the target alive.  "
+                },
+                {
+                    "dice_val": "5-6",
+                    "entry": "Abduct a political target from a public place and demand a ransom of at least 500gp.  "
+                },
+                {
+                    "dice_val": "7-8",
+                    "entry": "Abduct at least 10 targets at the same time and hold them for at least 30 days.   "
+                },
+                {
+                    "dice_val": "9-10",
+                    "entry": "Abduct an enemy target in enemy territory and demand a ransom of at least 500gp.  "
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Narcotics Missions: Easy",
+            "table_entries": [
+                {
+                    "dice_val": "1-2",
+                    "entry": "Buy product from a rival worth at least 10gp and return to the Guild.  "
+                },
+                {
+                    "dice_val": "3-4",
+                    "entry": "Collect money owed to the Guild by a non-paying customer.  "
+                },
+                {
+                    "dice_val": "5-6",
+                    "entry": "Protect a product shipment from enemies for at least 24 hours.   "
+                },
+                {
+                    "dice_val": "7-8",
+                    "entry": "Sell product worth at least 10gp.  "
+                },
+                {
+                    "dice_val": "9-10",
+                    "entry": "Sell product worth at least 20gp.  "
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Narcotics Missions: Medium",
+            "table_entries": [
+                {
+                    "dice_val": "1-2",
+                    "entry": "Sell product worth at least 500gp for the month.  "
+                },
+                {
+                    "dice_val": "3-4",
+                    "entry": "Buy product in enemy territory worth at least 500gp and escort it back to the Guild.  "
+                },
+                {
+                    "dice_val": "5-6",
+                    "entry": "Ship product worth at least 500gp into enemy territory and collect the money and escape.  "
+                },
+                {
+                    "dice_val": "7-8",
+                    "entry": "Set up at least 10 distributors for your product and maintain them for at least 30 days.  "
+                },
+                {
+                    "dice_val": "9-10",
+                    "entry": "Start a production facility for your product and create raw goods worth at least 250gp per month.  "
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Narcotics Missions: Hard",
+            "table_entries": [
+                {
+                    "dice_val": "1-2",
+                    "entry": "Sell product worth at least 1000gp for the week.  "
+                },
+                {
+                    "dice_val": "3-4",
+                    "entry": "Destroy an enemy's production facility and escape.  "
+                },
+                {
+                    "dice_val": "5-6",
+                    "entry": "Set up at least 20 distributors for your product and maintain them for 3 months.  "
+                },
+                {
+                    "dice_val": "7-8",
+                    "entry": "Ship product worth at least 1000gp through enemy territory and sell the product. Return through enemy territory to the Guild.   "
+                },
+                {
+                    "dice_val": "9-10",
+                    "entry": "Takeover a rival's production chain.  "
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Prostitution Missions: Easy",
+            "table_entries": [
+                {
+                    "dice_val": "1-2",
+                    "entry": "Earn at least 10gp in 1 day.  "
+                },
+                {
+                    "dice_val": "3-4",
+                    "entry": "Successfully protect an employee from a violent customer.  "
+                },
+                {
+                    "dice_val": "5-6",
+                    "entry": "Retrieve an employee from enemy territory and escape. Return to the Guild.  "
+                },
+                {
+                    "dice_val": "7-8",
+                    "entry": "Earn at least 20gp in 1 day.  "
+                },
+                {
+                    "dice_val": "9-10",
+                    "entry": "Recruit 1 new employee and earn at least 5gp from them in 1 day.  "
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Prostitution Missions: Medium",
+            "table_entries": [
+                {
+                    "dice_val": "1-2",
+                    "entry": "Earn at least 250gp in 1 day.  "
+                },
+                {
+                    "dice_val": "3-4",
+                    "entry": "Recruit at least 10 employees and earn at least 100gp from them in 1 day.  "
+                },
+                {
+                    "dice_val": "5-6",
+                    "entry": "Retreive at least 3 employees from enemy territory and escape.  "
+                },
+                {
+                    "dice_val": "7-8",
+                    "entry": "Discovering the cure for an outbreak of disease among your employees.  "
+                },
+                {
+                    "dice_val": "9-10",
+                    "entry": "Set up a base of operation and maintain it for at least 30 days.  "
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Prostitution Missions: Hard",
+            "table_entries": [
+                {
+                    "dice_val": "1-2",
+                    "entry": "Maintain 3 bases of operation for at least 3 months.  "
+                },
+                {
+                    "dice_val": "3-4",
+                    "entry": "Earn at least 1000gp in 1 day.  "
+                },
+                {
+                    "dice_val": "5-6",
+                    "entry": "Recruit at least 10 employees and earn at least 500gp from them in 1 day.  "
+                },
+                {
+                    "dice_val": "7-8",
+                    "entry": "Acquire new employees in enemy territory and return them to your base of operations without being seen.  "
+                },
+                {
+                    "dice_val": "9-10",
+                    "entry": "Discover who has been murdering your employees.  "
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Protection Missions: Easy",
+            "table_entries": [
+                {
+                    "dice_val": "1-2",
+                    "entry": "Intimidate a target into buying protection worth at least 10gp a week.  "
+                },
+                {
+                    "dice_val": "3-4",
+                    "entry": "Intimidate a target into buying protection worth at least 20gp a week.  "
+                },
+                {
+                    "dice_val": "5-6",
+                    "entry": "Retreive stolen weekly earnings from enemy. Return earnings to the Guild.  "
+                },
+                {
+                    "dice_val": "7-8",
+                    "entry": "Re-intimidate a non-paying customer.   "
+                },
+                {
+                    "dice_val": "9-10",
+                    "entry": "Succesfully assault a non-paying customer without getting caught.  "
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Protection Missions: Medium",
+            "table_entries": [
+                {
+                    "dice_val": "1-2",
+                    "entry": "Intimidate a target into buying protection worth at least 250gp a week.  "
+                },
+                {
+                    "dice_val": "3-4",
+                    "entry": "Negotiate an increase in a target's weekly payoff by 25%.  "
+                },
+                {
+                    "dice_val": "5-6",
+                    "entry": "Destroy a rival's racket and escape.  "
+                },
+                {
+                    "dice_val": "7-8",
+                    "entry": "Negotiate an increase in a target's weekly payoff by 50%, but decrease the payments to twice a month.  "
+                },
+                {
+                    "dice_val": "9-10",
+                    "entry": "Set physical or magical traps to destroy a non-paying customer's home or business.  "
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Protection Missions: Hard",
+            "table_entries": [
+                {
+                    "dice_val": "1-2",
+                    "entry": "Intimidate a target into buying protection worth at least 500gp a week.  "
+                },
+                {
+                    "dice_val": "3-4",
+                    "entry": "Intimidate a political target into buying protection.  "
+                },
+                {
+                    "dice_val": "5-6",
+                    "entry": "Negotiate an increase in a target's weekly payoff by 75%.  "
+                },
+                {
+                    "dice_val": "7-8",
+                    "entry": "Renegotiate an increase in at least 10 target's weekly payoffs by 50%.  "
+                },
+                {
+                    "dice_val": "9-10",
+                    "entry": "Destroy a rival's businesses and remove them from doing business ever again.  "
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Slavery Missions: Easy",
+            "table_entries": [
+                {
+                    "dice_val": "1-2",
+                    "entry": "Sell 1 slave worth at least 100gp.  "
+                },
+                {
+                    "dice_val": "3-4",
+                    "entry": "Sell 1 slave worth at least 200gp.  "
+                },
+                {
+                    "dice_val": "5-6",
+                    "entry": "Move 1 slave through enemy territory and return to the Guild with the slave unharmed."
+                },
+                {
+                    "dice_val": "7-8",
+                    "entry": "Intimidate 10 slaves.   "
+                },
+                {
+                    "dice_val": "9-10",
+                    "entry": "Acquire 1 new slave and sell it within 48 hours for at least 100gp.  "
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Slavery Missions: Medium",
+            "table_entries": [
+                {
+                    "dice_val": "1-2",
+                    "entry": "Oversee a successful sale of at least 10 slaves worth at least 1000gp.  "
+                },
+                {
+                    "dice_val": "3-4",
+                    "entry": "Ambush a rival's goods and steal at least 3 slaves and escape.  "
+                },
+                {
+                    "dice_val": "5-6",
+                    "entry": "Put down a minor revolt among the slaves. 25% rise up.  "
+                },
+                {
+                    "dice_val": "7-8",
+                    "entry": "Secure a new source of acquiring slaves worth at least 500 gp/month.  "
+                },
+                {
+                    "dice_val": "9-10",
+                    "entry": "Sell at least ten slaves and intimidate the target into giving at least 1 slave back."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Slavery Missions: Hard",
+            "table_entries": [
+                {
+                    "dice_val": "1-2",
+                    "entry": "Establish a secure base of operations doing at least 1000gp worth of trade a month.  "
+                },
+                {
+                    "dice_val": "3-4",
+                    "entry": "Destroy a rival's operations and escape with as many goods as possible.  "
+                },
+                {
+                    "dice_val": "5-6",
+                    "entry": "Put down a major revolt among the slaves. 75% rise up.  "
+                },
+                {
+                    "dice_val": "7-8",
+                    "entry": "Oversee the transport, through enemy territory; and sale of at least 10 slaves for a profit of at least 1000gp.  "
+                },
+                {
+                    "dice_val": "9-10",
+                    "entry": "Sell 100 slaves in one month and make a profit of at least 10000gp.  "
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Smuggling Missions: Easy",
+            "table_entries": [
+                {
+                    "dice_val": "1-2",
+                    "entry": "Move goods worth at least 10gp.  "
+                },
+                {
+                    "dice_val": "3-4",
+                    "entry": "Move goods worth at least 20gp.  "
+                },
+                {
+                    "dice_val": "5-6",
+                    "entry": "Move goods through a low physical-security checkpoint.  "
+                },
+                {
+                    "dice_val": "7-8",
+                    "entry": "Pick up goods worth at least 20gp in enemy territory and successfully return to the Guild.  "
+                },
+                {
+                    "dice_val": "9-10",
+                    "entry": "Move live cargo without being seen and return to the Guild.  "
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Smuggling Missions: Medium",
+            "table_entries": [
+                {
+                    "dice_val": "1-2",
+                    "entry": "Move goods worth at least 500gp.  "
+                },
+                {
+                    "dice_val": "3-4",
+                    "entry": "Move goods through a high physical-security checkpoint.  "
+                },
+                {
+                    "dice_val": "5-6",
+                    "entry": "Move goods through enemy territory at pick up goods worth at least 500gp and return to the Guild.  "
+                },
+                {
+                    "dice_val": "7-8",
+                    "entry": "Move goods worth at least 250gp through moving magical surveillance.  "
+                },
+                {
+                    "dice_val": "9-10",
+                    "entry": "Move goods worth at least 250gp via air.  "
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Smuggling Missions: Hard",
+            "table_entries": [
+                {
+                    "dice_val": "1-2",
+                    "entry": "Move goods worth at least 1000gp.  "
+                },
+                {
+                    "dice_val": "3-4",
+                    "entry": "Move goods worth at least 500gp through magical-security checkpoint.  "
+                },
+                {
+                    "dice_val": "5-6",
+                    "entry": "Move goods worth at least 500gp inside a political or royal shipment.  "
+                },
+                {
+                    "dice_val": "7-8",
+                    "entry": "Move goods worth at least 500gp via planar teleportation.  "
+                },
+                {
+                    "dice_val": "9-10",
+                    "entry": "Move live cargo through enemy territory and return to the Guild.  "
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Street Missions: Easy",
+            "table_entries": [
+                {
+                    "dice_val": "1-2",
+                    "entry": "Pickpocket 10gp or equivalent goods.  "
+                },
+                {
+                    "dice_val": "3-4",
+                    "entry": "Pickpocket 20gp or equivalent goods.  "
+                },
+                {
+                    "dice_val": "5-6",
+                    "entry": "Pickpocket an official paper.  "
+                },
+                {
+                    "dice_val": "7-8",
+                    "entry": "Successfully mug 3 targets in 1 day.  "
+                },
+                {
+                    "dice_val": "9-10",
+                    "entry": "Mug a target for at least 30gp or equivalent goods.  "
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Street Missions: Medium",
+            "table_entries": [
+                {
+                    "dice_val": "1-2",
+                    "entry": "Pickpocket 250gp or equivalent goods.  "
+                },
+                {
+                    "dice_val": "3-4",
+                    "entry": "Mug a group of targets for 100gp or equivalent goods.  "
+                },
+                {
+                    "dice_val": "5-6",
+                    "entry": "Mug a political target.  "
+                },
+                {
+                    "dice_val": "7-8",
+                    "entry": "Pickpocket 10 targets in 1 day.  "
+                },
+                {
+                    "dice_val": "9-10",
+                    "entry": "Pickpocket a magic item.  "
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Street Missions: Hard",
+            "table_entries": [
+                {
+                    "dice_val": "1-2",
+                    "entry": "Pickpocket a royal target of some valuable, personal or otherwise.  "
+                },
+                {
+                    "dice_val": "3-4",
+                    "entry": "Mug a political target of 500gp or equivalent goods and escape.  "
+                },
+                {
+                    "dice_val": "5-6",
+                    "entry": "Pickpocket 3 magic items in 1 day.  "
+                },
+                {
+                    "dice_val": "7-8",
+                    "entry": "Mug a Guild Leader for at least 500gp or equivalent goods.  "
+                },
+                {
+                    "dice_val": "9-10",
+                    "entry": "Pickpocket an artefact.  "
+                }
+            ]
+        }
+    ],
+    "title": "Rogue Missions",
+    "use_with": []
+}

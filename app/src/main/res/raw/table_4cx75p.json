@@ -1,0 +1,528 @@
+{
+    "description": "These are tables for generating a quick description of a bottle or a glass of wine. What will you have tonight, sir?",
+    "id": "4cx75p",
+    "keywords": [
+        "grapes",
+        "wine",
+        "vinyard",
+        "vintage",
+        "merlot",
+        "cabernet",
+        "sauvignon blanc",
+        "pinot",
+        "zinfandel",
+        "sommelier",
+        "wine snob",
+        "wino",
+        "arbor",
+        "redwyne",
+        "delicious"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/4cx75p",
+    "related_tables": [],
+    "tables": [
+        {
+            "dice": "d10",
+            "name": "This wine was made in...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A traditional coastal region known for its wines."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A mild, mountain valley known for its wines."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A region with a growing community of winemakers."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A foreign land that has been making wines for centuries."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A region where settlers have begun making wine as their ancestors had."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A secluded monastery."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A chain of islands far across the sea."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "The basement of a little country inn."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "The basement of a little country chapel or shrine."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "The household of an elvish lord."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "The wine is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A pale white."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A bubbly white."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A goldish white."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A pale ros\u00e9."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A rich ros\u00e9."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A delicate red."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A thick red."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A deep red."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A robust red."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A reddish purple."
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "The wine smells of...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Springtime breezes."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Wildflowers."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Honey."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Roses."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Cherry blossoms."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Lilacs."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Lilies."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Wildflowers."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Morning dew."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Rain-covered flower petals."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Orange blossoms."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Young grapes."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Ripe grapes."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Cherries."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Tangerines."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Apple blossoms."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Ripe grapes."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Lemongrass."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Peach blossoms."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "Hydrangeas."
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "The wine's flavor has notes of...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Apple."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Blueberry."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Butter."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Citrus."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Cherry."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Chocolate."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Cloves."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Ginger."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Lemon."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Oak."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Peach."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Pear."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Pepper."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Pine."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Plum."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Raspberry."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Spices."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Smokiness."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Strawberry."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Tangerine."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "The wine is served in...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A glass goblet."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A glass flute."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A glass mug."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A glass cup."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A tin cup."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A brass goblet."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A steel mug."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A gilded flute."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A silver goblet."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A bucket."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "The wine is best when enjoyed...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Iced."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Chilled."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Cold."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "After it has had a few minutes to breathe."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "After it has had a few hours to breathe."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Lightly spiced."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Warmed."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Hot."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Honeyed."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Heavily spiced and boiled."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "The wine makes a great pairing with...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Oysters or fish."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Lobster or crab."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Chicken or turkey."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Pork chops or bacon."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Steak or veal."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Mutton or lamb."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Sausage."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A soft cheese."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A hard cheese."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A stinky cheese."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "There is a tale that this type of wine was...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A gift from a god or goddess to an ancient people."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Drunk at a famed wedding feast."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Drunk at the funeral of a legendary king or queen."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Consumed by a legendary warrior before slaying a dragon."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Consumed by a legendary priest or priestess prior to making a dark prophecy."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Consumed by a legendary witch or wizard before he or she mysteriously disappeared."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Consumed by a legendary thief before stealing a celebrated gem."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Consumed by a legendary knight before leading a host to victory against impossible odds."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Consumed by a famous pair of lovers as they poisoned themselves."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "First produced by a now-extinct, ancient race or clan.  "
+                }
+            ]
+        }
+    ],
+    "title": "Wines",
+    "use_with": [
+        {
+            "link": "43w8zc",
+            "title": "Brothels"
+        },
+        {
+            "link": "43ek9v",
+            "title": "Castles"
+        },
+        {
+            "link": "3vlzrw",
+            "title": "Faeriefolk"
+        },
+        {
+            "link": "43wnpg",
+            "title": "Harlots"
+        },
+        {
+            "link": "3vh7jd",
+            "title": "High elves"
+        },
+        {
+            "link": "40pjmd",
+            "title": "Monastery"
+        },
+        {
+            "link": "3xq9nd",
+            "title": "Monks"
+        },
+        {
+            "link": "3xyhdl",
+            "title": "Nobles"
+        },
+        {
+            "link": "4780bg",
+            "title": "Poisons"
+        },
+        {
+            "link": "3whlp0",
+            "title": "Priests"
+        },
+        {
+            "link": "46m9xc",
+            "title": "Songs"
+        },
+        {
+            "link": "435mxf",
+            "title": "Tavern goings-on"
+        },
+        {
+            "link": "3xpb4r",
+            "title": "Temples"
+        }
+    ]
+}

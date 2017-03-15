@@ -1,0 +1,804 @@
+{
+    "description": "These are tables for rapidly generating a handful of interesting with whom your PCs can interact when the party comes to town.",
+    "id": "3sj9ub",
+    "keywords": [
+        "alchemist",
+        "criminal",
+        "law official",
+        "noble",
+        "priest",
+        "seer",
+        "smith",
+        "traveler",
+        "barkeep",
+        "barmaid"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/3sj9ub",
+    "related_tables": [
+        {
+            "link": "3sl4sr",
+            "title": "Alchemists"
+        },
+        {
+            "link": "46ma8g",
+            "title": "Bards"
+        },
+        {
+            "link": "3sl2r2",
+            "title": "Merchant caravans"
+        },
+        {
+            "link": "3xyhdl",
+            "title": "Nobles"
+        },
+        {
+            "link": "3whlp0",
+            "title": "Priests"
+        },
+        {
+            "link": "44r23c",
+            "title": "Seers"
+        },
+        {
+            "link": "41bq04",
+            "title": "Sellswords"
+        },
+        {
+            "link": "4034w3",
+            "title": "Thieves"
+        }
+    ],
+    "tables": [
+        {
+            "dice": "d6",
+            "name": "The alchemist is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "An apothecary."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A hedge wizard."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "An herbalist."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A poisonmaker."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A potioneer."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A pyromancer."
+                }
+            ]
+        },
+        {
+            "dice": "d4",
+            "name": "The alchemist is looking for...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Delivery help."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "New recipes."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Purchasers."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Rare ingredients."
+                }
+            ]
+        },
+        {
+            "dice": "d4",
+            "name": "The alchemist carries...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Several vials of acid."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Several curatives."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "An unusual potion."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A pyrophoric substance."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The criminal is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "An assassin."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A con artist."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A gambler."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A poacher."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A smuggler."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A thief."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The criminal is looking for...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Accomplices for a specific task."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Revenge against a rival criminal."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "An easy mark."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Extra muscle for some work."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Rumors that may lead to a big score."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A rowdy evening of carousing."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The criminal carries...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A crossbow with poisoned darts."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Several daggers."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A short sword."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A lucky charm."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "The token of a love."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Letters for blackmail."
+                }
+            ]
+        },
+        {
+            "dice": "d4",
+            "name": "The law official is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A constable."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A sheriff."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A guard captain."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A magistrate."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The law official seeks someone to...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Capture a fugitive."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Catch a thief."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Guard a specific location or person."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Investigate a disappearance."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Solve a murder mystery."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Have an ale with."
+                }
+            ]
+        },
+        {
+            "dice": "d4",
+            "name": "The law official carries...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "An arrest warrant for an outlaw."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A proclamation for a reward."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A knife or sword of the office."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A pocketbook of local laws."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The noble is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A knight."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "An old lord."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A young lord."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "An old lady."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A young lady."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A wealthy merchant."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The noble seeks someone to...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Dispose of an enemy."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Negotiate a trade contract."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Prepare an army for war."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Sabotage a rival."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Secure a marriage."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Have a good time with."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The noble carries...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Several deeds and titles."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A family heirloom."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Several inventories and invoices."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Some very valuable jewels."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A compromising love letter."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A letter from a powerful lord or lady."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The priest is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "An acolyte."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A healer."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A monk."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A preacher."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A scholar."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A witch-hunter."
+                }
+            ]
+        },
+        {
+            "dice": "d4",
+            "name": "The priest is looking for...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "New converts."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Heretics."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Relics and rare lore."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "The bottom of a goblet."
+                }
+            ]
+        },
+        {
+            "dice": "d4",
+            "name": "The priest carries...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A well-used cudgel."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A prominently displayed holy symbol."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A pocketbook of sacred texts."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A wineskin."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The seer is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "An astrologer."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A fortune teller."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A mystic"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A lorekeeper."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A prophet."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A psychic."
+                }
+            ]
+        },
+        {
+            "dice": "d4",
+            "name": "The seer is looking for...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "The answer to a riddle or prophecy."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "New clients for a reading."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "News regarding a missing person."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Some juicy gossip."
+                }
+            ]
+        },
+        {
+            "dice": "d4",
+            "name": "The seer carries...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A crystal ball."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A dowsing rod."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A large, sharp-pointed knife."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Several star charts."
+                }
+            ]
+        },
+        {
+            "dice": "d4",
+            "name": "The smith is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "An armorer."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A blacksmith.\t"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A farrier."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A weaponsmith."
+                }
+            ]
+        },
+        {
+            "dice": "d4",
+            "name": "The smith is looking for...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A new apprentice."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A journeyman craftsman."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Rare metals."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A mug of strong ale."
+                }
+            ]
+        },
+        {
+            "dice": "d4",
+            "name": "The smith carries...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A hammer."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A metal trinket made by the smith."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A contract commissioning a sword."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Little more than a few coins."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "The traveler is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "An exile."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A minstrel."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A peddler."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A pilgrim."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A refugee."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A sellsword."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A storyteller."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A treasure hunter."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "The traveler is seeking...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Accomplices on a quest."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "The answer to a riddle"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "An audience to entertain."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A long lost friend."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "The return of something stolen."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Revenge against a bitter rival."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A permanent home."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Steady work. "
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Traveling companions."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Drinking companions."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "The server greets you with...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A mug of ale."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A goblet of wine."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A glass of water."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "An offer to move to a better table."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A look of exasperation."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A warm handshake."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A pat on the back."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A pretty smile."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The server is looking for...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "An excuse to kick you out."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Someone more important to talk to."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Someone to do some pest removal."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A big tip."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A good joke or story."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "The bottom of a bottle."
+                }
+            ]
+        },
+        {
+            "dice": "d4",
+            "name": "The server carries...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A filthy rag."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A pristine silk handkerchief."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A piece of conspicuous jewelry."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "An unusual belt purse."
+                }
+            ]
+        }
+    ],
+    "title": "Quick Town NPCs",
+    "use_with": [
+        {
+            "link": "3xys3d",
+            "title": "Farmfolk"
+        },
+        {
+            "link": "3sj8mc",
+            "title": "Noble houses"
+        },
+        {
+            "link": "3t2qzc",
+            "title": "Outlaw bands"
+        },
+        {
+            "link": "3xw3lq",
+            "title": "Street names"
+        },
+        {
+            "link": "3t5q2e",
+            "title": "Urban gangs"
+        },
+        {
+            "link": "43uzib",
+            "title": "Vignettes and encounters"
+        },
+        {
+            "link": "3tkge0",
+            "title": "Watchmen"
+        },
+        {
+            "link": "3si4ms",
+            "title": "Witches"
+        }
+    ]
+}

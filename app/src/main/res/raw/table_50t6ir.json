@@ -1,0 +1,493 @@
+{
+    "description": "These are tables for adding quick flavor and encounters to natural caves and cavern complexes. You can use these to generate a single cavern location for an encounter or to set up a map of a subterranean region.",
+    "id": "50t6ir",
+    "keywords": [
+        "ooze",
+        "slime",
+        "mold",
+        "scum",
+        "yuck",
+        "gelatinous cube",
+        "black pudding",
+        "ochre jelly",
+        "green slime",
+        "oozemaster"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/50t6ir",
+    "related_tables": [],
+    "tables": [
+        {
+            "dice": "d20",
+            "name": "Color: The ooze is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Transparent."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Translucent white."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Translucent yellow."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Translucent green."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Translucent red."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Translucent brown."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "White."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Bright yellow."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Pale green."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Yellowish green."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Bright green."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Brownish green."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "Golden brown."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "Muddy brown."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "Reddish brown."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "Burnt orange."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "Blood red."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "Iridescent blue."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "Deep violet."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "Black."
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "Consistency: The ooze is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Silky."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Smooth."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Creamy."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Thick."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Thin."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Watery."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Spongy."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Lumpy."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Chunky."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Fluffy."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Stringy."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Viscous."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "Sticky."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "Gooey."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "Slimy."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "Jiggly."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "Scummy."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "Soggy."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "Luscious."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "Velvety."
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "Habitat: This type of ooze often makes its home in...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Refuse heaps."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "The lairs of subterranean monsters."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Discarded bottles."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Deep caverns."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Crevices and cracks in a cave walls and floors."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Crypts or graves."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Sewer pipes or culverts."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Prison or dungeon cells."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Old battlefields and castle ruins."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Tavern kitchens."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Castle kitchens."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "The laboratory or library of a mage."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "Lakes or along lake shores."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "Magic shops or magic-touched area."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "Extradimensional spaces."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "Earth motes in the sky."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "Swamps and bogs."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "The ocean or along an ocean shore."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "Dense forests."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "Teapots or tankards."
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "Foraging/Hunting: This type of ooze is known to...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Drop down on prey from the ceiling."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Climb a wall from which to pounce when prey comes near."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Wait for prey to step on it."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Wait for prey to walk right into it."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Camouflage itself with debris."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Disguise itself as a puddle of filth."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Lurk in dark corners."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Mold itself into a non-threatening shape."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Mold itself into something prey will try to pick up."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Emit faint light to attract prey."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Split in two to flank its prey."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Split into dozens of oozes to surround its prey."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "Digest nearly everything but stone."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "Digest nearly everything but metal."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "Digest nearly everything but glass."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "Engulf creatures while they sleep."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "Poison its prey with a paralyzing toxin."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "Poison its prey with a slow-acting toxin."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "Stalk its prey for days on end."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "Go years between meals."
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "Reactivity: This type of ooze reacts to...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Sunlight; the light burns the ooze."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Loud noises; loud noises frighten the ooze."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Music; the ooze becomes sleepy."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Vibrations; the ooze becomes agitated and aggressive."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Electricity; the ooze begins to move more rapidly and erratically."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Cold; the ooze partially freezes and stops flowing."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Water; the ooze becomes dilute, weakening its grasp."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Air; the ooze dries out and moves more slowly."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Fire; the ooze panics and flees from flames."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Acid; the ooze bubbles and hisses and loses its ability to sense prey."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Salt; the ooze shrivels up and shrinks in size."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Lye; the ooze dissolves into a puddle."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "Alcohol; the ooze lurches when it moves and belches acidic sludge everywhere."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "Sugar; the ooze becomes bouncy in its movement."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "Bone; patches of the ooze calcify and solidify."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "Oil; the ooze begins to separate into aqueous and organic phases."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "Copper; the ooze begins to crackle with electricity."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "Iron; the ooze becomes magnetic pulling more and more iron to it."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "Silver; the ooze's color becomes highly reflective."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "Gold; the ooze grows rapidly."
+                }
+            ]
+        }
+    ],
+    "title": "Oozes",
+    "use_with": [
+        {
+            "link": "4mnmre",
+            "title": "Aberrant beasts"
+        },
+        {
+            "link": "4iq4of",
+            "title": "Basic dungeon"
+        },
+        {
+            "link": "3unfbm",
+            "title": "Caverns"
+        },
+        {
+            "link": "43t6g9",
+            "title": "Dungeon, castle"
+        },
+        {
+            "link": "43ufyr",
+            "title": "Mines"
+        },
+        {
+            "link": "4z7ofg",
+            "title": "Mutant creatures"
+        },
+        {
+            "link": "487awj",
+            "title": "Spiders"
+        },
+        {
+            "link": "43c2q8",
+            "title": "Swamps"
+        },
+        {
+            "link": "427hd8",
+            "title": "Tombs"
+        },
+        {
+            "link": "438vlw",
+            "title": "Treasure chests"
+        }
+    ]
+}

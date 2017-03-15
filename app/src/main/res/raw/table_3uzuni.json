@@ -1,0 +1,240 @@
+{
+    "description": "These are tables for generating an interesting lizardfolk to serve as foe or foil to your PCs, from slavering, hissing brutes to silent, well-hidden hunters.",
+    "id": "3uzuni",
+    "keywords": [
+        "lizardfolk",
+        "jungle",
+        "lizard-man",
+        "lizard-men",
+        "savage",
+        "tribe",
+        "reptilian humanoid",
+        "semuanya",
+        "hiss"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/3uzuni",
+    "related_tables": [],
+    "tables": [
+        {
+            "dice": "d8",
+            "name": "Coloring: The lizardolk's scales are...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Mottled green and brown."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Dull and green."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Shiny and green."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Green with black stripes."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Black and grey."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Brown with black stripes."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Mottled black and brown."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Brown and grey."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "Mannerism: The lizardfolk has...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "An unsavory habit of licking its lips."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Shifty eyes."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A nervous, hissing laugh."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Eyes that never blink."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A tongue that protrudes when it speaks."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A crest atop its head."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Two ridges starting above the brow and running down its head and neck."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Sagging folds of skin on its throat."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Profession: The lizardfolk is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A savvy hunter."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A deadly tracker."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A skilled scout."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A savage berserker."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A dim-witted brute."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A celebrated warrior."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A powerful shaman."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "An eerie mystic."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A scaly shapeshifter."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A cold-blooded killer."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Goal: The lizardfolk is looking for...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "New waters for fishing and hunting."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "The tracks of an intruder in the region."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "The lair of a troublesome beast."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Safe nesting grounds."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Decent arms and armor."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Fresh meat."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "Possessions: The lizardfolk carries...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A scimitar and a wooden shield."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A scimitar and a short bow."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A spear and a blowgun."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A curved dagger and a blowgun."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A curved dagger with feathers on the hilt."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A handaxe and a shortbow."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "An oversized club."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A wooden club and a wooden shield."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A milky white gem fastened about the neck."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A string of trophies fastened about the neck (d4): 1. ears; 2. finger bones; 3. scalps; 4. teeth."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A gnarled wooden staff."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A string of beads made from a variety of materials (d8): 1. bone; 2. clay; 3. copper; 4. silver; 5. stone; 6. teeth; 7. tin; 8. wood."
+                }
+            ]
+        }
+    ],
+    "title": "Lizardfolk",
+    "use_with": [
+        {
+            "link": "4elhkc",
+            "title": "Dinner among swampfolk"
+        },
+        {
+            "link": "3u4a05",
+            "title": "Jungle"
+        },
+        {
+            "link": "43c2q8",
+            "title": "Swamp"
+        }
+    ]
+}

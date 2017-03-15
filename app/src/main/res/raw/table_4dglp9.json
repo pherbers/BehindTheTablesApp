@@ -1,0 +1,1045 @@
+{
+    "description": "",
+    "id": "4dglp9",
+    "keywords": [
+        "sandwiches",
+        "tacos",
+        "po' boys",
+        "pizza puffs",
+        "calzones",
+        "hot dogs",
+        "burritos",
+        "wraps",
+        "dumplings",
+        "meat-on-a-stick"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/4dglp9",
+    "related_tables": [],
+    "tables": [
+        {
+            "dice": "d6",
+            "name": "Varieties: This dish is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Exotic / Unusual (roll again and choose something outlandish/rare)."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Fruits."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Meats."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Savories: These include cheese, nuts and seeds."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Seafood: This includes shellfish and ocean plants."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Vegetables."
+                }
+            ]
+        },
+        {
+            "dice": "d4",
+            "name": "Flavor: This dish is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Sweet."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Spicy."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Sour."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Savory."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Preparation: This dish is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Baked."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Boiled."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Broiled."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Fried."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Grilled."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Poached."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Roasted."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Sauteed."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Seared."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Steamed."
+                }
+            ]
+        },
+        {
+            "dice": "d4",
+            "name": "Presentation: This dish is served on or with...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Bread."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Leaf/Skewer."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Pastry."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Rice."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "Beverages: Enjoy this dish with...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Cider."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Juice."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Mead."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Milk / Kefir."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Tea / Coffee / Chocolate."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Wine."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Beer."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Spirits / Cocktails."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Sweet flavors: The dish is flavored with...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Sugar."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Molasses."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Honey."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Glaze (roll on fruits table)."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Jam (roll on fruits table)."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Pixie parts."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "Spicy flavors: The dish is flavored with...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Curry."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Cumin."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Black pepper."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Red pepper."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Chili powder."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Cinnamon."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Green chili pepper."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Ghost chili pepper."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Paprika."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Sriracha."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Red dragon oil."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Flecks of salamander."
+                }
+            ]
+        },
+        {
+            "dice": "d4",
+            "name": "Sour flavors: The dish is flavored with...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Yogurt."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Sour cream."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Sour fruit juice (roll d6 on fruits table)."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Vinegar (d4: 1. white wine; 2. red wine; 3. roll d6 on fruits table, 4. digester juice)."
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "Fruits: The dish is made with...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Lemon."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Lime."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Grapes."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Apple."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Orange."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Cherry."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Pear."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Plum."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Peach."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Mango."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Coconut."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Banana."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "Papaya."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "Blueberries."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "Raspberries."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "Blackberries."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "Watermelon."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "Cantaloupe."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "Honeydew."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "Dryad melons."
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "Vegetables: The dish is made with...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Asparagus."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Arugula."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Broccoli."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Carrots."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Cucumber."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Cauliflower."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Beans (d4): 1. black; 2. red; 3. string; 4. white."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Peppers (d4): 1. bell; 2. chili; 3. hot; 4. sweet."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Onion (d4): 1. green; 2. red; 3. sweet; 4. yellow."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Corn."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Parsnips."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Cabbage (d4): 1. green; 2. red; 3. purple; 4. white."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "Turnips."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "Radishes."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "Beets."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "Peas."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "Spinach."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "Sprouts."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "Lettuce (d4): 1. butter; 2. iceberg; 3. romaine; 4. weedy."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "Squash (d4): 1. butternut; 2. pumpkin; 3. summer; 4. zucchini."
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "Savories: The dish is made with...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "White cheese."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Sharp cheese."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Mild cheese."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Stinky cheese."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Pungent cheese."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Blue cheese."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Yellow cheese."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Goat cheese."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Sheep's milk cheese."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Sunflower seeds."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Pumpkin seeds."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Poppy seeds."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "Soybeans."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "Pine nuts."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "Almonds."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "Pecans."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "Hickory nuts."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "Peanuts."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "Pistachios."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "Walnuts."
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "Common seafood: The dish is made with...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Clams."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Crab."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Herring."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Lobster."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Mussels."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Oysters."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Salmon."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Smelt."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Haddock."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Mackerel."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Squid."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Shrimp."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "Prawns."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "Tuna."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "Halibut."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "Cod."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "Sardines."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "Anchovies."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "Scallops."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "Sea bass."
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "Unusual seafood: Unusual but tasty, the dish is made with...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Skate."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Cuttlefish."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Flounder."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Grouper."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Marlin."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Snapper."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Monkfish."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Shark."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Swordfish."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Electric eel."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Dolphin."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Whale."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "Seal."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "Walrus."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "Sea cucumber."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "Starfish."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "Jellyfish."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "Kraken suckers."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "Mermaid fin."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "Aberrant tentacles."
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "Common meats: The dish is made with...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Beef."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Pork."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Mutton."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Chicken."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Turkey."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Duck."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Goose."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Venison. "
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Horse."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Ox."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Lamb."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Veal."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "Pheasant."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "Quail."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "Rabbit."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "Boar."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "Goat."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "Pigeon."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "Sausage (roll 1d12 to determine base meat)"
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "Roll twice and combine the meats"
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "Uncommon meats: Unusual but tasty, the dish is made with...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Squirrel."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Gopher."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Cat."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Dog."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Bear."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Wolf."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Crocodile."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Lizard."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Snake."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Rat."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Panther."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Beaver."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "Bat."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "Beetles."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "Crickets."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "Maggots."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "Frog."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "Turtle."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "Lion."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "Antelope."
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "Weird meats: Surprisingly tasty, the dish is made with...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Giant spider."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Ghoulflesh."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Rump of the satyr."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Centipede."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Medusa hair."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Manticore."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Dragonflesh (not usually from a real dragon, but a wyvern or drake)."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Displacer beast."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Hellhound."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Aberrant eyes."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Gelatinous cube."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Halfling"
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "Tarrasque testicles."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "Devil's tongue."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "Demon lips."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "Otyugh feet."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "Stirge wings."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "Owlbear (the cheek is the best, the best places serve it plated with the beak intact)."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "Umber hulk."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "Virgin priestess."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "Bread: The bread portion of the dish is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Sourdough baguette.  "
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Whole-grain baguette.  "
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Bread bowl.  "
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Crusty roll.  "
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Soft roll.  "
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Pumpernickel roll.  "
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Sesame seed bun.  "
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Tortilla.  "
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Pita.   "
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Flat bread.  "
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Mini pizza. "
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Hot pocket. "
+                }
+            ]
+        }
+    ],
+    "title": "Urban Street Food",
+    "use_with": [
+        {
+            "link": "43xgqj",
+            "title": "City landmarks and districts"
+        },
+        {
+            "link": "3tkdty",
+            "title": "Reputation and rumors"
+        },
+        {
+            "link": "3xw3lq",
+            "title": "Street names"
+        },
+        {
+            "link": "4daxw7",
+            "title": "Urban marketplace"
+        }
+    ]
+}

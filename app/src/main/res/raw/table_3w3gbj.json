@@ -1,0 +1,321 @@
+{
+    "description": "Use these tables to come up with interesting graverobbers from enterprising to unsavory thugs and from fast-witted to foul-mouthed rogues.",
+    "id": "3w3gbj",
+    "keywords": [
+        "graverobber",
+        "gravedigger",
+        "cemetery",
+        "thief",
+        "rogue",
+        "tomb raider",
+        "night shift"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/3w3gbj",
+    "related_tables": [
+        {
+            "link": "3uzziq",
+            "title": "Treasure hunters"
+        }
+    ],
+    "tables": [
+        {
+            "dice": "d10",
+            "name": "The graverobber is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A veteran treasure hunter."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A desperate thief."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A reckless fortune seeker.\t"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A well-known criminal."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A brash, young fool."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A student of anatomy."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "An out-of-work artisan."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A displaced peasant."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A combat veteran."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A foreign refugee."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "The graverobber has...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A long, hooked nose."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A cute little button nose."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A broad, flat nose."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A scar below the left eye."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Piercing blue eyes. "
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Pockmarked cheeks."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A pointy chin."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Several missing teeth."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A jagged scar above one eye."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Extremely bushy eyebrows."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "The graverobber wears...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A flashy earring."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A dark grey cape."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Filthy leather boots."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Boots with a hole in the left toe."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A heavy gold belt buckle."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A wide-brimmed hat."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A tattoo on the forearm (d6): 1. dagger; 2. dragon; 3. nude figure; 4. skull; 5. snake; 6. thorns."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A long dark ponytail."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Luscious golden curls."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A handkerchief in his breast pocket."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "An open shirt and a very hairy chest."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Unruly mustaches."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The graverobber...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Hums or sings while digging."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Constantly brushes the hair back from out of his or her face."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Laughs maniacally at everything."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Never smiles and never laughs."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Spits constantly."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Scratches the elbow frequently."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Picks at his or her teeth after meals."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Is fond of placing corpses in rude poses."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "The graverobber carries...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A sturdy shovel and a dirty handkerchief."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A blunt pick-ax and several torches."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A narrow shovel and a length of hempen rope."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A new steel shovel and a length of silk rope."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Several over-sized sacks."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A sap and a large sack."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "An ornately crafted lantern."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A simple lantern and a dagger."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A pocketbook of notes on gravesites."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A dagger and a crossbow."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "The graverobber is looking for...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A fresh grave."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "The entrance to an ancient crypt."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A pair of strong arms to help dig."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Tales of recently deceased members of the nobility."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "The location of the ruling family's personal cemetery."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A pair of strong arms to move dirt."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "An ear to listen to some boasting."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A drink and a break from digging."
+                }
+            ]
+        }
+    ],
+    "title": "Graverobbers",
+    "use_with": [
+        {
+            "link": "3tich6",
+            "title": "Desert"
+        },
+        {
+            "link": "3tielc",
+            "title": "Desert, shadowy"
+        },
+        {
+            "link": "3sgzxb",
+            "title": "Forest"
+        },
+        {
+            "link": "3sh0bv",
+            "title": "Forest, haunted"
+        },
+        {
+            "link": "3w1g84",
+            "title": "Necromancers"
+        },
+        {
+            "link": "3t2qzc",
+            "title": "Outlaws"
+        },
+        {
+            "link": "427hd8",
+            "title": "Tombs"
+        }
+    ]
+}

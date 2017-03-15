@@ -1,0 +1,479 @@
+{
+    "description": "These are tables for generating a veteran monster hunter to serve as ally, foe, or foil to your PCs.",
+    "id": "4358in",
+    "keywords": [
+        "fighter",
+        "mercenary",
+        "sellsword",
+        "bounty hunter",
+        "monster",
+        "mystery",
+        "hero"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/4358in",
+    "related_tables": [],
+    "tables": [
+        {
+            "dice": "d10",
+            "name": "The monster hunter is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A Warrior."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A priest or agent of the church."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A Scholar."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A landless noble."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A knight errant."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A sailor."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A femme fatale."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A mentor to others."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A repentant monster."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A polymorphed creature in disguise."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "The monster hunter fights by...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Traditional methods. Stakes, silver arrows, and blessed swords."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Setting an elaborate trap for their prey."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Raising a posse of townsfolk and teaching them how to kill."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Beating the monster to death with their bare hands."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Killing the monster from ambush."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Riding out and meeting the monster one on one."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Tracking and killing the monster with a team of hand picked allies."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Casting a spell or ritual."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Invoking the aid of the gods."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Leaping in without a plan"
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "The monster hunter is wielding...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A sword."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A wand."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "An axe."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A spell."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A mace."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A dagger."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A bow."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "An exotic weapon from a faraway land."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A legendary artifact."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A strange weapon of their own design."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "The monster hunter appears...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Well prepared. Plate armor, potions, and stakes."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Dressed for a visit to a noble patron."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Dressed casually in the custom of the region."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Wearing exotic war paints."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Wearing trophies from their prior kills."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Noble of bearing and well dressed."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Fanatical, carrying many religious ornaments and trinkets."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Unsavory, and probably carrying hidden weapons."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Disguised with a fake mustache."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Unkempt and tired from a battle."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "The monster hunter's personality is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Grim."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Chipper."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Charming."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Mercurial."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "All business."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Thoughtful."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Fanatical."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Absent minded."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Patient"
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Impulsive."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "The monster hunter's backer is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "No one, they work for themselves."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A Church."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A secret order."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A thieves guild stamping out competition."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A public guild of mercenaries."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A noble family."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A god or demon."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A wizard's cabal collecting monster body parts."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A city or town."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A rival monster."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "The hunter's relationship with their backer is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "They are a member."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Rebellious."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Businesslike."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Getting along well."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Preparing for imminent betrayal."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Already betrayed."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Well paid and content."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Neutral."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Secret."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Brand new."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "The hunter hunts because...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "They are well paid."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "They are in it for the glory."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "It\u2019s an outlet for psychotic desires. "
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "They crave vengeance for the monster\u2019s past deeds."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "The monster is a threat to a business associate. "
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "The monster is a rival moving in on their turf and the monster hunter is a creature in disguise. "
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "An ancient artifact compels them."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A curse from the gods compels them."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A town or church threatened by the monster hired them."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "It's a speculative venture."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "The hunter hunts only...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "One type of monster"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A specific monster who did them wrong long ago."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Any kind of monster for the right payment."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Wizards and necromancers."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Monsters that threaten the defenseless."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Monsters near their home base."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Sea monsters."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "In one kind of terrain."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Only single giant monsters."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Only hordes of smaller monsters."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "The monter hunter's reputation is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Good, they help those in need."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Mercenary, they help those who can pay."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Unsavory, they are dangerous to have around."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Skilled and experienced. They know their business."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Lucky. By the grace of the gods they are somehow still alive."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Capable, but brash and foolhardy."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Enigmatic."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Responsible for clearing up a major problem."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Responsible for causing a major problem."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Brand new to their trade."
+                }
+            ]
+        }
+    ],
+    "title": "Monster Hunters",
+    "use_with": []
+}

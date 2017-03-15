@@ -1,0 +1,463 @@
+{
+    "description": "These are tables for generating a sellsword to serve as ally, foe, or foil to your PCs.",
+    "id": "41bq04",
+    "keywords": [
+        "military",
+        "war",
+        "warlord",
+        "general",
+        "officer",
+        "soldier",
+        "infantry",
+        "army",
+        "fighter",
+        "mercenary",
+        "sellsword"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/41bq04",
+    "related_tables": [
+        {
+            "link": "4b97s8",
+            "title": "Mercenaries, individual"
+        }
+    ],
+    "tables": [
+        {
+            "dice": "d8",
+            "name": "The sellsword is armored in...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Exotic robes."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Leather armor."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Studded leather armor."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Hide armor"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Ringmail."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Chainmail."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Scale armor."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Plate armor."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The sellsword\u2019s armor is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Shiny and new."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "In excellent condition."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Obviously repaired, but serviceable."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Covered in dings and dents."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Dirty and well-worn."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Barely held together."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "The sellsword is wielding...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A longsword."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A longsword and a shield."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Two shortswords."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A shortsword and a shield."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A bastard sword."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A greatsword."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A heavy flail."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A morningstar."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A huge axe."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A warhammer."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A scimitar."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A scimitar and a shield."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "The sellsword fights with...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Hit-and-run tactics."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Making a direct assault."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Fancy footwork."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Unpredictable lurches."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Masterful combat maneuvers."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "No mercy."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Lots of taunts and jeers."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Dirty tactics."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "The sellsword is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A well-trained soldier."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A self-taught militia veteran."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A veteran of gladiatorial combat."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A veteran of warfare."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A prisoner of war."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A political prisoner."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "The son of a poor man."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A drunk."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A fugitive criminal."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A former pirate."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A de-frocked priest."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A favorite among the ladies."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "The sellsword fights for...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "The love of gold."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Pure bloodlust."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A chance to deal out sadistic torment."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A chance at vengeance."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Gold to repay debts."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Gold to aid a family member."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Gold to secure a marriage."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Fortune and glory."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "On the sellsword\u2019s face is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "An eye-catching mole."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A garish earring."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "An empty eye socket."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A grisly scar."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A haughty sneer."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A look of sadness."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A stupid grin."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "An eager grin."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A frame of long, beautiful long hair."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Ferocious sideburns."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "An unruly beard."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "An intimidating mustache."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "The sellsword carries...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A blade with a gem embedded in the pommel."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A blade with soft leather tassels dangling from the pommel."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A blade with a carved hilt (d6): 1. ivory; 2. jade; 3. soapstone; 4. ebony; 5. mahogany; 6. oak."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A blade with a gently curved hilt."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A blade with beasts sculpted into the steel of the guard (d6): 1. dragons; 2. lions; 3. scorpions; 4. snakes; 5. spiders; 6. wolves."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A blade made of blackened steel."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A highly polished blade."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A blade with runes carved into it."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Arrows/bolts tipped with black steel."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Arrows/bolts with bronzed tips."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Arrows/bolts fletched with crow feathers."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Arrows/bolts fletched with peacock feathers."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "The sellsword is seeking...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Accomplices on a mission."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A fugitive on whom a bounty has been declared."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A song to serve as a distraction from personal troubles."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A long lost friend."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "The return of something stolen."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Revenge against a bitter rival."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Steady employment."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A big pay day. "
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Traveling companions."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Drinking companions."
+                }
+            ]
+        }
+    ],
+    "title": "Sellswords",
+    "use_with": [
+        {
+            "link": "4tguyo",
+            "title": "Horses"
+        },
+        {
+            "link": "3tkdty",
+            "title": "Mercenary troops"
+        },
+        {
+            "link": "3sl2r2",
+            "title": "Merchant caravans"
+        },
+        {
+            "link": "3t2qzc",
+            "title": "Outlaw bands"
+        },
+        {
+            "link": "4b8u29",
+            "title": "Reputations of adventurers"
+        },
+        {
+            "link": "3tjdae",
+            "title": "Savage hordes"
+        },
+        {
+            "link": "484u5s",
+            "title": "Silly insults"
+        }
+    ]
+}

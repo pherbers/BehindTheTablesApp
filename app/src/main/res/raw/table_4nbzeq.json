@@ -1,0 +1,235 @@
+{
+    "description": "The creatures of the sea can be terrifying in their own right, but these sea beasts resemble their land-bound kin with special adaptations of gills and fins. This is a short set of tables for quickly coming up with brief description of an interesting sea beast.",
+    "id": "4nbzeq",
+    "keywords": [
+        "plane of water",
+        "oceans",
+        "monsters of the deep",
+        "drowned gods",
+        "pets for sahuagin"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/4nbzeq",
+    "related_tables": [
+        {
+            "link": "4mnmre",
+            "title": "Aberrant beasts"
+        },
+        {
+            "link": "4mu1t3",
+            "title": "Demonic beasts"
+        },
+        {
+            "link": "4nayky",
+            "title": "Shadow beasts"
+        },
+        {
+            "link": "4nbzhp",
+            "title": "Storm beasts"
+        },
+        {
+            "link": "4nbzt3",
+            "title": "Winter beasts"
+        }
+    ],
+    "tables": [
+        {
+            "dice": "d12",
+            "name": "The sea beast is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A beetle."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A centipede."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A drake."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A horse."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A lion."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A monkey."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A scorpion."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A serpent."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A spider."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A turtle."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A worm."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A wyvern."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "The beast has...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Lidless, golden eyes."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Unblinking, green eyes."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Iridescent scales or fur."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Dull, bluish grey scales or fur."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Brightly colored scales or fur."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Wide gills."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A long fin running down its back."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Oversized webbed feet or flippers."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "...and...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Swims with a slithering motion."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Swims with powerful fins or flippers."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Propels itself with its strong, finned tail. "
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A wide-open, fish-like mouth."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Rows of wicked looking teeth."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Scuttles along the sea floor."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Waits to strike from a nook in a reef."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Waits to strike from a hole in the sea floor."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The beast is looking for...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Some fish to eat."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Something warm-blooded to eat."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A new place to hide."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A mate or a nesting site."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Shiny baubles and trinkets."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A place where food is plentiful."
+                }
+            ]
+        }
+    ],
+    "title": "Sea Beasts",
+    "use_with": [
+        {
+            "link": "40wc26",
+            "title": "Cultists"
+        },
+        {
+            "link": "3xyiqs",
+            "title": "Cults"
+        },
+        {
+            "link": "4earls",
+            "title": "Dinner among islanders"
+        },
+        {
+            "link": "4dv87r",
+            "title": "Dinner in a dockside tavern"
+        },
+        {
+            "link": "3su3be",
+            "title": "Fishermen"
+        },
+        {
+            "link": "3t5sik",
+            "title": "Pirate crews"
+        },
+        {
+            "link": "497u5a",
+            "title": "Sailors"
+        },
+        {
+            "link": "4d6a7d",
+            "title": "Ships"
+        },
+        {
+            "link": "3xpb4r",
+            "title": "Temples"
+        }
+    ]
+}

@@ -1,0 +1,1125 @@
+{
+    "description": "Roll up a golem or automaton. Terrorize your PCs with it.",
+    "id": "4iq2vr",
+    "keywords": [
+        "golem",
+        "automaton",
+        "homunculus",
+        "construct",
+        "frankenstein",
+        "titan of braavos",
+        "robot",
+        "droid"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/4iq2vr",
+    "related_tables": [],
+    "tables": [
+        {
+            "dice": "d12",
+            "name": "The golem is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Tiny.  "
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Compact.  "
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Humanoid.  "
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Four-legged.  "
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Enormous.  "
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Shifting.  "
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Thickset.  "
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Willowy.  "
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Round.  "
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Foldable.  "
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Paunchy.  "
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Slight.  "
+                }
+            ]
+        },
+        {
+            "dice": "d100",
+            "name": "...and made of...",
+            "table_entries": [
+                {
+                    "dice_val": "01-03",
+                    "entry": "Clay.  "
+                },
+                {
+                    "dice_val": "04-06",
+                    "entry": "Rock.  "
+                },
+                {
+                    "dice_val": "07-09",
+                    "entry": "Iron.    "
+                },
+                {
+                    "dice_val": "10-12",
+                    "entry": "Steel.  "
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "Titanium.  "
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "Orichalcum.  "
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "Glass.  "
+                },
+                {
+                    "dice_val": "16-18",
+                    "entry": "Bone and tooth.  "
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "Ivory.  "
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "Wood.  "
+                },
+                {
+                    "dice_val": "21",
+                    "entry": "Chalk.  "
+                },
+                {
+                    "dice_val": "22-24",
+                    "entry": "Ice.  "
+                },
+                {
+                    "dice_val": "25",
+                    "entry": "Gold.  "
+                },
+                {
+                    "dice_val": "26",
+                    "entry": "Silver.  "
+                },
+                {
+                    "dice_val": "27",
+                    "entry": "Bronze.  "
+                },
+                {
+                    "dice_val": "28",
+                    "entry": "Copper.  "
+                },
+                {
+                    "dice_val": "29-31",
+                    "entry": "Brass.  "
+                },
+                {
+                    "dice_val": "32",
+                    "entry": "Dirt.  "
+                },
+                {
+                    "dice_val": "33",
+                    "entry": "Grass and vines.  "
+                },
+                {
+                    "dice_val": "34",
+                    "entry": "Sky iron.  "
+                },
+                {
+                    "dice_val": "35",
+                    "entry": "Scarletite.  "
+                },
+                {
+                    "dice_val": "36",
+                    "entry": "Diamond.  "
+                },
+                {
+                    "dice_val": "37",
+                    "entry": "Garnet.  "
+                },
+                {
+                    "dice_val": "38",
+                    "entry": "Amethyst.  "
+                },
+                {
+                    "dice_val": "39-41",
+                    "entry": "Flesh.  "
+                },
+                {
+                    "dice_val": "42",
+                    "entry": "Shaped Souls.  "
+                },
+                {
+                    "dice_val": "43-45",
+                    "entry": "Quartz.  "
+                },
+                {
+                    "dice_val": "46-48",
+                    "entry": "Obsidian.  "
+                },
+                {
+                    "dice_val": "49-51",
+                    "entry": "Chains.  "
+                },
+                {
+                    "dice_val": "52",
+                    "entry": "Ash.  "
+                },
+                {
+                    "dice_val": "53",
+                    "entry": "Gears.  "
+                },
+                {
+                    "dice_val": "54",
+                    "entry": "Magnetic rock.  "
+                },
+                {
+                    "dice_val": "55-57",
+                    "entry": "Mud.  "
+                },
+                {
+                    "dice_val": "58",
+                    "entry": "Web.  "
+                },
+                {
+                    "dice_val": "59",
+                    "entry": "Demonic flesh.  "
+                },
+                {
+                    "dice_val": "60",
+                    "entry": "Scales.  "
+                },
+                {
+                    "dice_val": "61",
+                    "entry": "Dragonbone.  "
+                },
+                {
+                    "dice_val": "62",
+                    "entry": "Hellfire.  "
+                },
+                {
+                    "dice_val": "63-65",
+                    "entry": "Sand.  "
+                },
+                {
+                    "dice_val": "66-68",
+                    "entry": "Marble.  "
+                },
+                {
+                    "dice_val": "69",
+                    "entry": "Books.  "
+                },
+                {
+                    "dice_val": "70",
+                    "entry": "Straw.  "
+                },
+                {
+                    "dice_val": "71",
+                    "entry": "Coral.  "
+                },
+                {
+                    "dice_val": "72",
+                    "entry": "Amber.  "
+                },
+                {
+                    "dice_val": "73",
+                    "entry": "Shadow.  "
+                },
+                {
+                    "dice_val": "74",
+                    "entry": "Lightning.  "
+                },
+                {
+                    "dice_val": "75",
+                    "entry": "Blood glob.  "
+                },
+                {
+                    "dice_val": "76",
+                    "entry": "Rope and string.  "
+                },
+                {
+                    "dice_val": "77",
+                    "entry": "Jelly.  "
+                },
+                {
+                    "dice_val": "78",
+                    "entry": "Wax.  "
+                },
+                {
+                    "dice_val": "79",
+                    "entry": "Water.  "
+                },
+                {
+                    "dice_val": "80",
+                    "entry": "Slate.  "
+                },
+                {
+                    "dice_val": "81",
+                    "entry": "Plastic.  "
+                },
+                {
+                    "dice_val": "82",
+                    "entry": "Fur.  "
+                },
+                {
+                    "dice_val": "83",
+                    "entry": "Quicksilver.  "
+                },
+                {
+                    "dice_val": "84",
+                    "entry": "Honey.  "
+                },
+                {
+                    "dice_val": "85",
+                    "entry": "Locusts.  "
+                },
+                {
+                    "dice_val": "86",
+                    "entry": "Paper.  "
+                },
+                {
+                    "dice_val": "87",
+                    "entry": "Fabric.  "
+                },
+                {
+                    "dice_val": "88",
+                    "entry": "Vapour.  "
+                },
+                {
+                    "dice_val": "89",
+                    "entry": "Mercury.  "
+                },
+                {
+                    "dice_val": "90",
+                    "entry": "Aluminium.  "
+                },
+                {
+                    "dice_val": "91",
+                    "entry": "Platinum.  "
+                },
+                {
+                    "dice_val": "92-94",
+                    "entry": "Tin.  "
+                },
+                {
+                    "dice_val": "95",
+                    "entry": "Gravestone.  "
+                },
+                {
+                    "dice_val": "96",
+                    "entry": "Brick.  "
+                },
+                {
+                    "dice_val": "97",
+                    "entry": "Springs.  "
+                },
+                {
+                    "dice_val": "98",
+                    "entry": "Feathers.  "
+                },
+                {
+                    "dice_val": "99",
+                    "entry": "Vegetables.  "
+                },
+                {
+                    "dice_val": "100",
+                    "entry": "Sponge.  "
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "The golem is powered by...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Clockwork.  "
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Steam.  "
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Bound souls.  "
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A magical-mechanical rune system.  "
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Divine will.  "
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A purpose inherent to the universe.  "
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Arcane force.  "
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A system of weight lifts and pendulums.  "
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Life Essence.  "
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Electricity.  "
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Tapping into mana veins.  "
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A reality shaping force or spell.  "
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "Elementals.  "
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "Strings to a puppet master.  "
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "Sunlight.  "
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "Food.  "
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "A symbiote.  "
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "Fuel combustion.  "
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "The wind.  "
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "Liquid pumps.  "
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The golem...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Is brand new.  "
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Is recent.  "
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Has been around for a while.  "
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Is old.  "
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Is very old.  "
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Is ancient.  "
+                }
+            ]
+        },
+        {
+            "dice": "d100",
+            "name": "The golem was built for...",
+            "table_entries": [
+                {
+                    "dice_val": "01-03",
+                    "entry": "Mining.  "
+                },
+                {
+                    "dice_val": "04-06",
+                    "entry": "Guarding.  "
+                },
+                {
+                    "dice_val": "07-09",
+                    "entry": "Soldiering.  "
+                },
+                {
+                    "dice_val": "10-12",
+                    "entry": "Defending.  "
+                },
+                {
+                    "dice_val": "13-15",
+                    "entry": "Forging.  "
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "Alchemy.  "
+                },
+                {
+                    "dice_val": "17-19",
+                    "entry": "Carrying.  "
+                },
+                {
+                    "dice_val": "20-22",
+                    "entry": "Searching.  "
+                },
+                {
+                    "dice_val": "23-25",
+                    "entry": "Intimidating.  "
+                },
+                {
+                    "dice_val": "26-28",
+                    "entry": "Storing knowledge.  "
+                },
+                {
+                    "dice_val": "29",
+                    "entry": "Aesthetics.  "
+                },
+                {
+                    "dice_val": "30",
+                    "entry": "Hunting.  "
+                },
+                {
+                    "dice_val": "31-33",
+                    "entry": "Collecting.  "
+                },
+                {
+                    "dice_val": "34-36",
+                    "entry": "Farming.  "
+                },
+                {
+                    "dice_val": "37-39",
+                    "entry": "Constructing.  "
+                },
+                {
+                    "dice_val": "40-42",
+                    "entry": "Transporting.  "
+                },
+                {
+                    "dice_val": "43-45",
+                    "entry": "Policing.  "
+                },
+                {
+                    "dice_val": "46",
+                    "entry": "Exploring.  "
+                },
+                {
+                    "dice_val": "47",
+                    "entry": "Advising.  "
+                },
+                {
+                    "dice_val": "48-50",
+                    "entry": "Arena fighting.  "
+                },
+                {
+                    "dice_val": "51",
+                    "entry": "Healing.  "
+                },
+                {
+                    "dice_val": "52",
+                    "entry": "Powering.  "
+                },
+                {
+                    "dice_val": "53",
+                    "entry": "Entertaining.  "
+                },
+                {
+                    "dice_val": "54",
+                    "entry": "Sexual gratification.  "
+                },
+                {
+                    "dice_val": "55",
+                    "entry": "Teaching.  "
+                },
+                {
+                    "dice_val": "56",
+                    "entry": "Guiding.  "
+                },
+                {
+                    "dice_val": "57",
+                    "entry": "Recording.  "
+                },
+                {
+                    "dice_val": "58",
+                    "entry": "Drawing.  "
+                },
+                {
+                    "dice_val": "59",
+                    "entry": "Observing.  "
+                },
+                {
+                    "dice_val": "60",
+                    "entry": "Holding.  "
+                },
+                {
+                    "dice_val": "61",
+                    "entry": "Exterminating.  "
+                },
+                {
+                    "dice_val": "62",
+                    "entry": "Brewing.  "
+                },
+                {
+                    "dice_val": "63",
+                    "entry": "Tabulating.  "
+                },
+                {
+                    "dice_val": "64",
+                    "entry": "Informing.  "
+                },
+                {
+                    "dice_val": "65",
+                    "entry": "Illuminating.  "
+                },
+                {
+                    "dice_val": "66",
+                    "entry": "Fetching.  "
+                },
+                {
+                    "dice_val": "67",
+                    "entry": "Handling.  "
+                },
+                {
+                    "dice_val": "68",
+                    "entry": "Taming.  "
+                },
+                {
+                    "dice_val": "69",
+                    "entry": "Playing.  "
+                },
+                {
+                    "dice_val": "70",
+                    "entry": "Cooking.  "
+                },
+                {
+                    "dice_val": "71",
+                    "entry": "Sorting.  "
+                },
+                {
+                    "dice_val": "72",
+                    "entry": "Casting spells.  "
+                },
+                {
+                    "dice_val": "73",
+                    "entry": "Grave digging.  "
+                },
+                {
+                    "dice_val": "74",
+                    "entry": "Investigating.  "
+                },
+                {
+                    "dice_val": "75",
+                    "entry": "Breaking things down.  "
+                },
+                {
+                    "dice_val": "76",
+                    "entry": "Maintaining.  "
+                },
+                {
+                    "dice_val": "77",
+                    "entry": "Cutting.  "
+                },
+                {
+                    "dice_val": "78",
+                    "entry": "Protesting.  "
+                },
+                {
+                    "dice_val": "79",
+                    "entry": "Heating.  "
+                },
+                {
+                    "dice_val": "80",
+                    "entry": "Road building.  "
+                },
+                {
+                    "dice_val": "81",
+                    "entry": "Climbing.  "
+                },
+                {
+                    "dice_val": "82",
+                    "entry": "Stealing.  "
+                },
+                {
+                    "dice_val": "83",
+                    "entry": "Consuming.  "
+                },
+                {
+                    "dice_val": "84",
+                    "entry": "Reciting.  "
+                },
+                {
+                    "dice_val": "85",
+                    "entry": "Accounting.  "
+                },
+                {
+                    "dice_val": "86",
+                    "entry": "Following.  "
+                },
+                {
+                    "dice_val": "87",
+                    "entry": "Reading.  "
+                },
+                {
+                    "dice_val": "88",
+                    "entry": "Shearing.  "
+                },
+                {
+                    "dice_val": "89",
+                    "entry": "Tanning.  "
+                },
+                {
+                    "dice_val": "90",
+                    "entry": "Assembling.  "
+                },
+                {
+                    "dice_val": "91",
+                    "entry": "Monitoring.  "
+                },
+                {
+                    "dice_val": "92",
+                    "entry": "Flight.  "
+                },
+                {
+                    "dice_val": "93",
+                    "entry": "Keeping secrets.  "
+                },
+                {
+                    "dice_val": "94",
+                    "entry": "Deciphering.  "
+                },
+                {
+                    "dice_val": "95",
+                    "entry": "Spelljamming.  "
+                },
+                {
+                    "dice_val": "96",
+                    "entry": "Sealing.  "
+                },
+                {
+                    "dice_val": "97",
+                    "entry": "Sparring.  "
+                },
+                {
+                    "dice_val": "98",
+                    "entry": "Generating.  "
+                },
+                {
+                    "dice_val": "99",
+                    "entry": "Enchanting.  "
+                },
+                {
+                    "dice_val": "100",
+                    "entry": "Grinding.  "
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "The golem was created by...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A priest.  "
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A lich.  "
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A mage.  "
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "An artisan.  "
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A god.  "
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A demon.  "
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A warlord.  "
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A factory.  "
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A general.  "
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A king.  "
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Nature.  "
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A druid.  "
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "An alchemist.  "
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "A scholar.  "
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "A cultist.  "
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "A dragon.  "
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "A merchant.  "
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "A criminal.  "
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "An ealdorman.  "
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "An experimentalist.  "
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "Who imbued or equipped it with...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Knowledge (d6): 1. magic; 2. creatures and plants; 3. alchemy and medicine 4. strategy and tactics; 5. economics and craftsmanship; 6. people and cultures.  "
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Social skills (d6): 1. human-level speech; 2. true empathy; 3. an ability to manipulate; 4. language translation; 5. group psychology; 6. body language.  "
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Gadgetry (d6): 1. a grappling hook; 2. an automatic saw; 3. a powerful lamp; 4. a trap placer; 5. a number of hidden compartments; 6. a gyroscope of perfect balance.  "
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Special senses (d6): 1. night vision; 2. magical sensitivity; 3. acute senses; 4. presence of spirits, demons and curses; 5. lie detection; 6. absolute direction.  "
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Emotion (d6): 1. rage; 2. melancholy; 3. sadness; 4. happiness; 5. fear; 6. hatred.  "
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A personality trait (d6): 1. compassion; 2. rudeness; 3. curiosity; 4. aggressiveness; 5. joyfulness; 6. mischievousness.  "
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A magical force (d6): 1. demonic; 2. holy; 3. elemental; 4. arcane; 5. wild; 6. void.  "
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A special ability (d6): 1. self-repair; 2. extreme temperature and environmental resistance; 3. self-destruct sequence; 4. perfect memory; 5. alternate form; 6. gain additional armour or summon a protective force field.  "
+                }
+            ]
+        },
+        {
+            "dice": "d100",
+            "name": "Distinguishing Feature: The golem has or is...",
+            "table_entries": [
+                {
+                    "dice_val": "01-03",
+                    "entry": "An extra pair of limbs.  "
+                },
+                {
+                    "dice_val": "04-06",
+                    "entry": "A vibrant and unusual colour.  "
+                },
+                {
+                    "dice_val": "07-09",
+                    "entry": "The complete lack of any facial features.  "
+                },
+                {
+                    "dice_val": "10-12",
+                    "entry": "An inability to move.  "
+                },
+                {
+                    "dice_val": "13-15",
+                    "entry": "A set of predatory fangs.  "
+                },
+                {
+                    "dice_val": "16-18",
+                    "entry": "A section that has been repaired with a different material.  "
+                },
+                {
+                    "dice_val": "19-21",
+                    "entry": "Glowing runes.  "
+                },
+                {
+                    "dice_val": "22-24",
+                    "entry": "Instructions written in a strange script displayed prominently.  "
+                },
+                {
+                    "dice_val": "25-27",
+                    "entry": "Rich and elaborate decorations.  "
+                },
+                {
+                    "dice_val": "28-30",
+                    "entry": "The crest or sigil of a noble house or organization.  "
+                },
+                {
+                    "dice_val": "31-33",
+                    "entry": "A face made to resemble a real living or dead person.  "
+                },
+                {
+                    "dice_val": "34-36",
+                    "entry": "Brightly shining eyes.  "
+                },
+                {
+                    "dice_val": "37-39",
+                    "entry": "A head shaped to resemble an animal's.  "
+                },
+                {
+                    "dice_val": "40-42",
+                    "entry": "Part of the head is shaped to resemble a crown.  "
+                },
+                {
+                    "dice_val": "43-45",
+                    "entry": "Been prominently built of a second material (roll again on materials table).  "
+                },
+                {
+                    "dice_val": "46-48",
+                    "entry": "It is designed to look like a statue.  "
+                },
+                {
+                    "dice_val": "49-51",
+                    "entry": "Obviously made by an amateur.  "
+                },
+                {
+                    "dice_val": "52-54",
+                    "entry": "Parts are chipped off or well worn.  "
+                },
+                {
+                    "dice_val": "55-57",
+                    "entry": "Colour differences seem to indicate being made in different stages.  "
+                },
+                {
+                    "dice_val": "58-60",
+                    "entry": "It is inlayed with gems and precious metals.  "
+                },
+                {
+                    "dice_val": "61-62",
+                    "entry": "Magical strains and strings are visible.  "
+                },
+                {
+                    "dice_val": "63-64",
+                    "entry": "Overgrown.  "
+                },
+                {
+                    "dice_val": "65-66",
+                    "entry": "Wearing clothes.  "
+                },
+                {
+                    "dice_val": "67-68",
+                    "entry": "No eyes.  "
+                },
+                {
+                    "dice_val": "69-70",
+                    "entry": "Its material is polished to almost mirror-like qualities.  "
+                },
+                {
+                    "dice_val": "71-72",
+                    "entry": "Its material was shaped to resemble a fancy hairstyle.  "
+                },
+                {
+                    "dice_val": "73-74",
+                    "entry": "Elaborate scrollwork.  "
+                },
+                {
+                    "dice_val": "75-76",
+                    "entry": "Carrier bags.  "
+                },
+                {
+                    "dice_val": "77-78",
+                    "entry": "A single Cyclopean eye.  "
+                },
+                {
+                    "dice_val": "79-80",
+                    "entry": "Oddly shaped shoulders.  "
+                },
+                {
+                    "dice_val": "81-82",
+                    "entry": "A veil.  "
+                },
+                {
+                    "dice_val": "83-84",
+                    "entry": "Hooks and eyelets placed all over.  "
+                },
+                {
+                    "dice_val": "85-86",
+                    "entry": "A custom suit of armour.  "
+                },
+                {
+                    "dice_val": "87-88",
+                    "entry": "Etched geometric or themed patterns.  "
+                },
+                {
+                    "dice_val": "89-90",
+                    "entry": "Covered in fur.  "
+                },
+                {
+                    "dice_val": "91-92",
+                    "entry": "Reinforced joints.  "
+                },
+                {
+                    "dice_val": "93-94",
+                    "entry": "Some of the inner workings is visible.  "
+                },
+                {
+                    "dice_val": "95-96",
+                    "entry": "A fan or chutes for heat dissipation.  "
+                },
+                {
+                    "dice_val": "97-98",
+                    "entry": "It's designed to resemble a mythical creature.  "
+                },
+                {
+                    "dice_val": "99-100",
+                    "entry": "A strange hum emanating from its core."
+                }
+            ]
+        },
+        {
+            "dice": "d4",
+            "name": "The golem defends itself with...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Melee attacks (d6): 1. a massive hammer; 2. unarmed combat; 3. sharp twin blades; 4. a trident or spear; 5. a broadsword; 6. a battleaxe.  "
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Ranged attacks (d6): 1. a fixed repeater crossbow; 2. a mounted grenade launcher; 3. a blade or shuriken thrower in the wrist; 4. a flamethrower; 5. a directed force coil; 6. a liquid spray.  "
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Magic (d6): 1. elemental force; 2. holy smiting; 3. necrotic corruption; 4. arcane energy; 5. terrible curses; 6. wild power.  "
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Nothing; it can't defend itself."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The golem's condition might be described as...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Pristine.  "
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Well-maintained.  "
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Showing a little wear from active duty.  "
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "In need of some maintenance.  "
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "In need of repair and soon.  "
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Barely holding together."
+                }
+            ]
+        }
+    ],
+    "title": "Golems",
+    "use_with": [
+        {
+            "link": "43ek9v",
+            "title": "Castle"
+        },
+        {
+            "link": "43ufyr",
+            "title": "Mine"
+        },
+        {
+            "link": "43k8fr",
+            "title": "Prison"
+        },
+        {
+            "link": "3xpb4r",
+            "title": "Temple"
+        },
+        {
+            "link": "427hd8",
+            "title": "Tomb"
+        }
+    ]
+}

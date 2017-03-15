@@ -40,7 +40,7 @@ public class RandomTableActivity extends AppCompatActivity {
         TableCollectionContainer tableCollectionContainer = TableCollectionContainer.getTableCollectionContainer();
         if(!tableCollectionContainer.containsKey("asdf")) {
             try {
-                table = TableReader.readTable(getResources().openRawResource(R.raw.table_t4y5pl2));
+                table = TableReader.readTable(getResources().openRawResource(R.raw.table_3sgzxb));
                 tableCollectionContainer.put("asdf", table);
             } catch (IOException e) {
                 e.printStackTrace();
@@ -72,7 +72,7 @@ public class RandomTableActivity extends AppCompatActivity {
         tv.setText(table.getTitle());
 
         TextView desc_tv = (TextView) findViewById(R.id.random_table_desc);
-        desc_tv.setText(table.getTitle() + " Description");
+        desc_tv.setText(table.getDescription());
     }
 
     @Override

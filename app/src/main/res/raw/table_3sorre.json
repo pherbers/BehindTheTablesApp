@@ -1,0 +1,639 @@
+{
+    "description": "These are tables for generating an interesting undead creature to serve as a foe or a minion to your PCs or villains. These are particularly useful for building a story behind one or more undead creatures beyond a mindless mob of animated corpses.",
+    "id": "3sorre",
+    "keywords": [
+        "undead",
+        "ghost",
+        "zombie",
+        "ghoul",
+        "ghast",
+        "skeleton",
+        "wight",
+        "wraith",
+        "specter",
+        "spectre",
+        "poltergeist",
+        "revenant",
+        "spirits",
+        "restless",
+        "necromancy",
+        "necromancer"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/3sorre",
+    "related_tables": [],
+    "tables": [
+        {
+            "dice": "d20",
+            "name": "The person was...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A farmer or herder."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A miner or fisher."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A slave or servant."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A laborer or unskilled worker."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A beggar or urchin."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A noble or knight."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "An artist or craftsman."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A merchant or shopkeeper."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A barkeep or barmaid."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A barbarian or gladiator."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A minstrel or singer."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A priest or monk."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "An herbalist or healer."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "A soldier or sellsword."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "A cultist or preacher"
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "A hunter or assassin."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "A thief or bandit."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "A smuggler or con artist."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "A sailor or pirate."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "An alchemist or seer."
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "The person died from...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Hanging or strangulation."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Beheading."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A stab wound or beating."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Blunt trauma or being crushed."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Drowning."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A plague."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A gastrointestinal illness."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A respiratory illness."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "An infected wound."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Poisoning."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Falling from a great height."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A horse or wagon accident."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "A venereal disease."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "An allergic reaction."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "Shock."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "A heart attack or stroke."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "Liver failure."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "Old age."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "Natural causes."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "Unknown causes or under mysterious circumstances."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "The person's spirit lingers...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "To seek vengeance."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "To pine for lost love."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "To bemoan lost treasure."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Out of pure hatred of the living."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Out of jealousy of the living."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "To covet the belongings of a specific individual."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "To provide protection to a specific someone."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "To warn a specific someone against danger."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "To warn everyone against a specific danger."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "To torment a specific someone."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "To torment members of a specific group."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "To torment anyone who crosses its path."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "The person's spirit can move on if...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Someone helps it achieve it's goal."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "It saves the life of at least one other person."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "It achieves its goal on its own."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "It is destroyed."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "It is driven from its current location."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "It is given evidence of events that happened after the person's death."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "It is made aware of the circumstances of the person's death."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "It is forced to visit the location of the person's death."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "It is given the opportunity to speak to a loved one."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "It sufficiently satisfies its lust for blood."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "It sufficiently satisfies its lust for human touch."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "The Hells freeze over."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The spirit\u2019s initial reaction when it encounters living creatures is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Hostile and aggressive."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Hostile and suspicious."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Nervous and frightened."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Mostly indifferent."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Completely indifferent."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Curious but suspicious."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Curious and playful."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Desperate and aggressive."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "The person's spirit is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Occupying its original body, showing no signs of decay."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Occupying its original body, showing some signs of decay."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Occupying its original body, badly decomposed."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Occupying its original body, only bare bones remain."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Occupying the corpse of someone else."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Occupying the living body of a stranger."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Occupying the living body of someone the person new."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Occupying the living body of a beast."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Occupying part of its original body (skull or hand)."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Occupying part of someone else\u2019s corpse (skull or hand)."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The creature moves...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "With a shambling gait."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "With an awkward limp."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Lurching unpredictably."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "With more of shimmy than a walk."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Taking slow, steady steps."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "With surprising quickness and agility."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "The creature has...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A tattered shirt."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A missing arm, leg, or finger."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Only one eye."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A club foot."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Long-scraggly hair."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Chattering teeth."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Large crude stitches in its side."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "An awful hunchback."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Incredibly long fingernails."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Drool on its chin."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Buck teeth."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A creepy mustache."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "The spirit is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Incorporeal, invisible, and incapable of affecting its material surroundings."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Incorporeal, invisible, and capable of moving small objects."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Incorporeal, invisible, but capable of making itself seen."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Incorporeal, invisible, and hidden within an inanimate object (d4): 1. chest; 2. drawer; 3. kettle; 4. wardrobe."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Incorporeal, visible, but incapable of affecting it's material surroundings."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Incorporeal, visible, and capable of significant mischief and harm."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Incorporeal, extraordinarily beautiful, and capable of mischief and harm."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Incorporeal, wretched and slimy, and capable of mischief and harm."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Incorporeal, glowing blue or green, and capable of mischief and harm."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Incorporeal, visible, but in an unrecognizable form (d6): 1. mist or fog; 2. animal shape; 3. floating skull; 4. faint glow; 5. pool of shadows; 6. spectral hand."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The spirit moves...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "By creeping, oozelike, across the ground."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Smoothly, gliding above the grond."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Taking slow, fluid steps."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Lightly, rarely touching the ground."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Much quicker than you expect it to."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "By teleporting in a swirl of shadows."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "The spirit appears to be...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Severely bloated."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Moaning in anguish."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Snarling at you."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Breathing heavily."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Cowering in fear."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Poised to strike."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Gently bobbing up and down."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Wind-blown and haggard."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Fidgeting nervously."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Oozing ectoplasm."
+                }
+            ]
+        }
+    ],
+    "title": "Restless Undead",
+    "use_with": [
+        {
+            "link": "3tich6",
+            "title": "Desert"
+        },
+        {
+            "link": "3tielc",
+            "title": "Desert, shadowy"
+        },
+        {
+            "link": "4ev9sw",
+            "title": "Dinner in an undead feasthall"
+        },
+        {
+            "link": "3sgzxb",
+            "title": "Forest"
+        },
+        {
+            "link": "3sh0hz",
+            "title": "Forest, enchanted"
+        },
+        {
+            "link": "3sh0bv",
+            "title": "Forest, haunted"
+        },
+        {
+            "link": "4358in",
+            "title": "Monster hunters"
+        },
+        {
+            "link": "3w1g84",
+            "title": "Necromancers"
+        },
+        {
+            "link": "427hd8",
+            "title": "Tombs"
+        },
+        {
+            "link": "3si4ms",
+            "title": "Witches"
+        }
+    ]
+}

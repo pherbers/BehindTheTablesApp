@@ -1,0 +1,329 @@
+{
+    "description": "",
+    "id": "48cev4",
+    "keywords": [
+        ""
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/48cev4",
+    "related_tables": [],
+    "tables": [
+        {
+            "dice": "d10",
+            "name": "The name of the shop is:",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Old Grindylocks "
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Enchantments and Curses "
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Fidgety sams Fidgets "
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Banshees, Bassilisks, and Beholders"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Hextech and other magical things "
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "The Crawling Claw "
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "The Fizzling Fireball "
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "The Wild Magic Surge"
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Feathers of the Phoenix "
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Michales Magical Accessories "
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "The Shop Is Located:",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Underground"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "In the Slums "
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "In the market "
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "In the tavern cellar "
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "In the home of a spellcaster "
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "at the docks"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "on a ship "
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Same building as the sorcerers tavern "
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "In the arcane district"
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "In the town square"
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "In an alley inhabited mostly by elves"
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "in an alley inhabited mostly by Dwarves"
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "in an alley inhabited mostly by Gnomes"
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "in an alley inhabited mostly by Tieflings "
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "in an alley inhabited mostly by Goblins"
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "In the noble district "
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "At the entrance of the Colloseum "
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "The shop is the wagon of a traveling merchant "
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "On top of a mountain"
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "at the bottom of a river "
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "The shop sells:",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Trinkets and Accessories nothing of great power"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Potions and poisons "
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Lovepotions, Viagra, and other such things"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Divinations"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Material components for various spells"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Spellbooks and Magical Ink "
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Magical Weapons"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Magical Armour "
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Scrolls"
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Enchanted animals "
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "The Shop Is Owned By:",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "And incredibly old Human"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A Squirrely Gnome "
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A Forgetsome Halfling"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A Greedy and Malicious Goblin "
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A Rogue wizard "
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A Fairy"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A snobby High Elf"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A Wizard who is constantly experinmenting "
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "An efreeti Trying to make a bargain with your soul "
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A Warrior who knows nothing of magic, but is selling the goods he has acquired over the years"
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "The place looks:",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Suspicious "
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Pristine "
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Natural "
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Worn down "
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Alive"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Incredibly small on the inside compared to how it looks on the outside"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Incredibly large on the insdide compared to how it looks on the outside "
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Charred"
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Frozen "
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Gleaming"
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "A characteristic of the items sold here is:",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "They are all in poor shape"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "They have unknown effects"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "They are unstable, and might release magical surges on use"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "They are expired (for example an expired spell) "
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "They are cursed"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "They are blessed "
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "The items are all stolen"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "The items have great histories "
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "The items former owner is still looking for them "
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "The items are ancient"
+                }
+            ]
+        }
+    ],
+    "title": "Magic Shops",
+    "use_with": []
+}

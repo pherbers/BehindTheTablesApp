@@ -1,0 +1,248 @@
+{
+    "description": "Use these tables to quickly generate an interesting noble NPC.",
+    "id": "3xyhdl",
+    "keywords": [
+        "noble",
+        "nobility",
+        "house",
+        "family",
+        "royalty",
+        "lord",
+        "lady",
+        "duke",
+        "earl",
+        "baron",
+        "baroness",
+        "duchess",
+        "king",
+        "queen",
+        "prince",
+        "princess"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/3xyhdl",
+    "related_tables": [
+        {
+            "link": "43emxb",
+            "title": "Castle inhabitants"
+        },
+        {
+            "link": "3sj9ub",
+            "title": "Town NPCs"
+        }
+    ],
+    "tables": [
+        {
+            "dice": "d6",
+            "name": "The noble is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A knight."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "An old lord."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A young lord."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "An old lady."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A young lady."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A wealthy merchant."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "The noble seeks someone to...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Dispose of an enemy."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Negotiate a trade contract."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Deliver a letter."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Prepare an army for war."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Sabotage a rival."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Secure an advantageous marriage for himself or herself."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Secure an advantageous marriage for a friend or family member."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Have a good time with."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The noble carries...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Several deeds and titles."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A family heirloom."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Several inventories and invoices."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Some very valuable jewels."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A compromising love letter."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A letter from a powerful lord or lady."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "The noble wears\u2026",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A flashy gold necklace or chain."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Shiny leather boots."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "An ornate signet ring."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Fine silk clothes.\t"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A handsome grin."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "An extremely ugly scowl."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "An arrogant sneer."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Beautifully-styled hair and/or facial hair."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "The noble has\u2026",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A loud, deep laugh. "
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A high-pitched laugh."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A twittering nervous laugh."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A nervous habit of fidgeting."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A silver tongue."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A commanding presence."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Complete disregard for commoners."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Not a care in the world."
+                }
+            ]
+        }
+    ],
+    "title": "Nobles",
+    "use_with": [
+        {
+            "link": "46ma8g",
+            "title": "Bards"
+        },
+        {
+            "link": "43ek9v",
+            "title": "Castle"
+        },
+        {
+            "link": "45iihj",
+            "title": "Damsel in distress"
+        },
+        {
+            "link": "3tkfho",
+            "title": "Knights"
+        },
+        {
+            "link": "3tkdty",
+            "title": "Mercenary troops"
+        },
+        {
+            "link": "3tjg9d",
+            "title": "Military companies"
+        },
+        {
+            "link": "3sj8mc",
+            "title": "Noble houses"
+        },
+        {
+            "link": "4xvcgo",
+            "title": "Princesses"
+        },
+        {
+            "link": "4b8u29",
+            "title": "Reputations of adventurers"
+        }
+    ]
+}

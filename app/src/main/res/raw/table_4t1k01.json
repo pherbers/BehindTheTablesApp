@@ -1,0 +1,445 @@
+{
+    "description": "These are some tables for giving cats some flavor. Cats are common enough as familiars. Additionally, most taverns and inns probably have a cat hanging around, so one may as well make it a recurring character. \"Why cats?\" you might ask. To which I say, *Why NOT cats?*",
+    "id": "4t1k01",
+    "keywords": [
+        "cats",
+        "familiar",
+        "witches",
+        "crones",
+        "mousecatchers",
+        "fancy feast",
+        "jinxy"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/4t1k01",
+    "related_tables": [
+        {
+            "link": "4spk6l",
+            "title": "Bats"
+        },
+        {
+            "link": "4j1ayz",
+            "title": "Monkeys"
+        },
+        {
+            "link": "4splu3",
+            "title": "Rats"
+        },
+        {
+            "link": "487awj",
+            "title": "Spiders"
+        }
+    ],
+    "tables": [
+        {
+            "dice": "d6",
+            "name": "Size: The cat is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "All skin and bones."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A little scrawny."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Pretty average in size."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A little long and lanky."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Fat."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Extremely fat."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "Coat: The cat's coat is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Solid white."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Solid black."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Solid grey."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Grey and black spotted tabby."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Orange and black spotted tabby."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Grey and black striped tabby."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Orange and white striped tabby."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Orange and white striped tabby."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Grey and black blotched tabby."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Black and white bicolor."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "White and orange bicolor."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Calico."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "Eyes: The cat has...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Yellow eyes."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Golden brown eyes."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Copper brown eyes."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Dull green eyes."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Bright green eyes."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Brilliant gold eyes."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Copper eyes."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Bright blue eyes."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Pale blue eyes."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Bluish grey eyes."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "One blue eye and one golden brown eye."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "One blue eye and one copper brown eye."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Breed Skills: This variety of cat was bred...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "To hunt mice in granaries."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "To hunt mice in urban dwellings."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "To hunt rats aboard ships."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "To hunt rats and mice in barns."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "To hunt birds on rooftops."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "To hunt snakes and lizards."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "To sit on laps."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "For no particular reason; it's ancestors were semi-feral village cats."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "For no particular reason; it's ancestors were semi-feral city cats."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "For no reason at all; it's ancestors were wild animals."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Favorite Foods: This cat is particularly fond of...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Warm milk."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Mice."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Baby mice."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Songbirds."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Pigeon."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Chicken."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Sardines."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Tuna."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Salmon."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Bacon."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Individual Markings: This cat has...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "White or black toes on one foot."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Extremely long whiskers."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A white or black tipped tail."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "No tail."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A broken tail."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A scarred ear."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A patch of missing fur."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A pink nose."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A black nose."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A pink and black nose."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Individual Habits: This cat has...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A habit of hiding whenever it first meets someone."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A habit of begging for food."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A mistrustful demeanor, even toward people it knows well."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A playful demeanor, always chasing its tail."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A curious demeanor, always sneaking up and pouncing on things."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A noisy yowl when it is sad."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A cute little meow when it is content."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A habit of purring and rubbing against your leg."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A habit of hissing at any who approach it."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A friendly demeanor, provided you have food."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Individual Talent: This particular cat is very good at...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Scratching."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Hissing."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Purring."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Climbing trees."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Climbing walls."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Catching mice."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Catching fish."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Catching birds."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Avoiding you."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Ignoring you."
+                }
+            ]
+        }
+    ],
+    "title": "Cats",
+    "use_with": [
+        {
+            "link": "3sl4sr",
+            "title": "Alchemists"
+        },
+        {
+            "link": "43ek9v",
+            "title": "Castle"
+        },
+        {
+            "link": "3xys3d",
+            "title": "Farmfolk"
+        },
+        {
+            "link": "48cev4",
+            "title": "Magic shops"
+        },
+        {
+            "link": "3xyhdl",
+            "title": "Nobles"
+        },
+        {
+            "link": "44r23c",
+            "title": "Seers"
+        },
+        {
+            "link": "43xb06",
+            "title": "Shopkeepers"
+        },
+        {
+            "link": "435mxf",
+            "title": "Tavern goings-on"
+        },
+        {
+            "link": "4daxw7",
+            "title": "Urban marketplace"
+        },
+        {
+            "link": "3si4ms",
+            "title": "Witches"
+        }
+    ]
+}

@@ -1,0 +1,281 @@
+{
+    "description": "These are tables for adding some flavor to a dwarf NPC, from slobbering drunk battlerager to a patient craftsman.",
+    "id": "43vpxa",
+    "keywords": [
+        "dwarves",
+        "dwarfs",
+        "dwarvish",
+        "miners",
+        "crafters",
+        "smiths",
+        "battleragers",
+        "Thorin",
+        "Gimli",
+        "Dopey"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/43vpxa",
+    "related_tables": [],
+    "tables": [
+        {
+            "dice": "d10",
+            "name": "The dwarf is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A greedy prospector."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A hard-working miner."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A talented weaponsmith."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A meticulous gemcutter."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A highly-skilled armorer."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A capable stonemason."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A battle-hardened soldier."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A fearsome berserk warrior."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A wily treasure hunter."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A short-tempered circus performer."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "The dwarf\u2019s beard is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Snowy white."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Stony grey."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Fiery red."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Black as coal."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Earthy brown."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Tangled."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Braided."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Down to the floor."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Neatly trimmed."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Magnificent."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The dwarf is looking to...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Re-establish an ancestral claim."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Find a new source for precious gems."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Find some knowledge about an ancient event or place."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Drink some ale and swap tales of treasure."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Drink some ale and sing a bawdy song."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Drink some ale and start a fight."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "The dwarf wears...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A traveler's cloak with a black hood."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A traveler's cloak with a blue hood."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A traveler's cloak with a red hood."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A traveler's cloak with a grey hood."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A traveler's cloak with a gold hood."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A leather baldric with a hard leather cap."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Shining, silvered chainmail."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Chainmail armor, patched with boiled leather."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A burnished breastplate with an open-faced steel helm."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A breastplate emblazoned with runes."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Scale armor made of blackened steel."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Nearly impenetrable plate armor."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "The dwarf carries...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "An old battleaxe with a razor sharp edge."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A highly polished warhammer and a steel shield"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A huge greataxe and some throwing axes."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A rune-carved sword and an incomplete map."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Several handaxes and a crossbow."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A heavy battleaxe and wooden shield."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A hammer and sack full of climbing gear."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A pick-ax and an old map."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A satchel of potions, tonics, and remedies."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A book of archaic earth magic and a bundle of notes."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A knife, some lockpicks, and a lamp."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A pair of magnifying glasses and a set of scales."
+                }
+            ]
+        }
+    ],
+    "title": "Dwarves",
+    "use_with": [
+        {
+            "link": "3unfbm",
+            "title": "Caverns"
+        },
+        {
+            "link": "3snvqq",
+            "title": "Goblins"
+        },
+        {
+            "link": "43vqqs",
+            "title": "Miners"
+        },
+        {
+            "link": "43ufyr",
+            "title": "Mines"
+        },
+        {
+            "link": "42rm5s",
+            "title": "Mountains"
+        },
+        {
+            "link": "4b8u29",
+            "title": "Reputations of adventurers"
+        },
+        {
+            "link": "45uoqf",
+            "title": "Vignettes: dwarf enclaves"
+        }
+    ]
+}

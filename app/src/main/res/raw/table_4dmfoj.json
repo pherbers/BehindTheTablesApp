@@ -1,0 +1,379 @@
+{
+    "description": "These are tables for quickly coming up with a flavorful meal or menu you might find in a elvish dwelling, an elf-prince's hall, an elvish wine bar, or any place that caters to elves.",
+    "id": "4dmfoj",
+    "keywords": [
+        "wood elves",
+        "sylvan elves",
+        "green elves",
+        "wild elves",
+        "forest elves",
+        "ehlonna",
+        "forests",
+        "children of the forest"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/4dmfoj",
+    "related_tables": [],
+    "tables": [
+        {
+            "dice": "d8",
+            "name": "Tonight, in an elvish dwelling, we dine on...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Stewed."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Roasted."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Boiled."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Simmered."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Smoked."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Baked."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Marinated."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Peppered."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Boar."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Rabbit."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Pheasant."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Goose."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Trout."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Pike."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Clams."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Chestnuts."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Wild rice."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Leafy greens."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "White beans."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Red beans."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "...with...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Green cabbage."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Sweet cabbage."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Wild arugula."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Wild rhubarb."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Sugarsnap peas."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Wild carrots."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Wild parsnips."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "String beans."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Green onions."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Sweet onions."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Wild mushrooms."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Cave mushrooms."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "...and...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Apples."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Pears."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Lemons."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Rose petals."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Dandelions."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Flower petals."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Elder petals."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Red berries."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Black berries."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Blueberries."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Grapes."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Plums."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "On the side, there is some...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Crispy bread."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Fluffy bread."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Oat cake."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Honey cake."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Acorn bread."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Flatbread."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Assorted fruit."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Assorted cheese."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "To wash it down, we have some...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Spring water."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Sweet water."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Floral tea."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Strong tea."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Sweet wine."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Honey wine."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "White wine."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Ros\u00e9."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Red wine."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Dark wine."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Ancient wine."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Young wine."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "...that leaves you feeling...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Refreshed."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Peaceful."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Content."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Carefree."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A little sleepy."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A little light-headed."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Rather nostalgic."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Rather melancholy."
+                }
+            ]
+        }
+    ],
+    "title": "Dinner in an Elvish Dwelling",
+    "use_with": [
+        {
+            "link": "3vlzrw",
+            "title": "Faeriefolk"
+        },
+        {
+            "link": "3sgzxb",
+            "title": "Forest"
+        },
+        {
+            "link": "3sh0hz",
+            "title": "Forest, enchanted"
+        },
+        {
+            "link": "3vh7jd",
+            "title": "High elves"
+        },
+        {
+            "link": "45uoqf",
+            "title": "Vignettes: elf enclaves"
+        },
+        {
+            "link": "4cx75p",
+            "title": "Wines"
+        },
+        {
+            "link": "3va3dw",
+            "title": "Wood elves"
+        }
+    ]
+}

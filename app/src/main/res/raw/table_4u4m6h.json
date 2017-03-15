@@ -1,0 +1,559 @@
+{
+    "description": "Use these tables to quickly generate a unique world geography for your players to play in. Describe the unique characteristics of the world as a whole, as opposed to the area they are currently exploring.",
+    "id": "4u4m6h",
+    "keywords": [
+        "world",
+        "continent",
+        "magic",
+        "technology",
+        "creation",
+        "myth",
+        "cataclysm"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/4u4m6h",
+    "related_tables": [],
+    "tables": [
+        {
+            "dice": "d8",
+            "name": "Size: The world is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Absolutely Massive. Generations could explore the world, and never see everything"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Giant. There are many world maps, showing different parts of the world, but none are complete"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Huge. With concerted effort over many generations, a world map can be created, with many gaps"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Large. The world is known, but no one man can see it all in a lifetime"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Medium. While most people don't know then extent of the world, scholars have been able to build some good maps"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Small. Most people have heard of most parts of the world, even if they have never travelled there"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Tiny. World-wide commerce is not unheard of"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Minuscule. The common person could get from one side of the world to the other."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "Climate: The world is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Diverse. There exists a little bit of any type of climate somewhere in the world"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Ice-age. The world is mostly covered in tundra"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Hot. A cold spot above-ground is difficult to find"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Dry. The world is devoid of rain"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Verdant. The world is lush, and mostly uninhabited."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A post-apocalyptic wasteland. The world is pock marked with uninhabitable regions"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Bi-polar. A single day/night cycle can go from extremely hot, to extremely cold"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Volcanic. Mountains and volcanoes are not uncommon, spewing gasses into the atmosphere"
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Lush. It rains frequently. Jungles cover must of the world, and other regions are a vibrant green"
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Stormy. The world is mostly under a cloud cover, with violent winds, rains, thunder and lightning."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Windy. High-velocity winds scour the land"
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Mild. There exists a comfortable amount of sun, rain and cloud-cover."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Land Masses: The world is composed of...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Mostly ocean, with the occasional small island"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A single continent, amidst a massive ocean containing the occasional island"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Several distinct continents"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A single land mass, an no ocean to speak of"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Many small to medium sized islands speckled throughout the ocean"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Two distinct continents"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A ring of land, with an ocean in the center"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Many continents, some joined to others"
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Two to three large continents, and a few smaller continents"
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "No land. The entire world is one giant ocean"
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "Magic in the world is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Non-existent"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Extremely rare. Though there are a few practitioners of magic, it is mostly in the realm of rumour or legend."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Rare. There is usually only one or two people in a region that practice the magical arts"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Uncommon. Magic is real, but magical feats are considered impressive."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Common. It's not unusual to see magic in use"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Extremely common. Magic is a part of daily life."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Powering everything. Magic is so inundated in every contraption, it seems futuristic"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Wild. Results are never predictable, and strange things occur naturally"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Technology in the world is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Primitive. A pulley system is considered complex"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Technology comes from relics of an age past. No one really understands how it works"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Basic. There is no electricity nor steam."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Steam-powered. Steam powered contraptions can be found"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Slightly advanced. Gunpowder can be found, as well as steam power contraptions"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Advanced. Electricity has been discovered"
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "A unique characteristic of this world is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "There are multiple moons"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "There are multiple suns"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "The sun rarely sets"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "The world is in the midts of an apocalypse. (See below)"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "The world is hollow. Entire civilizations can be found inside the world"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Most people live underground"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "The air is toxic"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "The gods have disappeared"
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "The pantheon of gods have been replaced by a single all-powerful god"
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A pandemic ravages the world"
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "The sun is a different color (d8): 1. Red; 2. Blue; 3. Green; 4. White; 5. Black; 6. Violet; 7. Purple: 8. Prismatic"
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A civilization lives on the moon"
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "The gods walk among the men"
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "There is no sun. The world is shrouded in darkness."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "There is an over-abundance of a mineral (d20): 1. Gold; 2. Silver; 3. Copper; 4. Lead; 5. Granite; 6. Adamantine; 7. Titanium; 8. Iron; 9. Aluminium;  10. Tin; 11. Salt; 12. Sulfur; 13. Cobalt; 14. Nickle; 15. Zinc; 16. Tungsten; 17. Platinum; 18. Electrum; 19. Mercury; 20. Uranium"
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "There is an scarcity of a mineral (d20): 1. Gold; 2. Silver; 3. Copper; 4. Lead; 5. Granite; 6. Adamantine; 7. Titanium; 8. Iron; 9. Aluminium;  10. Tin; 11. Salt; 12. Sulfur; 13. Cobalt; 14. Nickle; 15. Zinc; 16. Tungsten; 17. Platinum; 18. Electrum; 19. Mercury; 20. Uranium"
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "Seasons last for a very long time"
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "Rain is toxic"
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "No child has been born in a generation"
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "No one lives after attaining adulthood"
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "The wold is dominated by...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A single race or people."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A pair of rival races or people."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A large world-spanning empire."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A pair of large, rival empires."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A patchwork of many nations all vying for power."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Warring, militaristic or barbaric clans."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "No one in particular"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "An other-worldly power"
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "Races: Naturally occurring races include",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Only humans"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Only a single type of demi-human (dwarf, elf, etc)"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Humans and demi-humans"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Humans, demi-humans, and extra-planar beings"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Only humans, and a single type of demi-humans"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Demi-humans are common, but humans are rare"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Sub-humans, such as goblins, and orcs"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Evolved, intelligent monsters along side humans and demi-humans"
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "A cataclysm that faced this world in the past was...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Meteors that ravaged the land"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "An ice-age, of which only the strong could survive"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A world-wide flood that only the smart could survive"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A world-wide dust storm that lasted for a generation"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "An advanced civilization that destroyed their own planet, leaving only what you see"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Famine wracked the land for many generations"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A war between gods spilled out into the material plane, and nearly destroyed it"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A war between dragons decimated any semblance of society"
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Invasions from an extra-planar species"
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "The birth of magic."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Magic became wild and unpredictable"
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Overpopulation. There just weren't enough resources to support all of the people living in the world, and 99% of them died of hunger"
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "A man made super-weapon that destroyed the world"
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "The core of the world became unstable, and it was being torn asunder."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "A new species was born or discovered that tried to take over the world. (d12): 1. Dragons; 2. Mind-flayers; 3. Dark elves; 4. A vampire; 5. A lich; 6. A fiend; 7; A celestial; 8. A beholder; 9. Dinosaurs; 10. Dopplegangers; 11. Mimics; 12. Titans"
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "The living never stayed dead, and the undead nearly overran everything"
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "A fool wizard performed a wish spell that tore at the very fabric of existence"
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "The material plane crossed with another plane causing the planes to bleed into each other (d20) 1. The Astral Plane; 2. The Ethereal Plane; 3. The Feywild; 4. Shadowfell; 5. The Elemental Plane of Air; 6. The Elemental Plane of Earth; 7. The Elemental Plane of Water; 8. The Elemental Plane of Fire; 9. Pandemonium; 10. The Abyss; 11. The Blessed Fields of Elysium; 12. The Wilderness of The Beastlands; 13. The Olympian Glades of Arborea; 14. The Heroic Domains of Ysgard; 15. The Ever-Changing Chaos of Limbo; 16. The Tarterian Depths of Carceri; 17. The Gray Waste of Hades; 18. The Bleak Eternity of Gehenna; 19. The Nine Hells of Baator; 20. The Infinite Battlefield of Acheron"
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "The magnetic polar fields switched"
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "The world was split down the middle, now two worlds orbit each other in close proximity."
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "The word was created by (Individual legends may vary)...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Billions of years of evolution"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A single creator god"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A momentary merge of the elemental planes"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "As a peace offering between two warring gods"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "As an offering of love from one god in love with another"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "By a young, defiant god attempting to create something unheard of"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "By an ancient civilization searching for the question to the answer of life, the universe, and everything"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "It was hatched from the egg of a world-bearing chicken"
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "It wasn't. It has always been, and will always be"
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "It is one of many created by an immortal governing council."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "As the result of a wish spell"
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "It only exists in a snow globe created by a child, who in turn lives in a snow globe created by a child, who in turn..."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "It started in the realm of imagination and become wholly realized through a chance run-in with the astral plane."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "A council of dragons pieced it together from favored parts of their home worlds"
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "It was created as an experiment run-amok by a god"
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "World creation was a pass-time of bored gods, who frequently made worlds, trying to one-up each other"
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "It was created as one of many experiments by a council of gods trying to discover... (d8) 1. The soul; 2. True sentience and free-will; 3. A purpose for their eternity; 4. A new form of magic; 5. A superior species that would some day replace them; 6. A superior species that would some day serve them; 7. A superior species that would be pit against another council's species in a game of war; 8. A new non-naturally occurring material, such as plastic."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "Two worlds colliding together"
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "It was born in the belly of a god-dragon, where her god-children warred, and was later cut out of her belly when one of her children committed matricide"
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "A world-dragon was butchered and its parts were turned into the sky, water, land, etc."
+                }
+            ]
+        }
+    ],
+    "title": "World",
+    "use_with": []
+}

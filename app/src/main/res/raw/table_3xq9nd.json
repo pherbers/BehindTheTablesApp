@@ -1,0 +1,615 @@
+{
+    "description": "These tables are designed to quickly generate an interesting monk NPC, from wide-eyed pilgrims to wise teachers and from brutal martial artists to cloistered scholars.",
+    "id": "3xq9nd",
+    "keywords": [
+        "monk",
+        "monastery",
+        "abbot",
+        "abbess",
+        "monastic order",
+        "ascetic",
+        "Mendel"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/3xq9nd",
+    "related_tables": [
+        {
+            "link": "3whlp0",
+            "title": "Priests"
+        },
+        {
+            "link": "3sj9ub",
+            "title": "Town NPCs"
+        }
+    ],
+    "tables": [
+        {
+            "dice": "d20",
+            "name": "The monk is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A devoted acolyte."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A dogmatic teacher."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A wandering mystic."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A grim warrior."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "An adept healer."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A road-weary pilgrim."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A charismatic preacher."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "An eccentric sage."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A disillusioned scholar."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A battle-tested martial artist."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A sharp-witted beggar-in-disguise."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "An outspoken zealot."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "An inscrutable foreigner."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "A world-weary philosopher."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "A brash martial artist."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "A reformed criminal."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "A warrior in exile."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "A cautious refugee."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "A bare-knuckled brawler."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "An unapologetic drunk."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "At the monastery, the monk serves or served as...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A brewer or vintner."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A baker, butcher, or cook."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A carpenter or stonemason."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A farmer or gardener."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A farrier or blacksmith."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A guard or soldier."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A librarian or instructor."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A leatherworker or ropemaker."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A scribe or bookkeeper."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A steward or quartermaster."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A stable hand or herder."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A tailor or weaver."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "The monk has...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A likable grin."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A hearty laugh."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "An unreadable face."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A sulky grimace."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A humorless visage."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A habit of sighing."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A sad look on his or her face."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A kind look on his or her face."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A habit of pacing."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A habit of scratching his or her chin."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A habit of licking his or her lips."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A habit of muttering under his or her breath."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "The monk is particularly knowledgeable regarding...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Alchemical preparations (d4): 1. curatives; 2. explosives; 3. poisons; 4. sedatives."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "The power of the mind."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Realms beyond the material world."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Demonology."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Healing arts."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "The journey of the soul."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "The laws of the gods."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Sacred rites."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Sacred texts."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Saints, martyrs, and heroes of legend."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "The monastic order's hierarchy and bureaucracy."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "The body's strengths and weaknesses."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "The monk has recently been contemplating...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "The mysteries of death and life."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "The meaning of a recurring dream."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "The meaning of several dark omens."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "The perfection of the mind."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "The perfection of the body."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "The perfection of the soul."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "The wisdom of an ancient philosopher."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "The beauty and power of nature."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "The path to inner peace."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Forgiveness for his or her past sins."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "The balance of good and evil."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "The balance of order and chaos."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "The monk prefers to meditate...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "In a large temple."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "In a shrine at the monastery."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "In his or her personal cell at the monastery."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "In a garden."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Deep in the wilderness."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "In an isolated cave or grotto."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "On the site of an ancient ruin."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "While walking the roads of the world."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The monk wears...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A threadbare robe."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A sturdy wool cloak."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A comfortable linen robe."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A cotton robe with the symbol of a god embroidered on the lapel."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A clean silk robe with simple embroidery."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "An expensive silk robe with elaborate gold embroidery."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "The monk's martial arts style includes...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Landing many rapid, open-hand slaps."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Landing many rapid, close-fist punches."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Acrobatic flips and quick maneuvers."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Lightning sprints and flying leaps."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A stumbling gait to keep foes off balance."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Methodical footwork."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Landing many of rapid, spinning kicks."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Landing a few powerful punches."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Landing a few powerful kicks."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Leg sweeps to trip foes."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Striking pressure points to debilitate foes."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Using explosive powders and alchemical smoke to distract foes."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "The monk carries...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A polished wooden staff."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A well-used walking staff."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Several razor-sharp daggers."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A blunted ceremonial dagger or sword."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "An uncommon weapon (d6): 1. kukri; 2. kusari-gama; 3. nunchaku; 4. scythe; 5. shuriken; 6. sickle."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A prominently displayed holy symbol (d6): 1. bejeweled; 2. gilded; 3. iron; 4. silver; 5. steel; 6. wooden."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A purse of silver to distribute to the poor."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A notebook of hand-written prayers and devotions."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A variety of healing potions and salves."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A set of prayer beads."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A heavy ring of keys."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A wineskin or flask."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "The monk prefers to drink...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Ale."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Coffee."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Fermented milk (d4): 1. cow; 2. goat; 3. mare; 4. yak."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Firewhisky."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Mead."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Porter."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Black tea."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Green tea."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Herbal tea."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Water."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Wine."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Rice wine."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "The monk is looking for...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "New students."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "The translation of an ancient manuscript."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Heretics and enemies of the order."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Relics and rare lore."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Proof of a god\u2019s existence."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "The location of a ruined temple or monastery."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "An opportunity to tell a fable."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "The bottom of a goblet."
+                }
+            ]
+        }
+    ],
+    "title": "Monks",
+    "use_with": [
+        {
+            "link": "40pjmd",
+            "title": "Monasteries"
+        },
+        {
+            "link": "3shczv",
+            "title": "Pantheons"
+        },
+        {
+            "link": "4b8u29",
+            "title": "Reputations of adventurers"
+        },
+        {
+            "link": "3xpb4r",
+            "title": "Temples"
+        }
+    ]
+}

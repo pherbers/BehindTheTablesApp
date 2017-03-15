@@ -1,0 +1,409 @@
+{
+    "description": "These are tables for quickly coming up with a flavorful meal or menu you might find in a dwarvish alehouse, a dwarf-lord's hall, a humble dwarf's cottage, or any place that caters to dwarves.",
+    "id": "4dmepa",
+    "keywords": [
+        "dwarves",
+        "dwarfs",
+        "dwarvish",
+        "miners",
+        "ale",
+        "porter",
+        "stout",
+        "lager",
+        "beer",
+        "beerhall",
+        "mead",
+        "eat",
+        "drink",
+        "be merry"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/4dmepa",
+    "related_tables": [],
+    "tables": [
+        {
+            "dice": "d12",
+            "name": "Tonight, in a dwarvish alehouse, we dine on...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Stewed."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Flame-roasted."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Glazed and skewered."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Braised."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Smoked."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Battered and fried."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Glazed and seared."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Flame-broiled."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Salted and grilled."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Peppered and grilled."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Stone oven-roasted."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Stone oven-baked."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Rabbit."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Duck."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Goose."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Boar."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Pork."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Ox."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Trout."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Salmon."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Venison."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Mutton."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Steak."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Pheasant."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "...with...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Red potatoes."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Golden potatoes."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Red cabbage."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "White cabbage."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Green cabbage."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Peas."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Sliced turnips."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Turnip mash."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "White onions."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Red onions."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "...and...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Carrots."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Apples."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Cherries."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Cave mushrooms."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Purple mushrooms."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Wild mushrooms."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Truffles."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Thick gravy."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Rich gravy."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Garlic."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "On the side, there is some...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Rye bread."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Wheat bread."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Crusty bread."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Honey cake."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Oat cake."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Poppyseed cake."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Hard biscuit."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Fluffy biscuit."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Pork sausage."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Deer sausage."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Bacon."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Ham."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "To wash it down, we have some...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Black ale."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Pale ale."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Brown ale."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Red ale."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "White ale."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Wheat ale."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Pilsner."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Lager."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Chocolate stout."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Coffee stout."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Black porter."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Brown porter."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "...that is just a bit...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Too dark in color."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Too light in color."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Too strong in flavor."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Too mild in flavor."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Too foamy."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Too fizzy."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Too flat."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Too bitter."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "On the nutty side."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "On the floral side."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "On the sweet side."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Chewy."
+                }
+            ]
+        }
+    ],
+    "title": "Dinner in a Dwarvish Alehouse",
+    "use_with": [
+        {
+            "link": "43vpxa",
+            "title": "Dwarves"
+        },
+        {
+            "link": "43vqqs",
+            "title": "Miners"
+        },
+        {
+            "link": "43ufyr",
+            "title": "Mines"
+        },
+        {
+            "link": "42rm5s",
+            "title": "Mountains"
+        },
+        {
+            "link": "45uoqf",
+            "title": "Vignettes: dwarf enclaves"
+        }
+    ]
+}

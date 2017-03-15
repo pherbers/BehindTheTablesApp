@@ -1,0 +1,385 @@
+{
+    "description": "This post should add some helpful insight on what to throw at the adventuring party that doesn\u2019t always check for those pesky tripwires. Since arcane traps and mechanical traps are so different I made two sets of tables for each of them.",
+    "id": "43bznq",
+    "keywords": [
+        "traps",
+        "alarms",
+        "pressure plate",
+        "mechanical",
+        "arcane"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/43bznq",
+    "related_tables": [],
+    "tables": [
+        {
+            "dice": "d10",
+            "name": "Roll  Mechanical Source",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Trip wire"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Pressure plate"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Opening a door"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Lifting the lid on a chest"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Grabbing a certain rung of a ladder"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Removing an object from it\u2019s resting place"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Touching anything in the room, including the floor"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Breaking the beam of a light source"
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Disturbing a source of water in the room"
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Pulling on a suspicious looking rope hanging from the ceiling"
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Roll  Mechanical Triggered",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Gears can be heard grinding from inside the walls"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A low boom is heard that echoes out through the dungeon"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A high pitched whirring can be heard"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Various ticking sounds are heard"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A quick release of steam followed by a bang"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A low rumbling that shakes the room for a moment"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A single click"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "The sound of chains sliding across stone"
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A thumping sound that starts slow and begins picking up speed"
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Nothing. Silence"
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Roll  Mechanical Trap",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "The floor opens downward into a 40 foot pit"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "From unseen slits in the wall, poisoned needles fly out"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A wall opens revealing a golem to ambush the party"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A large log swings down from the ceiling"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "The parts of the dungeon begin collapsing, blocking off areas"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Vents on the ceiling begin emptying noxious fumes into the room"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A large blade swings horizontally across the room attempting to decapitate"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "The room begins filling with water after the doors slam shut"
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "The walls slowly begin closing inwards "
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A large rolling boulder drops from the ceiling towards the party"
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Roll  Arcane Source",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "An arcane rune on the floor"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Arcane markings around a door frame"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A pillar that has a low hum to it"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A jeweled eye that scans the room"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Stone statue that has glowing red eyes"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A mysterious green fog that rolls around the base of the room"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A very dimly lit candle that could be extinguished with the faintest breath"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A phrase scrawled on the wall that activates when said out loud"
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Failing to cast any spell on a dull crystal floating in the center of the room"
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Lighting a rather inviting looking torch in the center of the room"
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Roll  Arcane Triggered",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A low hum is heard"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A very unnatural light begins glowing brightly from an unknown source"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Any runes in the room begin glowing a bright red"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "The room suddenly drops drastically in temperature"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "The room gets uncomfortably hot"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A soft hiss is heard"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A fizzling sound is heard"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A high pitched hum rings out"
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A crackling of energy is heard through the room"
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Silence"
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Roll  Arcane Trap",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Sleep is cast on the room"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Victim must resist being petrified"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A fireball explodes throughout the room"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "All surfaces of the room begin to become too hot to touch (Effectively heat metal)"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Fumes begin materializing as if stinking cloud was cast"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A wall of lightning races towards the victim and any others in its way"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "All people in the room have blindness cast on them"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "The victim is sent to the astral plane for one minute"
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Everything in the room begins to levitate, no save"
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "The spell Confusion is cast on everyone"
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Roll  Indirect Trap",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A torch is lit in another room, alerting enemies"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A door in another room closes, hiding a secret passage"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Chests in the dungeon lock up"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A dangerous enemy is freed that could normally be avoided"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "All other traps that have already been triggered get reset"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "All lights are extinguished"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Golems begin patrolling the dungeon"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "All doors in the dungeon lock themselves"
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "An alarm bell begins ringing alerting all enemies of the party"
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Another more sinister trap is set in another room"
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Roll  Optional Fun",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Trap was never reset. Nothing dangerous happens"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "The trap does multiple things, roll twice on the effect table"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Enemies in the room knowingly trigger the trap and then run from it"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Enemies can be overheard talking about how useless the trap is"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "An enemy has a list of traps and how to avoid them"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "There is a dummy trigger, drawing attention away from the real trigger"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Illusion magic is used to disguise all of the triggers"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Enemies are foolish enough to be lured into their own traps"
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "The trap fails, but not before scaring the pants off the party"
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Delay of ten seconds. Count out loud"
+                }
+            ]
+        }
+    ],
+    "title": "Traps",
+    "use_with": []
+}

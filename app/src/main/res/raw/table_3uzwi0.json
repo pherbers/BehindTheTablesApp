@@ -1,0 +1,260 @@
+{
+    "description": "These are tables for generating an interesting snake cultists to serve as foe or foil to your PCs, from slithering assassins to mad, venom-spitting zealots.",
+    "id": "3uzwi0",
+    "keywords": [
+        "snake cultist",
+        "jungle",
+        "cult",
+        "snakes",
+        "temple",
+        "reptilian humanoid",
+        "zehir",
+        "hiss"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/3uzwi0",
+    "related_tables": [
+        {
+            "link": "40wc26",
+            "title": "Cultists"
+        }
+    ],
+    "tables": [
+        {
+            "dice": "d10",
+            "name": "Profession: The cultist is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A cunning warrior."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A battle-tested soldier."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A stealthy assassin."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A fanatical priest or priestess."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A newly initiated acolyte."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A charismatic preacher."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A foolish zealot."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A raving madman or madwoman."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A scaly shapeshifter."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "An enthusiastic poisonmaker."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "Scaly Obsession: The cultist is particularly fond of or fearful of...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Cobras and asps."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Rattlers and sidewinders."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Pythons and boas."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Sea snakes."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Black dragons."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Green dragons."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Female medusas."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Male medusas."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Giant snakes."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Yuan-ti malisons."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Yuan-ti abominations."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Yuan-ti halfbloods."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Distinguishing Feature: The cultist has...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A bandaged thumb."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A tattoo on the face."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A tear at the knee of his or her robe."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A forked tongue."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A nervous twitch."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Almost no nose."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "An unsettling laugh."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A large scar on the throat."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A profuse amount of sweat soaking through his or her robes."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A hissing lisp when he or she speaks."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Goal: The cultist is looking to...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Recruit new members to the cult."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Warn outsiders away from the cult."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Collect captives for human sacrifice."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Lead travelers into a trap near the cult's shrine or temple."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Escape from the clutches of the cult's leadership."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Slip some poison into someone\u2019s drink."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "Possessions: The cultist carries or wears...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Several eggs stolen from a snake\u2019s nest."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A necklace or bracelet of snake fangs."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Snakeskin armor or boots."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A book of prayers and curses."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A sharp, ceremonial dagger."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A scimitar and a set of lightweight, supple armor."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A constrictor snake fashioned like a scarf about the shoulders."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Several doses of a deadly poison."
+                }
+            ]
+        }
+    ],
+    "title": "Snake Cultists",
+    "use_with": [
+        {
+            "link": "3xyiqs",
+            "title": "Cults"
+        },
+        {
+            "link": "3u4a05",
+            "title": "Jungle"
+        },
+        {
+            "link": "4780bg",
+            "title": "Poisons"
+        },
+        {
+            "link": "43c2q8",
+            "title": "Swamp"
+        },
+        {
+            "link": "3xpb4r",
+            "title": "Temples"
+        }
+    ]
+}

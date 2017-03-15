@@ -1,0 +1,252 @@
+{
+    "description": "Creatures of elemental ice, winter beasts are savage and often dominate populations of their mundane kin. This is a short set of tables for quickly coming up with brief description of an interesting winter beast.",
+    "id": "4nbzt3",
+    "keywords": [
+        "plane of ice",
+        "uttercold",
+        "the north",
+        "the frostfell",
+        "winter wolves",
+        "winter is coming"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/4nbzt3",
+    "related_tables": [
+        {
+            "link": "4n02oc",
+            "title": "Fey beasts"
+        },
+        {
+            "link": "4nbz5o",
+            "title": "Fire beasts"
+        },
+        {
+            "link": "4n03im",
+            "title": "Infernal beasts"
+        },
+        {
+            "link": "4nbz9h",
+            "title": "Legendary beasts"
+        },
+        {
+            "link": "4nbzhp",
+            "title": "Storm beasts"
+        },
+        {
+            "link": "4nbzmi",
+            "title": "Undead beasts"
+        }
+    ],
+    "tables": [
+        {
+            "dice": "d12",
+            "name": "The winter beast is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A bear."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A boar."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A drake."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "An eagle."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "An elk."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A fox."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A goat."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "An owl."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "An owlbear."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "An ox."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A stag."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A wolf."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "The beast has...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Bright, red eyes."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Squinty, dark eyes."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Dirty white coloration."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Pale grey coloration."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "White stripes or markings."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A thick coat of fur or feathers."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "An aura of swirling snow."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A frigid aura."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "...and...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Exhales an icy spray when it breathes."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Can exhale a spout of freezing wind."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Chills to the bone any who stand close to it."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Leaves a trail of frost in its wake."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Can freeze things with a touch."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Can disappear in a puff of swirling snow."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Explodes into many icy shards if it is slain."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Walks without hindrance atop snow and ice."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The beast is looking for...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Something to preserve to eat later."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A lair with an entrance hidden from view."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "An individual marked by its master."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "An opportunity to impress its master."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "The frozen corpse of a long-dead frost titan."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "An item that can call blizzards."
+                }
+            ]
+        }
+    ],
+    "title": "Winter Beasts",
+    "use_with": [
+        {
+            "link": "3xydsw",
+            "title": "Barbarians"
+        },
+        {
+            "link": "3unfbm",
+            "title": "Caverns"
+        },
+        {
+            "link": "40wc26",
+            "title": "Cultists"
+        },
+        {
+            "link": "3xyiqs",
+            "title": "Cults"
+        },
+        {
+            "link": "3sgzxb",
+            "title": "Forest"
+        },
+        {
+            "link": "3sh0bv",
+            "title": "Forest, haunted"
+        },
+        {
+            "link": "4dx2z9",
+            "title": "Dinner at a hunters' lodge"
+        },
+        {
+            "link": "42rm5s",
+            "title": "Mountains"
+        },
+        {
+            "link": "3xpb4r",
+            "title": "Temples"
+        },
+        {
+            "link": "427hd8",
+            "title": "Tombs"
+        },
+        {
+            "link": "3si4ms",
+            "title": "Witches"
+        },
+        {
+            "link": "3va510",
+            "title": "Woodsmen"
+        }
+    ]
+}

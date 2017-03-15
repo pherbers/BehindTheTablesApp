@@ -1,0 +1,502 @@
+{
+    "description": "These are tables for generating an interesting alchemist to serve as friend or foe to your PCs.",
+    "id": "3w1g84",
+    "keywords": [
+        "necromancy",
+        "necrotic",
+        "death mage",
+        "undead",
+        "lich",
+        "wizard",
+        "dol guldur",
+        "qyburn"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/3w1g84",
+    "related_tables": [
+        {
+            "link": "3sl4sr",
+            "title": "Alchemists"
+        },
+        {
+            "link": "3si4ms",
+            "title": "Witches"
+        }
+    ],
+    "tables": [
+        {
+            "dice": "d10",
+            "name": "The necromancer is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A brilliant academy graduate."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A well-known villain."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A violent maniac."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "An ambitious mage."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "The son or daughter of a gravedigger."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A creepy shopkeeper."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A heretical priest or priestess."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "An adept poisonmaker."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "An soft-spoken scholar."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A determined loreseeker."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "The necromancer learned his/her craft from...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A fellow necromancer to whom he/she apprenticed."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A parent or grandparent who was a necromancer."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Books of necromantic lore."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Attending an academy."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Books of forbidden lore."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Communication with the spirits of the dead."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Consorting with a fiend."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Trial and error."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "The necromancer specializes in...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Animating corpses."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Communing with ghosts."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Conjuring malevolent spirits."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Crafting flesh golems."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Commanding undead creatures."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Rotting curses."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Curses of undeath."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Deadly poisons."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "The necromancer is looking for...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Test subjects."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A body\u2014fresh if possible, decomposed just as good."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Gullible souls."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A drink of absinthe and a ghost story."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "The means to summon and bind a wraith."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "The soul of a specific person."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Vengeance against a powerful person."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Instructions for a powerful ritual."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "The wand of a legendary witch or wizard."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "The staff of an ancient witch or wizard."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "The meaning of a cryptic prophecy."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "The entrance to a legendary tomb."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "The necromancer has uncovered dark secrets. He/she cannot be killed by...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Hanging or strangulation."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Drowning."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Burning."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Disease."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Poisoning."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "The hand of a mortal man."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Falling from a great height."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Old age."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The necromancer has taken precautions. If killed, he/she rises as...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A lingering, malevolent ghost."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A powerful lich."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A dangerous revenant."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "An mighty wight."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A terrifying wraith."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "An unstoppable, intelligent zombie."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "The necromancer's lair is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "In a cave."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "In a swamp."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "In a dark forest."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Near a well-known ancient tomb."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Near an ancient burial ground."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Adjacent to a cemetery."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "In a quiet village."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Just outside a quiet village."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Down a dark alley in the city."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "In the castle or palace of a lord."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "The necromancer carries...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A twisted blackwood staff."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A tome of necromantic lore."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A rare alchemical substance."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A razor-sharp ceremonial dagger."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "An unusual potion."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A chunk of rotting flesh."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A severed body part (d4): 1. hand; 2. head; 3. finger; 4. foot."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Several empty glass vials."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A black stone that radiates evil."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A small notebook filled with notes on (d4): 1. anatomy; 2. behavior of zombies; 3. crypt architecture; 4. ghostly hauntings."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "The necromancer's familiar is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A fiendish spirit (d4): 1. demon trapped in a book; 2. devil trapped in a gem; 3. imp; 4. quasit."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "An undead creature (d4): 1. crawling crawl; 2. disembodied voice; 3. floating skull; 4. formless ghost."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A bat."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A cat."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "An owl."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A snake."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A spider."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A raven."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A rat."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A toad."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "The necromancer's familiar\u2019s manner is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Calculating."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Clever."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Coy."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Cruel."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Gleeful."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Grumpy."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Insolent."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Shy."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Skittish."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Surly."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Suspicious."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Talkative."
+                }
+            ]
+        }
+    ],
+    "title": "Necromancers",
+    "use_with": [
+        {
+            "link": "3sh0bv",
+            "title": "Forest, haunted"
+        },
+        {
+            "link": "3tielc",
+            "title": "Desert, shadowy"
+        },
+        {
+            "link": "4ev9sw",
+            "title": "Dinner in an undead feasthall"
+        },
+        {
+            "link": "4y5pl2",
+            "title": "Mage's tower"
+        },
+        {
+            "link": "4358in",
+            "title": "Monster hunters"
+        },
+        {
+            "link": "3tkdty",
+            "title": "Reputation and rumors"
+        },
+        {
+            "link": "4b8u29",
+            "title": "Reputations of adventurers"
+        },
+        {
+            "link": "3sorre",
+            "title": "Restless undead"
+        },
+        {
+            "link": "427hd8",
+            "title": "Tombs"
+        }
+    ]
+}

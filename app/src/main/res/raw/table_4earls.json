@@ -1,0 +1,392 @@
+{
+    "description": "These are tables for quickly coming up with a flavorful meal or list of food provisions for the campfires of heroes, the cookfires of soldiers, or an encampment of peddlers, outlaws, circus performers, questing knights, singers, or anyone who may be crossing the wilds.",
+    "id": "4earls",
+    "keywords": [
+        "Fish",
+        "ham",
+        "pineapple",
+        "beaches",
+        "islands",
+        "sunsets",
+        "grass skirts",
+        "flower wreaths",
+        "pi\u00f1a colada",
+        "mai tai"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/4earls",
+    "related_tables": [
+        {
+            "link": "4eaqj0",
+            "title": "Dinner among Easterlings"
+        },
+        {
+            "link": "4dv87r",
+            "title": "Dinner at a dockside tavern"
+        },
+        {
+            "link": "4e70eq",
+            "title": "Dinner at a seaside caf\u00e9"
+        }
+    ],
+    "tables": [
+        {
+            "dice": "d10",
+            "name": "Tonight, among islanders, we dine on...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Stewed."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Breaded."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Fried."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Battered."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Baked."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Brined."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Seared."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Peppered."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Salted."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Pickled."
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Clams."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Crab."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Anchovies."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Scallops."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Mussels."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Sea bass."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Skate."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Cuttlefish."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Flounder."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Grouper."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Marlin."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Shrimp."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "Sardines."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "Tuna."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "Snapper."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "Lobster."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "Monkfish."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "Shark."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "Seabird."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "Pork."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "...with...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Wild rice."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "White rice."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Brown rice."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Yams."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Lentils."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Red beans."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Black beans."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "White beans."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Plantains."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Coconut."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "...and...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Carrots."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Mixed nuts."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Sweet cabbage."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Leafy greens."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Dill weed."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Lemongrass."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Peas."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Parsley."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Green onions."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Yellow onions."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "On the side, there is some...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Coconut cake."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Pineapple cake."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Banana bread."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Honeydew."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Pineapple."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Papaya."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Cantaloupe."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Starfruit."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Bacon."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Fried egg."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Ham."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Turtle soup."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "To wash it down, we have some...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Sun tea."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Sweet tea."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Pale ale."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Skunky ale."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Strong wine."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Sweet wine."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Dry rum."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Spiced rum."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Rum punch."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Coconut water."
+                }
+            ]
+        }
+    ],
+    "title": "Dinner among Islanders",
+    "use_with": [
+        {
+            "link": "46ma8g",
+            "title": "Bards"
+        },
+        {
+            "link": "3su3be",
+            "title": "Fishermen"
+        },
+        {
+            "link": "43wnpg",
+            "title": "Harlots"
+        },
+        {
+            "link": "3xyhdl",
+            "title": "Nobles"
+        },
+        {
+            "link": "3t5sik",
+            "title": "Pirate crews"
+        },
+        {
+            "link": "497u5a",
+            "title": "Sailors"
+        },
+        {
+            "link": "41bq04",
+            "title": "Sellswords"
+        },
+        {
+            "link": "4034w3",
+            "title": "Thieves"
+        }
+    ]
+}

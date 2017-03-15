@@ -1,0 +1,524 @@
+{
+    "description": "These are tables for generating an interesting noble house to add backstory and family connections to your noble NPCs or PCs.",
+    "id": "3sj8mc",
+    "keywords": [
+        "noble",
+        "nobility",
+        "house",
+        "family",
+        "royalty",
+        "lord",
+        "lady",
+        "duke",
+        "earl",
+        "baron",
+        "baroness",
+        "duchess",
+        "king",
+        "queen",
+        "prince",
+        "princess"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/3sj8mc",
+    "related_tables": [
+        {
+            "link": "3tkfho",
+            "title": "Knights"
+        }
+    ],
+    "tables": [
+        {
+            "dice": "d6",
+            "name": "The house is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Ancient and well-respected by all houses, great and small."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Ancient and greatly diminished in standing from what it once was."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Old with the respect of many houses, great and small."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Old and struggling to maintain respect of other houses."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Old but often overshadowed by other houses. "
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Newly raised up to the nobility."
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "The house's colors are...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Black."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Red / scarlet."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Gold."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Forest green."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Royal blue."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Violet."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Silver / light grey."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Bronze."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Tan / khaki."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Brown / beaver."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Dark grey / gunmetal."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "White."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "Maroon."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "Sky blue."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "Navy blue."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "Dark brown / chocolate."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "Teal / turquoise."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "Yellow."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "Orange."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "Olive green."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "The house's symbol is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A weapon (d8): 1. arrow; 2. axe; 3. dagger; 4. hammer; 5. mace; 6. spear; 7. staff; 8. sword."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A piece of armor (d4): 1. breastplate; 2. gauntlet; 3. helm; 4. shield."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A celestial body (d4): 1. sun; 2. moon; 3. star; 4. comet."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A plant or part of a plant (d12): 1. apple; 2. barley; 3. briar; 4. fig; 5. grapes; 6. lily; 7. maple; 8. oak; 9. olive; 10. pine; 11. rose; 12. wheat."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "An aquatic beast (d6): 1. crab; 2. crocodile; 3. frog; 4. fish; 5. octopus; 6. whale."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A small beast (d12): 1. badger; 2. bat; 3. beaver; 4. dog; 5. ferret; 6. fox; 7. hedgehog; 8. lizard; 9. rat; 10. scorpion; 11. snake; 12. spider."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A great beast (d8): 1. bear; 2. boar; 3. bull; 4. dragon; 5. lion; 6. ox; 7. stag; 8. wolf."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A bird (d12): 1. cardinal; 2. dove; 3. eagle; 4. hawk; 5. mockingbird; 6. owl; 7. pelican; 8. raven; 9. rooster; 10. sparrow; 11. swan; 12. vulture."
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "The house's motto champions the ideals of...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Compassion."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Courage."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Courtesy."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Determination."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Discipline."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Duty."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Excellence."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Faith."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Generosity."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Honor."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Hope."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Integrity."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "Justice."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "Loyalty."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "Mercy."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "Patience."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "Righteousness."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "Strength."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "Trust."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "Wisdom."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "The best known member of the house is or was...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A gallant knight."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A beautiful woman."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A ruthless negotiator."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "An adept diplomat."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A famous traveler or explorer."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A brilliant military strategist."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A notorious rebel or outlaw."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A dashing swashbuckler."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A fearsome warrior."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A brilliant scholar."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A gifted orator."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A dangerous and mad ruler."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "The current head of the house is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A kindly old man or woman."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A ruthless old man or woman."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A wily old man or woman."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A charming man or woman."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A grim veteran of wars."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "An astute politician."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A devout adherent of a religion."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A heartbroken widower or widow."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A reckless or hot-headed young man or woman."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A child."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "The house's goals include (individual members may have different goals)...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Domination of the city or region's politics."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Domination of the city or region's trade."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Revenge against a rival house in the same city or region."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Revenge against a rival house in another city or region."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Sabotage of a group run by commoners\u2014a guild, academy, religious faith, or secret society."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Fomenting rebellion against the city or region's ruling house."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Marriage with a powerful allied house."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Marriage with a powerful rival house."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "One or more house members keep secret (the secret may involve past or present events)...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A long-time scandalous romance."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "The existence of a bastard child."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A murder in one of the house's keeps, castles, or palaces."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Religious zealotry."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "The birth of a malformed freak."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Treason against the region's sovereign."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "The senility or madness of family members."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Criminal sabotage of a rival house."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "The house's seat of power is located in or near...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A port city."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A range of high mountains."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A wide, fertile plain."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A fertile river valley."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "An ancient forest."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A jagged coastline."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A sodden swamp."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A pristine lake."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A desert plateau."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "An idyllic hill country."
+                }
+            ]
+        }
+    ],
+    "title": "Noble Houses",
+    "use_with": [
+        {
+            "link": "43ek9v",
+            "title": "Castles"
+        },
+        {
+            "link": "43emxb",
+            "title": "Castle inhabitants"
+        },
+        {
+            "link": "3tkdty",
+            "title": "Mercenary troops"
+        },
+        {
+            "link": "3tjg9d",
+            "title": "Military companies"
+        },
+        {
+            "link": "3xyhdl",
+            "title": "Nobles"
+        },
+        {
+            "link": "4xvcgo",
+            "title": "Princesses"
+        },
+        {
+            "link": "3sj9ub",
+            "title": "Town NPCs"
+        }
+    ]
+}

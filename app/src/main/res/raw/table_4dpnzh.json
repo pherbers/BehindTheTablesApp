@@ -1,0 +1,305 @@
+{
+    "description": "These are tables for quickly coming up with a flavorful meal or list of food provisions for the campfires of heroes, the cookfires of soldiers, or an encampment of peddlers, outlaws, circus performers, questing knights, singers, or anyone who may be crossing the wilds.",
+    "id": "4dpnzh",
+    "keywords": [
+        "campfire",
+        "cookfire",
+        "roasting",
+        "s'mores",
+        "camping",
+        "boy scouts",
+        "adventurers",
+        "hot dogs",
+        "frankfurters",
+        "jerky",
+        "trail mix"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/4dpnzh",
+    "related_tables": [
+        {
+            "link": "4dmepa",
+            "title": "Dinner in a dwarvish alehouse"
+        },
+        {
+            "link": "4dmfoj",
+            "title": "Dinner in an elvish dwelling"
+        }
+    ],
+    "tables": [
+        {
+            "dice": "d10",
+            "name": "Tonight, around the campfire, we dine on...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Stewed."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Roasted."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Skewered."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Boiled."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Smoked."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Grilled."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Seared."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Flame-broiled."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Salted."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Peppered."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Rabbit."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Duck."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Pork."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Fish."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Venison."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Deer."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Squirrel."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Pheasant."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Mutton."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Lamb."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "...with...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Potatoes."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Lentils."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "White beans."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Red beans."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Black beans."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Peas."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Turnips."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Onions."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "...and...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Carrots."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Raisins."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Dried cherries."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Wild mushrooms."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Sliced mushrooms."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Rosemary."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Pine nuts."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Cashews."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Almonds."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Olives."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Dried berries."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Sunflower seeds."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "On the side, there is some...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Rye bread."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Hard tack."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Crusty bread."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Sesame bread."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Hard cheese."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Sharp cheese."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "To wash it down, we have some...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Water."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Watery ale."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Strong ale."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "White wine"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Red wine."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Tea."
+                }
+            ]
+        }
+    ],
+    "title": "Dinner around the Campfire",
+    "use_with": [
+        {
+            "link": "46ma8g",
+            "title": "Bards"
+        },
+        {
+            "link": "3tkfho",
+            "title": "Knights"
+        },
+        {
+            "link": "3sl2r2",
+            "title": "Merchant caravans"
+        },
+        {
+            "link": "3zmoy8",
+            "title": "Military camps"
+        },
+        {
+            "link": "3t2qzc",
+            "title": "Outlaws"
+        },
+        {
+            "link": "41bq04",
+            "title": "Sellswords"
+        },
+        {
+            "link": "4034w3",
+            "title": "Thieves"
+        }
+    ]
+}

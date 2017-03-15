@@ -1,0 +1,298 @@
+{
+    "description": "These are tables for generating interesting wood elves to serve as foil or friend to your PCs, from deadeye archers to merry singers.",
+    "id": "3va3dw",
+    "keywords": [
+        "wood elves",
+        "sylvan elves",
+        "green elves",
+        "wild elves",
+        "forest elves",
+        "ehlonna",
+        "forests",
+        "children of the forest"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/3va3dw",
+    "related_tables": [
+        {
+            "link": "3uzyyj",
+            "title": "Dark elves"
+        },
+        {
+            "link": "3vh7jd",
+            "title": "High elves"
+        }
+    ],
+    "tables": [
+        {
+            "dice": "d8",
+            "name": "Hair: The wood elf has...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Black hair."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Dark brown hair."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Light brown hair."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Auburn hair."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Black hair with a brown streak."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Dark brown hair with an auburn streak."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Brown hair with a blonde streak."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Blonde hair."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Eyes: The wood elf has...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Brilliant green eyes."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Dark green eyes."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Pale green eyes."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Golden brown eyes."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Dark brown eyes."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Hazel eyes."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "Mannerisms: The wood elf has...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A likable grin."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A delicate laugh."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "An amused smirk."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A humorless visage."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A habit of sighing."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A touch of sorrow in his or her voice."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A habit of pacing."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A habit of scratching the back of the neck."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "The wood elf is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "An adept healer."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A devoted priest."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A mystic seer."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A superb archer."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A silent scout.\t"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A watchful ranger."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A fierce warrior."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A masterful bladedancer."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A merry rogue."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "An enchanting musician."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "The wood elf is looking to...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Track an unnatural beast or invader."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Lead any travelers away from the forest."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Guard a sacred site from outsiders."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Lead travelers astray in a dangerous part of the forest."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Warn travelers against the dangers of the forest."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Protect the secrets of his or her people at all costs."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Drive an invader out of the forest."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Eat, drink, and be merry."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "The wood elf carries...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "An ancient blade."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A unique gem or piece of jewelry."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A finely-crafted spear or staff."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "An ornate longbow."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A heavy steel sword."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A simple spear and a simple bow."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A curved blade and a small wooden shield."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Arrows fletched with the feathers of a wild bird (d8): 1. eagle; 2. goose; 3. hawk; 4. owl; 5. pheasant; 6. quail; 7. raven; 8. swan."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Several vials of healing potions."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A cache of useful herbs."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A silver flute."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A carved wooden harp."
+                }
+            ]
+        }
+    ],
+    "title": "Wood Elves",
+    "use_with": [
+        {
+            "link": "46ma8g",
+            "title": "Bards"
+        },
+        {
+            "link": "3sgzxb",
+            "title": "Forest"
+        },
+        {
+            "link": "3sh0hz",
+            "title": "Forest, enchanted"
+        },
+        {
+            "link": "45x72u",
+            "title": "Herb lore"
+        },
+        {
+            "link": "4b8u29",
+            "title": "Reputations of adventurers"
+        },
+        {
+            "link": "45uoqf",
+            "title": "Vignettes: elf enclaves"
+        }
+    ]
+}

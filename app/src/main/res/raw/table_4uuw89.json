@@ -1,0 +1,986 @@
+{
+    "description": "For rolling up new, exotic and maybe even a little magical fruits and vegetables to grow in your wilderness or on your plantations.",
+    "id": "4uuw89",
+    "keywords": [
+        "Farming",
+        "food",
+        "nutrition",
+        "world detail,"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/4uuw89",
+    "related_tables": [
+        {
+            "link": "40r638",
+            "title": "Strange Places \u2013 for when you need to grow it somewhere unusual"
+        },
+        {
+            "link": "45x72u",
+            "title": "Herb Lore \u2013 for when it relates to alchemy"
+        }
+    ],
+    "tables": [
+        {
+            "dice": "D6",
+            "name": "Size:",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Tiny \u2013 this fruit could be easily flicked away"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Small \u2013 Two or three of these fruit can be held in one hand"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Normal \u2013 this fruit can be held but not concealed in one hand"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Big \u2013 this fruit requires two hands to be lifted"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Gigantic \u2013 a child could easily climb into this fruit"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Enormous \u2013 this fruit is man-sized or larger"
+                }
+            ]
+        },
+        {
+            "dice": "D8",
+            "name": "Grows:",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "In the upper reaches of the tree tops"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "In the lower reaches of the tree tops"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Hanging from branches below the treetops"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Along the trunk"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "At the base of the tree"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "As part of the roots"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "In a bush"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "On a vine on the ground"
+                }
+            ]
+        },
+        {
+            "dice": "D20",
+            "name": "Shape:",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Spheroid"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Oblong"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Spheroid and hastate"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Spheroid and flat"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Oblong and flat"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Long and thick"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Oblong and hastate"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Flagon-shaped"
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Star-shaped"
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Rhomboid"
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Pyriform"
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Composed of many smaller spheres"
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "Clavate"
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "Composed of several larger spheres"
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "Pod-shaped"
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "Long and thin"
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "Hook-shaped"
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "Twisted"
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "Cone-shaped"
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "Blocky"
+                }
+            ]
+        },
+        {
+            "dice": "D4",
+            "name": "Skin Colour:",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "very light (d10): 1. Grey; 2. Pink; 3. Red; 4. Brown; 5. Orange; 6. Yellow; 7. Green; 8. Cyan; 9. Blue; 10. Violet"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "light (d10): 1. Grey; 2. Pink; 3. Red; 4. Brown; 5. Orange; 6. Yellow; 7. Green; 8. Cyan; 9. Blue; 10. Violet"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "dark (d10): 1. Grey; 2. Pink; 3. Red; 4. Brown; 5. Orange; 6. Yellow; 7. Green; 8. Cyan; 9. Blue; 10. Violet"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "very dark (d10): 1. Grey; 2. Pink; 3. Red; 4. Brown; 5. Orange; 6. Yellow; 7. Green; 8. Cyan; 9. Blue; 10. Violet"
+                }
+            ]
+        },
+        {
+            "dice": "D20",
+            "name": "Skin Texture:",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Smooth and matte"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Smooth and shiny"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Light, thin, and short fur"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Short, thick fur"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Long, thin fur"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Long, thick fur"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Sticky"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Oily"
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Barky"
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Lined"
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Spiky"
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Silky"
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "Crackled"
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "Saggy"
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "Rubbery"
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "Abrasive"
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "Bumpy"
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "Cratery"
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "Foamy"
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "Metallic"
+                }
+            ]
+        },
+        {
+            "dice": "D10",
+            "name": "Skin Pattern:",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Spots"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Stripes"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Spirals"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Waves"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Crackles"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Blots"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Fractals"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Streaks "
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Meanders"
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "None"
+                }
+            ]
+        },
+        {
+            "dice": "D8",
+            "name": "Skin Pattern Colour:",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "very light (d10): 1. Grey; 2. Pink; 3. Red; 4. Brown; 5. Orange; 6. Yellow; 7. Green; 8. Cyan; 9. Blue; 10. Violet"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "light (d10): 1. Grey; 2. Pink; 3. Red; 4. Brown; 5. Orange; 6. Yellow; 7. Green; 8. Cyan; 9. Blue; 10. Violet"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "dark (d10): 1. Grey; 2. Pink; 3. Red; 4. Brown; 5. Orange; 6. Yellow; 7. Green; 8. Cyan; 9. Blue; 10. Violet"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "very dark (d10): 1. Grey; 2. Pink; 3. Red; 4. Brown; 5. Orange; 6. Yellow; 7. Green; 8. Cyan; 9. Blue; 10. Violet"
+                },
+                {
+                    "dice_val": "5-8",
+                    "entry": "Different shade of Skin Colour."
+                }
+            ]
+        },
+        {
+            "dice": "D6",
+            "name": "Skin Thickness:",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Barely Existent"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Noticeable"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Like two or three sheets of paper"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Thick as cardboard"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Thick as a finger"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Thick as an arm"
+                }
+            ]
+        },
+        {
+            "dice": "D8",
+            "name": "Flesh Colour:",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "very light (d10): 1. Grey; 2. Pink; 3. Red; 4. Brown; 5. Orange; 6. Yellow; 7. Green; 8. Cyan; 9. Blue; 10. Violet"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "light (d10): 1. Grey; 2. Pink; 3. Red; 4. Brown; 5. Orange; 6. Yellow; 7. Green; 8. Cyan; 9. Blue; 10. Violet"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "dark (d10): 1. Grey; 2. Pink; 3. Red; 4. Brown; 5. Orange; 6. Yellow; 7. Green; 8. Cyan; 9. Blue; 10. Violet"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "very dark (d10): 1. Grey; 2. Pink; 3. Red; 4. Brown; 5. Orange; 6. Yellow; 7. Green; 8. Cyan; 9. Blue; 10. Violet"
+                },
+                {
+                    "dice_val": "5-8",
+                    "entry": "Different shade of Skin Colour."
+                }
+            ]
+        },
+        {
+            "dice": "D20",
+            "name": "Consistency:",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Rock hard"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Gooey"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Almost liquid"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Soft"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Fleshy"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Very firm"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Pasty"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Gritty"
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Fluffy"
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Buttery"
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Chewy"
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Stringy"
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "Layered"
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "Segmented"
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "Bubbly"
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "Starchy"
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "Shroomy"
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "Gelatinous"
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "Crunchy"
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "Crystallized"
+                }
+            ]
+        },
+        {
+            "dice": "D6",
+            "name": "Taste Base:",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Sweet"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Salty"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Spicy"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Sour"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Bitter"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Umami"
+                }
+            ]
+        },
+        {
+            "dice": "D20",
+            "name": "Taste Addition:",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Refreshing"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Sparkling"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Heavy"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Creamy"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Sharp"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Dusty"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Burnt"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Earthy"
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Fermented"
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Greasy"
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Malty"
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Nutty"
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "Roasted"
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "Smoked"
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "Sweet"
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "Salty"
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "Sour"
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "Spicy"
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "Bitter"
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "Umami"
+                }
+            ]
+        },
+        {
+            "dice": "D8",
+            "name": "Seeds:",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "One big core"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Several small seeds in the core"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Small seeds throughout the flesh"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Sticky pollen"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Small seeds on the outside"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Underneath the skin"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "On the stem"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "None"
+                }
+            ]
+        },
+        {
+            "dice": "D8",
+            "name": "Seed Colour:",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "very light (d10): 1. Grey; 2. Pink; 3. Red; 4. Brown; 5. Orange; 6. Yellow; 7. Green; 8. Cyan; 9. Blue; 10. Violet"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "light (d10): 1. Grey; 2. Pink; 3. Red; 4. Brown; 5. Orange; 6. Yellow; 7. Green; 8. Cyan; 9. Blue; 10. Violet"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "dark (d10): 1. Grey; 2. Pink; 3. Red; 4. Brown; 5. Orange; 6. Yellow; 7. Green; 8. Cyan; 9. Blue; 10. Violet"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "very dark (d10): 1. Grey; 2. Pink; 3. Red; 4. Brown; 5. Orange; 6. Yellow; 7. Green; 8. Cyan; 9. Blue; 10. Violet"
+                },
+                {
+                    "dice_val": "5-8",
+                    "entry": "Different shade of Skin Colour."
+                }
+            ]
+        },
+        {
+            "dice": "D10",
+            "name": "Climate:",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Well below freezing"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Extremely Cold"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Cold"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Cool"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Fresh"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Warm"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Very warm"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Hot"
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Prohibitively hot"
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Volcanically hot"
+                }
+            ]
+        },
+        {
+            "dice": "D60",
+            "name": "Special Detail:",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "The skin pattern is fluorescent"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "The flesh is fluorescent"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "The seeds are fluorescent"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Eating it numbs the mouth"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Several of them appear on a vine"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "It can be used as a firestarter"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "It rapidly shrivels up in the sunlight"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "It cools down the area around it"
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "It emits a low hum"
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "The colours and patterns on its skin seem to be shifting"
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "It is abnormally nutritional"
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "It has some form of basic sentience"
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "It floats in the air"
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "It is extremely difficult to open"
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "It is extremely difficult to harvest"
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "It spins constantly"
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "It is covered in a strange glaze"
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "It is extremely rare and prohibitively expensive"
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "It is a staple product in alchemy"
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "It has powerful healing properties"
+                },
+                {
+                    "dice_val": "21",
+                    "entry": "It tastes different with each bite"
+                },
+                {
+                    "dice_val": "22",
+                    "entry": "It tastes different with each meal"
+                },
+                {
+                    "dice_val": "23",
+                    "entry": "It tastes different to each person"
+                },
+                {
+                    "dice_val": "24",
+                    "entry": "It cannot be grown in the wild"
+                },
+                {
+                    "dice_val": "25",
+                    "entry": "It grows under water"
+                },
+                {
+                    "dice_val": "26",
+                    "entry": "It is a sacred food"
+                },
+                {
+                    "dice_val": "27",
+                    "entry": "It is the sole/primary food source of the locals"
+                },
+                {
+                    "dice_val": "28",
+                    "entry": "It is charged with electricity"
+                },
+                {
+                    "dice_val": "29",
+                    "entry": "It comes in pairs of two"
+                },
+                {
+                    "dice_val": "30",
+                    "entry": "It comes in groups of three"
+                },
+                {
+                    "dice_val": "31",
+                    "entry": "It never spoils or takes a very, very long time to spoil"
+                },
+                {
+                    "dice_val": "32",
+                    "entry": "It is highly poisonous if unprepared"
+                },
+                {
+                    "dice_val": "33",
+                    "entry": "It is a powerful hallucinogen"
+                },
+                {
+                    "dice_val": "34",
+                    "entry": "It is a famous for being the substance of an alcoholic beverage"
+                },
+                {
+                    "dice_val": "35",
+                    "entry": "It absorbs their air around it"
+                },
+                {
+                    "dice_val": "36",
+                    "entry": "It cannot be eaten by mortals"
+                },
+                {
+                    "dice_val": "37",
+                    "entry": "It cannot be eaten by immortals"
+                },
+                {
+                    "dice_val": "38",
+                    "entry": "It's flesh is identical to animal flesh"
+                },
+                {
+                    "dice_val": "39",
+                    "entry": "It's a significant explosive hazard"
+                },
+                {
+                    "dice_val": "40",
+                    "entry": "It provides temporary powers"
+                },
+                {
+                    "dice_val": "41",
+                    "entry": "It provides permanent powers"
+                },
+                {
+                    "dice_val": "42",
+                    "entry": "It can be used to induce a century-long sleep"
+                },
+                {
+                    "dice_val": "43",
+                    "entry": "It is a very effective painkiller"
+                },
+                {
+                    "dice_val": "44",
+                    "entry": "It is loaded with arcane energy"
+                },
+                {
+                    "dice_val": "45",
+                    "entry": "It requires gigantic amounts of water"
+                },
+                {
+                    "dice_val": "46",
+                    "entry": "It is rumoured to have many mystical properties, but is actually mundane"
+                },
+                {
+                    "dice_val": "47",
+                    "entry": "It is or can be distilled into a potency agent"
+                },
+                {
+                    "dice_val": "48",
+                    "entry": "It has a very strong stench"
+                },
+                {
+                    "dice_val": "49",
+                    "entry": "It is invisible to all but certain people"
+                },
+                {
+                    "dice_val": "50",
+                    "entry": "It is invisible to certain people"
+                },
+                {
+                    "dice_val": "51",
+                    "entry": "It is treasured by faeries, dryads or other magical creatures"
+                },
+                {
+                    "dice_val": "52",
+                    "entry": "It only grows deep underground"
+                },
+                {
+                    "dice_val": "53",
+                    "entry": "It grows in the clouds"
+                },
+                {
+                    "dice_val": "54",
+                    "entry": "It grows on sentient trees"
+                },
+                {
+                    "dice_val": "55",
+                    "entry": "It can be made into a very rich and sought-after colour"
+                },
+                {
+                    "dice_val": "56",
+                    "entry": "Eating it is forbidden"
+                },
+                {
+                    "dice_val": "57",
+                    "entry": "Eating it is painful"
+                },
+                {
+                    "dice_val": "58",
+                    "entry": "It takes several years or decades to ripen"
+                },
+                {
+                    "dice_val": "59",
+                    "entry": "It is in some supernatural way \u201cpure\u201d"
+                },
+                {
+                    "dice_val": "60",
+                    "entry": "It can alter your personality"
+                }
+            ]
+        }
+    ],
+    "title": "Exotic Fruits and Vegetables",
+    "use_with": [
+        {
+            "link": "4dglp9",
+            "title": "Street Food"
+        },
+        {
+            "link": "3xys3d",
+            "title": "Farmfolk"
+        },
+        {
+            "link": "4daxw7",
+            "title": "Urban Marketplace"
+        }
+    ]
+}

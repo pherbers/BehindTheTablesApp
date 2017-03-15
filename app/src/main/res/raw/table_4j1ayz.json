@@ -1,0 +1,337 @@
+{
+    "description": "Use these for all your pet monkey or sentient monkey needs.",
+    "id": "4j1ayz",
+    "keywords": [
+        "forest",
+        "river",
+        "tropical",
+        "rain",
+        "jungle",
+        "trees",
+        "flowers",
+        "fruit",
+        "lizardfolk",
+        "snaketongue cultist",
+        "encounters",
+        "heart of darkness",
+        "why'd it have to be snakes"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/4j1ayz",
+    "related_tables": [
+        {
+            "link": "4spk6l",
+            "title": "Bats"
+        },
+        {
+            "link": "4t1k01",
+            "title": "Cats"
+        },
+        {
+            "link": "4splu3",
+            "title": "Rats"
+        },
+        {
+            "link": "487awj",
+            "title": "Spiders"
+        }
+    ],
+    "tables": [
+        {
+            "dice": "d12",
+            "name": "The monkey's name is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Coco."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Koko."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Cocoa."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Marcel."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Marzo."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Mongo."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Mondo."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Mimi."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Bibi"
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Bobo."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Hobo."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Jerry."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "Most of the monkey's fur is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Black."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Dark brown."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Reddish brown."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Golden brown."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Pale brown."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Greyish brown."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Brownish red."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Brownish grey."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Brownish orange."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Orangish gold."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Pale grey."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Dark grey."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "The monkey's distinctive markings include...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Some white around the nose and mouth."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Some gold around the nose and mouth."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A white belly."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A golden belly."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "White tufts behind the ears."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Golden tufts behind the ears."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A black nose with a white face."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A black nose with a golden face."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A white tip on the tail."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A golden tip on the tail."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "One white paw."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "One golden paw."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "The monkey is especially good at...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Climbing trees."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Climbing ropes."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Climbing walls."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Making mischief."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Throwing fruit."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Throwing nuts."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Throwing poop."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Shrieking."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Pickpocketing."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Biting."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Fighting."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Mating."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "The monkey is looking for...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Some bananas."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Some nuts."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Some dates."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A date."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Some love."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A barrel in which to hide."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A good laugh."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A new friend."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Someone to torment."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Something shiny to steal."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Something sparkly to steal."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A new hat."
+                }
+            ]
+        }
+    ],
+    "title": "Monkeys",
+    "use_with": [
+        {
+            "link": "4elfsw",
+            "title": "Dinner among jungle dwellers"
+        },
+        {
+            "link": "3u4a05",
+            "title": "Jungles"
+        },
+        {
+            "link": "3uzuni",
+            "title": "Lizardfolk"
+        },
+        {
+            "link": "3t5sik",
+            "title": "Pirates"
+        },
+        {
+            "link": "3xpb4r",
+            "title": "Temples"
+        },
+        {
+            "link": "3uzziq",
+            "title": "Treasure hunters"
+        }
+    ]
+}

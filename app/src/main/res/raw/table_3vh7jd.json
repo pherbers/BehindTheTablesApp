@@ -1,0 +1,321 @@
+{
+    "description": "These are tables for generating interesting high elves to serve as foil or friend to your PCs, from ancient mystic sages to agile blademasters.",
+    "id": "3vh7jd",
+    "keywords": [
+        "high elves",
+        "sun elves",
+        "moon elves",
+        "elder",
+        "eldar",
+        "corellon larethian",
+        "forests"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/3vh7jd",
+    "related_tables": [
+        {
+            "link": "3uzyyj",
+            "title": "Dark elves"
+        },
+        {
+            "link": "3va3dw",
+            "title": "Wood elves"
+        }
+    ],
+    "tables": [
+        {
+            "dice": "d8",
+            "name": "Hair: The high elf has...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Black hair."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Copper hair."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Golden blonde hair."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Platinum blonde hair."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Silver-white hair."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Dark brown hair."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Reddish-brown."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Fiery red hair."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "Eyes: The high elf has...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Pale golden eyes."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Bright golden eyes."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Dark green eyes."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Brilliant green eyes."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Bright blue eyes."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Dark blue eyes."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Blue eyes with golden flecks."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Green eyes with golden flecks."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "Mannerisms: The high elf has...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A beautiful smile."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A delicate laugh."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A habit of nodding slowly while listening."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A humorless visage."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A habit of sighing."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A touch of sorrow in his or her voice."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A habit of pacing."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A habit of scratching the chin."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "The high elf is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A powerful enchanter or enchantress."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A patient and wise sage."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A dedicated knight.\t"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A capable scout."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A mystic oracle."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A watchful ranger."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A superb archer."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A masterful bladedancer."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A battle-tested warrior."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A well-known singer."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A talented crafter."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A skilled mariner."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "The high elf is looking to...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Track an unnatural beast or invader."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Lead any travelers out of the forest."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Find some knowledge about an ancient event or place."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Locate a legendary gem."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Solve an ancient mystery."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Find one of the last copies of a legendary book."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Sail to the undying lands."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Share a drink a tale of woe."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "The high elf carries...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "An ancient blade."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A unique gem or piece of jewelry."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A finely-crafted longsword or bow."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A tome of mystic lore."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "The journal of an ancient scholar."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A sword etched with ancient runes."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A staff with a moon-white crystal set at the end."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Arrows fletched with the feathers of a fey bird (d6): 1. eagle; 2. hawk; 3. owl; 4. phoenix; 5. raven; 6. swan."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Several vials of healing potions."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A cache of useful herbs."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A silver flute."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A golden harp."
+                }
+            ]
+        }
+    ],
+    "title": "High Elves",
+    "use_with": [
+        {
+            "link": "46ma8g",
+            "title": "Bards"
+        },
+        {
+            "link": "3vlzrw",
+            "title": "Faeriefolk"
+        },
+        {
+            "link": "3sgzxb",
+            "title": "Forest"
+        },
+        {
+            "link": "3sh0hz",
+            "title": "Forest, enchanted"
+        },
+        {
+            "link": "45x72u",
+            "title": "Herb lore"
+        },
+        {
+            "link": "4b8u29",
+            "title": "Reputations of adventurers"
+        },
+        {
+            "link": "44r23c",
+            "title": "Seers"
+        },
+        {
+            "link": "45uoqf",
+            "title": "Vignettes: elf enclaves"
+        }
+    ]
+}

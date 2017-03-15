@@ -1,0 +1,264 @@
+{
+    "description": "Every region has at least one tale about an individual beast who is larger or older than all others of its kind. This is a short set of tables for quickly coming up with brief description of an interesting legendary beast.",
+    "id": "4nbz9h",
+    "keywords": [
+        "legends",
+        "myth",
+        "mythological monsters",
+        "local superstition",
+        "folklore",
+        "man-eaters",
+        "the jackalope",
+        "el chupacabra"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/4nbz9h",
+    "related_tables": [
+        {
+            "link": "4mnnq4",
+            "title": "Celestial beasts"
+        },
+        {
+            "link": "4n02oc",
+            "title": "Fey beasts"
+        },
+        {
+            "link": "4nbz0l",
+            "title": "Fire beasts"
+        },
+        {
+            "link": "4n03im",
+            "title": "Infernal beasts"
+        },
+        {
+            "link": "4nbzhp",
+            "title": "Storm beasts"
+        },
+        {
+            "link": "4nbzt3",
+            "title": "Winter beasts"
+        }
+    ],
+    "tables": [
+        {
+            "dice": "d20",
+            "name": "The legendary beast is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A basilisk."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A bear."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A chimera."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A drake."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "An eagle."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A griffon."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A hound."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A kraken."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A lion."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A manticore."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "An owlbear."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A serpent."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "A shark."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "A spider."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "A stag."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "A tiger."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "A unicorn."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "A whale."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "A wolf."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "A wyvern."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "The beast has...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Unnatural intelligence."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "The power of speech."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "An especially savage manner."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A frightening howl or cry."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A mournful howl or cry."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "An immense size."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Unusual coloration or markings."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A terrible scar on its face."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A terrible scar on its body."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A missing eye."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "The beast is known for...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Slaying a well-known hero."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Slaying a notorious villain."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Laying ruin to a city or town."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Sinking a ship or scattering a caravan."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Leaving a trail of destruction in its wake."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Lairing in a dangerous place."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Lairing in a holy place."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Hunting along a well-traveled road."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Toying with its prey before the kill."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Protecting the people who live near it."
+                }
+            ]
+        }
+    ],
+    "title": "Legendary Beasts",
+    "use_with": [
+        {
+            "link": "3unfbm",
+            "title": "Caverns"
+        },
+        {
+            "link": "3tich6",
+            "title": "Desert"
+        },
+        {
+            "link": "4eaph4",
+            "title": "Dinner among desert nomads"
+        },
+        {
+            "link": "4dx2z9",
+            "title": "Dinner at a hunters' lodge"
+        },
+        {
+            "link": "45x5jp",
+            "title": "Druids"
+        },
+        {
+            "link": "3sgzxb",
+            "title": "Forest"
+        },
+        {
+            "link": "3tkfho",
+            "title": "Knights"
+        },
+        {
+            "link": "4358in",
+            "title": "Monster hunters"
+        },
+        {
+            "link": "42rm5s",
+            "title": "Mountains"
+        },
+        {
+            "link": "3va510",
+            "title": "Woodsmen"
+        }
+    ]
+}

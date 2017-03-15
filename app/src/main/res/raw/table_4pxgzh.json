@@ -1,0 +1,1292 @@
+{
+    "description": "Create a villain for your heroes to face. Every villain came from somewhere, and is driven by a purpose.",
+    "id": "4pxgzh",
+    "keywords": [
+        "villain",
+        "evil",
+        "opponent",
+        "opposition",
+        "enemy",
+        "conflict"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/4pxgzh",
+    "related_tables": [],
+    "tables": [
+        {
+            "dice": "d20",
+            "name": "The villain started as...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A commoner"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A member of the clergy"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "An apprentice to the clergy"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "An apprentice artisan"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "An apprentice smith"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A member of a noble house"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A street urchin"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A mayor"
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A constable or sheriff"
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A mercenary"
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A guard"
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "An adventurer"
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "A low-level member of a guild"
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "A guild leader"
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "A traveller"
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "A merchant"
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "A member of a secret order"
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "A scholar"
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "A slave"
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "A servant to a lord"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The villain turned (how long ago)...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Recently"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "At an old age"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "In his middle years"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "At a young age"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "As a child"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "The day he was born, he has always had a darkness"
+                }
+            ]
+        },
+        {
+            "dice": "d4",
+            "name": "The villain turned (how quickly)...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Suddenly"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Over a few days"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Over the course of a year"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Slowly, over the course of a very long time"
+                }
+            ]
+        },
+        {
+            "dice": "d100",
+            "name": "The villain turned because...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "He was betrayed by a close friend"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "He was betrayed by a lover"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "He was betrayed by a parent"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "He was betrayed by the priesthood"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "He was betrayed by the nobility"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "He was betrayed by the gods"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "He was cast out of his family"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "He was cast out of his village"
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "He was cast out of society"
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "He was cast out by his peers"
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "He was cast out of his chosen profession"
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "He was cast out of a noble house"
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "His family was killed by an intruder"
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "His family was killed by the nobility"
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "His family was killed by an unknown person"
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "He was nearly killed and left for dead"
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "He was the subject of grotesque experiments"
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "He was forced to fight for his survival against all odds."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "He discovered an unbearable truth"
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "He was pushed beyond his limits and went mad"
+                },
+                {
+                    "dice_val": "21",
+                    "entry": "He believes he is the rightful heir to the kingdom"
+                },
+                {
+                    "dice_val": "22",
+                    "entry": "He believes he is the rightful owner of an artefact"
+                },
+                {
+                    "dice_val": "23",
+                    "entry": "His true love was taken from him"
+                },
+                {
+                    "dice_val": "24",
+                    "entry": "He believes everyone is out to destroy him"
+                },
+                {
+                    "dice_val": "25",
+                    "entry": "He is overwhelmed with power and driven mad"
+                },
+                {
+                    "dice_val": "26",
+                    "entry": "He got a taste of wealth and become obsessed with gaining more"
+                },
+                {
+                    "dice_val": "27",
+                    "entry": "He got a taste of power and become obsessed with gaining more"
+                },
+                {
+                    "dice_val": "28",
+                    "entry": "He believes he is the only one to save a people at all costs"
+                },
+                {
+                    "dice_val": "29",
+                    "entry": "He believes he must save a people from themselves"
+                },
+                {
+                    "dice_val": "30",
+                    "entry": "He got lost on a mission to prove his love to another"
+                },
+                {
+                    "dice_val": "31",
+                    "entry": "He got a taste of forbidden knowledge, and it drove him mad"
+                },
+                {
+                    "dice_val": "32",
+                    "entry": "He got a taste of forbidden knowledge, and became obsessed with learning more"
+                },
+                {
+                    "dice_val": "33",
+                    "entry": "He learned of a dark secret, and it seduced him"
+                },
+                {
+                    "dice_val": "34",
+                    "entry": "He was seduced by the love of an evil woman"
+                },
+                {
+                    "dice_val": "35",
+                    "entry": "He was seduced by the lust of an evil woman"
+                },
+                {
+                    "dice_val": "36",
+                    "entry": "He was seduced then betrayed by a woman"
+                },
+                {
+                    "dice_val": "37",
+                    "entry": "He was taken in, then cast out by a father/mother figure"
+                },
+                {
+                    "dice_val": "38",
+                    "entry": "He was taken in, then seduced by a personal hero"
+                },
+                {
+                    "dice_val": "39",
+                    "entry": "He is bound by a code to do good, and will achieve the ultimate good even at all costs"
+                },
+                {
+                    "dice_val": "40",
+                    "entry": "He is constantly on the defence from usurpers"
+                },
+                {
+                    "dice_val": "41",
+                    "entry": "He was passed over by a woman that he loved, who never noticed him"
+                },
+                {
+                    "dice_val": "42",
+                    "entry": "He came to believe himself to be an important albeit evil part of balance"
+                },
+                {
+                    "dice_val": "43",
+                    "entry": "He became seduced by the idea that the world was too good, and stagnant. He took on a mantle of opposition to instigate change"
+                },
+                {
+                    "dice_val": "44",
+                    "entry": "It was simply fun"
+                },
+                {
+                    "dice_val": "45",
+                    "entry": "He was driven mad by his own experiment"
+                },
+                {
+                    "dice_val": "46",
+                    "entry": "He was driven mad by continuing to fail at an experiment"
+                },
+                {
+                    "dice_val": "47",
+                    "entry": "He learned of a prophesy that predicted the loss of his power"
+                },
+                {
+                    "dice_val": "48",
+                    "entry": "He learned of a prophesy that predicted the loss of his wealth"
+                },
+                {
+                    "dice_val": "49",
+                    "entry": "He learned of a prophesy that predicted the loss of his spouse/lover"
+                },
+                {
+                    "dice_val": "50",
+                    "entry": "He learned of a prophesy that predicted the loss of his children"
+                },
+                {
+                    "dice_val": "51",
+                    "entry": "He learned of a prophesy that predicted the loss of his parents"
+                },
+                {
+                    "dice_val": "52",
+                    "entry": "He learned of a prophesy that predicted the loss of his children"
+                },
+                {
+                    "dice_val": "53",
+                    "entry": "He learned of a prophesy that predicted his death"
+                },
+                {
+                    "dice_val": "54",
+                    "entry": "He learned of a prophesy that predicted the loss of his station"
+                },
+                {
+                    "dice_val": "55",
+                    "entry": "He learned of a prophesy that predicted the loss of his influence"
+                },
+                {
+                    "dice_val": "56",
+                    "entry": "He learned of his successor"
+                },
+                {
+                    "dice_val": "57",
+                    "entry": "He was promised great power"
+                },
+                {
+                    "dice_val": "58",
+                    "entry": "He was promised great wealth"
+                },
+                {
+                    "dice_val": "59",
+                    "entry": "He was promised a great lover"
+                },
+                {
+                    "dice_val": "60",
+                    "entry": "He is not evil, and never turned. He is just perceived that way"
+                },
+                {
+                    "dice_val": "61",
+                    "entry": "He is not inherently evil, it is just in his nature"
+                },
+                {
+                    "dice_val": "62",
+                    "entry": "He is not inherently evil, that is just the way of his society"
+                },
+                {
+                    "dice_val": "63",
+                    "entry": "He became possessed by an evil entity"
+                },
+                {
+                    "dice_val": "64",
+                    "entry": "He was pushed to the edge by boredom"
+                },
+                {
+                    "dice_val": "65",
+                    "entry": "He was pushed to the edge by the lack of a physical challenge"
+                },
+                {
+                    "dice_val": "66",
+                    "entry": "He was pushed to the edge by the lack of an intellectual challenge"
+                },
+                {
+                    "dice_val": "67",
+                    "entry": "It was prophesied, and he embraced his destiny"
+                },
+                {
+                    "dice_val": "68",
+                    "entry": "It was prophesied, and ironically in fighting his destiny he became what he feared"
+                },
+                {
+                    "dice_val": "69",
+                    "entry": "He did not choose evil, but he is the most skilled in an evil society"
+                },
+                {
+                    "dice_val": "70",
+                    "entry": "He did not choose evil, but he is the most powerful of an evil society"
+                },
+                {
+                    "dice_val": "71",
+                    "entry": "His mom didn't love him enough"
+                },
+                {
+                    "dice_val": "72",
+                    "entry": "He just wants to see the world burn"
+                },
+                {
+                    "dice_val": "73",
+                    "entry": "A special item was stolen from him"
+                },
+                {
+                    "dice_val": "74",
+                    "entry": "His parents were kidnapped"
+                },
+                {
+                    "dice_val": "75",
+                    "entry": "A sibling was kidnapped"
+                },
+                {
+                    "dice_val": "76",
+                    "entry": "A child was kidnapped"
+                },
+                {
+                    "dice_val": "77",
+                    "entry": "He was kidnapped"
+                },
+                {
+                    "dice_val": "78",
+                    "entry": "A close friend was kidnapped"
+                },
+                {
+                    "dice_val": "79",
+                    "entry": "He was caught up in a deep conspiracy"
+                },
+                {
+                    "dice_val": "80",
+                    "entry": "He was groomed from an early age"
+                },
+                {
+                    "dice_val": "81",
+                    "entry": "He was brainwashed"
+                },
+                {
+                    "dice_val": "82",
+                    "entry": "He was tortured to the breaking point"
+                },
+                {
+                    "dice_val": "83",
+                    "entry": "He has seen too many horrors"
+                },
+                {
+                    "dice_val": "84",
+                    "entry": "He was passed over by his parents in favour of his less deserving sibling"
+                },
+                {
+                    "dice_val": "85",
+                    "entry": "He felt the need to prove himself to his parents"
+                },
+                {
+                    "dice_val": "86",
+                    "entry": "He started listening to the voices in his head"
+                },
+                {
+                    "dice_val": "87",
+                    "entry": "He had an overdeveloped sense of personal space"
+                },
+                {
+                    "dice_val": "88",
+                    "entry": "He grew extremely paranoid"
+                },
+                {
+                    "dice_val": "89",
+                    "entry": "He became partially separated from the material world"
+                },
+                {
+                    "dice_val": "90",
+                    "entry": "He visited a a plane of torment"
+                },
+                {
+                    "dice_val": "91",
+                    "entry": "He developed a sense of intense loneliness."
+                },
+                {
+                    "dice_val": "92",
+                    "entry": "He developed a fear that everyone was going to leave him"
+                },
+                {
+                    "dice_val": "93",
+                    "entry": "He developed a fear that no one would ever love him"
+                },
+                {
+                    "dice_val": "94",
+                    "entry": "He was separated from the world for a very long time"
+                },
+                {
+                    "dice_val": "95",
+                    "entry": "He was secluded from the world since birth"
+                },
+                {
+                    "dice_val": "96",
+                    "entry": "He wanted his name to go down in the ages"
+                },
+                {
+                    "dice_val": "97",
+                    "entry": "He didn't realize he was doing evil, he was just protecting himself"
+                },
+                {
+                    "dice_val": "98",
+                    "entry": "He was going to make someone listen at any cost"
+                },
+                {
+                    "dice_val": "99",
+                    "entry": "He had no choice. He was being compelled"
+                },
+                {
+                    "dice_val": "100",
+                    "entry": "He was out to prove something, and went to far"
+                }
+            ]
+        },
+        {
+            "dice": "d50",
+            "name": "The villain has...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A steep brow casting a shadow over his eyes"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A maniacal laugh"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A wry grin"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A sharpened tooth"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A charm with tokens from his favourite victims"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A memento of his greatest triumph"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A scar on his face"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Unusual facial hair"
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Unusual clothing"
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A completely bald body"
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Albinism"
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A face that resembles a hawk"
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "A face that resembles a wolf"
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "A face that resembles a bear"
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "A face that resembles a fox"
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "A face that resembles a dragon"
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "The voice of angels"
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "The voice of demons"
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "No voice"
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "Scars covering his body"
+                },
+                {
+                    "dice_val": "21",
+                    "entry": "A missing ear"
+                },
+                {
+                    "dice_val": "22",
+                    "entry": "A missing eye"
+                },
+                {
+                    "dice_val": "23",
+                    "entry": "A missing arm"
+                },
+                {
+                    "dice_val": "24",
+                    "entry": "A missing nose"
+                },
+                {
+                    "dice_val": "25",
+                    "entry": "No eyes"
+                },
+                {
+                    "dice_val": "27",
+                    "entry": "Missing fingers"
+                },
+                {
+                    "dice_val": "26",
+                    "entry": "A foerign accent"
+                },
+                {
+                    "dice_val": "28",
+                    "entry": "Extra fingers"
+                },
+                {
+                    "dice_val": "29",
+                    "entry": "A smile no one can resist"
+                },
+                {
+                    "dice_val": "30",
+                    "entry": "Never been seen in his true form"
+                },
+                {
+                    "dice_val": "31",
+                    "entry": "Wrong coloured skin"
+                },
+                {
+                    "dice_val": "32",
+                    "entry": "A legendary weapon"
+                },
+                {
+                    "dice_val": "33",
+                    "entry": "A gaze that can see into your soul"
+                },
+                {
+                    "dice_val": "34",
+                    "entry": "A permanent frown"
+                },
+                {
+                    "dice_val": "35",
+                    "entry": "Exaggerated features"
+                },
+                {
+                    "dice_val": "36",
+                    "entry": "A massive statue"
+                },
+                {
+                    "dice_val": "37",
+                    "entry": "A diminutive stature"
+                },
+                {
+                    "dice_val": "38",
+                    "entry": "A full body of armor"
+                },
+                {
+                    "dice_val": "39",
+                    "entry": "A completely painted face"
+                },
+                {
+                    "dice_val": "40",
+                    "entry": "A face painted with tribal markings"
+                },
+                {
+                    "dice_val": "41",
+                    "entry": "A face painted war paint"
+                },
+                {
+                    "dice_val": "42",
+                    "entry": "A partially hidden face"
+                },
+                {
+                    "dice_val": "43",
+                    "entry": "A face hidden in the shadows"
+                },
+                {
+                    "dice_val": "44",
+                    "entry": "No pupils"
+                },
+                {
+                    "dice_val": "45",
+                    "entry": "No special features. He could be anyone"
+                },
+                {
+                    "dice_val": "46",
+                    "entry": "A magical artefact"
+                },
+                {
+                    "dice_val": "47",
+                    "entry": "A golden broach"
+                },
+                {
+                    "dice_val": "48",
+                    "entry": "A flowing cape"
+                },
+                {
+                    "dice_val": "49",
+                    "entry": "A memento of his last victim"
+                },
+                {
+                    "dice_val": "50",
+                    "entry": "Sigils of his station"
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "The villain's current goal is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Revenge"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Steal an item"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Murder someone"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Become the boss of a company or guild"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Become wealthy"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Raise an Army"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Genocide"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Destroy a village"
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Enslave a species"
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Enslave a village"
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Start a rebellion"
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Build an artefact"
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "Become the King or Queen"
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "Become nobility"
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "Take over the empire"
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "Raise a dead/sleeping/banished god"
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "Become a deity"
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "Become a lich"
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "Destroy/Remake the world"
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "One-up himself"
+                }
+            ]
+        },
+        {
+            "dice": "d2",
+            "name": "The villain will oppose the party",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Directly"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Indirectly"
+                }
+            ]
+        },
+        {
+            "dice": "d50",
+            "name": "The villain is a...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Human"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Goblin"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Dragon"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Orc"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Ogre"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Kobold"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Lich"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Fiend"
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Celestial"
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Banshee"
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Beholder"
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Centaur"
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "Devil"
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "Doppelganger"
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "Dracolich"
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "Dryad"
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "Duergar"
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "High-Elf"
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "Wood-Elf"
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "Dark-Elf"
+                },
+                {
+                    "dice_val": "21",
+                    "entry": "Mountain Dwarf"
+                },
+                {
+                    "dice_val": "22",
+                    "entry": "Hill Dwarf"
+                },
+                {
+                    "dice_val": "23",
+                    "entry": "Gnome"
+                },
+                {
+                    "dice_val": "24",
+                    "entry": "God"
+                },
+                {
+                    "dice_val": "25",
+                    "entry": "Deity"
+                },
+                {
+                    "dice_val": "26",
+                    "entry": "Ghost"
+                },
+                {
+                    "dice_val": "27",
+                    "entry": "Giant"
+                },
+                {
+                    "dice_val": "28",
+                    "entry": "Half-Dragon"
+                },
+                {
+                    "dice_val": "29",
+                    "entry": "Lamia"
+                },
+                {
+                    "dice_val": "30",
+                    "entry": "Lizardfolk"
+                },
+                {
+                    "dice_val": "31",
+                    "entry": "Lycanthrope"
+                },
+                {
+                    "dice_val": "32",
+                    "entry": "Medusa"
+                },
+                {
+                    "dice_val": "33",
+                    "entry": "Mind Flayer"
+                },
+                {
+                    "dice_val": "34",
+                    "entry": "Naga"
+                },
+                {
+                    "dice_val": "35",
+                    "entry": "Faerie"
+                },
+                {
+                    "dice_val": "36",
+                    "entry": "Vampire"
+                },
+                {
+                    "dice_val": "37",
+                    "entry": "Wraith"
+                },
+                {
+                    "dice_val": "38",
+                    "entry": "Yuan-ti"
+                },
+                {
+                    "dice_val": "39",
+                    "entry": "Tiefling"
+                },
+                {
+                    "dice_val": "40",
+                    "entry": "Avatar of a God"
+                },
+                {
+                    "dice_val": "41",
+                    "entry": "Hobgoblin"
+                },
+                {
+                    "dice_val": "42",
+                    "entry": "Half-Orc"
+                },
+                {
+                    "dice_val": "43",
+                    "entry": "Wraith"
+                },
+                {
+                    "dice_val": "44",
+                    "entry": "Banshee"
+                },
+                {
+                    "dice_val": "45",
+                    "entry": "Merfolk"
+                },
+                {
+                    "dice_val": "46",
+                    "entry": "Half-Dragon"
+                },
+                {
+                    "dice_val": "47",
+                    "entry": "Svirfneblin"
+                },
+                {
+                    "dice_val": "48",
+                    "entry": "Centaur"
+                },
+                {
+                    "dice_val": "49",
+                    "entry": "Planar Deity"
+                },
+                {
+                    "dice_val": "50",
+                    "entry": "Drider"
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "The villain leads through...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Charisma. His followers love him unquestioningly"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Charisma. He has a silver tongue"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Enchantment. His followers are all under his command"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Legend. Stories of him may be bigger than he is"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Force of will. There is no better alternative"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Terror. Join him or die"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Greed. Join him and be well rewarded"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Eternity. Join him and be rewarded in the afterlife"
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Intelligence. He has calculated his every move. To oppose him would be folly"
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Omniscience. If you don't follow, he will know."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Strength. He is the most powerful individual"
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Strength. He commands the greatest armies"
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "Strength. He rules the greatest empire"
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "Intelligence. His followers don't know they follow him"
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "Force. He can not be defeated"
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "Loyalty. His subjects revere his station"
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "Profits. He pays his minions well"
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "Damnation. Follow him, or be damned in the afterlife"
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "Promises of Power."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "Manipulation. Everyone is a pawn of a bigger game"
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "The villains minions are...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A secret cabal devoted to him"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A nation devoted to him"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A select few lieutenants"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Vast and numerous, but don't know they follow him"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Members of a guild"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Mercenaries and adventurers"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Natural creatures"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Dragons"
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Warring between each other. Each believing they are superior to the other"
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "None. He works alone"
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "Despite being evil, his qualities include",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "True love for a child"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "True love for a spouse"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "True love for a parent"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Love of nature and it's inhabitants"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "He treats his minions with respect"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "After conquering a people, he improves their lives"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "He spends time meditating daily"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "He gardens"
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "He donates to charity"
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "He takes care of the sick"
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "He takes care of the elderly"
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "He takes pride in artwork"
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "He loves music"
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "He spares the weak"
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "He does not harm the undeserving"
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "He ultimately seeks order"
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "He gives away all of his riches"
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "He truly believes he is doing good"
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "He is a scholar"
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "He is the creator of a great good"
+                }
+            ]
+        }
+    ],
+    "title": "Villains",
+    "use_with": []
+}

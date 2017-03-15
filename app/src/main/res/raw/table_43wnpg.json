@@ -1,0 +1,226 @@
+{
+    "description": "These are tables for adding some flavor to a harlot NPC. From silly to sultry and from light-hearted to sad, let's see what she can do...",
+    "id": "43wnpg",
+    "keywords": [
+        "brothel",
+        "whorehouse",
+        "harlotry",
+        "hooker",
+        "prostitute",
+        "working girl",
+        "whore",
+        "painted lady",
+        "lover",
+        "paramour",
+        "tart",
+        "madame",
+        "adult entertainment"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/43wnpg",
+    "related_tables": [],
+    "tables": [
+        {
+            "dice": "d10",
+            "name": "The harlot is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A veteran who may have been beautiful."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A passionate young woman."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A homely young lady."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A friendly and plump woman."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "The bastard daughter of a noble house."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A young foreigner."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "The boss\u2019s favorite."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "An exotic beauty."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "New to the place and always in trouble."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "New to the place and eager to please."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Everyone is beautiful; the harlot has...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A pretty smile."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Beautiful eyes."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Lovely, long eyelashes."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Lush, curly locks."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Short-cropped hair."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A clean satin gown."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "No one is flawless; the harlot has...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A gimpy leg."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Crooked teeth."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A scowl on her face."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "An unsightly scar."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "An unfortunately shaped nose."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A large mole on her face."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Crossed-eyes."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A mustache."
+                }
+            ]
+        },
+        {
+            "dice": "d4",
+            "name": "The harlot's flaw is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Barely noticeable."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Well-concealed by make-up or practice."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Something you can look past."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Intimidating."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The harlot is particularly skilled at...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Listening and offering emotional support."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Bringing a smile to her clients\u2019 faces without even touching them."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Bringing a smile to her clients\u2019 faces as soon as she touches them."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Embroidery and sewing."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Cooking and cleaning."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Drinking and swearing."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The harlot is looking to...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Earn enough coin to get out of this place."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Bring to light a scandal involving a rival."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Secure a marriage to get out of this place."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Hear word of a child given away."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Hatch a plan for revenge against the man who ruined her life."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Drink some wine and have a laugh."
+                }
+            ]
+        }
+    ],
+    "title": "Harlots",
+    "use_with": [
+        {
+            "link": "43w8zc",
+            "title": "Brothels"
+        }
+    ]
+}

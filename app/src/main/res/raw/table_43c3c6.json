@@ -1,0 +1,246 @@
+{
+    "description": "These handy tables should provide a baseline for some basic divination magics or divine intervention for your clerics and paladins.",
+    "id": "43c3c6",
+    "keywords": [
+        "oracle",
+        "visions",
+        "divination",
+        "seer"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/43c3c6",
+    "related_tables": [],
+    "tables": [
+        {
+            "dice": "d10",
+            "name": "Roll The Target",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Faint. Barely audible, ominous whispers are heard revealing the prophecy"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Scarring. Thin, painful cuts begin appearing all over the body of the seer, revealing the message"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Herald. A messenger seen only by the seer begins telling the prophecy"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Vision. The next few nights the vision comes to the seer in dreams"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Chanting. Messengers seen by all materialize and begin chanting the prophecy in unison"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Scribed. The seer loses control of their hands. The hands begin frantically writing the "
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Unconcious. The seer collapses and begins to experience the prophecy in a dream"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Controlled. The seer very calmly begins speaking the prophecy"
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Possessed. The seer\u2019s eyes roll back and they mechanically start reciting"
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Violent. The seer begins convulsing and screaming the prophecy in agony"
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Roll Subject",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A god"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Mad wizard"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A well known ruler"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "An unknown enemy"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A monstrous beast"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "An arch-demon/arch-fey"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A Lich"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Mighty warrior"
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Ancient Dragon"
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A Vampire Lord"
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Roll The subject will\u2026",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "be reborn"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "die"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "gain incredible power"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "destroy the world"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "destroy the seer"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "muster an unstoppable army"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "begin a terrible war"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "seek to eliminate a race of people"
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "give birth to a great evil"
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "open a gateway to another plane"
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Roll Helped/prevent by\u2026",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "preventing the birth of a child"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "the seer to stand up to the [subject]"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "protecting a child until he becomes a man"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "destroying the subject"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "defeating forces that would want this to succeed/fail"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "summoning something to fight the [subject]"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "ending an influential figures life"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "finding a lost legendary artifact"
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "convincing the gods to intervene"
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "cannot be avoided, only prepare for the inevitable "
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Roll The seer experiences",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Infrequent hand/eye twitching"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Can be heard speaking the prophecy in their sleep"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Convulsing during rests"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Is easily frightened"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Shows unnatural bravery"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Hears voices that repeat the prophecy"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Has issues sleeping (5% chance to stay awake all night)"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Loss of appetite, starts visibly losing weight because of it"
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Recite the prophecy in other tongues unknown to the seer"
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Will experience the prophecy again at inconvenient time"
+                }
+            ]
+        }
+    ],
+    "title": "Divination",
+    "use_with": []
+}

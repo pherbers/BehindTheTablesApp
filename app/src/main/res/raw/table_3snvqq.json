@@ -1,0 +1,607 @@
+{
+    "description": "These are tables for generating an interesting goblin gang or individual goblin to serve as foe or foil to your PCs.",
+    "id": "3snvqq",
+    "keywords": [
+        "goblin",
+        "goblinoid",
+        "hobgoblin",
+        "underdark",
+        "underboss",
+        "monster"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/3snvqq",
+    "related_tables": [],
+    "tables": [
+        {
+            "dice": "d10",
+            "name": "The goblins\u2019 primary \u201cbusiness\u201d involves...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Raiding villages and farms."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Burglarizing storehouses and shops."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Harassing anyone who passes through their territory."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Robbing caravans carrying gems, precious metals, and exotic goods."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Holding up traders\u2019 ships or wagons. "
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Smuggling drugs (d4): 1. smokeleaf; 2. a hallucinogenic mushroom; (3) sleepysalt (a downer); 4. sharpsugar (an upper)."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Smuggling living things (d4): 1. exotic beasts; 2. foreign harlots; 3. fugitives; 4. slaves."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Serving as muscle for evildoers."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Mining and crafting."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Pranks and hijinks."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "The goblin gang\u2019s symbol is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A skull."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "An arrow."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A dagger."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "The moon."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A star."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A snake."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A spider."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A rat."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A wolf."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A bat."
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "The goblin gang\u2019s colors are...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Black."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Dark brown."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Crimson."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Grey."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Gold."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Khaki."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Dark green."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "White."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Dark green and gold."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Black and gold."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Dark brown and grey."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Grey and white."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "Black and grey."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "Black and white."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "Black and crimson."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "Dark brown and crimson."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "Crimson and khaki."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "Dark brown and khaki."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "Khaki and dark green."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "Dark green and crimson."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The goblins\u2019 lair is located...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "In a dark and haunted forest."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "In an enchanted forest."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Along a mountain pass."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "High in the mountains."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Beneath a bustling city."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Near a quiet farm village."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The goblins\u2019 lair is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A series of natural caverns."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "An abandoned mine."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A mine in which the goblins are actively digging."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "An underground fortress."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A semi-organized military encampment."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A crude encampment."
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "The goblins are particularly fond of picking on...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Fishermen and sailors."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Beggars and drunks."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Merchants and moneychangers."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Young noblemen."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Young noblewomen."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Old noblewomen."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Gamblers and thieves."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Priests and monks."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Priestesses."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Constables and sheriffs."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Castle or town guards."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Cooks and scullery maids."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "Barkeeps and barmaids."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "Harlots and madames."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "Circus performers."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "Foreign travelers and peasant girls."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "Young children."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "Miners and prospectors."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "Elves and rangers."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "Dwarves and gnomes."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "The goblins\u2019 are currently planning a raid on...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "The residence of the leader or a senior gangmember."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "An artisan's shop or guildhall."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A merchant's office."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A tavern or inn."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A brothel."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A warehouse or shipyard."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A temple complex or shrine."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "The town hall."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A shantytown"
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "The residence of a wealthy individual or prominent citizen."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "The goblins\u2019 boss is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "An egotistical goblin warrior."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A charismatic goblin rogue."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A mysterious goblin shaman."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A talented goblin thief."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A well-known goblin war hero."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A ruthless goblin hexer."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A cunning gobliness."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A brutal hobgoblin warpriest."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A brilliant hobgoblin warlord."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A calculating bugbear assassin."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The goblins\u2019 goals include (boss and rank-and-file members could have different goals)...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Disruption of the region\u2019s politics."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Disruption of the region\u2019s trade."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Revenge against a specific organization."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Revenge against a rival goblin gang."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Spreading chaos and destruction."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Possession of a powerful artifact."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "The goblins typically fight with...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Swarm tactics."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Hit-and-run tactics."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Ambush tactics."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Choreographed maneuvers."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Unpredictable maneuvers."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Lots of smiles and jokes."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Lots of fancy footwork."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Lots of screaming and shouting."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Kicking and stomping."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Lots of head-butting."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Lots of biting and scratching."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Laying traps."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "As enforcers or extra muscle, the goblins sometimes hire...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Hobgoblin mercenaries."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Bugbear thugs."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Ogre savages."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Orc berserkers."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Trolls."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Other goblin gangs."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "As guardians or pets, the goblins sometimes keep...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Wolves."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Wargs."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Giant spiders."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Boars."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Giant bats."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Dire rats."
+                }
+            ]
+        }
+    ],
+    "title": "Goblin Gangs",
+    "use_with": [
+        {
+            "link": "3unfbm",
+            "title": "Cavern"
+        },
+        {
+            "link": "4ev8l1",
+            "title": "Dinner in a goblin hideout"
+        },
+        {
+            "link": "3sgzxb",
+            "title": "Forest"
+        },
+        {
+            "link": "3sh0hz",
+            "title": "Forest, enchanted"
+        },
+        {
+            "link": "4fhp6q",
+            "title": "Goblins, individual"
+        },
+        {
+            "link": "42rm5s",
+            "title": "Mountains"
+        },
+        {
+            "link": "4aepj5",
+            "title": "Wolves"
+        }
+    ]
+}

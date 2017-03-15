@@ -1,0 +1,246 @@
+{
+    "description": "Here's a handy toolkit for adding a little more flavor for making players afraid of what goes bump in the night. It's also no fun to run the whole nightmare yourself. Give the player some control during the dream and even let them \"try\" to fight back.",
+    "id": "43bxpl",
+    "keywords": [
+        "dreams",
+        "nightmare",
+        "dark",
+        "fear"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/43bxpl",
+    "related_tables": [],
+    "tables": [
+        {
+            "dice": "d10",
+            "name": "Roll  You find yourself in",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "a graveyard, a blood-red moon hangs above"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "the bedroom from your childhood. There is no door to exit the room"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "the room you fell asleep in"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "absolute darkness. In the silence you can hear your own heart beat"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "an open field. Next to you is a dead oak tree with an empty noose swinging in the breeze"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "a dark forest. In the corner of your eye you can see something is following you"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "a dark cave. A low, rhythmic chanting echoes around you"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "a prison cell. The walls are scratched and your fingernails are bloodied"
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "a long hallway with a door at the end. The door doesn't get closer as you approach"
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "knee deep swamp water. You can feel something touching your leg under the surface"
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Roll  In the [Place] you see",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "a boy/girl"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "a young man/woman"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "an elderly man/woman"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "yourself"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "a large dog"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "your parents"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "a shadowy figure"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "a small toy doll, standing upright"
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "a large wolf, standing on it's hind legs "
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "a large cat"
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Roll  The [Figure]",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "has it's eyes and mouth sewn shut"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "is decaying. It's flesh and hair are falling to the ground"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "is wheezing loudly. You can feel your throat drying and it gets harder to breath"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "blood slowly trickles from the corners of it's mouth, then eyes, and finally it appears to be sweating blood"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "its chest bursts open and maggots and worms tumble out, writhing on the floor"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "has it's throat slit. You see the wound open and close slightly with it's breathing"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "has mismatching limbs. It looks to be sewn together using mismatching pieces"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "has the lower body of an arachnid"
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "has fingernails that continue to grow. They look sharp"
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "is starting to crumble away as if it were made of ash"
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Roll  The [Figure]",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "sprints at you"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "begins walking slowly toward you"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "throws it's head back and starts cackling wildly"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "tries to speak, but spiders begin pouring out it's mouth"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "catches fire at it's feet and it quickly spreads up it's body"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "vanishes and reappears inches from your face"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "grows double it's size and begins chasing you"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "grows horrible, black, leathery wings and begins flying towards you"
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "begins systematically breaking its fingers while staring you in the eye"
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "starts ripping the flesh from it's face"
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Roll  You wake up in a cold sweat",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "inches from your face is the [figure]"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "in the darkness you can see the outline of the [figure]"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "the [figure] is sprinting towards you, roll initiative. [Player wakes as soon as the figure reaches them. All spells fail and attacks miss against [figure]]"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "the door to the room opens slowly and the [figure] walks in"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "the party member closest to them is replaced with the [figure]"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "standing over you is the [figure]"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "as you are about to go to sleep you blink and the [figure] is in front of you"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "the [figure] is walking toward you slowly. You cannot move"
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "the [figure] is dragging away a party member. It looks up and makes eye contact with you"
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "inside of a new nightmare. Take it from the top"
+                }
+            ]
+        }
+    ],
+    "title": "Your Nightmare is Here",
+    "use_with": []
+}

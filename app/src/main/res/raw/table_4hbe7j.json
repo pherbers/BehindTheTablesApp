@@ -1,0 +1,221 @@
+{
+    "description": "This is kind of dumb, but I wasted a few minutes typing it up from memory in response to a comment. I'm sure I've missed some things.\n\nThe only situation where it kind of makes sense to me is if you want to have extremely disposable PCs in a 5E game and you don't want to think about making the decisions. \n\nBut, it's here, and it might be useful.",
+    "id": "4hbe7j",
+    "keywords": [
+        "NPC generator",
+        "PC generator",
+        "race",
+        "class",
+        "background",
+        "5E"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/4hbe7j",
+    "related_tables": [],
+    "tables": [
+        {
+            "dice": "d12",
+            "name": "Race: The character is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A dragonborn."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A dwarf."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A dark elf."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A high elf."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A wood elf."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A gnome."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A half-elf."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A half-orc."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A halfling."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A human."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A tiefling."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A monster or member of an exotic race (d20): 1. centaur; 2. dryad; 3. duergar; 4. kobold; 5. genasi; 6. goblin; 7. hobgoblin; 8. medusa; 9. minotaur; 10. lizardfolk; 11. ogre; 12. pixie; 13. revenant; 14. satyr; 15. shadar-kai; 16. troll; 17. vampire; 18. werebear; 19. wererat; 20. werewolf."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "Class: The character is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A barbarian (d2): 1. Berserker. 2. Totem Warrior."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A bard (d2): 1. College of Lore; 2. College of Valor."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A cleric (d8): 1. Death Domain; 2. Life Domain; 3. Light Domain; 4. Knowledge Domain; 5. Nature Domain. 6. Tempest Domain. 7. Trickery Domain. 8. War Domain."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A druid (d2): 1. Circle of the Land; 2. Circle of the Moon."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A fighter (d3): 1. Battle Master; 2. Champion; 3. Eldritch Knight."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A monk (d3): 1. Way of the Four Elements; 2. Way of the Open Hand; 3. Way of Shadow."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A paladin (d4): 1. Oath of the Ancients; 2. Oath of Devotion; 3. Oath of Vengeance; 4. Oathbreaker."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A ranger (d2): 1. Hunter; 2. Beastmaster."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A rogue (d3): 1. Arcane Trickster; 2. Assassin; 3. Thief."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A sorcerer (d2): 1. Draconic Bloodline; 2. Wild Magic."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A warlock (d3): 1. Archfey Otherworldly Patron; 2. Fiend Otherworldly Patron; 3. Great Old One Otherworldly Patron."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A wizard (d8): 1. School of Abjuration; 2. School of Conjuration; 3. School of Divination; 4. School of Enchantment; 5. School of Evocation; 6. School of Illusion; 7. School of Necromancy; 8. School of Transmutation."
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "Background: The character is or was...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "An acolyte."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A charlatan."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A criminal."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "An entertainer."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A folk hero."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A gladiator."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A guild artisan."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A guild merchant."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A hermit."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A knight."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A noble."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "An outlander."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "A pirate."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "A sage."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "A sailor."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "A soldier."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "A spy."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "An urchin."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "An amnesiac who has faint memories of a past life (d12): 1. acolyte; 2. charlatan; 3. criminal; 4. entertainer; 5. gladiator; 6. guild artisan; 7. guild merchant; 8. knight; 9. noble; 10. sailor; 11. soldier; 12. spy."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "A hero of prophecy who left behind a previous life to take up the hero's journey (d12): 1. acolyte; 2. criminal; 3. folk hero. 4. gladiator; 5. hermit; 6. knight; 7. noble; 8. outlander; 9. pirate; 10. sage; 11. soldier; 12. urchin."
+                }
+            ]
+        }
+    ],
+    "title": "Player Character",
+    "use_with": [
+        {
+            "link": "3zr0h4",
+            "title": "NPC appearance, personality, faith, and flaws"
+        },
+        {
+            "link": "3sj9ub",
+            "title": "Town NPCs"
+        }
+    ]
+}

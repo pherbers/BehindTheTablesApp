@@ -1,0 +1,401 @@
+{
+    "description": "Roll on these tables for insults your NPCs might yell at the player characters or other NPCs. Many of these sound silly, so this might not be something your serious main antagonist says.",
+    "id": "484u5s",
+    "keywords": [
+        "insult",
+        "silly"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/484u5s",
+    "related_tables": [],
+    "tables": [
+        {
+            "dice": "d41",
+            "name": "You...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "abyss-spawned"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "bent-fingered"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "cantrip-flinging"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "dragon-breath"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "drow-fondling"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "eye-averting"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "ghoul-skinned"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "gnoll-punching"
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "goblin-fiddling"
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "knife-eared"
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "hissy fitting"
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "hog-rubbing"
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "hussy up"
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "jaded"
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "lemon-smelling"
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "lentil weaving"
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "limp wrist"
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "moss-growing"
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "Netherese"
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "noggin-filching"
+                },
+                {
+                    "dice_val": "21",
+                    "entry": "numbskulled"
+                },
+                {
+                    "dice_val": "22",
+                    "entry": "otyugh-attracting"
+                },
+                {
+                    "dice_val": "23",
+                    "entry": "pantaloon-gathering"
+                },
+                {
+                    "dice_val": "24",
+                    "entry": "pie-eating"
+                },
+                {
+                    "dice_val": "25",
+                    "entry": "pit-yacking"
+                },
+                {
+                    "dice_val": "26",
+                    "entry": "plonker-waddling"
+                },
+                {
+                    "dice_val": "27",
+                    "entry": "quipper-seething"
+                },
+                {
+                    "dice_val": "28",
+                    "entry": "rubber-faced"
+                },
+                {
+                    "dice_val": "29",
+                    "entry": "slack-jawed"
+                },
+                {
+                    "dice_val": "30",
+                    "entry": "slant-legged"
+                },
+                {
+                    "dice_val": "31",
+                    "entry": "snot-eating"
+                },
+                {
+                    "dice_val": "32",
+                    "entry": "sobbing"
+                },
+                {
+                    "dice_val": "33",
+                    "entry": "spider-licking"
+                },
+                {
+                    "dice_val": "34",
+                    "entry": "bed-staining"
+                },
+                {
+                    "dice_val": "35",
+                    "entry": "stirge-infested"
+                },
+                {
+                    "dice_val": "36",
+                    "entry": "tattling"
+                },
+                {
+                    "dice_val": "37",
+                    "entry": "troll-smelling"
+                },
+                {
+                    "dice_val": "38",
+                    "entry": "turnip-swindling"
+                },
+                {
+                    "dice_val": "39",
+                    "entry": "Weave-breaking"
+                },
+                {
+                    "dice_val": "40",
+                    "entry": "wizened"
+                },
+                {
+                    "dice_val": "41",
+                    "entry": "woggish"
+                }
+            ]
+        },
+        {
+            "dice": "d35",
+            "name": "---",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "black pudding"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "bugbear"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "churl"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "crone"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "cur"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "country bumpkin"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "fomorian"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "goon"
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "hobgoblin"
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "lob"
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "marmozet"
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "milksop"
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "pillock"
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "pissant"
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "plum"
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "quim"
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "quisling"
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "rapscallion"
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "rascal"
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "scag"
+                },
+                {
+                    "dice_val": "21",
+                    "entry": "scalawag"
+                },
+                {
+                    "dice_val": "22",
+                    "entry": "scamp"
+                },
+                {
+                    "dice_val": "23",
+                    "entry": "schmuck"
+                },
+                {
+                    "dice_val": "24",
+                    "entry": "scoundrel"
+                },
+                {
+                    "dice_val": "25",
+                    "entry": "serf"
+                },
+                {
+                    "dice_val": "26",
+                    "entry": "shrew"
+                },
+                {
+                    "dice_val": "27",
+                    "entry": "simpleton"
+                },
+                {
+                    "dice_val": "28",
+                    "entry": "slag"
+                },
+                {
+                    "dice_val": "29",
+                    "entry": "slubberdegullion"
+                },
+                {
+                    "dice_val": "30",
+                    "entry": "snake-flipper"
+                },
+                {
+                    "dice_val": "31",
+                    "entry": "sonnova yea-sayin' cheapskirt"
+                },
+                {
+                    "dice_val": "32",
+                    "entry": "toe rag"
+                },
+                {
+                    "dice_val": "33",
+                    "entry": "wazzock"
+                },
+                {
+                    "dice_val": "34",
+                    "entry": "wildcat"
+                },
+                {
+                    "dice_val": "35",
+                    "entry": "yokel"
+                }
+            ]
+        },
+        {
+            "dice": "d14",
+            "name": "---",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "who ate all the pies!"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "with no friends!"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "who even magic missiles avoid!"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "that makes trolls seem endearing!"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "with breath like the south end of a north bound ogre."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "who's so filthy even an otyugh would spit you out."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "who's so shabbily dressed you look like an orphaned kobold."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "with all the personality of a gelatinous cube."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "who's so ugly it looks like you're half way through a polymorph."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "that smells like a duergar's beard."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "with the conversational skills of an owlbear."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "who's as graceful as a one-legged zombie."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "with an intellect that couldn't light a candle with a struck match."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "who's as useful as a mirror to a vampire."
+                }
+            ]
+        }
+    ],
+    "title": "Silly insults",
+    "use_with": [
+        {
+            "link": "3t2qzc",
+            "title": "Outlaw Bands"
+        },
+        {
+            "link": "3t5q2e",
+            "title": "Urban Gangs"
+        }
+    ]
+}

@@ -1,0 +1,462 @@
+{
+    "description": "These are tables for quickly coming up some distinctive, individual halflings.",
+    "id": "4gd8s4",
+    "keywords": [
+        "halfling",
+        "half-man",
+        "smallfolk",
+        "gardeners",
+        "pipesmokers",
+        "hobbit",
+        "hairy feet",
+        "elevensies"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/4gd8s4",
+    "related_tables": [
+        {
+            "link": "4fsrky",
+            "title": "Gnomes"
+        }
+    ],
+    "tables": [
+        {
+            "dice": "d20",
+            "name": "The halfling is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A jolly brewer."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A meticulous winemaker."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A talkative merchant."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A silver-tongue con artist."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A sketchy peddler."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "An inventive cook."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "An attentive gardener."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A simple farmer."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A drunken ferry captain."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A fearless river trader."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A happy-go-lucky fisher."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A slippery thief."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "A reluctant burglar."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "A surly sheepherder."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "A soft-spoken woodcarver."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "An adventurous rogue."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "A talented storyteller."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "A quick-witted singer."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "A cautious herbalist."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "A nimble apple-picker."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "The halfling has...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Hairy feet, even for a halfling."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Impressive sideburns."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Chubby cheeks."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A ruddy complexion."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A round face."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Dusky blue eyes."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Dark brown eyes."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Deep green eyes."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Curly blonde locks."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Floppy brown hair."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "The halfling is wearing...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A blue coat with brass buttons."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A green coat with silver buttons."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A red coat with copper buttons."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Pants that are too big."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Pants that are too small."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A traveler's cloak with a hood."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A dusty traveler's cloak."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A patched traveler's cloak."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Pants with patches on the knees. "
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A vest with several pockets"
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "...and...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A daisy tucked behind an ear."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A petunia tucked behind an ear."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A dull brass ring."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A shiny brass ring."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A tarnished silver ring."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "An old gold ring."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A lucky charm on a string around the neck."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A pair of reading glasses."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A belt with loops and pockets for tools."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A belt with a coin purse."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "The halfling is carrying...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A sharp dagger."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A shiny shortsword."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A little-used club."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A walking stick."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A small knife."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Several throwing knives."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A fork and a frying pan."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A spoon and a cookpot."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A purse of copper coins."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A few silver coins."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "...and...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A pinch of a rare variety of smokeleaf."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "An old pipe and some smokeleaf."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A polished pipe and some smokeleaf."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A pouch of salt and spices."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Dried fruits and nuts."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Crusty bread and a bit of cheese."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A book of tales."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A map of the local river."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A heavy brass key."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A sack full of odds and ends."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Presently, the halfling is looking for...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Quality ingredients for a stew."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A lost pipe."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A new tea set."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Something to eat."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Something good to eat."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Wildflowers to put in a vase at home."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Wild mushrooms."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Some idle chit-chat."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Bottle of good wine."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Glass of strong ale."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "...but the halfling would be happy to find...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Companions for afternoon tea."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Drinking companions."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "The answer to a puzzle or riddle."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A new puzzle or riddle to solve."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Ways to foil a rival."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "New gossip about the town."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Truth behind a scandalous rumor."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A job to earn a little extra silver."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A new song to sing."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "New friends for a night of revelry."
+                }
+            ]
+        }
+    ],
+    "title": "Halflings",
+    "use_with": [
+        {
+            "link": "4dv7i9",
+            "title": "Dinner at a country inn"
+        },
+        {
+            "link": "3xys3d",
+            "title": "Farmfolk"
+        },
+        {
+            "link": "3sgzxb",
+            "title": "Forest"
+        },
+        {
+            "link": "3sl2r2",
+            "title": "Merchant caravans"
+        },
+        {
+            "link": "3t2qzc",
+            "title": "Outlaw bands"
+        },
+        {
+            "link": "3uzziq",
+            "title": "Treasure hunters"
+        },
+        {
+            "link": "4daxw7",
+            "title": "Urban marketplaces"
+        }
+    ]
+}

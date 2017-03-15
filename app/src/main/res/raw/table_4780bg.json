@@ -1,0 +1,430 @@
+{
+    "description": "This is far from complete, and there are some awesome resources out there. I might expand it in the future, but for now, it should serve for quickly coming up with a little mechanics-free poison for an assassin, alchemist, or poisoner-type NPC in your game.\n\nFor mechanical effects, I might pull something from the Alchemical Mishaps table in the absence of something better.",
+    "id": "4780bg",
+    "keywords": [
+        "poisons",
+        "poisoncraft",
+        "venom",
+        "toxin",
+        "poisoner",
+        "assassin",
+        "killer",
+        "woman's weapon"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/4780bg",
+    "related_tables": [
+        {
+            "link": "45x72u",
+            "title": "Herb lore"
+        }
+    ],
+    "tables": [
+        {
+            "dice": "d20",
+            "name": "The poison will cause or induce...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Wounds to bleed more profusely."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A splitting headache."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Aches all over the body."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Infection in and near open wounds."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Fever and chills."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Airway constriction and/or shortness of breath."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Excess mucus production, making breathing difficult."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Blurry vision and/or blindness."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A painful rash."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Itchy hives."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Loss of coordination and/or impaired walking."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Weakness in limbs and/or exhaustion."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "Nausea and/or indigestion."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "Vomiting and/or diarrhea."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "Drowsiness and/or loss of consciousness. "
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "Memory loss."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "Inability to focus and/or to think clearly."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "Nightmares and/or hallucinations."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "Paranoia and/or insomnia."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "Impotence, infertility, and/or miscarriage."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "The poison is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A thick paste."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A thin paste."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A flaky powder."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A fluffy powder."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Made of fine crystals."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Made of coarse crystals."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A pungent potion."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A fragrant potion."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "An odorless potion."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A foul-smelling potion."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "An oily liquid."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A thick, gloopy liquid."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "The poison's color is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Pale green."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Dark green."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Blue green."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Olive green."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Yellow."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Red."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "White."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Grey."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Brown."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Black."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Blue."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Violet."
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "The main ingredient is harvested from...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A basilisk or cockatrice."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A centipede."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A demon."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A devil."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A dragon or wyvern."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A drider or ettercap."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A flower or fruit."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A fungus or ooze."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A jellyfish or coral."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A leaf or grass."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A medusa or naga."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A metal or salt."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "A mushroom or mold."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "A myconid or shrieker."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "An otyugh or carrion crawler."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "A scorpion."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "A nut or seed."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "A root or tree bark."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "A snake."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "A spider."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "The poison is prepared by...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Boiling slowly."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Boiling rapidly."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Brining."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Burning"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Desiccating."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Fermenting."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Roasting."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Smoking."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The poison is most effective when...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Ingested with food."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Ingested with alcohol."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Inhaled deeply."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Spread over a large area of the skin."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Applied to a weapon that pierces the flesh."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Applied to a weapon that slashes the flesh."
+                }
+            ]
+        }
+    ],
+    "title": "Poisons",
+    "use_with": [
+        {
+            "link": "3sl4sr",
+            "title": "Alchemists"
+        },
+        {
+            "link": "43xeol",
+            "title": "Alchemical mishaps"
+        },
+        {
+            "link": "44wqci",
+            "title": "Assassins"
+        },
+        {
+            "link": "45x5jp",
+            "title": "Druids"
+        },
+        {
+            "link": "3tich6",
+            "title": "Deserts"
+        },
+        {
+            "link": "3uzyyj",
+            "title": "Elves, dark"
+        },
+        {
+            "link": "3sgzxb",
+            "title": "Forests"
+        },
+        {
+            "link": "3uzuni",
+            "title": "Lizardfolk"
+        },
+        {
+            "link": "487awj",
+            "title": "Spiders"
+        },
+        {
+            "link": "43c2q8",
+            "title": "Swamps"
+        },
+        {
+            "link": "4034w3",
+            "title": "Thieves"
+        },
+        {
+            "link": "43bznq",
+            "title": "Traps"
+        },
+        {
+            "link": "3si4ms",
+            "title": "Witches"
+        },
+        {
+            "link": "3va510",
+            "title": "Woodsmen"
+        }
+    ]
+}

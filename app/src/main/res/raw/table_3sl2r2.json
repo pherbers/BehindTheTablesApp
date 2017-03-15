@@ -1,0 +1,837 @@
+{
+    "description": "These are tables for rapidly generate a merchant caravan along with a handful of interesting NPCs with whom your PCs can interact.",
+    "id": "3sl2r2",
+    "keywords": [
+        "caravan master",
+        "caravan owner",
+        "merchant",
+        "traveler",
+        "animal handler",
+        "porter",
+        "guard",
+        "trade",
+        "trader"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/3sl2r2",
+    "related_tables": [
+        {
+            "link": "46ma8g",
+            "title": "Bards"
+        },
+        {
+            "link": "3sj9ub",
+            "title": "Town NPCs"
+        }
+    ],
+    "tables": [
+        {
+            "dice": "d6",
+            "name": "The caravan is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A wagon train."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A long wagon train."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A small train of pack animals."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A long train of pack animals."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A train of pack animals with livestock."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Traveling on foot with a few animals."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "The caravan\u2019s pack animals are...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "One-humped camels."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Two-humped camels."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Large draft horses."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Reliable garrons."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Sure-footed ponies."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Mules."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Oxen."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Exotic beasts (d6): 1. bison; 2. drakes; 3. elephants; 4. elk; 5. giant lizards; 6. zebras."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The caravan is transporting...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Cloth (d4): 1. cotton, 2. linen; 3. silk, 4. wool."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Drugs or contraband."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Gemstones (d6): 1. diamond; 2. emerald;   3. jade; 5. obsidian; 5. opal; 6. pearl; 7. ruby; 8. sapphire; 9. topaz; 10. turquoise."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Metals (d6): 1. arsenic; 2. copper; 3. gold;  4. lead; 5. silver; 6. tin."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Spices and teas."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Wine and spirits."
+                }
+            ]
+        },
+        {
+            "dice": "d4",
+            "name": "The caravan\u2019s general mood is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Desperate; a calamity has befallen them."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Foul; morale is bad, and provisions are low."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Tired; the journey is long and longer yet."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Eager; great riches await at journey\u2019s end."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "The caravan master is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A mysterious foreigner."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A career soldier."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "An outcast from a prominent family."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A celebrated explorer."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A femme fatale."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A charming rogue."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A dashing swashbuckler."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A brutish thug."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "The caravan master is looking for...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Information regarding the route ahead."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "The location of an ancient ruin."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Extra muscle for the journey."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "News from the origin or destination."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Revenge against a bitter rival."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Ways to cheat the caravan\u2019s owner."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Ways to speed up the caravan\u2019s pace."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Drinking companions and storytellers."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The caravan master is taking special care to avoid...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Ancient ruins and cursed places."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Barbarians."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Bandits."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Other caravans."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Thieves."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Wild beasts."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "The caravan master carries...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A superbly crafted sword."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Several daggers and a purse of gold."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A trusted blade and a map."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A lucky charm (rabbit\u2019s foot, old coin)."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "The token of a faraway love."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Extravagant jewels and silks."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Keys of many shapes and sizes."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A little jar of mustache wax."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The animal handler has...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "An awkward gait."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Incredibly large hands."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Holes in the breeches."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Quite an odor."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A threadbare shirt."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A ragged beard."
+                }
+            ]
+        },
+        {
+            "dice": "d4",
+            "name": "The animal handler wants to...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Earn a little silver."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Go back home."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Survive the journey."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Have a drink and a rest."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The animal handler carries...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A memento from a loved one."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Several morsels of animal feed."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Several morsels of food."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A few copper pieces."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A waterskin."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A wineskin."
+                }
+            ]
+        },
+        {
+            "dice": "d4",
+            "name": "The cook greets you with...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A goblet of warm wine."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A glass of water."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A cup of cold porridge."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A hearty handshake."
+                }
+            ]
+        },
+        {
+            "dice": "d4",
+            "name": "The cook is looking for...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Someone more important to talk to."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Some better ingredients."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A good joke or story."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "The bottom of a bottle."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The cook carries...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A filthy rag."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A large wooden spoon."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A grease-smeared apron."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "An unusual belt purse."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A pouch full of spices."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A bottle of whisky."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The guard is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "The son of a miner or fisherman."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A veteran of warfare."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "The son of a poor man."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A drunk."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A thug."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A favorite among the ladies."
+                }
+            ]
+        },
+        {
+            "dice": "d4",
+            "name": "The guard works for...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "The steady pay."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A chance to dole out pain."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Gold to repay debts."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Gold to aid a family member."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "The guard has...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "An unsightly scar."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A foolish grin."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A stupid stare."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A blade with an inscription."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A highly polished blade."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A token from a favorite harlot."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A silk handkerchief.  "
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A flask of wine."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A pair of dice or a deck of cards."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A beautiful, waxed mustache."
+                }
+            ]
+        },
+        {
+            "dice": "d4",
+            "name": "The guide is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A nomadic herder."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A strange hermit.\t"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A skilled hunter."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A savage warrior."
+                }
+            ]
+        },
+        {
+            "dice": "d4",
+            "name": "The guide is looking to...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Help the caravan in any way."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Lead the caravan astray."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Fill his purse with gold."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Eat, drink, and be merry."
+                }
+            ]
+        },
+        {
+            "dice": "d4",
+            "name": "The guide carries...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "An unusual map."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A unique trinket or piece of jewelry."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A spear or walking staff."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A large knife and some rope."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The merchant is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A member of a trading clan."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A minor lord or lady."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "An enterprising trader."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A member of a prominent family."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Of common birth."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "The real owner\u2019s representative."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The merchant seeks someone to...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Obtain a mysterious artifact."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Negotiate a trade contract."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Purchase goods."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Sabotage a rival merchant."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Secure a marriage."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Have a good time with."
+                }
+            ]
+        },
+        {
+            "dice": "d4",
+            "name": "The merchant carries...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A family heirloom."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Several inventories and invoices."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Some very valuable jewels."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A compromising love letter."
+                }
+            ]
+        },
+        {
+            "dice": "d4",
+            "name": "Currency: The merchant will trade in...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Coins and gems."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Gold and silver bullion."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Water, provisions, and other goods."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Shells, beads, and trinkets."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The traveler is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "An exile."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A minstrel."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A pilgrim."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A sellsword."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A storyteller."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A treasure hunter."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The traveler is searching for...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "The answer to a riddle"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A long lost friend."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "The return of something stolen."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Revenge against a bitter rival."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "New adventures."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Steady work. "
+                }
+            ]
+        },
+        {
+            "dice": "d4",
+            "name": "Tonight, the traveler is looking for...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Accomplices on a quest."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "An audience to entertain."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Someone to hear a sad tale."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Drinking companions."
+                }
+            ]
+        }
+    ],
+    "title": "Merchant Caravans",
+    "use_with": [
+        {
+            "link": "435djx",
+            "title": "Coins"
+        },
+        {
+            "link": "3tich6",
+            "title": "Desert"
+        },
+        {
+            "link": "3tjb63",
+            "title": "Desert, flame-scorched"
+        },
+        {
+            "link": "3tielc",
+            "title": "Desert, shadowy"
+        },
+        {
+            "link": "4tguyo",
+            "title": "Horses"
+        },
+        {
+            "link": "3tkdty",
+            "title": "Mercenary troops"
+        },
+        {
+            "link": "43xb06",
+            "title": "Merchant guilds"
+        },
+        {
+            "link": "3t2qzc",
+            "title": "Outlaw bands"
+        },
+        {
+            "link": "3tjdae",
+            "title": "Savage hordes"
+        }
+    ]
+}

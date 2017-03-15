@@ -1,0 +1,603 @@
+{
+    "description": "These are tables for generating a deadly assassins' guild to serve as foe or foil to your PCs.",
+    "id": "3t0zag",
+    "keywords": [
+        "killer",
+        "contract",
+        "assassination",
+        "hitman",
+        "NPC"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/3t0zag",
+    "related_tables": [
+        {
+            "link": "3t5q2e",
+            "title": "Urban gangs"
+        }
+    ],
+    "tables": [
+        {
+            "dice": "d12",
+            "name": "The guild\u2019s symbol is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A skull."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "An eye."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A flame."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A dagger."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A scythe."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "An arrow."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A fish."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A crow."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A rat."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A scorpion."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A spider."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A snake."
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "The guild\u2019s preferred method of execution is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Ingested poison or allergic reaction."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Exposure to deadly (but not highly contagious) disease."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Contact poison applied to a weapon."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Arrow/bolt from range."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Knife in the chest or back."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Multiple stab wounds."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Slitting throats."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Gutting or eviscerating."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Flaying or scalping."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Beheading."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Strangulation."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Hanging."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "Burying alive."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "Drowning."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "Boiling alive."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "Throwing off a roof. "
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "Acid (pouring or submersion)."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "Fiery explosion."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "Burning alive."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "Feeding to animals."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "Guildmembers typically arm themselves with...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Poisoned daggers and shortswords."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Throwing knives."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Over-sized daggers."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Serrated daggers."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Daggers and crossbows."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Axes and knives."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Bows and arrows."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Shortswords and crossbows."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Sickles and scythes."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Garrotes and daggers."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Exotic blades and blowguns."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Bolas and poisoned projectiles."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Guildmembers typically operate...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Alone."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "In pairs."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "In small groups."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "By infiltrating an organization."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "By impersonating a specific individual."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "In plain sight."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Guildmembers typically know...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Very few other guildmembers."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Several other guildmembers."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "The details of the guild\u2019s organization."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Nothing about the guild\u2019s leadership."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "The names of the guild\u2019s leaders, though they\u2019ve never any of them."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "One of the guild\u2019s leading members and no other guildmembers."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "The guild\u2019s leader is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A dangerous megalomaniac."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A charismatic demagogue."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A mysterious foreigner."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A talented thief."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A well-known public figure."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A ruthless killer."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A femme fatale."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A charming rogue."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A dashing swashbuckler."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A brutish thug."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A religious fanatic."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A veteran soldier."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The guild\u2019s goals include (leadership and rank-and-file members could have different goals)...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Expanding the client base."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Corrupting and influencing the politics of the city or region."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Eliminating a rival assassins\u2019 guild in the same city or region."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Eliminating a rival assassins\u2019 guild in a foreign city or region."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Intimidating the masses."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Instigating rebellion among the masses."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "The guild refuses to take contracts to kill...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Women."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Young children."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Nobles and prominent citizens."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Priests and monks."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Peasants and poor folk."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Foreigners and travelers."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Members of the client\u2019s family."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Fellow criminals."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "Guildmembers typically strike with...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Hit-and-run tactics."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Ambush tactics."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Diversionary tactics."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A precisely planned attack strategy."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A well-planned escape strategy."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "The element of surprise."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Announcing their presence."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "No thought of escape."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "Guildmembers typically plan their attacks for...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Just after sunrise."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "High noon."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Just after sunset."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Well into the night."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "The toll of midnight."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "After midnight."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "The wee hours of the morning."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Just before sunrise."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "The guild\u2019s headquarters is hidden in or near...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "The residence of the leader or a senior guildmember."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "An artisan's shop or guildhall."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A merchant's office."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A tavern."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A brothel."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A warehouse or shipyard."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A temple complex."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "The city's sewers."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "The town hall."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "An abandoned guildhall or warehouse."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "An armory or barracks."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "The residence of a wealthy individual or prominent citizen."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "The guild is feared or respected by...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Fishermen and sailors."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Beggars and orphans."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Merchants and moneychangers."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Nobles and rulers."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Politicians and magistrates."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Guards and sheriffs."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Soldiers and warriors."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Thieves and criminals."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Servants and slaves."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Priests and sages."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Women and children."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Other assassins."
+                }
+            ]
+        }
+    ],
+    "title": "Assassins' Guilds",
+    "use_with": [
+        {
+            "link": "44wqci",
+            "title": "Assassins"
+        },
+        {
+            "link": "3sj8mc",
+            "title": "Noble houses"
+        },
+        {
+            "link": "4780bg",
+            "title": "Poisons"
+        },
+        {
+            "link": "3sqres",
+            "title": "Serial killers"
+        },
+        {
+            "link": "3sj9ub",
+            "title": "Town NPCs"
+        }
+    ]
+}

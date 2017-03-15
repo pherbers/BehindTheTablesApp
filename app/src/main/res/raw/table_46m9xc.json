@@ -1,0 +1,375 @@
+{
+    "description": "These are tables for generating an interesting song to add to your setting, from things a wandering minstrel might sing to things a company of soldiers might sing on the march and from things a king may request to hear in court to things laborers might sing while toiling.\n\nMy favorite part is that with the cheat sheet in front of me, I can throw two d20s and two d6s together to generate a topic for a song in a single toss. The sub-tables are up to d8s in the online version (below).",
+    "id": "46m9xc",
+    "keywords": [
+        "bard",
+        "minstrel",
+        "singer",
+        "musician",
+        "songs",
+        "poet",
+        "composer",
+        "poem",
+        "hymn",
+        "verse",
+        "bawdy",
+        "ballad",
+        "dirge",
+        "melody",
+        "harmony",
+        "anthem",
+        "The Bear and the Maiden Fair"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/46m9xc",
+    "related_tables": [
+        {
+            "link": "43wsio",
+            "title": "Books"
+        }
+    ],
+    "tables": [
+        {
+            "dice": "d20",
+            "name": "The song is about (roll twice)...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A young common woman (d8): 1. barmaid; 2. blacksmith's daughter; 3. farmer's daughter; 4. miner's daughter; 5. Innkeeper's daughter; 6. harlot; 7. lady's maid; 8. scullery maid."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A common woman (d8): 1. barmaid; 2. captain's wife; 3. farmwife; 4. fisherman's wife; 5. housemaid; 6. madame; 7. merchant's wife; 8. seamstress."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A noblewoman (d8): 1. beautiful maiden; 2. young princess; 3. ugly princess; 4. young queen; 5. old queen; 6. wicked queen; 7. faerie queen; 8. old widow."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A priestess (d8): 1. young novice; 2. innocent virgin; 3. high priestess; 4. sister of mercy; 5. old prude; 6. oracle; 7. temptress; 8. zealot."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A witch (d8): 1. crone; 2. enchantress; 3. gypsy woman; 4. fortune teller; 5. potion-maker; 6. seer; 7. dark sorceress; 8. wicked witch."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A wizard (d8): 1. alchemist; 2. conjurer; 3. illusionist; 4. magician; 5. necromancer; 6. pyromancer; 7. old wizard; 8. apprentice mage."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A warrior (d8): 1. barbarian; 2. gladiator; 3. guard captain; 4. young knight; 5. proud knight; 6. old knight; 7. mystery knight; 8. sellsword. "
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A rogue (d8): 1. bandit; 2. gambler; 3. jester; 4. outlaw; 5. pirate; 6. singer; 7. smuggler; 8. thief."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A priest (d8): 1. young acolyte; 2. exorcist; 3. healer; 4. stoic monk; 5. preacher; 6. old priest; 7. young scholar; 8. wise master. "
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A common man (d8): 1. blacksmith; 2. farmer; 3. fisherman; 4. herder; 5. innkeeper; 6. miner; 7. sailor; 8. tailor. "
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A nobleman (d8): 1. foolish king; 2. tyrant king; 3. wise king; 4. old lord; 5. young lord; 6. cruel prince; 7. handsome prince; 8. wealthy merchant"
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A great beast (d8): 1. bear; 2. boar; 3. bull; 4. dragon; 5. lion; 6. ox; 7. stag; 8. wolf."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "A diminutive beast (d8): 1. badger; 2. cat; 3. dog; 4. fox; 5. hedgehog; 6. rat; 7. snake; 8. spider."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "An aquatic creature (d8): 1. crocodile; 2. frog; 3. fish; 4. mermaid; 5. octopus; 6. shark; 7. swan; 8. whale."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "A bird (d8): 1. dove; 2. eagle; 3. mockingbird; 4. owl; 5. raven; 6. rooster; 7. sparrow; 8. vulture."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "A monster (d8): 1. devil; 2. demon; 3; giant; 4. ghost; 5. goblin; 6. griffon; 7. hag; 8. ogre."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "An event (d8): 1. battle; 2. captivity; 3. death; 4. feast or fair; 5. illness; 6. storm; 7. tournament; 8. wedding."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "A wilderness location (d8): 1. cave; 2. desert; 3. forest; 4. lake; 5. mountain; 6. river; 7. sea; 8. swamp."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "A settlement location (d8): 1. castle; 2. garden; 3. fountain; 4. inn; 5. market; 6. tavern; 7. temple; 8. tomb."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "An item or object (d8): 1. coin; 2. book; 3. goblet; 4. map; 5. shield; 6. ship; 7. sword; 8. wagon."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "The song is popular because...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "It was written by a legendary bard."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "It has a subversive double meaning."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "It was banned by a tyrannical ruler. "
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "It was banned by a priest or priestess. "
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "It has a humorous, bawdy style."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "It was a popular sovereign\u2019s favorite."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "It was sung at a local hero\u2019s funeral."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "It was sung at a magnificent wedding feast."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Its lyrics are completely outrageous."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "No good reason; it\u2019s just a catchy tune."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "The song is common sung at...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Children\u2019s birthdays."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Pubs and civic festivals."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Pubs and scholarly ceremonies."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Pubs and military camps."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Religious ceremonies and festivals."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Royal courts and tournaments.."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Taverns and aboard ships."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Taverns and low brothels."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Taverns and mining camps."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Tournaments."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Wakes and funerals."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Weddings."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "The song is often sung as...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A solo without accompaniment."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A solo with a single percussion instrument accompanying."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A solo with a single stringed instrument accompanying."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A solo with a variety of instruments accompanying."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A duet with two male voices."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A duet with a male and a female part."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A duet with two female voices."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A quartet of male voices without accompaniment."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A chorus of singers with little to no instrumental accompaniment."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A chorus of singers with a variety of instruments accompanying."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A solo for the verses with everyone joining in for the chorus."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "It's rarely sung; few people know the words, but everyone knows the melody."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "The song's tempo is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Ponderous."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Slow and steady."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Andante."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Allegro."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Lively."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Lilting."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Fast-paced."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Frenetic."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The song's melody is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Dominated by punctuating rhythm."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Not so memorable as its harmonies."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Hauntingly beautiful."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Simple and easy to pick up."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Incredibly catchy."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Variable, depending on who's singing."
+                }
+            ]
+        }
+    ],
+    "title": "Songs",
+    "use_with": [
+        {
+            "link": "46ma8g",
+            "title": "Bards"
+        },
+        {
+            "link": "43w8zc",
+            "title": "Brothels"
+        },
+        {
+            "link": "43ek9v",
+            "title": "Castles"
+        },
+        {
+            "link": "43emxb",
+            "title": "Castle inhabitants"
+        },
+        {
+            "link": "3zmoy8",
+            "title": "Military camps"
+        },
+        {
+            "link": "3sj9ub",
+            "title": "Town NPCs"
+        },
+        {
+            "link": "3tjg9d",
+            "title": "Military companies"
+        },
+        {
+            "link": "435mxf",
+            "title": "Tavern goings-on"
+        }
+    ]
+}

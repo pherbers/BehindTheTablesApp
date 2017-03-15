@@ -1,0 +1,342 @@
+{
+    "description": "These are tables for quickly coming up with a flavorful meal or list of food provisions for an encampment of goblins or an underground hideout or stronghold occupied by goblins.",
+    "id": "4ev8l1",
+    "keywords": [
+        "goblins",
+        "hobgoblins",
+        "bugbears",
+        "raiders",
+        "camp",
+        "cookfire",
+        "cannibals",
+        "roasting meat on a spit"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/4ev8l1",
+    "related_tables": [
+        {
+            "link": "4dpnzh",
+            "title": "Dinner around the campfire"
+        },
+        {
+            "link": "4elirv",
+            "title": "Dinner in an orkish camp"
+        }
+    ],
+    "tables": [
+        {
+            "dice": "d10",
+            "name": "Tonight, in a goblin hideout, we dine on...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Stewed."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Toasted."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Skewered."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Raw."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Smoked."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Grilled."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Seared."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Flame-broiled."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Charred."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Blackened."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Rabbit."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Duck."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Pork."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Cave fish."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Trout."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Clams."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Bat."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Rat."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Sausage."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Mystery meat."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "...with...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Potatoes."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Red cabbage."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "White cabbage."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Leeks."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Lentils."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Rhubarb."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Peas."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Sliced turnips."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Turnip mash."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Parsnips."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Red onions."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Yellow onions."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "...and...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Stale bread."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Crusty biscuits."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Hard tack."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Wild mushrooms."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Sliced mushrooms."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Black mushrooms."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Purple mushrooms."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Cave mushrooms."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Truffles."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Yellow mold."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Blue mold."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Green mold."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "On the side, there are some...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Mice."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Toad legs."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Crickets."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Earthworms."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Snails."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Stale cakes."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Pixie cakes."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Pig's feet."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Rat tails."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Lizards."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Snakes."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Bitter roots."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "To wash it down, we have some...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Foul ale."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Skunky ale."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Stolen ale."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Sour wine."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Strong wine."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Bitter tea."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Black tea."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Stolen whisky."
+                }
+            ]
+        }
+    ],
+    "title": "Dinner in a Goblin Hideout",
+    "use_with": [
+        {
+            "link": "3unfbm",
+            "title": "Cavern"
+        },
+        {
+            "link": "3sgzxb",
+            "title": "Forest"
+        },
+        {
+            "link": "3snvqq",
+            "title": "Goblin gangs"
+        },
+        {
+            "link": "43ufyr",
+            "title": "Mines"
+        },
+        {
+            "link": "42rm5s",
+            "title": "Mountains"
+        }
+    ]
+}

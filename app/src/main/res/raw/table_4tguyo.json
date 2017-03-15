@@ -1,0 +1,455 @@
+{
+    "description": "These are some tables for giving horses some flavor. These tables are far from exhaustive, but they should help to fill in a few details quickly. \n\n*A rider approaches! ... and what sort of horse is he riding?*",
+    "id": "4tguyo",
+    "keywords": [
+        "horses",
+        "equines",
+        "equestrian",
+        "dressage",
+        "thoroughbred",
+        "purebred",
+        "derby",
+        "joust",
+        "knights",
+        "riders",
+        "raiders",
+        "rohirrim",
+        "dothraki"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/4tguyo",
+    "related_tables": [
+        {
+            "link": "4t1k01",
+            "title": "Cats"
+        },
+        {
+            "link": "4aepj5",
+            "title": "Wolves"
+        }
+    ],
+    "tables": [
+        {
+            "dice": "d8",
+            "name": "Breed/Variety: The horse is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A pony; stout and suitable for small riders and narrow trails."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A dray; reliable and suitable for pulling plows and wagons."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A garron; hardy and well-suited for harsh weather and terrain."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A palfrey; tireless and well-suited for long journeys."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A rounsey; medium-sized and suitable for riding or for battle."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A courser; swift and well-suited for hunting or for battle."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A charger; solid and suitable for jousting or for battle."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A destrier; huge and well-suited for jousting or for battle."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "Gender and Age: The horse is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A colt."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A young gelding."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "An old gelding."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A stallion."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A yearling."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A filly."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A young mare."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "An old mare."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "Quality: The horse is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A stot; this animal is completely useless."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A canner; this animal is good for nothing but meat."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A hack; this animal is mediocre, but useful."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A hard keeper; this animal requires extra food to maintain its strength and endurance. ."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "An easy keeper; this animal requires little food to maintain its strength and endurance."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Of middling quality; acceptable for its breed."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Of high quality; a very good animal for its breed."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Of the highest quality; a paragon of its breed."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "Color: The horse's coat is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Bay."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Black."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Buckskin."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Chestnut."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Gray."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Piebald."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Roan."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "White."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "Eyes: The horse has...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Light brown eyes."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Brown eyes."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Dark brown eyes."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Green eyes."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Hazel eyes."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Amber eyes."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Brown and blue eyes."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Blue eyes. "
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "Flaw: The horse is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Pigeon toed."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Splay footed."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Mule footed (narrow feet)."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Mushroom footed (large feet)."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Barrel chested."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Narrow chested."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Steep rumped."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Slab sided."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "Severity of Flaw: The horse's flaw is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Imperceptible to all but the most expert horsemasters and riders."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Barely noticeable."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Not a hindrance to the horse's performance."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Something the horse can make up for with its other qualities."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Something that sufficient training can overcome."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Something that makes riding the horse a little difficult."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Something that makes riding the horse a little embarrassing."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A severe hindrance to the horse's performance."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "Distinguishing Feature: The horse has...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "One eye that is blind or nearly blind."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Pig eyes (small eyes)."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Large ears."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Small ears."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A wry tail (tail carried to one side)."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A clipped tail."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A scar above one forehoof."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A shaggy mane."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "Personality: Most of the time, this horse is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Eager to please."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Social."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Gentle."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Aloof."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Unimpressed."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Fearful."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Challenging."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Foul-tempered."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "Behavior: The horse often...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Nickers when anxious."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Whinnies when anxious."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Bucks when impatient."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Stamps when impatient."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Froths when tired."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Snorts when tired."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Stamps when content."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Snorts when content."
+                }
+            ]
+        }
+    ],
+    "title": "Horses",
+    "use_with": [
+        {
+            "link": "3xydsw",
+            "title": "Barbarians"
+        },
+        {
+            "link": "3tich6",
+            "title": "Deserts"
+        },
+        {
+            "link": "3tkfho",
+            "title": "Knights"
+        },
+        {
+            "link": "3sl2r2",
+            "title": "Merchant caravans"
+        },
+        {
+            "link": "3zmoy8",
+            "title": "Military camps"
+        },
+        {
+            "link": "42rm5s",
+            "title": "Mountains"
+        },
+        {
+            "link": "3xyhdl",
+            "title": "Nobles"
+        },
+        {
+            "link": "3t2qzc",
+            "title": "Outlaws"
+        },
+        {
+            "link": "47x04h",
+            "title": "Plains"
+        },
+        {
+            "link": "41bq04",
+            "title": "Sellswords"
+        }
+    ]
+}

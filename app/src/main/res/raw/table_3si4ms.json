@@ -1,0 +1,818 @@
+{
+    "description": "These are tables for generating an interesting witch to serve as friend or foe to your PCs.",
+    "id": "3si4ms",
+    "keywords": [
+        "witch",
+        "witchcraft",
+        "spellcaster",
+        "familiar"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/3si4ms",
+    "related_tables": [
+        {
+            "link": "3sl4sr",
+            "title": "Alchemists"
+        },
+        {
+            "link": "3w1g84",
+            "title": "Necromancers"
+        },
+        {
+            "link": "44r23c",
+            "title": "Seers"
+        }
+    ],
+    "tables": [
+        {
+            "dice": "d20",
+            "name": "The witch is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A femme fatale."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "The wife of a farmer, fisherman, or miner."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "The wife of a soldier."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "An old seamstress or weaver."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A peasant girl."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A noble woman."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A slave or servant."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "An attractive shopkeeper."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A stern barmaid."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "An old fortune teller."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A talented dancer or singer."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A heretical priestess."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "An herbalist or healer."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "A skilled hunter."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "A very young girl"
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "The daughter of a thief."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "The daughter of a sailor."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "An old crone."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "An old widow."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "An attractive young widow."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "The witch learned her craft from...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A fellow witch who kidnapped her as a young girl."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A fellow witch who aided her in a time of need."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A neighbor."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Her mother."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Her older sister."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Her grandmother."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Books of forbidden lore."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Communication with the spirits of the dead."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Consorting with a fiend."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Participating in bacchanalian fey orgies."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "The witch specializes in...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Charms."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Clairvoyance."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Communing with the dead."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Conjuring evil spirits."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Curses."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Demonology."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Enchantments."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Herbalism."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Hexes."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Poisons."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Potions."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Prophecies."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Trade: For coin or barter, the witch will...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Read your palm."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Gaze into her crystal ball."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Contact a dead relative or friend."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Place a hex on an enemy."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Give you a piece of forbidden magical lore."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Enchant an item."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Curse an item."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Prepare an herbal remedy."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Prepare a potion."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Give you an old family recipe."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "The witch is seeking...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "The means to summon a fiend."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "The means to control a fiend."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Eternal youth and beauty."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "The soul of a specific person."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Vengeance against a powerful person."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A long lost recipe."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Instructions for a powerful ritual."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "The wand of a legendary witch or wizard."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "The staff of an ancient witch or wizard."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "The meaning of a cryptic prophecy."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A baby or young child to steal."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A baby or young child to eat."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "The witch has uncovered dark secrets. She cannot be killed by...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Hanging or strangulation."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Drowning."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Burning."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Disease."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Poisoning."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "The hand of a mortal man."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Falling from a great height."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Old age."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The witch prefers to travel by...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Flying broomstick."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Flying mount (giant owl or hippogriff)."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Horseback."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Walking."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Transforming into a beast (d8): 1. bat; 2. cat; 3. fox; 4. horse; 5. owl; 6. rat; 7. raven; 8. wolf."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Teleportation."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "The witch\u2019s home is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "In a cave."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "In a swamp."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "On an island."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Beneath a large tree in a forest."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "In a cottage in the woods."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Hidden in the mountains."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "In a quiet village."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Just outside a quiet village."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Down a dark alley in the city."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "In the castle or palace of a lord."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "Distinguishing Feature: The witch has...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A large wart on her nose."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "An oversized, crooked nose."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A cute little button nose."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A beauty mark on her cheek."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A hairy mole on her cheek."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A jagged scar on her cheek."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "An obnoxious cackling laugh."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A hideous belting laugh."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A nervous twittering laugh."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Long straggly hair."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Long beautiful hair."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Her hair pulled up."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "The witch's brew is percolating in...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A delicate ceramic tea kettle."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A large cast iron cauldron."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A heavy-bottomed iron pot."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A thick cast iron vat."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A copper tea kettle."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A thick copper vat."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A heavy steel cook-pot."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A blackened steel cauldron."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A thick bronze cauldron."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A large bronze cook-pot."
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "The witch's brew in the cauldron contains...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Eye of newt."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Toe of frog."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Wool of bat."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Tongue of dog."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Adder's fork."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Blind-worm's sting."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Lizard's leg."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Howlet's wing."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Monkey's paw."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Pint of blood."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Pound of flesh."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Cup of mud."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "Beak of duck."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "Housecat's tail."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "Glob of mold."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "Rusty nail."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "Garlic bulb."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "Cob of corn."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "Stirge's foot."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "Dryad's thorn."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "The witch is currently brewing...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A love potion."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A fertility tonic."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A magical cure-all."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A terrible poison."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A component for a summoning ritual."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A component for a necromantic ritual."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A component for a polymorphing hex."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A component for a beguiling charm."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "The witch\u2019s familiar is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "An elemental spirit (d8): 1. air; 2. earth; 3. fire; 4. ice; 5. mud; 6. storm; 7. stone; 8. water."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A fey spirit (d4): 1. animated toadstool; 2. pixie; 3. sprite; 4. talking songbird."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A fiendish spirit (d4): 1. demon trapped in a book; 2. devil trapped in a gem; 3. imp; 4. quasit."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "An undead creature (d4): 1. crawling crawl; 2. disembodied voice; 3. floating skull; 4. formless ghost."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A bat."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A cat."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "An owl."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A snake."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A spider."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A raven."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A rat."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A toad."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "The witch\u2019s familiar\u2019s manner is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Calculating."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Clever."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Coy."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Cruel."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Gleeful."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Grumpy."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Insolent."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Shy."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Skittish."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Surly."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Suspicious."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Talkative."
+                }
+            ]
+        }
+    ],
+    "title": "Witches",
+    "use_with": [
+        {
+            "link": "4t1k01",
+            "title": "Cats"
+        },
+        {
+            "link": "4evdqx",
+            "title": "Dinner in a witchs' hovel"
+        },
+        {
+            "link": "4boiw9",
+            "title": "Fiends"
+        },
+        {
+            "link": "3sh0hz",
+            "title": "Forest, enchanted"
+        },
+        {
+            "link": "3sh0bv",
+            "title": "Forest, haunted"
+        },
+        {
+            "link": "45x72u",
+            "title": "Herb lore"
+        },
+        {
+            "link": "4y5pl2",
+            "title": "Mage's tower"
+        },
+        {
+            "link": "4358in",
+            "title": "Monster hunters"
+        },
+        {
+            "link": "4780bg",
+            "title": "Poisons"
+        },
+        {
+            "link": "4c5iu4",
+            "title": "Potions"
+        },
+        {
+            "link": "3tkdty",
+            "title": "Reputation and rumors"
+        },
+        {
+            "link": "4b8u29",
+            "title": "Reputations of adventurers"
+        },
+        {
+            "link": "3sorre",
+            "title": "Restless undead"
+        },
+        {
+            "link": "487awj",
+            "title": "Spiders"
+        }
+    ]
+}

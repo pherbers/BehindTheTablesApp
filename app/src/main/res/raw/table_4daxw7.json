@@ -1,0 +1,407 @@
+{
+    "description": "This is a table for rapidly generating an urban marketplace and some interesting vendors and merchants who have set up shop in the marketplace to sell their goods. (I may come back to revise and expand this, but for now, here it is.)",
+    "id": "4daxw7",
+    "keywords": [
+        "city",
+        "market",
+        "square",
+        "bazaar",
+        "plaza",
+        "piazza",
+        "centre",
+        "center",
+        "shopping",
+        "vendor",
+        "booth",
+        "merchant",
+        "peddler",
+        "shop",
+        "shopkeeper",
+        "stall",
+        "cart",
+        "buyer",
+        "seller",
+        "caveat emptor"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/4daxw7",
+    "related_tables": [],
+    "tables": [
+        {
+            "dice": "d8",
+            "name": "The marketplace is located in...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A wide, rectangular plaza."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A large, circular or elliptical plaza."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A large plaza with a polygonal shape (d4): 1. perfect square; 2. trapezoid; 3. triangle; 4. pentagon."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "An intersection of two wide roads."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A sprawling maze of small alleyways."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A sprawling maze of tunnels beneath the city streets."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A huge pavilion with a solid roof overhead."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A disorganized series of large tents."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Vendor stalls, carts, and booths are mostly organized by...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Type of merchandise."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Nation of origin of the merchandise."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Race or ethnicity of the merchants."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Nothing; the place is a big disorganized mess."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Religious or political affiliation of the merchants."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Raw materials and commodities on one half of the market, finished products on the other half."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Imported goods on one half of the market, local goods on the other half."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "An intricate and archaic system put down in an ancient civic or religious document."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "The social class to which the vendor caters."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Order of arrival at the marketplace on any given day."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "This vendor is selling wares from...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A little push cart."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A small, mule-drawn cart."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A sizable, horse- or ox-drawn wagon."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A handful of crates or chests the vendor has set up."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A large rug on which the vendor has laid out the merchandise."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A flimsy wooden booth."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A sturdy wooden booth with a cotton awning."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A semi-permanent wooden stall."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A permanent stone stall."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A huge sack the merchant has set down on the ground."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A one- or two-man tent."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A myriad of pockets in the vendor's clothes or a hidden demiplane."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "This vendor specializes in...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Raw foodstuffs."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Prepared foodstuffs."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Arms and armor."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Clothing, apparel, or accessories."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Tools, trinkets, or other household goods."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Potions, talismans, religious relics, or other magical goods."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Live animals."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Raw materials."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "This vendor's wares were produced or prepared...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "In a foreign land."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "In a local workshop."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "By slaves."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "By skilled laborers or crafters."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "By the vendor him- or herself."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "By laborers or crafters working under horrible conditions."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "In a distant city or region known for goods of this type."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Somewhere by someone; the vendor neither knows nor cares."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "This vendor's goods are...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Of poor quality."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Cheap but usable, a real bargain."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Priced for more than they are worth."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Of decent quality and fairly priced."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Of the highest quality and quite expensive."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A mixed bag of low-quality and high-quality stuff."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Of mysterious origin."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Possibly stolen."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "The vendor is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "An old woman."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "An old man."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A fat man."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A scrawny man."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A hardy woman."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A plain-faced maid."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A large woman."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "An odd foreigner."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "The vendor is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Cheerful."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Surly."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Suspicious."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Friendly."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Alert."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Sleepy."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Nervous."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Frightened."
+                }
+            ]
+        },
+        {
+            "dice": "d4",
+            "name": "This vendor is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Very busy; customers are waiting in line to make purchases."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Reasonably busy; the vendor makes a sale every few minutes."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A little slow; the vendor makes a few sales every hour."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Very slow; the vendor makes only a few sales a day."
+                }
+            ]
+        }
+    ],
+    "title": "Urban Marketplace",
+    "use_with": [
+        {
+            "link": "43xgqj",
+            "title": "City landmarks and districts"
+        },
+        {
+            "link": "4jn2j9",
+            "title": "Quick city-building"
+        },
+        {
+            "link": "3tkdty",
+            "title": "Reputation and rumors"
+        },
+        {
+            "link": "4psde0",
+            "title": "Shops"
+        },
+        {
+            "link": "3xw3lq",
+            "title": "Street names"
+        },
+        {
+            "link": "4dglp9",
+            "title": "Street food"
+        }
+    ]
+}

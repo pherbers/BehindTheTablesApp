@@ -1,0 +1,505 @@
+{
+    "description": "These tables are designed to quickly generate an interesting healer NPC, from herbalists and potionmakers to scholars and priests.",
+    "id": "4nldep",
+    "keywords": [
+        "sickness",
+        "plague",
+        "fever",
+        "chills",
+        "typhoid",
+        "cholera",
+        "greyscale",
+        "the bloody flux"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/4nldep",
+    "related_tables": [],
+    "tables": [
+        {
+            "dice": "d12",
+            "name": "This disease is spread by...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Inhaling contaminated air."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Drinking contaminated water."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Consuming contaminated food."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Skin-to-skin contact."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Saliva, sweat, mucus, and/or blood."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Sexual contact."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "The bite of a fly or tick."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "The bite of a rat or bat."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Nothing; it\u2019s a genetic condition."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Nothing; it\u2019s a chronic condition brought on by lifestyle choices."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Mysterious, magic-related means."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Unknown means."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "Once exposed to the disease, a person develops symptoms...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Almost immediately (1-8 hours)."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Very rapidly (4-24 hours)."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Within a few days (1-4 days)."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "In the next week (2-8 days)."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "In the next few weeks (1-4 weeks)."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Some time in the next 2 months (2-8 weeks)."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Some time in the next year; (2-12 months)."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Some time in the person\u2019s life (2 to 40 yrs)."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "This disease is most frequently encountered in regions with...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A tropical climate."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "An arid climate."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A mediterranean climate."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A coastal climate."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A cold climate."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A temperate climate."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A foggy or damp climate."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Swamps, bogs, or marsh land."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Dense jungles."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "High altitude."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Common symptoms affect the...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Eyes (d8): 1. blurred vision; 2. light sensitivity; 3. puffiness; 4. poor night vision; 5. watery eyes; 6. yellow discharge; 7. double vision; 8. difficulty focusing."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Brain (d8): 1. changes in mood; 2. dissociative fugues; 3. dizziness; 4. drowsiness; 5. headaches; 6. insomnia; 7. nightmares; 8. shortened attention span."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Chest (d8): 1. chest pain; 2. congestion; 3. coughing fits; 4. hives; 5. wheezing; 6. shortness of breath; 7. coughing up blood; 8. tightness in chest."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Ears and throat (d8): 1. hearing loss; 2. difficulty swallowing; 3. excessive ear wax; 4. sore throat; 5. swollen glands; 6. vertigo; 7. bleeding from the ears; 8. loss of voice."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Head and nose (d8): 1. dry scalp; 2. hair loss; 3. pimples; 4. sinus pressure; 5. sneezing; 6. swollen cheeks; 7. runny nose; 8. bleeding from the nose."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Limbs (d8): 1. achiness; 2. joint pain; 3. muscle spasms; 4. restlessness; 5. stiff joints; 6. weakness; 7. bruising; 8. discoloration of the fingernails or toenails."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Mouth (d8): 1. bleeding gums; 2. canker sores; 3. cracked lips; 4. dry mouth; 5. foamy, excessive salivation; 6. tooth pain; 7. tooth discoloration; 8. tooth decay."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Sex organs (d8): 1. loss of desire; 2. pale discharge; 3. inability to climax; 4. open sores; 5. pain during urination; 6. warts; 7. itchy bumps; 8. bloody discharge."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Skin (d8): 1. black or purple spots; 2. boils; 3. itchiness; 4. pale or yellow hue; 5. peeling; 6. rash; 7. red spots; 8. scales."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Stomach and gut (d8): 1. bloody stool; 2. constipation; 3. excessive flatulence; 4. loose stool; 5. loss of appetite; 6. nausea and vomiting; 7. ulcers, 8. vomiting blood."
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "In rare cases, symptoms may include...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Amnesia; partial or complete."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Blindness or deafness."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Coma; short-term, long-term, or indefinite."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Complete changes in personality."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Concurrent vomiting and diarrhea."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Coughing up blood."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Delusions and paranoia."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Extreme, persistent nausea."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Fits of narcolepsy."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Hallucinations."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Insomnia."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Lengthy fits of high fever."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "Loss of muscle coordination."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "Paralysis; partial or complete."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "Periodic, temporary loss of consciousness."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "Sleep walking."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "Susceptibility to other illnesses."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "Tumors or tumor-like growths."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "Wild mood swings."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "Sudden aversion to one or more familiar foods, individuals, or objects."
+                }
+            ]
+        },
+        {
+            "dice": "d4",
+            "name": "Symptoms are...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Acute and curable; once the afflicted is cured, the symptoms never return. "
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Acute but recurring; once the afflicted is cured, symptoms may return later in life."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Chronic but completely curable; once the afflicted is cured, symptoms rarely return."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Chronic but treatable; once the afflicted is cured, symptoms will likely reoccur every few years."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "If untreated, the disease is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Rarely serious; running its course in a few days or weeks. "
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Rarely lethal; fatal complications occur in less than 1% of cases."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Sometimes debilitating, but rarely lethal; permanent disabilities occur in approximately 10% of cases, and fatal complications in less than 1% of cases"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Sometimes lethal; fatal complications occur in approximately 10% of cases."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Often debilitating, and sometimes lethal; permanent disabilities occur in more than 50% of cases, and fatal complications in approximately 10% of cases."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Often lethal; fatal complications occur in more than 50% of cases."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "The disease can be cured with...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A simple herbal remedy."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A complex herbal potion or salve."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A widely available healing potion or balm."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A rare alchemical concoction.  "
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "No known earthly substances."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Basic healing spells and incantations."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Advanced healing spells and potions."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Extremely powerful and rare magic."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The time-course of treatment is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Rapid; the afflicted is cured within 1 day."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Short; the afflicted is cured within a few days of receiving treatment."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Typical; the afflicted is cured within a few days of receiving treatment."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Lengthy; the afflicted is cured within a few weeks of receiving treatment."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Long-term; the afflicted is cured within a few months of receiving treatment."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Erratic; the time-course of treatment varies greatly among individuals or among outbreaks of the disease. "
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "The magical disease is associated with...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Belching up vermin."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Demonic or ghostly possession."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "The desire to consume humanoid flesh."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "The desire to consume rocks or dirt."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "The desire to consume pixies and sprites."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "The desire to dig a deep hole."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "The desire to build an immense wall."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Gaining the personality of a long-dead, well-known magic-user."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Gradually morphing into a wild beast."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Gradually morphing into a puddle of ooze."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Imitating the behavior of a common beast."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Loss of the power of speech."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "Periodic spells of befuddlement."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "Purple or green splotches on the skin."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "Rapid growth of facial hair."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "Rapid growth of fingernails or teeth."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "Rapid hair growth."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "Uncontrollable fits of laughter or tears."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "Uncontrollable singing or dancing."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "Overactive libido."
+                }
+            ]
+        }
+    ],
+    "title": "Diseases",
+    "use_with": [
+        {
+            "link": "4nlcyd",
+            "title": "Healers"
+        },
+        {
+            "link": "45x72u",
+            "title": "Herb lore"
+        }
+    ]
+}

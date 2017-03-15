@@ -1,0 +1,346 @@
+{
+    "description": "These are tables for quickly coming up with a flavorful meal or a menu for a pub, inn, tavern, or encampment in a mining town, village, or encampment or along a high road through a mountain pass.",
+    "id": "4dx43x",
+    "keywords": [
+        "mining camp",
+        "mining village",
+        "miner",
+        "49er",
+        "oh my darlin'",
+        "eat",
+        "sleep",
+        "dig"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/4dx43x",
+    "related_tables": [
+        {
+            "link": "4dpnzh",
+            "title": "Dinner around the campfire"
+        },
+        {
+            "link": "4dv87r",
+            "title": "Dinner at a dockside tavern"
+        },
+        {
+            "link": "4dx2z9",
+            "title": "Dinner at a hunters' lodge"
+        },
+        {
+            "link": "4dmepa",
+            "title": "Dinner in a dwarvish alehouse"
+        }
+    ],
+    "tables": [
+        {
+            "dice": "d10",
+            "name": "Tonight, at a mining town pub, we dine on...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Stewed."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Roasted."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Fried."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Smoked."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Baked."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Brined."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Seared."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Peppered."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Salted."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Pickled."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Goat."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Chicken."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Blackbird."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Mutton."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Lamb."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Ram."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Ewe."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Pork."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Sausage."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Bacon."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "...with...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Golden potatoes."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Red potatoes."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Beets."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Leeks."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Lentils."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Red beans."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Black beans."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "White beans."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Turnip mash."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Diced turnips."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "White onions."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Yellow onions."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "...and...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Carrots."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Red cabbage."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Green cabbage."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Purple cabbage."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Mushrooms."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Pine nuts."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Raisins."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Parsley."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Radishes."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Peas."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "On the side, there is some...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Hard tack."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Fresh bread."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Crusty bread."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Rye bread."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Oat bread."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Pumpernickel bread."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Sharp cheese."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Stinky cheese."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Goat cheese."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Sheep's milk cheese."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "To wash it down, we have some...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Bitter ale."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Wheat ale."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Black ale."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Stout."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Porter."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Mead."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Strong wine."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Red wine."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Brandy."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Whisky."
+                }
+            ]
+        }
+    ],
+    "title": "Dinner at a Mining Town Pub",
+    "use_with": [
+        {
+            "link": "46ma8g",
+            "title": "Bards"
+        },
+        {
+            "link": "43wnpg",
+            "title": "Harlots"
+        },
+        {
+            "link": "43vqqs",
+            "title": "Miners"
+        },
+        {
+            "link": "43ufyr",
+            "title": "Mines"
+        },
+        {
+            "link": "42rm5s",
+            "title": "Mountains"
+        },
+        {
+            "link": "3t2qzc",
+            "title": "Outlaws"
+        }
+    ]
+}

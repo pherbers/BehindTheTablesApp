@@ -1,0 +1,521 @@
+{
+    "description": "These are tables for generating a mercenary troop to serve as allies, foes, or foils to your PCs.",
+    "id": "3tkdty",
+    "keywords": [
+        "military",
+        "war",
+        "warlord",
+        "general",
+        "officer",
+        "soldier",
+        "infantry",
+        "army",
+        "fighter",
+        "mercenary",
+        "sellsword"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/3tkdty",
+    "related_tables": [
+        {
+            "link": "3tjg9d",
+            "title": "Military companies"
+        }
+    ],
+    "tables": [
+        {
+            "dice": "d12",
+            "name": "The mercenary troop\u2019s colors are...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Black."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Red / scarlet."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Gold."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Forest green."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Royal blue."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Brown / beaver."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Dark grey / gunmetal."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Maroon."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Navy blue."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Dark brown / chocolate."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Steel / blue grey."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Olive green."
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "The mercenary troop\u2019s banner features...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A skull."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A ghost."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A clenched fist."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A flame."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "An arrow."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A dagger."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A sword."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A hammer."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "The sun."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "The moon."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A bat."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A bull."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "A dragon."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "A falcon."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "A lion."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "A raven."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "A scorpion."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "A snake."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "A vulture."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "A wolf."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "The mercenary troop\u2019s commander is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A brazen outlaw."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A charismatic demagogue."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A mysterious foreigner."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "An outcast from a prominent family."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A ruthless killer."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A dashing swashbuckler."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A brutish thug."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A celebrated war hero."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A disgraced knight."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A former arena champion."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The mercenary troop\u2019s attitude toward their commander is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Friendly and loyal."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Respectful and business-like."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Cautious and uncertain."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Terrified and tight-lipped."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Disappointed and rude."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Angry and rebellious."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The mercenary troop is currently...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Gainfully employed as guards."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Gainfully employed in war."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Under contract with some criminals."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Under contract with some merchants."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Under contract with some nobles."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Looking for work."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "The mercenary troop specializes in...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Siege-breaking."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Holding a redoubt or fort."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Frontal assault."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Infiltration tactics."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Skirmishes."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Laying ambushes."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Patrolling."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Flanking maneuvers."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Guerilla tactics."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Raiding and pillaging."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "The mercenary troop is notorious for...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Taking no prisoners."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Leaving the dead to be eaten by beasts."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Tattooing or branding prisoners."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Scalping or flaying prisoners."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Burning villages and fields."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Betraying their employers."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Singing bawdy songs."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Drinking too much ale and wine. "
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "The mercenary troop fights with...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Hit-and-run tactics."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Making a direct assault."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Fancy footwork."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Unpredictable lurches."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Masterful combat maneuvers."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "No mercy."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Lots of taunts and jeers."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Dirty tactics."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "Many of the mercenaries in the troop are armored in...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Exotic robes."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Leather armor."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Studded leather armor."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Hide armor"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Ringmail."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Chainmail."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Scale armor."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Plate armor."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "Many of the mercenaries in the troop are wielding...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Longswords."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Longswords and shields."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Shortswords and spears."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Shortswords and shields."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Longswords and crossbows."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Greatswords."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Spears and shields."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Battleaxes."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Battleaxes and shields."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Warhammers."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Scimitars."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Scimitars and a shields."
+                }
+            ]
+        }
+    ],
+    "title": "Mercenary Troops",
+    "use_with": [
+        {
+            "link": "3sl2r2",
+            "title": "Merchant caravans"
+        },
+        {
+            "link": "3zmoy8",
+            "title": "Millitary camps"
+        },
+        {
+            "link": "3sj8mc",
+            "title": "Noble houses"
+        },
+        {
+            "link": "3sjaxq",
+            "title": "Nobles"
+        },
+        {
+            "link": "3t2qzc",
+            "title": "Outlaw bands"
+        },
+        {
+            "link": "3tkdty",
+            "title": "Reputation and rumors"
+        },
+        {
+            "link": "3tjdae",
+            "title": "Savage hordes"
+        },
+        {
+            "link": "4b97s8",
+            "title": "Sellswords](https://redd.it/41bq04) and [individual mercenaries"
+        }
+    ]
+}

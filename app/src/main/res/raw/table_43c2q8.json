@@ -1,0 +1,247 @@
+{
+    "description": "Hopefully these tables will provide you with the tools and flavor you are looking for to grow your own swamp. Feel free to add to the tables or make suggestions on what else can go into a marsh to make it flavorful and unique! Try to pace all this out as the players make their way into the swamp.",
+    "id": "43c2q8",
+    "keywords": [
+        "swamp",
+        "marsh",
+        "bog",
+        "mire",
+        "wetlands"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/43c2q8",
+    "related_tables": [],
+    "tables": [
+        {
+            "dice": "d10",
+            "name": "Roll Odor",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "No odor"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Uncomfortable sulfur smell. After some exposure it causes players eyes to water"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Death and decay of corpses lost in the swamp"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Earthy musk"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Feet from a soldier who has been marching all day"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Compost pile"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Wet dog"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Odorless gas. Players will begin to get headaches if over exposed"
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Spoiled meat"
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Metallic scent that you can also taste in the back of your throat"
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Roll Perception Fodder",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Lights moving in the distance. They vanish as players get near"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "The trees are all dead. Their features almost resemble faces..."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Large sections of waist deep water. Considered difficult terrain"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Several trees have large claw marks carved into them"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Canine foot prints that slowly change into human prints "
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A single tree producing apples white as snow. None of them fall to the ground and they are "
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "The rotting corpse of a spider the size of a house. No sign of death"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Small spiderwebs that are face level. DC 14 Perception or walk into them"
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Several humanoid skeletons. Their bones are scattered and look gnawed on"
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A small graveyard. None of the graves are marked and several look as if they were dug up recently"
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Roll Friendly Critters",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Clouds of insects buzzing around"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A murder of crows that remain relatively silent. If players get too close they explode into a "
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Large beetles that enjoy resting atop players heads"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Crawling Claws that skitter away when they get spotted"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Spiders the size of your fist. They catch birds and bats in their webs"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Large millipedes crawling in and out of fallen logs"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Toads that look unusually large"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Very large brown snakes that look to be branches until disturbed"
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "2-3 human children clothed in rags. They speak no languages and flee the party "
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A very lost and confused looking treant. It appears as the swamp is slowly claiming him"
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Roll Wild Monsters",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Pack of ghouls led by a ghast"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Pack of jackal led by a jackalwere"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Several vine blights that lie in wait"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Gnolls and their leader. Traps are set all through the swamp"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Otyugh that sees the players as a new meal"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Several vampire spawn that stalk the players. They strike at night when the party sleeps"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Group of ghosts. They just want some new company in the swamp"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Zombies that lie beneath the water. They try to drown whoever gets too close"
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A few Will o wisps. They will attempt to split the party and take them down one by one."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Undead treants. Use Zombie template"
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Roll Boss Monsters",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Coven of hags that has been watching the players since they entered. Haunts their dreams if "
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Banshee and her group of ghosts. They are looking for new friends"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A Spider the size of a house. Has a small spider army following him"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "One or several wraiths. They have a small army of the damned at their command"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A beholder guarding a graveyard. One of the graves leads to a small dungeon"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A very weathered looking vampire. He is moving a large coffin with the help of vampire "
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Medusa that is looking to add more statues to her collection. The party is a good start"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Pack of Lycanthropes that have been terrorizing the nearby farmers/villages"
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A wizard from a nearby town and the flesh golems he is making in the swamp. He isn't thrilled you found him"
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Lich who is working on relocating his lair to here. A castle looks to be under construction"
+                }
+            ]
+        }
+    ],
+    "title": "Swamps",
+    "use_with": []
+}

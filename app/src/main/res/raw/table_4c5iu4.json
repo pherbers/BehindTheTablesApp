@@ -1,0 +1,2451 @@
+{
+    "description": "A table for all kinds of random potions. Perfect for stocking shops or random treasure loot.",
+    "id": "4c5iu4",
+    "keywords": [
+        "Potions",
+        "magic",
+        "treasure",
+        "chest,"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/4c5iu4",
+    "related_tables": [],
+    "tables": [
+        {
+            "dice": "d10",
+            "name": "Title. This is a...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Potion."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Elixir"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Draught"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Vial"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Philter"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Tonic"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Brew"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Ichor"
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Juice"
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Concoction"
+                }
+            ]
+        },
+        {
+            "dice": "d100",
+            "name": "Effect. The potions main effect is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Healing. It instantly regenerates some health when drank."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Vigor. Gives temporary health when drank."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Vitality. It slowly regenerates health over a period of some hours."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Might. It gives a bonus to attack rolls after drinking."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Courage. Gives immunity to fear and some temporary inspiration."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Giant Strength. It gives the user much more strength."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Flame Resistance. It gives resistance to fire damage."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Cold Resistance. It gives resistance to cold damage."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Necro Resistance. Gives resistance to necrotic  damage."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Radiant Resistance. Gives resistance to radiant damage."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Stoneskin. Gives resistance to martial damage."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Acid Resistance. Gives resistance to acid."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "Lightning Resistance. Gives resistance to lightning damage."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "Succubus Charm. Makes the drinker irresistible to nearby people."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "Shielding. Gives the user a magical shield of energy."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "Flame Breath. Gives the user fire breath for a short time."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "Growth. Makes the user double in size."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "Shrinking. Makes the user half in size."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "Comprehension. Lets the user understand all languages."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "Fertility. Makes the user very fertile, almost certain to make a baby under its effects!"
+                },
+                {
+                    "dice_val": "21",
+                    "entry": "Intimidation. Gives the user a huge booming voice that terrifies those around."
+                },
+                {
+                    "dice_val": "22",
+                    "entry": "Luck. It gives the user a temporary boost  to luck."
+                },
+                {
+                    "dice_val": "23",
+                    "entry": "Mana. Gives the user more magical power to cast with."
+                },
+                {
+                    "dice_val": "24",
+                    "entry": "Arcane. Gives the user more powerful spells."
+                },
+                {
+                    "dice_val": "25",
+                    "entry": "Animal form. Makes the user turn into a random animal."
+                },
+                {
+                    "dice_val": "26",
+                    "entry": "Dreams. Makes the user get lost in a hallucinary dream world of their perfect dream."
+                },
+                {
+                    "dice_val": "27",
+                    "entry": "Nightmares. Makes the user get lost in  a hallucinary dream world of their worst nightmares."
+                },
+                {
+                    "dice_val": "28",
+                    "entry": "Stamina. Gives the user more stamina and constitution."
+                },
+                {
+                    "dice_val": "29",
+                    "entry": "Fleet foot. Makes the user have more speed."
+                },
+                {
+                    "dice_val": "30",
+                    "entry": "Knowledge. Increases the users intelligence temporarily."
+                },
+                {
+                    "dice_val": "31",
+                    "entry": "The Bard. Increases the users charisma and charm temporarily."
+                },
+                {
+                    "dice_val": "32",
+                    "entry": "Disguise. Changes the users form to a disguised form of any race and appeance."
+                },
+                {
+                    "dice_val": "33",
+                    "entry": "Feast. Removes all hunger and thirst from the target."
+                },
+                {
+                    "dice_val": "34",
+                    "entry": "Youth. Makes the user grow some years younger."
+                },
+                {
+                    "dice_val": "35",
+                    "entry": "Age. Makes the user grow some years older."
+                },
+                {
+                    "dice_val": "36",
+                    "entry": "Furnace. Makes the user radiate with a damaging aura."
+                },
+                {
+                    "dice_val": "37",
+                    "entry": "Eagle Sight. Gives the user strong vision and a bonus to perception."
+                },
+                {
+                    "dice_val": "38",
+                    "entry": "Health. Cures all diseases and illnesses."
+                },
+                {
+                    "dice_val": "39",
+                    "entry": "Invulnerability. Freezes the user in stasis that makes them immune to damage but they cannot move or act."
+                },
+                {
+                    "dice_val": "40",
+                    "entry": "Riddle me gone. Gives the user the cure to a single riddle."
+                },
+                {
+                    "dice_val": "41",
+                    "entry": "Horrifying appearance. Makes the user look more ugly for a time."
+                },
+                {
+                    "dice_val": "42",
+                    "entry": "Beautiful appearance. Makes the user appear more attractive for a time."
+                },
+                {
+                    "dice_val": "43",
+                    "entry": "Swordsmanship. Makes the user more effective and versatile with a blade."
+                },
+                {
+                    "dice_val": "44",
+                    "entry": "Bowmanship. Makes the user more effective with a bow or ranged weapon."
+                },
+                {
+                    "dice_val": "45",
+                    "entry": "Nymph Breath. Gives water breathing."
+                },
+                {
+                    "dice_val": "46",
+                    "entry": "Midas. Makes the user turn things to gold."
+                },
+                {
+                    "dice_val": "47",
+                    "entry": "Berserker. Makes the user rage with great strength."
+                },
+                {
+                    "dice_val": "48",
+                    "entry": "Utter Hatred. Makes the user have bonuses against a particular type of enemy."
+                },
+                {
+                    "dice_val": "49",
+                    "entry": "Oracle. Lets the user divinate the future."
+                },
+                {
+                    "dice_val": "50",
+                    "entry": "Demonic Leech. Heals a portion of all damage the user deals."
+                },
+                {
+                    "dice_val": "51",
+                    "entry": "Fey Nature. Lets the user become one with animals and nature around them."
+                },
+                {
+                    "dice_val": "52",
+                    "entry": "Tracelessness. Makes the user very hard to follow."
+                },
+                {
+                    "dice_val": "53",
+                    "entry": "Gracefulness. Makes the user have a better acrobatics skill."
+                },
+                {
+                    "dice_val": "54",
+                    "entry": "Goblin Climb. Gives the user a bonus to climbing."
+                },
+                {
+                    "dice_val": "55",
+                    "entry": "Dead Ringer. Makes the user appear completely dead to all magic."
+                },
+                {
+                    "dice_val": "56",
+                    "entry": "One Leafed Clover. Gives the user worst luck."
+                },
+                {
+                    "dice_val": "57",
+                    "entry": "Possession. Lets the user gain control of a nearby creature, their body comatosed while they do."
+                },
+                {
+                    "dice_val": "58",
+                    "entry": "Owls Wake. Makes the user need no sleep for a time."
+                },
+                {
+                    "dice_val": "59",
+                    "entry": "Hawks Flight. Lets the user fly."
+                },
+                {
+                    "dice_val": "60",
+                    "entry": "Peace. Makes the user very calm and unable to harm others."
+                },
+                {
+                    "dice_val": "61",
+                    "entry": "Rejuvenation. Heals a single scar or bad injury on the user such as a missing arm."
+                },
+                {
+                    "dice_val": "62",
+                    "entry": "Sphinxes Truth. Makes the user tell the truth."
+                },
+                {
+                    "dice_val": "63",
+                    "entry": "Serpent Tongue. Makes the user only able to lie."
+                },
+                {
+                    "dice_val": "64",
+                    "entry": "Navigation. Makes the user unable to get lost and find where they need."
+                },
+                {
+                    "dice_val": "65",
+                    "entry": "Hook Horror. The users hands become sharp weaponised blades."
+                },
+                {
+                    "dice_val": "66",
+                    "entry": "Schaffensfreude. Makes the enemies take damage as they deal it to the user."
+                },
+                {
+                    "dice_val": "67",
+                    "entry": "Invisibility. Makes the user invisible. "
+                },
+                {
+                    "dice_val": "68",
+                    "entry": "Wild magic. Taps into wild magic making an absolutely random thing happen."
+                },
+                {
+                    "dice_val": "69",
+                    "entry": "Fame. Makes the user more famous."
+                },
+                {
+                    "dice_val": "70",
+                    "entry": "Goats Trek. Makes the user immune to the toils of long travels and bad weather."
+                },
+                {
+                    "dice_val": "71",
+                    "entry": "Gargoyle Toughness. Increases the users constitution."
+                },
+                {
+                    "dice_val": "72",
+                    "entry": "Atomic Clock. Lets the user know the exact tme and date."
+                },
+                {
+                    "dice_val": "73",
+                    "entry": "Transmutation. Lets the user have the ability to change somethings properties."
+                },
+                {
+                    "dice_val": "74",
+                    "entry": "Iron Skin. Turns the users skin to metal giving them many resistances."
+                },
+                {
+                    "dice_val": "75",
+                    "entry": "Sex Change. Changes the users gender."
+                },
+                {
+                    "dice_val": "76",
+                    "entry": "Race Change. Changes the users race."
+                },
+                {
+                    "dice_val": "77",
+                    "entry": "Musical Breath. Makes the user say everything in song, and fey music follows them in the air."
+                },
+                {
+                    "dice_val": "78",
+                    "entry": "Utter Understanding. Makes the user know very intimately about one exact thing. Random, or they can decide."
+                },
+                {
+                    "dice_val": "79",
+                    "entry": "Split Form. The user turns into two or three tiny versions of themselves and controls them all."
+                },
+                {
+                    "dice_val": "80",
+                    "entry": "Flavour. Makes anything and everything taste amazing!"
+                },
+                {
+                    "dice_val": "81",
+                    "entry": "Glimmer. Makes the user and its gear instantly clean and as good looking as possible."
+                },
+                {
+                    "dice_val": "82",
+                    "entry": "Love. Makes the user and someone else fall in love."
+                },
+                {
+                    "dice_val": "83",
+                    "entry": "Poison. Poisons the user, weakening them."
+                },
+                {
+                    "dice_val": "84",
+                    "entry": "Rebirth. Resurrects the user if they die soon after drinking."
+                },
+                {
+                    "dice_val": "85",
+                    "entry": "Elemental form. Turns the user to an elemental form relevant to their personality."
+                },
+                {
+                    "dice_val": "86",
+                    "entry": "True form. Turns the user into a familiar like creature similar to their personality."
+                },
+                {
+                    "dice_val": "87",
+                    "entry": "Gods Touch. Gives the user a holy connection to their god or fiendish deity."
+                },
+                {
+                    "dice_val": "88",
+                    "entry": "Antidepressant. Does what it says on the tin."
+                },
+                {
+                    "dice_val": "89",
+                    "entry": "Ghostly Form. Makes the user intangible and able to phase through objects."
+                },
+                {
+                    "dice_val": "90",
+                    "entry": "Artisans Skill. Gives the user skill in a particular art temporarily."
+                },
+                {
+                    "dice_val": "91",
+                    "entry": "Godly form. Improves all stats."
+                },
+                {
+                    "dice_val": "92",
+                    "entry": "Bless Weapon. Makes the users weapons do more damage."
+                },
+                {
+                    "dice_val": "93",
+                    "entry": "Euphoria. Makes the user feel amazing and trip out."
+                },
+                {
+                    "dice_val": "94",
+                    "entry": "Bodyguard. Creates a spectral bodyguard for a short time who obeys orders."
+                },
+                {
+                    "dice_val": "95",
+                    "entry": "Babelfish. Lets the user speak any language but not understand it."
+                },
+                {
+                    "dice_val": "96",
+                    "entry": "Preservation. Stops whatever its poured on from rotting or degrading."
+                },
+                {
+                    "dice_val": "97",
+                    "entry": "Fear. Makes the user terrified."
+                },
+                {
+                    "dice_val": "98",
+                    "entry": "Night vision. Gives the ability to see in the dark."
+                },
+                {
+                    "dice_val": "99",
+                    "entry": "Tracking. Lets the user track an enemy."
+                },
+                {
+                    "dice_val": "100",
+                    "entry": "Cure-all. Cures any status effects."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Strength. The potions strength is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Regular with a slight side effect."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Regular with no side effect."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Regular with a strong side effect."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Minor with a strong side effect."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Minor with a slight side effect."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Major with a strong side effect."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Major with a small side effect."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A poison. Almost no positive affect all side effect."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Temporary but strong and wears off quickly."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Seemingly permanent."
+                }
+            ]
+        },
+        {
+            "dice": "d100",
+            "name": "Side Effect. The potion also causes (usually) temporary...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Nothing bad at all!"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Puts the user to sleep."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Rapid hair growth all over the body."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Bleeding from the eyes."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Vivid hallucinations."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Flashbacks of your own eventual demise."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "The skin to crack and appear distorted."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Spots to grow on the skin."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Diarrhoea."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Vomiting."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Blurred Vision."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Blindness."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "Deafness."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "Mutism."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "Health loss via rapid bleeding."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "A sudden horrific accent."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "The irresistible urge to dance."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "The hearing of demons."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "Loss of balance."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "Everything tasting like dirt for some time."
+                },
+                {
+                    "dice_val": "21",
+                    "entry": "Excessive drooling."
+                },
+                {
+                    "dice_val": "22",
+                    "entry": "Loss of intelligence."
+                },
+                {
+                    "dice_val": "23",
+                    "entry": "Loss of strength."
+                },
+                {
+                    "dice_val": "24",
+                    "entry": "Loss of speed."
+                },
+                {
+                    "dice_val": "25",
+                    "entry": "Loss of charisma."
+                },
+                {
+                    "dice_val": "26",
+                    "entry": "Genuine happiness."
+                },
+                {
+                    "dice_val": "27",
+                    "entry": "Hunger."
+                },
+                {
+                    "dice_val": "28",
+                    "entry": "Thirst."
+                },
+                {
+                    "dice_val": "29",
+                    "entry": "Trouble breathing."
+                },
+                {
+                    "dice_val": "30",
+                    "entry": "Sudden Moustache. "
+                },
+                {
+                    "dice_val": "31",
+                    "entry": "Poisoning."
+                },
+                {
+                    "dice_val": "32",
+                    "entry": "Petrification."
+                },
+                {
+                    "dice_val": "33",
+                    "entry": "Stunning."
+                },
+                {
+                    "dice_val": "34",
+                    "entry": "Immobilisation."
+                },
+                {
+                    "dice_val": "35",
+                    "entry": "Increased libido."
+                },
+                {
+                    "dice_val": "36",
+                    "entry": "Fidgeting."
+                },
+                {
+                    "dice_val": "37",
+                    "entry": "Itchiness."
+                },
+                {
+                    "dice_val": "38",
+                    "entry": "Rashes."
+                },
+                {
+                    "dice_val": "39",
+                    "entry": "Attracts bears."
+                },
+                {
+                    "dice_val": "40",
+                    "entry": "Magically covers in dirt."
+                },
+                {
+                    "dice_val": "41",
+                    "entry": "Horrifying stench."
+                },
+                {
+                    "dice_val": "42",
+                    "entry": "Baldness."
+                },
+                {
+                    "dice_val": "43",
+                    "entry": "Swelling."
+                },
+                {
+                    "dice_val": "44",
+                    "entry": "Loss of a random item."
+                },
+                {
+                    "dice_val": "45",
+                    "entry": "Curses."
+                },
+                {
+                    "dice_val": "46",
+                    "entry": "Damage."
+                },
+                {
+                    "dice_val": "47",
+                    "entry": "Weakness to a magical damage type."
+                },
+                {
+                    "dice_val": "48",
+                    "entry": "Weakness to physical damage."
+                },
+                {
+                    "dice_val": "49",
+                    "entry": "Feelings of Guilt"
+                },
+                {
+                    "dice_val": "50",
+                    "entry": "Feelings of Anxiety."
+                },
+                {
+                    "dice_val": "51",
+                    "entry": "Feelings of Shame."
+                },
+                {
+                    "dice_val": "52",
+                    "entry": "Sneezing."
+                },
+                {
+                    "dice_val": "53",
+                    "entry": "Uncontrollable crying."
+                },
+                {
+                    "dice_val": "54",
+                    "entry": "Need to sing heroic music."
+                },
+                {
+                    "dice_val": "55",
+                    "entry": "Urge to hug."
+                },
+                {
+                    "dice_val": "56",
+                    "entry": "Kleptomania."
+                },
+                {
+                    "dice_val": "57",
+                    "entry": "Burping."
+                },
+                {
+                    "dice_val": "58",
+                    "entry": "Loss of smell."
+                },
+                {
+                    "dice_val": "59",
+                    "entry": "Insomnia."
+                },
+                {
+                    "dice_val": "60",
+                    "entry": "Paranoia."
+                },
+                {
+                    "dice_val": "61",
+                    "entry": "Bad luck."
+                },
+                {
+                    "dice_val": "62",
+                    "entry": "Summons imps that want to kill you."
+                },
+                {
+                    "dice_val": "63",
+                    "entry": "Summons angry bees."
+                },
+                {
+                    "dice_val": "64",
+                    "entry": "Fear of something."
+                },
+                {
+                    "dice_val": "65",
+                    "entry": "Temporary madness."
+                },
+                {
+                    "dice_val": "66",
+                    "entry": "Relaxation."
+                },
+                {
+                    "dice_val": "67",
+                    "entry": "Appreciation of colours and sound."
+                },
+                {
+                    "dice_val": "68",
+                    "entry": "Tripping the hell out."
+                },
+                {
+                    "dice_val": "69",
+                    "entry": "Painful lust."
+                },
+                {
+                    "dice_val": "70",
+                    "entry": "Light headedness. "
+                },
+                {
+                    "dice_val": "71",
+                    "entry": "Increased confidence."
+                },
+                {
+                    "dice_val": "72",
+                    "entry": "Recklessness."
+                },
+                {
+                    "dice_val": "73",
+                    "entry": "Rage."
+                },
+                {
+                    "dice_val": "74",
+                    "entry": "Sadness."
+                },
+                {
+                    "dice_val": "75",
+                    "entry": "Dizziness."
+                },
+                {
+                    "dice_val": "76",
+                    "entry": "Pain."
+                },
+                {
+                    "dice_val": "77",
+                    "entry": "Slight possession."
+                },
+                {
+                    "dice_val": "78",
+                    "entry": "Allergic reaction to your favourite food."
+                },
+                {
+                    "dice_val": "79",
+                    "entry": "Strong believe you\u2019re someone else."
+                },
+                {
+                    "dice_val": "80",
+                    "entry": "Severe debt."
+                },
+                {
+                    "dice_val": "81",
+                    "entry": "Grumpiness."
+                },
+                {
+                    "dice_val": "82",
+                    "entry": "Muscle spasms."
+                },
+                {
+                    "dice_val": "83",
+                    "entry": "A bloated feeling."
+                },
+                {
+                    "dice_val": "84",
+                    "entry": "A cold."
+                },
+                {
+                    "dice_val": "85",
+                    "entry": "A fever."
+                },
+                {
+                    "dice_val": "86",
+                    "entry": "Becoming strangely light."
+                },
+                {
+                    "dice_val": "87",
+                    "entry": "Weakness."
+                },
+                {
+                    "dice_val": "88",
+                    "entry": "The urge to fight."
+                },
+                {
+                    "dice_val": "89",
+                    "entry": "The need to make friends."
+                },
+                {
+                    "dice_val": "90",
+                    "entry": "Nausea."
+                },
+                {
+                    "dice_val": "91",
+                    "entry": "Mood swings."
+                },
+                {
+                    "dice_val": "92",
+                    "entry": "Addiction."
+                },
+                {
+                    "dice_val": "93",
+                    "entry": "Need for booze."
+                },
+                {
+                    "dice_val": "94",
+                    "entry": "Drunkeness."
+                },
+                {
+                    "dice_val": "95",
+                    "entry": "Coughing."
+                },
+                {
+                    "dice_val": "96",
+                    "entry": "Uncontrollable babbling."
+                },
+                {
+                    "dice_val": "97",
+                    "entry": "Slight aches."
+                },
+                {
+                    "dice_val": "98",
+                    "entry": "A bad taste for some time."
+                },
+                {
+                    "dice_val": "99",
+                    "entry": "Giddiness."
+                },
+                {
+                    "dice_val": "100",
+                    "entry": "Laughter."
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "Container. The potion is in a...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A conical smooth glass bottle."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A square glass bottle."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A not quite watertight leather waterskin."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A stone flask."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A metal thermos."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A glass syringe."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A small medical vial."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A small shot sized bottle."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A large metal bottle."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A capped horn."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "An ornate very decorated glass bottle."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A geometric diamond shaped bottle."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "A translucent long wine bottle."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "A translucent beer bottle."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "A leather pouch."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "An inhaler like spray bottle."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "A coloured bottle."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "A bone flask."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "A small metal vial."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "A large bottle that can be swigged several times."
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "Appearance. The potion looks...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Clear."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Blue."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Green."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Red."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Pale Green."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Pink."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Light Blue."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "White."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Black."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Dark Grey."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Light grey."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Yellow."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "Orange."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "Gold."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "Rainbow."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "Bronze."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "Metallic."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "Purple."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "Brown."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "Dark Red."
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "Apperance 2. With...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Flecks of colour."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Swirls of colour."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Fizzing bubbles."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Bubbles suspended in it."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Some kind of bone floating in it."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Leaves and flowers in it."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Two separating liquid."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A bright glow."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A soft glow."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Stripes of colour."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Translucency."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A cloudy murkiness. "
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "Blood within it."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "Dirt floating in it."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "Chunks of metal in it."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "Some type of gore from a slain creature."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "Steam coming from it."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "A face in the liquid."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "Constantly moving and shifting liquid."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "A constant heat."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Texture. The potion is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Thick and sludgy."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Thin and watery."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Airy and bubbly."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Slimey."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Almost solid."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Oily."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Chunky."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Bitty."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Milky."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Almost gaseous."
+                }
+            ]
+        },
+        {
+            "dice": "d100",
+            "name": "Smell. The Potion smells like...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Nothing at all."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Sulphur."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Fresh air."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Baking cookies."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Flowers."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Rotting meat."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Egg."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Rotten eggs."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Fresh bread."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Blood."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Home."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Vomit."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "Garlic."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "Fruit."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "Chocolate."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "Beer."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "Smoke."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "Wood."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "Death."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "Orc."
+                },
+                {
+                    "dice_val": "21",
+                    "entry": "Wet dog."
+                },
+                {
+                    "dice_val": "22",
+                    "entry": "Wet goblin."
+                },
+                {
+                    "dice_val": "23",
+                    "entry": "Perfume."
+                },
+                {
+                    "dice_val": "24",
+                    "entry": "Cheap perfume."
+                },
+                {
+                    "dice_val": "25",
+                    "entry": "Musk."
+                },
+                {
+                    "dice_val": "26",
+                    "entry": "Garbage."
+                },
+                {
+                    "dice_val": "27",
+                    "entry": "Sand."
+                },
+                {
+                    "dice_val": "28",
+                    "entry": "The Forest."
+                },
+                {
+                    "dice_val": "29",
+                    "entry": "Nuts."
+                },
+                {
+                    "dice_val": "30",
+                    "entry": "Acidic."
+                },
+                {
+                    "dice_val": "31",
+                    "entry": "Spicy."
+                },
+                {
+                    "dice_val": "32",
+                    "entry": "Minty."
+                },
+                {
+                    "dice_val": "33",
+                    "entry": "Of chemicals."
+                },
+                {
+                    "dice_val": "34",
+                    "entry": "Dirt."
+                },
+                {
+                    "dice_val": "35",
+                    "entry": "Of something bad flavoured to taste better."
+                },
+                {
+                    "dice_val": "36",
+                    "entry": "Alcohol."
+                },
+                {
+                    "dice_val": "37",
+                    "entry": "Sugar."
+                },
+                {
+                    "dice_val": "38",
+                    "entry": "A damp cave."
+                },
+                {
+                    "dice_val": "39",
+                    "entry": "Strange."
+                },
+                {
+                    "dice_val": "40",
+                    "entry": "Indescribable but nice."
+                },
+                {
+                    "dice_val": "41",
+                    "entry": "Indescribable but horrid."
+                },
+                {
+                    "dice_val": "42",
+                    "entry": "Rain."
+                },
+                {
+                    "dice_val": "43",
+                    "entry": "Medical."
+                },
+                {
+                    "dice_val": "44",
+                    "entry": "Bacon."
+                },
+                {
+                    "dice_val": "45",
+                    "entry": "Coffee."
+                },
+                {
+                    "dice_val": "46",
+                    "entry": "Cut grass."
+                },
+                {
+                    "dice_val": "47",
+                    "entry": "Vanilla."
+                },
+                {
+                    "dice_val": "48",
+                    "entry": "The sea."
+                },
+                {
+                    "dice_val": "49",
+                    "entry": "Roast meat."
+                },
+                {
+                    "dice_val": "50",
+                    "entry": "Festive."
+                },
+                {
+                    "dice_val": "51",
+                    "entry": "Lavender."
+                },
+                {
+                    "dice_val": "52",
+                    "entry": "Lilac and Gooseberries."
+                },
+                {
+                    "dice_val": "53",
+                    "entry": "A fresh baby."
+                },
+                {
+                    "dice_val": "54",
+                    "entry": "A new car."
+                },
+                {
+                    "dice_val": "55",
+                    "entry": "Cirtrus."
+                },
+                {
+                    "dice_val": "56",
+                    "entry": "Leather."
+                },
+                {
+                    "dice_val": "57",
+                    "entry": "Metal."
+                },
+                {
+                    "dice_val": "58",
+                    "entry": "A forge."
+                },
+                {
+                    "dice_val": "59",
+                    "entry": "Fresh Cake."
+                },
+                {
+                    "dice_val": "60",
+                    "entry": "Paint."
+                },
+                {
+                    "dice_val": "61",
+                    "entry": "Wine."
+                },
+                {
+                    "dice_val": "62",
+                    "entry": "Polish."
+                },
+                {
+                    "dice_val": "63",
+                    "entry": "Cheese."
+                },
+                {
+                    "dice_val": "64",
+                    "entry": "Fish."
+                },
+                {
+                    "dice_val": "65",
+                    "entry": "Compost."
+                },
+                {
+                    "dice_val": "66",
+                    "entry": "The sewers."
+                },
+                {
+                    "dice_val": "67",
+                    "entry": "Apples."
+                },
+                {
+                    "dice_val": "68",
+                    "entry": "Holy oils."
+                },
+                {
+                    "dice_val": "69",
+                    "entry": "Massage oil."
+                },
+                {
+                    "dice_val": "70",
+                    "entry": "A brothel."
+                },
+                {
+                    "dice_val": "71",
+                    "entry": "Old fruit."
+                },
+                {
+                    "dice_val": "72",
+                    "entry": "Roses."
+                },
+                {
+                    "dice_val": "73",
+                    "entry": "Something that stirs memories."
+                },
+                {
+                    "dice_val": "74",
+                    "entry": "Gingerbread."
+                },
+                {
+                    "dice_val": "75",
+                    "entry": "Cinnamon. "
+                },
+                {
+                    "dice_val": "76",
+                    "entry": "Candy."
+                },
+                {
+                    "dice_val": "77",
+                    "entry": "Fumes."
+                },
+                {
+                    "dice_val": "78",
+                    "entry": "Bark."
+                },
+                {
+                    "dice_val": "79",
+                    "entry": "Chicken."
+                },
+                {
+                    "dice_val": "80",
+                    "entry": "Beef."
+                },
+                {
+                    "dice_val": "81",
+                    "entry": "Human Flesh."
+                },
+                {
+                    "dice_val": "82",
+                    "entry": "Gunpowder."
+                },
+                {
+                    "dice_val": "83",
+                    "entry": "A storm."
+                },
+                {
+                    "dice_val": "84",
+                    "entry": "Success."
+                },
+                {
+                    "dice_val": "85",
+                    "entry": "Gold."
+                },
+                {
+                    "dice_val": "86",
+                    "entry": "Mayonnaise."
+                },
+                {
+                    "dice_val": "87",
+                    "entry": "Barbeque."
+                },
+                {
+                    "dice_val": "88",
+                    "entry": "Salt."
+                },
+                {
+                    "dice_val": "89",
+                    "entry": "Pepper."
+                },
+                {
+                    "dice_val": "90",
+                    "entry": "Aromatic spices."
+                },
+                {
+                    "dice_val": "91",
+                    "entry": "Fruit punch."
+                },
+                {
+                    "dice_val": "92",
+                    "entry": "Water."
+                },
+                {
+                    "dice_val": "93",
+                    "entry": "Fresh water."
+                },
+                {
+                    "dice_val": "94",
+                    "entry": "Stagnant water."
+                },
+                {
+                    "dice_val": "95",
+                    "entry": "Mud."
+                },
+                {
+                    "dice_val": "96",
+                    "entry": "A colour."
+                },
+                {
+                    "dice_val": "97",
+                    "entry": "Music."
+                },
+                {
+                    "dice_val": "98",
+                    "entry": "The end of the world."
+                },
+                {
+                    "dice_val": "99",
+                    "entry": "Magically the worst thing to you"
+                },
+                {
+                    "dice_val": "100",
+                    "entry": "Magically the most desirable thing to you."
+                }
+            ]
+        },
+        {
+            "dice": "d100",
+            "name": "Taste. The potion tastes like...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Nothing at all."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Sulphur."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Fresh air."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Baking cookies."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Flowers."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Rotting meat."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Egg."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Rotten eggs."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Fresh bread."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Blood."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Home."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Vomit."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "Garlic."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "Fruit."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "Chocolate."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "Beer."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "Smoke."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "Wood."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "Death."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "Orc."
+                },
+                {
+                    "dice_val": "21",
+                    "entry": "Wet dog."
+                },
+                {
+                    "dice_val": "22",
+                    "entry": "Wet goblin."
+                },
+                {
+                    "dice_val": "23",
+                    "entry": "Perfume."
+                },
+                {
+                    "dice_val": "24",
+                    "entry": "Cheap perfume."
+                },
+                {
+                    "dice_val": "25",
+                    "entry": "Musk."
+                },
+                {
+                    "dice_val": "26",
+                    "entry": "Garbage."
+                },
+                {
+                    "dice_val": "27",
+                    "entry": "Sand."
+                },
+                {
+                    "dice_val": "28",
+                    "entry": "The Forest."
+                },
+                {
+                    "dice_val": "29",
+                    "entry": "Nuts."
+                },
+                {
+                    "dice_val": "30",
+                    "entry": "Acidic."
+                },
+                {
+                    "dice_val": "31",
+                    "entry": "Spicy."
+                },
+                {
+                    "dice_val": "32",
+                    "entry": "Minty."
+                },
+                {
+                    "dice_val": "33",
+                    "entry": "Of chemicals."
+                },
+                {
+                    "dice_val": "34",
+                    "entry": "Dirt."
+                },
+                {
+                    "dice_val": "35",
+                    "entry": "Of something bad flavoured to taste better."
+                },
+                {
+                    "dice_val": "36",
+                    "entry": "Alcohol."
+                },
+                {
+                    "dice_val": "37",
+                    "entry": "Sugar."
+                },
+                {
+                    "dice_val": "38",
+                    "entry": "A damp cave."
+                },
+                {
+                    "dice_val": "39",
+                    "entry": "Strange."
+                },
+                {
+                    "dice_val": "40",
+                    "entry": "Indescribable but nice."
+                },
+                {
+                    "dice_val": "41",
+                    "entry": "Indescribable but horrid."
+                },
+                {
+                    "dice_val": "42",
+                    "entry": "Rain."
+                },
+                {
+                    "dice_val": "43",
+                    "entry": "Medical."
+                },
+                {
+                    "dice_val": "44",
+                    "entry": "Bacon."
+                },
+                {
+                    "dice_val": "45",
+                    "entry": "Coffee."
+                },
+                {
+                    "dice_val": "46",
+                    "entry": "Cut grass."
+                },
+                {
+                    "dice_val": "47",
+                    "entry": "Vanilla."
+                },
+                {
+                    "dice_val": "48",
+                    "entry": "The sea."
+                },
+                {
+                    "dice_val": "49",
+                    "entry": "Roast meat."
+                },
+                {
+                    "dice_val": "50",
+                    "entry": "Festive."
+                },
+                {
+                    "dice_val": "51",
+                    "entry": "Lavender."
+                },
+                {
+                    "dice_val": "52",
+                    "entry": "Lilac and Gooseberries."
+                },
+                {
+                    "dice_val": "53",
+                    "entry": "A fresh baby."
+                },
+                {
+                    "dice_val": "54",
+                    "entry": "A new car."
+                },
+                {
+                    "dice_val": "55",
+                    "entry": "Cirtrus."
+                },
+                {
+                    "dice_val": "56",
+                    "entry": "Leather."
+                },
+                {
+                    "dice_val": "57",
+                    "entry": "Metal."
+                },
+                {
+                    "dice_val": "58",
+                    "entry": "A forge."
+                },
+                {
+                    "dice_val": "59",
+                    "entry": "Fresh Cake."
+                },
+                {
+                    "dice_val": "60",
+                    "entry": "Paint."
+                },
+                {
+                    "dice_val": "61",
+                    "entry": "Wine."
+                },
+                {
+                    "dice_val": "62",
+                    "entry": "Polish."
+                },
+                {
+                    "dice_val": "63",
+                    "entry": "Cheese."
+                },
+                {
+                    "dice_val": "64",
+                    "entry": "Fish."
+                },
+                {
+                    "dice_val": "65",
+                    "entry": "Compost."
+                },
+                {
+                    "dice_val": "66",
+                    "entry": "The sewers."
+                },
+                {
+                    "dice_val": "67",
+                    "entry": "Apples."
+                },
+                {
+                    "dice_val": "68",
+                    "entry": "Holy oils."
+                },
+                {
+                    "dice_val": "69",
+                    "entry": "Massage oil."
+                },
+                {
+                    "dice_val": "70",
+                    "entry": "A brothel."
+                },
+                {
+                    "dice_val": "71",
+                    "entry": "Old fruit."
+                },
+                {
+                    "dice_val": "72",
+                    "entry": "Roses."
+                },
+                {
+                    "dice_val": "73",
+                    "entry": "Something that stirs memories."
+                },
+                {
+                    "dice_val": "74",
+                    "entry": "Gingerbread."
+                },
+                {
+                    "dice_val": "75",
+                    "entry": "Cinnamon. "
+                },
+                {
+                    "dice_val": "76",
+                    "entry": "Candy."
+                },
+                {
+                    "dice_val": "77",
+                    "entry": "Fumes."
+                },
+                {
+                    "dice_val": "78",
+                    "entry": "Bark."
+                },
+                {
+                    "dice_val": "79",
+                    "entry": "Chicken."
+                },
+                {
+                    "dice_val": "80",
+                    "entry": "Beef."
+                },
+                {
+                    "dice_val": "81",
+                    "entry": "Human Flesh."
+                },
+                {
+                    "dice_val": "82",
+                    "entry": "Gunpowder."
+                },
+                {
+                    "dice_val": "83",
+                    "entry": "A storm."
+                },
+                {
+                    "dice_val": "84",
+                    "entry": "Success."
+                },
+                {
+                    "dice_val": "85",
+                    "entry": "Gold."
+                },
+                {
+                    "dice_val": "86",
+                    "entry": "Mayonnaise."
+                },
+                {
+                    "dice_val": "87",
+                    "entry": "Barbeque."
+                },
+                {
+                    "dice_val": "88",
+                    "entry": "Salt."
+                },
+                {
+                    "dice_val": "89",
+                    "entry": "Pepper."
+                },
+                {
+                    "dice_val": "90",
+                    "entry": "Aromatic spices."
+                },
+                {
+                    "dice_val": "91",
+                    "entry": "Fruit punch."
+                },
+                {
+                    "dice_val": "92",
+                    "entry": "Water."
+                },
+                {
+                    "dice_val": "93",
+                    "entry": "Fresh water."
+                },
+                {
+                    "dice_val": "94",
+                    "entry": "Stagnant water."
+                },
+                {
+                    "dice_val": "95",
+                    "entry": "Mud."
+                },
+                {
+                    "dice_val": "96",
+                    "entry": "A colour."
+                },
+                {
+                    "dice_val": "97",
+                    "entry": "Music."
+                },
+                {
+                    "dice_val": "98",
+                    "entry": "The end of the world."
+                },
+                {
+                    "dice_val": "99",
+                    "entry": "Magically the worst thing to you"
+                },
+                {
+                    "dice_val": "100",
+                    "entry": "Magically the most desirable thing to you."
+                }
+            ]
+        },
+        {
+            "dice": "d100",
+            "name": "Label. The potion has a label showing...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Its name and title in bold letters."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Its description in ornate elvish."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Its description in elvish with a relevant mythic story."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Its description on dwarven."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Dwarven runes."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Its description in gnomish."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Gnomish diagrams for its use."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "The words USE ONLY IN EMERGANCIES scrawled on iti."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A mass produced label claiming the company has no fault for any side effects."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A mass produced label saying it\u2019s a new flavour."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Very tiny print describing how the potion was made in great detail, around 1000 words."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Its name in Bold words in Giant. "
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "Is scrawled off."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "Has faded beyond reading."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "Doesn\u2019t seem to have one."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "Its description and a random fact."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "Its description and a small compliment to make your day better."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "Its description and a joke."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "Its description in infernal."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "Its description in some ancient language."
+                },
+                {
+                    "dice_val": "21",
+                    "entry": "All in some kind of symbols."
+                },
+                {
+                    "dice_val": "22",
+                    "entry": "All in some kind of raised symbols for the blind to read."
+                },
+                {
+                    "dice_val": "23",
+                    "entry": "Its description in elemental languages."
+                },
+                {
+                    "dice_val": "24",
+                    "entry": "Its name and flavour."
+                },
+                {
+                    "dice_val": "25",
+                    "entry": "Its name with a warning about side effects."
+                },
+                {
+                    "dice_val": "26",
+                    "entry": "Its name and its recommended buying price."
+                },
+                {
+                    "dice_val": "27",
+                    "entry": "Bloody prints all over it."
+                },
+                {
+                    "dice_val": "28",
+                    "entry": "Name engraved into the container."
+                },
+                {
+                    "dice_val": "29",
+                    "entry": "Its name glowing with minor magic."
+                },
+                {
+                    "dice_val": "30",
+                    "entry": "A cartoony mascot."
+                },
+                {
+                    "dice_val": "31",
+                    "entry": "A warning of an ancient curse."
+                },
+                {
+                    "dice_val": "32",
+                    "entry": "Its name and description in invisible ink."
+                },
+                {
+                    "dice_val": "33",
+                    "entry": "Its description in draconic."
+                },
+                {
+                    "dice_val": "34",
+                    "entry": "Several different names and descriptions plastered over eachother."
+                },
+                {
+                    "dice_val": "35",
+                    "entry": "A name of a completely different potion to what it does."
+                },
+                {
+                    "dice_val": "36",
+                    "entry": "A title describing the exact opposite. "
+                },
+                {
+                    "dice_val": "37",
+                    "entry": "A money back guarantee."
+                },
+                {
+                    "dice_val": "38",
+                    "entry": "A coupon for a free potion."
+                },
+                {
+                    "dice_val": "39",
+                    "entry": "A living face looking around."
+                },
+                {
+                    "dice_val": "40",
+                    "entry": "Its name and recipe for other alchemists."
+                },
+                {
+                    "dice_val": "41",
+                    "entry": "A heartfelt love letter for someone."
+                },
+                {
+                    "dice_val": "42",
+                    "entry": "A heartfelt hate letter for someone."
+                },
+                {
+                    "dice_val": "43",
+                    "entry": "A persons name. The potion wont work unless asked by its name to do so."
+                },
+                {
+                    "dice_val": "44",
+                    "entry": "A strange prophecy. "
+                },
+                {
+                    "dice_val": "45",
+                    "entry": "A small doodle."
+                },
+                {
+                    "dice_val": "46",
+                    "entry": "A note saying DO NOT DRINK."
+                },
+                {
+                    "dice_val": "47",
+                    "entry": "A passive aggressive note about other people drinking potions that don\u2019t belong to them."
+                },
+                {
+                    "dice_val": "48",
+                    "entry": "Brightly glowing letters."
+                },
+                {
+                    "dice_val": "49",
+                    "entry": "That plays a very quiet sing song till the bottle is empty."
+                },
+                {
+                    "dice_val": "50",
+                    "entry": "Ornate and beautiful designs."
+                },
+                {
+                    "dice_val": "51",
+                    "entry": "Very practical designs."
+                },
+                {
+                    "dice_val": "52",
+                    "entry": "Holy symbols."
+                },
+                {
+                    "dice_val": "53",
+                    "entry": "Unholy symbols."
+                },
+                {
+                    "dice_val": "54",
+                    "entry": "Fey symbols and sylvan writing."
+                },
+                {
+                    "dice_val": "55",
+                    "entry": "A riddle, the lid not opening unless the riddle is solved."
+                },
+                {
+                    "dice_val": "56",
+                    "entry": "Saying its designed for babies."
+                },
+                {
+                    "dice_val": "57",
+                    "entry": "Saying that it shouldn\u2019t be drank by anyone under 18."
+                },
+                {
+                    "dice_val": "58",
+                    "entry": "A note saying its illegal contraband being confiscated."
+                },
+                {
+                    "dice_val": "59",
+                    "entry": "A note saying the alchemist thinks it is its greatest work."
+                },
+                {
+                    "dice_val": "60",
+                    "entry": "A note saying the alchemist is sorry for ever creating it."
+                },
+                {
+                    "dice_val": "61",
+                    "entry": "A note saying that it never should have been made and copius blood stains over the bottle."
+                },
+                {
+                    "dice_val": "62",
+                    "entry": "It says you\u2019re being watched. When the person checks it instead says Just Kidding."
+                },
+                {
+                    "dice_val": "63",
+                    "entry": "Its description in Druidic."
+                },
+                {
+                    "dice_val": "64",
+                    "entry": "Its description in orcish"
+                },
+                {
+                    "dice_val": "65",
+                    "entry": "Its description in goblin."
+                },
+                {
+                    "dice_val": "66",
+                    "entry": "Its description in Halfling."
+                },
+                {
+                    "dice_val": "67",
+                    "entry": "Its description in Celestial."
+                },
+                {
+                    "dice_val": "68",
+                    "entry": "Its description in Undercommon."
+                },
+                {
+                    "dice_val": "69",
+                    "entry": "Its description in Deep speech."
+                },
+                {
+                    "dice_val": "70",
+                    "entry": "Its description in strange arcane symbols."
+                },
+                {
+                    "dice_val": "71",
+                    "entry": "A map of where the potion was made."
+                },
+                {
+                    "dice_val": "72",
+                    "entry": "A small puzzle for kids."
+                },
+                {
+                    "dice_val": "73",
+                    "entry": "A list of ingredients in their chemical forms."
+                },
+                {
+                    "dice_val": "74",
+                    "entry": "A list of possible side effects as long as the bottle is."
+                },
+                {
+                    "dice_val": "75",
+                    "entry": "A red X."
+                },
+                {
+                    "dice_val": "76",
+                    "entry": "A sad face."
+                },
+                {
+                    "dice_val": "77",
+                    "entry": "An angry face."
+                },
+                {
+                    "dice_val": "78",
+                    "entry": "A happy face."
+                },
+                {
+                    "dice_val": "79",
+                    "entry": "A healing symbol."
+                },
+                {
+                    "dice_val": "80",
+                    "entry": "A cheesy pun potion name."
+                },
+                {
+                    "dice_val": "81",
+                    "entry": "Growing with vines."
+                },
+                {
+                    "dice_val": "82",
+                    "entry": "Growing with flowers."
+                },
+                {
+                    "dice_val": "83",
+                    "entry": "Growing with crystals."
+                },
+                {
+                    "dice_val": "84",
+                    "entry": "Growing with rock."
+                },
+                {
+                    "dice_val": "85",
+                    "entry": "Shamanistic symbols and shavings."
+                },
+                {
+                    "dice_val": "86",
+                    "entry": "No words just a single colour."
+                },
+                {
+                    "dice_val": "87",
+                    "entry": "Water damage but a just legibale label."
+                },
+                {
+                    "dice_val": "88",
+                    "entry": "A label as if it was some kind of present."
+                },
+                {
+                    "dice_val": "89",
+                    "entry": "A label showing how many calories it is."
+                },
+                {
+                    "dice_val": "90",
+                    "entry": "A warning about potion abuse and to only take in moderation."
+                },
+                {
+                    "dice_val": "91",
+                    "entry": "A label with warnings and side effects all scribbled out."
+                },
+                {
+                    "dice_val": "92",
+                    "entry": "That only shows the side effects."
+                },
+                {
+                    "dice_val": "93",
+                    "entry": "A mysterious number."
+                },
+                {
+                    "dice_val": "94",
+                    "entry": "A code name."
+                },
+                {
+                    "dice_val": "95",
+                    "entry": "A few unrelated letters."
+                },
+                {
+                    "dice_val": "96",
+                    "entry": "The name of one of the party members."
+                },
+                {
+                    "dice_val": "97",
+                    "entry": "The name of the bad guy."
+                },
+                {
+                    "dice_val": "98",
+                    "entry": "Crawling with bugs."
+                },
+                {
+                    "dice_val": "99",
+                    "entry": "Covered in something unspeakable."
+                },
+                {
+                    "dice_val": "100",
+                    "entry": "Covered in glitter. It gets everywhere."
+                }
+            ]
+        }
+    ],
+    "title": "Potions",
+    "use_with": [
+        {
+            "link": "438vlw",
+            "title": "Treasure Chests"
+        },
+        {
+            "link": "48cev4",
+            "title": "Magic Shops"
+        }
+    ]
+}

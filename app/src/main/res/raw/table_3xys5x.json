@@ -1,0 +1,194 @@
+{
+    "description": "Use these tables to quickly generate what might be in someone's pockets.",
+    "id": "3xys5x",
+    "keywords": [
+        "thief",
+        "rogue",
+        "scoundrel",
+        "pickpocket",
+        "sleight of hand",
+        "footpad",
+        "artful dodger",
+        "fagan",
+        "mugging"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/3xys5x",
+    "related_tables": [],
+    "tables": [
+        {
+            "dice": "d10",
+            "name": "On a successful pickpocket check, the thief finds...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A scrap of paper or parchment with an unintelligible note scribbled on it."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A scrap of paper or parchment with a list of mundane items or tasks written on it."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Some lint or a bit of thread."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "An errant button or broken piece of something."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "An old or well-worn key (roll on the key table)."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "An new or little-used key (roll on the key table)."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A clean handkerchief (roll on the handkerchief table)."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A soiled handkerchief (roll on the handkerchief table)."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A score (roll on the score table)."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A score (roll on the score table) and roll again on this table using a d8."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The key is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A small brass key."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A large brass key."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A thin brass key."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A heavy iron key."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A spindly iron key."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Made of an unusual material (d6): 1. bone; 2. bronze; 3. gold; 4. oak; 5. silver; 6. stone."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The handkerchief is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A fine silk handkerchief."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A simple cotton handkerchief."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A lacy handkerchief. "
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A threadbare handkerchief. "
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A striped handkerchief. "
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A spotted handkerchief."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "The thief scores...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "2d4 cp."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "3d6 cp."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "1d6 sp."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "1d6 sp plus 1d10 cp."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "2d6 sp."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "2d6 sp plus 1d10 cp."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "1d4 gp."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "1d4 gp plus 1d10 sp."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "2d4 gp plus 1d10 sp."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A gem or small piece of jewelery worth 5d10 gp."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A gem or small piece of jewelery worth 10d10 gp."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "1d6 gp and roll again on this table."
+                }
+            ]
+        }
+    ],
+    "title": "Pickpocket Loot",
+    "use_with": [
+        {
+            "link": "4034w3",
+            "title": "Thieves"
+        },
+        {
+            "link": "3sj9ub",
+            "title": "Town NPCs"
+        },
+        {
+            "link": "3t5q2e",
+            "title": "Urban gangs"
+        }
+    ]
+}

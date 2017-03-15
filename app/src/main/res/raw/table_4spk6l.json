@@ -1,0 +1,467 @@
+{
+    "description": "These are some tables for giving bats some flavor. Keep those beasts out of your hair.",
+    "id": "4spk6l",
+    "keywords": [
+        "bats",
+        "familiar",
+        "vampires",
+        "winged terrors",
+        "echolocation",
+        "bat-man",
+        "Whent"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/4spk6l",
+    "related_tables": [
+        {
+            "link": "4splu3",
+            "title": "Rats"
+        },
+        {
+            "link": "487awj",
+            "title": "Spiders"
+        },
+        {
+            "link": "4aepj5",
+            "title": "Wolves"
+        }
+    ],
+    "tables": [
+        {
+            "dice": "d6",
+            "name": "Size: The bat is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Tiny; it could fit in the palm of your hand."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Small; you could probably grasp it in one hand."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A good size; its body is about the size of a rat's."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Pretty big; its body is about the size of a house cat's."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Enormous; its body is about the size of a sheep dog's."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Terrifyingly large; its like a bear with wings. "
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Fur color: ...with a...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Black fur..."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Charcoal fur..."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Grey fur..."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Pale fur..."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Tan fur..."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Reddish brown fur..."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Dark brown fur..."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Black and brown mottled fur..."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Black and grey mottled fur..."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Brown and grey mottled fur..."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Skin color: ...and...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Black skin."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Dark grey skin."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Pale grey skin."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Light brown skin."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Muddy brown skin."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Dark brown skin."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Ruddy skin."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Orangish brown skin."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Reddish pink skin."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Pink skin."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Eyes: The bat has...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Large dark eyes."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Large pale eyes."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Small dark eyes."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Wide-set eyes."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Narrow-set eyes."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Blinking eyes."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Nearly sightless eyes."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Squinty eyes."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Golden eyes that catch the light."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Glowing red eyes."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Face/head: The bat has...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Oversized ears."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Tufted ears."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Pointy ears."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Long sharp fangs."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Sharp little teeth."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A pig snout."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A long snout."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A flat snout."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A hairless face."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Bristly fur atop its head."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Manner: The bat...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Squeaks incessantly."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Squeaks when it is frightened."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Shrieks when it takes off from its roost."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Shrieks gleefully after it bites something."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Flutters about nervously."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Flies with lots of loops and swoops."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Keeps its distance and swoops in to strike."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Shows little fear of other creatures."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Watches warily from its roost."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Only leaves its roost if disturbed."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Diet: This type of bat prefers to eat...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Melons and other large fruits."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Berries and other small fruits."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Nectar."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Beetles."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Flies."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Spiders."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Rats and other small mammals."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Frogs and lizards."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "The blood of livestock."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Human blood."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Sleeping habits: This type of bat is typically most active...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "In the late afternoon and early evening."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Around sunset."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Shortly after sunset."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "While the night is young."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Around midnight."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "In the wee hours."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Before first light."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Around dawn."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "In the early morning hours."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "On moonless nights."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Habitat: This type of bat evolved to thrive...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "In caverns near the surface."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "In deep caverns."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "On cliff-sides."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "In temperate woodlands."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "In jungles."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "In rocky deserts."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "In warm, mountainous regions."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "In mild coastal regions."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "In swamps."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "In treetops."
+                }
+            ]
+        }
+    ],
+    "title": "Bats",
+    "use_with": [
+        {
+            "link": "3tich6",
+            "title": "Deserts"
+        },
+        {
+            "link": "3tielc",
+            "title": "Deserts, shadowy"
+        },
+        {
+            "link": "3sgzxb",
+            "title": "Forests"
+        },
+        {
+            "link": "3sh0bv",
+            "title": "Forests, haunted"
+        },
+        {
+            "link": "3snvqq",
+            "title": "Goblins"
+        },
+        {
+            "link": "42rm5s",
+            "title": "Mountains"
+        },
+        {
+            "link": "3w1g84",
+            "title": "Necromancers"
+        },
+        {
+            "link": "3sq5dx",
+            "title": "Vampires"
+        },
+        {
+            "link": "3si4ms",
+            "title": "Witches"
+        }
+    ]
+}

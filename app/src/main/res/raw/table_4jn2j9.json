@@ -1,0 +1,647 @@
+{
+    "description": "These are tables for rapidly generating key features of a city. This is not a substitute for proper world-building, but it is meant to be a springboard for facilitating urban world-building.\n\nOnce you have the basics for your city, use the [landmarks and districts](https://redd.it/43xgqj) and [street names](https://redd.it/3xw3lq) tables to fill in the map of your city. Then use some of the [other table sets](https://www.reddit.com/r/BehindTheTables/wiki/index) to flesh out factions, locations, and prominent NPCs.",
+    "id": "4jn2j9",
+    "keywords": [
+        "town",
+        "city",
+        "district",
+        "landmarks",
+        "points-of-interest",
+        "city-building",
+        "town-building",
+        "government",
+        "defenses",
+        "geography",
+        "urban",
+        "threats",
+        "leadership",
+        "law enforcement",
+        "history",
+        "not-a-hippo-approved-method"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/4jn2j9",
+    "related_tables": [],
+    "tables": [
+        {
+            "dice": "d10",
+            "name": "Geography: The city grew up around...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A coastal harbor."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A calm, coastal bay."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A large freshwater lake."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A wide, navigable river."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A river navigable by small craft."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "The mouth of a river or a river delta."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "The confluence of two rivers."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A series of natural springs."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A well-traveled crossroads."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A water source and a well-traveled road."
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "Resources: The city is near a region ideal for mining, growing, or grazing...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Iron ore."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Copper ore."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Gold or silver deposits."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Clay or granite deposits."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Quartz or salt deposits."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Peat or coal deposits."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Hardwood lumber."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Barley and oats."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Beans and corn."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Nuts and olives."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Rice or wheat."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Potatoes and leeks."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "Sugar cane."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "Tobacco."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "Cotton."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "Fruit trees."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "Cabbages and beets."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "Cattle."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "Dairy cows."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "Sheep."
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "Culture: The city is known for its...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Architectural style.\t"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Architectural feats.\t"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Artists and poets.\t"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Inventive cuisine.\t"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Traditional cuisine.\t"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Suggestive dancing."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Gladiatorial games.\t"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Horse races."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Scholars and sages."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Music and/or dance."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Romance."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Jousting games."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "Superior soldiers."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "Street festivals."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "Religious feasts."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "Religious fervor."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "Traditional dress."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "Unusual dress."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "Theater scene."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "Wine and/or ale."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Government: The city is ruled by...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "The head of a noble family."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A council of distinguished nobles."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A council of wealthy merchants."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A council of elected officials."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "An elected mayor."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A benevolent sovereign."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A wicked tyrant."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A brutal warlord."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A cabal of witches and wizards."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "The leaders of a religious order."
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "Historical Event: The city experienced...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Mass conversions.\t"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "An earthquake.\t"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "An age of exploration.\t"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A terrible famine.\t"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A disastrous flood.\t"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A legendary storm.\t"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "An assassination."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A series of riots."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A great discovery."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A vermin infestation."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A destructive fire."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A deadly plague."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "A bloody rebellion."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "A lengthy siege."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "Religious wars."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "Territorial wars."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "A foreign occupation."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "An economic boom."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "A great depression."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "A dragon attack."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "Threats: The people of the city are fearful of (leaders and commonfolk may fear different things)...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Bandits and outlaws."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Barbarian invasions."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Disease outbreaks."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A dragon or legendary beast."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Destructive flooding."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Food shortages."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Occupation by a foreign empire."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "The wrath of a vengeful god."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Magic and new inventions."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Pirates, smugglers, and bands of thieves."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A recently established religion."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A rival city."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Defenses: The city is defended by...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A disciplined military guard."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A standing army of devoted soldiers."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A company of sellswords and knaves."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "An order of holy knights."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Little; the city\u2019s been sacked many times."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A huge, fortress or citadel within the city."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A series of watchtowers and forts spread throughout the region."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Thick stone walls and impenetrable gates."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "High stone walls, catapults, and scorpions."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A powerful magical ward or gigantic golem."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "Law Enforcement: The laws are...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Enforced by a strict, orderly city watch."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Enforced by a corrupt, roguish city watch."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Not enforced among the wealthy elite."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Enforced in a haphazard fashion, incomprehensible to visitors."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Not enforced for those who pay bribes."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "More like guidelines."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Enforced by a secret society of assassins, mages, or priests."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Enforced by a company of mercenaries."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Simple, easy to learn and to follow."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Extensive and complicated, nonsensical."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Enforced by a cheerful drunken sheriff."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Enforced by a rigid soldier-turned-sheriff."
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "Power Players: Within or outside the government, power is held by...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A ruthless assassins\u2019 guild."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A populist demagogue."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "The captain of a mercenary company."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A champion knight or arena fighter."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "One or more crafting guilds."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A dangerous crime boss."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "One or more criminal gangs."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A charismatic cult leader."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "One or more merchant guilds."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A scheming noble lord or lady."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "An outspoken philosopher or scholar."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A celebrated poet and playwright."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "A popular priest or priestess."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "A secret society of lorekeepers."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "Smugglers and black market dealers."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "The son or daughter of a deposed ruler."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "A wealthy trader of exotic goods."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "A conniving vampire or fiend."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "A bold war hero."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "A clever witch or wizard."
+                }
+            ]
+        }
+    ],
+    "title": "Quick City-Building",
+    "use_with": [
+        {
+            "link": "43xgqj",
+            "title": "City landmarks and districts"
+        },
+        {
+            "link": "3tkdty",
+            "title": "Reputation and rumors"
+        },
+        {
+            "link": "43uzib",
+            "title": "Rotting city encounters"
+        },
+        {
+            "link": "4psde0",
+            "title": "Shops"
+        },
+        {
+            "link": "3xw3lq",
+            "title": "Street names"
+        },
+        {
+            "link": "3sj9ub",
+            "title": "Town NPCs"
+        },
+        {
+            "link": "4daxw7",
+            "title": "Urban marketplace"
+        }
+    ]
+}

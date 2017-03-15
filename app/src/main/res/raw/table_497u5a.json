@@ -1,0 +1,548 @@
+{
+    "description": "These are tables for generating a colorful sailor to round out the crew of a ship or to tell a wild tale in a dock-side tavern.",
+    "id": "497u5a",
+    "keywords": [
+        "sailor",
+        "sea dog",
+        "mariner",
+        "tar",
+        "pirate",
+        "mercantile",
+        "maritime",
+        "naval",
+        "seafarer",
+        "ship",
+        "sailing",
+        "captain",
+        "NPC",
+        "arr"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/497u5a",
+    "related_tables": [
+        {
+            "link": "3t5sik",
+            "title": "Pirate crews"
+        }
+    ],
+    "tables": [
+        {
+            "dice": "d12",
+            "name": "The sailor is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A veteran of many voyages."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A survivor of a notorious shipwreck."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A cunning pirate, sailing under a false name."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A green boy, still naive about the dangers of life at sea."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A bright-eyed young sailor, eager to see the world."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A disillusioned man, going through the motions."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A sad young man who misses his family."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A happy-go-lucky fellow who loves life aboard a ship."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A terrible rake with a sweetheart in every port."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Strong as an ox, but with a gentle heart."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Wiry and quick, scaling the rigging faster than anyone."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A dangerous man, fierce and bad tempered."
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "Tattoo: The sailor has...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A dagger tattoo."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "An anchor tattoo."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A skull tattoo."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A thorny vine tattoo."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A snake tattoo."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A fish tattoo."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A spider web tattoo."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "An octopus tattoo."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A whale tattoo."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A lobster tattoo."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A crab tattoo."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A mermaid tattoo."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "A shark tattoo."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "A dragon tattoo."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "A cloud with a lightning bolt."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "A single-mast sailboat."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "A double-mast ship."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "A sunburst tattoo."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "A moon tattoo."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "A tattoo of a constellation of stars."
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "The sailor's tattoo is a memento of...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A particularly lengthy voyage."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Sailing through a dangerous part of the world."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Crossing a wide sea."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Visiting an exotic port. "
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Visiting an enchanted island."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Winning a contest."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Fighting in a battle."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Serving for a lord or king."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Surviving a shipwreck."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Surviving an attack by a sea monster."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Fending off pirates."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Sailing with pirates."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "His first voyage."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "A comrade, lost at sea."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "A long lost friend or love."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "A passionate love affair."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "A dead relative."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "The birth of a son or daughter."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "A traumatic childhood experience."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "His childhood home town."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "Distinguishing facial feature: The sailor has...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A flashy earring."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A scar across the cheek."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Gold teeth."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A neatly trimmed beard."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "An eyepatch."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A long, hooked nose."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Bushy eyebrows."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Long hair tied up into a bun."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Dark, curly hair."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A broad grin."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Sideburns that meet his mustache."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Extravagant mustaches."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "Accessories: The sailor is wearing or carrying...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Breeches with patches on the knees."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Shiny leather boots."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "An oversized dagger in the belt."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "An undersized vest."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A silver chain around the neck."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A wide-brimmed hat."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A bandanna tied over the head."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A cutlass in a scabbard."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A knife in each boot."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A puffy shirt."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A wooden peg where a leg had been."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "An open shirt that shows off a very hairy chest."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "At the end of a long voyage, the sailor is eager to...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Weigh anchor and make sail again."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Spend all his coin on drink."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Spend all his coin in brothels."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Spend all his coin on card games and dice."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Send a letter home to his sweetheart."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Send a letter home to his mother."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Find work with the captain of a different ship."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Find work on shore and put off making another long voyage."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Get drunk and start a fight."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Sleep on a real bed."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Drink and dance the night away."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Drink and gamble his coin away."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "When drunk the sailor is prone to...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Start a fist fight with anyone nearby."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Sing loudly late into the night."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Become morose and quiet, withdrawing to be alone."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Attempt to impress the ladies with any skill, regardless of his level of mastery."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Tell stories of epic adventures on the high seas with great fervor."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Tell the same story about an old friend that turned to piracy."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Act as though he's never met a stranger and everyone is his friend."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Play childish pranks on anyone nearby, but especially those that don't look like they are having enough fun."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Wander about town until the wee hours."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Pass out in a stable and sleep among the horses and pigs until dawn."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Pass out on a beach or dock, listening to the lullaby of waves tumbling in."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Steal a dinghy and pass out on the deck of a strange ship."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "What the sailor really wants is to...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Own his own ship."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Retire to a quiet place inland somewhere, as far from the open ocean as possible."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Make sure his wives on either side of the sea never learn of each other."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Marry and have a passel of kids to return home to."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Be recognized for his hard work and maybe be first mate some day."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Get off the ship and own a shipping brokerage."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Write a drinking song that will be recognized by everyone."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Forget the demons of his past."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Retire to a quiet fishing village with a little boat and a little house with a little woman."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Face down one of the sea monsters he's heard his mates go on and on about."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Kill the captain; that guy's an asshole."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Be a pirate."
+                }
+            ]
+        }
+    ],
+    "title": "Sailors",
+    "use_with": [
+        {
+            "link": "435djx",
+            "title": "Coins"
+        },
+        {
+            "link": "3su3be",
+            "title": "Fishing"
+        },
+        {
+            "link": "43uzib",
+            "title": "Sailing ship encounters"
+        },
+        {
+            "link": "4d6a7d",
+            "title": "Ships"
+        },
+        {
+            "link": "41vnh6",
+            "title": "Treasure maps"
+        }
+    ]
+}

@@ -1,0 +1,451 @@
+{
+    "description": "These are tables for quickly coming up with a flavorful meal, list of food provisions, or a menu for the cookfires of the armies of an Eastern empire, the campfires of bandits, ninjas, samurais, or wandering monks, or anyone you may encounter when crossing the eastern portion of the continent, and the kitchens of peasants, fishermen, or inns that serve food inspired by cultures of the Far East.",
+    "id": "4eaqj0",
+    "keywords": [
+        "rice",
+        "noodles",
+        "sake",
+        "sushi",
+        "sashimi",
+        "curry",
+        "hunan",
+        "szechuan",
+        "umami",
+        "pad thai",
+        "delicious"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/4eaqj0",
+    "related_tables": [
+        {
+            "link": "4eaph4",
+            "title": "Dinner among desert nomads"
+        },
+        {
+            "link": "4earls",
+            "title": "Dinner among islanders"
+        },
+        {
+            "link": "4dv7i9",
+            "title": "Dinner at a country inn"
+        }
+    ],
+    "tables": [
+        {
+            "dice": "d10",
+            "name": "Tonight, among easterlings, we dine on...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Stewed."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Roasted."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Fried."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Boiled."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Baked."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Grilled."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Seared."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Steamed."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Salted."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Pickled."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Rabbit."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Chicken."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Duck."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Pork."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Beef."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Trout."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Catfish."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Eel."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Squid."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Crab."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Pork sausage."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Duck sausage."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "...with...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Dumplings."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Egg noodles."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Rice noodles."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Long noodles."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Sticky rice."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Long-grain rice."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Yellow rice."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Soybeans."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Lentils."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "String beans."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Red beans."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Mushrooms."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "...and...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Carrots."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Cabbage."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Onions."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Water chestnuts."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Leeks."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Lentils."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Broccoli."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Peas."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Sprouts."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Sweet peppers."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Hot peppers."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Oranges."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "...doused with...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Soy sauce."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Sweet-and-sour sauce."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Spicy vinegar."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Hot mustard."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Sweet mustard."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Pepper oil."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Peanut oil."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Ginger."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Spicy curry."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Hot curry."
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "On the side, there is some...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Raw tuna."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Raw skate."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Raw trout."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Raw herring."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Raw horse."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Dog meat."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Pickled cabbage."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Pickled onion."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Pickled radish."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Pickled cucumber."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Pickled fish."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Honey bee larva."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "Fried grasshopper."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "Red bean paste."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "Sticky bread."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "Fresh baked bread."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "Crispy fried dough."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "Fried egg."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "Balut."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "Bird's nest soup."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "To wash it down, we have some...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Water."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "White tea."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Green tea."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Red tea."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Black tea."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Herbal tea."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Floral tea."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Bitter wine."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Rice wine."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Fire-water."
+                }
+            ]
+        }
+    ],
+    "title": "Dinner among Easterlings",
+    "use_with": [
+        {
+            "link": "44wqci",
+            "title": "Assassins"
+        },
+        {
+            "link": "3tkfho",
+            "title": "Knights"
+        },
+        {
+            "link": "3sl2r2",
+            "title": "Merchant caravans"
+        },
+        {
+            "link": "3zmoy8",
+            "title": "Military camps"
+        },
+        {
+            "link": "3xq9nd",
+            "title": "Monks"
+        },
+        {
+            "link": "3t2qzc",
+            "title": "Outlaws"
+        },
+        {
+            "link": "41bq04",
+            "title": "Sellswords"
+        }
+    ]
+}

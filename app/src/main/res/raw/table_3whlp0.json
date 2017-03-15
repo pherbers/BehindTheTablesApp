@@ -1,0 +1,450 @@
+{
+    "description": "These tables are designed to quickly generate an interesting priest or priestess NPC, from pilgrims to preachers and from scholars to zealots.",
+    "id": "3whlp0",
+    "keywords": [
+        "priest",
+        "priestess",
+        "preacher",
+        "bishop",
+        "pope",
+        "il papa",
+        "cardinal",
+        "reverend",
+        "saint",
+        "acolyte",
+        "holy man",
+        "wise man",
+        "gospel",
+        "evangelist",
+        "prayers",
+        "divine magic"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/3whlp0",
+    "related_tables": [
+        {
+            "link": "3xq9nd",
+            "title": "Monks"
+        },
+        {
+            "link": "3sj9ub",
+            "title": "Town NPCs"
+        }
+    ],
+    "tables": [
+        {
+            "dice": "d12",
+            "name": "The priest is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A devoted acolyte."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A dogmatic chaplain."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A wealthy chaplain."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A grim exorcist."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "An adept healer."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A road-weary pilgrim."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A charismatic preacher."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "An eccentric scholar."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A disillusioned scholar."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A battle-tested warpriest."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A sharp-witted witch-hunter."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "An outspoken zealot."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "The priest has...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A likable grin."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A hearty laugh."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "An arrogant smirk."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A haughty sneer."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A humorless visage."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A habit of sighing."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A sad look on his or her face."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A kind look on his or her face."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A habit of pacing."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A habit of scratching his or her chin."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A habit of licking his or her lips."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A habit of muttering under his or her breath."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "The priest is particularly knowledgeable regarding...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Alchemical curatives."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Creation myths."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Crusades and religious wars."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Demonology."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Healing arts."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "The journey of the soul."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "The laws of the gods."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Sacred rites."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Sacred texts."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Saints and martyrs."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "The temple hierarchy and bureaucracy."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Undead creatures."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The priest has recently been praying for...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "The death of an enemy or rival."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "The miraculous recovery of a friend or ally."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Evil tidings and omens to pass over him or her."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Strength against temptation."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Wisdom in making an important decision."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Forgiveness for his or her past sins."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "The priest wears...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A threadbare robe."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A sturdy wool cloak."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A comfortable linen robe."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A robe that smells of incense."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A cotton robe with the symbol of a god embroidered on the lapel."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A clean silk robe with simple embroidery."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "An expensive silk robe with elaborate gold embroidery."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Boiled leather armor."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Patchwork armor of leather and steel."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Armor that smells of scented, holy oils."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Chainmail armor with a priest\u2019s hood."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Chainmail emblazoned with the symbol of a god."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "The priest carries...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A well-used cudgel."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A shiny new mace."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A walking staff."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A staff with a crook."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A ceremonial dagger."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A prominently displayed holy symbol (d6): 1. bejeweled; 2. gilded; 3. iron; 4. silver; 5. steel; 6. wooden."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A pocketbook of sacred texts."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A notebook of hand-written prayers and devotions."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A variety of healing potions and salves."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A set of prayer beads."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A heavy ring of keys."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A wineskin."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "The priest prefers to drink...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Ale (d6): 1. amber; 2. brown; 3. red; 4. pale; 5. wheat; 6. white."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Brandy."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Lager."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Mead."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Milk."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Pilsner"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Porter or stout."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Tea (d4): 1. black; 2. green; 3. herbal; 4. sweetened."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Red wine."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Sour wine."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "White wine."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Water."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "The priest is looking for...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "New converts."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "The translation of an ancient manuscript."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Heretics."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Sinners."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Donations."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Relics and rare lore."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Proof of a god\u2019s existence."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "The location of a ruined temple."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "An opportunity to tell a fable."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "The bottom of a goblet."
+                }
+            ]
+        }
+    ],
+    "title": "Priests",
+    "use_with": [
+        {
+            "link": "3shczv",
+            "title": "Pantheons"
+        },
+        {
+            "link": "4b8u29",
+            "title": "Reputations of adventurers"
+        },
+        {
+            "link": "3xpb4r",
+            "title": "Temples"
+        }
+    ]
+}

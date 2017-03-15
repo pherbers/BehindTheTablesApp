@@ -1,0 +1,236 @@
+{
+    "description": "What was dead may never die, but rises fouler and hungrier. This is a short set of tables for quickly coming up with brief description of an interesting undead beast.",
+    "id": "4nbzmi",
+    "keywords": [
+        "ghost beast",
+        "zombie beast",
+        "undead critters",
+        "hungry",
+        "maggots",
+        "pet sematary"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/4nbzmi",
+    "related_tables": [
+        {
+            "link": "4mnmre",
+            "title": "Aberrant beasts"
+        },
+        {
+            "link": "4n03im",
+            "title": "Infernal beasts"
+        },
+        {
+            "link": "4nayky",
+            "title": "Shadow beasts"
+        },
+        {
+            "link": "4nbzt3",
+            "title": "Winter beasts"
+        }
+    ],
+    "tables": [
+        {
+            "dice": "d12",
+            "name": "The undead beast was once...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "An ape."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A basilisk."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A bat."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A bear."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A boar."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A hippogriff."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A horse."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A hound."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A mare."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A panther."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A rat."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A raven."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "The beast has...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Gaping holes where its eyes should be."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Lidless, bloodshot eyes."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Loose, grey skin hanging off its bony frame."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Putrid, decaying flesh falling off its bones."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A musty, moldy odor."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "An odor of rotting flesh."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "An aura of gloom."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "An aura of disease."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "...and...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Grasping claws or teeth."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A drooling maw."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A long, protruding tongue."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Several broken teeth."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A weeping sore in its side."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Several oozing boils on its back."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Walks with an awkward limp."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Shambles and shuffles when it walks. "
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The beast is looking for...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Something to kill."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Something to eat."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "An individual marked by its master."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "An opportunity to impress its master."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "The location of an evil shrine."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "The location of an evil artifact."
+                }
+            ]
+        }
+    ],
+    "title": "Undead Beasts",
+    "use_with": [
+        {
+            "link": "3unfbm",
+            "title": "Caverns"
+        },
+        {
+            "link": "3tielc",
+            "title": "Desert, shadowy"
+        },
+        {
+            "link": "4ev9sw",
+            "title": "Dinner in an undead feasthall"
+        },
+        {
+            "link": "3sh0bv",
+            "title": "Forest, haunted"
+        },
+        {
+            "link": "3w1g84",
+            "title": "Necromancers"
+        },
+        {
+            "link": "44r23c",
+            "title": "Seers"
+        },
+        {
+            "link": "427hd8",
+            "title": "Tombs"
+        },
+        {
+            "link": "3sorre",
+            "title": "Undead, restless"
+        },
+        {
+            "link": "3sq5dx",
+            "title": "Vampires"
+        },
+        {
+            "link": "3si4ms",
+            "title": "Witches"
+        }
+    ]
+}

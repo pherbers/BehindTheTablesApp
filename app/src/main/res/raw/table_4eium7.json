@@ -1,0 +1,440 @@
+{
+    "description": "This is a bunch of stuff that you might find in the basement or cellar of a castle, temple, tavern. You might find crates full of it in an abandoned warehouse or workshop. You might find some of this in boxes in your grandparents' house. You might come across some of it at a second-hand vendor in a flea market. It's pretty much useless stuff.",
+    "id": "4eium7",
+    "keywords": [
+        "Junk",
+        "crap",
+        "useless",
+        "worthless",
+        "garbage",
+        "hoarders",
+        "pickers",
+        "scavengers",
+        "garage sale"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/4eium7",
+    "related_tables": [],
+    "tables": [
+        {
+            "dice": "d100",
+            "name": "Mostly useless junk: The crate contains...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Rusty knives."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Dull knives."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Mismatched armor."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Shattered shields."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Tattered leather armor."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Wooden practice swords."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Broken swords."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Axe handles."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Arrowheads."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Goose feathers."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Turkey feathers."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Dulled spear points."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "Worn-out hammers."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "Steel nails."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "Rusted hinges."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "Broken doorknobs."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "Assorted keys. "
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "Empty glass bottles."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "Broken glass."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "Empty cans."
+                },
+                {
+                    "dice_val": "21",
+                    "entry": "Blank parchment."
+                },
+                {
+                    "dice_val": "22",
+                    "entry": "Lists and inventories."
+                },
+                {
+                    "dice_val": "23",
+                    "entry": "Legal case files."
+                },
+                {
+                    "dice_val": "24",
+                    "entry": "Decaying books."
+                },
+                {
+                    "dice_val": "25",
+                    "entry": "Extra copies of a useless book."
+                },
+                {
+                    "dice_val": "26",
+                    "entry": "Dried-up ink wells."
+                },
+                {
+                    "dice_val": "27",
+                    "entry": "Used quills."
+                },
+                {
+                    "dice_val": "28",
+                    "entry": "Empty glass vials."
+                },
+                {
+                    "dice_val": "29",
+                    "entry": "Cork vial stoppers."
+                },
+                {
+                    "dice_val": "30",
+                    "entry": "Discarded alchemical laboratory equipment."
+                },
+                {
+                    "dice_val": "31",
+                    "entry": "Incomprehensible notes on alchemy."
+                },
+                {
+                    "dice_val": "32",
+                    "entry": "Grocery lists and recipes."
+                },
+                {
+                    "dice_val": "33",
+                    "entry": "Hand-written memoir of an ineffective bureaucrat."
+                },
+                {
+                    "dice_val": "34",
+                    "entry": "Collection of of sappy love letters."
+                },
+                {
+                    "dice_val": "35",
+                    "entry": "Crumbling sheet music."
+                },
+                {
+                    "dice_val": "36",
+                    "entry": "Broken musical instruments."
+                },
+                {
+                    "dice_val": "37",
+                    "entry": "Spare brass parts."
+                },
+                {
+                    "dice_val": "38",
+                    "entry": "Scrap copper."
+                },
+                {
+                    "dice_val": "39",
+                    "entry": "Old dried fish."
+                },
+                {
+                    "dice_val": "40",
+                    "entry": "Human bones."
+                },
+                {
+                    "dice_val": "41",
+                    "entry": "Some unidentifiable bones."
+                },
+                {
+                    "dice_val": "42",
+                    "entry": "Teeth."
+                },
+                {
+                    "dice_val": "43",
+                    "entry": "Blood-soaked rags."
+                },
+                {
+                    "dice_val": "44",
+                    "entry": "Oily rags."
+                },
+                {
+                    "dice_val": "45",
+                    "entry": "Tattered banners."
+                },
+                {
+                    "dice_val": "46",
+                    "entry": "Tattered sails."
+                },
+                {
+                    "dice_val": "47",
+                    "entry": "Winches and pulleys."
+                },
+                {
+                    "dice_val": "48",
+                    "entry": "Some frayed rope."
+                },
+                {
+                    "dice_val": "49",
+                    "entry": "A length of chain in an impossible knot."
+                },
+                {
+                    "dice_val": "50",
+                    "entry": "Dented helms."
+                },
+                {
+                    "dice_val": "51",
+                    "entry": "Assorted strips of leather."
+                },
+                {
+                    "dice_val": "52",
+                    "entry": "Wood chips."
+                },
+                {
+                    "dice_val": "53",
+                    "entry": "Iron filings."
+                },
+                {
+                    "dice_val": "54",
+                    "entry": "Steel slag."
+                },
+                {
+                    "dice_val": "55",
+                    "entry": "Ant-ridden flour."
+                },
+                {
+                    "dice_val": "56",
+                    "entry": "Maggot-ridden meat."
+                },
+                {
+                    "dice_val": "57",
+                    "entry": "Mold-covered cheese."
+                },
+                {
+                    "dice_val": "58",
+                    "entry": "Bottles of over-ripe wine."
+                },
+                {
+                    "dice_val": "59",
+                    "entry": "Ceramic mugs."
+                },
+                {
+                    "dice_val": "60",
+                    "entry": "Glass mugs."
+                },
+                {
+                    "dice_val": "61",
+                    "entry": "Plates and bowls."
+                },
+                {
+                    "dice_val": "62",
+                    "entry": "Low-end steel cutlery."
+                },
+                {
+                    "dice_val": "63",
+                    "entry": "Some old children's clothes."
+                },
+                {
+                    "dice_val": "64",
+                    "entry": "Worn-out children's shoes."
+                },
+                {
+                    "dice_val": "65",
+                    "entry": "Boots with holes."
+                },
+                {
+                    "dice_val": "66",
+                    "entry": "Well-worn men's clothes."
+                },
+                {
+                    "dice_val": "67",
+                    "entry": "Moth-eaten dresses."
+                },
+                {
+                    "dice_val": "68",
+                    "entry": "Broken jars of pickled foodstuffs."
+                },
+                {
+                    "dice_val": "69",
+                    "entry": "Empty gunnysacks."
+                },
+                {
+                    "dice_val": "70",
+                    "entry": "Cured meat that is hard as a rock."
+                },
+                {
+                    "dice_val": "71",
+                    "entry": "Bits of broken furniture."
+                },
+                {
+                    "dice_val": "72",
+                    "entry": "Some tattered blankets."
+                },
+                {
+                    "dice_val": "73",
+                    "entry": "Leaky oil lanterns."
+                },
+                {
+                    "dice_val": "74",
+                    "entry": "Worms. "
+                },
+                {
+                    "dice_val": "75",
+                    "entry": "Mice."
+                },
+                {
+                    "dice_val": "76",
+                    "entry": "Roaches."
+                },
+                {
+                    "dice_val": "77",
+                    "entry": "Beetles."
+                },
+                {
+                    "dice_val": "78",
+                    "entry": "A mysterious powder."
+                },
+                {
+                    "dice_val": "79",
+                    "entry": "A mysterious crystalline substance."
+                },
+                {
+                    "dice_val": "80",
+                    "entry": "A mysterious viscous liquid."
+                },
+                {
+                    "dice_val": "81",
+                    "entry": "Cat toys."
+                },
+                {
+                    "dice_val": "82",
+                    "entry": "Leashes, collars, and whips."
+                },
+                {
+                    "dice_val": "83",
+                    "entry": "Horseshoes."
+                },
+                {
+                    "dice_val": "84",
+                    "entry": "A heavy apron."
+                },
+                {
+                    "dice_val": "85",
+                    "entry": "Rag dolls."
+                },
+                {
+                    "dice_val": "86",
+                    "entry": "Wicker dolls."
+                },
+                {
+                    "dice_val": "87",
+                    "entry": "Ripped and broken baskets."
+                },
+                {
+                    "dice_val": "88",
+                    "entry": "Undyed wool."
+                },
+                {
+                    "dice_val": "89",
+                    "entry": "Thin cotton cloth."
+                },
+                {
+                    "dice_val": "90",
+                    "entry": "Needles, threads, and spare bits of cloth."
+                },
+                {
+                    "dice_val": "91",
+                    "entry": "Vials of brightly colored powders."
+                },
+                {
+                    "dice_val": "92",
+                    "entry": "Vials of brightly colored liquids."
+                },
+                {
+                    "dice_val": "93",
+                    "entry": "Paintings of poor quality."
+                },
+                {
+                    "dice_val": "94",
+                    "entry": "Sculptures and figurines of middling quality."
+                },
+                {
+                    "dice_val": "95",
+                    "entry": "Incomplete chess sets."
+                },
+                {
+                    "dice_val": "96",
+                    "entry": "Playing cards and betting chips."
+                },
+                {
+                    "dice_val": "97",
+                    "entry": "Bent and broken wands."
+                },
+                {
+                    "dice_val": "98",
+                    "entry": "Cracked and broken orbs."
+                },
+                {
+                    "dice_val": "99",
+                    "entry": "Saintly relics and pungent incense."
+                },
+                {
+                    "dice_val": "100",
+                    "entry": "Brushes of various sorts. "
+                }
+            ]
+        }
+    ],
+    "title": "Mostly Useless Junk",
+    "use_with": [
+        {
+            "link": "43ek9v",
+            "title": "Castles"
+        },
+        {
+            "link": "3xpb4r",
+            "title": "Temples"
+        },
+        {
+            "link": "4daxw7",
+            "title": "Urban marketplace"
+        }
+    ]
+}

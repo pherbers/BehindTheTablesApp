@@ -1,0 +1,340 @@
+{
+    "description": "Use these tables for quickly adding some details to an altar dedicated to an evil deity or foul being.",
+    "id": "4tl3c6",
+    "keywords": [
+        "priest",
+        "priestess",
+        "temple",
+        "shrine",
+        "church",
+        "chapel",
+        "temple of doom",
+        "evil altar",
+        "foul ritual",
+        "dark gods",
+        "dead gods",
+        "satanic"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/4tl3c6",
+    "related_tables": [
+        {
+            "link": "4tl384",
+            "title": "Holy altars"
+        }
+    ],
+    "tables": [
+        {
+            "dice": "d10",
+            "name": "The altar chamber is lit by...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A few large candles."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Many small candles."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Several candelabra."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A pair of torches near the entrance."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Several torches in sconces around the room."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Lanterns with colored glass (d4): 1. green; 2. orange; 3. purple; 4. red."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Torches that burn with unusually colored flames (d4): 1. blue; 2. green; 3. purple; 4. red."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A large brazier, emitting a dim red glow."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Only the light you take with you."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Nothing; this is a dark place, and you have difficulty keeping your torches lit."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Upon approaching the altar, you feel...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Insignificant."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A little irritable."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A little weak."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Less safe than before."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "An up welling of fear."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "An up welling of hatred."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A hungry presence."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A malevolent presence."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A domineering presence."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A watchful presence."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "The altar is made of...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A solid block of stone."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Three large slabs of stone."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Three thick cuts of wood."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A single block of stone carved with disturbing images."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Three slabs of rune-carved stone."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Several small stones held together with mortar."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Brick and mortar."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Wood carved in the forms of frightening beasts."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Volcanic glass."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Bone."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Atop the altar, you find...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "An ancient tome."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A profane ritual book."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Several candles."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A blood-stained parament."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A singed parament."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A blanket made from the hide of a great beast."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A dish (d8): 1. bone; 2. brass; 3. gold; 4. ivory; 5. jade; 6. silver; 7. steel; 8. volcanic glass."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A goblet (d8): 1. bone; 2. brass; 3. gold; 4. ivory; 5. jade; 6. silver; 7. steel; 8. volcanic glass."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A vessel of blood."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A ceremonial knife."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "You find a prisoner tied to the altar. If you sacrifice a prisoner on the altar, ...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A fiend appears before you and begins savaging you with its claws."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A fiend appears before you, demanding to know why you've summoned it to this dreary place."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A fiend presence speaks to you, offering to answer one question you have."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Nothing happens at first. After a while, you sense a fiendish presence begins watching your every move; you can feel its malevolent gaze."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "An angel appears to smite you for your foul act."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "The victim's corpse rises as a ghoul after 2d6 minutes, and it seeks you out, hungering for flesh. "
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "You find a prisoner tied to the altar. If you leave the prisoner there, ...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Someone else kills the prisoner before you come back."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "The prisoner dies of shock, fear, or injuries previously sustained; you discover the corpse when you come back."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "The prisoner screams madly at you to help; the noise is going to draw attention."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Nothing; that prisoner was worthless."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "When you return, rats are gnawing on the poor prisoner's toes and fingers. The prisoner is screaming and writhing in agony."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A fiend appears and pulls the prisoner's heart out and consumes the still beating organ as you look on in horror."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "You find a prisoner tied to the altar. If you free the prisoner, ...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "The prisoner scrambles away out of the dungeon, terrified of what you may do."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "The prisoner instantly befriends you, desperately wanting to repay you the life-saving favor."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "The prisoner thanks you and tells you where to find a sack full of buried gold if you ever make it out of this hole in the ground; the prisoner then scurries off."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "The prisoner tells you to get out of here because this place is cursed."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "The prisoner tries to stab you with a hidden knife, having actually been a cleverly disguised cultist."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "The prisoner promises to take you on safe paths through the dungeon to visit the terrifying Lord of Deep Places; the prisoner may not be mentally balanced."
+                }
+            ]
+        }
+    ],
+    "title": "Unholy Altars",
+    "use_with": [
+        {
+            "link": "3xyiqs",
+            "title": "Cults"
+        },
+        {
+            "link": "40wc26",
+            "title": "Cultists"
+        },
+        {
+            "link": "4boiw9",
+            "title": "Fiends"
+        },
+        {
+            "link": "40pjmd",
+            "title": "Monasteries"
+        },
+        {
+            "link": "3xq9nd",
+            "title": "Monks"
+        },
+        {
+            "link": "3shczv",
+            "title": "Pantheons"
+        },
+        {
+            "link": "3whlp0",
+            "title": "Priests"
+        },
+        {
+            "link": "3xpb4r",
+            "title": "Temples"
+        },
+        {
+            "link": "427hd8",
+            "title": "Tombs"
+        }
+    ]
+}

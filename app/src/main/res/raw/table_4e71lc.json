@@ -1,0 +1,386 @@
+{
+    "description": "These are tables for quickly coming up with a flavorful meal or menu for a mages' academy, a wizard's tower, or anywhere one might serve hearty food, catering to magical folk.",
+    "id": "4e71lc",
+    "keywords": [
+        "magical academy",
+        "pumpkin pie",
+        "pumpkin juice",
+        "hogwarts school of witchcraft and wizardry"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/4e71lc",
+    "related_tables": [
+        {
+            "link": "4dv7i9",
+            "title": "Dinner at a country inn"
+        },
+        {
+            "link": "4evdqx",
+            "title": "Dinner in a witch's hovel"
+        }
+    ],
+    "tables": [
+        {
+            "dice": "d8",
+            "name": "Tonight, in the mages' academy dining hall, we dine on...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Stewed."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Roasted."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Fried."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Baked."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Grilled."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Seared."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Salted."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Candied."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Rabbit."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Pheasant."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Duck."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Bat."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Pork."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Beef."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Goose."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Trout."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Oysters."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Blood sausage."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Pork sausage."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Meat pie."
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "...with...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Dumplings."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Sweet cabbage."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Caramelized onions."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Pumpkin."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Butternut squash."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Peas."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Kidney beans."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "String beans."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Pudding."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Asparagus."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Sprouts."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Potatoes."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "Mushrooms."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "Toadstools."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "Squash."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "White beans."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "Red onions."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "Spinach."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "Cucumber."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "Pickles."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "...and...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Carrots."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Apples."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Cherries."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Tomatoes."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Pears."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Strawberries."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Pumpkin seeds."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Walnuts."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Pecans."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Almonds."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Parsley."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Turnips."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "On the side, there is some...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Elvish bread."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Chocolate molded into the shape of frogs."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Cinnamon bread."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Pumpkin bread."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Chocolate candy."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Caramel candy."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Cheese cake."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Rum cake."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Sugar cake."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Fruit tart."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Pumpkin pie."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Blueberry pie."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "To wash it down, we have some...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Pumpkin juice."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Buttery ale."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Root beer."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Ginger beer"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Fizzy ale."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Chocolate stout."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Coffee stout."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Apple cider."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Pear cider."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Sweet tea."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Herbal tea."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Hot cocoa."
+                }
+            ]
+        }
+    ],
+    "title": "Dinner in a Mages' Academy Dining Hall",
+    "use_with": [
+        {
+            "link": "3sl4sr",
+            "title": "Alchemists"
+        },
+        {
+            "link": "46ma8g",
+            "title": "Bards"
+        },
+        {
+            "link": "44r23c",
+            "title": "Seers"
+        },
+        {
+            "link": "3w1g84",
+            "title": "Necromancers"
+        },
+        {
+            "link": "3si4ms",
+            "title": "Witches"
+        }
+    ]
+}

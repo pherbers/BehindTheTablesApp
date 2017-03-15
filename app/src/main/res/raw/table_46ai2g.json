@@ -1,0 +1,2319 @@
+{
+    "description": "Some random tables to spice up your dungeons. Roll multiple times on the object tables (6-10 times gives a nice spread of objects). *Note:* This was copied from the [1E *DMG* without permission]( https://redd.it/458epf).",
+    "id": "46ai2g",
+    "keywords": [
+        "dungeons",
+        "dungeon furnishings",
+        "objects in dungeons",
+        "smells of the dungeon",
+        "odors",
+        "dank",
+        "dark",
+        "mold",
+        "dungeon life",
+        "dungeon stuff"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/46ai2g",
+    "related_tables": [],
+    "tables": [
+        {
+            "dice": "d100",
+            "name": "Air Currents",
+            "table_entries": [
+                {
+                    "dice_val": "01-05",
+                    "entry": "breeze, slight.  "
+                },
+                {
+                    "dice_val": "06-10",
+                    "entry": "breeze, slight, damp.  "
+                },
+                {
+                    "dice_val": "11-12",
+                    "entry": "breeze, gusting.  "
+                },
+                {
+                    "dice_val": "13-18",
+                    "entry": "cold current.  "
+                },
+                {
+                    "dice_val": "19-20",
+                    "entry": "downdraft, slight.  "
+                },
+                {
+                    "dice_val": "21-22",
+                    "entry": "downdraft, strong.  "
+                },
+                {
+                    "dice_val": "23-69",
+                    "entry": "still.  "
+                },
+                {
+                    "dice_val": "70-75",
+                    "entry": "still, very chill.  "
+                },
+                {
+                    "dice_val": "76-85",
+                    "entry": "still, warm (or hot).  "
+                },
+                {
+                    "dice_val": "86-87",
+                    "entry": "updraft, slight.  "
+                },
+                {
+                    "dice_val": "88-89",
+                    "entry": "updraft, strong.  "
+                },
+                {
+                    "dice_val": "90-93",
+                    "entry": "wind, strong.  "
+                },
+                {
+                    "dice_val": "94-95",
+                    "entry": "wind, strong, gusting.  "
+                },
+                {
+                    "dice_val": "96-100",
+                    "entry": "wind, strong, moaning.  "
+                }
+            ]
+        },
+        {
+            "dice": "d100",
+            "name": "Odors",
+            "table_entries": [
+                {
+                    "dice_val": "01-03",
+                    "entry": "acrid smell.  "
+                },
+                {
+                    "dice_val": "04-05",
+                    "entry": "chlorine smell.  "
+                },
+                {
+                    "dice_val": "06-39",
+                    "entry": "dank, mouldy smell.  "
+                },
+                {
+                    "dice_val": "40-49",
+                    "entry": "earthy smell.  "
+                },
+                {
+                    "dice_val": "50-57",
+                    "entry": "manure smell.  "
+                },
+                {
+                    "dice_val": "58-61",
+                    "entry": "metallic smell.  "
+                },
+                {
+                    "dice_val": "62-65",
+                    "entry": "ozone smell.  "
+                },
+                {
+                    "dice_val": "66-70",
+                    "entry": "putrid smell.  "
+                },
+                {
+                    "dice_val": "71-75",
+                    "entry": "rotting vegetation smell.  "
+                },
+                {
+                    "dice_val": "76-77",
+                    "entry": "salty, wet smell.  "
+                },
+                {
+                    "dice_val": "78-82",
+                    "entry": "smoky smell.  "
+                },
+                {
+                    "dice_val": "83-89",
+                    "entry": "stale, fetid smell.  "
+                },
+                {
+                    "dice_val": "90-95",
+                    "entry": "sulphurous smell.  "
+                },
+                {
+                    "dice_val": "96-100",
+                    "entry": "urine smell.  "
+                }
+            ]
+        },
+        {
+            "dice": "d100",
+            "name": "Air",
+            "table_entries": [
+                {
+                    "dice_val": "01-70",
+                    "entry": "clear.  "
+                },
+                {
+                    "dice_val": "71-80",
+                    "entry": "foggy (or steamy).  "
+                },
+                {
+                    "dice_val": "81-88",
+                    "entry": "foggy near floor (or steamy).  "
+                },
+                {
+                    "dice_val": "89-90",
+                    "entry": "hazy (dust).  "
+                },
+                {
+                    "dice_val": "91-100",
+                    "entry": "misted.  "
+                }
+            ]
+        },
+        {
+            "dice": "d100",
+            "name": "General features",
+            "table_entries": [
+                {
+                    "dice_val": "01",
+                    "entry": "arrow, broken.  "
+                },
+                {
+                    "dice_val": "02-04",
+                    "entry": "ashes.  "
+                },
+                {
+                    "dice_val": "05-06",
+                    "entry": "bones.  "
+                },
+                {
+                    "dice_val": "07",
+                    "entry": "bottle, broken.  "
+                },
+                {
+                    "dice_val": "08",
+                    "entry": "chain, corroded.  "
+                },
+                {
+                    "dice_val": "09",
+                    "entry": "club, splintered.  "
+                },
+                {
+                    "dice_val": "10-19",
+                    "entry": "cobwebs.  "
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "coin, copper (bent).  "
+                },
+                {
+                    "dice_val": "21-22",
+                    "entry": "cracks, ceiling.  "
+                },
+                {
+                    "dice_val": "23-24",
+                    "entry": "cracks, floor.  "
+                },
+                {
+                    "dice_val": "25-26",
+                    "entry": "cracks, wall.  "
+                },
+                {
+                    "dice_val": "27",
+                    "entry": "dagger hilt.  "
+                },
+                {
+                    "dice_val": "28-29",
+                    "entry": "dampness, ceiling.  "
+                },
+                {
+                    "dice_val": "30-33",
+                    "entry": "dampness, wall.  "
+                },
+                {
+                    "dice_val": "34-40",
+                    "entry": "dripping.  "
+                },
+                {
+                    "dice_val": "41",
+                    "entry": "dried blood.  "
+                },
+                {
+                    "dice_val": "42-44",
+                    "entry": "dung.  "
+                },
+                {
+                    "dice_val": "45-49",
+                    "entry": "dust.  "
+                },
+                {
+                    "dice_val": "50",
+                    "entry": "flask, cracked.  "
+                },
+                {
+                    "dice_val": "51",
+                    "entry": "food scraps.  "
+                },
+                {
+                    "dice_val": "52",
+                    "entry": "fungi, common.  "
+                },
+                {
+                    "dice_val": "53-55",
+                    "entry": "guano.  "
+                },
+                {
+                    "dice_val": "56",
+                    "entry": "hair/fur bits.  "
+                },
+                {
+                    "dice_val": "57",
+                    "entry": "hammer head, cracked.  "
+                },
+                {
+                    "dice_val": "58",
+                    "entry": "helmet, badly dented.  "
+                },
+                {
+                    "dice_val": "59",
+                    "entry": "iron bar, bent, rusted.  "
+                },
+                {
+                    "dice_val": "60",
+                    "entry": "javelin head, blunt.  "
+                },
+                {
+                    "dice_val": "61",
+                    "entry": "leather boot.  "
+                },
+                {
+                    "dice_val": "62-64",
+                    "entry": "leaves (dry) &amp; twigs.  "
+                },
+                {
+                    "dice_val": "65-68",
+                    "entry": "mold (common).  "
+                },
+                {
+                    "dice_val": "69",
+                    "entry": "pick handle.  "
+                },
+                {
+                    "dice_val": "70",
+                    "entry": "pole, broken.  "
+                },
+                {
+                    "dice_val": "71",
+                    "entry": "pottery shards.  "
+                },
+                {
+                    "dice_val": "72-73",
+                    "entry": "rags.  "
+                },
+                {
+                    "dice_val": "74",
+                    "entry": "rope, rotten.  "
+                },
+                {
+                    "dice_val": "75-76",
+                    "entry": "rubble &amp; dirt.  "
+                },
+                {
+                    "dice_val": "77",
+                    "entry": "sack, torn.  "
+                },
+                {
+                    "dice_val": "78",
+                    "entry": "slimy coating, ceiling.  "
+                },
+                {
+                    "dice_val": "79",
+                    "entry": "slimy coating, floor.  "
+                },
+                {
+                    "dice_val": "80",
+                    "entry": "slimy coating, wall.  "
+                },
+                {
+                    "dice_val": "81",
+                    "entry": "spike, rusted.  "
+                },
+                {
+                    "dice_val": "82-83",
+                    "entry": "sticks.  "
+                },
+                {
+                    "dice_val": "84",
+                    "entry": "stones, small.  "
+                },
+                {
+                    "dice_val": "85",
+                    "entry": "straw.  "
+                },
+                {
+                    "dice_val": "86",
+                    "entry": "sword blade, broken.  "
+                },
+                {
+                    "dice_val": "87",
+                    "entry": "teeth/fangs, scattered.  "
+                },
+                {
+                    "dice_val": "88-89",
+                    "entry": "torch stub.  "
+                },
+                {
+                    "dice_val": "90-91",
+                    "entry": "wall scratchings.  "
+                },
+                {
+                    "dice_val": "92-93",
+                    "entry": "water, small puddle.  "
+                },
+                {
+                    "dice_val": "94-95",
+                    "entry": "water, large puddle.  "
+                },
+                {
+                    "dice_val": "96",
+                    "entry": "water, trickle.  "
+                },
+                {
+                    "dice_val": "97",
+                    "entry": "wax blob (candle stub).  "
+                },
+                {
+                    "dice_val": "98-100",
+                    "entry": "wood pieces, rotting.  "
+                }
+            ]
+        },
+        {
+            "dice": "d100",
+            "name": "Unexplained Sounds and Weird Noises",
+            "table_entries": [
+                {
+                    "dice_val": "01-05",
+                    "entry": "bang, slam.  "
+                },
+                {
+                    "dice_val": "06",
+                    "entry": "bellow(ing).  "
+                },
+                {
+                    "dice_val": "07",
+                    "entry": "bong.  "
+                },
+                {
+                    "dice_val": "08",
+                    "entry": "buzzing.  "
+                },
+                {
+                    "dice_val": "09-10",
+                    "entry": "chanting.  "
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "chiming.  "
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "chirping.  "
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "clanking.  "
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "clashing.  "
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "clicking.  "
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "coughing.  "
+                },
+                {
+                    "dice_val": "17-18",
+                    "entry": "creaking.  "
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "drumming.  "
+                },
+                {
+                    "dice_val": "20-23",
+                    "entry": "footsteps (ahead).  "
+                },
+                {
+                    "dice_val": "24-26",
+                    "entry": "footsteps (approaching).  "
+                },
+                {
+                    "dice_val": "27-29",
+                    "entry": "footsteps (behind).  "
+                },
+                {
+                    "dice_val": "30-31",
+                    "entry": "footsteps (receding).  "
+                },
+                {
+                    "dice_val": "32-33",
+                    "entry": "footsteps (side).  "
+                },
+                {
+                    "dice_val": "34-35",
+                    "entry": "giggling (faint).  "
+                },
+                {
+                    "dice_val": "36",
+                    "entry": "gong.  "
+                },
+                {
+                    "dice_val": "37-39",
+                    "entry": "grating.  "
+                },
+                {
+                    "dice_val": "40-41",
+                    "entry": "groaning.  "
+                },
+                {
+                    "dice_val": "42",
+                    "entry": "grunting.  "
+                },
+                {
+                    "dice_val": "43-44",
+                    "entry": "hissing.  "
+                },
+                {
+                    "dice_val": "45",
+                    "entry": "hooting.  "
+                },
+                {
+                    "dice_val": "46",
+                    "entry": "horn/trumpet sounding.  "
+                },
+                {
+                    "dice_val": "47",
+                    "entry": "howling.  "
+                },
+                {
+                    "dice_val": "48",
+                    "entry": "humming.  "
+                },
+                {
+                    "dice_val": "49",
+                    "entry": "jingling.  "
+                },
+                {
+                    "dice_val": "50-53",
+                    "entry": "knocking.  "
+                },
+                {
+                    "dice_val": "54-55",
+                    "entry": "laughter.  "
+                },
+                {
+                    "dice_val": "56-57",
+                    "entry": "moaning.  "
+                },
+                {
+                    "dice_val": "58-60",
+                    "entry": "murmuring.  "
+                },
+                {
+                    "dice_val": "61",
+                    "entry": "music.  "
+                },
+                {
+                    "dice_val": "62",
+                    "entry": "rattling.  "
+                },
+                {
+                    "dice_val": "63",
+                    "entry": "ringing.  "
+                },
+                {
+                    "dice_val": "64",
+                    "entry": "roar(ing).  "
+                },
+                {
+                    "dice_val": "65-68",
+                    "entry": "rustling.  "
+                },
+                {
+                    "dice_val": "69-72",
+                    "entry": "scratching/scrabbling.  "
+                },
+                {
+                    "dice_val": "73-74",
+                    "entry": "scream(ing).  "
+                },
+                {
+                    "dice_val": "75-77",
+                    "entry": "scuttling.  "
+                },
+                {
+                    "dice_val": "78",
+                    "entry": "shuffling.  "
+                },
+                {
+                    "dice_val": "79-80",
+                    "entry": "slithering.  "
+                },
+                {
+                    "dice_val": "81",
+                    "entry": "snapping.  "
+                },
+                {
+                    "dice_val": "82",
+                    "entry": "sneezing.  "
+                },
+                {
+                    "dice_val": "83",
+                    "entry": "sobbing.  "
+                },
+                {
+                    "dice_val": "84",
+                    "entry": "splashing.  "
+                },
+                {
+                    "dice_val": "85",
+                    "entry": "splintering.  "
+                },
+                {
+                    "dice_val": "86-87",
+                    "entry": "squeaking.  "
+                },
+                {
+                    "dice_val": "88",
+                    "entry": "squealing.  "
+                },
+                {
+                    "dice_val": "89-90",
+                    "entry": "tapping.  "
+                },
+                {
+                    "dice_val": "91-92",
+                    "entry": "thud.  "
+                },
+                {
+                    "dice_val": "93-94",
+                    "entry": "thumping.  "
+                },
+                {
+                    "dice_val": "95",
+                    "entry": "tinkling.  "
+                },
+                {
+                    "dice_val": "96",
+                    "entry": "twanging.  "
+                },
+                {
+                    "dice_val": "97",
+                    "entry": "whining.  "
+                },
+                {
+                    "dice_val": "98",
+                    "entry": "whispering.  "
+                },
+                {
+                    "dice_val": "99-100",
+                    "entry": "whistling.  "
+                }
+            ]
+        },
+        {
+            "dice": "d100",
+            "name": "Furnishing and Appointments, General",
+            "table_entries": [
+                {
+                    "dice_val": "01",
+                    "entry": "altar.  "
+                },
+                {
+                    "dice_val": "02",
+                    "entry": "armchair.  "
+                },
+                {
+                    "dice_val": "03",
+                    "entry": "armoire.  "
+                },
+                {
+                    "dice_val": "04",
+                    "entry": "arross.  "
+                },
+                {
+                    "dice_val": "05",
+                    "entry": "bag.  "
+                },
+                {
+                    "dice_val": "06",
+                    "entry": "barrel.  "
+                },
+                {
+                    "dice_val": "07-08",
+                    "entry": "bed.  "
+                },
+                {
+                    "dice_val": "09",
+                    "entry": "bench.  "
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "blanket.  "
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "box (large).  "
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "brazier &amp; charcoal.  "
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "bucket.  "
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "buffet.  "
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "bunks.  "
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "butt (large barrel).  "
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "cabinet.  "
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "candelabrum.  "
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "carpet (large).  "
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "cask.  "
+                },
+                {
+                    "dice_val": "21",
+                    "entry": "chandelier.  "
+                },
+                {
+                    "dice_val": "22",
+                    "entry": "charcoal.  "
+                },
+                {
+                    "dice_val": "23-24",
+                    "entry": "chair.  "
+                },
+                {
+                    "dice_val": "25",
+                    "entry": "chair, padded.  "
+                },
+                {
+                    "dice_val": "26",
+                    "entry": "chair, padded, arm.  "
+                },
+                {
+                    "dice_val": "27",
+                    "entry": "chest, large.  "
+                },
+                {
+                    "dice_val": "28",
+                    "entry": "chest, medium.  "
+                },
+                {
+                    "dice_val": "29",
+                    "entry": "chest of drawers.  "
+                },
+                {
+                    "dice_val": "30",
+                    "entry": "closet (wardrobe).  "
+                },
+                {
+                    "dice_val": "31",
+                    "entry": "coal.  "
+                },
+                {
+                    "dice_val": "32-33",
+                    "entry": "couch.  "
+                },
+                {
+                    "dice_val": "34",
+                    "entry": "crate.  "
+                },
+                {
+                    "dice_val": "35",
+                    "entry": "cresset.  "
+                },
+                {
+                    "dice_val": "36",
+                    "entry": "cupboard.  "
+                },
+                {
+                    "dice_val": "37",
+                    "entry": "cushion.  "
+                },
+                {
+                    "dice_val": "38",
+                    "entry": "dias.  "
+                },
+                {
+                    "dice_val": "39",
+                    "entry": "desk.  "
+                },
+                {
+                    "dice_val": "40-42",
+                    "entry": "fireplace &amp; wood.  "
+                },
+                {
+                    "dice_val": "43",
+                    "entry": "fireplace with mantle.  "
+                },
+                {
+                    "dice_val": "44",
+                    "entry": "firkin.  "
+                },
+                {
+                    "dice_val": "45",
+                    "entry": "fountain.  "
+                },
+                {
+                    "dice_val": "46",
+                    "entry": "fresco.  "
+                },
+                {
+                    "dice_val": "47",
+                    "entry": "grindstone.  "
+                },
+                {
+                    "dice_val": "48",
+                    "entry": "hamper.  "
+                },
+                {
+                    "dice_val": "49",
+                    "entry": "hassock.  "
+                },
+                {
+                    "dice_val": "50",
+                    "entry": "hogshead.  "
+                },
+                {
+                    "dice_val": "51",
+                    "entry": "idol (large).  "
+                },
+                {
+                    "dice_val": "52",
+                    "entry": "keg.  "
+                },
+                {
+                    "dice_val": "53",
+                    "entry": "loom.  "
+                },
+                {
+                    "dice_val": "54",
+                    "entry": "mat.  "
+                },
+                {
+                    "dice_val": "55",
+                    "entry": "mattress.  "
+                },
+                {
+                    "dice_val": "56",
+                    "entry": "pail.  "
+                },
+                {
+                    "dice_val": "57",
+                    "entry": "painting.  "
+                },
+                {
+                    "dice_val": "58-60",
+                    "entry": "pallet.  "
+                },
+                {
+                    "dice_val": "61",
+                    "entry": "pedestal.  "
+                },
+                {
+                    "dice_val": "62-64",
+                    "entry": "pegs.  "
+                },
+                {
+                    "dice_val": "65",
+                    "entry": "pillow.  "
+                },
+                {
+                    "dice_val": "66",
+                    "entry": "pipe (large cask).  "
+                },
+                {
+                    "dice_val": "67",
+                    "entry": "quilt.  "
+                },
+                {
+                    "dice_val": "68-70",
+                    "entry": "rug(small/medium).  "
+                },
+                {
+                    "dice_val": "71",
+                    "entry": "rushes.  "
+                },
+                {
+                    "dice_val": "72",
+                    "entry": "sack.  "
+                },
+                {
+                    "dice_val": "73",
+                    "entry": "sconce, wall.  "
+                },
+                {
+                    "dice_val": "74",
+                    "entry": "screen.  "
+                },
+                {
+                    "dice_val": "75",
+                    "entry": "sheet.  "
+                },
+                {
+                    "dice_val": "76-77",
+                    "entry": "shelf.  "
+                },
+                {
+                    "dice_val": "78",
+                    "entry": "shrine.  "
+                },
+                {
+                    "dice_val": "79",
+                    "entry": "sideboard.  "
+                },
+                {
+                    "dice_val": "80",
+                    "entry": "sofa.  "
+                },
+                {
+                    "dice_val": "81",
+                    "entry": "staff, normal.  "
+                },
+                {
+                    "dice_val": "82",
+                    "entry": "stand.  "
+                },
+                {
+                    "dice_val": "83",
+                    "entry": "statue.  "
+                },
+                {
+                    "dice_val": "84",
+                    "entry": "stool, high.  "
+                },
+                {
+                    "dice_val": "85",
+                    "entry": "stool, normal.  "
+                },
+                {
+                    "dice_val": "86",
+                    "entry": "table, large.  "
+                },
+                {
+                    "dice_val": "87",
+                    "entry": "table, long.  "
+                },
+                {
+                    "dice_val": "88",
+                    "entry": "table, low.  "
+                },
+                {
+                    "dice_val": "89",
+                    "entry": "table, round.  "
+                },
+                {
+                    "dice_val": "90",
+                    "entry": "table, small.  "
+                },
+                {
+                    "dice_val": "91",
+                    "entry": "table, trestle.  "
+                },
+                {
+                    "dice_val": "92",
+                    "entry": "tapestry.  "
+                },
+                {
+                    "dice_val": "93",
+                    "entry": "throne.  "
+                },
+                {
+                    "dice_val": "94",
+                    "entry": "trunk.  "
+                },
+                {
+                    "dice_val": "95",
+                    "entry": "tub.  "
+                },
+                {
+                    "dice_val": "96",
+                    "entry": "tun.  "
+                },
+                {
+                    "dice_val": "97",
+                    "entry": "urn.  "
+                },
+                {
+                    "dice_val": "98",
+                    "entry": "wall basin and font.  "
+                },
+                {
+                    "dice_val": "99",
+                    "entry": "wood billets.  "
+                },
+                {
+                    "dice_val": "100",
+                    "entry": "workbench.  "
+                }
+            ]
+        },
+        {
+            "dice": "d100",
+            "name": "Religious Articles and Furnishings",
+            "table_entries": [
+                {
+                    "dice_val": "01-05",
+                    "entry": "altar.  "
+                },
+                {
+                    "dice_val": "06-08",
+                    "entry": "bell(s).  "
+                },
+                {
+                    "dice_val": "09-11",
+                    "entry": "brazier(s).  "
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "candleabra.  "
+                },
+                {
+                    "dice_val": "13-14",
+                    "entry": "candles.  "
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "candlesticks.  "
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "cassocks.  "
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "chime(s).  "
+                },
+                {
+                    "dice_val": "18-19",
+                    "entry": "cloth (altar).  "
+                },
+                {
+                    "dice_val": "20-23",
+                    "entry": "columns/pillars.  "
+                },
+                {
+                    "dice_val": "24",
+                    "entry": "curtain/tapestry.  "
+                },
+                {
+                    "dice_val": "25",
+                    "entry": "drum.  "
+                },
+                {
+                    "dice_val": "26-27",
+                    "entry": "font.  "
+                },
+                {
+                    "dice_val": "28-29",
+                    "entry": "gong.  "
+                },
+                {
+                    "dice_val": "30-35",
+                    "entry": "holy/unholy symbol(s).  "
+                },
+                {
+                    "dice_val": "36-37",
+                    "entry": "holy/unholy writings.  "
+                },
+                {
+                    "dice_val": "38-43",
+                    "entry": "idol(s).  "
+                },
+                {
+                    "dice_val": "44-48",
+                    "entry": "incense burner(s).  "
+                },
+                {
+                    "dice_val": "49",
+                    "entry": "kneeling bench.  "
+                },
+                {
+                    "dice_val": "50-53",
+                    "entry": "lamp(s).  "
+                },
+                {
+                    "dice_val": "54",
+                    "entry": "lectern.  "
+                },
+                {
+                    "dice_val": "55",
+                    "entry": "mosaics.  "
+                },
+                {
+                    "dice_val": "56-58",
+                    "entry": "offertory container.  "
+                },
+                {
+                    "dice_val": "59",
+                    "entry": "paintings/frescoes.  "
+                },
+                {
+                    "dice_val": "60-61",
+                    "entry": "pews.  "
+                },
+                {
+                    "dice_val": "62",
+                    "entry": "pipes (musical).  "
+                },
+                {
+                    "dice_val": "63",
+                    "entry": "prayer rug.  "
+                },
+                {
+                    "dice_val": "64",
+                    "entry": "pulpit.  "
+                },
+                {
+                    "dice_val": "65",
+                    "entry": "rail.  "
+                },
+                {
+                    "dice_val": "66-67",
+                    "entry": "robes.  "
+                },
+                {
+                    "dice_val": "68-69",
+                    "entry": "sanctuary.  "
+                },
+                {
+                    "dice_val": "70-71",
+                    "entry": "screen.  "
+                },
+                {
+                    "dice_val": "72-76",
+                    "entry": "shrine.  "
+                },
+                {
+                    "dice_val": "77",
+                    "entry": "side chair(s).  "
+                },
+                {
+                    "dice_val": "78-79",
+                    "entry": "stand.  "
+                },
+                {
+                    "dice_val": "80-82",
+                    "entry": "statues(s).  "
+                },
+                {
+                    "dice_val": "83",
+                    "entry": "throne.  "
+                },
+                {
+                    "dice_val": "84-85",
+                    "entry": "thurible.  "
+                },
+                {
+                    "dice_val": "86-88",
+                    "entry": "tripod.  "
+                },
+                {
+                    "dice_val": "89-90",
+                    "entry": "vestry.  "
+                },
+                {
+                    "dice_val": "91-97",
+                    "entry": "vestments.  "
+                },
+                {
+                    "dice_val": "98-99",
+                    "entry": "votive light.  "
+                },
+                {
+                    "dice_val": "100",
+                    "entry": "whistle.  "
+                }
+            ]
+        },
+        {
+            "dice": "d100",
+            "name": "Torture Chamber Furnishings",
+            "table_entries": [
+                {
+                    "dice_val": "01-02",
+                    "entry": "bastinadoes.  "
+                },
+                {
+                    "dice_val": "03",
+                    "entry": "bell (huge).  "
+                },
+                {
+                    "dice_val": "04-06",
+                    "entry": "bench.  "
+                },
+                {
+                    "dice_val": "07-10",
+                    "entry": "boots (iron).  "
+                },
+                {
+                    "dice_val": "11-15",
+                    "entry": "branding irons.  "
+                },
+                {
+                    "dice_val": "16-20",
+                    "entry": "brazier.  "
+                },
+                {
+                    "dice_val": "21-22",
+                    "entry": "cage.  "
+                },
+                {
+                    "dice_val": "23-26",
+                    "entry": "chains.  "
+                },
+                {
+                    "dice_val": "27",
+                    "entry": "chair with straps.  "
+                },
+                {
+                    "dice_val": "28",
+                    "entry": "clamps.  "
+                },
+                {
+                    "dice_val": "29-31",
+                    "entry": "cressets.  "
+                },
+                {
+                    "dice_val": "32",
+                    "entry": "fetters.  "
+                },
+                {
+                    "dice_val": "33-35",
+                    "entry": "fire pit.  "
+                },
+                {
+                    "dice_val": "36",
+                    "entry": "grill.  "
+                },
+                {
+                    "dice_val": "37-38",
+                    "entry": "hooks.  "
+                },
+                {
+                    "dice_val": "39-43",
+                    "entry": "iron maiden.  "
+                },
+                {
+                    "dice_val": "44",
+                    "entry": "knives.  "
+                },
+                {
+                    "dice_val": "45",
+                    "entry": "manacles.  "
+                },
+                {
+                    "dice_val": "46",
+                    "entry": "oubliette.  "
+                },
+                {
+                    "dice_val": "47-48",
+                    "entry": "oil (barrel of).  "
+                },
+                {
+                    "dice_val": "49-50",
+                    "entry": "pillory.  "
+                },
+                {
+                    "dice_val": "51-54",
+                    "entry": "pincers.  "
+                },
+                {
+                    "dice_val": "55-56",
+                    "entry": "pliers.  "
+                },
+                {
+                    "dice_val": "57-58",
+                    "entry": "pot (huge).  "
+                },
+                {
+                    "dice_val": "59-66",
+                    "entry": "rack.  "
+                },
+                {
+                    "dice_val": "67-68",
+                    "entry": "ropes.  "
+                },
+                {
+                    "dice_val": "69",
+                    "entry": "stocks.  "
+                },
+                {
+                    "dice_val": "70-71",
+                    "entry": "stool.  "
+                },
+                {
+                    "dice_val": "72-75",
+                    "entry": "strappado.  "
+                },
+                {
+                    "dice_val": "76-78",
+                    "entry": "straw.  "
+                },
+                {
+                    "dice_val": "79-80",
+                    "entry": "table.  "
+                },
+                {
+                    "dice_val": "81",
+                    "entry": "thongs.  "
+                },
+                {
+                    "dice_val": "82-85",
+                    "entry": "thumb screws.  "
+                },
+                {
+                    "dice_val": "86-88",
+                    "entry": "torches.  "
+                },
+                {
+                    "dice_val": "89-90",
+                    "entry": "\"U\" rack.  "
+                },
+                {
+                    "dice_val": "91",
+                    "entry": "vice.  "
+                },
+                {
+                    "dice_val": "92-93",
+                    "entry": "well.  "
+                },
+                {
+                    "dice_val": "94-96",
+                    "entry": "wheel.  "
+                },
+                {
+                    "dice_val": "97-100",
+                    "entry": "whips.  "
+                }
+            ]
+        },
+        {
+            "dice": "d100",
+            "name": "Magic-User Furnishings",
+            "table_entries": [
+                {
+                    "dice_val": "01-03",
+                    "entry": "alembic.  "
+                },
+                {
+                    "dice_val": "04-05",
+                    "entry": "balance &amp; weights.  "
+                },
+                {
+                    "dice_val": "06-09",
+                    "entry": "beaker.  "
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "bellows.  "
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "bladder.  "
+                },
+                {
+                    "dice_val": "12-13",
+                    "entry": "bottle.  "
+                },
+                {
+                    "dice_val": "14-16",
+                    "entry": "book.  "
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "bowl.  "
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "box.  "
+                },
+                {
+                    "dice_val": "19-22",
+                    "entry": "brazier.  "
+                },
+                {
+                    "dice_val": "23",
+                    "entry": "cage.  "
+                },
+                {
+                    "dice_val": "24-25",
+                    "entry": "cauldron.  "
+                },
+                {
+                    "dice_val": "26",
+                    "entry": "candle.  "
+                },
+                {
+                    "dice_val": "27",
+                    "entry": "candlestick.  "
+                },
+                {
+                    "dice_val": "28",
+                    "entry": "carafe.  "
+                },
+                {
+                    "dice_val": "29-30",
+                    "entry": "chalk.  "
+                },
+                {
+                    "dice_val": "31",
+                    "entry": "crucible.  "
+                },
+                {
+                    "dice_val": "32",
+                    "entry": "cruet.  "
+                },
+                {
+                    "dice_val": "33",
+                    "entry": "crystal ball.  "
+                },
+                {
+                    "dice_val": "34",
+                    "entry": "decanter.  "
+                },
+                {
+                    "dice_val": "35",
+                    "entry": "desk.  "
+                },
+                {
+                    "dice_val": "36",
+                    "entry": "dish.  "
+                },
+                {
+                    "dice_val": "37-38",
+                    "entry": "flask.  "
+                },
+                {
+                    "dice_val": "39",
+                    "entry": "funnel.  "
+                },
+                {
+                    "dice_val": "40",
+                    "entry": "furnace.  "
+                },
+                {
+                    "dice_val": "41-44",
+                    "entry": "herbs.  "
+                },
+                {
+                    "dice_val": "45",
+                    "entry": "horn.  "
+                },
+                {
+                    "dice_val": "46",
+                    "entry": "hourglass.  "
+                },
+                {
+                    "dice_val": "47-48",
+                    "entry": "jar.  "
+                },
+                {
+                    "dice_val": "49",
+                    "entry": "jug.  "
+                },
+                {
+                    "dice_val": "50",
+                    "entry": "kettle.  "
+                },
+                {
+                    "dice_val": "51",
+                    "entry": "ladle.  "
+                },
+                {
+                    "dice_val": "52",
+                    "entry": "lamp.  "
+                },
+                {
+                    "dice_val": "53",
+                    "entry": "lens (concave, convex, etc...).  "
+                },
+                {
+                    "dice_val": "54",
+                    "entry": "magic circle.  "
+                },
+                {
+                    "dice_val": "55",
+                    "entry": "mortar &amp; pestle.  "
+                },
+                {
+                    "dice_val": "56",
+                    "entry": "pan.  "
+                },
+                {
+                    "dice_val": "57-58",
+                    "entry": "parchment.  "
+                },
+                {
+                    "dice_val": "59",
+                    "entry": "pentacle.  "
+                },
+                {
+                    "dice_val": "60",
+                    "entry": "pentagram.  "
+                },
+                {
+                    "dice_val": "61",
+                    "entry": "phial.  "
+                },
+                {
+                    "dice_val": "62",
+                    "entry": "pipette.  "
+                },
+                {
+                    "dice_val": "63",
+                    "entry": "pot.  "
+                },
+                {
+                    "dice_val": "64",
+                    "entry": "prism.  "
+                },
+                {
+                    "dice_val": "65",
+                    "entry": "quill.  "
+                },
+                {
+                    "dice_val": "66-68",
+                    "entry": "retort.  "
+                },
+                {
+                    "dice_val": "69",
+                    "entry": "rod, mixing/stirring.  "
+                },
+                {
+                    "dice_val": "70-71",
+                    "entry": "scroll.  "
+                },
+                {
+                    "dice_val": "72",
+                    "entry": "scroll tube.  "
+                },
+                {
+                    "dice_val": "73",
+                    "entry": "sheet.  "
+                },
+                {
+                    "dice_val": "74",
+                    "entry": "skin.  "
+                },
+                {
+                    "dice_val": "75",
+                    "entry": "skull.  "
+                },
+                {
+                    "dice_val": "76",
+                    "entry": "spatula.  "
+                },
+                {
+                    "dice_val": "77",
+                    "entry": "spoon, measuring.  "
+                },
+                {
+                    "dice_val": "78",
+                    "entry": "stand.  "
+                },
+                {
+                    "dice_val": "79",
+                    "entry": "stool.  "
+                },
+                {
+                    "dice_val": "80",
+                    "entry": "stuffed animal.  "
+                },
+                {
+                    "dice_val": "81",
+                    "entry": "tank (container).  "
+                },
+                {
+                    "dice_val": "82",
+                    "entry": "tongs.  "
+                },
+                {
+                    "dice_val": "83",
+                    "entry": "tripod.  "
+                },
+                {
+                    "dice_val": "84",
+                    "entry": "tube (container).  "
+                },
+                {
+                    "dice_val": "85-86",
+                    "entry": "tube (piping).  "
+                },
+                {
+                    "dice_val": "87",
+                    "entry": "tweezers.  "
+                },
+                {
+                    "dice_val": "88-90",
+                    "entry": "vial.  "
+                },
+                {
+                    "dice_val": "91",
+                    "entry": "waterclock.  "
+                },
+                {
+                    "dice_val": "92",
+                    "entry": "wire.  "
+                },
+                {
+                    "dice_val": "93-100",
+                    "entry": "workbench.  "
+                }
+            ]
+        },
+        {
+            "dice": "d100",
+            "name": "General Description of Container Contents",
+            "table_entries": [
+                {
+                    "dice_val": "01-03",
+                    "entry": "ash.  "
+                },
+                {
+                    "dice_val": "04-06",
+                    "entry": "bark.  "
+                },
+                {
+                    "dice_val": "07-09",
+                    "entry": "bone.  "
+                },
+                {
+                    "dice_val": "10-14",
+                    "entry": "chunks.  "
+                },
+                {
+                    "dice_val": "15-17",
+                    "entry": "cinders.  "
+                },
+                {
+                    "dice_val": "18-22",
+                    "entry": "crystals.  "
+                },
+                {
+                    "dice_val": "23-26",
+                    "entry": "dust.  "
+                },
+                {
+                    "dice_val": "27-28",
+                    "entry": "fibers.  "
+                },
+                {
+                    "dice_val": "29-31",
+                    "entry": "gelatin.  "
+                },
+                {
+                    "dice_val": "32-33",
+                    "entry": "globes.  "
+                },
+                {
+                    "dice_val": "34-37",
+                    "entry": "grains.  "
+                },
+                {
+                    "dice_val": "38-40",
+                    "entry": "greasy.  "
+                },
+                {
+                    "dice_val": "41-43",
+                    "entry": "husks.  "
+                },
+                {
+                    "dice_val": "44-48",
+                    "entry": "leaves.  "
+                },
+                {
+                    "dice_val": "49-56",
+                    "entry": "liquid.  "
+                },
+                {
+                    "dice_val": "57-58",
+                    "entry": "lump(s).  "
+                },
+                {
+                    "dice_val": "59-61",
+                    "entry": "oily.  "
+                },
+                {
+                    "dice_val": "62-65",
+                    "entry": "paste.  "
+                },
+                {
+                    "dice_val": "66-68",
+                    "entry": "pellets.  "
+                },
+                {
+                    "dice_val": "69-81",
+                    "entry": "powder.  "
+                },
+                {
+                    "dice_val": "82-83",
+                    "entry": "semi-liquid.  "
+                },
+                {
+                    "dice_val": "84-85",
+                    "entry": "skin/hide.  "
+                },
+                {
+                    "dice_val": "86-87",
+                    "entry": "splinters.  "
+                },
+                {
+                    "dice_val": "88-89",
+                    "entry": "stalks.  "
+                },
+                {
+                    "dice_val": "90-92",
+                    "entry": "strands.  "
+                },
+                {
+                    "dice_val": "93-95",
+                    "entry": "strips.  "
+                },
+                {
+                    "dice_val": "96-100",
+                    "entry": "viscous.  "
+                }
+            ]
+        },
+        {
+            "dice": "d100",
+            "name": "Miscellaneous Utensils and Personal Items",
+            "table_entries": [
+                {
+                    "dice_val": "01",
+                    "entry": "awl.  "
+                },
+                {
+                    "dice_val": "02",
+                    "entry": "bandages.  "
+                },
+                {
+                    "dice_val": "03",
+                    "entry": "basin.  "
+                },
+                {
+                    "dice_val": "04-05",
+                    "entry": "basket.  "
+                },
+                {
+                    "dice_val": "06",
+                    "entry": "beater.  "
+                },
+                {
+                    "dice_val": "07",
+                    "entry": "book.  "
+                },
+                {
+                    "dice_val": "08-09",
+                    "entry": "bottle.  "
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "bowl.  "
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "box (small).  "
+                },
+                {
+                    "dice_val": "12-13",
+                    "entry": "brush.  "
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "candle.  "
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "candle snuffer.  "
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "candlestick.  "
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "cane (walking stick).  "
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "case.  "
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "casket (small).  "
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "chopper.  "
+                },
+                {
+                    "dice_val": "21",
+                    "entry": "coffer.  "
+                },
+                {
+                    "dice_val": "22",
+                    "entry": "cologne.  "
+                },
+                {
+                    "dice_val": "23",
+                    "entry": "comb.  "
+                },
+                {
+                    "dice_val": "24",
+                    "entry": "cup.  "
+                },
+                {
+                    "dice_val": "25",
+                    "entry": "decanter.  "
+                },
+                {
+                    "dice_val": "26",
+                    "entry": "dipper.  "
+                },
+                {
+                    "dice_val": "27",
+                    "entry": "dish.  "
+                },
+                {
+                    "dice_val": "28",
+                    "entry": "earspoon.  "
+                },
+                {
+                    "dice_val": "29",
+                    "entry": "ewer.  "
+                },
+                {
+                    "dice_val": "30",
+                    "entry": "flagon.  "
+                },
+                {
+                    "dice_val": "31",
+                    "entry": "flask.  "
+                },
+                {
+                    "dice_val": "32",
+                    "entry": "food.  "
+                },
+                {
+                    "dice_val": "33",
+                    "entry": "fork.  "
+                },
+                {
+                    "dice_val": "34",
+                    "entry": "grater.  "
+                },
+                {
+                    "dice_val": "35",
+                    "entry": "grinder.  "
+                },
+                {
+                    "dice_val": "36",
+                    "entry": "hourglass.  "
+                },
+                {
+                    "dice_val": "37",
+                    "entry": "jack (container).  "
+                },
+                {
+                    "dice_val": "38",
+                    "entry": "jar.  "
+                },
+                {
+                    "dice_val": "39",
+                    "entry": "jug.  "
+                },
+                {
+                    "dice_val": "40",
+                    "entry": "kettle.  "
+                },
+                {
+                    "dice_val": "41",
+                    "entry": "knife.  "
+                },
+                {
+                    "dice_val": "42",
+                    "entry": "knucklebones.  "
+                },
+                {
+                    "dice_val": "43",
+                    "entry": "ladle.  "
+                },
+                {
+                    "dice_val": "44-45",
+                    "entry": "lamp/lantern.  "
+                },
+                {
+                    "dice_val": "46",
+                    "entry": "masher.  "
+                },
+                {
+                    "dice_val": "47",
+                    "entry": "mirror.  "
+                },
+                {
+                    "dice_val": "48",
+                    "entry": "mug.  "
+                },
+                {
+                    "dice_val": "49",
+                    "entry": "needle(s).  "
+                },
+                {
+                    "dice_val": "50",
+                    "entry": "oil, cooking (or fuel).  "
+                },
+                {
+                    "dice_val": "51",
+                    "entry": "oil fuel.  "
+                },
+                {
+                    "dice_val": "52",
+                    "entry": "oil, scented.  "
+                },
+                {
+                    "dice_val": "53",
+                    "entry": "pan.  "
+                },
+                {
+                    "dice_val": "54",
+                    "entry": "parchment.  "
+                },
+                {
+                    "dice_val": "55",
+                    "entry": "pitcher.  "
+                },
+                {
+                    "dice_val": "56",
+                    "entry": "pipe, musical.  "
+                },
+                {
+                    "dice_val": "57",
+                    "entry": "pipe, smoking.  "
+                },
+                {
+                    "dice_val": "58",
+                    "entry": "plate.  "
+                },
+                {
+                    "dice_val": "59",
+                    "entry": "platter.  "
+                },
+                {
+                    "dice_val": "60",
+                    "entry": "pot.  "
+                },
+                {
+                    "dice_val": "61",
+                    "entry": "pouch.  "
+                },
+                {
+                    "dice_val": "62",
+                    "entry": "puff.  "
+                },
+                {
+                    "dice_val": "63",
+                    "entry": "quill.  "
+                },
+                {
+                    "dice_val": "64",
+                    "entry": "razor.  "
+                },
+                {
+                    "dice_val": "65",
+                    "entry": "rope.  "
+                },
+                {
+                    "dice_val": "66",
+                    "entry": "salve.  "
+                },
+                {
+                    "dice_val": "67",
+                    "entry": "saucer.  "
+                },
+                {
+                    "dice_val": "68",
+                    "entry": "scraper.  "
+                },
+                {
+                    "dice_val": "69",
+                    "entry": "scroll.  "
+                },
+                {
+                    "dice_val": "70",
+                    "entry": "shaker.  "
+                },
+                {
+                    "dice_val": "71",
+                    "entry": "sifter.  "
+                },
+                {
+                    "dice_val": "72",
+                    "entry": "soap.  "
+                },
+                {
+                    "dice_val": "73",
+                    "entry": "spigot.  "
+                },
+                {
+                    "dice_val": "74",
+                    "entry": "spoon.  "
+                },
+                {
+                    "dice_val": "75",
+                    "entry": "stopper.  "
+                },
+                {
+                    "dice_val": "76",
+                    "entry": "statuette/figurine.  "
+                },
+                {
+                    "dice_val": "77",
+                    "entry": "strainer.  "
+                },
+                {
+                    "dice_val": "78",
+                    "entry": "tankard.  "
+                },
+                {
+                    "dice_val": "79",
+                    "entry": "thongs.  "
+                },
+                {
+                    "dice_val": "80",
+                    "entry": "thread.  "
+                },
+                {
+                    "dice_val": "81-84",
+                    "entry": "tinderbox (with flint &amp; steel).  "
+                },
+                {
+                    "dice_val": "85-86",
+                    "entry": "towel.  "
+                },
+                {
+                    "dice_val": "87",
+                    "entry": "tray.  "
+                },
+                {
+                    "dice_val": "88",
+                    "entry": "trivet.  "
+                },
+                {
+                    "dice_val": "89",
+                    "entry": "tureen.  "
+                },
+                {
+                    "dice_val": "90-91",
+                    "entry": "twine.  "
+                },
+                {
+                    "dice_val": "92",
+                    "entry": "unguent.  "
+                },
+                {
+                    "dice_val": "93",
+                    "entry": "vase.  "
+                },
+                {
+                    "dice_val": "94",
+                    "entry": "vial.  "
+                },
+                {
+                    "dice_val": "95",
+                    "entry": "wallet.  "
+                },
+                {
+                    "dice_val": "96",
+                    "entry": "washcloth.  "
+                },
+                {
+                    "dice_val": "97",
+                    "entry": "whetstone.  "
+                },
+                {
+                    "dice_val": "98",
+                    "entry": "wig.  "
+                },
+                {
+                    "dice_val": "99",
+                    "entry": "wool.  "
+                },
+                {
+                    "dice_val": "100",
+                    "entry": "yarn.  "
+                }
+            ]
+        },
+        {
+            "dice": "d100",
+            "name": "Clothing and Footwear",
+            "table_entries": [
+                {
+                    "dice_val": "01-02",
+                    "entry": "apron.  "
+                },
+                {
+                    "dice_val": "03-04",
+                    "entry": "belt.  "
+                },
+                {
+                    "dice_val": "05",
+                    "entry": "blouse.  "
+                },
+                {
+                    "dice_val": "06-08",
+                    "entry": "boots.  "
+                },
+                {
+                    "dice_val": "09",
+                    "entry": "buskins.  "
+                },
+                {
+                    "dice_val": "10-11",
+                    "entry": "cap.  "
+                },
+                {
+                    "dice_val": "12-13",
+                    "entry": "cape.  "
+                },
+                {
+                    "dice_val": "14-16",
+                    "entry": "cloak.  "
+                },
+                {
+                    "dice_val": "17-18",
+                    "entry": "coat.  "
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "coif.  "
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "doublet.  "
+                },
+                {
+                    "dice_val": "21-22",
+                    "entry": "dress.  "
+                },
+                {
+                    "dice_val": "23-24",
+                    "entry": "frock/pinafore.  "
+                },
+                {
+                    "dice_val": "25-26",
+                    "entry": "gauntlets.  "
+                },
+                {
+                    "dice_val": "27-28",
+                    "entry": "girdle.  "
+                },
+                {
+                    "dice_val": "29",
+                    "entry": "gloves.  "
+                },
+                {
+                    "dice_val": "30-31",
+                    "entry": "gown.  "
+                },
+                {
+                    "dice_val": "32-34",
+                    "entry": "hat.  "
+                },
+                {
+                    "dice_val": "35",
+                    "entry": "habit.  "
+                },
+                {
+                    "dice_val": "36-39",
+                    "entry": "hood.  "
+                },
+                {
+                    "dice_val": "40-41",
+                    "entry": "hose.  "
+                },
+                {
+                    "dice_val": "42-43",
+                    "entry": "jerkin.  "
+                },
+                {
+                    "dice_val": "44",
+                    "entry": "jupon.  "
+                },
+                {
+                    "dice_val": "45-46",
+                    "entry": "kerchief.  "
+                },
+                {
+                    "dice_val": "47-48",
+                    "entry": "kirtle.  "
+                },
+                {
+                    "dice_val": "49-50",
+                    "entry": "leggings.  "
+                },
+                {
+                    "dice_val": "51-54",
+                    "entry": "linen (drawers).  "
+                },
+                {
+                    "dice_val": "55-58",
+                    "entry": "linen (undershirt).  "
+                },
+                {
+                    "dice_val": "59",
+                    "entry": "mantle.  "
+                },
+                {
+                    "dice_val": "60",
+                    "entry": "pantaloons.  "
+                },
+                {
+                    "dice_val": "61-62",
+                    "entry": "petticoat.  "
+                },
+                {
+                    "dice_val": "63-66",
+                    "entry": "pouch/purse.  "
+                },
+                {
+                    "dice_val": "67-70",
+                    "entry": "robe.  "
+                },
+                {
+                    "dice_val": "71-74",
+                    "entry": "sandals.  "
+                },
+                {
+                    "dice_val": "75-76",
+                    "entry": "scarf.  "
+                },
+                {
+                    "dice_val": "77",
+                    "entry": "shawl.  "
+                },
+                {
+                    "dice_val": "78-79",
+                    "entry": "shift.  "
+                },
+                {
+                    "dice_val": "80-83",
+                    "entry": "slippers.  "
+                },
+                {
+                    "dice_val": "84-86",
+                    "entry": "smock.  "
+                },
+                {
+                    "dice_val": "87-89",
+                    "entry": "stockings.  "
+                },
+                {
+                    "dice_val": "90",
+                    "entry": "surcoat.  "
+                },
+                {
+                    "dice_val": "91",
+                    "entry": "toga.  "
+                },
+                {
+                    "dice_val": "92-94",
+                    "entry": "trousers.  "
+                },
+                {
+                    "dice_val": "95-96",
+                    "entry": "tunic.  "
+                },
+                {
+                    "dice_val": "97",
+                    "entry": "veil.  "
+                },
+                {
+                    "dice_val": "98",
+                    "entry": "vest.  "
+                },
+                {
+                    "dice_val": "99",
+                    "entry": "wallet.  "
+                },
+                {
+                    "dice_val": "100",
+                    "entry": "wrapper.  "
+                }
+            ]
+        }
+    ],
+    "title": "Dungeon Dressing",
+    "use_with": [
+        {
+            "link": "43ek9v",
+            "title": "Castles"
+        },
+        {
+            "link": "3unfbm",
+            "title": "Caverns"
+        },
+        {
+            "link": "43t6g9",
+            "title": "Dungeons, castle"
+        },
+        {
+            "link": "43uzib",
+            "title": "Dungeon encounters"
+        },
+        {
+            "link": "43ufyr",
+            "title": "Mines"
+        },
+        {
+            "link": "40pjmd",
+            "title": "Monasteries"
+        },
+        {
+            "link": "43k8fr",
+            "title": "Prisons"
+        },
+        {
+            "link": "3xpb4r",
+            "title": "Temples"
+        },
+        {
+            "link": "427hd8",
+            "title": "Tombs"
+        }
+    ]
+}

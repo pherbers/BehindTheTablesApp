@@ -1,0 +1,585 @@
+{
+    "description": "Use these tables for laying out an active monastery for your PCs to visit, to infiltrate, or to seek wisdom and training.",
+    "id": "40pjmd",
+    "keywords": [
+        "monk",
+        "monastery",
+        "abbot",
+        "abbess",
+        "monastic order",
+        "ascetic",
+        "Pai Mei"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/40pjmd",
+    "related_tables": [
+        {
+            "link": "3xpb4r",
+            "title": "Temples"
+        }
+    ],
+    "tables": [
+        {
+            "dice": "d12",
+            "name": "Visitors to the monastery come seeking...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Ancient knowledge."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Mystic wisdom."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Spiritual guidance."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Prayers and healing."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Ales and other goods made on-site."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Refuge from war."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Shelter on a long journey."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "The secret of true happiness."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Physical perfection."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "The means to travel to another realm."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Training in a unique fighting style."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "The tools and training to exact vengeance."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "The monastery is known for its...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Compassionate healers."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Sacred music."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Ancient wisdom."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Dark prophecies."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Stunning archtecture."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Unusual architecture."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A famous sculpture or painting."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Lengthy prayer services and vigils."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Extensive library and scholarly debates."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Master brewers or vintners."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Powerful mystics."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Indefatigable warriors."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "The monastery complex is located...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "On a hilltop far from any cities, but with a village below."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "On a hilltop not far from a large city."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "On a remote mountaintop."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "On the side of a mountain."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Deep within a forest."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Near a desert oasis."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Belowground."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "In the heart of a city."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "The monastery complex is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A tight cluster of buildings (or chambers)."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A cluster of buildings with gardens, lawns, and yards in the spaces between."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A cluster of interconnected buildings."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A cluster of buildings ringed by a fence or low wall."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A cluster of buildings ringed by a defensible stone wall."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A single large building."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A large main building with several smaller support buildings located nearby."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A fortress with walls and watchtowers or sentry posts."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A labyrinthine series of small buildings."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Symmetrically divided into two or more wings."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "This building/chamber is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A chapel or shrine."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A dormitory."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A cloister."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A refectory (dining hall)."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A library."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A balneary (bath)."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "An infirmary."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A sanatorium or hospice."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A school."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A forge."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A brewery."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A barn."
+                }
+            ]
+        },
+        {
+            "dice": "d4",
+            "name": "Many of the monastery\u2019s ceilings are...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Uncomfortably close to your head."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Connected to the floor by columns."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Painted with mythological scenes."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Domes or cupolas."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The buildings/chambers are...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Decorated with statues."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Decorated with stone arches and columns."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Colorful structures of painted wood and plaster."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Sturdy structures of finished wood."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Solid structures of oven-fired clay bricks."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Behind large metal doors (d6): 1. brass; 2. bronze; 3. gold; 4. iron; 5. steel; 6. tin"
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "Many of the monastery\u2019s interior walls are...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Rough hewn stone."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Smooth cut stone."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Painted or lacquered wood."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Unfinished hardwood."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Decorated with intricate mosaics."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Decorated with elaborate murals."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Decorated with relief carvings."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Decorated with sacred texts and runes."
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "Features: You notice...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A small altar set in an alcove in the wall."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "The sound of bells ringing in a tower."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A wall sconce holding many candles."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Tall candles on holders, taller than a man."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "The tinkle of chimes from a nearby room."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A tapestry depicting a mythological scene."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A small fountain or reflecting pool."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "The sound of a gong from another room."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A large holy symbol embedded in the wall."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A huge book of sacred texts or prayers."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "The scent of incense burning nearby."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A kneeler beneath a small statue or icon."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "An oil lamp with colored glass panels."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "A mosaic set into the floor of the room."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "A wide fresco or mural depicting a mythological scene."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "The pipes of an indoor plumbing system running along the wall."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "Robes and cassocks hanging on hooks."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "An ornamental rug."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "The sound of chanting from another room."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "A statue of a recognizable figure."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "Encounters: You come upon...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A bright-eyed student."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "An exhausted student."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A patient initiate."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A fierce martial artist."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A dogmatic teacher."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "An eccentric scholar."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A wise old master."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A traveler from afar."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A member of the monastery\u2019s serving staff."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A member of the monastery\u2019s guard."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A strange energy."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A feeling that you\u2019re being watched."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "The monastery guards the secret to...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "World peace."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Inner peace."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Spiritual enlightenment."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Total consciousness."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Apotheosis."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Armageddon. "
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Ritual transformation into a god\u2019s avatar."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Unsealing a portal to another realm."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Instant and irreversible death."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "The perfect pint of ale."
+                }
+            ]
+        },
+        {
+            "dice": "d4",
+            "name": "The monastery\u2019s secret is known to...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Everyone, but the specifics are hidden."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Monks that perform a particular service."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Several of the monastery\u2019s masters."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A single master and a single student."
+                }
+            ]
+        }
+    ],
+    "title": "Monasteries",
+    "use_with": [
+        {
+            "link": "3xq9nd",
+            "title": "Monks"
+        },
+        {
+            "link": "42rm5s",
+            "title": "Mountains"
+        },
+        {
+            "link": "3shczv",
+            "title": "Pantheons"
+        },
+        {
+            "link": "3whlp0",
+            "title": "Priests"
+        }
+    ]
+}

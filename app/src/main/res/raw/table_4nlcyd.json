@@ -1,0 +1,300 @@
+{
+    "description": "These tables are designed to quickly generate an interesting healer NPC, from herbalists and potionmakers to scholars and priests.",
+    "id": "4nlcyd",
+    "keywords": [
+        "healer",
+        "doctor",
+        "medicine man",
+        "miracle max"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/4nlcyd",
+    "related_tables": [
+        {
+            "link": "3whlp0",
+            "title": "Priests"
+        }
+    ],
+    "tables": [
+        {
+            "dice": "d20",
+            "name": "Profession: The healer is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A devoted acolyte."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A silent acolyte."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A skilled alchemist."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A religious fanatic."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A cloistered zealot."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A talkative herbalist."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A patient herbalist."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A devout knight."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A soft-spoken monk."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "An academy-trained physician."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "An eager student."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A self-taught shaman."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "A medical scholar."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "A practiced surgeon."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "A battle-tested warpriest."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "A quirky witch-doctor."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "A pompous priest or priestess."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "A nervous miracle worker."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "A silver-tongued peddler."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "A sharp-witted potionmaker."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Mannerism: The healer has...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A likable grin."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Kind eyes."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Alert eyes."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A sympathetic smile."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "An arrogant smirk."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A thoughtful frown."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A humorless visage."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "An easy laugh."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A habit of sighing."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A habit of muttering to himself or herself."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Apparel: The healer wears...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A threadbare robe."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A sturdy wool cloak."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A hooded traveler's cloak."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A cotton robe emblazoned with the symbol of a god."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A faded cotten robe."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A clean silk robe with simple embroidery."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A leather vest and a traveler's cloak."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Boiled leather armor."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Patchwork armor of leather and steel."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A chainmail shirt."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Possessions: The healer carries...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A clean, sharp knife."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A wooden staff."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A sturdy cudgel."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A needle, thread, and some healing balms."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A pocketbook of sacred texts and prayers."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A notebook of hand-written potion recipes."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A variety of healing potions and bandages."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Scales, glass vials, and delicate tools."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A small field guide to diagnosing illnesses."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A wineskin."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Goal: The healer is looking for...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "The translation of an ancient text."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Individuals in need of his or her services."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Someone to purchase a potion or two."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A dangerous substance for a potent elixir."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A location where a rare herb grows."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Proof of a god\u2019s existence."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "The recipe for a legendary potion."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A chance to earn a little coin."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A chance to tell a tale of woe."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "The bottom of a goblet."
+                }
+            ]
+        }
+    ],
+    "title": "Healers",
+    "use_with": [
+        {
+            "link": "4nldep",
+            "title": "Diseases"
+        },
+        {
+            "link": "45x72u",
+            "title": "Herb lore"
+        }
+    ]
+}

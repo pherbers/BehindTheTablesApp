@@ -1,0 +1,750 @@
+{
+    "description": "A few tables to generate random strange people.\n\nThe basic structure is supposed to be this:\n\nX is a _AGE_ + _SEX_ with _HAIRTYPE_ + _HAIRCOLOR_ + _HAIRSTYLE_ and _MARK_, who\u2019s living _HOME_ + _LOCATION_.\n\nX is _OCCUPATION_ + _SUBTABLE_. People in town _RENOWN_.\n\nX is _BUILD_. A characteristic feature of X is _DESCRIPTOR PHYSICAL_. X talks _SPEECH_.\n \nAll X really wants is to _MOTIVE_.",
+    "id": "40r6nd",
+    "keywords": [
+        "Strange",
+        "people",
+        "npcs",
+        "rumors",
+        "mystery"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/40r6nd",
+    "related_tables": [],
+    "tables": [
+        {
+            "dice": "D8",
+            "name": "AGE",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "a barely teenaged"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "a young adult"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "an adult"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "a middleaged"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "an older"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "an ancient"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "more dead than living"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "non-aging"
+                }
+            ]
+        },
+        {
+            "dice": "D4",
+            "name": "SEX",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "woman"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "man"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "person whose sex is hard to tell"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "creature"
+                }
+            ]
+        },
+        {
+            "dice": "D8",
+            "name": "HAIRTYPE",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "greasy"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "healthy"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "neat"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "spotty"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "thin"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "thick"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "curly"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "seemingly living"
+                }
+            ]
+        },
+        {
+            "dice": "D8",
+            "name": "HAIRCOLOR",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "white, almost glowing"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "grey"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "black"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "dark brown"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "light brown"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "blonde"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "platinum blonde"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "red"
+                }
+            ]
+        },
+        {
+            "dice": "D12",
+            "name": "HAIRSTYLE",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "and extraordinarily long hair reaching all the way down the back"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "shoulder long hair"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "long hair"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "long hair done up in a bun"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "long hair done up in a ponytail"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "long braided hair"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "long hair with strange objects braided into it"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "long completely tangled and matted hair"
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "long completely tangled and matted hair with strange objects  attached"
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "short hair"
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "stubs after having been shaved off just recently"
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "lost long ago to baldness "
+                }
+            ]
+        },
+        {
+            "dice": "D24",
+            "name": "MARK (1d6d6)",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "an eye patch"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "a lazy eye"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "a glass eye"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "greasy glasses"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "glasses"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "a blindfold over the eyes"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "a hat"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "the remnants of a hat"
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "a mouth without teeth"
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "a mouth filled with gold teeth"
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "an alluring smile"
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "a great scar"
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "a sad look"
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "a constant grin"
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "a quiet demeanor"
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "eyes staring straight into your soul"
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "a mutilated face"
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "a deformed face"
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "a pointy nose"
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "the nose cut off"
+                },
+                {
+                    "dice_val": "21",
+                    "entry": "an obscure symbol branded on the neck"
+                },
+                {
+                    "dice_val": "22",
+                    "entry": "an otherwise extraordinarily ordinary appearance"
+                },
+                {
+                    "dice_val": "23",
+                    "entry": "a very long tongue"
+                },
+                {
+                    "dice_val": "24",
+                    "entry": "a terrifying libido"
+                }
+            ]
+        },
+        {
+            "dice": "D10",
+            "name": "HOME",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "**in a small apartment** (D4): 1. on top of a small shop; 2. in an immense apartment building; 3. in a damp tenement; 4. in a moldy boarding house;"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "**in a shack** (D4): 1. build of garbage; 2. in a public park; 3. under a bridge; 4. up in a tree;"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "**in an inherited** (D4): 1. villa; 2. estate; 3. townhouse; 4. carriage;"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "**in a small townhouse** (D4): 1. with boarded up windows; 2. with heavy curtains covering the windows; 3. with a wilderness for a garden; 4. without any windows at all;"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "**in a burned down** (D4): 1. warehouse; 2. villa; 3. church; 4. workshop;"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "**in an abandoned overgrown** (D4): 1. warehouse; 2. villa; 3. church; 4. workshop;"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "**in a tent** (D4): 1. in a public park; 2. on a graveyard; 3. under a bridge; 4. in someone else\u2019s garden;"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "**in a grand** (D4): 1. estate; 2. villa; 3. apartment; 4. mansion;"
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "**in the basement** (D4): 1. of an abandoned hospital; 2. of a workshop; 3. of someone else\u2019s house; 4. of a sketchy tavern"
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "in a supposedly enchanted (D4): 1. closet; 2. shed; 3. tree-house; 4. hole in the wall;"
+                }
+            ]
+        },
+        {
+            "dice": "D10",
+            "name": "LOCATION",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "somewhere in town"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "somewhere outside of town"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "somewhere in the nice part of town"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "somewhere in the slums"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "on the streets, for some reason."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "\u2026 Beneath the city?"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "in a cave"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "somewhere we\u2019ve all suppressed from our memories."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "in an otherwise desolate part of town"
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "near the waterfront"
+                }
+            ]
+        },
+        {
+            "dice": "D10",
+            "name": "OCCUPATION",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "**an archivist** (D4): 1. with an interest for the hideous; 2. with a large collection of obscure trinkets; 3. organizing the strange collection of the local museum; 4. who collects very particular books;"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "**a priest** (D4): 1. with little interest in his flock; 2. who\u2019s slowly but steadily deviating from the pious path; 3. who lives in seclusion; 4. with a veiled interest in the obscure;"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "**a collector** (D8): 1. of peculiar stones; 2. of primordial artifacts; 3. of cats; 4. of obscure art; 5. of ancient books; 6. of old diaries; 7. of crime memorabilia; 8. of toys;"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "**an adventurer** (D4): 1. who\u2019s only ever seen leaving home at night; 2. with a staggering hatred for the undead; 3. who\u2019s constantly preparing for the apocalypse; 4. who\u2019s always just getting wasted alone"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "**a doctor** (D4): 1. with dubious credentials; 2. who\u2019s working on an alternative treatment for a rare malady; 3. who\u2019s obsessed with immortality; 4. who\u2019s offering treatment to everyone, whether healthy or ill;"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "**a known thief** (D4): 1. who allegedly has buried the past; 2. who\u2019s always on the lookout for someone\u2026 Or something; 3. who\u2019s getting by selling strange otherworldly goods in an alley; 4. who\u2019s only ever stealing from the same person;"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "**a prostitute** (D4): 1. always providing for the same mysterious customer; 2. who\u2019s always stumbling around in the streets at night; 3. who\u2019s always seen crying; 4. who always gently takes the hand of a PC and starts growling;"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "**a blacksmith** (D4): 1. who\u2019s always making nails; 2. who\u2019s making iron masks of customers faces; 3. with an affection for toys and dolls; 4. who\u2019s always make the same small figurines;"
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "**a guard** (D4): 1. who enjoys humiliating civilians; 2. with a worrying love for power; 3. who\u2019s only talking to the towns kids and animals; 4. with a clear disdain for a local religious order;"
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "**a merchant** (D4): 1. dealing in very cheap meats; 2. and alleged grave robber; 3. providing a strange assortment of quality products incredibly cheap; 4. whose worryingly old products never seem to be exchanged;"
+                }
+            ]
+        },
+        {
+            "dice": "D10",
+            "name": "RENOWN",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "love X"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "hate X"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "fear X"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "adore X"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "worship X"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "tolerate X"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "barely recognizes X"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "has forgotten about X"
+                }
+            ]
+        },
+        {
+            "dice": "D10",
+            "name": "BUILD",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "fat and round"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "built like horse"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "of athletic stature"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "muscular and strong"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "scrawny"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "physically mostly reminiscent of a curled up dry carrot"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "tall and lanky "
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "a midget"
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "easily confused with a giant"
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "looking more dead than alive"
+                }
+            ]
+        },
+        {
+            "dice": "D20",
+            "name": "DESCRIPTOR",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "the cane"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "the strange jumpy walk"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "the beautiful clothes"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "the disgusting clothes"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "the weird objects hanging from the belt"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "the singing"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "the constant tears"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "the dancing"
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "the heavy drinking"
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "the bird on the shoulder"
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "the marks on the wrists left by handcuffs"
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "the whispering"
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "the constant blinking"
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "the constant head scratching"
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "the bleeding wounds"
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "the bandages"
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "the affection for fire"
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "the pale skin"
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "the dog"
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "the cat"
+                }
+            ]
+        },
+        {
+            "dice": "D8",
+            "name": "SPEECH",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "with a lisp"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "with a deep voice"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "with a dry hoarse voice"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "with a light squeaking voice"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "with a soft pleasant voice"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "with a seductive voice"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "in a strange tongue"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "with a sleazy voice"
+                }
+            ]
+        },
+        {
+            "dice": "D20",
+            "name": "MOTIVE",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "keep the secret"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "runaway and hide"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "survive"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "taste it once again"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "never see it again"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "brand him with a hot iron"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "set it all on fire and start over"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "answer the voices"
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "honor her trust"
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "keep the promise"
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "find it"
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "hide it"
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "destroy it"
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "impress him"
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "impress her"
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "built the construction from the perpetual dreams"
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "get revenge"
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "prepare for the inevitable"
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "make it come alive"
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "to finally ascend as promised"
+                }
+            ]
+        }
+    ],
+    "title": "Strange People",
+    "use_with": [
+        {
+            "link": "40r638",
+            "title": "Strange places"
+        },
+        {
+            "link": "40r76r",
+            "title": "Strange crimes"
+        }
+    ]
+}

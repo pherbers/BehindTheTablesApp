@@ -1,0 +1,330 @@
+{
+    "description": "These are tables for generating interesting dryads and treants to serve as foil or friend to your PCs, from over-protective guardians to curious philosophers.",
+    "id": "3vjsea",
+    "keywords": [
+        "dryads",
+        "treants",
+        "forest",
+        "treeperson",
+        "treeherder",
+        "spirit of the forest",
+        "entish",
+        "ents",
+        "entmoot"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/3vjsea",
+    "related_tables": [],
+    "tables": [
+        {
+            "dice": "d8",
+            "name": "The treeperson is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A dryad enchantress."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A dryad protector."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A dryad witch."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A dryad oracle."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A treant loreseeker."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A treant guardian."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A treant lorekeeper."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A treant elder."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "Appearance: The treeperson could be described as...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Tall."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Very tall."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Slender."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Sturdy."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Unwavering."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Bent."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Gnarled."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Knotty."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Weathered."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Moss-covered."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Withered."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Stumpy."
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "Features: The treeperson's bark and leaves are reminiscent of...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "An apple or pear tree."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "An ash."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A birch."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A beech."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A cedar or juniper."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A cherry or plum tree."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A chestnut or hazel tree."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A cypress."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "An elm."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "An fir."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A hawthorn or hemlock."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A hickory or walnut tree."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "A linden or lime tree."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "A maple."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "An oak."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "A pine."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "A poplar."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "A spruce."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "A willow."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "A yew or holly tree."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Personality: The treeperson is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Sappy."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Soft-spoken."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Rooted."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Dry."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Patient."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Green."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Flowery."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Steady."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Prickly."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Thorny."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "The treeperson is looking to...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Drive away intruders."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Warn intruders of dangers ahead."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Find a spot where a rare flower grows."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Nurture an ancient grove back to health."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Protect the oldest tree in the forest."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Eliminate any threats to the forest."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Plant trees where others been felled."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Talk after centuries of silence."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The treeperson carries...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A magic acorn, nut, or other seed."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A clipping of ancient wood."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A rare moss with healing properties."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A deathly poison mushroom."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A sapling from an ancient tree."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A cudgel made from the wood of a legendary tree."
+                }
+            ]
+        }
+    ],
+    "title": "Treefolk",
+    "use_with": [
+        {
+            "link": "3sgzxb",
+            "title": "Forest"
+        },
+        {
+            "link": "3sh0hz",
+            "title": "Forest, enchanted"
+        },
+        {
+            "link": "3vh7jd",
+            "title": "High elves"
+        },
+        {
+            "link": "3va3dw",
+            "title": "Wood elves"
+        }
+    ]
+}

@@ -1,0 +1,513 @@
+{
+    "description": "This is for your soldiers of fortune, people who work alone, in small bands or large companies marching across the lands. They include primary and secondary skillsets as well as background ideas.",
+    "id": "4b97s8",
+    "keywords": [
+        "military",
+        "war",
+        "warlord",
+        "general",
+        "officer",
+        "soldier",
+        "infantry",
+        "army",
+        "fighter",
+        "mercenary",
+        "sellsword"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/4b97s8",
+    "related_tables": [
+        {
+            "link": "41bq04",
+            "title": "Sellswords"
+        }
+    ],
+    "tables": [
+        {
+            "dice": "d20",
+            "name": "This mercenary is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A grizzled outlaw."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A lifelong wanderer. "
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A disillusioned deserter."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A bawdy adventurer."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A cold professional."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A glory-seeking soldier of fortune."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A seeker of knowledge and experiences."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A proud warrior on a quest to find a worthy opponent."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A commoner looking to make some easy money."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A loveable scoundrel."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A reputable veteran."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A bloodthirsty sadist."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "An ascended beggar."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "A hardened refugee."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "A former member of a disbanded army."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "A devious sellsword."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "On a quest to cleanse the world of bandits or monsters."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "Dishonored city watchman."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "A runaway slave."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "A merchant who has taken up killing"
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "The mercenary\u2019s primary skillset is that of...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A warrior or barbarian."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A hunter or trapper."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A rogue or assassin."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A mage or enchanter."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A healer or alchemist."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A monster hunter or exterminator."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A gladiator or pugilist."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A swashbuckler or duelist."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A cleric or priest."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A singer or bard."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "The mercenary\u2019s primary weapon is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A longsword."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A battleaxe. "
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A scimitar."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A halberd."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A bow."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A shortsword and dagger."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A crossbow."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A warmace"
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A staff."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A hammer."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "The mercenary\u2019s weapon is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Covered in mysterious runes."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Made of an unusual material."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Emitting a supernatural hum or glow."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Obviously mastercrafted."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Of foreign design."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Poorly maintained and dirty."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Battered to the point of breaking."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Engraved with a name."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The mercenary is also good at...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A particular field of knowledge (d6:) 1. legends and folklore; 2. languages; 3. military strategy and logistics; 4. politics and high society; 5. street code; 6. engineering."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A game (d6). 1. cards; 2. dice; 3. arm wrestling; 4. board strategy; 5. slap jack; 6. horseshoe throwing."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Wielding a secondary weapon (d6). 1. throwing knives; 2. javelin; 3. flail; 4. unarmed combat; 5. darts; 6. whip."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Performance art (d6). 1. singing; 2. dancing; 3. storytelling; 4. acting; 5. juggling; 6. playing a musical instrument."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Craftsmanship (d6). 1. smithing; 2. construction; 3. tailoring; 4. brewing; 5. carpentry; 6. cooking."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "An adventuring skill (d6). 1. geography or navigation; 2. lockpicking; 3. equipment maintenance; 4. shadowing; 5. riding; 6. trade."
+                }
+            ]
+        },
+        {
+            "dice": "d40",
+            "name": "Additionally, the mercenary...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Wears unusually light or heavy armor."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Wears colorful clothing."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Has a disfiguring facial scar."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Has an unwillingness to do certain types of jobs."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Is obviously foreign in origin."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Wears a strange hairstyle or color."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Exudes an aura of fear, respect, or professionalism."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Looks remarkably similar to a certain criminal being searched for a few towns over."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Is always either drunk or hungover."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Has an unusual level of attractiveness."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Flaunts expensive jewelry."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Has an unusual fighting style."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "Wears protective charms and amulets."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "Talks very little."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "Displays the colors of his liege or realm of origin."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "Is always looking to bed someone."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "Speaks with extreme profanity."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "Has a pet."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "Has very bad teeth."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "Smokes a pipe."
+                },
+                {
+                    "dice_val": "21",
+                    "entry": "Is very old."
+                },
+                {
+                    "dice_val": "22",
+                    "entry": "Sports religious symbols."
+                },
+                {
+                    "dice_val": "23",
+                    "entry": "Has a loud, penetrating voice."
+                },
+                {
+                    "dice_val": "24",
+                    "entry": "Is currently wounded."
+                },
+                {
+                    "dice_val": "25",
+                    "entry": "Is wearing a trophy."
+                },
+                {
+                    "dice_val": "26",
+                    "entry": "Is carrying a small book in a satchel."
+                },
+                {
+                    "dice_val": "27",
+                    "entry": "Is fat."
+                },
+                {
+                    "dice_val": "28",
+                    "entry": "Has heterochromatic eyes."
+                },
+                {
+                    "dice_val": "29",
+                    "entry": "Has a speech impediment."
+                },
+                {
+                    "dice_val": "30",
+                    "entry": "Is always eating something."
+                },
+                {
+                    "dice_val": "31",
+                    "entry": "Wears an eyepatch."
+                },
+                {
+                    "dice_val": "32",
+                    "entry": "Walks with a limp."
+                },
+                {
+                    "dice_val": "33",
+                    "entry": "Is clad in black."
+                },
+                {
+                    "dice_val": "34",
+                    "entry": "Is good with children."
+                },
+                {
+                    "dice_val": "35",
+                    "entry": "Looks depressed or dead inside."
+                },
+                {
+                    "dice_val": "36",
+                    "entry": "Is missing an ear."
+                },
+                {
+                    "dice_val": "37",
+                    "entry": "Is clothed inappropriately for the weather."
+                },
+                {
+                    "dice_val": "38",
+                    "entry": "Spits on the ground frequently."
+                },
+                {
+                    "dice_val": "39",
+                    "entry": "Has an annoying laugh."
+                },
+                {
+                    "dice_val": "40",
+                    "entry": "Is constantly fidgeting with a coin."
+                }
+            ]
+        },
+        {
+            "dice": "d4",
+            "name": "The mercenary\u2019s level of competence could be described as...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Poor."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Average."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Good."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Excellent."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The mercenary\u2019s pricing is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Unbelievably cheap."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Low."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Affordable."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Above average."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "High."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Exorbitant."
+                }
+            ]
+        }
+    ],
+    "title": "Mercenaries, Individual",
+    "use_with": [
+        {
+            "link": "3tkdty",
+            "title": "Mercenary troops"
+        },
+        {
+            "link": "3sl2r2",
+            "title": "Merchant caravans"
+        },
+        {
+            "link": "3t2qzc",
+            "title": "Outlaw bands"
+        },
+        {
+            "link": "4b8u29",
+            "title": "Reputations of adventurers"
+        },
+        {
+            "link": "3tjdae",
+            "title": "Savage hordes"
+        }
+    ]
+}

@@ -1,0 +1,377 @@
+{
+    "description": "These are tables for generating a dangerous savage warrior to serve as foe or foil to your PCs.",
+    "id": "3xydsw",
+    "keywords": [
+        "barbarian",
+        "savage",
+        "brute",
+        "horde",
+        "raider",
+        "nomad",
+        "clan",
+        "tribal",
+        "warrior"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/3xydsw",
+    "related_tables": [
+        {
+            "link": "3tkcuc",
+            "title": "Arena combatants"
+        },
+        {
+            "link": "4brthj",
+            "title": "Orcs, individual"
+        },
+        {
+            "link": "3vspx8",
+            "title": "Orkish clans"
+        }
+    ],
+    "tables": [
+        {
+            "dice": "d8",
+            "name": "The warrior is armored in...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Nothing."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Tattered leather."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Blood-stained leather."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Boiled leather."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "The hides of scaly beasts."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "The hides of furry beasts."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "The hides of exotic beasts."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A helm and breastplate taken from a fallen enemy."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "The warrior is wielding...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A spear and a hunting knife."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A spear and a shield."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "An exotic, curved blade."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A huge, curved blade."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "An over-sized hammer."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "An enormous club."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A greataxe."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A battleaxe and a shield."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Several handaxes."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A greatsword."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A pair of long knives."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A longspear and hunting knife."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "The warrior is also carrying...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Several throwing spears."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Several throwing axes."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Many throwing knives."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A shortbow."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A longbow."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A greatbow."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A blowgun."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Several bolas."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The warrior fights with...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Hit-and-run tactics."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Making a mad charge."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Relentless repeated blows."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Lots of taunts and jeers."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Never breaking eye contact."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Lots of head-butting."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "The warrior is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A practiced hunter."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A poorly-trained slave."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A veteran of many wars."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A mystical shaman."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "An expert scout."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A master weaponcrafter."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A superb herbalist."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A beast handler."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "An insufferable braggart."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A drunk."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A favorite among the men."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A favorite among the ladies."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "On the warrior\u2019s face is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A bone through a nose piercing."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A bone earing."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "An empty eye socket."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A grisly scar."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A serious expression."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A look of sadness."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A carefree grin."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A ruined nose."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Some terrifying war paint."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A frame of long, beautiful long hair."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "An unruly beard."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A long, braided mustache."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "On the warrior\u2019s body is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A tattoo of a great beast (d6): 1. bear; 2. boar; 3. dragon; 4. eagle; 5. lion; 6. wolf."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A tattoo of a skull and some bones."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A tattoo of a weapon (d4): 1. arrow; 2. axe; 3. spear; 4. sword."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A festering wound."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A noticeable scar from a blade."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A large burn scar."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A ceremonial brand."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "An intimidating amount of muscle."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "An awful lot of war paint."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A whole lot of hair. "
+                }
+            ]
+        }
+    ],
+    "title": "Barbarians",
+    "use_with": [
+        {
+            "link": "3tich6",
+            "title": "Desert"
+        },
+        {
+            "link": "3tielc",
+            "title": "Desert, flame-scorched"
+        },
+        {
+            "link": "3tielc",
+            "title": "Desert, shadowy"
+        },
+        {
+            "link": "4tguyo",
+            "title": "Horses"
+        },
+        {
+            "link": "3u4a05",
+            "title": "Jungle"
+        },
+        {
+            "link": "4b8u29",
+            "title": "Reputations of adventurers"
+        },
+        {
+            "link": "3tjdae",
+            "title": "Savage hordes"
+        }
+    ]
+}

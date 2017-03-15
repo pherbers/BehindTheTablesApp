@@ -20,22 +20,68 @@ public class TableReader {
 
         JsonReader jr = new JsonReader(new InputStreamReader(is, "UTF-8"));
         jr.beginObject();
+
         String title = "Default";
         List<RandomTable> tables = null;
+        String reference = "";
+        String description = "";
+        String id = "";
+        List<TableLink> related_tables = null;
+        List<TableLink> use_with_tables = null;
+        List<String> keywords = null;
+
         while(jr.hasNext()) {
             String name = jr.nextName();
             if (name.equals("title"))
                 title = jr.nextString();
             else if (name.equals("tables"))
                 tables = readTableListJson(jr);
+            else if (name.equals("description")) {
+                description = jr.nextString();
+            } else if (name.equals("id")) {
+                id = jr.nextString();
+            } else if (name.equals("keywords")) {
+                jr.beginArray();
+                keywords = new ArrayList<>();
+                while(jr.hasNext())
+                    keywords.add(jr.nextString());
+                jr.endArray();
+            } else if (name.equals("reference")) {
+                reference = jr.nextString();
+            } else if (name.equals("related_tables")) {
+                related_tables = readLinks(jr);
+            } else if (name.equals("use_with")) {
+                use_with_tables = readLinks(jr);
+            }
         }
         jr.endObject();
 
-        TableCollection tc = new TableCollection(title, tables);
+        TableCollection tc = new TableCollection(title, tables, reference, description, id, related_tables, use_with_tables, keywords);
 
         is.close();
 
         return tc;
+    }
+
+    private static List<TableLink> readLinks(JsonReader jr) throws IOException {
+        List<TableLink> tableLinks = new ArrayList<>();
+        jr.beginArray();
+        while(jr.hasNext()) {
+            jr.beginObject();
+            String link = "";
+            String title = "";
+            while(jr.hasNext()) {
+                String name = jr.nextName();
+                if(name.equals("link"))
+                    link = jr.nextString();
+                else if (name.equals("title"))
+                    title = jr.nextString();
+            }
+            tableLinks.add(new TableLink(link, title));
+            jr.endObject();
+        }
+        jr.endArray();
+        return tableLinks;
     }
 
     private static List<RandomTable> readTableListJson(JsonReader jr) throws IOException {
@@ -67,8 +113,20 @@ public class TableReader {
                 int i = 1;
                 jr.beginArray();
                 while (jr.hasNext()) {
-                    entries.add(new TableEntry(jr.nextString(), i));
+                    jr.beginObject();
+                    String entry = "";
+                    String diceVal = "";
+                    while(jr.hasNext()) {
+                        String entry_key = jr.nextName();
+                        if(entry_key.equals("dice_val")){
+                            diceVal = jr.nextString();
+                        }else if(entry_key.equals("entry")) {
+                            entry = jr.nextString();
+                        }
+                    }
+                    entries.add(new TableEntry(entry, diceVal));
                     i++;
+                    jr.endObject();
                 }
                 jr.endArray();
             }

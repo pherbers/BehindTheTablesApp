@@ -1,0 +1,829 @@
+{
+    "description": "Use these tables for quick inspiration to lay out a castle and to suggest some of its history. I tend to model castles as defensive places more than luxurious palaces. There is an inner keep where most inhabitants will shelter during a siege. The outer defenses are manned by defenders (archers and guards mostly). The castle likely has a handful of knights on hand to run down besieging infantry. Commonly, most of the rooms of the castle are part of the inner keep, but other layouts are not uncommon. The size of a castle can vary widely, as suggested by the number of defenders and the number of people it can protect. These numbers aren't superbly accurate in terms of medieval history, but they span the range I've found for small castles and large citadel-type castles (someone will correct me if I'm way off). I wouldn't expect that the castle could accommodate that many residents at all time. Only that with sufficient provisions, they could keep that many people (mostly frightened and defenseless commoners) safe from raiders or a foragers of an enemy army. These tables are in no way meant to be authoritative or complete.",
+    "id": "43ek9v",
+    "keywords": [
+        "castle",
+        "lord",
+        "lady",
+        "king",
+        "queen",
+        "prince",
+        "princess",
+        "knight",
+        "archer",
+        "stronghold",
+        "defense",
+        "siege",
+        "battlement",
+        "rampart",
+        "merlon"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/43ek9v",
+    "related_tables": [
+        {
+            "link": "43k8fr",
+            "title": "Prisons"
+        }
+    ],
+    "tables": [
+        {
+            "dice": "d10",
+            "name": "The castle sits...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Atop a mountain."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "On a hill overlooking a wide plain."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "At the fork of a river."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "On a narrow, rocky peninsula."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Above a seaside cliff."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "On a hill overlooking a river valley."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "On a hill rising out of a swamp."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "On a hill overlooking a forest."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Astride a desert oasis or natural spring."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "On a ridge overlooking a frozen plain."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "The castle was built by...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A wise king or queen."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "An ambitious lord or lady."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "An evil tyrant."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A mighty warrior or warlord."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A retired adventurer."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A celebrated war hero."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "An unscrupulous king or queen."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A vain lord or lady."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A powerful witch or wizard."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A beloved sovereign."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A prosperous merchant."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A member of an ancient noble house."
+                }
+            ]
+        },
+        {
+            "dice": "d4",
+            "name": "The castle was built...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "In a past age."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Hundreds of years ago."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A few decades ago."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Within the past decade."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Currently, the castle\u2019s condition is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Perfect; upkeep has been fastidious."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Good; it been well-maintained."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Decent; there are only a few cracks in the walls, but the place can withstand a siege."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Fair; the castle has seen better days."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Poor; the walls and towers are in dire need of repairs."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Decrepit; the place is practically a ruin."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "Presently, the castle is occupied by...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A member of the royal family."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "An ambitious lord or lady."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "An evil tyrant."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "An elderly lord or lady."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A brash, young lord or lady."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A mercenary company."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A fearsome warlord or retired sellsword."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A wealthy merchant."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A retired pirate or thief."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A former adventurer."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "An absentee noble lord."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "The crown, but the king or queen rarely stays here."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "The position or territory is worth defending because...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Grains grow well on the surrounding land."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "The nearby mines are rich in ores or gems."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "The surrounding land is excellent for grazing livestock."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Fruit trees grow on the surrounding land."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "The nearby pass is the easiest way to cross the mountains."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "The nearby harbor is important for trade."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "The nearby river is important for trade."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "The nearby source of freshwater is precious is in this region."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "The wild lands beyond are full of threats."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "The surrounding lands are part of a long-standing territorial dispute."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "The surrounding land is held sacred."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "The nearby lands are home to a rare herb, tree, or creature that has magical uses."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "The castle\u2019s outer defenses include...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Very high stone walls."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Incredibly thick stone walls."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A series of curtain walls and gatehouses."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A treacherous climb to reach the castle walls."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A moat filled with putrescent water."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A moat filled with thick, boot-sucking mud."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A moat filled with sharp spikes."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A moat that is home to one or more dangerous aquatic beasts."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "An immense barbican."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A narrow footbridge to reach the postern."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The inner keep\u2019s defenses include...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Hundreds of arrow slits."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "One of the world's largest dual-portcullis gates."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A winding climb to reach the entrance."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Several covered parapets with murder holes under which intruders must pass."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A wide courtyard surrounded by flanking towers in the curtain wall."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "An unusual or hidden means of entry. "
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "The castle can be held effectively by as few as...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "5 soldiers and 20 archers."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "20 soldiers, 5 knights, and 20 archers."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "50 soldiers, 10 knights, and 40 archers."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "20 knights, 20 archers, and 5 warmages."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "100 soldiers, 50 archers, and 5 warmages."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "100 soldiers, 20 knights, and 50 archers."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "200 soldiers, 50 knights, and 100 archers."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "200 soldiers, 100 knights, and 200 archers."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "In addition to its garrison, the castle can hold foodstores to withstand a three-month siege for up to...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "50 people."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "100 people."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "200 people."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "500 people."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "1,000 people."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "2,000 people. "
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "The castle is known for...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Withstanding a grueling, lengthy siege."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Suffering an immense conflagration."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Changing hands several times over the course of the same war."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Bringing ill-fortune to those who hold it."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Being haunted by a former occupant."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Never falling in a siege."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Welcoming travelers seeking refuge."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Turning away travelers seeking refuge."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Its unusual architectural style."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Its beautiful, historic tapestries."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Its breathtakingly beautiful chapel."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "The quality of its meals."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "What is rumored to be hidden in the castle?",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "An underground tunnel that can serve as a last-gasp escape route."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "The weapon of a long-dead hero."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "The preserved head of an ancient villain."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A long-lost religious artifact."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A missing lord or lady."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A book of vile curses."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A book of dark and ancient secrets."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A cursed treasure hoard."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "The last bottle of famous vintage of wine."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A lost work of a celebrated artist."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "The crypt of an ancient sovereign."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "An unhatched dragon egg."
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "Rooms: This chamber is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "An antechamber or waiting room."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "An armory."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "An aviary, dovecote, owlery, or rookery."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A banquet hall."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "The barracks."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A bath or privy."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A bedroom (d3): 1. simple; 2. comfortable; 3. luxurious."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A chapel or shrine."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A crypt."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "An intimate or informal dining room."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A dressing room."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A gallery (d6): 1. armor and weaponry; 2. paintings; 3. sculptures; 4. tapestries; 5. hunting trophies; 6. trophies of war."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "A guardroom."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "A kennel, menagerie, or stable."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "The kitchen."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "A library or study."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "A pantry."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "Store room for mundane supplies or a cistern for drinking water."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "The throne room."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "A treasure vault (likely hidden and/or protected by traps)."
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "Features: You notice...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "An armchair flanked by two sconces."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A large armoire or buffet cabinet."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A bench with a cusion."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A brazier."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A candelabrum on a large table."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A plain chair beside a window."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A heavy wooden chest."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A chest of drawers with a blanket on top."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A desk with some quills and parchment."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A fireplace with a mantle."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A fireplace with a small pile of wood."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A fresco with a padded chair beneath it."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "Portrait of a noble."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "A painting of a landscape or seascape."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "A bust on a pedestal."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "A shelf containing books or knick knacks."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "A low table in front of a small sofa."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "A large table beneath a chandelier."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "An ornate tapestry."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "A small wall basin and font."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Under siege: You come upon...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A squad of archers hustling up a stair."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A patrol of guards brandishing weapons."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A guard shouting instructions."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A knight hurrying to the stables."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A servant cowering in a hiding place."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A curious child peaking out a window."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A servant kneeling in prayer."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A noble hastily penning a letter."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A squire aiding a knight with his armor."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A healer checking over his potions."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "In peace: You come upon...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "The huntsman cleaning a recent kill."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "The kennelmaster leading a leashed dog."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "The horsemaster instructing a young rider."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "The armorer scolding an apprentice."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A maid fussing over her lady\u2019s dress."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "The tutor or sage lost in a book."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "The chaplain whispering with a maid."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A maid polishing an ornamental shield."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A servant carrying a tray of food."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Several archers practicing in the yard."
+                }
+            ]
+        }
+    ],
+    "title": "Castles",
+    "use_with": [
+        {
+            "link": "43t6g9",
+            "title": "Castle dungeons"
+        },
+        {
+            "link": "43emxb",
+            "title": "Castle inhabitants"
+        },
+        {
+            "link": "3sj8mc",
+            "title": "Noble houses"
+        },
+        {
+            "link": "3xyhdl",
+            "title": "Nobles"
+        },
+        {
+            "link": "3tkfho",
+            "title": "Knights"
+        }
+    ]
+}

@@ -1,0 +1,379 @@
+{
+    "description": "",
+    "id": "41vhpr",
+    "keywords": [
+        ""
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/41vhpr",
+    "related_tables": [
+        {
+            "link": "41vjmj",
+            "title": "Magic wands"
+        }
+    ],
+    "tables": [
+        {
+            "dice": "d12",
+            "name": "The weapon is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A longsword."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A shortsword."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A greatsword."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A broadsword."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A scimitar."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A bastard sword."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A spear."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A scythe."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A dagger."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A battleaxe."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A greataxe."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A warhammer."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "The blade (or head) is made of...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Obsidian."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Diamond."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Simple steel, forged to perfection."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Steel cooled in demon's blood."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Steel cooled in dragon's blood."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Adamantium."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Dragon fang."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "An elemental substance (d4): 1. flame; 2. ice; 3. lightning; 4. wind."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Stone."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Glass."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Enchanted wood."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Bone."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Polished elm."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Bone."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Gold."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Rough oak."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Iron."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Bronze."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Silver."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Blackened steel."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Ancient oak."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Steel with diamond pattern knurling for grips."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Steel with leather strips wound for grips."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "The weapon is made of one piece, the shaft is the same material as the blade. "
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "The maker was...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A dwarf."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A tiefling."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A human."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "An elf."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A dragonborn."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A god."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "An orc."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A hobgoblin."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A half-elf."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A fiend."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A vampire."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A shapeshifter."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "Who was...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A blacksmith."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A weaponsmith."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "An armorer."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A king."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A magician."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A hero."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A priest."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "An adventurer."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A warrior."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A hunter."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A tyrant."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A prophet."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "The weapon is famous because...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "It slew a mighty beast."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "It was used to lead a great army."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "It killed kings."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Its owner stood, alone, against an army, and won."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Its owner was a paragon of virtue."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "It killed a god."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "It killed a great demon."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "It has slain hundreds of thousands."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "It slew a dragon."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "It contains the soul of an ancient hero or villain."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Other interesting things include...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A jewel where the shaft meets the blade (d4): 1. diamond; 2. emerald; 3. ruby; 4. sapphire."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Its maker was killed to stop him from making a better weapon."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "It has fine metal work along the blade (even if the blade is made of an elemental substance)."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "It cannot be sheathed without tasting blood."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "It was tempered in an icy lake."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "It was forged in a volcano."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "It is decorated with symbols where the shaft meets the blade."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "It was cooled in a full moons light."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "It can only be wielded by the pure of heart."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "It can only be wielded by the just. "
+                }
+            ]
+        }
+    ],
+    "title": "Legendary Weapons",
+    "use_with": [
+        {
+            "link": "48cev4",
+            "title": "Magic shops"
+        }
+    ]
+}

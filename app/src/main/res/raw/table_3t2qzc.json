@@ -1,0 +1,730 @@
+{
+    "description": "These are tables for generating a dangerous, good-natured, or anything-in-between bands of outlaws to serve as foe or foil to your PCs. These outlaws may be poachers, robbers, or smugglers. They may operate within a city, but more likely, they operate in settled or semi-settled rural lands or around smaller towns and villages well-outside the main crush of the city.",
+    "id": "3t2qzc",
+    "keywords": [
+        "bandit",
+        "robber",
+        "smuggler",
+        "poacher",
+        "outlaw",
+        "robin hood",
+        "merry men",
+        "highwaymen",
+        "thieves",
+        "criminal",
+        "gang",
+        "NPC"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/3t2qzc",
+    "related_tables": [
+        {
+            "link": "3t5sik",
+            "title": "Pirate crews"
+        },
+        {
+            "link": "3t5q2e",
+            "title": "Urban gangs"
+        }
+    ],
+    "tables": [
+        {
+            "dice": "d10",
+            "name": "The outlaw band\u2019s primary \u201cbusiness\u201d involves...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Poaching from the sovereign's preserve or a prominent noble\u2019s lands."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Harboring fugitives."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Harassing government officials and nobles who pass along the road."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Robbing caravans carrying gems, precious metals, and exotic goods."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Holding up incoming or outgoing ships or wagons. "
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Smuggling drugs (d4): 1. smokeleaf; 2. hallucinogenic mushrooms; 3. sleepysalt (a downer); 4. sharpsugar (an upper)."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Smuggling rare antiquities."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Smuggling stolen goods."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Smuggling living things (d4): 1. exotic beasts; 2. foreign harlots; 3. fugitives; 4. slaves."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Serving as muscle for shady merchants and/or brothel-keepers."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "The outlaw band\u2019s colors are...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Black."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Gold."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Forest green."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Bronze."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Tan / khaki."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Brown / beaver."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Dark grey / gunmetal."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Maroon."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Dark brown / chocolate."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Olive green."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "The outlaw band\u2019s symbol is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A skull."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "An arrow."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A dagger."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A goblet."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "The moon."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A star."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A snake."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A badger."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A spider."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A rat."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A wolf."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A bear."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "The outlaw band\u2019s leader is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A dangerous megalomaniac."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A charismatic demagogue."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A mysterious foreigner."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A talented thief."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A member of a prominent family."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A ruthless killer."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A femme fatale."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A charming rogue."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A dashing swashbuckler."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A brutish thug."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A devoted priest."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A well-known fugitive."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The outlaw band\u2019s members are primarily...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Out-of-work artisans."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Displaced peasants."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Desperate peasants."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Escaped slaves."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Combat veterans."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Foreign refugees."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "The outlaw band\u2019s goals include (leadership and rank-and-file members could have different goals)...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Domination of the region\u2019s trade."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Sabotage of the region\u2019s trade."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Revenge against a rival band of outlaws."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Revenge against the region\u2019s elite."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Rebellion against the region\u2019s elite."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Equality and freedom for all."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A wealthy and peaceful retirement."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Violence to slake their bloodlust."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Members of the outlaw band typically arm themselves with...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Wooden clubs."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Over-sized daggers."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Shortbows and arrows."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Longbows and arrows."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Daggers and crossbows."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Axes and knives."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Sticks and stones."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Shortswords."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Brass knuckles."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Daggers and sling shots."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "The outlaw band\u2019s headquarters is hidden in or near...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "The residence of a prominent noble."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "The village\u2019s market square."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A wayside inn."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A tavern."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A brothel."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "An old lighthouse."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "An abandoned cabin."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A waterfall."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A cave."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A dense forest."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "The outlaw band is feared or respected by...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Ambassadors and tax collectors."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Merchants and peddlers."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Politicians and magistrates."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Guards and sheriffs."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Soldiers and warriors."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Nobles and wealthy travelers."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Knights and loyalists."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Peasants and farmers."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Priests and sages."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Women and children."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "Distinguishing feature for an individual: The outlaw has...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A flashy earring ring."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Shiny leather boots."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A hole in the toe of one boot."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A dagger in each boot."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A mask on the face."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A wide-brimmed hat."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A dragon tattoo on the forearm."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A flame tattoo around the arm."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A maniacal laugh."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A bent, broken nose."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "An open shirt and a very hairy chest."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Extravagant mustaches."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Bears."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Birds of prey (d4): 1. eagles; 2. falcons; 3. hawks; 4. owls."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Boars."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Deer (d4): 1. elk; 2. harts; 3. moose; 4. stags."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Exotic beasts (d8): 1. behemoths; 2. elephants; 3. griffons; 4. hippogriffs; 5. lions; 6. owl bears; 7. tigers; 8. wyverns)."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Game birds (d6): 1. doves; 2. grouses; 3. partridges; 4. pheasants; 5. quails; 6. turkeys."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Waterfowl (d6): 1. ducks; 2. geese; 3. herons; 4. puffins; 5. snipes; 6. swans."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Small furry beasts (d6): 1. beavers; 2. ermines; 3. otters; 4. raccoons; 5. sables; 6. skunks."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Small predators (d4): 1. badgers; 2. coyotes; 3. foxes; 4. wolverines."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Wolves."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "For sport."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "To feed their families."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "To feed the impoverished peasants."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "To exact revenge on the landowner."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "To sell the beasts\u2019 meat."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "To sell the beasts\u2019 pelts."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The robbers typically strike with...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Swarm tactics."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Hit-and-run tactics."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Ambush tactics."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Choreographed maneuvers."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Unpredictable maneuvers."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Lots of fancy footwork."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "The robbers are notorious for...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Never leaving survivors."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Branding captives."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Scalping captives."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Burning wagons and ships."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Using explosives."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Romantic escapades."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Singing bawdy songs."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Drinking too much ale. "
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The smuggling ring's primary modus operandi involves...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Underground tunnels."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Secret compartments."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Stealth watercraft."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Humanoid mules."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Bribery of officials."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A network of safehouses."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "The ring is supported by...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A prominent merchant."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "An important minister or magistrate."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A major crime boss."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A pirate captain."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "An admiral."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A group of subversives."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "The captain of the guard or a local sheriff."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "The sovereign\u2019s main rival."
+                }
+            ]
+        }
+    ],
+    "title": "Outlaw Bands",
+    "use_with": [
+        {
+            "link": "46ma8g",
+            "title": "Bards"
+        },
+        {
+            "link": "3tich6",
+            "title": "Desert"
+        },
+        {
+            "link": "3sgzxb",
+            "title": "Forest"
+        },
+        {
+            "link": "3sh0bv",
+            "title": "Forest, haunted"
+        },
+        {
+            "link": "4tguyo",
+            "title": "Horses"
+        },
+        {
+            "link": "42rm5s",
+            "title": "Mountains"
+        },
+        {
+            "link": "47x04h",
+            "title": "Plains"
+        },
+        {
+            "link": "4034w3",
+            "title": "Thieves"
+        },
+        {
+            "link": "3sj9ub",
+            "title": "Town NPCs"
+        }
+    ]
+}

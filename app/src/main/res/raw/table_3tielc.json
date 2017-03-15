@@ -1,0 +1,658 @@
+{
+    "description": "These are tables for adding quick flavor and encounters to a bleak, shadowy desert region. You can use these to generate a single wasteland location for an encounter or to set up a map of a shadowy wasteland region.",
+    "id": "3tielc",
+    "keywords": [
+        "desert",
+        "sand",
+        "rocky",
+        "wasteland",
+        "badlands",
+        "bleak",
+        "shadowfell",
+        "shadow-touched",
+        "death-touched",
+        "realms of the dead",
+        "haunted",
+        "encounters"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/3tielc",
+    "related_tables": [
+        {
+            "link": "3tich6",
+            "title": "Desert"
+        },
+        {
+            "link": "3tjb63",
+            "title": "Desert, flame-scorched"
+        }
+    ],
+    "tables": [
+        {
+            "dice": "d12",
+            "name": "Interesting Location: You find...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A cavern in a canyon wall."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A hole under a large boulder."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A large burrow."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A small cave next to a dry river bed."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A pair of graves."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A peculiar tent."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Some nomads\u2019 camp."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "An abandoned stone house."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "An abandoned campsite."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "An entrance to a rocky cave."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "An ancient tomb."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Ancient ruins."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "Distinguishing Landmark: You see...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "An oasis with a tree bearing rotten fruit."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "An oasis with foul-smelling water."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "An unusually large, prickly desert plant."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A pair of prickly plants from the same root."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A patch of coarse grass next to a boulder, shrouded in a strange mist."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A rocky bluff."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A boulder shaped like a skull."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A pair of identical boulders, side by side."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A boulder sitting atop a larger boulder."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A small, rocky canyon with a trickle of foul water."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A deep, rocky canyon with a trickle of foul water."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A dry river bed."
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "Feature: You notice...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A buzzard circles overhead."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A vulture screams."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A flock of crows scatter."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A large beetle scuttles away."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A raven croaks."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A crow caws."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A rat scurries away."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A swarm of beetles crawl past."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A ghostly presence flees."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A ghostly presence watches curiously."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A beast howls mournfully in the distance."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "An eerie silence."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "The wind kicks up dust."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "The breeze stops."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "The wind moans eerily."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "Small lose stones tumble down a slope."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "A dead palm tree."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "A distant scream."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "The smell of rotting flesh."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "The smell of decay."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "Encounters: You come upon...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A giant spider."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A pack of wolves."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "An animated skeleton."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A malevolent ghost."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A restless ghost."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A pair of ghouls."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A pair of bandits."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A strange hermit."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A lost traveler."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A destitute nomad."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A dust storm."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A thick, cold fog."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "What\u2019s in the cave/cavern?",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A swarm of beetles."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Lots of bats."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Many spider webs."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A wight\u2019s stash."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A ghoul\u2019s lair."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Several skeletons."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Bare rock."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Mummified remains."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Some bandits\u2019 hideout."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A creepy hermit."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "What\u2019s in the hole/burrow?",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A snake."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A spider."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Beetles."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Scorpions."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A severed limb."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Dry bones."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Who lives in the peculiar tent?",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A merchant of exotic goods."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A misanthropic shapeshifter."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "An eccentric shadow monk."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A nomadic herder."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A nomadic warrior."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "An outcast elf."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Who lived in the stone house?",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A strange hermit."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A reclusive scholar."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "An eccentric healer."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A poor goatherder."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Someone who left no trace."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A member of an ancient clan."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "A death hound."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A handful of zombies."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A paranoid shapeshifter."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A mad necromancer."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A malevolent ghost."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Restless ghosts."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Who built the ancient ruins?",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A clan of shadowfolk."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A dark elf queen."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A fiendish cult."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A dragon cult."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A death cult."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Shadow monks."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A long-dead emperor."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A forgotten king."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "An ambitious lich."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A dark sorcerer."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Who lives in the ancient ruins now?",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A brilliant necromancer."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Starved ghouls."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Undead guardians."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Cursed mummies."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Restless ghosts."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A shadowfolk war band."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "An aberrant presence."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A pack of death hounds."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A pair of manticores."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A dracolich."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Who is in the ancient tomb?",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "The remains of an ancient king."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "The remains of an ancient queen."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "The remains of an ancient sorcerer."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A powerful mummy."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "An ancient demilich."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "The remains of ancient monks."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Twisted humanoid bones."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Malevolent ghosts."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Zombie warriors."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Huge, disorganized piles of bones."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Who is in the grave?",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "The corpse of a young maiden."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "The bones of a child."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "The bones of an old man."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "The bones of an old woman."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A fallen adventurer, hastily buried."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A dismembered corpse."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Twisted humanoid bones."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A pile of bones."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A hateful mummy."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "An empty coffin"
+                }
+            ]
+        }
+    ],
+    "title": "What's in the Shadowy Desert?",
+    "use_with": [
+        {
+            "link": "3xydsw",
+            "title": "Barbarians"
+        },
+        {
+            "link": "3snzw5",
+            "title": "Lycanthropes"
+        },
+        {
+            "link": "3sl2r2",
+            "title": "Merchant caravans"
+        },
+        {
+            "link": "3w1g84",
+            "title": "Necromancers"
+        },
+        {
+            "link": "3t2qzc",
+            "title": "Outlaw bands"
+        },
+        {
+            "link": "3sorre",
+            "title": "Restless undead"
+        },
+        {
+            "link": "3tjdae",
+            "title": "Savage hordes"
+        },
+        {
+            "link": "427hd8",
+            "title": "Tombs"
+        }
+    ]
+}

@@ -1,0 +1,327 @@
+{
+    "description": "Use these tables for quickly adding some details to an altar dedicated to a good or neutral deity.",
+    "id": "4tl384",
+    "keywords": [
+        "priest",
+        "priestess",
+        "temple",
+        "shrine",
+        "church",
+        "chapel",
+        "sanctuary",
+        "holy site",
+        "altar",
+        "benevolent goddess",
+        "saint"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/4tl384",
+    "related_tables": [
+        {
+            "link": "4tl3c6",
+            "title": "Unholy altars"
+        }
+    ],
+    "tables": [
+        {
+            "dice": "d10",
+            "name": "The altar chamber is lit by...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A few large candles."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Many small candles."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Several candelabra."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A pair of torches near the entrance."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Several torches in sconces around the room."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Lanterns with colored glass (d4): 1. blue; 2. green; 3. red; 4. yellow."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Sunlight filtering in through a few narrow shafts in the ceiling."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Sunlight filtering in through leaden-glass windows."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Sunlight filtering in through stained glass windows."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Only the light you take with you."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Upon approaching the altar, you feel...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Peaceful."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A little sleepy."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A little braver than before."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A little safer than before."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "An up welling of confidence."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "An up welling of righteousness."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A gentle presence."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A benevolent presence."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A stern presence."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A wise presence."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "The altar is made of...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A solid block of stone."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Three large slabs of stone."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Three thick cuts of wood."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "An ornately carved block of wood."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Several pieces of beautifully carved wood."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Several small stones held together with mortar."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Brick and mortar."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Marble."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Crystal."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Gilded wood, encrusted with gems."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Atop the altar, you find...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "An ancient tome."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A well-used prayer book."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Several candles."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A linen parament."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A cotton parament."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A bouquet of flowers."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A dish (d8): 1. copper; 2. crystal; 3. gold; 4. ivory; 5. silver; 6. steel; 7. tin;  8. wood."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A goblet (d8): 1. copper; 2. crystal; 3. gold; 4. ivory; 5. silver; 6. steel; 7. tin;  8. wood."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A vessel of holy water."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A censer."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The appropriate ritual to perform on this altar involves...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Eating some bread and drinking some wine."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Washing one's hands in blessed water."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Sprinkling blessed water on your bowed head."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Spreading scented oils on your forehead."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Burning incense or scented oils."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Laying one's weapons upon the altar and kneeling to pray."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "If you perform the ritual correctly, you may receive a blessing of...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Strength in your coming battles."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Healing from your last battle."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Health on your coming journey."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Wisdom for your coming struggles."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Knowledge of life's great mysteries."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Protection during your coming trials."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "If you perform the ritual incorrectly, you may feel...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "No ill effects."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Feel a little fatigued on your coming journey."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Feel a little weak in your coming battles."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Feel hopelessness at completing your current quest."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Feel a haunted by the gods' gaze."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Feel a little woozy until you have a chance to properly rest."
+                }
+            ]
+        }
+    ],
+    "title": "Holy Altars",
+    "use_with": [
+        {
+            "link": "4nlcyd",
+            "title": "Healers"
+        },
+        {
+            "link": "40pjmd",
+            "title": "Monasteries"
+        },
+        {
+            "link": "3xq9nd",
+            "title": "Monks"
+        },
+        {
+            "link": "3shczv",
+            "title": "Pantheons"
+        },
+        {
+            "link": "3whlp0",
+            "title": "Priests"
+        },
+        {
+            "link": "3xpb4r",
+            "title": "Temples"
+        }
+    ]
+}

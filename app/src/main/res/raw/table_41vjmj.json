@@ -1,0 +1,211 @@
+{
+    "description": "",
+    "id": "41vjmj",
+    "keywords": [
+        ""
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/41vjmj",
+    "related_tables": [
+        {
+            "link": "41vhpr",
+            "title": "Legendary weapons"
+        }
+    ],
+    "tables": [
+        {
+            "dice": "d8",
+            "name": "The wand's tip is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "An orb of lightning."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A shard of crystal."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A burning flame."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "An orb of obsidian."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A jagged flint tip."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "An orb of glass and wind."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Not there, this item is a rod with no tip."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A metal cap (d4): 1. brass; 2. copper; 3. gold; 4. iron; 5. platinum; 6. silver."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "The wand's shaft is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Elm, grown in moonlight."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "The horn of a unicorn."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "An iron bar."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Oak, strong and firm."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Stone, cool beneath your fingers. "
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Silver, glinting."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Adamantium."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Not there, this is an orb not a wand."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Mystic runes, that cause pain to look upon."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Small, shining gemstones."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Intricate metal work."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A carved stone eye."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A swirling of wind that surronds the object."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "An always glowing light."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Large rough-cut gemstones."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Runes that are warm to the touch."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The creator of this object was...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A god."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "An elf."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A dwarf."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A human."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A half-elf."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A tiefling."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "Who...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Was banished for the object's creation."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Was revered for the object's creation."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Was killed for the object's creation."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Was insane."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Went insane."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Was a beacon of goodness."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Was a force of evil."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Had no magical talent."
+                }
+            ]
+        }
+    ],
+    "title": "Magic Wands",
+    "use_with": [
+        {
+            "link": "48cev4",
+            "title": "Magic shops"
+        },
+        {
+            "link": "3w1g84",
+            "title": "Necromancers"
+        },
+        {
+            "link": "44r23c",
+            "title": "Seers"
+        },
+        {
+            "link": "3si4ms",
+            "title": "Witches"
+        }
+    ]
+}

@@ -1,0 +1,734 @@
+{
+    "description": "These are tables for adding quickly fleshing out a mine. These tables are designed to answer some of the basic questions regarding a mine, but they are not exhaustive, and fit best for a mine that is\u2014at least partially\u2014still actively being excavated.",
+    "id": "43ufyr",
+    "keywords": [
+        "mine",
+        "miners",
+        "gems",
+        "ore",
+        "tunnels",
+        "digging"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/43ufyr",
+    "related_tables": [
+        {
+            "link": "3unfbm",
+            "title": "Caverns"
+        }
+    ],
+    "tables": [
+        {
+            "dice": "d20",
+            "name": "The mine is a source of...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Chalk."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Coal."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Copper."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Gold."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Iron."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Lead."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Lime."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Nickel."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Platinum."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Salt."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Silver."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Zinc."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "Diamonds."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "Emeralds."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "Jade."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "Rubies."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "Sapphires."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "Turquoise."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "Other gems (d6): 1. amethyst; 2. aquamarine; 3. garnet; 4. opal; 5. peridot; 6. tanzanite; 7. topaz, 8. zirconium."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "An especially rare metal (d3): 1. adamantine; 2. mithral; 3. orium."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "Entrance: The mine\u2019s entrance is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Up a winding trail from a camp or village."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Up a steep trail from a camp or village."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A wide, natural cave mouth."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A wide open pit."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "An easy to spot, narrow passage."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A steep, slippery sloped tunnel."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A tunnel reinforced with wood beams."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A partially collapsed tunnel, impassable without excavation."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Marked with several signs."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Hidden by the terrain (d4): 1. boulders; 2. waterfall; 3. rocky overhang; 4. hillock."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Hidden by vegetation (d4): 1. a briar patch; 2. a curtain of moss; 3. enormous tree roots; 4. overgrown vines."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Difficult to access (d4): 1. up or down a cliff face; 2. down a deep hole; 3. un an underwater tunnel; 4. through an illusory rock or wall."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Most of the mine is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A sprawling maze of twisting tunnels."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A sprawling maze of narrow tunnels."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A series of tunnels connecting large natural caverns."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A wide open-pit quarry."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A series of tunnels connecting large open pits or sinkholes."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A sprawling maze of open trenches."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "Material excavated from the mine is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Floated on rafts down a stream or river."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Hauled out on pack mules."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Hauled out on mule-drawn carts."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Hauled out on sure-footed ponies."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Hauled out on ox-drawn carts."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Hauled out on the backs of uncommon beasts of burden (d4): 1. bears; 2. giant lizards; 3. goats; 4. undead horses."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Rolled out in single mine carts."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Rolled out in long trains of mine carts."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Hazards/Obstacles: You find...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A colony of poisonous mushrooms."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A patch of toxic mold."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A sudden cave in."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Several rocks tumble down a sloped wall."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "The floor is very slippery."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Your foot misses the floor as you step into a pit or chasm. "
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A heap of unstable explosives."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A sudden explosion in another part of the mine shakes the floor."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "The floor is writhing with vermin (d4): 1. beetles; 2. centipedes; 3. rats; 4. spiders."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "The tunnel or trench is steadily flooding."
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "Denizens: If you dig deep, you\u2019ll find...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Carrion crawler.\t"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Cloaker.\t"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Darkmantle.\t"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Drider.\t"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Fungi.\t"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Gargoyle.\t"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Ghosts.\t"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Gricks.\t"
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Hook horror.\t"
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Mimics.\t"
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Myconids.\t"
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Ooze.\t"
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "Otyugh.\t"
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "Piercer.\t"
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "Roper.\t"
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "Rust monster.\t"
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "Skeletons.\t"
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "Stirges.\t"
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "Umber hulk.\t"
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "Wraith.\t"
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Ecology: The creature is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A predator or a hunter."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A food source for other denizens."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A recently-arrived squatter or invader."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A long-time resident."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A parasite or a scavenger."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A host or the dominant species."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Unusually abundant."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Living in deliberate isolation."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Living in unintentional isolation."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Severely out of place in this mine."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "Neighbors: The miners complain of trouble from a nearby colony of...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Cyclops."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Duergar."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Dwarves."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Elves, dark."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Gnomes, deep."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Goblins."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Grimlocks."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Hobgoblins."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Kobolds."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Orcs."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Troglodytes."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Trolls."
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "Distinguishing Landmark: You see...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A trickle of water flowing down the walls and across the floor."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "An underground lake of potable water."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A pool of stagnant water."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A rickety bridge over a chasm."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A narrow chasm with walls close enough to climb between."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A deep chasm with no bottom in sight. "
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A group of boulders arranged in a circle."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A damp wall covered in soft mold."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A recess in the wall, covered in slimy mold."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A large patch of soft fungus."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A cavern with a strong echo."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A claustrophobic tunnel with a low ceiling."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "A forked path with tracks for mine carts."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "An overturned mine cart."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "An unlit lantern mounted to the wall."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "A glowing lantern mounted to the wall."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "A swirling vein of ore visible in the wall."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "A wide vein of ore visible in the wall."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "A partially excavated wall with plentiful ore."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "A heap of excavated rock."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "Features: You notice...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Some broken mining equipment."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Some old dry bones."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Evidence of a recent, brief encampment."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Evidence of an abandoned campsite."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "An enormous spider web."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A wide slippery patch of mold on the floor."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "The clatter of rocks falling."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Loose stones underfoot."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "The clang of a pick breaking rock."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "The distant sound of hammers at work."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A prospector\u2019s mark scratched on the wall."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A cracked wooden beam overhead."
+                }
+            ]
+        },
+        {
+            "dice": "d4",
+            "name": "The mine is widely believed to be...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Full of riches."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A productive place to dig."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Becoming increasingly unprofitable."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Nearly dried up."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "The mine is controlled by...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A powerful, well-known merchant guild."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A wealthy noble house."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A partnership of a few prospectors."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A clan or collective of locals."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "No one in particular; finders keepers."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A shadowy cabal of merchants."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A vicious warlord or mercenary captain."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A crime boss who\u2019s never visited the site."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Most of the miners are...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Free men working for wages."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Low-level members of a guild."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Paid with a fraction of what they haul out."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Paid with credit at a merchant\u2019s store."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Prisoners."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Slaves."
+                }
+            ]
+        }
+    ],
+    "title": "Mines",
+    "use_with": [
+        {
+            "link": "43uzib",
+            "title": "Dungeon encounters"
+        },
+        {
+            "link": "43vpxa",
+            "title": "Dwarves"
+        },
+        {
+            "link": "3snvqq",
+            "title": "Goblins"
+        },
+        {
+            "link": "43vqqs",
+            "title": "Miners"
+        },
+        {
+            "link": "42rm5s",
+            "title": "Mountains"
+        },
+        {
+            "link": "50t6ir",
+            "title": "Oozes"
+        },
+        {
+            "link": "3t2qzc",
+            "title": "Outlaws bands"
+        },
+        {
+            "link": "3sorre",
+            "title": "Restless undead"
+        },
+        {
+            "link": "487awj",
+            "title": "Spiders"
+        },
+        {
+            "link": "43bznq",
+            "title": "Traps"
+        }
+    ]
+}

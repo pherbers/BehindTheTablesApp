@@ -1,0 +1,282 @@
+{
+    "description": "These are tables for generating interesting dark elves to serve as allies or foes to your PCs, from evil spider priestesses to subterranean stalkers.",
+    "id": "3uzyyj",
+    "keywords": [
+        "dark elves",
+        "drow",
+        "spider goddess",
+        "lolth",
+        "priestess",
+        "demonweb pits",
+        "underdark",
+        "drizzt"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/3uzyyj",
+    "related_tables": [
+        {
+            "link": "3vh7jd",
+            "title": "High elves"
+        },
+        {
+            "link": "3va3dw",
+            "title": "Wood elves"
+        }
+    ],
+    "tables": [
+        {
+            "dice": "d6",
+            "name": "The dark elf has...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Bright white hair."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Silver-blonde hair."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Whitish grey hair."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Whitish blonde hair."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Shiny platinum hair."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Pale grey hair."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The dark elf has...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Whitish blue eyes."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Pale blue eyes."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Lilac eyes."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Pale violet eyes."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Deep red eyes."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Pale pink eyes."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "The dark elf has...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A likable grin."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A delicate laugh."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "An amused smirk."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A humorless visage."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A habit of sighing."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "An insolent curl to the lip."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A habit of pacing."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A habit of scratching the back of the neck."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "The dark elf is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A deadly assassin."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A death-marked heretic."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "An ambitious mage."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A messenger on an errand."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A powerful, high-ranking priestess."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "An eager, novice priestess."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A capable scout."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A battle-hardened soldier."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A patient and calculating spy."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A devoted guardian."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "The dark elf is looking to...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Track an aberrant beast."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Investigate the disappearance of a comrade."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Lead any travelers into a dangerous trap."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Locate the lair of a legendary spider."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Find some knowledge about an ancient event or place."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Prove his or her worth to a priestess back home."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Avoid any other dark elves."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Avoid any high elves or wood elves."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Kill some goblins."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Share some wine while prying for secrets."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "The dark elf carries...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "An ancient wand or staff."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A unique gem or piece of jewelry."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A finely-crafted short sword or crossbow."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A tome of dark lore."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A pair of matching short swords."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A half dozen sharp daggers."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Several doses of deadly poisons."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A staff or sword with a spiderweb pattern etched along its length."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A pet spider."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A trophy from a foe he or she killed."
+                }
+            ]
+        }
+    ],
+    "title": "Dark Elves",
+    "use_with": [
+        {
+            "link": "3unfbm",
+            "title": "Caverns"
+        },
+        {
+            "link": "4780bg",
+            "title": "Poisons"
+        },
+        {
+            "link": "4b8u29",
+            "title": "Reputations of adventurers"
+        },
+        {
+            "link": "487awj",
+            "title": "Spiders"
+        }
+    ]
+}

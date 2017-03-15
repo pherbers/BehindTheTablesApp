@@ -1,0 +1,578 @@
+{
+    "description": "",
+    "id": "4b8u29",
+    "keywords": [
+        "Barbarian",
+        "Bard",
+        "Druid",
+        "Cleric",
+        "Fighter",
+        "Monk",
+        "Paladin",
+        "Ranger",
+        "Rogue",
+        "Sorcer",
+        "Warlock",
+        "Wizard",
+        "Reputation",
+        "Rep"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/4b8u29",
+    "related_tables": [],
+    "tables": [
+        {
+            "dice": "D10",
+            "name": "Barbarian",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "He was the muscle in a crack commando unit."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "He's waging a one man war against the evil hill giants plaguing his tribes lands."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "His rough exterior hides a jolly friendly soul."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "He wears the skulls of his fallen enemies as adornments on his armor."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "His tribe pillaged a frontier fort recently. They left no survivors."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "He was surrounded by six of the kings best soldiers. He killed them, then ate their hearts and drank their blood."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "He's actually an animal, chief of a tribe of lycanthropes."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "His endurance is legendary. He wrestled a dragon for two nights and two days straight."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "His endurance is legendary. He wrestled his way through the entire red light district in two days and two nights."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "He's a ferocious berserker who loses all control in combat. "
+                }
+            ]
+        },
+        {
+            "dice": "D10",
+            "name": "Bard",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "He and his troop were sent up river for a crime they didn't commit."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "He moonlights as a thief. Everyone knows, but so far no one has been able to catch him in the act."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "He's on the run after using his honeyed words to cause a schism in the next kingdom."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "He moonlights as a vigilante do-gooder."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "He's a master of the old lore and spends his time spreading his knowledge among the villages."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "He's a dashing knave the tyrannical king has not been able to catch yet, and his poetic broadsheets periodically appear in public places mocking the government."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "He has a voice that could entrance even the most shrewish of the king's daughters."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "He's a washed up has been and hasn't been held in high esteem for many years."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "His music is the latest fashion and his name is on everyone's lips."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "He mostly just moonlights, wink wink nudge nudge."
+                }
+            ]
+        },
+        {
+            "dice": "D10",
+            "name": "Cleric",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "His church is one of the few safe places in the region."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "He's a kind-hearted man who helps all in need."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "He moved heaven and earth to revive fallen heroes in his city's time of need."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "He's a member of a fearsome cult that holds the entire countryside in terror."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "He hunts members of other faiths with a dark devotion, then sacrifices them to his dark god."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "He's a fearsome necromancer who has bound all the dead in the region to his will."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "He is the the high priest of his god in the region. To his followers his word is law."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "He's a scholar first and a priest second."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "He's more politically motivated than faith driven."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "He's a promising young convert to his religion full of fervor."
+                }
+            ]
+        },
+        {
+            "dice": "D10",
+            "name": "Druid",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "He's a wise leader of a small sect of like minded druids."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "He's a legendary protector of a secluded community."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "He's an emissary who acts as a go-between for the men and elves of the kingdom, solving disputes and keeping the peace."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "He's a hermit, maddened by isolation, who murders travelers."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "He's a dark druid who kills townfolk and uses their bodies to fertilize his grove."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "He's a good druid driven to dark deeds by men who hold his forest home hostage."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "He's a noted shapeshifter who prefers his beast forms to his human form."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "He's claims a body that heals itself is stronger than one magically healed."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "His accustomed home is the harshest land in the region."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "He occasionally turns up in town to barter rare medicinal plants for trade goods."
+                }
+            ]
+        },
+        {
+            "dice": "D10",
+            "name": "Fighter",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "He was drummed out of the king's legion and was sent to prison by a military court."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "His skills are rumored to be a fraud, but no one has come forward with proof."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "He's a dangerous hired killer. For the right price he'll take any dirty job."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "He's a mercenary giant killer. His prices are exorbitant, but he's worth the money. The common folk consider him a hero."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "He's an up-and-coming dragon slaying folk hero. He's in it for personal reasons. The king fears he'll draw negative attention."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "He's a wandering troubleshooter. He's got a good heart, but even good folks have to have money to eat."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "He's a slow witted thug. Only the simple things in life, money, fighting, wenching, interest him."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "He's the best swordsman in the land and the right arm of the king."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "He's a hard bitten mercenary with a keen mind for stacking the odds."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "His weapon is a legendary artifact recovered during a dangerous quest."
+                }
+            ]
+        },
+        {
+            "dice": "D10",
+            "name": "Monk",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "He's a member of an order sworn to poverty."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "He's a member of an order rumored to be sitting on a great treasure despite appearances of poverty."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "He's traveling the roads searching for an experience that will grant him enlightenment."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "He's a famous master of hand to hand combat. A drunken master."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "He's a wandering neophyte on a quest to prove himself to the monastery by doing good for others."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "His wisdom is legendary and people travel far and wide to seek his advice."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "His monastery is a safe home for the lost, the weary, and those orphaned by war or tragedy."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "He's a sworn killer serving a death cult."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "He's a mage killer sworn to the service of a dark master."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "He's a master of an evil and forbidden technique."
+                }
+            ]
+        },
+        {
+            "dice": "D10",
+            "name": "Paladin",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "He's the one you can turn to if you have a problem, if no one else can help."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "He's a traditionalist armed with gleaming sword and polished shield."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "His weapon is a legendary artifact of good."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "He's a grey guard who cares more about the ends than the means."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "He's the champion of a dark, forgotten god."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "He's a champion of a dark god feared through the entire realm."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "He's a knight errant on a quest for his liege."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "He's a hard bitten monster hunter who only shows up when times are desperate. "
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "He's a famous dragon slayer."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "He never accepts payment for his aid."
+                }
+            ]
+        },
+        {
+            "dice": "D10",
+            "name": "Ranger",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "His men are often willing to help if your cause is just and if you can find them."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "He's famous for slaying a dangerous beast that was preying on travelers along the roads."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "To the local orc tribes he's a boogeyman."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "He's a brutal bandit who strikes from hiding and never leaves survivors."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "He's a deceitful wanderer who hires himself as a caravan guide and leads innocents into ambushes of men and beasts."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "He hunts men and elves to harvest their organs, which he sells to mages for use in the most vile of spells."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "He's a sought after guide to the local wilderness."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "He is a legendary tamer of beasts. His animal companion is a legend in its own right."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "He's a well known army scout who retired a few years ago."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "The common folk pay him to protect their village from marauding humanoids."
+                }
+            ]
+        },
+        {
+            "dice": "D10",
+            "name": "Rogue",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Shortly after being imprisoned, he promptly escaped from a maximum security stockade."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "He has more treasure than the king stashed away in a dozen murky hiding places."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "He's due to be hanged in a few days. It seems he has escaped."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "He's a kleptomaniac, often weighted down with hot goods he needs to sell to anyone, at any price."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "He's well known to the locals as a knave who cons newcomers."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "The common folk are facing reprisals from the king as a result of his predations."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "He's a dangerous assassin who keeps grudges."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "He stole a legendary artifact from the lair of an evil death cult."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "He's a rebel do-gooder in a tyrannical kingdom and wooed the Baron's daughter to the rebel cause."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "The common folk overlook his more petty crimes because he tricked a group of bandits threatening the town into leaving."
+                }
+            ]
+        },
+        {
+            "dice": "D10",
+            "name": "Sorcerer",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Because no wizard academy will take him, he and his apprentices survive as soldiers of fortune."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "He's the heir of a powerful dragon."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "He has a strong preference for certain types of elemental attacks."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "His back is rumored to be covered in tattoos that move on their own."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "His wild an impulsive nature make him a dangerous agent for the side of good. There have been accidents."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Although a practitioner of wild magic, he's actually a consummate scholar and researcher. "
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "He used his magic to help save the city from a besieging army of humanoids. "
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "He's a legendary monster. He used his magic to tear down the walls of a city and let an army of humanoids inside."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "He's part of a dark cult, raised from birth to take advantage of the magic in his blood."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "He lives for the thrill of combat."
+                }
+            ]
+        },
+        {
+            "dice": "D10",
+            "name": "Warlock",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "For his crimes, he is still wanted by the government."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "He's the right hand of his evil patron in this world."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "No one knows how he got his powers, but the rumors are grisly."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "They say he's managed to subvert his patron and is now in control, using his powers for good. For now."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "He's turned his dark powers toward destroying even more frightening things than himself. The common folk fear its not for their benefit."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "He's not a full cleric, but his patron is a celestial."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "At night his patron takes control of his body."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "His eyes are empty of all humanity, and he makes choices with alien logic."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Something even more powerful killed his patron and now he's unsure of his place in the world."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "He built a legendary temple to his patron in the wilds, protected by strange magics."
+                }
+            ]
+        },
+        {
+            "dice": "D10",
+            "name": "Wizard",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "He used his magic to fend off an attack on the city by dark forces."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "He is the right hand of the king, a beloved ruler."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "He is the beloved head of the University and a master of it's library."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "He's hated necromancer, wanted for grave robbing."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "He's a con-man using magic to fleece the unwary."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "He's a legendary terror who nearly brought the kingdom to its knees not long ago."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "He's a noted traveler of the outer planes and has published several books on the subject."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "He's a collector of ancient lore, happy to accompany adventurers into a dungeon, or pay them for information they have recovered."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "He's a famous war mage with a quick temper. His familiar is a holy terror. "
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "He's a drunk with dangerous knowledge. "
+                }
+            ]
+        }
+    ],
+    "title": "Reputation IV: Well Known Adventurers. Low-mid level Reps by Class",
+    "use_with": []
+}

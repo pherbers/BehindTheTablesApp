@@ -1,0 +1,612 @@
+{
+    "description": "This is far from complete, and there are some awesome resources out there. I might expand it in the future, but for now, it should serve for quickly coming up with a little mechanics-free herb lore for a druid, herbalist, or healer-type NPC in your game.\n\nFor side effects and mishaps, I might refer to the Alchemical Mishaps table in the absence of something better.\n\nFor herb names, i would roll one or two times on each and combine the words in a way that sounds reasonable. Some examples:\n\n- 20, 12, 3 ... Wind, Night, Blossom ... *Nightwind blossom*\n- 3, 5, 15 ... Dawn, Dust, Sap ... *Dawnsap dust*\n- 16, 13, 4 ... Silver, Root, Bulb ... *Silverroot bulb*\n- 14, 12, 9 ... Rain, Petal, Needle ... *Rainpetal needles*\n- 19, 17, 13 ... White, Stalk, Root ... *Root of whitestalk*\n- 5, 17, 10 ... Dust, Sun, Nut ... *Sundust nuts*",
+    "id": "45x72u",
+    "keywords": [
+        "herb lore",
+        "herbalism",
+        "herbalist",
+        "healer",
+        "witch",
+        "druid",
+        "new age",
+        "homeopathy",
+        "acupuncture",
+        "tea party"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/45x72u",
+    "related_tables": [
+        {
+            "link": "4780bg",
+            "title": "Poisons"
+        }
+    ],
+    "tables": [
+        {
+            "dice": "d12",
+            "name": "The herbal concoction will help...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A wound heal more quickly."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Reduce pain."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Prevent infection in a wound."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Lower a fever."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Clear out congestion."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Reduce itchiness."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Recover one\u2019s strength."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Prevent nausea."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Cure indigestion."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "One stay awake."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "One fall asleep."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Make one fertile or virile."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "The herbal concoction is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A thick paste."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A thin paste. "
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A specially treated leaf."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A fluffy powder."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A crystalline substance."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A lotion or balm."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "An unpalatable potion."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A sweet-tasting potion."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A strong tea."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A fragrant tea."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "The herbal concoction\u2019s color could be described as...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Pale green."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Dark green."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Blue green."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Olive green."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Yellowish green."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Greenish gold."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Brownish gold."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Deep red."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Brownish red."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "White."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Pale grey."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Dark grey."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "Bluish grey."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "Purplish grey."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "Greenish grey."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "Brownish grey."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "Black."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "Light brown."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "Dark brown."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "Reddish brown."
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "The herbal concoction contains...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Root hairs."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Ground roots."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Shredded roots. "
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Ground tree bark. "
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Wood shavings."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Fresh leaves."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Dried leaves."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Crumbled leaves."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Leaf buds."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Flower petals."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Pollen."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Fruit peels."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "Berries."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "Moss."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "Mushrooms."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "Fuzzy mold."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "Spores."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "Ground thorns."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "Seeds."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "A shrubbery."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "The herbal concoction preparation involves...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Vigorous mixing."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Boiling slowly."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Boiling rapidly."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Roasting."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Smoking."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Sun-drying."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Soaking."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Brining."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Brewing."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Steeping."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "To use, the herbal concoction must be...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Consumed immediately after preparation."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Consumed after it ages for a few hours."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Consumed after it ages for a few years."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Applied topically to the target area."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Taken with food."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Taken with water."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Taken before going to bed."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Taken with caution; side effects are likely."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Taken with a supplement to ameliorate the side effects."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Taken at a time that matches a natural cycle (d12): 1. spring equinox; 2. summer solstice; 3. autumn equinox; 4. winter solstice; 5. new moon; 6. waxing moon; 7. full moon; 8. waning moon; 9. dawn; 10. midday; 11. at dusk; 12. midnight."
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "First part of the herb's name is (roll one or two times)...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Black."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Blue."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Dawn."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Dusk."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Dust."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Elder."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Gold."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Green."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Grey."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Moon."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Morning."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Night."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "Purple."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "Rain."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "Shadow."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "Silver."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "Sun."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "Water."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "White."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "Wind."
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "Second part of the herb's name is (roll one or two times)...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Bark."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Berry."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Blossom."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Bulb."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Flower."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Fruit."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Leaf."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Lily."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Needle."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Nut."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Pollen."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Petal."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "Root."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "Rose."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "Sap."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "Seed."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "Stalk."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "Stem."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "Thorn."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "Vine."
+                }
+            ]
+        }
+    ],
+    "title": "Herb Lore",
+    "use_with": [
+        {
+            "link": "3sl4sr",
+            "title": "Alchemists"
+        },
+        {
+            "link": "43xeol",
+            "title": "Alchemical mishaps"
+        },
+        {
+            "link": "45x5jp",
+            "title": "Druids"
+        },
+        {
+            "link": "3tich6",
+            "title": "Deserts"
+        },
+        {
+            "link": "3vh7jd",
+            "title": "Elves, high"
+        },
+        {
+            "link": "3va3dw",
+            "title": "Elves, wood"
+        },
+        {
+            "link": "3sgzxb",
+            "title": "Forests"
+        },
+        {
+            "link": "42rm5s",
+            "title": "Mountains"
+        },
+        {
+            "link": "3whlp0",
+            "title": "Priests"
+        },
+        {
+            "link": "43c2q8",
+            "title": "Swamps"
+        },
+        {
+            "link": "3si4ms",
+            "title": "Witches"
+        },
+        {
+            "link": "3va510",
+            "title": "Woodsmen"
+        }
+    ]
+}

@@ -1,0 +1,431 @@
+{
+    "description": "These are tables for generating an interesting alchemist to serve as friend or foe to your PCs.",
+    "id": "3sl4sr",
+    "keywords": [
+        "alchemist",
+        "alchemy",
+        "potion",
+        "potionmaking",
+        "potioneer"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/3sl4sr",
+    "related_tables": [
+        {
+            "link": "3sj9ub",
+            "title": "Town NPCs"
+        },
+        {
+            "link": "3w1g84",
+            "title": "Necromancers"
+        },
+        {
+            "link": "3si4ms",
+            "title": "Witches"
+        }
+    ],
+    "tables": [
+        {
+            "dice": "d8",
+            "name": "The alchemist is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "An apothecary."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A hedge wizard."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "An herbalist."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A poisonmaker."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A potioneer."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A pyromancer."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "An alchemical scholar."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "An experimental alchemist."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The alchemist is looking for...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Delivery help."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "New recipes."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A long-lost recipe for a legendary potion."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Purchasers."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Rare ingredients."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A unique ingredient."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "The alchemist carries...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Several vials of acid."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Several curatives."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "An unusual potion."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A pyrophoric substance."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Several empty glass vials."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Fine-tipped steel tweezers."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A pocket-sized field guide to (d8): 1. poisonous reptiles and amphibians; 2. arachnids, insects, and worms; 3. molds, mushrooms, and fungi; 4. aquatic plants; 5. toxic plants; 6. rare herbs and herbal remedies; 7. mineralogy; 8. soils and rocks."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A small notebook filled with recipes and notes."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The alchemist learned his/her craft from...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A fellow alchemist to whom he/she apprenticed."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A neighbor who was an alchemist."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A parent who was an alchemist."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A grandparent who was an alchemist."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Books of alchemical lore."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Attending an academy."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "The alchemist specializes in...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Bombs."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Curatives."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Cursed potions."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Enchantments."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Herbalism."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Metallurgy."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Rare potions."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Poisons."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Transmutations."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Warding."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "The alchemist's brew is percolating in...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A delicate ceramic tea kettle."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A large cast iron cauldron."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A heavy-bottomed iron pot."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A thick cast iron vat."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A copper tea kettle."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A thick copper vat."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A shiny steel vat."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A blackened steel cauldron."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A thick bronze cauldron."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A glass flask with an oddly shaped neck. "
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A round-bottom glass flask."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A comically large glass flask."
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "The alchemist's cauldron currently contains...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Eye of newt."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Toe of frog."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Wool of bat."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Tongue of dog."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Adder's fork."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Blind-worm's sting."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Lizard's leg."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Howlet's wing."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Monkey's paw."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Pint of blood."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Pound of flesh."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Cup of mud."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "Beak of duck."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "Housecat's tail."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "Glob of mold."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "Rusty nail."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "Garlic bulb."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "Cob of corn."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "Stirge's foot."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "Dryad's thorn."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "The alchemist is brewing...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A love potion."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A fertility tonic."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A magical cure-all."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A terrible poison."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A component for a summoning ritual."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A component for a necromantic ritual."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A component for a polymorphing hex."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A component for a beguiling charm."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A potent acid solvent."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "An explosive substance."
+                }
+            ]
+        }
+    ],
+    "title": "Alchemists",
+    "use_with": [
+        {
+            "link": "4fsrky",
+            "title": "Gnomes"
+        },
+        {
+            "link": "45x72u",
+            "title": "Herb lore"
+        },
+        {
+            "link": "48cev4",
+            "title": "Magic shops"
+        },
+        {
+            "link": "50t6ir",
+            "title": "Oozes"
+        },
+        {
+            "link": "4780bg",
+            "title": "Poisons"
+        },
+        {
+            "link": "4c5iu4",
+            "title": "Potions"
+        },
+        {
+            "link": "3tkdty",
+            "title": "Reputation and rumors"
+        },
+        {
+            "link": "4b8u29",
+            "title": "Reputations of adventurers"
+        }
+    ]
+}

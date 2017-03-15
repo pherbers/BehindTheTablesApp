@@ -1,0 +1,801 @@
+{
+    "description": "These are tables for generating interesting fishermen, fishwives, fish tales, and determining what you might catch when fishing in several different aquatic environments.",
+    "id": "3su3be",
+    "keywords": [
+        "fish",
+        "fishing",
+        "fishermen",
+        "fisherman",
+        "angler",
+        "bait",
+        "hook",
+        "ocean",
+        "lake",
+        "river",
+        "sea",
+        "swamp"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/3su3be",
+    "related_tables": [],
+    "tables": [
+        {
+            "dice": "d10",
+            "name": "The fisherman fishes in...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A quiet creek."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A wide river."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A small pond."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A large lake."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A swamp."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A marsh."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A protected bay."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A natural harbor."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A narrow channel."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "The open ocean."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The fisherman typically fishes from...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A sandy or rocky beach."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "An embankment, sandbar, or levee."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A pier or bridge."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "His/her own boat."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A boat owned by someone else.  "
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Wherever the fish can be reached.  "
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "The fisherman uses...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A rod and reel with a baited hook."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A rod and reel with a lure."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Baited lines."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Baited traps."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Nets."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Baited lines and nets."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Baited lines and baited traps.  "
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "An unusual technique (d4): 1. harpoon;    2. spear; 3. bare hands; 4. trained beast.  "
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The fisherman prefers to fish...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Alone, in silence."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Alone, while whistling or humming."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Alone, but within earshot of other fishermen."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "With a trusted partner."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "With an apprentice fisherman."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "With an experienced fisherman."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "The fisherman is seeking...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A new apprentice."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "The answer to a riddle."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "To tell the tale of the one that got away."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Rumors of new locations to fish."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Revenge against a rival."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Assistance repairing a boat, net, or some other fishing gear."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Fishing companions."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Drinking companions."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "Tattoo: The fisherman has...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "An anchor tattoo."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A pair of crossed bones tattoo."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A fish tattoo."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "An octopus tattoo."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A whale tattoo."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A lobster tattoo."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A mermaid tattoo."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A dragon tattoo."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Distinguishing feature: The fisherman has...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A wooden pipe."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Rotten teeth."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A gold tooth."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A terrible scar on the forearm."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A handkerchief tied atop the head."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Wild eyes."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A trimmed black beard."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A long, hooked nose."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "An open shirt and a very hairy chest."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Long mutton chop sideburns."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The boat is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A flat raft."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A pontoon raft."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A canoe."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A coracle."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A drifter."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A buss."
+                }
+            ]
+        },
+        {
+            "dice": "d4",
+            "name": "The boat can...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Easily be operated by one person."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Be operated by one person, but some flaw or damage has made handling difficult."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Be operated by two people, but it can be handled by one with difficulty."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Be operated by three or more people, but it can be handled by two with difficulty."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Presently, the boat is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Laden with the latest catch."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Well-stocked with bait and gear and ready to go."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "In tip-top shape."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "In need of repair."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Barely staying afloat."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Resting beneath the waves."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "The boat\u2019s hull markings feature...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A ghost."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A mermaid."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A shark."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A pelican."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A whale."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "An octopus."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A swordfish."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A crab."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A sea turtle."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A big tuna."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Near-shore catch: You haul in...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A clam."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A crab."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A herring."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A lobster."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A mussel."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "An oyster."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A prawn."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A salmon."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A smelt."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A rare catch (see below)."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Deep-sea catch: You haul in...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A crab."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A cod."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A haddock."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A halibut."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A mackerel."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A oyster."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A shrimp."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A squid."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A tuna."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A rare catch (see below)."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Rare catch: You haul in...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A piece of junk (d4): 1. tangle of seaweed; 2. torn net; 3. rotten wood; 4. old boot."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "An abalone."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A monkfish."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "An octopus."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A sea bass."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A giant squid (fights, attacks)."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "Near-shore catch: You haul in...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "An anchovy."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A clam."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A crab."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A mussel."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A scallop."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A sea bass."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A skate."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A rare catch (see below)."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Deep-sea catch: You haul in...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A cuttlefish."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A flounder."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A grouper."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A marlin."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A sardine."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A scallop."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A shrimp."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A snapper."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A tuna."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A rare catch (see below)."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "Rare catch: You haul in...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A piece of junk (d4): 1. tangle of seaweed; 2. torn net; 3. rotten wood; 4. old boot."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "An abalone."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A barracuda (fights, attacks)."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A lobster."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A monkfish."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "An octopus (attacks)."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A reef shark (fights, attacks)."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A swordfish (fights)."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Cold-water catch: You haul in...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A bass (fights)."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A carp."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "An eel."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "An oyster."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A perch."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A salmon."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A smelt."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A sturgeon."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A trout."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A walleye"
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Warm-water catch: You haul in...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A carp."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A catfish (fights)."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "An eel."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "An oyster."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A perch."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A prawn."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A quipper (fights, attacks)."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A salmon."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A tilapia."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A trout"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Swamp-water catch: You haul in...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A bass (fights)."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A catfish (fights)."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A crayfish."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A crocodile (fights, attacks)."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "An eel (fights)."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A prawn. "
+                }
+            ]
+        }
+    ],
+    "title": "Gone Fishing",
+    "use_with": [
+        {
+            "link": "3u4a05",
+            "title": "Jungle"
+        },
+        {
+            "link": "3t5sik",
+            "title": "Pirate crews"
+        },
+        {
+            "link": "497u5a",
+            "title": "Sailors"
+        },
+        {
+            "link": "43c2q8",
+            "title": "Swamp"
+        }
+    ]
+}

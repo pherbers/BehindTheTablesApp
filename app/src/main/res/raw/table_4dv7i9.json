@@ -1,0 +1,402 @@
+{
+    "description": "These are tables for quickly coming up with a flavorful meal or menu for a country inn, farm village pub, or anywhere one might eat simple, hearty peasant food.",
+    "id": "4dv7i9",
+    "keywords": [
+        "country inn",
+        "roadside inn",
+        "wayside inn",
+        "village tavern",
+        "rural tavern",
+        "peasant food",
+        "simple food",
+        "pub grub"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/4dv7i9",
+    "related_tables": [
+        {
+            "link": "4dpnzh",
+            "title": "Dinner around the campfire"
+        },
+        {
+            "link": "4dv87r",
+            "title": "Dinner at a dockside tavern"
+        }
+    ],
+    "tables": [
+        {
+            "dice": "d10",
+            "name": "Tonight, at a country inn, we dine on...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Stewed."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Roasted."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Fried."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Boiled."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Baked."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Grilled."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Seared."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Steamed."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Salted."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Pickled."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Rabbit."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Chicken."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Duck."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Mutton."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Pork."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Beef."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Pheasant."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Goose."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Trout."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Clams."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Pork sausage."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Duck sausage."
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "...with...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Dumplings."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Red cabbage."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "White cabbage."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Shredded cabbage."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Leeks."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Lentils."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Broccoli."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Peas."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Cauliflower."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Kidney beans."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "String beans."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "White beans."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "Turnip mash."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "Sliced turnips."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "Asparagus."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "Sprouts."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "Sweet peppers."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "Red potatoes."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "Golden potatoes."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "Yams."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "...and...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Carrots."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Apples."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Cherries."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Tomatoes."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Blueberries."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Strawberries."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Beets."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Mushrooms."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Radishes."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Squash."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Sweet onions."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Red onions."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "On the side, there is some...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Corn bread."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Corn mash."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Fresh bread."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Crusty bread."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Sesame bread."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Oat bread."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Pumpernickel bread."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Pretzel bread."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Fried egg."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Bacon."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Sharp cheese."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Soft cheese."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "To wash it down, we have some...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Water."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Wheat ale."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Porter."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Mead."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "White wine."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Red wine."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Sweet wine."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Milk."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Coffee."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Brandy."
+                }
+            ]
+        }
+    ],
+    "title": "Dinner at a Country Inn",
+    "use_with": [
+        {
+            "link": "46ma8g",
+            "title": "Bards"
+        },
+        {
+            "link": "3xys3d",
+            "title": "Farmfolk"
+        },
+        {
+            "link": "43wnpg",
+            "title": "Harlots"
+        },
+        {
+            "link": "3tkfho",
+            "title": "Knights"
+        },
+        {
+            "link": "3t2qzc",
+            "title": "Outlaws"
+        },
+        {
+            "link": "41bq04",
+            "title": "Sellswords"
+        },
+        {
+            "link": "4034w3",
+            "title": "Thieves"
+        },
+        {
+            "link": "3sj9ub",
+            "title": "Town NPCs"
+        }
+    ]
+}

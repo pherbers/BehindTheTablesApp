@@ -1,0 +1,401 @@
+{
+    "description": "These are tables for generating a dangerous and wild clan of barbarians to serve as foe or foil to your PCs.",
+    "id": "3tjdae",
+    "keywords": [
+        "barbarian",
+        "savage",
+        "brute",
+        "horde",
+        "raider",
+        "nomad",
+        "clan",
+        "tribal",
+        "warrior"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/3tjdae",
+    "related_tables": [
+        {
+            "link": "3tkcuc",
+            "title": "Arena combatants"
+        },
+        {
+            "link": "4c5hu9",
+            "title": "Orc warlords"
+        },
+        {
+            "link": "3vspx8",
+            "title": "Orkish clans"
+        }
+    ],
+    "tables": [
+        {
+            "dice": "d6",
+            "name": "The barbarians are...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A tribe of nomads, following game."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A tribe that began raiding after being displaced from their native lands."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A clan exiled from their native lands."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A clan in the service of a sovereign."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A confederacy of related tribes or clans."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "The degenerate survivors of a broken army."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The barbarians travel...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "On foot."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "On foot with small carts."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "On foot with mounted scouts."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "On mounts."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "On mounts with wagons."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "In small watercraft."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "The barbarians value...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Bravery."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Strength."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Wisdom."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Virility."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Honoring the gods."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Honoring their ancestors."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Battle-scars."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Kill counts."
+                }
+            ]
+        },
+        {
+            "dice": "d4",
+            "name": "The barbarians\u2019 iconography features...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Symbols of death and destruction (d8): 1. bats; 2. bones; 3. crows; 4. flames; 5. ghosts; 6. scorpions; 7. skulls; 8. vultures."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Symbols of the heavens (d6): 1. clouds; 2. lightning; 3. moon; 4. snow; 5. stars; 6. sun."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Symbols of strength and weaponry (d6): 1. arrows; 2. axes; 3. fists; 4. spears; 5. stones; 6. swords."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Totem beasts (d8): 1. bears; 2. boars; 3. eagles; 4. horses; 5. lions; 6. owls; 7. snakes; 8. wolves."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "The barbarians\u2019 leader is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A well-respected chief."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A charismatic warlord."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A mysterious prophet."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A descendent of an honored hero."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A ruthless killer."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A brutish thug."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "An impatient young warrior."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A wise old man."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A celebrated war hero."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A prolific lover."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "The barbarians fear...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Foreigners wearing a particular color of clothing (d8): 1. red; 2. gold; 3. green; 4. blue; 5. purple; 6. white; 7. black; 8. grey."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Foreigners armored in steel."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Foreigners with facial hair."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Foreign women."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "All foreigners."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Members of a particular race (d4): 1. dwarves; 2. elves; 3. goblinoids; 4. reptilian humanoids."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A particular natural phenomenon (d6): 1. blizzards; 2. earthquakes; 3. floods; 4. thunderstorms; 5. volcanoes; 6. typhoons."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Spellcasters."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "The gods."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Dragons."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "The barbarians are notorious for...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Never leaving survivors."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Feeding prisoners to wild beasts."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Tattooing or branding prisoners."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Scalping enemies."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Flaying enemies."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Raiding and burning villages."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Plundering merchant caravans."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Eating prisoners."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Claiming prisoners as slaves."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Taking prisoners as wives, concubines, or catamites."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "The barbarians are known for...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Screaming and shouting during battle."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Convening with ghosts and spirits."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Ritual animal sacrifice."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Ritual human sacrifice."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Ritualistic blood-letting."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Ritualistic sexual acts."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Eating unusual meats."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Prolific amounts of drinking."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Never cutting their hair."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Shaving their heads and bodies."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Never bathing."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Bathing and perfuming their bodies."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The barbarians\u2019 attitude is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Rowdy and festive."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Joyful and eager to fight."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Relaxed and carefree."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Frightened and suspicious."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Hostile and suspicious."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Hostile and eager to fight."
+                }
+            ]
+        }
+    ],
+    "title": "Savage Hordes",
+    "use_with": [
+        {
+            "link": "3xydsw",
+            "title": "Barbarians"
+        },
+        {
+            "link": "3tich6",
+            "title": "Desert"
+        },
+        {
+            "link": "3tielc",
+            "title": "Desert, flame-scorched"
+        },
+        {
+            "link": "3tielc",
+            "title": "Desert, shadowy"
+        },
+        {
+            "link": "3u4a05",
+            "title": "Jungle"
+        },
+        {
+            "link": "42rm5s",
+            "title": "Mountains"
+        }
+    ]
+}

@@ -1,0 +1,655 @@
+{
+    "description": "Use these to generate a juicy bit of gossip, a scandalous rumor, or some outrageous hearsay. These tables work like Mad Libs to fill in the following sentences:\n\n\"I heard that, **[when]**, **[who]** was seen with **[who or what]** down near **[where]** and nearby there was **[who or what]**. I heard it from **[whom]**, so it **[veracity]**.\"",
+    "id": "48spuq",
+    "keywords": [
+        "rumors",
+        "gossip",
+        "hearsay",
+        "scandal",
+        "spurrious lies",
+        "improbable lies",
+        "truthiness"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/48spuq",
+    "related_tables": [
+        {
+            "link": "435qlc",
+            "title": "Reputations and rumors"
+        },
+        {
+            "link": "51senc",
+            "title": "Rumor factory"
+        },
+        {
+            "link": "4q6c0h",
+            "title": "Rumor mill"
+        }
+    ],
+    "tables": [
+        {
+            "dice": "d20",
+            "name": "I heard that, [when], ...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "a year ago from tonight"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "one night last month"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "twice last month"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "twice last week"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "one day last week"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "one night last week"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "three nights ago"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "the day before yesterday"
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "the night before last"
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "yesterday morning"
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "yesterday afternoon"
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "just before sunset"
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "after sunset"
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "after nightfall"
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "before midnight "
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "past midnight"
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "in the wee hours"
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "just before dawn"
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "at daybreak"
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "earlier today"
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "[who] ...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "the king/queen"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "a farmer"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "a merchant"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "a wizard "
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "a soldier"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "a cleric"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "a druid"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "an orphan"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "a sailor"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "a thief"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "a miner"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "a lord"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "a knight"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "the mayor"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "an innkeeper"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "a dwarf"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "an elf"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "a singer"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "a pirate"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "a witch"
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "...was seen with [who or what]...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "a prostitute"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "a drunk"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "an artefact"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "a talking sword"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "a Drow"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "an escaped convict"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "a vial of poison"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "a book of spells"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "a talking animal"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "a sack of coins"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "the prince/princess"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "a fortune teller"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "an alchemist"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "an assassin"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "a barmaid"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "a beggar"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "a saddled horse"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "a hunting hound"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "a mule and cart"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "a fake mustache"
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "...down near [where]...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "the docks"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "the palace"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "the crafts guild"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "the mages guild"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "the brothel"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "the merchant quarter"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "the tavern"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "the prison"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "the museum"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "the asylum"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "the library"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "the barracks"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "the gatehouse"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "the bridge"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "the temple"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "the market square"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "the warehouse district"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "the garden district"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "the lighthouse"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "the riverfront"
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "...and nearby there was [who or what]...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "a dead commoner"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "a dead monster"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "an explosion"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "a bloody weapon"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "a planar gate"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "a demon"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "a vampire"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "an angry mob"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "a dead noble"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "an arcane sigil"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "a frightened crowd"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "an angel"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "a devil"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "a series of claw marks"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "a series of scorch marks"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "an empty vial"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "a burned book"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "a werewolf"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "a ghost"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "a horde of zombies"
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "I heard it from [whom]...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "a shopkeeper"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "a basketweaver"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "a grocer"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "a peddler"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "a beggar"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "an urchin"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "a barkeep"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "a serving girl"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "a squire"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "a musician"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "a madame"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "a watchman"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "a ship's captain"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "a peasant woman"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "a fisherman's wife"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "a monk"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "a sellsword"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "a gambler"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "some guy in a pub"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "a little bird"
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "..., so it [veracity].",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "might be true"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "must be true"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "has to be true"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "can't be true"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "could be true"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "is definitely true"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "may be true"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "is likely true"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "is possibly true"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "is certainly true"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "is absolutely true"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "is probably true"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "is likely partially true"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "is definitely not true"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "can't be entirely false"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "isn't likely false"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "isn't likely entirely false"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "might not be true"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "isn't likely the whole story"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "is probably just idle gossip"
+                }
+            ]
+        }
+    ],
+    "title": "Gossip and Hearsay",
+    "use_with": [
+        {
+            "link": "40r6nd",
+            "title": "Strange people"
+        },
+        {
+            "link": "40r638",
+            "title": "Strange places"
+        },
+        {
+            "link": "51kzka",
+            "title": "Tavern and pub names"
+        },
+        {
+            "link": "435mxf",
+            "title": "Tavern goings-on"
+        },
+        {
+            "link": "40r76r",
+            "title": "Unusual crimes"
+        }
+    ]
+}

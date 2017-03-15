@@ -1,0 +1,230 @@
+{
+    "description": "An aberrant beast is a creature corrupted by the madness and twisted magic of distant realms and ancient beings of evil. This is a short set of tables for quickly coming up with brief description of an interesting aberrant beast.",
+    "id": "4mnmre",
+    "keywords": [
+        "deep",
+        "tentacles",
+        "madness",
+        "cnidaria",
+        "mollusca",
+        "horror",
+        "lovecraft",
+        "cthulu"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/4mnmre",
+    "related_tables": [
+        {
+            "link": "4mu1t3",
+            "title": "Demonic beasts"
+        },
+        {
+            "link": "4nbz9h",
+            "title": "Legendary beasts"
+        },
+        {
+            "link": "4nbzeq",
+            "title": "Sea beasts"
+        },
+        {
+            "link": "4nayky",
+            "title": "Shadow beasts"
+        }
+    ],
+    "tables": [
+        {
+            "dice": "d12",
+            "name": "The aberrant beast looks a good bit like...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "An ape."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A bat."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A centipede."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A crow."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A fish."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A jellyfish."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A lizard."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A lobster."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "An octopus."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A panther."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A spider."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A vulture."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "The beast has...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Tentacles where you expect eyes."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A blind, jawed worm for a tongue."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A large single, lidless eye."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Several extra eyes."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Slime covering its body."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Small tentacles covering its body."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Dexterous tentacles it uses like hands."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "An unpleasant, briny odor."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "...and...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Moves by floating eerily in air or water."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Moves by slithering or scuttling."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Can teleport in a swirl of shadows."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Can fade away and reappear elsewhere."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Shambles awkwardly across the ground."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Glides smoothly over the ground or water."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Mutters darkly to itself."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Whispers strange desires to mortals."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The beast is looking for...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A brain to devour."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A host to infect with its parasitic larva."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A mortal to enslave."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A mortal to present to its master."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "An opportunity to overthrow its master."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Someone to lovingly caress."
+                }
+            ]
+        }
+    ],
+    "title": "Aberrant Beasts",
+    "use_with": [
+        {
+            "link": "3unfbm",
+            "title": "Caverns"
+        },
+        {
+            "link": "40wc26",
+            "title": "Cultists"
+        },
+        {
+            "link": "3xyiqs",
+            "title": "Cults"
+        },
+        {
+            "link": "3u4a05",
+            "title": "Jungles"
+        },
+        {
+            "link": "40pjmd",
+            "title": "Monasteries"
+        },
+        {
+            "link": "3xq9nd",
+            "title": "Monks"
+        },
+        {
+            "link": "43bxpl",
+            "title": "Nightmares"
+        },
+        {
+            "link": "44r23c",
+            "title": "Seers"
+        }
+    ]
+}

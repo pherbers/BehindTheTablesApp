@@ -1,0 +1,581 @@
+{
+    "description": "These are tables for quickly coming up with a flavorful meal shared among witches, hags, or beside a sorceress's cauldron.",
+    "id": "4evdqx",
+    "keywords": [
+        "witchcraft",
+        "coven",
+        "hag",
+        "crone",
+        "wicked",
+        "eye of newt",
+        "toe of frog",
+        "wool of bat",
+        "tongue of dog"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/4evdqx",
+    "related_tables": [
+        {
+            "link": "4dv7i9",
+            "title": "Dinner in a mages' academy dining hall"
+        },
+        {
+            "link": "4ev9sw",
+            "title": "Dinner in an undead feasthall"
+        }
+    ],
+    "tables": [
+        {
+            "dice": "d12",
+            "name": "Tonight, in a witch's hovel, we dine on...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Stewed."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Roasted."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Skewered."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Charred."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Smoked."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Grilled."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Sauteed."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Battered."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Salted."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Peppered."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Pickled."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Fried."
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Songbird."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Catfish."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Turtle."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Lizard."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Eel."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Goat."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Snake."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Rat."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Frog."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Bat."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Newt."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Rabbit."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "Cat."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "Dog."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "Knight."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "Maiden."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "Thief."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "Peasant."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "Dwarf."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "Halfling."
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "...with...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Dumplings."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Red cabbage."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Green cabbage."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Chickpeas."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Leeks."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Lentils."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Broccoli."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Peas."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Cauliflower."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Red beans."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "String beans."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "White beans."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "Black beans."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "Turnips."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "Asparagus."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "Sprouts."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "Tomatoes."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "Asparagus."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "Potatoes."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "Yams."
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "...and...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Carrots."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Apples."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Cherries."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Wild berries."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Raspberries."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Elder berries."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Beets."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Squash."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Radishes."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Pumpkin."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Sweet onions."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Red onions."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "Green onions"
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "Purple mushrooms."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "Cave mushrooms."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "Wild mushrooms."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "Toadstools."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "Hot peppers."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "Fire peppers."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "Garlic."
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "On the side, there are some...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Rum cakes."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Honey cakes."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Oat cakes."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Lemon cakes."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Chocolate cakes."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Pumpkin pies."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Candied fruits."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Chocolate candies."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Mice."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Leeches."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Maggots."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Beetles"
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "Crickets."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "Toads."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "Earthworms."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "Wriggling tentacles."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "Assorted cheeses."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "Little fingers and toes."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "Unidentifiable brains."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "Mysterious sausages."
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "To wash it down, we have some...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Pumpkin juice."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "White tea."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Green tea."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Red tea."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Black tea."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Herbal tea."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Floral tea."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Homebrew ale."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Skunky ale."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Pale ale."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Dark ale."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Sour wine."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "Sweet wine."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "White wine."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "Red wine."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "Blood wine."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "Brandy."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "Whisky."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "Rum."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "Black liquid served out of a human skull."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "...that leaves you feeling...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Refreshed."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Peaceful."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Anxious."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Carefree."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Very sleepy."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A little light-headed."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Somewhat nostalgic."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Somewhat melancholy."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Somewhat edgy."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A little paranoid."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Rather dizzy."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Rather amorous."
+                }
+            ]
+        }
+    ],
+    "title": "Dinner in a Witch's Hovel",
+    "use_with": [
+        {
+            "link": "44r23c",
+            "title": "Seers"
+        },
+        {
+            "link": "3w1g84",
+            "title": "Necromancers"
+        },
+        {
+            "link": "3si4ms",
+            "title": "Witches"
+        }
+    ]
+}

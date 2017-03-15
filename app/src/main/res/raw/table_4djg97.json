@@ -1,0 +1,1193 @@
+{
+    "description": "This table is one I have been using for a while, but expanded upon for submission. I use it to quickly generate a general idea about a settlement, such as its size, character, name, and why the PCs care that it exists.\n\nI would suggest that you use the d30 table (why the players should care) sparingly, and try to come up with ways that incorporate your plot or the characters' backstories, but if you're in a bind then I think it might help!",
+    "id": "4djg97",
+    "keywords": [
+        "Town",
+        "City",
+        "Settlement",
+        "Name",
+        "Plot",
+        "Features"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/4djg97",
+    "related_tables": [],
+    "tables": [
+        {
+            "dice": "d50",
+            "name": "Settlement name (part 1)...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Stone."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Water."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Leaf."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Ice."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Flame."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Sol."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Storm."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Earth."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Gleam."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Star."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Art."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "War."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "Heart."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "Hard."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "Fall."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "Rock."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "Doom."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "Oak."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "Tear."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "Raven."
+                },
+                {
+                    "dice_val": "21",
+                    "entry": "Badger."
+                },
+                {
+                    "dice_val": "22",
+                    "entry": "Snake."
+                },
+                {
+                    "dice_val": "23",
+                    "entry": "Lion."
+                },
+                {
+                    "dice_val": "24",
+                    "entry": "Hell."
+                },
+                {
+                    "dice_val": "25",
+                    "entry": "Rage."
+                },
+                {
+                    "dice_val": "26",
+                    "entry": "Brine."
+                },
+                {
+                    "dice_val": "27",
+                    "entry": "Rat."
+                },
+                {
+                    "dice_val": "28",
+                    "entry": "Buck."
+                },
+                {
+                    "dice_val": "29",
+                    "entry": "Lily."
+                },
+                {
+                    "dice_val": "30",
+                    "entry": "Core."
+                },
+                {
+                    "dice_val": "31",
+                    "entry": "Stench."
+                },
+                {
+                    "dice_val": "32",
+                    "entry": "Mage."
+                },
+                {
+                    "dice_val": "33",
+                    "entry": "God."
+                },
+                {
+                    "dice_val": "34",
+                    "entry": "Soil."
+                },
+                {
+                    "dice_val": "35",
+                    "entry": "Pure."
+                },
+                {
+                    "dice_val": "36",
+                    "entry": "Mal."
+                },
+                {
+                    "dice_val": "37",
+                    "entry": "Cam."
+                },
+                {
+                    "dice_val": "38",
+                    "entry": "Fen."
+                },
+                {
+                    "dice_val": "39",
+                    "entry": "Clear."
+                },
+                {
+                    "dice_val": "40",
+                    "entry": "Split."
+                },
+                {
+                    "dice_val": "41",
+                    "entry": "Founder's."
+                },
+                {
+                    "dice_val": "42",
+                    "entry": "Heir."
+                },
+                {
+                    "dice_val": "43",
+                    "entry": "Fair."
+                },
+                {
+                    "dice_val": "44",
+                    "entry": "Spin."
+                },
+                {
+                    "dice_val": "45",
+                    "entry": "Lord's."
+                },
+                {
+                    "dice_val": "46",
+                    "entry": "King's."
+                },
+                {
+                    "dice_val": "47",
+                    "entry": "Servant's."
+                },
+                {
+                    "dice_val": "48",
+                    "entry": "Demon's."
+                },
+                {
+                    "dice_val": "49",
+                    "entry": "Snow."
+                },
+                {
+                    "dice_val": "50",
+                    "entry": "Land's."
+                }
+            ]
+        },
+        {
+            "dice": "d50",
+            "name": "Settlement name (part 2)...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "crest."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "bridge."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "run."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "catch."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "blade."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "haven."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "rise."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "more."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "light."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "main."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "blaze."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "place."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "tear."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "fold."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "rest."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "host."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "craft."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "lair."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "hollow."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "vale."
+                },
+                {
+                    "dice_val": "21",
+                    "entry": "hammer."
+                },
+                {
+                    "dice_val": "22",
+                    "entry": "pike."
+                },
+                {
+                    "dice_val": "23",
+                    "entry": "rail."
+                },
+                {
+                    "dice_val": "24",
+                    "entry": "spike."
+                },
+                {
+                    "dice_val": "25",
+                    "entry": "ring."
+                },
+                {
+                    "dice_val": "26",
+                    "entry": "henge."
+                },
+                {
+                    "dice_val": "27",
+                    "entry": "coil."
+                },
+                {
+                    "dice_val": "28",
+                    "entry": "spring."
+                },
+                {
+                    "dice_val": "29",
+                    "entry": "jaw."
+                },
+                {
+                    "dice_val": "30",
+                    "entry": "mark."
+                },
+                {
+                    "dice_val": "31",
+                    "entry": "hail."
+                },
+                {
+                    "dice_val": "32",
+                    "entry": "loch."
+                },
+                {
+                    "dice_val": "33",
+                    "entry": "child."
+                },
+                {
+                    "dice_val": "34",
+                    "entry": "keep."
+                },
+                {
+                    "dice_val": "35",
+                    "entry": "fort."
+                },
+                {
+                    "dice_val": "36",
+                    "entry": "brook."
+                },
+                {
+                    "dice_val": "37",
+                    "entry": "forth."
+                },
+                {
+                    "dice_val": "38",
+                    "entry": "melt."
+                },
+                {
+                    "dice_val": "39",
+                    "entry": "borourgh."
+                },
+                {
+                    "dice_val": "40",
+                    "entry": "ford."
+                },
+                {
+                    "dice_val": "41",
+                    "entry": "crawl."
+                },
+                {
+                    "dice_val": "42",
+                    "entry": "moral."
+                },
+                {
+                    "dice_val": "43",
+                    "entry": "combe."
+                },
+                {
+                    "dice_val": "44",
+                    "entry": "glen."
+                },
+                {
+                    "dice_val": "45",
+                    "entry": "garden."
+                },
+                {
+                    "dice_val": "46",
+                    "entry": "wish."
+                },
+                {
+                    "dice_val": "47",
+                    "entry": "fellow."
+                },
+                {
+                    "dice_val": "48",
+                    "entry": "ridge."
+                },
+                {
+                    "dice_val": "49",
+                    "entry": "ward."
+                },
+                {
+                    "dice_val": "50",
+                    "entry": "town."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Population size...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "50 people (hamlet)."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "100 people (small village)."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "250 people (village)."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "1'000 people (small town)."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "5'000 people (town)."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "25'000 people (city)."
+                }
+            ]
+        },
+        {
+            "dice": "d100",
+            "name": "Main inhabitants are...",
+            "table_entries": [
+                {
+                    "dice_val": "1-35",
+                    "entry": "Humans.  "
+                },
+                {
+                    "dice_val": "36-40",
+                    "entry": "Wood Elves.  "
+                },
+                {
+                    "dice_val": "41-49",
+                    "entry": "High Elves.  "
+                },
+                {
+                    "dice_val": "50-51",
+                    "entry": "Eladrin.  "
+                },
+                {
+                    "dice_val": "52-53",
+                    "entry": "Half-Elves.  "
+                },
+                {
+                    "dice_val": "54-55",
+                    "entry": "Drow.  "
+                },
+                {
+                    "dice_val": "56-65",
+                    "entry": "Mountain Dwarves.  "
+                },
+                {
+                    "dice_val": "66-70",
+                    "entry": "Hill Dwarves.  "
+                },
+                {
+                    "dice_val": "71-73",
+                    "entry": "Lightfoot Halflings.  "
+                },
+                {
+                    "dice_val": "74-75",
+                    "entry": "Stout Halflings.  "
+                },
+                {
+                    "dice_val": "76-77",
+                    "entry": "Rock Gnomes.  "
+                },
+                {
+                    "dice_val": "78-79",
+                    "entry": "Forest Gnomes.  "
+                },
+                {
+                    "dice_val": "80",
+                    "entry": "Deep Gnomes.  "
+                },
+                {
+                    "dice_val": "81-85",
+                    "entry": "Dragonborn.  "
+                },
+                {
+                    "dice_val": "86-88",
+                    "entry": "Orcs and Half-Orcs.  "
+                },
+                {
+                    "dice_val": "89-90",
+                    "entry": "Tieflings and Fiends.  "
+                },
+                {
+                    "dice_val": "91-92",
+                    "entry": "Aarakocra.  "
+                },
+                {
+                    "dice_val": "93-94",
+                    "entry": "Genasi and Elementals.  "
+                },
+                {
+                    "dice_val": "95-96",
+                    "entry": "Shifters and Lycanthropes.  "
+                },
+                {
+                    "dice_val": "97",
+                    "entry": "Goliaths and Giants.  "
+                },
+                {
+                    "dice_val": "98",
+                    "entry": "Changelings and Doppelgangers.  "
+                },
+                {
+                    "dice_val": "99",
+                    "entry": "Warforged and Constructs.  "
+                },
+                {
+                    "dice_val": "100",
+                    "entry": "Aasimar and Celestials."
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "The settlement's atmosphere is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Calm."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Quaint."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Peaceful."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Vaguely unsettling."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Decidedly sinister."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Tense."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Violent."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Fearful."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Bustling."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Tumultuous."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Chaotic."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Pleasant."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "Dark."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "Heavy."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "Stifling."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "Relaxing."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "Freeing."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "Spiritual."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "Apathetic."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "Grief-stricken."
+                }
+            ]
+        },
+        {
+            "dice": "d100",
+            "name": "A prominent feature of the settlement is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Its beautiful parks."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Its majestic orchards."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A notable library."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A powerful guild."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "The smell of baked bread."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "The sounds of blacksmiths working."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "The abundance of game in the surrounding land."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "The extensive farmland surrounding it."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Its exotic goods."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "The slums."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Its criminal syndicate."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Its high-class brothels."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "Its ban on prostitution."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "That it is protected by thick stone walls."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "That it stands atop a floating mote of earth."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "Its visible magic wards, which repel monsters."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "That it is constantly besieged."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "That it is ruled by a tyrant."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "The law is enforced harshly."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "The lack of government; anarchy reigns."
+                },
+                {
+                    "dice_val": "21",
+                    "entry": "A large temple."
+                },
+                {
+                    "dice_val": "22",
+                    "entry": "A gated cemetery larger than is warranted."
+                },
+                {
+                    "dice_val": "23",
+                    "entry": "A system of tunnels beneath the settlement."
+                },
+                {
+                    "dice_val": "24",
+                    "entry": "A planar gate."
+                },
+                {
+                    "dice_val": "25",
+                    "entry": "A powerful curse."
+                },
+                {
+                    "dice_val": "26",
+                    "entry": "That adventurers are hated by the people."
+                },
+                {
+                    "dice_val": "27",
+                    "entry": "A mysterious obelisk towers over other buildings."
+                },
+                {
+                    "dice_val": "28",
+                    "entry": "A famous entertainer inhabits the settlement."
+                },
+                {
+                    "dice_val": "29",
+                    "entry": "That magic is hated by the people."
+                },
+                {
+                    "dice_val": "30",
+                    "entry": "Its heavily armed, well-trained guards."
+                },
+                {
+                    "dice_val": "31",
+                    "entry": "The tamed monster that defends it."
+                },
+                {
+                    "dice_val": "32",
+                    "entry": "A well-traveled trade route that runs through it."
+                },
+                {
+                    "dice_val": "33",
+                    "entry": "Its \"friendly\" barmaids."
+                },
+                {
+                    "dice_val": "34",
+                    "entry": "The local ale distillery."
+                },
+                {
+                    "dice_val": "35",
+                    "entry": "A keep of a noble lord."
+                },
+                {
+                    "dice_val": "36",
+                    "entry": "A tower in which a princess is locked up."
+                },
+                {
+                    "dice_val": "37",
+                    "entry": "That it's overrun with pests."
+                },
+                {
+                    "dice_val": "38",
+                    "entry": "That it's in an economic depression."
+                },
+                {
+                    "dice_val": "39",
+                    "entry": "That it's being extorted by an intelligent monster."
+                },
+                {
+                    "dice_val": "40",
+                    "entry": "A group of refugees tenting near the settlement."
+                },
+                {
+                    "dice_val": "41",
+                    "entry": "That it's on the path of a gypsy caravan."
+                },
+                {
+                    "dice_val": "42",
+                    "entry": "That a traveling carnival often passes through."
+                },
+                {
+                    "dice_val": "43",
+                    "entry": "The nearby vineyards."
+                },
+                {
+                    "dice_val": "44",
+                    "entry": "Its history as a battleground."
+                },
+                {
+                    "dice_val": "45",
+                    "entry": "Its proximity to a monster stronghold."
+                },
+                {
+                    "dice_val": "46",
+                    "entry": "A wishing well with a local legend."
+                },
+                {
+                    "dice_val": "47",
+                    "entry": "That it is built in a dead magic zone."
+                },
+                {
+                    "dice_val": "48",
+                    "entry": "That it is built in a wild magic zone."
+                },
+                {
+                    "dice_val": "49",
+                    "entry": "That it was the site of a mythic event."
+                },
+                {
+                    "dice_val": "50",
+                    "entry": "That it was built atop ancient ruins."
+                },
+                {
+                    "dice_val": "51",
+                    "entry": "A statue honoring some long-dead hero."
+                },
+                {
+                    "dice_val": "52",
+                    "entry": "An abundance of a particular animal."
+                },
+                {
+                    "dice_val": "53",
+                    "entry": "A shrine to an evil god."
+                },
+                {
+                    "dice_val": "54",
+                    "entry": "An affordable periodical carrying news of the realm."
+                },
+                {
+                    "dice_val": "55",
+                    "entry": "A peaceful cult."
+                },
+                {
+                    "dice_val": "56",
+                    "entry": "Its wide streets."
+                },
+                {
+                    "dice_val": "57",
+                    "entry": "Its incredibly beautiful architecture."
+                },
+                {
+                    "dice_val": "58",
+                    "entry": "Its patronage of the arts."
+                },
+                {
+                    "dice_val": "59",
+                    "entry": "The nearby academy of magic."
+                },
+                {
+                    "dice_val": "60",
+                    "entry": "The rare herbs that grow nearby."
+                },
+                {
+                    "dice_val": "61",
+                    "entry": "The use of glowing crystal as streetlamps."
+                },
+                {
+                    "dice_val": "62",
+                    "entry": "The settlement's astronomy observatory."
+                },
+                {
+                    "dice_val": "63",
+                    "entry": "A bridge that spans a wide river."
+                },
+                {
+                    "dice_val": "64",
+                    "entry": "The fiercely patriotic inhabitants."
+                },
+                {
+                    "dice_val": "65",
+                    "entry": "A gallows erected in the main square."
+                },
+                {
+                    "dice_val": "66",
+                    "entry": "A genial ghost."
+                },
+                {
+                    "dice_val": "67",
+                    "entry": "Its \"no-weapons\" policy."
+                },
+                {
+                    "dice_val": "68",
+                    "entry": "A corrupt politician."
+                },
+                {
+                    "dice_val": "69",
+                    "entry": "Regular raids by a nearby group of bandits."
+                },
+                {
+                    "dice_val": "70",
+                    "entry": "That it was founded by cannibals, and some continue the tradition."
+                },
+                {
+                    "dice_val": "71",
+                    "entry": "That it's actually a bandit base."
+                },
+                {
+                    "dice_val": "72",
+                    "entry": "That all light except sunlight is smothered."
+                },
+                {
+                    "dice_val": "73",
+                    "entry": "That it was the location of a pirate's unclaimed treasure hoard."
+                },
+                {
+                    "dice_val": "74",
+                    "entry": "The nearby mines."
+                },
+                {
+                    "dice_val": "75",
+                    "entry": "A history of assassinations."
+                },
+                {
+                    "dice_val": "76",
+                    "entry": "Its very progressive attitude."
+                },
+                {
+                    "dice_val": "77",
+                    "entry": "Its staunch conservative attitude."
+                },
+                {
+                    "dice_val": "78",
+                    "entry": "Its incompetent buffoon of a leader."
+                },
+                {
+                    "dice_val": "79",
+                    "entry": "Its paranoia."
+                },
+                {
+                    "dice_val": "80",
+                    "entry": "Its xenophobia."
+                },
+                {
+                    "dice_val": "81",
+                    "entry": "Its tolerance of others."
+                },
+                {
+                    "dice_val": "82",
+                    "entry": "A coven of witches as rulers."
+                },
+                {
+                    "dice_val": "83",
+                    "entry": "Its predominantly male population."
+                },
+                {
+                    "dice_val": "84",
+                    "entry": "Its predominantly female population."
+                },
+                {
+                    "dice_val": "85",
+                    "entry": "Its high concentration of children."
+                },
+                {
+                    "dice_val": "86",
+                    "entry": "Its noticeable lack of children."
+                },
+                {
+                    "dice_val": "87",
+                    "entry": "Its connection to the Feywild."
+                },
+                {
+                    "dice_val": "88",
+                    "entry": "Its connection to the Shadowfell."
+                },
+                {
+                    "dice_val": "89",
+                    "entry": "Its grimy feel."
+                },
+                {
+                    "dice_val": "90",
+                    "entry": "The stench of sewage."
+                },
+                {
+                    "dice_val": "91",
+                    "entry": "A river that divides it."
+                },
+                {
+                    "dice_val": "92",
+                    "entry": "The undead servants that perform labor."
+                },
+                {
+                    "dice_val": "93",
+                    "entry": "That it's the center of a manhunt."
+                },
+                {
+                    "dice_val": "94",
+                    "entry": "A pony mascot with an adorable name."
+                },
+                {
+                    "dice_val": "95",
+                    "entry": "The overpowering smell of sulfur."
+                },
+                {
+                    "dice_val": "96",
+                    "entry": "A low hum that permeates the settlement with no known cause."
+                },
+                {
+                    "dice_val": "97",
+                    "entry": "A thousand-year-old tree in town square."
+                },
+                {
+                    "dice_val": "98",
+                    "entry": "That it is under the protection of friendly elemental spirits."
+                },
+                {
+                    "dice_val": "99",
+                    "entry": "The blistering heat of its forges."
+                },
+                {
+                    "dice_val": "100",
+                    "entry": "Its famous impartiality."
+                }
+            ]
+        },
+        {
+            "dice": "d30",
+            "name": "The players should care about the settlement because...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "It has magic item shop(s)."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A dungeon was discovered nearby recently."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A powerful wizard lives there."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A NPC the players have met before is there."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Something they want is there."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A thief stole something from them here."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "It was mentioned in a letter found on a slain foe."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "They are hired by someone in the settlement."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "This is the only settlement with which to resupply within leagues."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "One of the inhabitants asked for help with a problem."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "It is the only save haven from the monster-infested surroundings."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "They are implicated in a crime and asked not to leave town."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "There are some interesting rumors about their foes."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "The players liberated some prisoners who asked to be taken there."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "An enemy has called them out."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "The rewards on the job board are high."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "Things don't quite add up; perhaps investigation is called for."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "It keeps getting mentioned wherever they go."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "The townspeople greet them like heroes."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "They need to take shelter from a severe storm."
+                },
+                {
+                    "dice_val": "21",
+                    "entry": "They need help that the settlement can provide."
+                },
+                {
+                    "dice_val": "22",
+                    "entry": "A child/helpless NPC is in danger and needs help."
+                },
+                {
+                    "dice_val": "23",
+                    "entry": "There are signs of a monster infestation."
+                },
+                {
+                    "dice_val": "24",
+                    "entry": "A creature whose goals clash with theirs lives there."
+                },
+                {
+                    "dice_val": "25",
+                    "entry": "A powerful NPC tries to put them under a \"geas\"."
+                },
+                {
+                    "dice_val": "26",
+                    "entry": "A patron promises them jobs there."
+                },
+                {
+                    "dice_val": "27",
+                    "entry": "They hear rumors of a hidden magic item nearby."
+                },
+                {
+                    "dice_val": "28",
+                    "entry": "A strange crime is committed, peripherally involving them."
+                },
+                {
+                    "dice_val": "29",
+                    "entry": "A local NPC did them a favor, and wants to cash in."
+                },
+                {
+                    "dice_val": "30",
+                    "entry": "A powerful entity offers them a deal there."
+                }
+            ]
+        }
+    ],
+    "title": "Simple Settlements",
+    "use_with": [
+        {
+            "link": "3sj9ub",
+            "title": "Town NPCs"
+        },
+        {
+            "link": "4daxw7",
+            "title": "Urban Marketplace"
+        },
+        {
+            "link": "43w8zc",
+            "title": "Brothels"
+        },
+        {
+            "link": "48cev4",
+            "title": "Magic Shops"
+        }
+    ]
+}

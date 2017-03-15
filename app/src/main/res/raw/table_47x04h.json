@@ -1,0 +1,604 @@
+{
+    "description": "Perhaps your players find themselves heading across a temperate, open region of land. There's not much here for them to encounter, is there? You might be surprised!",
+    "id": "47x04h",
+    "keywords": [
+        "Prairie",
+        "Grasslands",
+        "Plains",
+        "Savannah",
+        "Hills",
+        "Steppe",
+        "Meadow",
+        "Pasture",
+        "Field"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/47x04h",
+    "related_tables": [],
+    "tables": [
+        {
+            "dice": "d6",
+            "name": "Foliage: The plant life is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "green, waving grass, several feet high."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Short tight grass clumps intermingled with shrubbery."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Yellowish grass that grows low to the ground, with the occasional tree growing by itself."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Sparce, with only clumps of dark green and brown scrub brush every few yards."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Groves of trees growing every few hundred yards among tall grasses, as if nature(or someone) is trying to seed a forest."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Briar patches and mildly poisonous plants that have choked out most of the other plant life.  "
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "Perception fodder: You notice...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "the sun becomes obscured by the clouds."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "a well used animal trail."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "a hawk flying high overhead."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "the croaking of frogs at a nearby water source."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "small mammals playing/fighting loudly that suddenly grow silent and disappear as you approach."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "a light breeze blows, carrying the scent of wood smoke."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "a strong wind gusts, carrying the sound of thunder and scent of approaching rain."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "the faint thumping of drums in the distance."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "a plume of smoke on the horizon."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "the buzzing and singing of insects hidden in the foliage."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "the scent of death and decay."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "a sickly sweet smelling flowered bush."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "a sudden gust of wind brings a strange smell, but it fades quickly as the wind dies down."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "the faint rattling of a serpent's tail nearby."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "the chirping of a flock of small birds that takes the air when you approach."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "a trail of fresh blood."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "a mound of loose earth, as if something was recently buried."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "a swarm of insects buzzing loudly around a dead animal."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "a faint rumbling in the ground that stops after a moment or two."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "a nearby boulder covered with a swarm of ants. A busy day in the anthill, indeed.  "
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "Interesting locations: You come across...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "several standing stones on top of a hill and arranged in a strange design."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "an ancient monolith constructed of a material not found native in the area."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "a rushing stream that snakes its way across the plains."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "a large watering hole used by numerous forms of wildlife."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "a rocky cave opening jutting out of the ground."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "a group of indigenous nomads, stopping for a time before continuing their journey."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "a village of settlers from a nearby civilization."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "a series of sink holes that drop several hundred feet into the earth."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "the ruins of a long abandoned military outpost/fort."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "a lone tree with several skeletons dangling from nooses."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "a makeshift quarry dug into the ground where large chunks of stone have been cut out and chiseled into statues."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "a lone gravestone. Large, but sunken into the ground. The engraving is in a language not spoken in this region."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "a low swampy area, full of foul smelling water and brightly colored flowers."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "a huge boulder sitting alone in a field. Into the sides are scrawled all kinds of glyphs, most partially worn away by time."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "a tall hill or cliff, standing several hundred feet higher than the surrounding terrain. You can see for miles from the top."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "a stone well, recently used by a group of herdsmen, their livestock having left tracks nearby."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "a forgotten stone tower, collapsing from the ravages of time."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "a fairy ring, several feet in diameter, with a statue of two elves dancing in the center."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "a large Elven hunting lodge, a fine roof and floor with no walls. Some elven hunters meditate inside while the rest hunt in the plains."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "a religious shrine in disrepair. It bears a map of all points on a long forgotten pilgrimage."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "What are the standing stones used for?",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Druidic conclave meetings."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Pagan sacrifices or rituals."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "necromantic summonings."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "devil summonings."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "political gathering of tribes."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "seasonal feasting."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "duels of honor, often to the death."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "religious rites and offerings to a deity."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "What's up with the monolith?",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Pulses of magic emanate from it, felt by any magic sensitive creatures (including players) nearby, drawing them to touch it."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "It casts a shadow the doesn't move with the sun. At night, the \"shadow\" is actually brighter than the ground."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Its surface is covered in strange runes that shift about when inspected, inducing a headache."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Magic does not work in its immediate vicinity, and acts strangely while cast within line of sight."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "The pieces of the monolith can be shifted and turned in a number of ways, yet it somehow always seems to look the same."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A faint, very deep, humming can be heard emanating from inside it. Almost so low as to be a vibration, rather than a sound. Induces nausea if one is exposed for too long."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Wildlife that approach within twenty feet of it seem to simply tip over and die, as demonstrated by the ring of old and new corpses surrounding it. Humanoids seem to be unaffected."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Certain objects and colors seem to glow with an unnatural brilliance when near the monolith. (Treat the effect as a black light. White items, and other brightly colored things, glow strangely)"
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "What lives in the rocky cave?",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "a slightly unhinged hermit."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "a pack of wolves."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "a minotaur, the entrance to its labyrinth camouflaged as a cave."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "a tribe of troglodytes."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "an exiled Deep Gnome."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "a feral child, raised by local fauna."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "a retired trapper, living out his final days."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Nothing near the surface, but the cave goes deep. Very deep...."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "a tribe of centaurs, wary of outsiders."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "a family of gypsies, heading for a nearby town or city."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Livestock herders, on their way to new grazing land as the season changes."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "a caravan of traveling merchants, making the very long, but very profitable, journey to a far off land."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "a small band of doppelgangers, posing as a hunting party."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "a village of halflings, driven from their home."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "What's under the sink holes?",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "an abandoned mine."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "the ruins of a village, swallowed by the earth."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "an ancient temple to a pagan deity."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "an underground river, flowing into the deep."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "an ankheg colony."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "a massive cave network."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "What is in/under the lone tree?",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "a group of will-o-wisps."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "a vain banshee."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "a green hag, ready to strike a bargain."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "a transplanted colony of pixies and sprites, hoping to seed a new forest."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "a grumpy giant badger."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "a swarm of giant wolf spiders."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "Wildlife Encounters(neutral): You encounter...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "a large cat apathetically watching you, well camouflaged against its native terrain."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "several large snakes that slither off into the brush when you get too close."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "a herd of bison, grazing lazily."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "a family of ground rodents that watch you curiously from the safety of their burrow entrances."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "a pack of coyotes out for a meal."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "wild hogs rooting in the ground."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "a herd of elephants/woolly mammoth."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "a fat, ambling bear."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "a herd of wild horses stampeding across the plains."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "a flock of ground fowl, loudly protesting as you approach their nesting area."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "a lone crow watching as you pass by. It hops after you a few steps at time to get a better look and then flies away, cawwing loudly."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "a rhinoceros, taking a dust bath."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "Enemy Encounters: You come upon/are beset by: (challenge rating ~2-6)",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "a bandit raiding party."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "an ankheg ambushing you from below!"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "a small flock of cockatrice(s?)."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "a hobgoblin patrol."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "a trio of motionless scarecrows near an abandoned cottage."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "a wandering ogre."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "a hungry Manticore."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "same as #4 plus a Hobgoblin captain."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "a raging bull elephant."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "a burrowing Bullette."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "a soaring Chimera."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "a shambling cyclops."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "Friendly encounters: You cross paths with:",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "an explorer, heading out into the unknown wilds."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "a surveyor, marking landmarks and distances on a map in the wake of an explorer."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "a miner, coming back to civilization with many valuables and oddities to sell."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "an artist, pursuing their inspiration in the wilderness."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "a grizzled old veteran, looking for their final battle."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "an elderly druid, preparing a ritual to perform during an upcoming astral event (solstice, equinox, eclipse, etc)."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "a nomadic tribe of centaurs traveling across the plains."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "an acolyte of a nature deity, undergoing a pilgrimage."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "a noble and their entourage, returning from a big game hunt."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "a tribal warrior, returning to their village from a successful hunt."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "a bounty hunter, tracking a fugitive."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "a revenant, tirelessly making its way back to civilization to exact its ultimate revenge."
+                }
+            ]
+        }
+    ],
+    "title": "Plains",
+    "use_with": [
+        {
+            "link": "45x72u",
+            "title": "Herb Lore"
+        },
+        {
+            "link": "3xys3d",
+            "title": "Farmfolk"
+        },
+        {
+            "link": "3t2qzc",
+            "title": "Outlaws"
+        },
+        {
+            "link": "3vspx8",
+            "title": "Orcs"
+        },
+        {
+            "link": "3sj9ub",
+            "title": "Travelers"
+        }
+    ]
+}

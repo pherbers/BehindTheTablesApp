@@ -1,0 +1,429 @@
+{
+    "description": "These are tables for generating interesting faeries to serve as foil or friend to your PCs, from mischievous sprites to playful pixies and meddlesome nymphs to cruel satyrs.",
+    "id": "3vlzrw",
+    "keywords": [
+        "faerie",
+        "fairy",
+        "pixie",
+        "nymph",
+        "satyr",
+        "fawn",
+        "sprite",
+        "nixie",
+        "snowflake",
+        "dewdrop",
+        "sugarplum"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/3vlzrw",
+    "related_tables": [],
+    "tables": [
+        {
+            "dice": "d6",
+            "name": "Hair: The faerie has...",
+            "table_entries": []
+        },
+        {
+            "dice": "d12",
+            "name": "The faerie is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A capricious nymph."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "An apprehensive nymph."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A playful nymph."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A nervous pixie.\t"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A cheerful pixie."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A carefree pixie."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A wrathful sprite."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A curious sprite."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A surly sprite."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A drunken satyr."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A satyr bully."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A sharp-witted satyr."
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "Hair: The faerie has...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Black hair."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Copper hair."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Golden blonde hair."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Platinum blonde hair."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Silver-white hair."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Dark brown hair."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Reddish-brown."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Fiery red hair."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Light brown hair."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Auburn hair."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Black hair with a brown streak."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Dark brown hair with an auburn streak."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "Brown hair with a blonde streak."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "Bright white hair."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "Silver-blonde hair."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "Whitish blonde hair."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "Golden hair with a pink streak."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "Golden hair with a green streak."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "Black hair with a blue streak."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "Black hair with a white streak."
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "Eyes: The faerie has...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Pale golden eyes."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Bright golden eyes."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Dark green eyes."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Brilliant green eyes."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Bright blue eyes."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Dark blue eyes."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Blue eyes with golden flecks."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Green eyes with golden flecks."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Pale green eyes."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Golden brown eyes."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Dark brown eyes."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Hazel eyes."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "Whitish blue eyes."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "Pale blue eyes."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "Lilac eyes."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "Pale violet eyes."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "Bright violet eyes."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "Deep red eyes."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "Pale pink eyes."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "Silver eyes."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "Mannerisms: The faerie has...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A likable grin."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A delicate laugh."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A playful laugh."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A laugh that goes on too long."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "An amused smirk."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A humorless visage."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A habit of sighing."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A touch of sorrow in his or her voice."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A habit of pacing."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A habit of scratching the back of the neck."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A habit of winking."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A seductive sway of the hips."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "The faerie is looking for...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "An unnatural creature that has taken up residence in the forest."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Ways to cause mischief for travelers."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Worthy visitors of a secret grove."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Amusement in frightening travelers."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Someone to listen to a new song."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A heart to break."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Love and war."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Love and mischief."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Mischief and mayhem."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "The answer to a riddle."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A dance partner."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A drinking partner."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "The faerie carries...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "An delicate wreath of flowers."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A gem glowing with moonlight or starlight."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A finely-crafted bow or knife."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A vial containing a potent potion."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Several magical mushrooms."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A variety of herbs commonly used in potionmaking."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A message from a faerie king or queen."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A token from a past love."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A string instrument (d4): 1. fiddle; 2. harp; 3. lute; 4. lyre."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A wind instrument (d4): 1. flute; 2. horn; 3. ocarina; 4. panpipes."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A piece of sweet cake."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A jug of wine."
+                }
+            ]
+        }
+    ],
+    "title": "Faeriefolk",
+    "use_with": [
+        {
+            "link": "3sh0hz",
+            "title": "Forest, enchanted"
+        },
+        {
+            "link": "3vh7jd",
+            "title": "High elves"
+        },
+        {
+            "link": "3vjsea",
+            "title": "Treefolk"
+        }
+    ]
+}

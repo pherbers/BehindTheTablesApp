@@ -1,0 +1,566 @@
+{
+    "description": "These are tables for quickly fleshing out a merchant guild or trading company and for adding some quick flavor to shopkeeper or merchant NPC. You really should read /u/TheatreLife's posts to get the most out of this, which includes more information on the materials-to-manufacture pipeline and on gaining renown within a guild.",
+    "id": "43xb06",
+    "keywords": [
+        "merchants",
+        "salesman",
+        "vendors",
+        "shopkeepers",
+        "guilds",
+        "trading companies",
+        "goods",
+        "commodities",
+        "resources"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/43xb06",
+    "related_tables": [],
+    "tables": [
+        {
+            "dice": "d8",
+            "name": "The guild is controlled by...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A no-nonsense kingpin who despises bureaucracy."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A small and pinched-face gnome with a sinister desire for money."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "An inexperienced young noble with a petulant need for a full purse."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A council of the heads of local crafting guilds."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "An argumentative mass democracy of all the city's merchants."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A longstanding and ancient charter that applies to all merchants, and the militia acting as the charter's executors."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "The most wealthy merchant in the city."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A city-appointed monk, who has sworn away worldly wealth."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "This guild's illicit affairs comprise...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Literally nothing, they are paragons of upright morality."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Staying well within the law, if slipping on a few taxes due to ignorance, of course."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Knowing how to play the political game, they garner a few indirect favors from officials."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Guild leaders having dollar signs for eyes, and setting advantageous prices in the city."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Price floors becoming commonplace, and officials are often bribed in order to overlook some minor illicit activities."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A variety of upper-level bribes, some minor scams, and the dismay of local priests."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Rampant corruption, with large-scale bribery of various city officials and contracts with thieves\u2019 guild and occasionally an assassin."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Pacts with devils, large-scale counterfeiting, and treasonous activities are a normal Tuesday morning for this guild."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "This guild's status and control is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Poor; though once great, this guild has fallen on hard times and is struggling to maintain its power."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Brand new, and frantically recruiting members in order to snatch power."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Exponentially rising, a recent boon has granted them great profits."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Slowing, a rising competitor is slowly cutting into profits."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Absolute, they have complete dominance in their field."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Spotty, depending on the will of the coin and the market this guild may be drinking Elven wine or rotten grog."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Unquestioned, they exert complete dominance over all other guilds in the area."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Questionable, though they claim to have control, some operators have undermined it."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "This guild's headquarters is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "The leader's or leaders' personal residence, a large manor."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "The dusty basement of the city's capital hall."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A single, thin, and very tall townhouse that leans slightly into the street."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A moored ship, especially curious in landlocked cities."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "An open-air pavilion centered in the city's bazaar."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Doubling as a large and prestigious bank."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "An opulent demiplane hidden in a shady back-alley."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Jointly shared with all the guilds of the city, and the thieves guild lurks in the sewers below."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "Minor Quest: The guild has been having some trouble with...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A merchant was recently shaken down by a lowly thug, send a message."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Gold stores, perhaps you could make a donation of 500 gold pieces?"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Transporting a semi-rare magical item to a nearby branch."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A caravan that doesn't feel comfortable going through a newly discovered path in the nearby woods, escort them."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A city militia member getting nosy."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A crafting guild hesitant to sign up for the merchant guild's special loyalty program."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A rat infestation."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A rat infestation (that actually is a rift to the Plane of Rats or similar filthy location)."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "Standard Quest: The guild needs you to handle...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A caravan gone missing in a nearby region."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A rising thieves\u2019 guild that seems uncooperative."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A city official hellbent on stamping out capitalism."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A competing Merchant guild that has begun to outpace the guild."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A recent trade blockade\u2014you need to resolve the tensions or clear the blockade."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Rumors of aberrations in the night that have driven away trade."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A Board Member who has decided to go rogue and has stolen from the coffers."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A very large rat infestation (the rift has become a permanent Gate to the Plane of Rats or similar filthy location)."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "Major Quest: A matter of great import, the guild is faced with...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A mercenary army that has laid siege to the city!"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Mass corruption from the inside, half the board is revealed to be mind flayers."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A massive religious revival that causes the entire population to scorn material pursuits and cut deep into the bottom line."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A mummy king who has taken a caravan with most of the guild coffer's investments hostage."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Political revolution that threatens the guild coffers with looting, protect our stores but civilians cannot be harmed."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "An investigation from the King's Spymaster into the extent of the guild's illicit activities."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A planar being has supplanted the guild master, who is imprisoned in a planar cage."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Waves of rats that threaten the entire guildhall's basement (the rift has become a gigantic faucet of rats) where an Avatar of the God of Rats has taken up residence."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "This trading company's specific specialty or purpose is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Long-range sea trade, exploration, and transport."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Long-range aerial trade; accomplished with airships, aarakocra messengers, and the occasional roc or dragon."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "The hunting and trapping of exotic monsters and animals."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Acting as a puppet agency for a local kingdom manipulating global trade."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Securing and creating long-range caravans, and the slow growth of roads (and maybe even railroads)."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Exploring and exploiting newly discovered lands or planes."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "This trading company is controlled by...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A planar being disguised as a wealthy merchant (refer to illicit activities roll for planar source, low is celestial, middle is neutral, high is fiendish). "
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A joint council of Masters of Coin from all civilized kingdoms of the world."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A savant goblin who has achieved immortality by divine blessing."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A grizzled ex-adventurer."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A council of investors."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "An argumentative mass democracy of all the company's merchants."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A massively wealthy caravan master who found a lost city of gold."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A large and grotesque slave master."
+                }
+            ]
+        },
+        {
+            "dice": "d4",
+            "name": "The shopkeeper is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Bored."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Eager to help."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Visibly perturbed."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Nervously looking about."
+                }
+            ]
+        },
+        {
+            "dice": "d4",
+            "name": "The shopkeeper seeks someone to...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Purchase faulty goods."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Purchase a large shipment of goods."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Listen to some whining."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Share some wine and chat."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The merchant is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A member of a trading clan."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A minor lord or lady."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "An enterprising trader."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A member of a prominent family."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Of common birth."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "The representative of a more powerful  merchant."
+                }
+            ]
+        },
+        {
+            "dice": "d4",
+            "name": "The merchant wears...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "An unpleasant grin."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "An arrogant smirk."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Too much perfume."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A baggy shirt to cover a fat belly."
+                }
+            ]
+        },
+        {
+            "dice": "d4",
+            "name": "The merchant seeks someone to...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Obtain a mysterious artifact."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Negotiate a trade contract."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Sabotage a rival merchant."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Have a good time with."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The merchant carries...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A family heirloom."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Several inventories and invoices."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Some very valuable jewels."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A compromising love letter."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A small knife."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A vial of healing potion, just in case."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Currency: Besides coin, the merchant will trade in...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Gems and jewelry."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Gold and silver bullion."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Water, provisions, and other goods."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Shells, beads, and trinkets."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Favors."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Scandalous information."
+                }
+            ]
+        }
+    ],
+    "title": "Merchant Guilds",
+    "use_with": [
+        {
+            "link": "43xb2a",
+            "title": "Crafting guilds"
+        },
+        {
+            "link": "3sl2r2",
+            "title": "Merchant caravans"
+        },
+        {
+            "link": "43ufyr",
+            "title": "Mines"
+        },
+        {
+            "link": "3tkdty",
+            "title": "Reputation and rumors"
+        },
+        {
+            "link": "4d6a7d",
+            "title": "Ships"
+        },
+        {
+            "link": "4psde0",
+            "title": "Shops"
+        },
+        {
+            "link": "3t5q2e",
+            "title": "Urban gangs"
+        },
+        {
+            "link": "4daxw7",
+            "title": "Urban marketplace"
+        }
+    ]
+}

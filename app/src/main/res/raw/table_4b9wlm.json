@@ -1,0 +1,1416 @@
+{
+    "description": "This may be a bit overboard, and it may not work particularly well, but it has lots of flavor for making dragons distinctive.",
+    "id": "4b9wlm",
+    "keywords": [
+        "dragon",
+        "tiamat",
+        "bahamut",
+        "fire breathing",
+        "scales",
+        "slayer",
+        "smaug"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/4b9wlm",
+    "related_tables": [],
+    "tables": [
+        {
+            "dice": "d100",
+            "name": "Age: The dragon is...",
+            "table_entries": [
+                {
+                    "dice_val": "01-25",
+                    "entry": "A wyrmling.  "
+                },
+                {
+                    "dice_val": "26-50",
+                    "entry": "A youngling.  "
+                },
+                {
+                    "dice_val": "51-75",
+                    "entry": "An adult.  "
+                },
+                {
+                    "dice_val": "76-100",
+                    "entry": "An ancient one.  "
+                }
+            ]
+        },
+        {
+            "dice": "d100",
+            "name": "Color: The dragon is colored...",
+            "table_entries": [
+                {
+                    "dice_val": "01-10",
+                    "entry": "Black, a sadistic beast fond of torture.  "
+                },
+                {
+                    "dice_val": "11-20",
+                    "entry": "Blue, as proud as it is deadly.  "
+                },
+                {
+                    "dice_val": "21-30",
+                    "entry": "Green, treacherously cunning.  "
+                },
+                {
+                    "dice_val": "31-40",
+                    "entry": "Red, fiery and mad.  "
+                },
+                {
+                    "dice_val": "41-50",
+                    "entry": "White, a primal beast of ice.  "
+                },
+                {
+                    "dice_val": "51-60",
+                    "entry": "Brass, always fond of a nice chat.  "
+                },
+                {
+                    "dice_val": "61-70",
+                    "entry": "Copper, a crafty jokester.  "
+                },
+                {
+                    "dice_val": "71-80",
+                    "entry": "Gold, majestic and wealthy.  "
+                },
+                {
+                    "dice_val": "81-90",
+                    "entry": "Silver, friendly and caring.  "
+                },
+                {
+                    "dice_val": "91-100",
+                    "entry": "Bronze, a dragon of the coast.  "
+                }
+            ]
+        },
+        {
+            "dice": "d100",
+            "name": "Major feature: The dragon has a unique appearance...",
+            "table_entries": [
+                {
+                    "dice_val": "01-02",
+                    "entry": "It has very sleek and soft scales that blend together and shine.  "
+                },
+                {
+                    "dice_val": "03",
+                    "entry": "It is relatively normal for its color.  "
+                },
+                {
+                    "dice_val": "04",
+                    "entry": "It has very tough and overgrown scales like barbaric plate armor.  "
+                },
+                {
+                    "dice_val": "05-06",
+                    "entry": "Shards of bone grow out of its body painfully at every angle.  "
+                },
+                {
+                    "dice_val": "07-08",
+                    "entry": "Crystal grows out of its scales seemingly brimming with magical power.  "
+                },
+                {
+                    "dice_val": "09",
+                    "entry": "It has runes carved into every scale each one with magical meaning.  "
+                },
+                {
+                    "dice_val": "10-11",
+                    "entry": "It is albino and is often mistaken for a white dragon even though it may be of a different type.  "
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Its entire body is covered in thick shaggy fur.  "
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "It has multiple sets of small sharp wings.  "
+                },
+                {
+                    "dice_val": "14-15",
+                    "entry": "Its wings are coated in feathers giving it an oddly angelic appearance.  "
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "It radiates its chosen element making it glow with power under its scales.  "
+                },
+                {
+                    "dice_val": "17-18",
+                    "entry": "It has weapons of all kinds lodged in its scales which the dragon wears proudly.  "
+                },
+                {
+                    "dice_val": "19-20",
+                    "entry": "It\u2019s covered in thick chains. Most likely result of it losing a fight long ago.  "
+                },
+                {
+                    "dice_val": "21-22",
+                    "entry": "It has large scars cut into its body.  "
+                },
+                {
+                    "dice_val": "23-24",
+                    "entry": "Shadows seem to cling to its form like a cloak, no matter how bright the area is.  "
+                },
+                {
+                    "dice_val": "25-26",
+                    "entry": "It has a long slender body like a great serpent.  "
+                },
+                {
+                    "dice_val": "27",
+                    "entry": "It has an extra set of arms with strong muscle and sharp claws.  "
+                },
+                {
+                    "dice_val": "28-29",
+                    "entry": "Mottled scale coloring gives it a patchy look between two colors"
+                },
+                {
+                    "dice_val": "30-31",
+                    "entry": "It is exceedingly large with a bloated and obese body.  "
+                },
+                {
+                    "dice_val": "32",
+                    "entry": "It has an insect-like mandible instead of a normal maw.  "
+                },
+                {
+                    "dice_val": "33-34",
+                    "entry": "It has trouble shutting its over-large mouth with rows and rows of sharp teeth.  "
+                },
+                {
+                    "dice_val": "35",
+                    "entry": "It has a slimy goo-like substance all over its body.  "
+                },
+                {
+                    "dice_val": "36",
+                    "entry": "It appears to be changing colors at all times like an optical illusion.  "
+                },
+                {
+                    "dice_val": "37",
+                    "entry": "It has bark or stone all over its body.  "
+                },
+                {
+                    "dice_val": "38",
+                    "entry": "It has multiple sets of eyes that glow with arcane power.  "
+                },
+                {
+                    "dice_val": "39",
+                    "entry": "It wears large ancient gauntlet-like constructs on its claws that it uses in combat.  "
+                },
+                {
+                    "dice_val": "40-41",
+                    "entry": "It wears extra armor added to its body, adamantine or mithral.  "
+                },
+                {
+                    "dice_val": "42-43",
+                    "entry": "It has a thin almost skeletal form.  "
+                },
+                {
+                    "dice_val": "44-45",
+                    "entry": "It has ugly diseased marks on its scales and a sickly pallor.   "
+                },
+                {
+                    "dice_val": "46-47",
+                    "entry": "Its front legs are its wings in a way similar to a wyvern.   "
+                },
+                {
+                    "dice_val": "48-49",
+                    "entry": "It wears grisly trophies of its kills on its body, covering it in severed heads and hands.  "
+                },
+                {
+                    "dice_val": "50-51",
+                    "entry": "Areas of its body are completely devoid of scales. Its skin has grown tough and leathery to make up for that.  "
+                },
+                {
+                    "dice_val": "52",
+                    "entry": "It has fish-like adaptations to living at deep sea.  "
+                },
+                {
+                    "dice_val": "53",
+                    "entry": "It has some kind of weakness and wears an exo-suit-like harness over its body to make it stronger.  "
+                },
+                {
+                    "dice_val": "54",
+                    "entry": "A second head on its tail that can also shoot its breath weapon.  "
+                },
+                {
+                    "dice_val": "55",
+                    "entry": "It has two heads, both with different personalities like an ettin.  "
+                },
+                {
+                    "dice_val": "56-57",
+                    "entry": "It has an aura of its elemental power around it at all times, such as a bubble of uncontrollably burning flame.  "
+                },
+                {
+                    "dice_val": "58",
+                    "entry": "It has no mouth and speaks entirely telepathically. Its breath weapon is magical instead.  "
+                },
+                {
+                    "dice_val": "59-60",
+                    "entry": "It is almost blind, and relies on its extremely strong smell and sound to find prey.  "
+                },
+                {
+                    "dice_val": "61-62",
+                    "entry": "It has sharp monstrous barbs all over its body.  "
+                },
+                {
+                    "dice_val": "63-64",
+                    "entry": "It has a very soft underbelly of a different color that is weaker than its other scales.  "
+                },
+                {
+                    "dice_val": "65-66",
+                    "entry": "It has gemstones and coins inset into its scales like a traditional dragon, reinforcing its strength and armor.  "
+                },
+                {
+                    "dice_val": "67-68",
+                    "entry": "It has sharp scythe-like claws on its forelegs.  "
+                },
+                {
+                    "dice_val": "69-70",
+                    "entry": "Its claws are very long and slender, but it has great tactile control of them.  "
+                },
+                {
+                    "dice_val": "71",
+                    "entry": "It has a very long tongue that it eagerly uses like an extra arm.  "
+                },
+                {
+                    "dice_val": "72",
+                    "entry": "It has a face eerily similar to a humanoid\u2019s.  "
+                },
+                {
+                    "dice_val": "73",
+                    "entry": "Its form is slightly more humanoid than usual, with the typical muscles more prominent and obvious than usual.  "
+                },
+                {
+                    "dice_val": "74-75",
+                    "entry": "It has ridges of horn-like spines over its back, each one like a sharp blade.  "
+                },
+                {
+                    "dice_val": "76-77",
+                    "entry": "It has very long curled horns like a minotaur that it will to head-butt and gore foes.  "
+                },
+                {
+                    "dice_val": "78-79",
+                    "entry": "It has only one, very long horn like a unicorn.  "
+                },
+                {
+                    "dice_val": "80",
+                    "entry": "It seems to have no claws at all instead relying on hard slamming attacks.  "
+                },
+                {
+                    "dice_val": "81",
+                    "entry": "It\u2019s missing one of its limbs entirely.  "
+                },
+                {
+                    "dice_val": "82",
+                    "entry": "It has half of its face missing, revealing the bone and muscle beneath.   "
+                },
+                {
+                    "dice_val": "83",
+                    "entry": "Its scales are slightly translucent allowing one to see its insides.  "
+                },
+                {
+                    "dice_val": "84-85",
+                    "entry": "It has a cobra-like hood on its neck.  "
+                },
+                {
+                    "dice_val": "86",
+                    "entry": "It wears bandages and wrappings around a good deal of its body.  "
+                },
+                {
+                    "dice_val": "87",
+                    "entry": "It has a somewhat bird-like beak instead of a traditional dragon maw.  "
+                },
+                {
+                    "dice_val": "88",
+                    "entry": "It has eerily human-like hands instead of claws.  "
+                },
+                {
+                    "dice_val": "89",
+                    "entry": "It has a disturbing number of multiple scuttling legs.  "
+                },
+                {
+                    "dice_val": "90",
+                    "entry": "It has huge crab-like claws.  "
+                },
+                {
+                    "dice_val": "91",
+                    "entry": "It has a beholder-like eye with several twisting eyestalks.  "
+                },
+                {
+                    "dice_val": "92",
+                    "entry": "It has a huge twisting worm-like body.  "
+                },
+                {
+                    "dice_val": "93",
+                    "entry": "It has a sharp bladed tail that it uses as a slashing weapon.  "
+                },
+                {
+                    "dice_val": "94",
+                    "entry": "It has a bloody stump where its tail used to be.  "
+                },
+                {
+                    "dice_val": "95",
+                    "entry": "It has a cloud of smoke around its body at all times.  "
+                },
+                {
+                    "dice_val": "96",
+                    "entry": "It has huge and actually somewhat uncomfortable wings that sweep around it.  "
+                },
+                {
+                    "dice_val": "97",
+                    "entry": "It stands on its hind legs similar to a humanoid.  "
+                },
+                {
+                    "dice_val": "98",
+                    "entry": "It has carefully manicured claws in sword-like shapes.  "
+                },
+                {
+                    "dice_val": "99",
+                    "entry": "It has broad fan-like tail fins.  "
+                },
+                {
+                    "dice_val": "100",
+                    "entry": "It wears wreathes of flowers and plants around its body.  "
+                }
+            ]
+        },
+        {
+            "dice": "d100",
+            "name": "Minor feature: The dragon also has...",
+            "table_entries": [
+                {
+                    "dice_val": "01-03",
+                    "entry": "One horn missing; it was broken off.  "
+                },
+                {
+                    "dice_val": "04-05",
+                    "entry": "Light scarring around the eyes.  "
+                },
+                {
+                    "dice_val": "06-08",
+                    "entry": "A heavy mace-like tail which it will happily use as a weapon.  "
+                },
+                {
+                    "dice_val": "09-10",
+                    "entry": "A mane of \u2018hair\u2019 by its head.  "
+                },
+                {
+                    "dice_val": "11-13",
+                    "entry": "A crown of horns around the top of its skull.  "
+                },
+                {
+                    "dice_val": "14-16",
+                    "entry": "A face that looks like a skull.  "
+                },
+                {
+                    "dice_val": "17-20",
+                    "entry": "A pair of overly large fangs.  "
+                },
+                {
+                    "dice_val": "21-22",
+                    "entry": "A powerful artifact of some kind embedded in its forehead.  "
+                },
+                {
+                    "dice_val": "23-24",
+                    "entry": "An extra tail.  "
+                },
+                {
+                    "dice_val": "25-27",
+                    "entry": "Each eye is a different color and extra vibrant.  "
+                },
+                {
+                    "dice_val": "28-30",
+                    "entry": "A hungry and yet charming grin.  "
+                },
+                {
+                    "dice_val": "31-33",
+                    "entry": "A beard of hanging scales.  "
+                },
+                {
+                    "dice_val": "34-36",
+                    "entry": "Scales of varying shininess and hue.  "
+                },
+                {
+                    "dice_val": "37-38",
+                    "entry": "Far brighter colors than normal.  "
+                },
+                {
+                    "dice_val": "39-40",
+                    "entry": "Far darker colors than normal.  "
+                },
+                {
+                    "dice_val": "41-43",
+                    "entry": "Mud or dirt covering its scales.  "
+                },
+                {
+                    "dice_val": "44-45",
+                    "entry": "Some kind of make up on its face.  "
+                },
+                {
+                    "dice_val": "46-47",
+                    "entry": "Painted tattoos on its scales.  "
+                },
+                {
+                    "dice_val": "48-50",
+                    "entry": "Several missing teeth.  "
+                },
+                {
+                    "dice_val": "51-53",
+                    "entry": "A single missing scale making a small weak point.  "
+                },
+                {
+                    "dice_val": "54-56",
+                    "entry": "A missing wing.  "
+                },
+                {
+                    "dice_val": "57-59",
+                    "entry": "Stripe-like patterns to its scales.  "
+                },
+                {
+                    "dice_val": "60-61",
+                    "entry": "One single magical eye.  "
+                },
+                {
+                    "dice_val": "62-63",
+                    "entry": "A pet that constantly stays by its side.  "
+                },
+                {
+                    "dice_val": "64-65",
+                    "entry": "Brand-like markings burnt onto its body.  "
+                },
+                {
+                    "dice_val": "66-68",
+                    "entry": "Smoke constantly billowing from its mouth and nostrils.  "
+                },
+                {
+                    "dice_val": "69-71",
+                    "entry": "A thin slender form.  "
+                },
+                {
+                    "dice_val": "72-73",
+                    "entry": "A cuddly stocky form.  "
+                },
+                {
+                    "dice_val": "74-76",
+                    "entry": "A spiny ridge on its back.  "
+                },
+                {
+                    "dice_val": "77-78",
+                    "entry": "Very large custom-made eyeglasses.  "
+                },
+                {
+                    "dice_val": "79-81",
+                    "entry": "A large ridge behind its head like a triceratops.   "
+                },
+                {
+                    "dice_val": "82-84",
+                    "entry": "Shackles on its legs.  "
+                },
+                {
+                    "dice_val": "85-86",
+                    "entry": "Plants growing on its body.  "
+                },
+                {
+                    "dice_val": "87-88",
+                    "entry": "A very long tail, several times the length of its body.  "
+                },
+                {
+                    "dice_val": "89-90",
+                    "entry": "Large fins on its tail.  "
+                },
+                {
+                    "dice_val": "91-92",
+                    "entry": "A vastly different than normal hue.   "
+                },
+                {
+                    "dice_val": "93-94",
+                    "entry": "Fins on its limbs.  "
+                },
+                {
+                    "dice_val": "95-96",
+                    "entry": "A large overbiting jaw.  "
+                },
+                {
+                    "dice_val": "97-98",
+                    "entry": "A large underbiting jaw.  "
+                },
+                {
+                    "dice_val": "99-100",
+                    "entry": "Fake horns.  "
+                }
+            ]
+        },
+        {
+            "dice": "d100",
+            "name": "Traits: The dragon is...",
+            "table_entries": [
+                {
+                    "dice_val": "1-2",
+                    "entry": "A dire dragon seemingly mutated someway by fell energies, larger and more violent than even most dragons.  "
+                },
+                {
+                    "dice_val": "3-4",
+                    "entry": "The runt of the litter. It\u2019s smaller than average and weaker, yet more intelligent and stealthy.  "
+                },
+                {
+                    "dice_val": "5-6",
+                    "entry": "A new parent protecting its eggs. It is proud and excited for them but will protect them to the death.  "
+                },
+                {
+                    "dice_val": "7-8",
+                    "entry": "Part of a long family lineage of dragons and trying to live up to the expectations of that.  "
+                },
+                {
+                    "dice_val": "9-10",
+                    "entry": "The survivor of an attack that haunts it. Whatever this attack was, it deeply disturbs the dragon whenever anything similar happens. For example, the dragon may freeze and panic around fire.  "
+                },
+                {
+                    "dice_val": "11-12",
+                    "entry": "One half of a pair of twins. It is very connected to its twin.  "
+                },
+                {
+                    "dice_val": "13-14",
+                    "entry": "Fond of staying in humanoid form. It lives as a human, or similar race, living the normal life of a mortal and enjoying it greatly.   "
+                },
+                {
+                    "dice_val": "15-16",
+                    "entry": "A powerful wild mage. It uses spells and breath attacks that often cause completely unexpected chaotic surges of magic.  "
+                },
+                {
+                    "dice_val": "17-18",
+                    "entry": "A powerful wizard who has a large tome of magic. It adores magic and tries to learn as much as possible.  "
+                },
+                {
+                    "dice_val": "19-20",
+                    "entry": "Tainted by fiends, making it demonic and more evil than normal. The dragon is the lord of many minor demons that do its bidding.  "
+                },
+                {
+                    "dice_val": "21-22",
+                    "entry": "Tainted by celestials making it holy and good. The dragon is worshipped by many due to its holiness.  "
+                },
+                {
+                    "dice_val": "23-24",
+                    "entry": "A fey dragon, giving it an affinity for the Feywild and to nature. It seems constantly surrounded by flowers and fairies and is quite the trickster.  "
+                },
+                {
+                    "dice_val": "25-26",
+                    "entry": "An energetic builder who has actually tried to make its lair into the perfect dungeon. It will eagerly lure in and tempt people into it. It would even be excited if someone survived the entire dungeon.  "
+                },
+                {
+                    "dice_val": "27",
+                    "entry": "A self-styled mercenary, hunting down either heroes or evildoers. It hunts down these people and takes great pride in killing them.   "
+                },
+                {
+                    "dice_val": "28-29",
+                    "entry": "Fond of meditation and has spent years reaching inner enlightenment and tranquility.   "
+                },
+                {
+                    "dice_val": "30-31",
+                    "entry": "Very eager to make friends. Although making friends for a dragon often involves \u2018playing\u2019 with them in ways similar to a cat playing with a mouse.  "
+                },
+                {
+                    "dice_val": "32-33",
+                    "entry": "Trying to become the most infamous dragon in the entire realm, almost to the extent of making itself a brand.  "
+                },
+                {
+                    "dice_val": "34-35",
+                    "entry": "Part of a pair mated for life. They\u2019re very unwilling to separate.  "
+                },
+                {
+                    "dice_val": "36-37",
+                    "entry": "Actually very stealthy. It will lay traps, bait an enemy, and then attack from the shadows.   "
+                },
+                {
+                    "dice_val": "38-39",
+                    "entry": "Undead but trying to cling to what it once was without losing its soul and its mind.  "
+                },
+                {
+                    "dice_val": "40",
+                    "entry": "Not afraid of using technology. It has learnt from rock gnomes various steam and clockwork powered technologies, and it has created several auto turrets to use in its defenses.  "
+                },
+                {
+                    "dice_val": "41",
+                    "entry": "Highly religious. It worships its god or gods strongly and will go to the extent of performing great rituals or sacrifices.   "
+                },
+                {
+                    "dice_val": "42-43",
+                    "entry": "The god-like leader of a cult of followers. It of course loves this as godhood strokes the ego.  "
+                },
+                {
+                    "dice_val": "44-45",
+                    "entry": "Highly emotional and will go through manic swings in its emotions. The dragon is kind and caring one day, and destructive the next.  "
+                },
+                {
+                    "dice_val": "46",
+                    "entry": "Connected to the environment around its lair in a profound way. It is able to manipulate the surrounding region, and it protects its territory fiercely.  "
+                },
+                {
+                    "dice_val": "47",
+                    "entry": "A mad scientist that uses arcane magic to do twisted experiments on itself and others. Its lair is full of these experiments.  "
+                },
+                {
+                    "dice_val": "48",
+                    "entry": "Party to an agreement with a monster-hunting guild to kill those applicants that get annoying after they pay in their initial application payments.   "
+                },
+                {
+                    "dice_val": "49-50",
+                    "entry": "Respectful of mortals and smaller creatures. It sees meaning in all life, even something as small as an insect.  "
+                },
+                {
+                    "dice_val": "51-52",
+                    "entry": "A king of a small land. The dragon wears a crown, and may be a harsh king, but the locals wont argue with a dragon.  "
+                },
+                {
+                    "dice_val": "53",
+                    "entry": "Very interested in medicine and will heal and fix up anyone near death, even those trying to kill it. They will then keep them in a dungeon until they regain strength.  "
+                },
+                {
+                    "dice_val": "54-55",
+                    "entry": "Almost entirely feral and primal.  "
+                },
+                {
+                    "dice_val": "56-57",
+                    "entry": "Fond of living in animal form, experiencing the wild. It has picked up many animal-like traits due to this.  "
+                },
+                {
+                    "dice_val": "58-59",
+                    "entry": "Extremely intelligent, or thinks it is. It tries to use its mind to solve problems, and, of course, it thinks it\u2019s better at this than everyone else.  "
+                },
+                {
+                    "dice_val": "60-61",
+                    "entry": "Very charming and charismatic. It will actually talk its way out of, or into, sticky situations.  "
+                },
+                {
+                    "dice_val": "62",
+                    "entry": "Not a blood-born dragon, but it was created by magic or some other source. This makes it confused about its life and creation.  "
+                },
+                {
+                    "dice_val": "63-64",
+                    "entry": "Adopted. As a wyrmling, it was raised by mortals. If they were kind, the dragon loves mortals. If they were cruel, the dragon harbors a hatred for mortals that borders on madness.  "
+                },
+                {
+                    "dice_val": "65-66",
+                    "entry": "Completely insane. Perhaps, this was caused by magic or some kind of drug abuse.  "
+                },
+                {
+                    "dice_val": "67",
+                    "entry": "More comfortable in flight than on the ground. It tries to touch the ground as little as possible. It even flies in its sleep, hovering above the ground.   "
+                },
+                {
+                    "dice_val": "68",
+                    "entry": "Unable or unwilling to fly. It never leaves the ground, despite having wings. The dragon has learnt to burrow instead when other dragons might fly.  "
+                },
+                {
+                    "dice_val": "69",
+                    "entry": "Extremely fast and agile, but not particularly strong. The dragon is able to dish out many attacks at one go that deal small but biting damage.   "
+                },
+                {
+                    "dice_val": "70",
+                    "entry": "Slow, lumbering, but deadly. When this dragon eventually gets to combat, its blows are highly destructive.  "
+                },
+                {
+                    "dice_val": "71",
+                    "entry": "Honorable. It has a strange honor code, only ever wanting to fight when it follows its precise set of rules. When people break this code, the dragon gets angry and unleashes its true power.  "
+                },
+                {
+                    "dice_val": "72",
+                    "entry": "A member of a community. The dragon is part of a large community of friendly, or not so friendly dragons, who send messages and gifts to each other on a regular basis.  "
+                },
+                {
+                    "dice_val": "73-74",
+                    "entry": "Sleeping. It hibernates for centuries at a time\u2026 leading to a lot of confusion. Its snoring is so loud it is mistaken for wind.  "
+                },
+                {
+                    "dice_val": "75",
+                    "entry": "False. The dragon tries to be the opposite alignment of its natural state\u2026 While it tries hard, it still feels urges and can lose control.  "
+                },
+                {
+                    "dice_val": "76",
+                    "entry": "A singer and composer. It considers itself a master bard and will write songs and music. The music may be good, but dragons are not the best at singing or playing the lute.  "
+                },
+                {
+                    "dice_val": "77",
+                    "entry": "Cursed with vampirism. While this doesn\u2019t work exactly the same as with humanoids, it has given the dragon a ceaseless hunger for blood.  "
+                },
+                {
+                    "dice_val": "78",
+                    "entry": "Cursed with lycanthropy. While it doesn\u2019t work the same as with humanoids, the dragon is amazingly violent beneath a full moon, and it hates silver.  "
+                },
+                {
+                    "dice_val": "79",
+                    "entry": "Terminally ill and is either trying to help or to hinder the world as much as possible in its dying days.  "
+                },
+                {
+                    "dice_val": "80",
+                    "entry": "An exotic merchant. It runs a shop for those customers that are strong enough or clever enough to survive the trip through its lair.  "
+                },
+                {
+                    "dice_val": "81",
+                    "entry": "A brilliant mastermind, a game master that plays with its pawns in one huge game, a game of dungeons and dragons.  "
+                },
+                {
+                    "dice_val": "82",
+                    "entry": "Mostly lawful. It follows \u2018the law\u2019 of the land, but it might occasionally stretch laws to allow it do what it wants.  "
+                },
+                {
+                    "dice_val": "83",
+                    "entry": "Greedy but appreciative. It will be kind to those that give it gifts that it deems exciting enough.  "
+                },
+                {
+                    "dice_val": "84",
+                    "entry": "A lusty beast, which can be rather dangerous especially when it gets its eye on a party member.  "
+                },
+                {
+                    "dice_val": "85",
+                    "entry": "A kingpin. It employs adventurers or mercenaries across the land, giving them funds to do things the dragon is simply to lazy to do.  "
+                },
+                {
+                    "dice_val": "86",
+                    "entry": "A glutton for food, drink, and just about everything.  "
+                },
+                {
+                    "dice_val": "87",
+                    "entry": "Full of pride and vanity. This dragon has trouble looking away from the mirror.  "
+                },
+                {
+                    "dice_val": "88",
+                    "entry": "Greedy, moreso than most dragons. If anyone has any treasure in any way, the dragon needs it.  "
+                },
+                {
+                    "dice_val": "89",
+                    "entry": "Lazy. Why do anything when you can rest? It doesn\u2019t want to bother any one as much as it just wants to sleep and be left alone.  "
+                },
+                {
+                    "dice_val": "90",
+                    "entry": "Vengeful. If someone wrongs this dragon even slightly, it will come at them, their children, their children\u2019s children as well as every town they have been through ever.  "
+                },
+                {
+                    "dice_val": "91",
+                    "entry": "A guardian. It is protecting a powerful artifact of intense magical power.  "
+                },
+                {
+                    "dice_val": "92",
+                    "entry": "Lonely, and only wants to find friends.  "
+                },
+                {
+                    "dice_val": "93",
+                    "entry": "A bully. It bullies all the other dragons and monsters in the area, becoming their leader.  "
+                },
+                {
+                    "dice_val": "94",
+                    "entry": "Paranoid. It works intensely on illusions and creates illusionary traps and environments.  "
+                },
+                {
+                    "dice_val": "95",
+                    "entry": "A thug. It demands protection money and food from nearby settlements.  "
+                },
+                {
+                    "dice_val": "96",
+                    "entry": "Very shy. It suffers from severe social anxiety and doesn\u2019t want to talk to anyone.  "
+                },
+                {
+                    "dice_val": "97",
+                    "entry": "Conniving. It enjoys traipsing about in its human form, influencing the entire realm and doing dark dealings.  "
+                },
+                {
+                    "dice_val": "98",
+                    "entry": "A homebody. It only leaves its lair during a certain season each year.  "
+                },
+                {
+                    "dice_val": "99",
+                    "entry": "A fame-seeker. It wants to die in such a way that legends and songs will be created after it. It may actually try and orchestrate this.  "
+                },
+                {
+                    "dice_val": "100",
+                    "entry": "Sick with the flu. A dragon sneeze is a powerful, but embarrassing weapon.  "
+                }
+            ]
+        },
+        {
+            "dice": "d100",
+            "name": "Speech: When it comes to conversation, the dragon...",
+            "table_entries": [
+                {
+                    "dice_val": "01-05",
+                    "entry": "Is offended by those who will not speak Draconic, and it refuses to speak in any other tongue.  "
+                },
+                {
+                    "dice_val": "06-10",
+                    "entry": "Knows many languages and loves to talk.  "
+                },
+                {
+                    "dice_val": "11-15",
+                    "entry": "Is mute or refuses to talk.  "
+                },
+                {
+                    "dice_val": "16-20",
+                    "entry": "Talks very slowly and conservatively.  "
+                },
+                {
+                    "dice_val": "21-25",
+                    "entry": "Speaks its mind very simply.  "
+                },
+                {
+                    "dice_val": "26-30",
+                    "entry": "Speaks only in riddles and metaphors.  "
+                },
+                {
+                    "dice_val": "31-35",
+                    "entry": "Tends to ask constant questions but give no answers.   "
+                },
+                {
+                    "dice_val": "36-40",
+                    "entry": "Is very flirty. Uncomfortably so.  "
+                },
+                {
+                    "dice_val": "41-45",
+                    "entry": "Mimics anyone that talks to them.  "
+                },
+                {
+                    "dice_val": "46-50",
+                    "entry": "Will find any excuse to argue.  "
+                },
+                {
+                    "dice_val": "51-55",
+                    "entry": "Uses its breath weapon as violent punctuation.  "
+                },
+                {
+                    "dice_val": "56-60",
+                    "entry": "Speaks using illusions like charades.   "
+                },
+                {
+                    "dice_val": "61-65",
+                    "entry": "Is very friendly until someone swears and then is extremely offended and angry.  "
+                },
+                {
+                    "dice_val": "66-70",
+                    "entry": "Laughs darkly almost whenever possible.  "
+                },
+                {
+                    "dice_val": "71-75",
+                    "entry": "Growls out most of its words.  "
+                },
+                {
+                    "dice_val": "76-80",
+                    "entry": "Speaks very broken language.  "
+                },
+                {
+                    "dice_val": "81-85",
+                    "entry": "Refers to itself in third person.  "
+                },
+                {
+                    "dice_val": "86-90",
+                    "entry": "Only speaks through a scribe interpreter.   "
+                },
+                {
+                    "dice_val": "91-95",
+                    "entry": "Gets uncomfortably close as it speaks.  "
+                },
+                {
+                    "dice_val": "96-100",
+                    "entry": "Seems to know everything about everyone it talks too.  "
+                }
+            ]
+        },
+        {
+            "dice": "d100",
+            "name": "Hoard: Each dragon is compelled to hoard what it treasures, and this dragon\u2019s hoard is...",
+            "table_entries": [
+                {
+                    "dice_val": "01-04",
+                    "entry": "A sea of gold and silver coins.  "
+                },
+                {
+                    "dice_val": "05-07",
+                    "entry": "Gold, but only the currency of one race, and oddly not the race in the nearby areas.  "
+                },
+                {
+                    "dice_val": "08-11",
+                    "entry": "Carefully organized; money is in neat stacks and every treasure is organized using a complex system.  "
+                },
+                {
+                    "dice_val": "12-14",
+                    "entry": "All famous art, paintings and statues. It will commission paintings of itself, and go to art shows in disguise.  "
+                },
+                {
+                    "dice_val": "15-17",
+                    "entry": "Food. The dragon loves to eat and sees food as a potential to be an art form. It actually hires chefs to cook the best food possible.  "
+                },
+                {
+                    "dice_val": "18-20",
+                    "entry": "The frozen or petrified statuesque forms of adventurers that tried to kill it. It will tell the tales of their attempts proudly and with great interest.  "
+                },
+                {
+                    "dice_val": "21-24",
+                    "entry": "Stories and legends. It loves to hear and tell stories and has an obsession with bards.  "
+                },
+                {
+                    "dice_val": "25-28",
+                    "entry": "Music. It constantly needs music playing in its lair, and it gets very agitated if there is none.  "
+                },
+                {
+                    "dice_val": "29-31",
+                    "entry": "A zoo of various monsters and creatures. It aims to have two of every race at one point, male and female.   "
+                },
+                {
+                    "dice_val": "32-34",
+                    "entry": "Buildings. This dragon hoards real estate and territory. In disguise, it owns and buys land. The land is more important than the people that live there, but it will help the people if it helps them get more land.  "
+                },
+                {
+                    "dice_val": "35-38",
+                    "entry": "Gemstones. This dragon has little time for money but loves gemstones. Preferably cut.  "
+                },
+                {
+                    "dice_val": "39-42",
+                    "entry": "A library of books and stories. Knowledge is its passion.  "
+                },
+                {
+                    "dice_val": "43-46",
+                    "entry": "Magical artifacts from all across the world.   "
+                },
+                {
+                    "dice_val": "47-49",
+                    "entry": "A very beautiful mansion that it uses like a doll house, furnished with the finest in appearance and luxury.  "
+                },
+                {
+                    "dice_val": "50-52",
+                    "entry": "People it deems interesting that it either enslaves or convinces to stay.  "
+                },
+                {
+                    "dice_val": "53-55",
+                    "entry": "Narcotics. The dragon loves to try different types of drugs, such as pipeweeds and psychotropic mushrooms. Of course it needs to take a large dose to gain the desired effect.  "
+                },
+                {
+                    "dice_val": "56-58",
+                    "entry": "A large and beautiful garden that it keeps and tends.  "
+                },
+                {
+                    "dice_val": "59-61",
+                    "entry": "Its children. The dragon has many pure and half-blood children and takes care of them lovingly.  "
+                },
+                {
+                    "dice_val": "62-64",
+                    "entry": "Potions and all kinds of strange alchemical creations.  "
+                },
+                {
+                    "dice_val": "65-67",
+                    "entry": "The corpses and remains of other dragons. The dragon is particularly interested in weapons and armors made of dragonscales.  "
+                },
+                {
+                    "dice_val": "68-70",
+                    "entry": "Artisan jewelry that the dragon actually wears on its body.  "
+                },
+                {
+                    "dice_val": "71-73",
+                    "entry": "Literally everything. This leads to this dragons hoard being very random and chaotic.  "
+                },
+                {
+                    "dice_val": "74-76",
+                    "entry": "Objects of power linked to its element.  "
+                },
+                {
+                    "dice_val": "77-79",
+                    "entry": "Minions that swear loyalty to the dragon.  "
+                },
+                {
+                    "dice_val": "80-82",
+                    "entry": "Gemstones and other things that are the same color as the dragon.  "
+                },
+                {
+                    "dice_val": "83-85",
+                    "entry": "Very sparsely laid out over many rooms with a single treasured object in each room"
+                },
+                {
+                    "dice_val": "86-88",
+                    "entry": "Very dense and compact with a large amount of treasure forced into one small room.  "
+                },
+                {
+                    "dice_val": "89-93",
+                    "entry": "Hidden. The dragon assumes visitors intend to steal its treasure.  "
+                },
+                {
+                    "dice_val": "94-96",
+                    "entry": "Up for being shared. The dragon will often share its hoard to those that need it, endorsing heroes. Often though, this is a loan to be repaid.  "
+                },
+                {
+                    "dice_val": "97-100",
+                    "entry": "Vast and very old. The hoard has been passed down for several generations.  "
+                }
+            ]
+        },
+        {
+            "dice": "d100",
+            "name": "Lair: This dragon\u2019s lair is...",
+            "table_entries": [
+                {
+                    "dice_val": "01-04",
+                    "entry": "An ancient ruin from an ancient race.  "
+                },
+                {
+                    "dice_val": "05-08",
+                    "entry": "On the peak of the tallest mountain with few paths leading up to it.  "
+                },
+                {
+                    "dice_val": "09-12",
+                    "entry": "A temple built for the dragon personally by its worshippers or slaves.  "
+                },
+                {
+                    "dice_val": "13-15",
+                    "entry": "On a flying island above the land. Lush or barren, it is a very safe and secure place.  "
+                },
+                {
+                    "dice_val": "16-18",
+                    "entry": "In the underwater wreckage of a galley, perhaps with caverns and ruins below it.  "
+                },
+                {
+                    "dice_val": "19-22",
+                    "entry": "An abandoned mine. The mineshafts are filled with minions who defend the dragon.  "
+                },
+                {
+                    "dice_val": "23-25",
+                    "entry": "A cavern carved out of stone by the dragon itself. The walls are full of these sharp cuts scraped by the dragon and the chambers are of a size that matches the dragon\u2019s wingspan.  "
+                },
+                {
+                    "dice_val": "26-29",
+                    "entry": "A reclaimed castle. The surrounding area is plains or desert, and the castle was most likely abandoned by its old owners.  "
+                },
+                {
+                    "dice_val": "30-32",
+                    "entry": "A huge pyramid, surrounded by dangerous deserts.  "
+                },
+                {
+                    "dice_val": "33-35",
+                    "entry": "A giant tree, perhaps dead or in a lush environment. A tree large enough to hold a dragon is impressive.  "
+                },
+                {
+                    "dice_val": "36-38",
+                    "entry": "In a series of Underdark caverns. The Underdark can be a great place for a dragon that\u2019s trying to hide away.  "
+                },
+                {
+                    "dice_val": "39-42",
+                    "entry": "Inside a volcano. The heat is quite comfortable for a fire-breathing dragon, but also provides defense from attackers.  "
+                },
+                {
+                    "dice_val": "43-45",
+                    "entry": "An abandoned settlement. The towns walls now protect the dragon who claims the empty town.  "
+                },
+                {
+                    "dice_val": "46-49",
+                    "entry": "A tomb. The dragon has little respect for the dead of mortals, so the tomb\u2019s layout has proved a useful lair.  "
+                },
+                {
+                    "dice_val": "50-53",
+                    "entry": "On a lonely island away from most of the world.  "
+                },
+                {
+                    "dice_val": "54-56",
+                    "entry": "A structure built by its minions (goblins and the sort) with a ramshackle base. It seems like it will fall apart at any time.  "
+                },
+                {
+                    "dice_val": "57-59",
+                    "entry": "Atop a high, flat mesa that is perfect for dragon duels.  "
+                },
+                {
+                    "dice_val": "60-62",
+                    "entry": "Behind a waterfall. The falls hide the entrance to the large cave system in which the dragon lairs.  "
+                },
+                {
+                    "dice_val": "63-65",
+                    "entry": "No where. The dragon is nomadic and has no fixed home, always travelling for some reason.  "
+                },
+                {
+                    "dice_val": "66-68",
+                    "entry": "A large roost community of several young dragons.  "
+                },
+                {
+                    "dice_val": "69-71",
+                    "entry": "A pocket dimension of its own creation.   "
+                },
+                {
+                    "dice_val": "72-74",
+                    "entry": "A realm designed to imprison it, perhaps the dragon took control of the realm after its imprisonment.  "
+                },
+                {
+                    "dice_val": "75-78",
+                    "entry": "On an elemental plane linked to the dragon.  "
+                },
+                {
+                    "dice_val": "79-81",
+                    "entry": "A citadel designed to imprison the dragon, and perhaps also other beings of similar power waiting to be freed.  "
+                },
+                {
+                    "dice_val": "82-84",
+                    "entry": "On the site of a great battle. The ground littered with corpses, making an unsettling stomping ground for a dragon.  "
+                },
+                {
+                    "dice_val": "85-87",
+                    "entry": "A ravine where the dragon can enter with ease.  "
+                },
+                {
+                    "dice_val": "88-90",
+                    "entry": "Built by the dragon. The best homes are made yourself.  "
+                },
+                {
+                    "dice_val": "91-94",
+                    "entry": "On an arctic glacier, cold and far away.  "
+                },
+                {
+                    "dice_val": "95-97",
+                    "entry": "Underneath a settlement, likely hidden from most of the population.  "
+                },
+                {
+                    "dice_val": "98-100",
+                    "entry": "A mountain top shrine.   "
+                }
+            ]
+        },
+        {
+            "dice": "d100",
+            "name": "The dragon\u2019s lair also has...",
+            "table_entries": [
+                {
+                    "dice_val": "01-03",
+                    "entry": "A place of magical power, a ley line that lets the dragon tap into raw magic.  "
+                },
+                {
+                    "dice_val": "04-07",
+                    "entry": "A place of elemental power.  "
+                },
+                {
+                    "dice_val": "08-10",
+                    "entry": "A portal between realms.  "
+                },
+                {
+                    "dice_val": "11-14",
+                    "entry": "Skinned monsters in every hallway. The decorator has a macabre sense of style.  "
+                },
+                {
+                    "dice_val": "15-18",
+                    "entry": "A library of ancient tomes.  "
+                },
+                {
+                    "dice_val": "19-21",
+                    "entry": "A room of the dragon\u2019s concubines of various races.  "
+                },
+                {
+                    "dice_val": "22-24",
+                    "entry": "Puzzles that requires a dragon\u2019s strength to operate.  "
+                },
+                {
+                    "dice_val": "25-27",
+                    "entry": "Arcane traps.  "
+                },
+                {
+                    "dice_val": "28-30",
+                    "entry": "Murals of the dragon\u2019s personal conquests.  "
+                },
+                {
+                    "dice_val": "31-34",
+                    "entry": "A clutch of dragon eggs.  "
+                },
+                {
+                    "dice_val": "35-38",
+                    "entry": "Illusions playing tricks on all that enter.  "
+                },
+                {
+                    "dice_val": "39-42",
+                    "entry": "Scaly-skin molted all over the floors.  "
+                },
+                {
+                    "dice_val": "43-45",
+                    "entry": "A fake hoard filled with a sea of coin mimics.   "
+                },
+                {
+                    "dice_val": "46-49",
+                    "entry": "Several holes in the roof through which the dragon can enter and exit while in flight.  "
+                },
+                {
+                    "dice_val": "50-52",
+                    "entry": "Friendly inhabitants that live with the dragon.  "
+                },
+                {
+                    "dice_val": "53-55",
+                    "entry": "Many statues and paintings of the dragon.  "
+                },
+                {
+                    "dice_val": "56-59",
+                    "entry": "Maze-like corridors.  "
+                },
+                {
+                    "dice_val": "60-62",
+                    "entry": "Puzzles that are easy if one understands Draconic.  "
+                },
+                {
+                    "dice_val": "63-65",
+                    "entry": "A huge chess set with pawns the size of people.  "
+                },
+                {
+                    "dice_val": "66-69",
+                    "entry": "The bones of one of the dragon\u2019s parents.  "
+                },
+                {
+                    "dice_val": "70-72",
+                    "entry": "Warding stones outside from several races warning of danger.  "
+                },
+                {
+                    "dice_val": "73-75",
+                    "entry": "A ghost bound to guard the lair and politely turn away invaders.  "
+                },
+                {
+                    "dice_val": "76-78",
+                    "entry": "A cloud of smoke and mist around it at all times.  "
+                },
+                {
+                    "dice_val": "79-81",
+                    "entry": "A huge pantry of all kinds of raw meats.  "
+                },
+                {
+                    "dice_val": "82-84",
+                    "entry": "An illusory dragon to bait enemy spells and attacks.  "
+                },
+                {
+                    "dice_val": "85-87",
+                    "entry": "Strange music traveling throughout the whole lair.  "
+                },
+                {
+                    "dice_val": "88-90",
+                    "entry": "An alarming amount of mold and decay.  "
+                },
+                {
+                    "dice_val": "91-93",
+                    "entry": "Strange and violent weather in its vicinity at all times.  "
+                },
+                {
+                    "dice_val": "94-97",
+                    "entry": "Flooded caverns full of waterborne monsters.  "
+                },
+                {
+                    "dice_val": "98-100",
+                    "entry": "One huge chamber with pillars breaking it up.  "
+                }
+            ]
+        },
+        {
+            "dice": "d100",
+            "name": "Henchmen: Their lair is defended by...",
+            "table_entries": [
+                {
+                    "dice_val": "01-05",
+                    "entry": "Goblins who worship the dragon out of fear. The dragon does not care for their lives and hires them en masse.  "
+                },
+                {
+                    "dice_val": "06-10",
+                    "entry": "Mercenaries hired by the dragon to keep it safe. The races and skills do not matter to the dragon, so they may be a mixed bunch.  "
+                },
+                {
+                    "dice_val": "11-15",
+                    "entry": "Hobgoblin soldiers, highly trained professionals.  "
+                },
+                {
+                    "dice_val": "16-20",
+                    "entry": "The dragon\u2019s children, including purebred dragons and half-dragon creatures.  "
+                },
+                {
+                    "dice_val": "21-25",
+                    "entry": "The nightmares of all that enter.  "
+                },
+                {
+                    "dice_val": "26-30",
+                    "entry": "Kobolds with the intelligence of toddlers. They just want to help.  "
+                },
+                {
+                    "dice_val": "31-35",
+                    "entry": "Mortal cultists.  "
+                },
+                {
+                    "dice_val": "36-40",
+                    "entry": "A sect of mortal dragon knights.  "
+                },
+                {
+                    "dice_val": "41-45",
+                    "entry": "Wild beasts, lured in by the dragon.  "
+                },
+                {
+                    "dice_val": "46-50",
+                    "entry": "Intelligent beasts.  "
+                },
+                {
+                    "dice_val": "51-55",
+                    "entry": "Mephits and elementals suiting the dragon.  "
+                },
+                {
+                    "dice_val": "56-60",
+                    "entry": "Genasi linked to the dragon\u2019s element.  "
+                },
+                {
+                    "dice_val": "61-65",
+                    "entry": "Undead.  "
+                },
+                {
+                    "dice_val": "66-70",
+                    "entry": "Fiends.  "
+                },
+                {
+                    "dice_val": "71-75",
+                    "entry": "Shadowy versions of the party raiding the dungeon.  "
+                },
+                {
+                    "dice_val": "76-80",
+                    "entry": "Seemingly harmless warning signs that hold deadly curses for those who approach.  "
+                },
+                {
+                    "dice_val": "81-85",
+                    "entry": "Terrified peasants.  "
+                },
+                {
+                    "dice_val": "86-90",
+                    "entry": "Arcane defense turrets.  "
+                },
+                {
+                    "dice_val": "91-95",
+                    "entry": "Giant Insects.  "
+                },
+                {
+                    "dice_val": "96-100",
+                    "entry": "Smaller dragon-like creatures.  "
+                }
+            ]
+        }
+    ],
+    "title": "Dragons",
+    "use_with": [
+        {
+            "link": "43ek9v",
+            "title": "Castle"
+        },
+        {
+            "link": "3unfbm",
+            "title": "Cavern"
+        },
+        {
+            "link": "3tich6",
+            "title": "Desert"
+        },
+        {
+            "link": "3sgzxb",
+            "title": "Forest"
+        },
+        {
+            "link": "3u4a05",
+            "title": "Jungle"
+        },
+        {
+            "link": "42rm5s",
+            "title": "Mountains"
+        },
+        {
+            "link": "47x04h",
+            "title": "Plains"
+        },
+        {
+            "link": "43c2q8",
+            "title": "Swamp"
+        },
+        {
+            "link": "3xpb4r",
+            "title": "Temple"
+        },
+        {
+            "link": "427hd8",
+            "title": "Tomb"
+        }
+    ]
+}

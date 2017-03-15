@@ -1,0 +1,721 @@
+{
+    "description": "These are tables for generating an interesting thief to serve as foe, foil, or ally to your PCs.",
+    "id": "4034w3",
+    "keywords": [
+        "thief",
+        "rogue",
+        "criminal",
+        "thug",
+        "footpad",
+        "mugger",
+        "gangster",
+        "gangmember",
+        "outlaw",
+        "robber",
+        "fagan"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/4034w3",
+    "related_tables": [
+        {
+            "link": "46ma8g",
+            "title": "Bards"
+        },
+        {
+            "link": "3w3gbj",
+            "title": "Graverobbers"
+        },
+        {
+            "link": "3sj9ub",
+            "title": "Town NPCs"
+        },
+        {
+            "link": "3uzziq",
+            "title": "Treasure hunters"
+        }
+    ],
+    "tables": [
+        {
+            "dice": "d12",
+            "name": "The thief is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A veteran dungeon delver."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A desperate footpad."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A reckless fortune seeker.\t"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A well-known adventurer."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A brash, young fool."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A student of the craft."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A charismatic swindler."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A mysterious foreigner."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A femme fatale."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A charming rogue."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A dashing swashbuckler."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A brutish thug."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "The thief has...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A long, hooked nose."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A bent, broken nose."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A cute little button nose."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A scar below the left eye."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Pockmarked cheeks."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "High cheek bones."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A pointy chin."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A thug's tattoo on the arm (d8): 1. crossed bones; 2. dagger; 3. dragon; 4. eagle; 5. skull; 6. snake; 7. spider web; 8. thorns."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A sailor's tattoo on the arm (d6): 1. anchor; 2. fish; 3. mermaid; 4. octopus; 5. shark; 6. whale."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "An open shirt and a very hairy chest."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A five o'clock shadow."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "An extravagant mustache."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "The thief wears...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A flashy earring."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A dark red cape."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Shiny leather boots."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Boots with a hole in the left toe."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A leather baldric."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A wide-brimmed hat."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A heavy gold chain around the neck."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A long dark ponytail."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Luscious golden curls."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A ruffled shirt."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A stylish coat."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A handkerchief in his breast pocket."
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "The thief carries...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Some hemp rope and a silk handkerchief."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Several over-sized sacks."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Several torches and a much-used knife."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A pocketbook of notes and maps."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A dagger in each boot."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A beautiful antique scabbard."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A well-worn lantern."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Climbing gear\u2014pitons, hammer, and rope."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "An organized set of lockpicks."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A crowbar."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "An adjustable lockpick."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A mask."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "The token of a love."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "Letters for blackmail."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "A lucky charm (d4): 1. rabbit's foot; 2. lucky coin; 3. horseshoe; 4. four-leafed clover."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "A flask of oil."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "A treasure map."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "A flask filled with spirits."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "A wineskin."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "A little jar of mustache wax."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The thief...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Hums or sings while walking."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Constantly brushes the hair back from out of his or her face."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Laughs maniacally at everything."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Never smiles and never laughs."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Scratches the elbow frequently."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Picks at his or her teeth after meals."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "The thief is armed with...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Brass knuckles."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A shortsword."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Several throwing knives."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A crossbow with poisoned bolts."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A narrow-bladed dagger."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A serrated dagger."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A club and a knife."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A rapier."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A hand crossbow."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A garrote and a dagger."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "The thief is looking for...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Accomplices to carry out a job."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Revenge against a rival thief."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Revenge against an officer of the law."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "An easy mark."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Extra muscle for a job."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Rumors that may lead to a big score."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "An ear to listen to some boasting."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "The location of storied item of value."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Someone more wealthy than you."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A rowdy evening of carousing."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "The thief's modus operandi is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Petty theft."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Burglary."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Shoplifting."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Mugging."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Pickpocketing."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Running heists of gems and precious metals."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Running heists of warehoused commodities."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Holding up outgoing boats or wagons."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The thief prefers to operate...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Alone."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "With a partner to provide extra muscle if things get rough."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "With a partner to serve as a look-out."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "With a partner to create a diversion."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "With a gang."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Wearing a mask."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "Aside from theft, the thief has been known to be involved in...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Distributing drugs (d4): 1. smokeleaf; 2. hallucinogenic mushrooms; 3. sleepysalt (a downer); 4. sharpsugar (an upper)."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Fencing stolen gems and precious metals."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Assassinations that look like accidents."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Assassinations that frame someone else."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Running brothels (d3): 1. exotic; 2. low; 3. high-class."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Shaking down legitimate local businesses for \"protection.\""
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Shaking down scandal-plagued city officials."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Serving as muscle for shady merchants and/or brothel-keepers."
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "Recently, the thief has been operating in or near...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A residential district."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "An artisan's shop or guildhall."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A merchant's office."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A inn."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A brothel."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A warehouse or shipyard."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A temple complex."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A cemetery."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "The town hall."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "An abandoned guildhall or warehouse."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A shantytown"
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "The residence of a wealthy individual."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "The palace"
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "A library or university."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "The market square."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "A gatehouse."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "A pub."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "A tavern."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "The docks."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "The bridge."
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "The thief's favorite marks include...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Fishermen and sailors."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Beggars and hobos."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Merchants and moneychangers."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Jewelers and gemcutters."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Politicians and magistrates."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Guards and sheriffs."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Soldiers and sellswords."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Musicians and storytellers."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Farmers and herders."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Servants and slaves."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Priests and sages."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Women and children."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "Peasant girls and farm wives."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "Young noblewomen."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "Old women."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "Noblemen."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "Harlots and madames."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "Barkeeps and barmaids"
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "Peddlers and shopkeepers."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "Other thieves."
+                }
+            ]
+        }
+    ],
+    "title": "Thieves",
+    "use_with": [
+        {
+            "link": "3t2qzc",
+            "title": "Outlaw bands"
+        },
+        {
+            "link": "3xys5x",
+            "title": "Pickpocket loot"
+        },
+        {
+            "link": "4780bg",
+            "title": "Poisons"
+        },
+        {
+            "link": "43k8fr",
+            "title": "Prisons"
+        },
+        {
+            "link": "3tkdty",
+            "title": "Reputation and rumors"
+        },
+        {
+            "link": "4b8u29",
+            "title": "Reputations of adventurers"
+        },
+        {
+            "link": "484u5s",
+            "title": "Silly insults"
+        },
+        {
+            "link": "3t5q2e",
+            "title": "Urban gangs"
+        }
+    ]
+}

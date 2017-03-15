@@ -1,0 +1,264 @@
+{
+    "description": "These are tables for generating a series of gladiatorial events to entertain or to challenge your PCs.",
+    "id": "3xyexk",
+    "keywords": [
+        "gladiator",
+        "savage",
+        "arena",
+        "fighter",
+        "games",
+        "pit fighting",
+        "brawling",
+        "melee",
+        "sports",
+        "entertainment",
+        "warrior"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/3xyexk",
+    "related_tables": [],
+    "tables": [
+        {
+            "dice": "d8",
+            "name": "The arena is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "An ancient stone structure used for centuries."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "An old stone structure used for generations."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A wondrous construction with grand stands, trap doors, and elevators."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A sturdy wooden structure, recently built."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A crisp stone structure, recently built."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A set of rickety wooden stands around a dirt ring."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A circle of rope surrounded by spectators and a few cages."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "An underground pit with spectators leaning over a railing above. "
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "The games are being held...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "In honor of the sovereign\u2019s birthday."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "In honor of a historical anniversary."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "In honor of a recent military victory."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "To turn a legitimate profit for the organizers."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "To turn a gambling profit for the organizers."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "To dispose of prisoners."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Strictly to entertain the masses. "
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "To determine a champion for a dangerous quest or traditional ceremony."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "The main event is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A battle royale or grand melee."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A reenactment of a historical battle."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A duel between two arena champions."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A duel between a champion and a severe underdog."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Feeding prisoners to beasts."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A battle of man versus beast (d8): 1. bears; 2. chimeras; 3. dragons; 4. giant spiders; 5. lions; 6. owlbears; 7. tigers; 8. wolves."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A chariot race or foot race."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Feats of strength."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "The day\u2019s champion wins...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A heavy purse of silver."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A sizable purse of gold."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "An expensive and ornate weapon."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "An expensive and ornate piece of armor."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A floral crown and a fine silver chain."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A floral crown and a bejeweled gold belt."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A fine silk cloak and a bejeweled silver chain."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A petition of the sovereign."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A position of honor in the army and a purse of silver."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A position of honor in the sovereign\u2019s guard."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A week of pampering and pleasure and a purse of silver."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A night with one of the nobles\u2019 wives and a purse of gold."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The crowd\u2019s attitude is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Rowdy and festive."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Eager and excited."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Relaxed and easy-going."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Hostile and tense."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Disappointed and angry."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Rowdy and rebellious."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "The crowd is made up of mostly...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Merchants, nobles, and the well-to-do."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Soldiers, officers, and camp-followers."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Local artisans and shopkeepers."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Local peasants and unskilled workers."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Foreigners and travelers."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Slaves, servants, and laborers."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Sailors, pirates, and knaves."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "People of all social strata."
+                }
+            ]
+        }
+    ],
+    "title": "Arena Games",
+    "use_with": [
+        {
+            "link": "3xyeke",
+            "title": "Gladiators"
+        }
+    ]
+}

@@ -1,0 +1,606 @@
+{
+    "description": "Use these tables for laying out an actively used temple complex. I tend to model temples after churches. There is a primary worship chamber where most prayer ceremonies are held. This chamber's size can vary greatly\u2014in a city, the temple might accommodate 1,000 worshipers or more at a time with room for crowds to spill out into a square in front of the temple; in a rural setting or for an obscure faith, the temple might accommodate 100 worshipers or less. Then there are adjacent rooms, wings, or other nearby buildings to support the operation of the temple. These tables are designed to work primarily with this design model in mind, but other layouts are possible.",
+    "id": "3xpb4r",
+    "keywords": [
+        "priest",
+        "priestess",
+        "temple",
+        "sanctuary",
+        "shrine",
+        "church",
+        "holy site",
+        "tabernacle",
+        "cathedral",
+        "basilica",
+        "chapel",
+        "temple of doom"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/3xpb4r",
+    "related_tables": [
+        {
+            "link": "40pjmd",
+            "title": "Monasteries"
+        },
+        {
+            "link": "427hd8",
+            "title": "Tombs"
+        }
+    ],
+    "tables": [
+        {
+            "dice": "d6",
+            "name": "Worshipers at the temple pray to...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "One god and only one god."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "One god primarily, but other gods occasionally or for specific petitions."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Several gods within a pantheon, but two gods above the rest."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "An entire pantheon, petitioning each god for specific needs."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "One god to whom the temple was not originally dedicated."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Several gods within a pantheon to whom the temple was not originally dedicated."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "The temple is dedicated to...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "The god of the sun/sky."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "The earth/mother goddess."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "The goddess of the harvest/seasons."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "The god of craft/knowledge."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "The god of darkness/secrets."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "The god of death/evil."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "The goddess of the hunt/woodlands."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "The goddess of love/beauty/fertility."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "The goddess of the moon/magic."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "The god of the seas/storms."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "The trickster/messenger god."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "The tyrant/war god."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "The temple is known for its...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Miraculous healers."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Compassionate healers."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Beautiful priestesses."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Wonderful music."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Accurate prophecies."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Collected wisdom."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Stunning architecture."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Unusual architecture."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Incredible collection of artwork."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A famous sculpture or painting."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Lengthy prayer services and vigils."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Lively prayer services and debates."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The temple\u2019s entrance is guarded by...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A sworn order of devout warriors."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Sellswords."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Frightening statues of monstrous beings."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Impressive, colossal statues of warriors."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Statues of beautiful maidens, beckoning visitors into a trap."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Nothing; the temple welcomes all."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "The temple\u2019s main floorplan is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Circular."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Ellipsoidal."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Triangular."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Square."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Rectangular."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Pentagonal."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Polygonal with many sides (d8): 1. six; 2. seven; 3. eight; 4. nine; 5. ten; 6. twelve; 7. thirteen; 8. twenty."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Cruciform."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "The temple complex is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Simple; a large main worship chamber with a handful of functional rooms adjoining."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Simple with a large annex; the annex contains many chambers."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Simple with fortifications."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Multi-layered; upper or lower layers are inaccessible to most visitors."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Multi-winged; some wings are inaccessible to most visitors."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Arranged in a concentric fashion; inner areas are inaccessible to most visitors."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Labyrinthine; designed to deliberately confuse outsiders."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Simple with an intricate complex hidden beneath the main worship chamber."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The temple grounds are dominated by...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Impenetrable stone walls."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "An intricate structure of stone arches and columns."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A colorful structure of painted wood and plaster."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A sturdy structure of finished wood."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A solid structure of oven-fired clay bricks."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A large structure with immense metal doors (d6): 1. brass; 2. bronze; 3. gold; 4. iron; 5. steel; 6. tin"
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "Many of the temple\u2019s interior walls are...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Rough hewn stone."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Smooth cut stone."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Painted or lacquered wood."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Unfinished hardwood."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Decorated with intricate mosaics."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Decorated with elaborate murals."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Decorated with relief carvings."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Decorated with sacred texts and runes."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Many of the temple\u2019s ceilings are...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Uncomfortably close to your head."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Connected to the floor by columns."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Painted with mythological scenes."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "So high its difficult to make out details."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Vaulted."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Domes or cupolas."
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "Rooms: The purpose of this room is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "An armory or barracks."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A guardroom or sentry post."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A cell for solitary prayer."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A cell for holding prisoners."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "An inquisition or torture chamber."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A priest\u2019s office or audience chamber."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A sanitarium or infirmary."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A ceremonial pool, bath, or fountain."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A morgue or mortuary."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A crypt for a person of importance (d4): 1. well-known hero; 2. powerful high priest; 3. obscure priest; 4. wealthy noble."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A room dedicated for specific rituals (d4): 1. conjurations; 2. divinations; 3. funerals; 4. healing miracles."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A chapel or shrine dedicated to a lesser deity, saint, or martyr."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "A classroom or dormitory."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "A library."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "A priest\u2019s quarters or robing room."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "A banquet room, large dining hall, or small dining room."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "A kitchen or pantry."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "A trophy room or art gallery."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "A stable or kennel."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "A workshop for temple craftsmen."
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "Features: You notice...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A small altar set in an alcove in the wall."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "The sound of bells ringing in a tower."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A wall sconce holding many candles."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Tall candles on holders, taller than a man."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "The tinkle of chimes from a nearby room."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A tapestry depicting a mythological scene."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A small fountain or reflecting pool."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "The sound of a gong from another room."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A large holy symbol embedded in the wall."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A huge book of sacred texts or prayers."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "The scent of incense burning nearby."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A kneeler beneath a small statue or icon."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "An oil lamp with colored glass panels."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "A mosaic set into the floor of the room."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "A wide fresco or mural depicting a mythological scene."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "The pipes of an immense organ running along the walls."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "Robes and cassocks hanging on hooks."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "An ornamental rug."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "A screen to hide priests from view."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "A statue of a recognizable figure."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Encounters: You come upon...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A young priest or priestess."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "An old priest or priestess."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A traveler from afar."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A regular, local worshiper."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A member of the temple\u2019s serving staff."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A member of the temple\u2019s guard."
+                }
+            ]
+        }
+    ],
+    "title": "Temples",
+    "use_with": [
+        {
+            "link": "3xyiqs",
+            "title": "Cults"
+        },
+        {
+            "link": "40wc26",
+            "title": "Cultists"
+        },
+        {
+            "link": "4boiw9",
+            "title": "Fiends"
+        },
+        {
+            "link": "3xq9nd",
+            "title": "Monks"
+        },
+        {
+            "link": "42rm5s",
+            "title": "Mountains"
+        },
+        {
+            "link": "3shczv",
+            "title": "Pantheons"
+        },
+        {
+            "link": "3whlp0",
+            "title": "Priests"
+        }
+    ]
+}

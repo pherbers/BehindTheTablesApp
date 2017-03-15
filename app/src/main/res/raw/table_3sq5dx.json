@@ -1,0 +1,790 @@
+{
+    "description": "These are tables for generating an interesting vampire to serve as foe or foil to your PCs.",
+    "id": "3sq5dx",
+    "keywords": [
+        "vampire",
+        "bat",
+        "vampirism",
+        "undead",
+        "nosferatu"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/3sq5dx",
+    "related_tables": [],
+    "tables": [
+        {
+            "dice": "d12",
+            "name": "In life, the vampire was...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "An alchemist or pyromancer."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "An assassin or poisonmaker."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A barkeep or barmaid."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A con artist or gambler."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A harlot or madame."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A hunter or woodsman."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A knight or sellsword."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A lord or lady."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A priest or monk."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A sailor or pirate."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A seer or mystic."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A thief or smuggler."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "Often, the vampire poses as...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A powerful noble."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "An eccentric scholar."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A mysterious foreigner."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A talented artist."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A polite shopkeeper."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A creepy peddler."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A femme fatale."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A charming rogue."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A friendly barkeep or barmaid."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A charismatic entertainer."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A religious fanatic."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A veteran soldier."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "In addition to draining blood, the vampire is fond of...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Shooting prey with an arrow or bolt from range."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Impaling prey."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Gutting or eviscerating prey."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Flaying prey."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Beheading prey."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Strangling prey."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Hanging prey."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Burying prey alive."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Drowning prey."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Throwing prey off a roof. "
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Severely beating prey."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Dismembering prey."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "The vampire\u2019s goals include...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Procreating."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Corrupting and influencing the politics of the city or region."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Domination of the city or region\u2019s politics."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Revenge against a rival vampire."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Revenge against a living person, family, or organization."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Seeking hedonistic pleasure."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Uncovering ancient secrets of death and undeath."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Enslaving the living to create an easy source of food for vampires."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "The vampire\u2019s base of operations is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A beautiful manor house."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A run-down castle."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "An ancient fortress."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A quaint house on a quiet street."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A tavern."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A brothel."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "An unpleasant underground lair."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A crypt in a graveyard."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A crypt beneath a temple."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "The vampire is a transient."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The vampire prefers to hunt...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Just before sunrise."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Just after sunset."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "In the early evening."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Well into the night."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "The toll of midnight."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "After midnight."
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "The vampire\u2019s favorite prey are...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Fishermen and sailors."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Beggars and thieves."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Merchants and moneychangers."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Young noblemen."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Young noblewomen."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Old noblewomen."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Gamblers and drunks."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Priests and monks."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Priestesses."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Serving girls."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Slaves."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Barmaids."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "Harlots and madames."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "Circus performers."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "Foreign travelers."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "Farmwives."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "Peasant girls."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "Inquisitive children."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "Young children."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "Elves and the fey."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "The vampire refuses to feed on...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Ugly women."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Beautiful women."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Pregnant women."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Shy children."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Bold children."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Anyone with blue eyes."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Anyone with green eyes."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Anyone with blonde hair."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Anyone with red hair."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Anyone who is blind, deaf, or lame."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Big burly men."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Dwarves and underground dwellers."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The vampire can shapeshift to take the form of...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A tiny bat."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A swarm of bats."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A cloud of mist."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A swirl of shadows."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A wolf."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A giant bat."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "Even among vampires, the vampire is quite good at...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Charming humanoids."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Frightening humanoids."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Draining blood quickly."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Sniffing out living creatures."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Traveling overland quickly."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Disguising its true nature."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Negotiations."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Climbing."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The vampire\u2019s gravedirt is from...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A faraway land."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A local cemetery or temple."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A country village or manor."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A well-known castle or fortress."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A battlefield."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A remote forest or mountain."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "The vampire\u2019s associates include...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Less powerful vampires."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Skeletons, zombies, and other undead thralls."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Living thralls on which to feed."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Living thralls who provide pleasurable diversions."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Hundreds of bats."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Rats and maggots."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A pack of vicious wolves."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Members of a death cult."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "The local nobility."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "The local band of outlaws or assassins\u2019 guild."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "Even among vampires, the vampire is especially...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Agile."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Attractive."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Charming."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Cruel."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Domineering."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Intimidating."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Quick."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Sadistic."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Sleazy."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Smooth."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Sneaky."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Witty."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "The vampire often wears...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Shiny leather boots."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A black cape with a hood."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A black cape with a high collar."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A wide-brimmed hat."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A cap pulled low."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A low-cut shirt."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Tight-fitting clothes."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A family signet ring."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "An unusual brooch or necklace."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A waxy mustache."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "The vampire is unusually fond of or particular regarding...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Horticulture and floral arrangements."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Fashion trends."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Arms and armor maintenance."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Small animals."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Horses."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "High quality fabrics and leathers."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Foreign music."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Theater troupes and dancers."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Social status."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Personal hygiene."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Hair styles."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Dental hygiene."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "The vampire is particularly afraid of or takes special care to avoid...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Hallowed places."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Densely populated areas."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Sunlight."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Running water."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Sharp wooden objects."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Garlic."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Silver objects."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Relics of the gods."
+                }
+            ]
+        }
+    ],
+    "title": "Vampires",
+    "use_with": [
+        {
+            "link": "4ev9sw",
+            "title": "Dinner in an undead feasthall"
+        },
+        {
+            "link": "3sh0bv",
+            "title": "Forest, haunted"
+        },
+        {
+            "link": "427hd8",
+            "title": "Tombs"
+        },
+        {
+            "link": "4358in",
+            "title": "Monster hunters"
+        },
+        {
+            "link": "4aepj5",
+            "title": "Wolves"
+        }
+    ]
+}

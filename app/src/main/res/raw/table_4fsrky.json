@@ -1,0 +1,469 @@
+{
+    "description": "These are tables for quickly coming up some distinctive, individual gnomes.",
+    "id": "4fsrky",
+    "keywords": [
+        "gnome",
+        "gnomish",
+        "smallfolk",
+        "red caps",
+        "gardens",
+        "sensitive noses",
+        "noses for mischief"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/4fsrky",
+    "related_tables": [
+        {
+            "link": "4gd8s4",
+            "title": "Halflings"
+        }
+    ],
+    "tables": [
+        {
+            "dice": "d20",
+            "name": "The gnome is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A bookish potionmaker."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A half-mad alchemist."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A charismatic magician."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A tricky illusionist."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A skilled gemcutter."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "An absent-minded jeweler."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "An inventive cook."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A restless tinker."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A high-strung clockmaker."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A mischievous singer."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A boastful musician."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A witty storyteller."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "A whimsical poet."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "A shrewd miner."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "A daring explorer."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "A happy-go-lucky thief."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "A cheerful birdwatcher."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "A cautious woodland guide."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "A clever merchant."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "An eccentric peddler."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "The gnome has...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Bright green eyes."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Piercing blue eyes."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Golden brown eyes."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A neatly cropped beard."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A carefully curled beard."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Hair growing out of the ears."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A shiny gold tooth."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Several gold teeth."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A waddling gait."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A scampering gait."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "The gnome is wearing...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A pointy, red cap."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A pointy, blue cap."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A pointy, green cap."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A cap that is too big."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A cap that is too small."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A traveler's cloak with a hood."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A dusty traveler's cloak."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A patched traveler's cloak."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A vest with many pockets."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A vest with lacy fringes."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "...and...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Well-worn boots."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Boots with shiny, silver buckles."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Boots with mechanical crampons."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A ring with a large purple gemstone."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A ring with a flashy blue gemstone."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A ring with a deep red gemstone."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A ring with a brilliant green gemstone."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A pair of wire-framed spectacles."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A pair of multi-lens eyeglasses."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Goggles with several magnification settings."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "The gnome is carrying...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Several glass vials and a set of scales."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A wand of yew wood."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A wand of elderberry wood."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A small rock hammer."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A frying pan and a wooden spoon."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A set of hammers, awls, vises, and other tools."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A mining pick."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A set of lockpicks and a crowbar."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A notebook and an inkpen."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A sack full of odds and ends."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "...and...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A stoppered glass bottle and a pair of tweezers."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A set of jeweler's tools."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Several spare gears and springs."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A flute."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A tamborine."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A book of tales."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A book of poems."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A well-used lantern."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A field guide to flora and fauna."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A field guide to herbs and poisons."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Presently, the gnome is looking for...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Protection from an angry giant."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Protection from some tricky goblins."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A rare ingredient for a potion or poison."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A lost book of arcane secrets."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Someone to buy some potions."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Someone from whom to palm a few coins."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "An opinion on the some plans for a device."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "An unusually shaped gear or spring."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Someone with whom to share some wine."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A cup of ale or wine and a good tale."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "...but the gnome is also interested in finding...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "The recipe for a potent potion or poison."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A copy of a book of lore on dangerous beasts."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Something with which to tinker."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "The location of a storied mine."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A legendary gemstone."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "New soup recipes."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "New uses for cabbages and turnips."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "The wand of a famous witch or wizard."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "The long lost spellbook of a legendary illusionist."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A rare songbird."
+                }
+            ]
+        }
+    ],
+    "title": "Gnomes",
+    "use_with": [
+        {
+            "link": "3sl4sr",
+            "title": "Alchemists"
+        },
+        {
+            "link": "46ma8g",
+            "title": "Bards"
+        },
+        {
+            "link": "3unfbm",
+            "title": "Cavern"
+        },
+        {
+            "link": "3sgzxb",
+            "title": "Forest"
+        },
+        {
+            "link": "3sh0hz",
+            "title": "Forest, enchanted"
+        },
+        {
+            "link": "48cev4",
+            "title": "Magic shops"
+        },
+        {
+            "link": "43ufyr",
+            "title": "Mines"
+        },
+        {
+            "link": "42rm5s",
+            "title": "Mountains"
+        },
+        {
+            "link": "45uoqf",
+            "title": "Vignettes: gnome enclaves"
+        }
+    ]
+}

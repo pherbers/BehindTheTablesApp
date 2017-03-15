@@ -1,0 +1,652 @@
+{
+    "description": "These are tables for generating an interesting orc clan or individual orc to serve as foe or foil to your PCs.",
+    "id": "3vspx8",
+    "keywords": [
+        "orc",
+        "clan",
+        "tribe",
+        "warriors",
+        "horde",
+        "gruumsh"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/3vspx8",
+    "related_tables": [
+        {
+            "link": "3xydsw",
+            "title": "Barbarians"
+        },
+        {
+            "link": "3tjdae",
+            "title": "Savage hordes"
+        }
+    ],
+    "tables": [
+        {
+            "dice": "d12",
+            "name": "The orcs are...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Nomadic hunters, following game."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Raiders displaced from their native lands."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "In exile from their native lands."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "In the service of a sovereign warlord."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A loose confederacy of tribes and families related by blood."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Degenerate survivors from a broken army."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Disorganizes; a clan of competing warriors."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A tight-knit war band."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Bent on sowing chaos and mayhem."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Raiders after supplies and slaves."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Marching to war under the leadership of a great chief."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "On an errand for an evil wizard or other powerful being."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "The orcs value...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Bravery."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Strength."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Wisdom."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Virility."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Honoring the gods."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Honoring their ancestors."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Battle-scars."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Survival."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Kill counts."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Scalps."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Steel."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Meat."
+                }
+            ]
+        },
+        {
+            "dice": "d4",
+            "name": "The orcs\u2019 iconography features...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Symbols of death and destruction (d10): 1. bats; 2. blood; 3. bones; 4. corpses; 5. crows; 6. flames; 7. ghosts; 8. scorpions; 9. skulls; 10. vultures."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Symbols of the heavens (d6): 1. clouds; 2. lightning; 3. moon; 4. snow; 5. stars; 6. sun."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Symbols of strength and weaponry (d6): 1. arrows; 2. axes; 3. fists; 4. spears; 5. stones; 6. swords."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A great beast (d8): 1. bears; 2. boars; 3. eagles; 4. horses; 5. lions; 6. owls; 7. snakes; 8. wolves."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "The orcs\u2019 chief is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A well-respected chief."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A charismatic warlord."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A mysterious shaman."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A descendent of an honored hero."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A ruthless killer."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A brutish thug."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "An impatient young warrior."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A wise old chief."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A celebrated war hero."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A prolific lover."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "The orcs\u2019 favorite meat comes from...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Dwarves and halflings."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Beggars and thieves."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Merchants and caravan guards."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Noblemen."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Noblewomen."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Priests and priestesses."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Slaves."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Circusfolk and minstrels."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Foreign travelers."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Peasant women."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Young children."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Elves and pixies."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "The orcs fear...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Men armored in steel."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Human women."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Spellcasters."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Members of a particular race (d4): 1. dwarves; 2. elves; 3. goblinoids; 4. reptilian humanoids."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A particular natural phenomenon (d6): 1. blizzards; 2. earthquakes; 3. floods; 4. thunderstorms; 5. volcanoes; 6. typhoons."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "The gods."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Aberrant evils."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Dragons."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "The orcs are notorious for...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Never leaving survivors."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Feeding prisoners to wild beasts."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Tattooing or branding prisoners."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Scalping enemies."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Flaying enemies."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Raiding and burning villages."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Plundering merchant caravans."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Eating prisoners raw."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Claiming prisoners as slaves."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Taking prisoners as wives, concubines, or catamites."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "The orcs are known for...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Screaming and shouting during battle."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Convening with ghosts and spirits."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Ritual animal sacrifice under the new moon."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Ritual humanoid sacrifice deep within the earth."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Ritualistic blood-letting."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Ritualistic sexual acts under the full moon."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Eating unusually-prepared meats."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Prolific amounts of drinking."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Never cutting their hair."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Shaving their heads and bodies."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Wearing long top-knots or braids."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Bathing and perfuming their bodies."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The orcs\u2019 attitude is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Rowdy and festive."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Joyful and eager to fight."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Relaxed and carefree."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Frightened and suspicious."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Hostile and suspicious."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Hostile and eager to fight."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The orcs\u2019 goals include (chief and lower-ranking members could have different goals)...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Upheaval of the region\u2019s politics."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Disruption of the region\u2019s trade."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Revenge against another civilization."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Revenge against a rival orkish clan."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Spreading chaos and destruction."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Possession of a powerful artifact."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "The orcs typically fight with...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Hit-and-run tactics."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Ambush tactics."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Unpredictable maneuvers."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Lots of screaming and shouting."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Kicking and stomping."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Lots of head-butting."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Lots of biting and scratching."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Frequent breaks for (d4): 1. eating; 2. looting corpses; 3. re-forming ranks; 4. arguing among themselves."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "As guardians or pets, the orcs sometimes keep...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Boars."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Dire rats."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Giant lizards."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Ogres."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Wargs."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Wolves."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "As slaves, the orcs keep...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Dwarves."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Gnomes."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Goblins."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Halflings."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Humans."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Kobolds."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Undead servitors."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Nothing; the orcs eat any captives they take."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Nothing; the orcs leave no survivors."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Nothing; the orcs believe in freedom for all beings."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "Most of the orcs are wielding...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Spears and large hunting knives."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Spears and javelins."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Exotic, curved blades and several bolas."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Huge, curved blades."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Exotic, curved blades and blowguns."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Pikes and shortswords."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Pikes and short bows."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Battleaxes and throwing axes."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Battleaxes and longbows."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Longswords and longbows."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Jagged greatswords and shortbows."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Greataxes and javelins."
+                }
+            ]
+        }
+    ],
+    "title": "Orkish Clans",
+    "use_with": [
+        {
+            "link": "3unfbm",
+            "title": "Cavern"
+        },
+        {
+            "link": "3tich6",
+            "title": "Desert"
+        },
+        {
+            "link": "42rm5s",
+            "title": "Mountains"
+        },
+        {
+            "link": "4brthj",
+            "title": "Orcs, individual"
+        },
+        {
+            "link": "4c5hu9",
+            "title": "Orc warlords"
+        },
+        {
+            "link": "47x04h",
+            "title": "Plains"
+        },
+        {
+            "link": "45uoqf",
+            "title": "Vignettes: orc enclaves"
+        }
+    ]
+}

@@ -1,0 +1,346 @@
+{
+    "description": "Use these tables for quick inspiration to generate some NPCs who inhabit a castle.",
+    "id": "44r23c",
+    "keywords": [
+        "seer",
+        "seeress",
+        "diviner",
+        "prophet",
+        "fortune teller",
+        "soothsayer",
+        "astrologer",
+        "nostradamus"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/44r23c",
+    "related_tables": [
+        {
+            "link": "3sj9ub",
+            "title": "Town NPCs"
+        },
+        {
+            "link": "3si4ms",
+            "title": "Witches"
+        }
+    ],
+    "tables": [
+        {
+            "dice": "d10",
+            "name": "The seer is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "An astrologer."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A fortune teller."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A mystic."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A lorekeeper."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A prophet."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A psychic."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A defrocked priest or priestess."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A hermetic witch or wizard."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "An oneiromancer."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "An anthropomancer."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "The seer first discovered his/her gift after...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Being kidnapped by a witch or wizard."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Aiding an old witch or wizard."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "An uncomfortable encounter with a neighbor."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "The death of a parent."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Reading a book of forbidden lore."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Visiting an eerie cemetery."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Dreaming of a conversation with a fiend."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A night spent in prayer while suffering an illness."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "When communicating a vision or prophecy, the seer speaks...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "In a deep voice."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "In a wistful voice."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "In a fearful tone."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "With eyes closed."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "While facing you with unfocused eyes."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "While looking directly into your eyes."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "The seer views his or her visions and prophecies as...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A reward for strong faith in the gods; their words are truth."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Contact from the Realm of the Dead; the dead have seen things."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Contact from an otherworldly being; the being has knowledge beyond comprehension."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "The product of years of practice; the seer has worked to obtain power."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A gift that is impossible to understand; these things just come."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A curse; knowing the future is a terrible burden."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "No big deal; the seer has been receiving visions since childhood."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Rubbish; don't believe a word of it. "
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "For coin or barter, the seer will attempt to...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Read your fortune."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Gaze into your future."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Contact a dead relative or friend."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Give you a hint regarding future events."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Convince you to take up a quest."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Convince you that all hope is lost."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "The seer is haunted by a vision. The seer will die of...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Hanging or strangulation."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Drowning."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Burning."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Disease."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Poisoning."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A wound from a blade."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Falling from a great height."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Old age."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "The seer is looking for...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "The answer to a riddle or prophecy."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "New clients for a reading."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "News regarding a missing person."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "The soul of a specific person."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A book on an archaic method of divination."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Just the right material for a powerful ritual."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "The meaning of a cryptic prophecy."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Some juicy gossip."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "The seer carries...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A crystal ball."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A dowsing rod."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A large, sharp-pointed knife."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Several star charts."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A dusty old book."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A bundle of notes, quills, and inks."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A purse jingling with coins."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A garish, bejeweled ring."
+                }
+            ]
+        }
+    ],
+    "title": "Seers",
+    "use_with": [
+        {
+            "link": "43wsio",
+            "title": "Books"
+        },
+        {
+            "link": "4t1k01",
+            "title": "Cats"
+        },
+        {
+            "link": "43c3c6",
+            "title": "Divination"
+        },
+        {
+            "link": "3tkdty",
+            "title": "Reputation and rumors"
+        },
+        {
+            "link": "4b8u29",
+            "title": "Reputations of adventurers"
+        }
+    ]
+}

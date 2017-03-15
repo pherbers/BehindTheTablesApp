@@ -1,0 +1,149 @@
+{
+    "description": "This is a table for rapidly generating a handful of interesting street names for any city or town. These names suggest something about the street's current or past purpose or destination. \n\nTo quickly generate a town or city district:\n\n[1] Choose a central landmark such as a market square, palace, temple, town square, university, etc.  \n[2] Then roll or choose 2-6 street names.  \n[3] Sketch out these streets, leading away from your central landmark to other parts of the town or city.  \n[4] Fill in some details.",
+    "id": "3xw3lq",
+    "keywords": [
+        "town",
+        "city",
+        "district",
+        "street names",
+        "city-building",
+        "town-building"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/3xw3lq",
+    "related_tables": [],
+    "tables": [
+        {
+            "dice": "d20",
+            "name": "The locals call this street...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "(d8): 1. Armory Street; 2. Barricade Street; 3. Knight Street; 4. Moat Street; 5. Pike Street; 6. Rampart Street; 7. Shield Street; 8. Spear Street."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "(d8): 1. Arch Street; 2. Bridge Street; 3. Canal Street; 4. Cross Street; 5. Falls Road; 6. Ferryman Street; 7. Pole Street; 8. River Street."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "(d8): 1. Castle Street; 2. House Street;3. Hovel Street; 4. Inn Street; 5. Keep Street; 6. Manor Street; 7. Rock Way; 8. Tower Street."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "(d8): 1. Cattle Road; 2. Common Street; 3. Green Street; 4. Greenway Street; 5. Meadow Lane; 6. Orchard Street; 7. Pasture Road; 8. Wildflower Lane. "
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "(d20): 1. Anvil Street; 2. Barrel Street; 3. Carpenter Street; 4. Chandler Street; 5. Cooper Street; 6. Dyer Street; 7. Forge Street; 8. Glass Street; 9. Hammer Street; 10. Horseshoe Street; 11. Iron Street; 12. Mason Street; 13. Smith Street; 14. Steel Street. 15. Tailor Street; 16. Stone Street; 17. Timber Street; 18. Wood Street; 19. Wright Street; 20. Weaver Street."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "(d8): 1. Bluff Street; 2. Cliff Street; 3. Crestline Way; 4. High Street; 5. Highland Way; 6. Hill Street; 7. Hilltop Lane; 8. Ridge Street; 9. Ridgeline Way; 10. Summit Street."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "(d10): 1. Crooks' Alley; 2 Devil's Alley; 3. Devil's Lane; 4. Low Street; 5. Magpie Lane; 6. Paupers Street; 7. Penny Lane; 8. Rat's Alley; 9. Serpent's Alley; 10. Shady Lane."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Market Street."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "(d8): 1. Baker Street; 2. Hook Street; 3. Farm Road; 4. Feather Street; 5. Mill Street; 6. Pork Road; 7. Ranchers Road; 8. Stockyard Street."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "(d8): 1. Banner Road; 2. Captains Street; 3. Drum Street; 4. March Street; 5. Parade Street; 6. Triumphant Way; 7. Trumpet Street; 8. Victory Lane."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "(d8): 1. Crown Street; 2. King Street; 3. Lords Lane; 4. Monarch Street; 5. Palace Way; 6. Queens Street; 7. Royal Street; 8. State Street."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "(d8): 1. Circle Street; 2. Borderline Road; 3. Brick Road; 4. Curtain Street; 5. Perimeter Street; 6. Townline Road; 7. Watch Street; 8. Wall Street."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "(d8): 1. Bay Street; 2. Commerce Street; 3. Dockside Way; 4. Harbor Street; 5. Lake Street; 6. Pier Street; 7. Portside Way; 8. Water Street."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "(d8): 1. Bayview Street; 2. Castleview Street; 3. Gardenview Street; 4. Greenview Street; 5. Harborview Street; 6. Marketview Street; 7. Riverview Street; 8. Waterview Street."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "(d8): 1. North Road; 2. North Street; 3. South Road; 4. South Street; 5. East Road; 6. East Street; 7. West Road; 8. West Street."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "(d12): 1. Beech Street; 2. Cedar Street; 3. Cherry Street; 4. Cypress Street; 5. Fir Street; 6. Maple Street; 7. Oak Street; 8. Palm Street; 9. Pine Street; 10. Spruce Street; 11. Walnut Street; 12. Willow Street."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "(d8): 1. Northgate Street; 2. Southgate Street; 3. Eastgate Street; 4. Westgate Street; 5. Old Gate Road; 6. Rivergate Street; 7. Watchtower Street; 8. Watergate Street."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "(d12): 1. Briar Street; 2. Bush Street; 3. Gardenia Lane; 4. Garden Street; 5. Lilac Street; 6. Lily Way; 7. Petal Street; 8. Poppy Street; 9. Rose Street; 10. Sunflower Lane; 11. Thorny Lane; 12. Violet Street."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "(d8): 1. Copper Street; 2. Crystal Road; 3. Emerald Way; 4. Jewelers Lane; 5. Golden Lane; 6. Rich Way; 7. Ruby Road; 8. Silver Lane."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "(d8): 1. Ancient Way; 2. Bath Street; 3. Fountain Street; 4. Old Brick Road; 5. Old Stone Road; 6. Stone Ruin Road; 7. Tumblestone Way; 8. Well Street."
+                }
+            ]
+        }
+    ],
+    "title": "Street Names",
+    "use_with": [
+        {
+            "link": "43w8zc",
+            "title": "Brothel"
+        },
+        {
+            "link": "43ek9v",
+            "title": "Castle"
+        },
+        {
+            "link": "43k8fr",
+            "title": "Prison"
+        },
+        {
+            "link": "435qlc",
+            "title": "Reputation and rumors"
+        },
+        {
+            "link": "43uzib",
+            "title": "Rotting city encounters"
+        },
+        {
+            "link": "43xgqj",
+            "title": "City landmarks and districts"
+        },
+        {
+            "link": "4jn2j9",
+            "title": "Quick city-building"
+        },
+        {
+            "link": "435mxf",
+            "title": "Tavern goings-on"
+        },
+        {
+            "link": "3xpb4r",
+            "title": "Temple"
+        },
+        {
+            "link": "3sj9ub",
+            "title": "Town NPCs"
+        },
+        {
+            "link": "4daxw7",
+            "title": "Urban marketplace"
+        }
+    ]
+}

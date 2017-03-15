@@ -1,0 +1,316 @@
+{
+    "description": "These are tables for quickly coming up with a flavorful meal or menu you might find in a traveler's inn, roadside inn, country estate, or any place that serves breakfast.",
+    "id": "4dplpx",
+    "keywords": [
+        "eggs",
+        "biscuits and gravy",
+        "pancakes",
+        "hash browns",
+        "big country breakfast",
+        "cracker barrel"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/4dplpx",
+    "related_tables": [
+        {
+            "link": "4dpl3q",
+            "title": "Breakfast at a City Caf\u00e9"
+        }
+    ],
+    "tables": [
+        {
+            "dice": "d12",
+            "name": "This morning, at a traveler's inn, we break our fast on...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Scrambled eggs."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Fried eggs."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Boiled eggs."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Poached eggs."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Smoked ham."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Honey ham."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Hard cheese."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Soft cheese."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Hot porridge."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Cold porridge."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Thin porridge."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Warm gruel."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "...with...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Soggy bacon."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Chewy bacon."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Crispy bacon."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Thick-cut bacon."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Sweet sausage."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Mild sausage."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Spicy sausage."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Hot sausage."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Sour yogurt."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Sweetened yogurt."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "...and...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Fried potatoes."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Boiled potatoes."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Tomatoes."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Mushrooms."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Sweet peppers."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Spinach."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Sweet onions."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Red onions."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "On the side, there is some...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Corn bread."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Corn mash."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Fresh bread."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Crusty bread."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Dry toast."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Buttered toast."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Pumpernickel bread."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Pretzel bread."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Fried egg."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Extra bacon."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Sharp cheese."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Pungent cheese."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "...and there are some...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Apples."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Cherries."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Blueberries."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Strawberries."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Pears."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Blackberries."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "To wash it down, we have some...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Water."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Brown ale."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Red ale."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Porter."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Stout."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Spiced wine."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Red wine."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Milk."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Coffee."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Tea."
+                }
+            ]
+        }
+    ],
+    "title": "Breakfast at a Traveler's Inn",
+    "use_with": [
+        {
+            "link": "46ma8g",
+            "title": "Bards"
+        },
+        {
+            "link": "43uzib",
+            "title": "Idyllic village encounters"
+        },
+        {
+            "link": "3tkfho",
+            "title": "Knights"
+        },
+        {
+            "link": "41bq04",
+            "title": "Sellswords"
+        },
+        {
+            "link": "3sj9ub",
+            "title": "Town NPCs"
+        },
+        {
+            "link": "3uzziq",
+            "title": "Treasure hunters"
+        }
+    ]
+}

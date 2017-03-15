@@ -1,0 +1,340 @@
+{
+    "description": "",
+    "id": "435djx",
+    "keywords": [
+        "Treasure",
+        "coins",
+        "pick pocket",
+        "loot",
+        "money",
+        "hoard"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/435djx",
+    "related_tables": [],
+    "tables": [
+        {
+            "dice": "D10",
+            "name": "Material",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Gold"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Silver"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Copper"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Brass"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Obsidian"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Wood"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Ivory"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Ceramic"
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Bone"
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Carved clam/oyster shells"
+                }
+            ]
+        },
+        {
+            "dice": "D10",
+            "name": "Size and Shape",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Thin coins 1 inch across"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Fat Coins almost 2 inches across"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Tiny Coins less than 1/2 inch across"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Square Coins that don't fit a common measure"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Rectangular chits 2 inches long"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Fat Coins about 1 inch across"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Eight sided coins 1 inch across"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Round coins with a 1/2 inch hole in the center"
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Crescent shaped coins with dull points"
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Tiny coins with irregular edges"
+                }
+            ]
+        },
+        {
+            "dice": "D10",
+            "name": "Markings",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A face"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A flag"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A geometric pattern"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A slogan"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A numerical value"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A line for splitting"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A crown"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A city"
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A ship"
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A crest"
+                }
+            ]
+        },
+        {
+            "dice": "D10",
+            "name": "The coins value is defined as...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "It's weight of metal"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A barrel of water"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "One mile of tolls on the king's road"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "One deer hide"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "It's weight in gold"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Two of a smaller coin"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A day's wages for a soldier"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A bushel of wheat"
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "An hour of air in an underwater kingdom"
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A yard of common cloth"
+                }
+            ]
+        },
+        {
+            "dice": "D10",
+            "name": "Age",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Newly minted"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Current"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Current, but out of circulation"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Old"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Old and corroded"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Ancient"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Ancient, and concreted together with other coins"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Current, but from another plane"
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Old, and from a distant land"
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Ancient, and from a long forgotten empire"
+                }
+            ]
+        },
+        {
+            "dice": "D10",
+            "name": "The coin is valuable for other reasons because...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "it is highly valued by collectors."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "it was only minted during a short time frame."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "it depicts a famous symbol."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "it isn't."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "it is from the reign of the last king."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "it was minted by a long dead people."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "it is common in the realm."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "it is the only remaining trace of a lost empire."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "it was minted in a distant land."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "it is made from a material rare in this area."
+                }
+            ]
+        },
+        {
+            "dice": "D10",
+            "name": "A mixed hoard of coins contains...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Identical copies of the same coin, all minted in the same place."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Coins of various sizes, made of the same metal, and with similar markings, likely minted in the same place."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Coins of various shapes, made of different metals, and with similar markings, likely minted in the same place."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Mostly identical copies of the same coin with a handful of others mixed in."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Mostly coins with similar markings, with a few foreign coins mixed in."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A mixed bag of coins from all over the world."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A box of rare coins from far away along with many common coins of the realm."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A set of chits with a value in coins redeemable on their face mixed among the coins."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A pile of coins corroded over time into one large mass."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A charred bag of soot stained coins."
+                }
+            ]
+        }
+    ],
+    "title": "Coins",
+    "use_with": []
+}

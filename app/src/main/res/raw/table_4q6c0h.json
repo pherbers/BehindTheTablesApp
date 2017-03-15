@@ -1,0 +1,1124 @@
+{
+    "description": "These tables are for coming up with NPC reactions, motivations, and rumors in a quick fashion. They are designed to be used with /u/famoushippopotamus's Rumor Ladder.\n\n- ***Rumor Ladder.*** False (Appears as Specific or Exact), Vague, Mixed, General, Specific, Exact\n\n The rumor ladder is used as a sliding scale when providing information to PCs. Depending on the attitude towards the PC, an NPC may provide information that is very good (Exact) or very poor (False). This will depend on the attitude of the NPC and can be move up or down the ladder depending on future actions and conversations with the NPC. \n\nThe tables:\n\n- ***NPC Reactions.*** This is how an NPC responds to interaction with a PC. The (Letters) are subtables, which you will find after the main \"reasons\" tables.\n\n- ***NPC Motivations.*** These are revealed if the NPC is questioned by the PC.\n\n- ***Area/Site Status.*** These are used to determine random properties about a location.\n\n- ***Subtables.*** These fill in the blanks as indicated by the (Letters) in the results from the other tables.",
+    "id": "4q6c0h",
+    "keywords": [
+        "rumors",
+        "motivations",
+        "social interactions",
+        "gather information check",
+        "bluff check",
+        "intimidation check",
+        "insight check"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/4q6c0h",
+    "related_tables": [
+        {
+            "link": "48spuq",
+            "title": "Gossip and hearsay"
+        },
+        {
+            "link": "435qlc",
+            "title": "Reputations and rumors"
+        },
+        {
+            "link": "51senc",
+            "title": "Rumor factory"
+        }
+    ],
+    "tables": [
+        {
+            "dice": "d20",
+            "name": "When the NPC overhears the PC or the party talking, his/her reaction is...",
+            "table_entries": [
+                {
+                    "dice_val": "1-3",
+                    "entry": "Hostile. Now the NPC is a nemesis. He/she gives a Major Bane (F) and will pursue one or more of the PCs until dead.  "
+                },
+                {
+                    "dice_val": "4-6",
+                    "entry": "Unhappy. The NPC gives a Minor Bane (E). There is an 80% chance his/her attitude will shift to hostile on next encounter.   "
+                },
+                {
+                    "dice_val": "7-9",
+                    "entry": "Disgruntled. The NPC gives False Rumor. There is a 40% chance his/her attitude will shift to unhappy on next encounter.  "
+                },
+                {
+                    "dice_val": "10-12",
+                    "entry": "Indifferent but helpful. The NPC gives Personal Information (A) or Local Information (B), as requested.  "
+                },
+                {
+                    "dice_val": "13-15",
+                    "entry": "Pleased. The NPC shares a Specific Rumour. There is a 40% chance his/her attitude will shift to happy on next encounter.  "
+                },
+                {
+                    "dice_val": "16-18",
+                    "entry": "Happy. The NPC gives a Minor Boon (H). There is an 80% chance his/her attitude will shift to friendly on next encounter.  "
+                },
+                {
+                    "dice_val": "19-20",
+                    "entry": "Friendly. The NPC is now an ally. He/she gives a Major Boon (G) and will protect PC until dead.  "
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "When questioned about his/her motivation, the NPC reveals (or hides) that he/she is...",
+            "table_entries": [
+                {
+                    "dice_val": "1-3",
+                    "entry": "On The Run (J) from a Minor Enemy (Q) or a Major Enemy (R) for Good Deeds(O) or Evil Deeds (P).  "
+                },
+                {
+                    "dice_val": "4-6",
+                    "entry": "On a Vendetta (I) against an Minor Enemy (Q) or a Major Enemy (R).  "
+                },
+                {
+                    "dice_val": "7-9",
+                    "entry": "Searching for Personal Information (A), Local Information (B), or Item Information (C).  "
+                },
+                {
+                    "dice_val": "10-12",
+                    "entry": "Buying or Selling (K) at nearby location, then returning Home (L).  "
+                },
+                {
+                    "dice_val": "13-15",
+                    "entry": "On a local Minor Quest (M) for Treasure (U).  "
+                },
+                {
+                    "dice_val": "16-18",
+                    "entry": "On a Minor Quest (M) or a Major Quest (N) for a Minor Enemy (Q).  "
+                },
+                {
+                    "dice_val": "19-20",
+                    "entry": "On a Major Quest (N) for Treasure (U).  "
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "The area or site is...",
+            "table_entries": [
+                {
+                    "dice_val": "1-3",
+                    "entry": "Faithtouched (AA) or Weavetouched (BB).  "
+                },
+                {
+                    "dice_val": "4-6",
+                    "entry": "Home to an evil or neutral Faction (D).  "
+                },
+                {
+                    "dice_val": "7-9",
+                    "entry": "Home to a Monster (Roll on Own Encounter Table). Nearby, there is a Minor Treasure (U).  "
+                },
+                {
+                    "dice_val": "10-12",
+                    "entry": "A benign area of NPC population or an abandoned site. No treasure.  "
+                },
+                {
+                    "dice_val": "13-15",
+                    "entry": "Home to a good or neutral Faction (D).  "
+                },
+                {
+                    "dice_val": "16-18",
+                    "entry": "Home to a Monster (Roll on Own Encounter Table). Nearby, there is a Major Treasure (U).  "
+                },
+                {
+                    "dice_val": "19-20",
+                    "entry": "Haunted (S) or Cursed (T).  "
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "[A] Personal Information: The information...",
+            "table_entries": [
+                {
+                    "dice_val": "1-3",
+                    "entry": "Gives a secret that leads to Major Boon (G).  "
+                },
+                {
+                    "dice_val": "4-6",
+                    "entry": "Describes a family Emergency (V).  "
+                },
+                {
+                    "dice_val": "7-9",
+                    "entry": "Passes along a rumor (check Ladder) about the PC as told by a friend, a Minor Enemy (Q), or a Major Enemy (R).  "
+                },
+                {
+                    "dice_val": "10-12",
+                    "entry": "Gives information that confirms a suspicion held by the PC or the party.  "
+                },
+                {
+                    "dice_val": "13-15",
+                    "entry": "Passes along a minor Warning (W) that concerns the PC or the party.  "
+                },
+                {
+                    "dice_val": "16-18",
+                    "entry": "Gives Exact Knowledge about information the PC or party has been investigating.  "
+                },
+                {
+                    "dice_val": "19-20",
+                    "entry": "Passes along knowledge of a major Warning (W) to the PC or party.  "
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "[B] Local Information: The information...",
+            "table_entries": [
+                {
+                    "dice_val": "1-3",
+                    "entry": "Tells of a Major Boon (G) concerning the area.  "
+                },
+                {
+                    "dice_val": "4-6",
+                    "entry": "Tells of an Emergency (V).  "
+                },
+                {
+                    "dice_val": "7-9",
+                    "entry": "Passes along knowledge of a Social Event (X).  "
+                },
+                {
+                    "dice_val": "10-12",
+                    "entry": "Gives information about a Minor Enemy (Q) or a Major Enemy (R) threat.  "
+                },
+                {
+                    "dice_val": "13-15",
+                    "entry": "Passes along information of a Political Event (Y).  "
+                },
+                {
+                    "dice_val": "16-18",
+                    "entry": "Gives information about a Religious Event (Z).  "
+                },
+                {
+                    "dice_val": "19-20",
+                    "entry": "Tells of a Major Bane (F).  "
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "[C] Item information: The item is...",
+            "table_entries": [
+                {
+                    "dice_val": "1-2",
+                    "entry": "An artifact (d10): 1. arcane; 2. dwarvish; 3. elemental; 4. elvish; 5. giant; 6. holy; 7. relic of a hero; 8. relic of a villain; 9. unholy; 10. a piece of an item set.  "
+                },
+                {
+                    "dice_val": "3-4",
+                    "entry": "An object (d6): 1. A piece of jewelry; 2. A chest; 3. A map; 4. A bucket; 5. A lantern; 6. A jar.  "
+                },
+                {
+                    "dice_val": "5-6",
+                    "entry": "A book (d6): 1. bestiary; 2. potion recipes; 3. historical record; 4. holy scripture; 5. personal journal; 6. mage's spellbook.  "
+                },
+                {
+                    "dice_val": "7-9",
+                    "entry": "Armor (d10): 1. leather helm; 2. steel helm; 3. leather baldric; 4. bronze breastplate; 5. steel breastplate; 6. chain shirt; 7. leather gloves; 8. steel gauntlets; 9. suit of chainmail; 10. suit of plate.  "
+                },
+                {
+                    "dice_val": "10-12",
+                    "entry": "A weapon or piece of ammunition (d10): 1. dagger; 2. spear; 3. axe; 4. sword; 5. flail; 6. hammer; 7. bow; 8. crossbow; 9. arrow or bolt; 10. exotic weapon.  "
+                },
+                {
+                    "dice_val": "13-15",
+                    "entry": "An implement or symbol of power (d6): 1. rod; 2. staff; 3. wand; 4. sceptre; 5. crown; 6. gemstone.  "
+                },
+                {
+                    "dice_val": "16-18",
+                    "entry": "A work of art (d6) 1. statue; 2. painting; 3. musical instrument; 4. sheet music; 5. article of clothing.  "
+                },
+                {
+                    "dice_val": "19-20",
+                    "entry": "A prosthesis (d6): 1. arm; 2. eye; 3. foot; 4. hand; 5. heart; 6. leg.  "
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "[D] Faction: They are...",
+            "table_entries": [
+                {
+                    "dice_val": "1-3",
+                    "entry": "A Mystery Cult (CC).  "
+                },
+                {
+                    "dice_val": "4-6",
+                    "entry": "Slavers or brutal overlords.   "
+                },
+                {
+                    "dice_val": "7-9",
+                    "entry": "Religious warriors or clerics.  "
+                },
+                {
+                    "dice_val": "10-12",
+                    "entry": "Law and justice officers or warriors.   "
+                },
+                {
+                    "dice_val": "13-15",
+                    "entry": "Corrupt mercenaries or rogues.  "
+                },
+                {
+                    "dice_val": "16-18",
+                    "entry": "Merchants collective or guild.  "
+                },
+                {
+                    "dice_val": "19-20",
+                    "entry": "Cabal of mages.  "
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "[E] Minor Bane: The misfortune involves...",
+            "table_entries": [
+                {
+                    "dice_val": "1-3",
+                    "entry": "Disease or pestilence.  "
+                },
+                {
+                    "dice_val": "4-6",
+                    "entry": "The destruction of one or more buildings.  "
+                },
+                {
+                    "dice_val": "7-9",
+                    "entry": "A Minor Enemy (Q) or a Major Enemy (R) of the PC or party is actively opposing them.  "
+                },
+                {
+                    "dice_val": "10-12",
+                    "entry": "The loss of items of value.  "
+                },
+                {
+                    "dice_val": "13-15",
+                    "entry": "A Curse (T) has been activated.     "
+                },
+                {
+                    "dice_val": "16-18",
+                    "entry": "People being injured.  "
+                },
+                {
+                    "dice_val": "19-20",
+                    "entry": "A person or place being Haunted (S).  "
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "[F] Major Bane: The misfortune involves...",
+            "table_entries": [
+                {
+                    "dice_val": "1-3",
+                    "entry": "Bad luck (random penalties or disadvantage to random die rolls) for 1 month or 10 combat encounters.  "
+                },
+                {
+                    "dice_val": "4-6",
+                    "entry": "The outbreak of large plague or pestilence.  "
+                },
+                {
+                    "dice_val": "7-9",
+                    "entry": "A large loss of monetary wealth.  "
+                },
+                {
+                    "dice_val": "10-12",
+                    "entry": "The loss or destruction of many items of value.  "
+                },
+                {
+                    "dice_val": "13-15",
+                    "entry": "The destruction of many buildings or damage to the land itself.  "
+                },
+                {
+                    "dice_val": "16-18",
+                    "entry": "The deaths of many people.  "
+                },
+                {
+                    "dice_val": "19-20",
+                    "entry": "The PC or party attracting the attention of a Minor Enemy (Q) or a Major Enemy (R).  "
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "[G] Minor Boon: The good fortune involves...",
+            "table_entries": [
+                {
+                    "dice_val": "1-3",
+                    "entry": "Learning that a Minor Enemy (Q) or a Major Enemy (R) has been temporarily thwarted.  "
+                },
+                {
+                    "dice_val": "4-6",
+                    "entry": "Obtaining a minor magic item.  "
+                },
+                {
+                    "dice_val": "7-9",
+                    "entry": "Obtaining a small amount of money or resources.  "
+                },
+                {
+                    "dice_val": "10-12",
+                    "entry": "Obtaining a magicked gemstone (the wielder can use a 0-level spell or Cantrip 1/day as a level 1 caster).  "
+                },
+                {
+                    "dice_val": "13-15",
+                    "entry": "Being awarded a minor property or granted an improvement to a minor property.  "
+                },
+                {
+                    "dice_val": "16-18",
+                    "entry": "Establishing a personal relationship with a potential ally or increasing social status with ally.  "
+                },
+                {
+                    "dice_val": "19-20",
+                    "entry": "For one day, all activities are easier (+1 bonus on all rolls).  "
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "[H] Major Boon: The good fortune involves...",
+            "table_entries": [
+                {
+                    "dice_val": "1-3",
+                    "entry": "Divine intervention granting a Treasure (U).  "
+                },
+                {
+                    "dice_val": "4-6",
+                    "entry": "Obtaining true knowledge of a Treasure (U) location.  "
+                },
+                {
+                    "dice_val": "7-9",
+                    "entry": "Being granted a large amount of monetary wealth.  "
+                },
+                {
+                    "dice_val": "10-12",
+                    "entry": "Improving an existing skill or knowledge (+1) or obtaining a new skill.  "
+                },
+                {
+                    "dice_val": "13-15",
+                    "entry": "Improving a personal relationship (up to 100%).  "
+                },
+                {
+                    "dice_val": "16-18",
+                    "entry": "Being awarded a major property or granted an improvement to a major property.  "
+                },
+                {
+                    "dice_val": "19-20",
+                    "entry": "The PC or party being pointed towards an Artifact (C) (Specific on the Rumor Ladder).  "
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "[I] Vendetta: The NPC is seeking vengeance against...",
+            "table_entries": [
+                {
+                    "dice_val": "1-3",
+                    "entry": "Accusers. The NPC was wrongfully jailed or persecuted.  "
+                },
+                {
+                    "dice_val": "4-6",
+                    "entry": "Members of a specif crace. The NPC is on a racial crusade.  "
+                },
+                {
+                    "dice_val": "7-9",
+                    "entry": "Thieves or fraudsters. The NPC was the victim of theft or deception.  "
+                },
+                {
+                    "dice_val": "10-12",
+                    "entry": "Murderers. The NPC seeks to avenge the death of one or more friends, family members, or associates.  "
+                },
+                {
+                    "dice_val": "13-15",
+                    "entry": "Religious crusaders. The NPC was ruined by a religious crusade or suffered religious persecution (locally or on a quest).  "
+                },
+                {
+                    "dice_val": "16-18",
+                    "entry": "Political opponents. The NPC suffered political persecution.  "
+                },
+                {
+                    "dice_val": "19-20",
+                    "entry": "Societal rivals. The NPC's social status was destroyed, or he/she was socially exiled.  "
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "[J] On the Run: The NPC...",
+            "table_entries": [
+                {
+                    "dice_val": "1-3",
+                    "entry": "Committed political crime.  "
+                },
+                {
+                    "dice_val": "4-6",
+                    "entry": "Escaped from detention for crime.  "
+                },
+                {
+                    "dice_val": "7-9",
+                    "entry": "Committed minor crime of theft, fraud, or assault.  "
+                },
+                {
+                    "dice_val": "10-12",
+                    "entry": "Committed major crime of theft, murder, or rape (or the NPC is an anarchist).  "
+                },
+                {
+                    "dice_val": "13-15",
+                    "entry": "Committed religious crime.  "
+                },
+                {
+                    "dice_val": "16-18",
+                    "entry": "Got tangled up with a Mystery Cult (CC).  "
+                },
+                {
+                    "dice_val": "19-20",
+                    "entry": "Was unjustly accused of a crime.  "
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "[K] Buying or Selling: The NPC is buying or selling...",
+            "table_entries": [
+                {
+                    "dice_val": "1-3",
+                    "entry": "Cloth (d10): 1. raw cotton; 2. raw linen; 3. raw silk; 4. raw wool; 5. finished cotton; 6. finished linen; 7. finished silk; 8. finished wool; 9. soft leather; 10. unusual animal hair.   "
+                },
+                {
+                    "dice_val": "4-6",
+                    "entry": "Wood (d6): 1. rough cut; 2. finished; 3. furniture; 4. containers; 5. paper; 6. carved.  "
+                },
+                {
+                    "dice_val": "7-9",
+                    "entry": "Food (d10): 1. fresh fruits and vegetables; 2. cured meats; 3. cheeses; 4. grain; 5. preserved fruits; 6. nuts; 7. preserved vegetables; 8. oils; 9. live animals; 10. foreign delicacies.  "
+                },
+                {
+                    "dice_val": "10-12",
+                    "entry": "Beverages (d6): 1. ale; 2. mead; 3 distilled spirits; 4. raw juice; 5. water; 6. wine.  "
+                },
+                {
+                    "dice_val": "13-15",
+                    "entry": "Spices (d10): 1. salt; 2. sugar; 3. variety of pepper; 4. savory spice; 5. unusual spice; 6. legal drug; 7. illegal drug; 8. healing herb; 9. magical herb; 10. exotic herb.  "
+                },
+                {
+                    "dice_val": "16-18",
+                    "entry": "Minerals (d6): 1. raw stone; 2. refined stone; 3. raw ore; 4. refined ore; 5. rough-cut gemstones; 6. finely-cut gemstones.  "
+                },
+                {
+                    "dice_val": "19-20",
+                    "entry": "Luxury goods (d10): 1. painting; 2. sculpture; 3. work of art; 4. rare commodity; 5. masterwork armor; 6. masterwork weapon; 7. fine textiles; 8. perfumes; 9. exotic foods; 10. expensive potions.  "
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "[L] Homeland: The NPC is from... (These are purposely vague, replace them with appropriate regions from your world.)",
+            "table_entries": [
+                {
+                    "dice_val": "1-3",
+                    "entry": "The north.  "
+                },
+                {
+                    "dice_val": "4-6",
+                    "entry": "The west.  "
+                },
+                {
+                    "dice_val": "7-9",
+                    "entry": "The south.  "
+                },
+                {
+                    "dice_val": "10-12",
+                    "entry": "The east.  "
+                },
+                {
+                    "dice_val": "13-15",
+                    "entry": "A savage land.  "
+                },
+                {
+                    "dice_val": "16-18",
+                    "entry": "An exotic island.  "
+                },
+                {
+                    "dice_val": "19-20",
+                    "entry": "Another realm of existence.  "
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "[M] Minor Quest: The NPC is seeking to...",
+            "table_entries": [
+                {
+                    "dice_val": "1-3",
+                    "entry": "Commune with an avatar.  "
+                },
+                {
+                    "dice_val": "4-6",
+                    "entry": "Map a location.  "
+                },
+                {
+                    "dice_val": "7-9",
+                    "entry": "Deliver a message.  "
+                },
+                {
+                    "dice_val": "10-12",
+                    "entry": "Recover a minor Treasure (U).  "
+                },
+                {
+                    "dice_val": "13-15",
+                    "entry": "Deliver a package.  "
+                },
+                {
+                    "dice_val": "16-18",
+                    "entry": "Destroy a minor monster or cleanse a tainted area.  "
+                },
+                {
+                    "dice_val": "19-20",
+                    "entry": "Rediscover a local forgotten place.  "
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "[N] Major Quest: The NPC is seeking to...",
+            "table_entries": [
+                {
+                    "dice_val": "1-3",
+                    "entry": "Awaken a sleeping NPC.  "
+                },
+                {
+                    "dice_val": "4-6",
+                    "entry": "Recover or destroy an Artifact (C).  "
+                },
+                {
+                    "dice_val": "7-9",
+                    "entry": "Aid or slay an NPC.  "
+                },
+                {
+                    "dice_val": "10-12",
+                    "entry": "Slay a monster.  "
+                },
+                {
+                    "dice_val": "13-15",
+                    "entry": "Liberate or enslave an NPC.  "
+                },
+                {
+                    "dice_val": "16-18",
+                    "entry": "Discover a lost foreign land.  "
+                },
+                {
+                    "dice_val": "19-20",
+                    "entry": "Save or destroy the world.  "
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "[O] Good Deeds: The NPC...",
+            "table_entries": [
+                {
+                    "dice_val": "1-3",
+                    "entry": "Freed an innocent from imprisonment.  "
+                },
+                {
+                    "dice_val": "4-6",
+                    "entry": "Corrected a long-standing error.  "
+                },
+                {
+                    "dice_val": "7-9",
+                    "entry": "Helped unfortunates with financial aid.  "
+                },
+                {
+                    "dice_val": "10-12",
+                    "entry": "Spread a charitable political message or religious doctrine.  "
+                },
+                {
+                    "dice_val": "13-15",
+                    "entry": "Helped local children or relatives to overcome oppression.  "
+                },
+                {
+                    "dice_val": "16-18",
+                    "entry": "Healed the sick and comfort the dying.  "
+                },
+                {
+                    "dice_val": "19-20",
+                    "entry": "Used an Artifact (C) to spread goodwill.  "
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "[P] Evil Deeds: The NPC...",
+            "table_entries": [
+                {
+                    "dice_val": "1-3",
+                    "entry": "Humiliated and torture a rival.  "
+                },
+                {
+                    "dice_val": "4-6",
+                    "entry": "Collected an extortion's payoff and punish the offender.  "
+                },
+                {
+                    "dice_val": "7-9",
+                    "entry": "Stole from friends or family.  "
+                },
+                {
+                    "dice_val": "10-12",
+                    "entry": "Badly beat or killed a rival.  "
+                },
+                {
+                    "dice_val": "13-15",
+                    "entry": "Destroyed a business, financially or physically.  "
+                },
+                {
+                    "dice_val": "16-18",
+                    "entry": "Agitated a harmful political message or religious doctrine.  "
+                },
+                {
+                    "dice_val": "19-20",
+                    "entry": "Spread lies and rumors against an individual or group of a shocking nature.  "
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "[Q] Minor Enemy: The enemy is...",
+            "table_entries": [
+                {
+                    "dice_val": "1-3",
+                    "entry": "A snubbed ex-friend.  "
+                },
+                {
+                    "dice_val": "4-6",
+                    "entry": "A school bully.  "
+                },
+                {
+                    "dice_val": "7-9",
+                    "entry": "A business rival.  "
+                },
+                {
+                    "dice_val": "10-12",
+                    "entry": "A local thug.  "
+                },
+                {
+                    "dice_val": "13-15",
+                    "entry": "A romantic rival.  "
+                },
+                {
+                    "dice_val": "16-18",
+                    "entry": "A spiteful boss or teacher.  "
+                },
+                {
+                    "dice_val": "19-20",
+                    "entry": "A family member.  "
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "[R] Major Enemy: The enemy is...",
+            "table_entries": [
+                {
+                    "dice_val": "1-3",
+                    "entry": "A politician or political group.  "
+                },
+                {
+                    "dice_val": "4-6",
+                    "entry": "A powerful rogue, thug, or assassin.  "
+                },
+                {
+                    "dice_val": "7-9",
+                    "entry": "A noble's family.  "
+                },
+                {
+                    "dice_val": "10-12",
+                    "entry": "A religious cult, sect, group, or temple.  "
+                },
+                {
+                    "dice_val": "13-15",
+                    "entry": "A powerful mage or cabal.  "
+                },
+                {
+                    "dice_val": "16-18",
+                    "entry": "A mercenary company.  "
+                },
+                {
+                    "dice_val": "19-20",
+                    "entry": "A mysterious NPC.  "
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "[S] Haunted: The person or place is haunted by...",
+            "table_entries": [
+                {
+                    "dice_val": "1-3",
+                    "entry": "Spirits locked in battle.  "
+                },
+                {
+                    "dice_val": "4-6",
+                    "entry": "A tortured revenant who must relive its brutal murder.  "
+                },
+                {
+                    "dice_val": "7-9",
+                    "entry": "A benign phantom who provides small comforts and messages.  "
+                },
+                {
+                    "dice_val": "10-12",
+                    "entry": "A crazed banshee.  "
+                },
+                {
+                    "dice_val": "13-15",
+                    "entry": "A spiteful haunt, who appears as dead loved ones and friends.  "
+                },
+                {
+                    "dice_val": "16-18",
+                    "entry": "A playful poltergeist, a childish trickster.  "
+                },
+                {
+                    "dice_val": "19-20",
+                    "entry": "An evil ghost, driven to consume lifeforce in a bid to regain life.  "
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "[T] Cursed: This place is cursed with...",
+            "table_entries": [
+                {
+                    "dice_val": "1-3",
+                    "entry": "A chronological anomaly. Time moves at a different speed.  "
+                },
+                {
+                    "dice_val": "4-6",
+                    "entry": "Insomnia. Sleep and rest are impossible.  "
+                },
+                {
+                    "dice_val": "7-9",
+                    "entry": "Extreme heat or cold.  "
+                },
+                {
+                    "dice_val": "10-12",
+                    "entry": "An overwhelming aura of helplessness and suffering.  "
+                },
+                {
+                    "dice_val": "13-15",
+                    "entry": "Plagues of vermin.  "
+                },
+                {
+                    "dice_val": "16-18",
+                    "entry": "Foul weather.  "
+                },
+                {
+                    "dice_val": "19-20",
+                    "entry": "A corruption of reality.  "
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "[U] Treasure: The treasure contains...",
+            "table_entries": [
+                {
+                    "dice_val": "1-3",
+                    "entry": "Potions.  "
+                },
+                {
+                    "dice_val": "4-6",
+                    "entry": "Gems.  "
+                },
+                {
+                    "dice_val": "7-9",
+                    "entry": "Weapons or armor.  "
+                },
+                {
+                    "dice_val": "10-12",
+                    "entry": "Coins.  "
+                },
+                {
+                    "dice_val": "13-15",
+                    "entry": "Wands, rods, and staves.  "
+                },
+                {
+                    "dice_val": "16-18",
+                    "entry": "Clothing.  "
+                },
+                {
+                    "dice_val": "19-20",
+                    "entry": "An artifact (C).  "
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "[V] Emergency: Action is urgent because...",
+            "table_entries": [
+                {
+                    "dice_val": "1-3",
+                    "entry": "A political power figure allied to the NPC has suddenly died, been arrested, or been exiled.  "
+                },
+                {
+                    "dice_val": "4-6",
+                    "entry": "The NPC's business in trouble.  "
+                },
+                {
+                    "dice_val": "7-9",
+                    "entry": "A family friend of the NPC has taken ill, gone mad, or died suddenly.  "
+                },
+                {
+                    "dice_val": "10-12",
+                    "entry": "The NPC's hometown has been attacked, enslaved, or destroyed.  "
+                },
+                {
+                    "dice_val": "13-15",
+                    "entry": "A disease epidemic is afflicting the local region or the NPC's hometown.  "
+                },
+                {
+                    "dice_val": "16-18",
+                    "entry": "The NPC's spouse or close relative has done something terrible.  "
+                },
+                {
+                    "dice_val": "19-20",
+                    "entry": "All the NPC's resources or income have been stolen or destroyed.  "
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "[W] Warning: The NPC warns that...",
+            "table_entries": [
+                {
+                    "dice_val": "1-3",
+                    "entry": "A powerful enemy is coming for the PC or party.  "
+                },
+                {
+                    "dice_val": "4-6",
+                    "entry": "An enemy is plotting against the PC or party.   "
+                },
+                {
+                    "dice_val": "7-9",
+                    "entry": "The government is investigating the PC or party.  "
+                },
+                {
+                    "dice_val": "10-12",
+                    "entry": "Friend or lover or spouse is lying to the PC or party.  "
+                },
+                {
+                    "dice_val": "13-15",
+                    "entry": "Co-worker or business partner is stealing from the PC or party.  "
+                },
+                {
+                    "dice_val": "16-18",
+                    "entry": "A rival is spreading terrible lies and rumors.  "
+                },
+                {
+                    "dice_val": "19-20",
+                    "entry": "An avatar is coming.  "
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "[X] Social Events: The NPC tells you that...",
+            "table_entries": [
+                {
+                    "dice_val": "1-3",
+                    "entry": "An invitation to an upcoming event (party, play, etc.) given by a mysterious stranger.  "
+                },
+                {
+                    "dice_val": "4-6",
+                    "entry": "A local revival of a deity's followers is nearby and drawing crowds.  "
+                },
+                {
+                    "dice_val": "7-9",
+                    "entry": "A challenge has been issued by the local ruler, calling for Feats of Strength, a Battle of Wits, or some other display of skill.  "
+                },
+                {
+                    "dice_val": "10-12",
+                    "entry": "A guild-house is permitting new members to join, decided by a contest.  "
+                },
+                {
+                    "dice_val": "13-15",
+                    "entry": "A circus has come to town. Rumors are they are taking on workers or performers.  "
+                },
+                {
+                    "dice_val": "16-18",
+                    "entry": "A fancy dress party for the local ruler has drawn all the wealthy in the area.  "
+                },
+                {
+                    "dice_val": "19-20",
+                    "entry": "A family event in the local ruler or his/her spouse or close family (d4): 1. marriage; 2. birth; 3. death; 4. divorce; 5. disinheritance; 6. something else.  "
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "[Y] Political Events: The NPC tells you that...",
+            "table_entries": [
+                {
+                    "dice_val": "1-3",
+                    "entry": "The opposition is soon to gain or has recently gained control through a coup.  "
+                },
+                {
+                    "dice_val": "4-6",
+                    "entry": "A downshift in the support of financial backers has driven prices way up.  "
+                },
+                {
+                    "dice_val": "7-9",
+                    "entry": "A noble has been accused of a terrible crime.  "
+                },
+                {
+                    "dice_val": "10-12",
+                    "entry": "A marriage between noble houses has been announced, and rumors of treachery persist.  "
+                },
+                {
+                    "dice_val": "13-15",
+                    "entry": "A shift in the government's stance on taxes has been taken badly by the populace.  "
+                },
+                {
+                    "dice_val": "16-18",
+                    "entry": "Corruption rumors abound, and evidence of murder and treachery is being sought.  "
+                },
+                {
+                    "dice_val": "19-20",
+                    "entry": "A powerful figure has been killed, exiled, or worse.  "
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "[Z] Religious Events: The NPC tells you that...",
+            "table_entries": [
+                {
+                    "dice_val": "1-3",
+                    "entry": "An avatar has recently issued sanctions.  "
+                },
+                {
+                    "dice_val": "4-6",
+                    "entry": "Open warfare against temple enemies is now public knowledge.  "
+                },
+                {
+                    "dice_val": "7-9",
+                    "entry": "A new edict or sanction has recently been announced, causing a radical shift in the local population's mood.  "
+                },
+                {
+                    "dice_val": "10-12",
+                    "entry": "An expedition to the Heathen Lands has been announced.  "
+                },
+                {
+                    "dice_val": "13-15",
+                    "entry": "Temple leaders have declared a peace agreement and a Summit of Faith has been announced.  "
+                },
+                {
+                    "dice_val": "16-18",
+                    "entry": "An artifact or holy relic has been found or destroyed and a Call to the Faithful has gone out.  "
+                },
+                {
+                    "dice_val": "19-20",
+                    "entry": "An avatar has recently appeared and denounced (or blessed) the faithful and has punished (or rewarded) them with a bane (or boon).  "
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "[AA] Faithtouched: In this place, you'll find...",
+            "table_entries": [
+                {
+                    "dice_val": "1-3",
+                    "entry": "The dreams of the lives of those who gave their lives in sacrifice for the Faith.  "
+                },
+                {
+                    "dice_val": "4-6",
+                    "entry": "All skills relating to the practice of the faith are more easily accomplished (+1 or advantage).  "
+                },
+                {
+                    "dice_val": "7-9",
+                    "entry": "Hallucinations of the landscape of the deity's Plane haunt the waking mind.  "
+                },
+                {
+                    "dice_val": "10-12",
+                    "entry": "Those not of the Faith will be psionically attacked by the environment, driving them out.  "
+                },
+                {
+                    "dice_val": "13-15",
+                    "entry": "Animal servants of the deity roam the grounds here, protecting from heathen intruders.  "
+                },
+                {
+                    "dice_val": "16-18",
+                    "entry": "All divine spells are cast here as if the caster was 1 level higher.  "
+                },
+                {
+                    "dice_val": "19-20",
+                    "entry": "Manifestation of an Avatar. Its mood depends on the PC or party's interaction.  "
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "[BB] Weavetouched: In this place, you'll find...",
+            "table_entries": [
+                {
+                    "dice_val": "1-3",
+                    "entry": "A living mask of a Jester can be found here, hidden, but waiting. The parasite sleeps.  "
+                },
+                {
+                    "dice_val": "4-6",
+                    "entry": "All skills relating to the practice of the arcane mysteries are more easily accomplished (+1 or advantage).  "
+                },
+                {
+                    "dice_val": "7-9",
+                    "entry": "Time and space are on vacation here. Non-causality is a possibility. Things might get dimensionally weird, and non-Euclidian geometry abounds.  "
+                },
+                {
+                    "dice_val": "10-12",
+                    "entry": "All arcane objects are recharged here, but they can only be used once per item per location.  "
+                },
+                {
+                    "dice_val": "13-15",
+                    "entry": "Astral and ethereal creatures are feeding from this bountiful font. They are hostile.  "
+                },
+                {
+                    "dice_val": "16-18",
+                    "entry": "All arcane spells are cast here as if the caster were 1 level higher.  "
+                },
+                {
+                    "dice_val": "19-20",
+                    "entry": "Wild magic regularly spawns here, bathing the area with random level spells and duration.  "
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "[CC] Mystery Cult: These cultists are...",
+            "table_entries": [
+                {
+                    "dice_val": "1-3",
+                    "entry": "Trying to interact with a minor or major deity (d6): 1. return it from exile; 2. free it from imprisonment; 3. enslave it; 4. destroy it; 5. bring about its rebirth; 6. raise it to a higher status.  "
+                },
+                {
+                    "dice_val": "4-6",
+                    "entry": "Collecting objects to trade to a deity for power.  "
+                },
+                {
+                    "dice_val": "7-9",
+                    "entry": "Thralls under a larger power, acquiring resources, knowledge, manpower for a larger plan.  "
+                },
+                {
+                    "dice_val": "10-12",
+                    "entry": "Disaffected people angry at inequality. They have resorted to violence and rhetoric.  "
+                },
+                {
+                    "dice_val": "13-15",
+                    "entry": "Animal worshipers, devoted to returning humanity to a more primal lifestyle.  "
+                },
+                {
+                    "dice_val": "16-18",
+                    "entry": "Outsiders who are interacting with the local populace (d6): 1. killing them; 2. enslaving them; 3. stealing from them; 4. trading with them; 5. helping them; 6. converting them.  "
+                },
+                {
+                    "dice_val": "19-20",
+                    "entry": "Wealthy cannibals and defilers, seeking only pleasure for themselves.  "
+                }
+            ]
+        }
+    ],
+    "title": "NPC Motivation and Rumor Mill",
+    "use_with": []
+}

@@ -1,0 +1,593 @@
+{
+    "description": "These are tables for generating an interesting assassin to serve as foe, foil, or ally to your PCs.",
+    "id": "44wqci",
+    "keywords": [
+        "assassin",
+        "rogue",
+        "NPC",
+        "criminal",
+        "thug",
+        "footpad",
+        "killer",
+        "gangster",
+        "guildmember",
+        "outlaw",
+        "catspaw"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/44wqci",
+    "related_tables": [
+        {
+            "link": "3w3gbj",
+            "title": "Graverobbers"
+        },
+        {
+            "link": "3sqres",
+            "title": "Serial killers"
+        },
+        {
+            "link": "4034w3",
+            "title": "Thieves"
+        },
+        {
+            "link": "3sj9ub",
+            "title": "Town NPCs"
+        },
+        {
+            "link": "3uzziq",
+            "title": "Treasure hunters"
+        }
+    ],
+    "tables": [
+        {
+            "dice": "d12",
+            "name": "The assassin is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A veteran hitman."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A desperate footpad."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A reckless fortune seeker.\t"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A well-known slayer."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A brash, young fool."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A student of the craft."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A charismatic butcher."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A mysterious foreigner."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A femme fatale."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A charming rogue."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A dashing swashbuckler."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A brutish thug."
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "The assassin has...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A scar on the forearm."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A scar on the face."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A high-pitched laugh."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A long, hooked nose."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A dangerous look in the eye."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A cheerful smile."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A cold stare."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "An agile step."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A low-cut shirt."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A bent, broken nose."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A cute little button nose."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A scar below the left eye."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "Pockmarked cheeks."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "High cheek bones."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "A pointy chin."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "A thug's tattoo on the arm (d8): 1. crossed bones; 2. dagger; 3. dragon; 4. eagle; 5. skull; 6. snake; 7. spider web; 8. thorns."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "A sailor's tattoo on the arm (d6): 1. anchor; 2. fish; 3. mermaid; 4. octopus; 5. shark; 6. whale."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "An open shirt and a very hairy chest."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "A five o'clock shadow."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "A neatly trimmed mustache."
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "The assassin wears...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A flashy earring."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Shiny leather boots."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A gold signet ring."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A dagger in each boot."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A mask covering the face."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A wide-brimmed hat."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A cloak with a dark hood."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A black traveler's cloak."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A bandolier containing vials of poison."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A quiver full of arrows/bolts."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A dark red cape."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Boots with golden buckles."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "A leather baldric."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "A handkerchief tied over the head."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "A small silver chain around the neck."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "A long dark ponytail."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "Luscious brown curls."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "A ruffled shirt."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "A black leather coat."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "A handkerchief in his breast pocket."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "The assassin wields...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A blade with a gem embedded in the pommel."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A blade with soft leather tassels dangling from the pommel."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A blade with a carved hilt (d6): 1. ivory; 2. jade; 3. soapstone; 4. ebony; 5. mahogany; 6. oak."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A blade with a gently curved hilt."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A blade with beasts sculpted into the steel of the guard (d6): 1. dragons; 2. lions; 3. scorpions;. 4. snakes; 5. spiders; 6. wolves."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A blade made of blackened steel."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A highly polished blade."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A blade with strange runes carved into it."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A blade with a serrated edge."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A curved, exotic blade."
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "The assassin also carries...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Several throwing knives."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "An array of poisons in neatly stoppered vials."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Several doses of a deadly poison."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A blowgun with poisoned darts."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "An over-sized crossbow."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Arrows/bolts tipped with black steel."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Arrows/bolts with bronzed tips."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Arrows/bolts fletched with crow feathers."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Arrows/bolts fletched with peacock feathers."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Arrows/bolts coated in poison."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Some hemp rope and a silk handkerchief."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A pocketbook of notes and maps."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "Climbing gear\u2014pitons, hammer, and rope."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "A mask."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "The token of a love."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "Letters for blackmail."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "A lucky charm (d4): 1. rabbit's foot; 2. lucky coin; 3. horseshoe; 4. four-leafed clover."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "A flask filled with spirits."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "A wineskin."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "A little jar of mustache wax."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "The assassin is looking for...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Accomplices to help complete a job."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Revenge against a rival assassin."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "An easy contract."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Extra muscle for a tough assignment."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Rumors that may lead to a new client."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Word from a missing guild contact."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Someone to frame up for a murder."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Revenge against a double-crossing client."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A big payday."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A rowdy evening of carousing."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The assassin prefers to operate...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Alone."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Alone, but with a contact who knows where the hit is to occur."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "With a partner to provide extra muscle if things get rough."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "With a partner to serve as a look-out."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "With a partner to create a diversion."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Wearing a mask."
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "Recently, the assassin has been rumored to have notched a kill in or near...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A residential district."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "An artisan's shop or guildhall."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A merchant's office."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A inn."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A brothel."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A warehouse or shipyard."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A temple complex."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A cemetery."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "The town hall."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "An abandoned guildhall or warehouse."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A shantytown"
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "The residence of a wealthy individual."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "The palace"
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "A library or university."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "The market square."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "A gatehouse."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "A pub."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "A tavern."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "The docks."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "The bridge."
+                }
+            ]
+        }
+    ],
+    "title": "Assassins",
+    "use_with": [
+        {
+            "link": "3t0zag",
+            "title": "Assassins' guilds"
+        },
+        {
+            "link": "3sj8mc",
+            "title": "Noble houses"
+        },
+        {
+            "link": "3t2qzc",
+            "title": "Outlaw bands"
+        },
+        {
+            "link": "4b8u29",
+            "title": "Reputations of adventurers"
+        },
+        {
+            "link": "4780bg",
+            "title": "Poisons"
+        },
+        {
+            "link": "43k8fr",
+            "title": "Prisons"
+        },
+        {
+            "link": "3t5q2e",
+            "title": "Urban gangs"
+        }
+    ]
+}

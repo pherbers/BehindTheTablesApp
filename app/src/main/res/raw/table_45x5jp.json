@@ -1,0 +1,666 @@
+{
+    "description": "These are tables for adding some flavor to a druid NPC, from raging beastshifter to a mild-mannered herbalist.",
+    "id": "45x5jp",
+    "keywords": [
+        "druids",
+        "woodlands",
+        "forests",
+        "mountains",
+        "trees",
+        "shapeshifter",
+        "beast form",
+        "wild shape",
+        "herbalist",
+        "hippie",
+        "environmentalist"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/45x5jp",
+    "related_tables": [],
+    "tables": [
+        {
+            "dice": "d20",
+            "name": "The druid is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A wildling orphan."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A seasoned herbalist."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A militant environmentalist.\t"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A well-known healer."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A brash, young fool."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A rebellious noble."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A patient teacher."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A mysterious foreigner."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A beautiful maiden."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A rugged outdoorsman."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A veteran wilderness guide."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A beastly brute."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "A dark-hearted avenger."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "A curious philosopher."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "A shy beastfriend."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "A fierce guardian."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "An exiled spellcaster."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "A mystic shaman."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "A savage priest or priestess."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "A village elder."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "The druid learned the craft from...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Apprenticing to a woodland witch."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Studying wilderness lore at an academy."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A parent who was also a druid."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Running a menagerie or garden for royalty."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Surviving in the wild alone for years."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Conversing with primal spirits."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "An enchanted beast."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Studying old books."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "The circle of druids that took him/her in as a child."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A fey creature that offered redemption for past transgressions against nature."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A mysterious village elder."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Time spent stranded in a wild, foreign land."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "The druid has...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Sky blue eyes."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Deep sea blue eyes."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Bright grass green eyes."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Sunset golden eyes."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Pale moss green eyes."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Muddy brown eyes."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Dark, stormy grey eyes."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Night-sky purple eyes."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Dusty brown eyes."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Stony grey eyes."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "The druid has...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "An earthy scent."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Bits of green under the fingernails."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Stains of bird droppings on his/her clothes."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A long, hooked, beak-like nose."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Large bear-like shoulders and hands."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A pointy, rodent-like nose."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Very hairy arms and legs."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Long, sharp fingernails."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Beautiful, healthy skin."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A greenish, mossy beard."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "The druid...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Stares hungrily like a wolf."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Stares suspiciously like a cat."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Hisses like a snaking when he/she laughs."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Barks like a seal when he/she laughs."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Twitters like a bird when he/she laughs."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Walks ponderously like an ox."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Walks gracefully like a panther."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Eats like a horse."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Eats like a bird."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Speaks very little."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Fidgets like a squirrel."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Pounces like a lion."
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "The druid shares an especially close connection with...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Aquatic mammals."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Bears."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Birds of prey."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Cats."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Hoofed mammals."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Reptiles and amphibians."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Songbirds and waterfowl."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Wolves and dogs."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Blizzards and snowstorms."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Hurricanes and tides."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Volcanoes, geysers, and hot springs."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Earthquakes."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "Thunderstorms and floods."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "Forests and trees."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "Mountains and stone."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "Caves and shadows."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "Jungles and rainstorms."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "Glaciers and tundra."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "Deserts and sand."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "Swamps and marshes."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "The druid wields...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A wooden staff."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A wooden club."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A club and a wooden shield."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A scimitar."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A scimitar and a wooden shield."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A spear."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A spear and a wooden shield."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A dagger. "
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A thorny whip made from a tough vine."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Tooth and claw."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "The druid carries...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A sprig of holly."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A sprig of mistletoe."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A yew wand."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A cutting from a rare plant."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A totem necklace, strung with pieces of beasts (d6): 1. beaks; 2. bones; 3. claws; 4. shells; 5. tiny skulls; 6. teeth."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A totem rod, adorned with pieces of beasts (d4): 1. bones; 2. feathers; 3. fur; 4. scales."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A totem necklace, strung with plant material (d4): 1. seed pods; 2. dried fruit; 3. root clippings; 4. fresh flowers."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A totem rod, adorned with plant material (d4): 1. tree bark; 2. fresh leaves; 3. berries; 4. seeds and tree sap."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "The druid also carries...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A small knife."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A wooden flute."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A hunting horn."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A shard of obsidian, warm to the touch."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A piece of crystal that glows in moonlight."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A small pouch full of seeds."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A small pouch full of herbal tea."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Several vials of herbal extracts."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A pair of herb snips"
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A pocketbook field guide to flora and fauna in a region the druid has never visited. "
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A book of Elvish poems and songs."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Several vials of healing potions."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "The druid wears...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Robes of earth tones."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A dark green cape."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Shiny leather boots with fur."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Boots of soft leather."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A leather baldric."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Leather armor decorated with leafy motifs."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Armor made from the hides of beasts."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Leather armor studded with bone."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A robe stained with bird droppings."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A robe with vines growing from its pockets."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "The druid is looking to...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Find a place where a rare herb grows."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Drive away an unnatural intruder."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Lead intruders into a trap."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Help a wounded, legendary beast."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Permanently transform into a beast."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Locate a legendary garden or grove."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Stop the spread of mining or grazing."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Swap recipes and herb lore."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Bear witness to nature\u2019s awesome power."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Provide a safe haven for a hunted beast."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Inspire a love for nature."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Drink some tea mixed with strong spirits."
+                }
+            ]
+        }
+    ],
+    "title": "Druids",
+    "use_with": [
+        {
+            "link": "3unfbm",
+            "title": "Caverns"
+        },
+        {
+            "link": "3tich6",
+            "title": "Deserts"
+        },
+        {
+            "link": "3sgzxb",
+            "title": "Forests"
+        },
+        {
+            "link": "3va3dw",
+            "title": "Elves, wood"
+        },
+        {
+            "link": "45x72u",
+            "title": "Herb lore"
+        },
+        {
+            "link": "42rm5s",
+            "title": "Mountains"
+        },
+        {
+            "link": "4b8u29",
+            "title": "Reputations of adventurers"
+        },
+        {
+            "link": "43c2q8",
+            "title": "Swamps"
+        }
+    ]
+}

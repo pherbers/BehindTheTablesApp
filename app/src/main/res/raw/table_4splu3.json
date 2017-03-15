@@ -1,0 +1,469 @@
+{
+    "description": "These are some tables for giving bats some flavor. Keep those beasts out of your hair.",
+    "id": "4splu3",
+    "keywords": [
+        "rats",
+        "familiar",
+        "kobolds",
+        "filth",
+        "slime",
+        "refuse heap",
+        "garbage",
+        "wererats",
+        "Splinter"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/4splu3",
+    "related_tables": [
+        {
+            "link": "4spk6l",
+            "title": "Bats"
+        },
+        {
+            "link": "487awj",
+            "title": "Spiders"
+        },
+        {
+            "link": "4aepj5",
+            "title": "Wolves"
+        }
+    ],
+    "tables": [
+        {
+            "dice": "d6",
+            "name": "Size: The rat is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A little on the small side; you've found bigger rats in your bedroll."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Typically sized; it's just a rat."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A little on the big side; it's not quite as big as a house cat."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Pretty big; it's about the size of a large house cat."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Enormous; it could eat a house cat."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Of unusual size; it's about the same size as a grown man."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Color: The rat's fur is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Black."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Mottled black and brown."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Mottled black and grey."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Dark grey."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Pale grey."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Mottled reddish brown and grey."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Mottled grey and brown."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Dark brown."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Mottled reddish brown and black."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "White. "
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Markings: The rat has...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A missing eye."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A missing patch of fur on its back."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A scar on its face."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Missing toes on one of its front feet."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Missing toes on one of its back feet."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A pale underbelly."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A hairless underbelly."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A hairless tail."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A broken tail."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Intimidating whiskers."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Teeth: The rat has...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Particularly sharp, pointy teeth."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Disgustingly yellow teeth."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Disgustingly brown teeth."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Particularly curved teeth."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Particularly long front teeth."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A broken front tooth."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Bone white teeth."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Teeth protruding from bleeding gums."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Short front teeth for a rat."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Blunt, worn front teeth."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Manner: The rat...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Squeaks whenever it moves."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Hisses whenever it moves."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Squeaks when it feels threatened."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Hisses when it feels threatened."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Scurries about when it moves."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Darts about when it moves."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Clacks its teeth, making an unsettling noise."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Chitters and chatters when it eats."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Clicks its teeth when it eats."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Moves without a sound."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Favorite food: The rat prefers to eat...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Mutton."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Pork."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Eggs."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Pungent cheese."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Sharp cheese."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Fresh bread."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Dog poop."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Cat poop."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Beetles."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Spiders."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Other food: ...but will just as happily eat...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Rotting meat."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Rotting fruit."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Moldy cheese."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Moldy bread."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Discarded bones."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Any poop."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Cockroaches."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Maggots."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Fingers and toes."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Other rats."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Nesting habits: This type of rat often infests...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Warehouses."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "The cargo holds of ships."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Brothels."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Taverns."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Swamps."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Natural caverns."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "War camps."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Farmhouses."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Stables."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Granaries."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Disease: This type of rat is believed to spread...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A burning fever accompanied by headaches."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A fever accompanied by delusions."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A chill accompanied by sleepiness and fatigue."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A chill accompanied by cold sweats."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A stomach illness."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A respiratory illness."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "An itchy rash."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "An itchy pox."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "An unsightly pox."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A deadly flux."
+                }
+            ]
+        }
+    ],
+    "title": "Rats",
+    "use_with": [
+        {
+            "link": "43t6g9",
+            "title": "Dungeon, castle"
+        },
+        {
+            "link": "4g487v",
+            "title": "Kobolds"
+        },
+        {
+            "link": "3snzw5",
+            "title": "Lycanthropes"
+        },
+        {
+            "link": "3w1g84",
+            "title": "Necromancers"
+        },
+        {
+            "link": "3t5sik",
+            "title": "Pirates"
+        },
+        {
+            "link": "43k8fr",
+            "title": "Prison"
+        },
+        {
+            "link": "427hd8",
+            "title": "Tomb"
+        },
+        {
+            "link": "4daxw7",
+            "title": "Urban marketplace"
+        },
+        {
+            "link": "3si4ms",
+            "title": "Witches"
+        }
+    ]
+}

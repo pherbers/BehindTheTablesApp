@@ -1,0 +1,450 @@
+{
+    "description": "These are some tables for giving wolves some flavor. Who'd like to go hunting for a nice wolf pelt?",
+    "id": "4aepj5",
+    "keywords": [
+        "wolves",
+        "werewolves",
+        "canine",
+        "lupine",
+        "howl",
+        "pack",
+        "wolfpack",
+        "hunting",
+        "hunter",
+        "direwolf",
+        "warg",
+        "Stark"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/4aepj5",
+    "related_tables": [
+        {
+            "link": "4spk6l",
+            "title": "Bats"
+        },
+        {
+            "link": "4splu3",
+            "title": "Rats"
+        },
+        {
+            "link": "487awj",
+            "title": "Spiders"
+        }
+    ],
+    "tables": [
+        {
+            "dice": "d10",
+            "name": "Color: The wolf's coat is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Black."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Dark grey."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Dark brown."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Black and brown."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Black and grey."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Pale brown."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Brown and grey."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Reddish brown."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Sandy brown."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "White."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Markings: The wolf has...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "White or pale fur on each paw."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "White or pale fur on one paw."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "White or pale fur around the face and muzzle."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Black or dark fur around the face and muzzle."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A banded pattern on its back (d4): 1. dark grey; 2. pale grey; 3. reddish brown; 4. sandy brown."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Lighter fur on its belly."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Darker fur on its belly."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A distinct, white or pale grey shape on its chest (d4): 1. arrowhead; 2. diamond; 3. a wide stripe; 4. star."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A scar from a past injury (d6): 1. flank; 2. foreleg; 3. hindleg; 4. snout; 5. eye; 6. ear."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "No obvious markings."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "Eyes: The wolf's eyes are...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Reflective and black."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Pale grey."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Brownish grey."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Dark grey."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Dark brown."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Golden brown."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Light brown."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Red."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Yellow."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Green."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Pale blue."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Dark blue."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "Manner: The wolf is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Panting lightly."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Panting heavily, its tongue lolling out of its mouth."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Salivating."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Hungrily licking its chops."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Yawning."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Watching curiously."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Watching warily."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Pacing nervously."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Whining softly."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Watching with ears perked and hackles raised."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Growling low, giving warning."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Standing perfectly still, ready to lunge."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Hunting: The wolf prefers to...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Pick off weak, easy prey."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Stalk its prey until the opportune time to strike."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Harrying its prey over long distances until the prey is exhausted."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Chase its prey to a place where its packmates are waiting in ambush."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Wait in ambush while one or more of its packmates chases the prey to it."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Choose its prey and to run it down."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Favorite prey: If given the choice, the wolf will opt to eat...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Rabbit."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Squirrel."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Pheasant."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Goose."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Deer."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Sheep."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Chicken."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Carrion."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Human flesh."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Scraps from a roadside inn's refuse heap."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Pack: The wolf is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "The alpha of a large pack."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "The alpha of a small pack."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "The beta of its pack, patiently waiting for the alpha to fail."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "The beta of its pack, constantly challenging the alpha."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Somewhere in the middle of the pack order, looking for opportunities to ascend."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Somewhere in the middle of the pack order, satisfied to follow the alpha."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "The omega of a large pack."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "The omega of a small pack."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "One of a mated pair."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A lone predator."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Habitat: This type of wolf evolved to thrive...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "In canyonlands."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "In grassy hills."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "In forested hills."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "On grassy plains."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "In ancient forests."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "In young forests."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "In rocky deserts."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "In the foothills of mountains."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "In mountain passes."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "In frozen lands."
+                }
+            ]
+        }
+    ],
+    "title": "Wolves",
+    "use_with": [
+        {
+            "link": "3tich6",
+            "title": "Deserts"
+        },
+        {
+            "link": "3va3dw",
+            "title": "Elves, wood"
+        },
+        {
+            "link": "3sgzxb",
+            "title": "Forests"
+        },
+        {
+            "link": "3sh0bv",
+            "title": "Forests, haunted"
+        },
+        {
+            "link": "3snvqq",
+            "title": "Goblins"
+        },
+        {
+            "link": "3snzw5",
+            "title": "Lycanthropes"
+        },
+        {
+            "link": "42rm5s",
+            "title": "Mountains"
+        },
+        {
+            "link": "47x04h",
+            "title": "Plains"
+        },
+        {
+            "link": "3sq5dx",
+            "title": "Vampires"
+        },
+        {
+            "link": "3va510",
+            "title": "Woodsmen"
+        },
+        {
+            "link": "3si4ms",
+            "title": "Witches"
+        }
+    ]
+}

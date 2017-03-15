@@ -1,0 +1,731 @@
+{
+    "description": "These are tables for adding quick flavor and encounters to a forested region. You can use these to generate a single forest location for an encounter or to set up a map of a forest region.",
+    "id": "3sgzxb",
+    "keywords": [
+        "forest",
+        "woods",
+        "woodlands",
+        "trees",
+        "encounters"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/3sgzxb",
+    "related_tables": [
+        {
+            "link": "3sh0hz",
+            "title": "Forest, enchanted"
+        },
+        {
+            "link": "3sh0bv",
+            "title": "Forest, haunted"
+        },
+        {
+            "link": "3u4a05",
+            "title": "Jungle"
+        }
+    ],
+    "tables": [
+        {
+            "dice": "d12",
+            "name": "Interesting Location: You find...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A cavern behind a waterfall."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A small cave in the bank of a creek."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "An entrance to a rocky cave."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A hole under a large tree."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A large burrow."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A peculiar cottage."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A woodsman's cabin."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "An abandoned cabin."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "An abandoned campsite."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A sacred grove."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A grave with an illegible headstone."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Ancient ruins."
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "Distinguishing Landmark: You see...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A fruit tree."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A large, hollow tree."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A pair of trees from the same root."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A tree growing over a boulder."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A clearing with wildflowers."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A grassy clearing."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A moss-covered boulder."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A thicket of brambles."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A babbling brook."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A brook in a deep ravine."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A brook, with gentle rapids."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A dry creekbed."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "A small pool at a creek's bend."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "A patch of mushrooms."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "An enormous mushroom."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "A large, hollow log."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "A large, rotting log."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "A tree felled by lightning."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "An old gnarled tree."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "The stump of an enormous tree."
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "Feature: You notice...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A flock of birds scatter."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A hawk cries."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A woodpecker drumming."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "An owl hoots."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Birds chirping."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A chipmunk scurrying."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A deer dashes away."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A deer watches curiously."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A squirrel leaps from one tree to another."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A wolf howls."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Butterflies fluttering about."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Squirrels chittering."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "An eerie silence."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "The breeze stops."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "The wind blows harder."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "A twig snaps."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "Brightly, colored berries."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "Leaves rustling."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "The scent of flowers."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "The smell of decay."
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "Dominant Species: Many of the trees are...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Apple or pear trees."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Ashes."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Birches."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Beeches."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Cedars or junipers."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Cherry or plum trees."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Chestnut or hazel trees."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Cypresses."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Elms."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Firs."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Hawthorns or hemlocks."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Hickory or walnut trees."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "Linden or lime trees."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "Maples."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "Oaks."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "Pines."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "Poplars."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "Spruces."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "Willows."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "Yew or holly trees."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "What\u2019s in the cave/cavern?",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A bear\u2019s lair."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Lots of bats."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Many spider webs."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A troll's stash."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "An ogre's lair."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Some goblins' hideout."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Some abandoned mining equipment."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Bare rock."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A potable spring."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Unidentifiable remains."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Some outlaws\u2019 hideout."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A strange hermit."
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "Encounters: You come upon...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A large bear."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A bear cub."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A giant spider."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Several giant spiders."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A pack of wolves."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A lone wolf."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A hunting cat."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A wailing ghost."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A malevolent ghost."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A pair of goblin scouts."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A goblin patrol."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "An ogre."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "A pair of outlaws."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "A beggarly bandit."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "An old witch."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "A curious herbalist."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "A lost child."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "A woodcutter busy with the day\u2019s work."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "An intrepid hunter."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "An elvish ranger."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Who lives in the peculiar cottage?",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A lonely old woman."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A reclusive shapeshifter."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "An eccentric healer."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A beautiful witch."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A horrible witch."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "An outcast dwarf."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Who lived in the abandoned cabin?",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A lonely old woman."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A reclusive scholar."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "an eccentric healer."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A poor woodcutter."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A fur trader."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A dwarf prospector."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Who resides in the abandoned cabin now?",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "An owlbear."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "An ogre."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A troll."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A mad witch."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A paranoid shapeshifter."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Restless ghosts."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Who built the ancient ruins?",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Dwarvish miners."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A wood elf king."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A high elf prince."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A dragon cult."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A death cult."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Shadow monks."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A long-dead emperor."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A forgotten king."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "An evil queen."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A dark sorcerer."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Who lives in the ancient ruins now?",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A dwarf prospector."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A wood elf druid."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Poisonous snakes."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Giant spiders."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Hungry zombies."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Restless ghosts."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A handful of ogres."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Some irritable trolls."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A pair of manticores."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A dragon."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "What\u2019s in the hole/burrow?",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A snake."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A spider."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A badger."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Earthworms."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A centipede."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Unusual fungus."
+                }
+            ]
+        }
+    ],
+    "title": "What's in the Forest?",
+    "use_with": [
+        {
+            "link": "45x5jp",
+            "title": "Druids"
+        },
+        {
+            "link": "3snvqq",
+            "title": "Goblins"
+        },
+        {
+            "link": "3snzw5",
+            "title": "Lycanthropes"
+        },
+        {
+            "link": "3t2qzc",
+            "title": "Outlaw bands"
+        },
+        {
+            "link": "3sorre",
+            "title": "Restless undead"
+        },
+        {
+            "link": "3vjsea",
+            "title": "Treefolk"
+        },
+        {
+            "link": "3si4ms",
+            "title": "Witches"
+        },
+        {
+            "link": "3va3dw",
+            "title": "Wood elves"
+        },
+        {
+            "link": "3va510",
+            "title": "Woodsmen"
+        }
+    ]
+}

@@ -1,0 +1,287 @@
+{
+    "description": "These are tables for randomly determining a host of magical mishaps, including scroll-scribing-gone-wrong, mechanical-contraptions-gone-haywire, and alchemy-gone-explosive. These tables have a few suggested mechanics (for 5E), but the flavor is easy enough to adapt to other editions.\n\nStart by rolling on the **Magical Device Mishaps** table. This table determines whether the device failure involves a stored spell misfiring, an alchemical mishap, or a mechanical problem.\n\n**Stored Spell Mishaps** may not render the device inoperable, merely discharged. But the stored spell must be replaced. If you have sufficient understanding of the device, you can spend one hour repairing it after a stored spell mishap has occurred. You must be able to cast the stored spell (or an appropriate replacement for it) and expend a spell slot of appropriate level in order to do so (DM's discretion). I might use this table for random scroll-scribing mishaps.\n\nResults 1-12 on the **Alchemical Mishaps** table do not render the device inoperable. However, no one can attempt to operate the device again until its alchemical component has been replaced with the appropriate alchemical item or potion. Results 13-20 on the Alchemical Mishaps table do significant damage to the deivice, rendering it inoperable. If you have sufficient understanding of the device, you can spend one hour (or longer) repairing it after a damaging alchemical mishap has occurred. You might need appropriate tools, need to use an appropriate alchemical item or potion, need to expend a spell slot, or replace mechanical parts (DM's discretion).\n\nA **Mechanical Mishap** renders the device inoperable until it is repaired. Repairing the device takes one hour (or longer). You might need appropriate tools, need access to special materials, or need to expend a spell slot (DM's discretion).",
+    "id": "43xeol",
+    "keywords": [
+        "alchemy",
+        "mishap",
+        "explosion",
+        "scrolls",
+        "magic",
+        "magicks",
+        "devices",
+        "mechanical",
+        "tinker",
+        "gnome"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/43xeol",
+    "related_tables": [],
+    "tables": [
+        {
+            "dice": "d6",
+            "name": "Magical Device Mishaps",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Nothing happens. You're not sure why. Any further attempts to use the device for the next 24 hours automatically fail, and you trigger a device mishap. (Reroll on this table if you roll a 1 again on subsequent attempts.)"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Roll on Stored Spell Mishaps table."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Roll on Alchemical Mishaps table."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Roll on Mechanical Mishaps table."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Roll on Stored Spell Mishaps and Mechanical Mishaps tables."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Roll on Alchemical Mishaps and Mechanical Mishaps tables."
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "Stored Spell Mishaps",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "***Befuddled.*** Your head spins, and you have trouble making sense of your surroundings. You take 1d6 psychic damage, and you have disadvantage on all Intelligence ability checks until you complete a long rest."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "***Clouded Mind.*** You have trouble thinking clearly. You have disadvantage on Intelligence and Wisdom saving throws until you complete a long rest."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "***Explosive boom.*** The stored spell explodes with a loud bang. You take 1d6 thunder damage, and you are deafened for 1 hour."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "***Explosive flash.*** The stored spell explodes in a bright flash. You take 1d6 radiant damage, and you are blinded for 1 hour."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "***Fiery burst.*** The stored spell explodes in a fiery burst. You take 2d6 fire damage."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "***Forceful burst.*** The stored spell explodes in a burst of force. You take 2d6 force damage."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "***Icy burst.*** The stored spell explodes in a burst of frost. You take 2d6 cold damage."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "***Life drain.*** The stored spell sizzles with necrotic energy. You take 1d6 necrotic damage, and you cannot regain hit points until you complete a long rest. "
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "***Mad twitching.*** You twitch erratically. You have disadvantage on Dexterity and Charisma saving throws until you complete a long rest."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "***Magical illness.*** You feel sick to your stomach. You are poisoned for 1 hour, and you have disadvantage on Constitution and Strength saving throws until you complete a long rest."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "***Operator spell hazard.*** The stored spell targets you."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "***Bystander spell hazard.*** The stored spell targets a random creature within 30 ft. of you, other than yourself."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "***Spell burst hazard.*** The stored spell targets the you and 2d4 creatures within 30 ft. of you."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "***Empowered spell hazard.*** The stored spell targets targets a random creature within 30 ft. of you. Any damage the stored spell deals is doubled."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "***Extended spell hazard.*** The stored spell targets a random creature within 30 ft. of you. The duration of the spell's effect is doubled."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "***Operator surge hazard.*** The stored spell targets you. Roll again on this table, using a d10."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "***Bystander surge hazard.*** The stored spell targets a random creature within 30 ft. of you, other than yourself. Roll again on this table, using a d10. Apply that effect the creature targeted by the spell."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "***Spell burst surge hazard.*** The stored spell targets you and 2d4 creatures within 30 ft. of you. Roll again on this table, using a d10. Apply that effect to each creature targeted by the spell."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "***Double trouble operator hazard.*** Roll 2d4 times on this table using a d10. Apply each effect to yourself."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "***Double trouble bystander hazard.*** Roll 2d4 times on this table using a d10. Apply each effect to a random creature within 30 ft. of you, other than yourself."
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "Alchemical Mishaps",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "***Befuddled.*** Your head spins, and you have trouble making sense of your surroundings. You take 1d6 psychic damage, and you have disadvantage on all Intelligence ability checks until you finish a long rest. "
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "***Deathly ill.*** You take ill, teetering uncomfortably close to death. You take 1d6 necrotic damage, and you cannot regain hit points until you finish a long rest. "
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "***Disoriented.*** You have trouble thinking clearly. You have disadvantage on Intelligence and Wisdom saving throws until you finish a long rest."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "***Nausea.*** You feel sick to your stomach. You have disadvantage on Constitution and Strength saving throws until you finish a long rest."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "***Dizziness.*** You feel light-headed and unsteady on your feet. You have disadvantage on all Dexterity ability checks until you finish a long rest."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "***Upset Stomach.*** You feel very queasy. You have disadvantage on all Strength ability checks until you finish a long rest."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "***Poison exposure.*** You are exposed to toxins. You take 1d6 poison damage, and you are poisoned for 1 hour."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "***Headache.*** You develop a splitting headache. You have disadvantage on all Intelligence ability checks until you finish a long rest. "
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "***Skin irritation.*** Your skin breaks out in an unsightly rash. You have disadvantage on all Charisma ability checks until you finish a long rest."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "***Coughing fits.*** You suffer fits of violent coughing. You have disadvantage on Dexterity and Charisma saving throws until you finish a long rest."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "***Euphoria.*** You feel giddy and content. You have disadvantage on all Wisdom ability checks until you finish a long rest."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "***Extreme Nausea.*** You feel so sick you can barely stay on your feet. You take 1d6 poison damage. You have disadvantage on all Strength ability checks until you finish a long rest. "
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "***Chills.*** You catch chills and shake uncontrollable. You take 1d6 cold damage. You have disadvantage on all Dexterity ability checks until you finish a long rest. "
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "***Accidental fire.*** You are burned as your reagents catch fire. You take 2d6 fire damage."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "***Uncontrollable fire.*** Your reagents catch fire and begin to spread to the vicinity. You take 3d6 acid damage, and each creature within 10 feet of you takes 1d6 fire damage. Flammable objects within 10 feet of you catch fire. "
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "***Acid spill.*** You are splashed with a caustic substance. You take 2d6 acid damage."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "***Large acid spill.*** A vat of acid bubbles over violently, corroding everything in the vicinity. You take 3d6 acid damage, and each creature within 10 feet of you takes 1d6 acid damage. Objects within 10 feet of you that cannot withstand corrosion take 1d6 acid damage. "
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "***Explosive boom.*** Your reagents explode with a loud bang. You take 1d6 thunder damage, and you are deafened for 1 hour."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "***Explosive flash.*** Your reagents explode in a bright flash. You take 1d6 radiant damage, and you are blinded for 1 hour."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "***Massive explosion.*** Your reagents explode in spectacular fashion. You take 2d6 thunder damage, 2d6 radiant damage, and you are blinded and deafened for 1 hour. Additionally, each creature within 15 feet of you takes 1d6 thunder damage and 1d6 radiant damage. Flammable objects within 15 feet of you catch fire. "
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "Mechanical Mishaps",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "***Jammed gears.*** A bit of debris has lodged itself between two gears."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "***Broken gear teeth.*** One or more teeth have broken off a gear. The gear must be mended or replaced."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "***Broken belt.*** A serpentine belt linking several shafts has broken and must be mended or replaced."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "***Rust.*** Several moving parts have rusted and must be cleaned and oiled."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "***Small fire.*** The oil that lubricates several parts has caught fire."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "***Broken shaft.*** A shaft has snapped in two and must be mended or replaced."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "***Slipped spring.*** A spring pops free of its proper location in the device. The spring must be replaced."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "***Loose screw.*** A screw or bolt has come off, causing two parts that were firmly attached to come apart. The screw or bolt must be replaced."
+                }
+            ]
+        }
+    ],
+    "title": "Magical Mishaps: Alchemical, Scroll Scribing, and Mechanical Devices",
+    "use_with": [
+        {
+            "link": "3sl4sr",
+            "title": "Alchemists"
+        },
+        {
+            "link": "45x72u",
+            "title": "Herb lore"
+        },
+        {
+            "link": "3w1g84",
+            "title": "Necromancers"
+        },
+        {
+            "link": "4780bg",
+            "title": "Poisons"
+        },
+        {
+            "link": "4c5iu4",
+            "title": "Potions"
+        },
+        {
+            "link": "3si4ms",
+            "title": "Witches"
+        }
+    ]
+}

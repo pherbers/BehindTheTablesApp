@@ -1,0 +1,251 @@
+{
+    "description": "Creatures of churning elemental air and water, most storm beasts are frightening and ill-tempered. This is a short set of tables for quickly coming up with brief description of an interesting storm beast.",
+    "id": "4nbzhp",
+    "keywords": [
+        "thunder",
+        "lightning",
+        "floods",
+        "hurricanes",
+        "shock",
+        "zap",
+        "drowned",
+        "kill",
+        "pets for storm giants"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/4nbzhp",
+    "related_tables": [
+        {
+            "link": "4mnnq4",
+            "title": "Celestial beasts"
+        },
+        {
+            "link": "4nbz0l",
+            "title": "Fire beasts"
+        },
+        {
+            "link": "4nbz9h",
+            "title": "Legendary beasts"
+        },
+        {
+            "link": "4nbzeq",
+            "title": "Sea beasts"
+        },
+        {
+            "link": "4nbzt3",
+            "title": "Winter beasts"
+        }
+    ],
+    "tables": [
+        {
+            "dice": "d12",
+            "name": "The storm beast is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A basilisk."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A boar."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A drake."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A griffon."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A hawk."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A lizard."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A manticore."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "An owlbear."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "An ox."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A scorpion."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A serpent."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A wyvern."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "The beast has...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Bright blue or white markings."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Zigzag stripes."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Broad, feathered or leathery wings."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Cold, grey eyes."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Watery, blue eyes."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A coat that always appears damp."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "An aura of static electricity."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A windy aura."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "...and...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Flies erratically, fluttering in the wind."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Flies swiftly, like a bolt of lightning."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Causes the ground to quake with each step."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A loud, thunderous howl or cry."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Can conjure a raincloud wherever it goes."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Exhales lightning when it breathes."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Electrically shocks those who touch it."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Flies into a rage when struck by an attack."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The beast is looking for...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Something to electrocute or to drown."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A lair on high ground with a view of the land."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "An individual marked by its master."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "An opportunity to impress its master."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "The remains of a long-dead storm titan."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "An item that can call thunderstorms."
+                }
+            ]
+        }
+    ],
+    "title": "Storm Beasts",
+    "use_with": [
+        {
+            "link": "40wc26",
+            "title": "Cultists"
+        },
+        {
+            "link": "3xyiqs",
+            "title": "Cults"
+        },
+        {
+            "link": "3tich6",
+            "title": "Desert"
+        },
+        {
+            "link": "4dv87r",
+            "title": "Dinner in a dockside tavern"
+        },
+        {
+            "link": "4dx43x",
+            "title": "Dinner in a mining town pub"
+        },
+        {
+            "link": "43vqqs",
+            "title": "Miners"
+        },
+        {
+            "link": "43ufyr",
+            "title": "Mines"
+        },
+        {
+            "link": "42rm5s",
+            "title": "Mountains"
+        },
+        {
+            "link": "3t5sik",
+            "title": "Pirate crews"
+        },
+        {
+            "link": "497u5a",
+            "title": "Sailors"
+        },
+        {
+            "link": "3xpb4r",
+            "title": "Temples"
+        },
+        {
+            "link": "3si4ms",
+            "title": "Witches"
+        }
+    ]
+}

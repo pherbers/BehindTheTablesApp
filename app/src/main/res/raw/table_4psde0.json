@@ -1,0 +1,705 @@
+{
+    "description": "These tables are designed to quickly create a merchant's shop, and the merchant that runs it.",
+    "id": "4psde0",
+    "keywords": [
+        "merchant",
+        "shop",
+        "store",
+        "wares",
+        "sales"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/4psde0",
+    "related_tables": [],
+    "tables": [
+        {
+            "dice": "d50",
+            "name": "The shop sells...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Weapons"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Armor"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Magical items"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Fresh food"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Cured food"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Livestock"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Slaves"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Services"
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Mostly junk"
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Artwork"
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Jewellery"
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Gems and Ores"
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "Mining tools"
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "Household goods"
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "Farming tools"
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "Animal feed"
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "Crafting tools"
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "Ales and Liqueur"
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "Items of interest from a previous generation"
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "Items of interest from a far-away land"
+                },
+                {
+                    "dice_val": "21",
+                    "entry": "Clothing"
+                },
+                {
+                    "dice_val": "22",
+                    "entry": "Gnomish Gadgets"
+                },
+                {
+                    "dice_val": "23",
+                    "entry": "Potions"
+                },
+                {
+                    "dice_val": "24",
+                    "entry": "Poisons"
+                },
+                {
+                    "dice_val": "25",
+                    "entry": "Alchemical Supplies"
+                },
+                {
+                    "dice_val": "26",
+                    "entry": "Magical Supplies"
+                },
+                {
+                    "dice_val": "27",
+                    "entry": "Musical instruments"
+                },
+                {
+                    "dice_val": "28",
+                    "entry": "Fabrics"
+                },
+                {
+                    "dice_val": "29",
+                    "entry": "A little bit of everything"
+                },
+                {
+                    "dice_val": "30",
+                    "entry": "Spices"
+                },
+                {
+                    "dice_val": "31",
+                    "entry": "Hunting Tools"
+                },
+                {
+                    "dice_val": "32",
+                    "entry": "Herbs"
+                },
+                {
+                    "dice_val": "33",
+                    "entry": "Remedies and tonics"
+                },
+                {
+                    "dice_val": "34",
+                    "entry": "Books"
+                },
+                {
+                    "dice_val": "35",
+                    "entry": "Dolls"
+                },
+                {
+                    "dice_val": "36",
+                    "entry": "Toys"
+                },
+                {
+                    "dice_val": "37",
+                    "entry": "Exotic Animals"
+                },
+                {
+                    "dice_val": "38",
+                    "entry": "Furs and Pelts"
+                },
+                {
+                    "dice_val": "39",
+                    "entry": "Illicit Goods"
+                },
+                {
+                    "dice_val": "40",
+                    "entry": "Cheeses"
+                },
+                {
+                    "dice_val": "41",
+                    "entry": "Meats"
+                },
+                {
+                    "dice_val": "42",
+                    "entry": "Pack animals"
+                },
+                {
+                    "dice_val": "43",
+                    "entry": "Building supplies"
+                },
+                {
+                    "dice_val": "44",
+                    "entry": "Fruits and vegetables"
+                },
+                {
+                    "dice_val": "45",
+                    "entry": "Supplies for a local guild"
+                },
+                {
+                    "dice_val": "46",
+                    "entry": "Leather goods"
+                },
+                {
+                    "dice_val": "47",
+                    "entry": "Good crafted from rare metals"
+                },
+                {
+                    "dice_val": "48",
+                    "entry": "Beauty and hygiene supplies"
+                },
+                {
+                    "dice_val": "49",
+                    "entry": "Magical creatures"
+                },
+                {
+                    "dice_val": "50",
+                    "entry": "Wagon wheels"
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "The shop's type is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A building in a merchant district"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Attached to the merchant's home"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A wagon pulled by a horse or ox team"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Under a tent"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "In an open bazaar on a rug"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "In a stall in a bazaar"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "In the back room of another shop"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A merchant caravan"
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "In a place only accessibly by magic"
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A franchise. The shop can be found in multiple places"
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "The shop is owned by...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A beady-eyed accountant"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A guild leader"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A noble"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "An obsessive-compulsive gnome"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A greedy dwarf"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A former soldier"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A farmer's wife"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A snobby high-elf"
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A forgetful halfling"
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "An oppressive brute"
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "An old crone"
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A lazy half-orc"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The shop's condition is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Brand new. Everything has a place, and is in its place"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Well maintained. It is cleaned regularly"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Average. A little dusty"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Unkempt. Bugs and rodents scurry away from your footsteps"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Dark. There is no natural light. Only a candle or two light the shop"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Decrepit. The building should be condemned"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The condition of the merchandise is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Pristine. Kept in the best possible condition"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Cleaned regularly"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Mixed. Some items look new, while some look like they have been there a long time"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Dusty and dirty"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Falling apart"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Ancient"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The shop gets its supplies from...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "They are crafted or attained by the merchant himself"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "They are crafted or attained by the merchant's apprentices"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "The merchant's business partner"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "They are crafted elsewhere in bulk, and sold in the shop"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "They are purchased from other people in town and resold"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "No one knows, and no one asks"
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "The items are priced...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Fairly"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Below value"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Above value"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Exorbitantly"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Everything is for barter"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "\"Other\" means of payment are encouraged"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Based on the merchant's mood"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Based on how much the merchant thinks the customer needs it."
+                }
+            ]
+        },
+        {
+            "dice": "d5",
+            "name": "The shop's size is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Giant. Multiple rooms"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Large. One big room"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Average. One room big enough to hold what is needed"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Small. The room feels cluttered"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Tiny. The merchant practically operates out of a pack"
+                }
+            ]
+        },
+        {
+            "dice": "d4",
+            "name": "How busy is the shop...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "It's one of the most popular places to visit"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A few people mill in and out of the shop"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Not very busy. You are the only people there"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "It rarely sees a customer "
+                }
+            ]
+        },
+        {
+            "dice": "d50",
+            "name": "Something interesting you find...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "The shopkeeper lives in a room attached to the shop"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "There is a secret room in the back to sell illicit wares"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "The shopkeeper does not seem to belong there"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "One of the items does not seem to belong there"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A bell rings every time someone enters the shop"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "The shopkeeper is unusually friendly"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "The shopkeeper does not seem to want any business"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Some items are oddly magical (or non-magical)"
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "You feel an unseen presence watching you"
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Magical barriers prevent people from handling the merchandise"
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A goblin is handling some of the wares"
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A ogre is leashed to one of the walls"
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "A couple dogs keep an eye on you, while chewing on a bone"
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "A cat follows you around the shop"
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "A goat seems to be keeping guard outside the shop"
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "A rats nest is forming in a secluded corner"
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "A talking bird insists on yelling obscenities at you"
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "Many items are being packed for sale"
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "A new shipment has just arrived, and is being stocked"
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "You hear noises from the roof or room above the shop"
+                },
+                {
+                    "dice_val": "21",
+                    "entry": "The floor is cracked"
+                },
+                {
+                    "dice_val": "22",
+                    "entry": "The merchant is cleaning up an item that was ruined on the shop floor"
+                },
+                {
+                    "dice_val": "23",
+                    "entry": "The shopkeeper is arguing with an employee"
+                },
+                {
+                    "dice_val": "24",
+                    "entry": "A monkey follows you and tries to hand merchandise to you"
+                },
+                {
+                    "dice_val": "25",
+                    "entry": "Footprints lead directly into a wall"
+                },
+                {
+                    "dice_val": "26",
+                    "entry": "A raven tries to steal items from your bag"
+                },
+                {
+                    "dice_val": "27",
+                    "entry": "The merchant's young children are trying unsuccessfully at a hard sale"
+                },
+                {
+                    "dice_val": "28",
+                    "entry": "The merchant does not speak common"
+                },
+                {
+                    "dice_val": "29",
+                    "entry": "Items change when you're not looking"
+                },
+                {
+                    "dice_val": "30",
+                    "entry": "Music is playing throughout the shop"
+                },
+                {
+                    "dice_val": "31",
+                    "entry": "The merchant can tell a story behind everything he sells"
+                },
+                {
+                    "dice_val": "32",
+                    "entry": "Some of the items appear stolen"
+                },
+                {
+                    "dice_val": "33",
+                    "entry": "The shop is only open at night"
+                },
+                {
+                    "dice_val": "34",
+                    "entry": "The shop is closed for the day"
+                },
+                {
+                    "dice_val": "35",
+                    "entry": "An unusual item is for sale with a dark backstory"
+                },
+                {
+                    "dice_val": "36",
+                    "entry": "A couple of thugs are holding up the merchant"
+                },
+                {
+                    "dice_val": "37",
+                    "entry": "One of the customers is trying to shoplift"
+                },
+                {
+                    "dice_val": "38",
+                    "entry": "The shop has a strong odor of mildew"
+                },
+                {
+                    "dice_val": "39",
+                    "entry": "The shop is owned by a friend or former party member"
+                },
+                {
+                    "dice_val": "40",
+                    "entry": "A ghost is browsing the merchandise"
+                },
+                {
+                    "dice_val": "41",
+                    "entry": "The shopkeeper is fast asleep"
+                },
+                {
+                    "dice_val": "42",
+                    "entry": "The shopkeeper has a pungent and offensive smell"
+                },
+                {
+                    "dice_val": "43",
+                    "entry": "The shopkeeper is a forceful salesman"
+                },
+                {
+                    "dice_val": "44",
+                    "entry": "A legendary weapon is on display, but not for sale"
+                },
+                {
+                    "dice_val": "45",
+                    "entry": "Murals line the walls"
+                },
+                {
+                    "dice_val": "46",
+                    "entry": "The merchant insists he is from an ancient line of powerful merchants"
+                },
+                {
+                    "dice_val": "47",
+                    "entry": "The merchant dresses much better than expected"
+                },
+                {
+                    "dice_val": "48",
+                    "entry": "The merchant looks like a beggar"
+                },
+                {
+                    "dice_val": "49",
+                    "entry": "Constables or the local guard are interviewing everyone in the shop"
+                },
+                {
+                    "dice_val": "50",
+                    "entry": "The shopkeeper just died "
+                }
+            ]
+        }
+    ],
+    "title": "Shops",
+    "use_with": []
+}

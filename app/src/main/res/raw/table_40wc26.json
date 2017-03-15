@@ -1,0 +1,259 @@
+{
+    "description": "These are tables for generating an interesting lizardfolk to serve as foe or foil to your PCs, from slavering, hissing brutes to silent, well-hidden hunters.",
+    "id": "40wc26",
+    "keywords": [
+        "cult",
+        "cultist",
+        "fanatic",
+        "zealot",
+        "prophet",
+        "madness",
+        "sect"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/40wc26",
+    "related_tables": [
+        {
+            "link": "3uzwi0",
+            "title": "Cultists, snake"
+        }
+    ],
+    "tables": [
+        {
+            "dice": "d6",
+            "name": "The cultist...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Is an outspoken true believer."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Is a raving lunatic."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Is a quiet, fervent believer."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Has doubts, but is devoted to the cult's leader."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Has doubts, but is too afraid to voice them."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Doesn't care about the religious stuff; the cult meets other needs."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "The cultist wears...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A bandage on the thumb."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A face tattoo of a holy symbol."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A tattoo depicting an evil icon."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A string of garlic around the neck."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A robe with a tear at the knee."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A fine silk robe."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A large gold ring on one hand."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A hooded robe."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A robe emblazoned with a holy symbol."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A lush, full beard."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "The cultist has...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A ceremonial dagger in hand."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A book protruding from his or her pocket."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A large scar on the throat."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Scraggly matted hair."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A shaved head."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Scars on the wrists."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A protruding chin."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A maniacal grin."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A surly curl of the lip."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A gap between the front teeth."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "The cultist is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Humming an eerie incantation."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Sweating profusely."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Breathing heavily."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Twitching nervously."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Laughing hysterically."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Muttering under his/her breath."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Coughing up a lung."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Whispering a prayer."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Moving with a limp."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Stinking of wine."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "The cultist is looking for...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Ways to impress the cult\u2019s leader."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Tips for seducing the cult\u2019s leader."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Methods to assassinate the cult\u2019s leader."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Something that will impress his/her god."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Something to eat."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Something to kill."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Ways to advance the cult\u2019s goals."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "New recruits."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Religious scholars to debate."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A bottle of wine."
+                }
+            ]
+        }
+    ],
+    "title": "Cultists",
+    "use_with": [
+        {
+            "link": "3xyiqs",
+            "title": "Cults"
+        },
+        {
+            "link": "40pjmd",
+            "title": "Monasteries"
+        },
+        {
+            "link": "3shczv",
+            "title": "Pantheons"
+        },
+        {
+            "link": "3whlp0",
+            "title": "Priests"
+        },
+        {
+            "link": "3xpb4r",
+            "title": "Temples"
+        }
+    ]
+}

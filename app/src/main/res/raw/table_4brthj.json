@@ -1,0 +1,475 @@
+{
+    "description": "These are tables for generating an interesting individual orc, from warriors to hunters to shamans and everything in between.",
+    "id": "4brthj",
+    "keywords": [
+        "orc",
+        "spears",
+        "clan",
+        "tribe",
+        "warriors",
+        "horde",
+        "gruumsh"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/4brthj",
+    "related_tables": [
+        {
+            "link": "3xydsw",
+            "title": "Barbarians"
+        },
+        {
+            "link": "3tjdae",
+            "title": "Savage hordes"
+        }
+    ],
+    "tables": [
+        {
+            "dice": "d8",
+            "name": "Skin: The orc has...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Pale green skin."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Yellowish green skin."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Dirty brown skin."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Reddish brown skin."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Grey skin."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Greenish grey skin."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Brownish grey skin."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Yellowish brown skin."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "Eyes: The orc has...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Greenish yellow eyes."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Green and grey eyes."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Muddy brown eyes."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Dark brown eyes."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Black eyes."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A missing eye."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Squinty eyes."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Bug eyes."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "Face: The orc has...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A pronounced underbite, large even for an orc."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "An especially wide chin."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Long tusks."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A broken tusk."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A jagged scar."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A missing nose."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A missing ear."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A lot of war paint."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "Hair: The orc has...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Unkempt, cropped black hair."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Wild, stringy black hair."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A long black braid."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Unkempt, cropped brown hair."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Wild, stringy brown hair."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A long brown braid."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A shaved head."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A shaved head except for one long topknot."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "Build: The orc has...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A well-muscled frame."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Enormous, bulging muscles."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "An agile wiry frame, for an orc."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A stocky build."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A grotesquely fat belly."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A tall frame."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A thick-set frame."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Extra wide shoulders and long arms."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Tattoo: The orc has...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A bone tattoo."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A dragon tattoo."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A skull tattoo."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A spear tattoo."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A spiderweb tattoo."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A tattoo of thorns."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A dragon tattoo."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A tattoo of chains."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "Role: The orc is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A ferocious berserker."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A rage-filled killer."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A persistent hunter."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A fearless scout."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A masterful strategist."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A mighty leader."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A grim mystic (d4): 1. bone shaman; 2. blood shaman; 3. earth shaman; 4. moon shaman."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "An eager warrior."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "Skill: Even among orcs, the orc is particularly good at...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Tracking creatures by scent."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Identifying and following the tracks of creatures."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Running down prey."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Decapitating foes."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Impaling foes."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Roping captives."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Breaking slaves."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Handling savage beasts."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "Armor: The orc is armored in...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Nothing."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Tattered leather."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Blood-stained leather."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Boiled leather."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "The hides of scaly beasts."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "The hides of furry beasts."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "The hides of exotic beasts."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A helm and breastplate taken from a fallen enemy."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "Weapon: The orc is wielding...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A spear."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A scimitar."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A falchion.."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A pike."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A battleaxe."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A greatsword."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A greataxe."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A longbow."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "Motivation: The orc is looking for...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A good meal, fresh if possible."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A hearty meal, spoiled is not a problem."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A throat to cut."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A head to bash in."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A chance to prove itself in combat."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A place to rest and to sharpen weapons."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Glory and battle."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A strong drink."
+                }
+            ]
+        }
+    ],
+    "title": "Orcs, Individual",
+    "use_with": [
+        {
+            "link": "3unfbm",
+            "title": "Cavern"
+        },
+        {
+            "link": "3tich6",
+            "title": "Desert"
+        },
+        {
+            "link": "42rm5s",
+            "title": "Mountains"
+        },
+        {
+            "link": "47x04h",
+            "title": "Plains"
+        },
+        {
+            "link": "4c5hu9",
+            "title": "Orc warlords"
+        },
+        {
+            "link": "3vspx8",
+            "title": "Orkish clans"
+        },
+        {
+            "link": "45uoqf",
+            "title": "Vignettes: orc enclaves"
+        }
+    ]
+}

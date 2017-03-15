@@ -1,0 +1,243 @@
+{
+    "description": "Infused with elemental fire, fire beasts are temperamental and make for poor pets and dangerous prey. This is a short set of tables for quickly coming up with brief description of an interesting fire beast.",
+    "id": "4nbz5o",
+    "keywords": [
+        "plane of fire",
+        "burning",
+        "flaming",
+        "scorch",
+        "pets for azers"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/4nbz5o",
+    "related_tables": [
+        {
+            "link": "4mu1t3",
+            "title": "Demonic beasts"
+        },
+        {
+            "link": "4n03im",
+            "title": "Infernal beasts"
+        },
+        {
+            "link": "4nayky",
+            "title": "Shadow beasts"
+        },
+        {
+            "link": "4nbzhp",
+            "title": "Storm beasts"
+        },
+        {
+            "link": "4nbzt3",
+            "title": "Winter beasts"
+        }
+    ],
+    "tables": [
+        {
+            "dice": "d12",
+            "name": "The fire beast is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A basilisk."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A bat."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A beetle."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A drake."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A fox."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A griffon."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A hawk."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A hound."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A lizard."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A scorpion."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A serpent."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A worm."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "The beast has...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Glowing red eyes."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Bright, golden eyes."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Reddish skin around the face."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A blackened beak or set of teeth."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "An burnt odor."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "An odor of brimstone."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "An aura of flickering flames."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "An aura of choking smoke."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "...and...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Exhales smoke when it breathes."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Can exhale a spout of flame."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Gives off an uncomfortable amount of heat."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Leaves a trail of flames in its wake."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Can set things ablaze with a touch."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Can disappear in a blinding flash of fire."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Explodes in a fiery cloud if it is slain."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Sheds dim, orange light."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The beast is looking for...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Something to burn and to consume."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A lair with walls that can withstand flames."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "An individual marked by its master."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "An opportunity to impress its master."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "The scorched skull of a long-dead fire titan."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "An item that grants mastery over flames."
+                }
+            ]
+        }
+    ],
+    "title": "Fire Beasts",
+    "use_with": [
+        {
+            "link": "3unfbm",
+            "title": "Caverns"
+        },
+        {
+            "link": "40wc26",
+            "title": "Cultists"
+        },
+        {
+            "link": "3xyiqs",
+            "title": "Cults"
+        },
+        {
+            "link": "3tjb63",
+            "title": "Desert, flame-scorched"
+        },
+        {
+            "link": "4eaph4",
+            "title": "Dinner among desert nomads"
+        },
+        {
+            "link": "4dx43x",
+            "title": "Dinner in a mining town pub"
+        },
+        {
+            "link": "43vqqs",
+            "title": "Miners"
+        },
+        {
+            "link": "43ufyr",
+            "title": "Mines"
+        },
+        {
+            "link": "42rm5s",
+            "title": "Mountains"
+        },
+        {
+            "link": "3xpb4r",
+            "title": "Temples"
+        },
+        {
+            "link": "3si4ms",
+            "title": "Witches"
+        }
+    ]
+}

@@ -1,0 +1,984 @@
+{
+    "description": "These tables are to help you determine what the PC's have heard when they bump into a new group, landmark, or story. The characters didn't live under a rock before they became adventurers, now they can know a bit about the world.",
+    "id": "435qlc",
+    "keywords": [
+        "Reputation",
+        "rumor",
+        "rep",
+        "story",
+        "background",
+        "history",
+        "legend\n\n**Disclosure**\n\nI've incorporated many of the great suggestions from the original threads. If you see something you originally wrote",
+        "many thanks for contributing to the thread"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/435qlc",
+    "related_tables": [],
+    "tables": [
+        {
+            "dice": "d10",
+            "name": "Mercenary Band, Positive",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Spotless, they are a reliable professional"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Eccentric, they are a capable professional with unusual methods"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Brave, they won't back down from a fight"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Reliable, they won't back out when the going gets tough"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Skilled, they can handle a difficult mission"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Legendary, they won an impossible battle"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Lengthy, they are known for many successful past missions"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Exotic, they are from a far away land"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Stalwart, they are known for having stood their ground during a dangerous battle"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Noble, they fought a desperate battle pro bono"
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Mercenary Band, Neutral",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Neutral, they hold to the letter of the contract"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Raucous, but reliable in a fight"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Solved a problem in a nearby city, but charge a large amount for it"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Professional, they are loyal to the contract"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Stern, their leader is known to be humorless"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Unremarkable, they have won some battles and lost some to"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Safe, they kept looters under control during a tense situation"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Rigid, they kept to the contract even though they could have helped"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "New, they have yet to prove themselves"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Enigmatic, they are known as a professional but the exact nature of their missions is unknown"
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Mercenary Band, Negative",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "They caused a serious problem in a nearby city"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Disgraced, they abandoned a contract when it got to difficult"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Dangerous, they killed someone they should not have"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Damaged, most of their troops were lost in a recent battle"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Fanatical, they believe in an unpopular god for the region and clash with their employer"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Messy, they destroy the land they pass through with their foraging"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Unreliable, they lost their last four battles"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Spineless, they ran from a recent battle"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Deserters, they took and employers money and disappeared"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Rebels, they are former army troops fighting against the kingdom now for dubious causes"
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Battle, you were involved",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "You were there! It was awful!"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "You were there! It was glorious!"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Someone in your family achieved fame there."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Someone in your family was killed there."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "It happened near a town where you were living at the time."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "You were supposed to have been there. "
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "You made a good friend on the eve of battle and are still comrades."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "You were wounded and left for dead."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Foragers sacked your home for supplies before the battle."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "You hid to avoid being conscripted."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Battle, Positive",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "It was lead by a famous general, he won handily"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "A great hero rose from the ranks of the common men."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "A mercenary unit of great renown fought there."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "It was the last battle ending a brutal war with a victory for the side of good."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "The battle was so important archons took the field."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "A small band of heroes joined the battle at the last minute and made the difference. "
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "The king finally took the field personally and drove out his enemies. "
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "The battle was won by the king's hand picked general, a brave man from exotic lands."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "The royal battlemages carved the enemy into tiny pieces."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "The battle was the positive proof of a powerful alliance. "
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Battle, Neutral",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "The battle was a draw and the war goes on."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Both armies missed each other fumbling around in the dark, only their cavalry actually engaged."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "A huge portion of the army died but the troops won in the end, the victory was hollow for the few survivors."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Much of the army was made up of conscripts."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "A new pike technique was used there that may become common in the future."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "A unusual group of allies carried the fight and took most of the glory from the common troops."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "The king fought under the oldest banner of his house."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "The battle took place at a legendary fortification. "
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "The army had to march far from its home to fight there. "
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "The troops came home from the war having seen strange places and practicing strange customs."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Battle, Negative",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "An old enemy joined the fight."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "It was a terrible defeat. The kings forces were routed."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "The king himself was slain with his entire bodyguard unit."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "The king was captured and publicly executed by the enemy."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "The enemy debuted a powerful new fighting technique."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "One side used dangerous monsters captured and trained for war."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "A dark wizard was leading the enemy forces. "
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "On the verge of defeat, one side made a deal with the devils to secure victory at the terrible price."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "It was a bloody and terrible siege."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "A legendary enemy appeared for the first time. "
+                }
+            ]
+        },
+        {
+            "dice": "d30",
+            "name": "You have heard of this priest before because....",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "they're the highest-ranking priest of their god in the city, something like a bishop."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "they are quite vocal in their opposition to recent reforms within their church."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "they are vocal in favor of reforms they feel their church is overdue for."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "they are known in certain circles to provide healing without asking how the wounds were acquired."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "they fearlessly run a soup kitchen in an area most charitable organizations avoid."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "rumors are circulating about unsavory habits involving young parishioners."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Drunkenness. He will out-drink you."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Toughness. He will punch you in the face if you insult his god."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Geniality. He's quick with a joke and a toast, and always makes those around him feel better."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Hard-line beliefs. He preaches death to infidels."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Tolerance. He regularly dines with adherents of other faiths or those with no faith at all."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Pacifism. He always advocates non-violence, even to the point of being beat nearly to death by some thugs."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Curiosity. He is well-read and well-versed in many scholarly subjects."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Teaching advocacy. He is a gifted teacher and is committed to increasing literacy among members of the lower classes."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Preaching. He is a captivating speaker, able to attract and to motivate large crowds."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Humorless, they only wear dark colored clothing."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Cynical, they don't actually believe what they preach."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Dry witted, they are prone to sarcastic replies when not preaching."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Cryptic, they often answer a question with a question."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Political, they take aim at the establishment in their sermons."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Dangerous, they might be starting a cult."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "False, they have been accused of convincing people to walk into a trap from another religion."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Associated with dangerous humanoids whom they send gullible parishioners to as tribute."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Drug addled, they claim to see visions while using a pungent smoke."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "A Prophet, they actually have divine visions."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "They claim to be a demigod or angel."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Poor, his parish has nothing but he perseveres."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Retired, he was an adventurer in a prior life."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Blessed, he was slain in battle with an enemy but the gods revived him."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Smelly, his pipe smoke is extremely pungent. "
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "You have heard of this mage before because....",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "they are rumored to have taken a demon as a lover."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "they misspoke and cause an entire town to go barren."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "they saved an entire garrison using only a minor spell."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "they angered a cruel baroness by animating her favorite brush."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "they move every full moon because children go missing."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "they are hated by every other mage for their good looks."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "He keeps dangerous minions in his tower."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "One of his experiments escaped and ran through the streets of the city."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "A dragon came to visit him last autumn."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "He keeps a hedge maze to keep away unwanted guests."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "He breeds war beasts for the kings army."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "The king has been trying to bring him under his thumb for months."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "One of his rages burned down half the city."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "He's actually fond of visitors, but people are still scared of him. No one knows if they actually should be."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "His automatons purchase all his food in the city on monthly errands."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Anyone who enters his tower never comes out"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "He often comes to town to entertain children with his cantrips."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "He's an expert in divination spells, and will cast them for anyone for a small fee."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "It's rumored that he curses people without them realizing it."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "It's rumored that he has magical cures for certain... maladies."
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "You have heard of this thief before because he is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Bold. He stole the crown of the Dragon-Emperor right off his head."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Audacious. He stole the maidenhood of the king's own daughter."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Extraordinary. He single-handedly stole an entire wagon train of spices and silver in the Bleak Wastes."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Amorous. He stole the heart of a Southron queen who's been after his head ever since he left her for a fortune teller."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Daring. He stole the spellbook of the most powerful elf-witch in the world."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Heroic. He crept into the Duke's camp and swapped the Duke's map for a phony that led him to maneuver his host right into the rebels trap."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Magnanimous. He slipped in and out of the Pit of Despair six times to bring food and news to the captive prince."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Devilish. He climbed the walls of the Black Keep just to steal a kiss from the shadow sorceress as she slept."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Handsome. He has the most amazing mustache."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Generous. He sells the loot he steals to feed the orphans of the River District."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Did something impossible, like stealing a dragons tail.Tale perhaps? The dragon was a bard and the original story is much less epic?"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Killed a man with a fork."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Is the sole survivor from a legendary job."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Is the last living man who knows where a great treasure is hidden."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Buried a great treasure then killed himself for reasons unknown."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Works for the army as a scout."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Stole something important, but no one can prove it."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "On the lam after tricking a devil into selling its soul."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Tough. He lost two fingers in a trapped chest, but still managed to snag the goods from inside."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Slippery. He's escaped from the world's most inescapable prison. Twice."
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "You have heard of this merchant before because",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "they gouge outrageous prices if their customers have no alternatives."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "they are exceptionally wealthy, surpassing even the local ruler."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "they have donated gold to noble causes in the past."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "they are known in certain circles to buy items without asking where they came from"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "they are known to hire ruthless thugs to go after debtors."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "they are said to have made their first fortune by illegally minting coins."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "They are reputed to sell illegal magic items."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "They are well known in the fur trade."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "They always wear an elaborate headdress."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "They are up and coming, and seek to eliminate the competition."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "They own a ship or fleet."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "They helped found an important company."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "In distant places their company is actually more powerful than the king."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "they're often the butt of jokes made in the local tavern."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "rumor says that it's entirely made up of doppelgangers."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "of their reputation to having access to highly restricted goods."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "the local populace invoke they're name as a foul mouthed curse."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "members are identifiable by their yellow and red armor."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "of their ruthless efficiency in advancing their mysterious goals."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "they hold an iron grip on the local cheese market."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "You have heard of this Explorer before because...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "He published a book of his sojourns in a distant land. The book gained fame for its vivid and outlandish stories. (Which may or may not be true, which might lead to moral dilemma if the party is positioned to expose him as a fraud.)"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "She was a noblewoman who decided to travel to the holy city of a foreign land. Her actions are on the one hand considered improper, yet everyone is eager to hear of her adventures."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "He and several other adventurers participated in a race to be the first to get to one of the most inhospitable places on the continent. He was the only one to come back alive."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "He went on an expedition to a far off island years ago, promising to return with a horde of magical metal. He just returned recently, mostly empty handed, and completely disgraced."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Had his ships custom built."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Published a book about his sojourns claiming a prior explorers book is full of crap."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Bumped off a rival in a distant land."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Is seeking to launch one last expedition to clean his name from the disgrace of his failed ventures."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "She became a noblewomen of a distant land through her exploits and has returned home because....?"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "He has be believed dead a dozen times already, but always turns up alive and well."
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "You have heard of this Dragon before because...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "It is a peaceful chatterbox. It can talk the hind leg off a donkey, and generally lets people go with a warning."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "It is a beautiful chatterbox, talkative and extremely vain."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Obsessive Compulsive Hoarder. Its belongings have to be arranged just so."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Romantically Predatory. It's always taking humanoid form to seduce impressionable young things."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Has a strange hobby like carving wooden puppets or collecting butterflies."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Has a unusual horde, like dungeon puzzle doors, and will pay adventures to bring it new pieces for its collection."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Is colorblind and mated with the wrong color female dragon."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Is an aspiring author of travel guides but keeps frightening the peasants in new and unusual places."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Considers itself a naturalist and collects animals, and people, from distant lands."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Burned down a windmill that was blocking its view of the ocean."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Has the wrong breath weapon for its color."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Likes to capture its victims and paint their portrait before eating them."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Somehow lost its horde recently and is looking for revenge."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Keeps its horde in a pocket plane many thieves have tried to reach."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Has a secret bond villain style lair and mustache twirling henchmen."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Has some flaw that makes the locals refuse to take its threats seriously."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Vicious. This monster defends its territory at all costs."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Voracious. This creature's hunger is never stated."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Cruel. You'll beg for death long before this creature grants it."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Stealthy. This creature can move soundlessly."
+                }
+            ]
+        },
+        {
+            "dice": "d30",
+            "name": "You have heard of this landmark/city before because...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "It's a barbaric monument to a dead people."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "It's unmistakable as anything else."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "It dangerous to go there and extremely spooky."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "You only see it if you have made a terrible mistake and gone somewhere bad."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "It's rumored to move around."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "It's man made, like a ship graveyard."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "It's naturally occurring, like a mesa."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "It's less of a landmark and more of a region with a distinct character."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "It was formed by a great disaster."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Travelers come from leagues around to see it."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Pilgrims leave trinkets and carvings in/on/at it as they make their way for good luck."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "It is thought that the tree will endure forever, so lovers carve their initials into it."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Children rub the statue's nose for good luck."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "A famous assassination occurred on this spot."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "The world grieved when the sorceress who is interred here died."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Your elder brother came to this place on his Grand Tour of the realm."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "It's ugly as sin and doesn't at all fit with the surrounding architecture."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "They are a major port and trading hub."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "They are at war with another city."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "They are the only place an important spice can be grown."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "It is built around a giant mine."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "The lord of the city is a dragon."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "The city was the site of a great magical disaster."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "The city was the site of a great magical experiment."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "A great artist makes his home there."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "It's so far away you've only barely heard its name before."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "It's caught between two large, aggressive neighbors."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "It's home to the largest cathedral to &lt;god&gt; in the realm."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "It suffers a terrible reputation as a wretched hive of scum and villainy."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Dark magics seem to gravitate to the region. "
+                }
+            ]
+        }
+    ],
+    "title": "Reputations &amp; Rumors",
+    "use_with": []
+}

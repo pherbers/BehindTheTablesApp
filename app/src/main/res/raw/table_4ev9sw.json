@@ -1,0 +1,438 @@
+{
+    "description": "These are tables for quickly coming up with a flavorful meal for the feasthall of a lich-king or undead queen or the dining room in a haunted mansion.",
+    "id": "4ev9sw",
+    "keywords": [
+        "skeletons",
+        "ghosts",
+        "ghouls",
+        "liches",
+        "wights",
+        "creepies",
+        "crawlies",
+        "ick"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/4ev9sw",
+    "related_tables": [
+        {
+            "link": "4dx2z9",
+            "title": "Dinner at a hunters' lodge"
+        },
+        {
+            "link": "4ev8l1",
+            "title": "Dinner in a goblin hideout"
+        },
+        {
+            "link": "4elirv",
+            "title": "Dinner in an orkish camp"
+        }
+    ],
+    "tables": [
+        {
+            "dice": "d12",
+            "name": "Tonight, in an undead feasthall, we dine on...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Stewed."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Roasted."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Cold."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Boiled."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Baked."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Blackened."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Aged."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Worm-infested."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Fly-covered."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Pickled."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Rotted."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Decaying."
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Rabbit."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Chicken."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Duck."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Mutton."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Pork."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Beef."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Pheasant."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Goose."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Trout."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Clams."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Pork sausage."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Duck sausage."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "Knight."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "Maiden."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "Thief."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "Priest."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "Mage."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "Peasant."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "Dwarf."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "Halfling."
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "...with...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Mushy cabbage."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Weepy cabbage."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Rubbery leeks."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Lentils."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Peas."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Red beans."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Black beans."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "White beans."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Turnip mash."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Sliced turnips."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Rotten potatoes."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Cave mushrooms."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "Black mushrooms."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "Sweet onions."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "Red onions."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "Carrots."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "Parsnips."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "Cauliflower."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "Radishes."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "Beets."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "...and...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Wormy apples."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Moldy cherries."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Over-ripe tomatoes."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Moldy berries."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Crumbling cake."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Stale bread."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Hard biscuits."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Moldy biscuits."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Bloody gravy."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Thin gravy."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Moldy cheese."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Stinky cheese."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "On the side, there are some...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Mice."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Leeches."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Maggots."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Fish bones."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Finger bones."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Spare ribs."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Stale cakes."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Moldy cakes."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Rotten eggs."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Pieces of brain."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Whole brains."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Mysterious sausages."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "To wash it down, we have some...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Still water."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "White ale."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Black ale."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Porter."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Mead."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "White wine."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Red wine."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Blood wine."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Brandy."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Whisky."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Rum."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Blood served out of a humanoid skull."
+                }
+            ]
+        }
+    ],
+    "title": "Dinner in an Undead Feasthall",
+    "use_with": [
+        {
+            "link": "43ek9v",
+            "title": "Castles"
+        },
+        {
+            "link": "3w1g84",
+            "title": "Necromancers"
+        },
+        {
+            "link": "3sorre",
+            "title": "Restless undead"
+        },
+        {
+            "link": "427hd8",
+            "title": "Tombs"
+        }
+    ]
+}

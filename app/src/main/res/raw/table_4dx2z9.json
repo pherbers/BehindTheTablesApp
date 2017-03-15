@@ -1,0 +1,405 @@
+{
+    "description": "These are tables for quickly coming up with a flavorful meal or a menu for a hunters' lodge, proud hunting lord's keep, or a tavern or inn at a forest crossroads or in a woodland village where meat is on the table.",
+    "id": "4dx2z9",
+    "keywords": [
+        "hunters' lodge",
+        "ranger food",
+        "wilderness lodge",
+        "forests",
+        "buckskin",
+        "deerskin",
+        "coonskin",
+        "randyll tarly",
+        "meat",
+        "meat",
+        "glorious meat"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/4dx2z9",
+    "related_tables": [
+        {
+            "link": "4dpnzh",
+            "title": "Dinner around the campfire"
+        },
+        {
+            "link": "4dv7i9",
+            "title": "Dinner at a country inn"
+        },
+        {
+            "link": "4dx43x",
+            "title": "Dinner at a mining town pub"
+        },
+        {
+            "link": "4dmfoj",
+            "title": "Dinner in an elvish dwelling"
+        }
+    ],
+    "tables": [
+        {
+            "dice": "d10",
+            "name": "Tonight, at a hunters' lodge, we dine on...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Stewed."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Roasted."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Skewered."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Braised."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Smoked."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Grilled."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Seared."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Flame-broiled."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Salted."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Peppered."
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Rabbit."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Quail."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Duck."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Swan."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Boar."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Aurochs."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Pheasant."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Goose."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Trout."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Pike."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Clams."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Bear."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "Venison."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "Hare."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "Beaver."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "Wolf."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "Squirrel."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "Otter."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "Hind."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "Mockingbird."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "...with...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Potatoes."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Red cabbage."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "White cabbage."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Leeks."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Lentils."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Rhubarb."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Peas."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Turnips."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Parsnips."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "String beans."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Chives."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Onions."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "...and...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Carrots."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Apples."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Cherries."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Wild mushrooms."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Sliced mushrooms."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Black mushrooms."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Truffles."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Rosemary."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Sage."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Parsley."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Pine nuts."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Raisins."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "On the side, there is some...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Rye bread."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Wheat bread."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Crusty bread."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Sesame bread."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Oat cake."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Pumpernickel bread."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Hard tack."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Dry flatbread."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Honey cake."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Deer sausage."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Boar's feet."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Sow's ear."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "To wash it down, we have some...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Dark ale."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Pale ale."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Lager."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Stout."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Strong wine."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Sweet wine."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "White wine."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Red wine."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Tea."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Whisky."
+                }
+            ]
+        }
+    ],
+    "title": "Dinner at a Hunters' Lodge",
+    "use_with": [
+        {
+            "link": "46ma8g",
+            "title": "Bards"
+        },
+        {
+            "link": "43emxb",
+            "title": "Castle inhabitants"
+        },
+        {
+            "link": "3sgzxb",
+            "title": "Forest"
+        },
+        {
+            "link": "3tkfho",
+            "title": "Knights"
+        },
+        {
+            "link": "3t2qzc",
+            "title": "Outlaws"
+        },
+        {
+            "link": "3va510",
+            "title": "Woodsmen"
+        }
+    ]
+}

@@ -1,0 +1,768 @@
+{
+    "description": "These are tables for generating an interesting werebear, wererat, werewolf, or other beastshifter to serve as foe or foil to your PCs.",
+    "id": "3snzw5",
+    "keywords": [
+        "lycanthropy",
+        "werebear",
+        "wererat",
+        "werewolf",
+        "shapeshifter",
+        "beastshifter",
+        "shifter",
+        "skinchanger",
+        "altered-beast"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/3snzw5",
+    "related_tables": [],
+    "tables": [
+        {
+            "dice": "d12",
+            "name": "The beastshifter transforms into...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A grizzly bear."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A black bear."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A wild boar."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A oversized black rat."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A large brown rat."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A lanky grey rat."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A fierce tiger."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A grey wolf."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A mottled brown and grey wolf."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A reddish brown wolf."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A dark brown or black wolf."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A white wolf."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The beastshifter transforms involuntarily...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Whenever it is in moonlight."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "On nights when a full moon occurs."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "On nights when the moon is half full or more."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Whenever the leader of its pack or clan transforms."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Whenever it becomes enraged."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Never; it is in complete control of its power."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "While transformed, the beastshifter behaves...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Mostly as a normal beast of its type."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "As an unusually intelligent version of the beast of its type."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "More like a human than a beast."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "As a skilled hunter."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "As a cautious predator."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "As a savage predator."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "As a frightened beast."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Violently, spreading blood and chaos."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "The beastshifter lives...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Alone among humans, hiding its powers."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Alone among humans who know and accept its powers."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Alone as an outcast from human society."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Among other beastshifters integrated into human society."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Among other beastshifters as outcasts from human society."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Among other beastshifters, hiding their powers from society."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Among other beastshifters, apart from human society."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Alone as an outcast from its pack or clan."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "The beastshifter makes its home...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "In a cave."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "In a swamp."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "On a vast plain."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "In a forest."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "In a cottage in the woods."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Hidden in the mountains."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "In a quiet village."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Just outside a quiet village."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Down a dark alley in the city."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "In the city sewers."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "On a quiet residential street in the city."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "In or near a castle or palace."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "The beastshifter has a tendency to...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Lose its temper easily."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Speak in low growls (or squeaks), making it difficult for others to understand when excited."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Recoil from touching anything made of silver. "
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Get nervous in moonlight."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Lick its lips hungrily all the time."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Fidget or pace when in indoor spaces."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Daydream about hunting in its beast form."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Sniff people upon meeting them."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "In humanoid form, the beastshifter fights with...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Hit-and-run tactics."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Making a mad charge."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Kicking and stomping."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Sharp claws."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Sharp teeth."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Lots of taunts and jeers."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Lots of screaming and shouting."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Lots of head-butting."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "In humanoid form, the beastshifter presents itself as...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A farmer or herder."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A miner or fisher."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A beggar or urchin."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A noble or knight."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A barkeep or barmaid."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A barbarian or gladiator."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "An herbalist or healer."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A soldier or sellsword."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A hunter or assassin."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A thief or bandit."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A smuggler or con artist."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A sailor or pirate."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "In humanoid form, the beastshifter\u2019s face has...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Unsightly nose and ear hair."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A garish earing."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "An empty eye socket."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A grisly scar."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A grim look."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Sad puppy-dog eyes."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A nervous grin."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "An toothy grin."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A frame of long, beautiful long hair."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Ferocious sideburns."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "An unruly beard."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "An intimidating mustache. "
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "The beastshifter\u2019s favorite prey are...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Foreigners and travelers."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Beggars and drunks."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Young men."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Young women."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Old women."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Old noblewomen."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Priests and monks."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Priestesses."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Harlots and madames."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Farmwives and peasant girls."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Young children."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Rabbits and hares."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "Squirrels and chipmunks."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "Pheasants and other gamefowl."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "Ducks and other waterfowl."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "Mice and rats."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "Pigeons and doves."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "Sheep and goats."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "Chickens and turkeys."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "Dogs and cats."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "The pack is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A band of exiles and outcasts."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A roving band of outlaws and thieves."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A nomadic warrior clan."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A band of sought-after mercenaries."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "An integral part of the local thieves\u2019 or assassins\u2019 guild."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A mercenary company in the service of a local lord or city watch."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A wild bunch of hunters and killers."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "An ancient clan of warrior-hunters."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "The pack\u2019s leader is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A dangerous megalomaniac."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A charismatic demagogue."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A mysterious foreigner."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A talented thief."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "An outcast from a prominent family."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A ruthless killer."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A femme fatale."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A former arena champion."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A disgraced knight."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A brutish thug."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A de-frocked priest."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A well-known fugitive."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The pack\u2019s attitude toward their leader is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Friendly and loyal."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Respectful and business-like."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Cautious and uncertain."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Terrified and tight-lipped."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Disappointed and disrespectful."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Agitated and restless."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The pack\u2019s goals include...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Becoming the region\u2019s dominant predators."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Revenge against a rival band of lycanthropes or outlaws."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Revenge against the region\u2019s elite."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Rebellion against the region\u2019s elite."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A quiet and peaceful existence."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Violence to slake their bloodlust."
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "The beastshifter transforms into...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A badger."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A bat."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A cat."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A crocodile."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A dog."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A dolphin."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A fox."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A hyena."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A jackal."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A jaguar."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A leopard."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A lion."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "An owl."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "A panther."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "A raven."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "A seal."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "A serpent."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "A shark."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "A spider."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "A swine."
+                }
+            ]
+        }
+    ],
+    "title": "Lycanthropes",
+    "use_with": [
+        {
+            "link": "3tich6",
+            "title": "Desert"
+        },
+        {
+            "link": "3sgzxb",
+            "title": "Forest"
+        },
+        {
+            "link": "3sh0hz",
+            "title": "Forest, enchanted"
+        },
+        {
+            "link": "3sh0bv",
+            "title": "Forest, haunted"
+        },
+        {
+            "link": "4358in",
+            "title": "Monster hunters"
+        },
+        {
+            "link": "4aepj5",
+            "title": "Wolves"
+        }
+    ]
+}

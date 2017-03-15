@@ -1,0 +1,233 @@
+{
+    "description": "Messengers of the gods and angels, celestial beasts often can speak eloquently and make clever allies or foils as they carry out the will of the Heavens. This is a short set of tables for quickly coming up with brief description of an interesting celestial beast.",
+    "id": "4mnnq4",
+    "keywords": [
+        "holy",
+        "heavenly",
+        "angelic",
+        "seraphim",
+        "cherubim",
+        "puppies",
+        "clouds"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/4mnnq4",
+    "related_tables": [
+        {
+            "link": "4n02oc",
+            "title": "Fey beasts"
+        },
+        {
+            "link": "4n03im",
+            "title": "Infernal beasts"
+        },
+        {
+            "link": "4nbz9h",
+            "title": "Legendary beasts"
+        },
+        {
+            "link": "4nbzhp",
+            "title": "Storm beasts"
+        },
+        {
+            "link": "4nbzt3",
+            "title": "Winter beasts"
+        }
+    ],
+    "tables": [
+        {
+            "dice": "d12",
+            "name": "The celestial beast appears in the form of...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A badger."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A bull."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A dove."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "An eagle."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A griffon."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A hound."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A horse."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A lion."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A serpent."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A stag."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A swan."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A unicorn."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "The beast has...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Shining golden eyes."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Sympathetic pale blue or grey eyes."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Eyes full of knowledge and judgment."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A crown of gold."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Wings of the pure white feathers."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Pristine white feathers or fur."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "An aura of glowing light."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "An aura of peacefulness."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "...and...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Moves gracefully, almost gliding."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Carries itself proudly."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Has a gentle manner."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Speaks eloquently."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Speaks in poetic riddles."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Fills you with a sense of peace."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "The beast is looking for...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "An answer to a cosmic riddle."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A mortal worthy of its service."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A mortal worthy of serving its master."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A mortal condemned to die by its master."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A mortal who has succumbed to temptation."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "An item of importance to its master."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "The location of an ancient, hidden evil."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "The resting place of a great hero."
+                }
+            ]
+        }
+    ],
+    "title": "Celestial Beasts",
+    "use_with": [
+        {
+            "link": "40pjmd",
+            "title": "Monasteries"
+        },
+        {
+            "link": "3xq9nd",
+            "title": "Monks"
+        },
+        {
+            "link": "42rm5s",
+            "title": "Mountains"
+        },
+        {
+            "link": "3shczv",
+            "title": "Quick pantheon"
+        },
+        {
+            "link": "3whlp0",
+            "title": "Priests"
+        },
+        {
+            "link": "44r23c",
+            "title": "Seers"
+        },
+        {
+            "link": "3xpb4r",
+            "title": "Temples"
+        },
+        {
+            "link": "43c3c6",
+            "title": "Visions"
+        }
+    ]
+}

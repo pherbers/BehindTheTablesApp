@@ -1,0 +1,718 @@
+{
+    "description": "These are tables for generating the organization and individual members of the city or town watch to serve as ally or foil to your PCs. Included here are tables for individual detective-type investigators and run-of-the-mill patrolling guardsmen.",
+    "id": "3tkge0",
+    "keywords": [
+        "watch",
+        "city",
+        "town",
+        "guards",
+        "investigator",
+        "police",
+        "patrol",
+        "sheriff",
+        "constable",
+        "detective",
+        "fighter"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/3tkge0",
+    "related_tables": [],
+    "tables": [
+        {
+            "dice": "d12",
+            "name": "The watch\u2019s colors are...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Black."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Red / scarlet."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Gold."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Forest green."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Royal blue."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Silver / light grey."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Brown / beaver."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "White."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Maroon."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Sky blue."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Navy blue."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Dark brown / chocolate."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "The watch\u2019s symbol is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A flame."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A gauntlet."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A shield."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A sword."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "The sun."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "An eye."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "An eagle."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "An owl."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A dragon."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A lion."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A raven."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A wolf."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "The watch\u2019s captain is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A religious zealot."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A scion from a prominent family."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "An outcast from a prominent family."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A dashing swashbuckler."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A brutish thug."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A celebrated war hero."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "An anointed knight."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A career soldier."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A grizzled veteran."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "An adept investigator."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "An erudite detective."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A devoted public servant."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The watch\u2019s attitude toward their captain is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Friendly and loyal."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Respectful and business-like."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Completely indifferent."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Cautious and uncertain."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Terrified and tight-lipped."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Disappointed and disrespectful."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "The watch has a reputation for...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "High morals."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Efficiency."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Reliability."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Brutality."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Taking bribes."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Shaking down shopkeepers and artisans."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Frequenting brothels."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Cowardice."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Incompetence."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Intoxication."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Most members of the watch are outfitted with...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Rough-spun wool cloaks."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Whatever armor they can find."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Leather armor marked with the symbol of the watch."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Leather armor marked with the symbol of their city or lord."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Helms and breastplates emblazoned with the symbol of their city or lord."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Well-maintained chainmail."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Most members of the watch are equipped with...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Longswords and shortbows."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Longswords and crossbows."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Longswords and shields."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Shortswords and shields."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Maces and crossbows. \u00ac\u00ac"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Maces and shields."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Maces and daggers."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Pikes and shortswords."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Halberds and daggers."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Halberds and crossbows."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "The constable is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A priest or monk."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A stoic monk."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A former soldier."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A mysterious foreigner."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A pompous windbag."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "An accomplished scholar."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A violent drunk."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A criminal lackey."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A popular tavern patron."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Ruggedly handsome."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The constable works for...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "The steady pay."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A chance to bring evil-doers to justice."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Gold to repay debts."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Gold to support his addiction (d4): 1. drinking; 2. gambling; 3. harlots; 4. smoking."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "The joy of solving mysteries."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A chance for vengeance."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "On the constable\u2019s face is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A scar from a burn."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A jagged scar."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A hard-set jaw."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A friendly grin."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A faraway look."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A furrowed brow."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A pair of piercing eyes."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A broken nose."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Bushy eyebrows."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Unshaven stubble."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A neatly-trimmed beard."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "An intimidating mustache."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "The constable carries...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A magnifying lens."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A blade with a carved hilt (d6): 1. ivory; 2. jade; 3. soapstone; 4. ebony; 5. mahogany; 6. oak."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A blade with beasts sculpted into the steel of the guard (d6): 1. dragons; 2. lions; 3. scorpions; 4. snakes; 5. spiders; 6. wolves."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A blade made of blackened steel."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "An unusual hat."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A clue from an unsolved crime."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A token from a lost love."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Props for several disguises."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Alchemical reference manual."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A pocket-sized almanac."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "The guard is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A farm boy."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "The son of a miner or fisherman."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A veteran of warfare."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A foreigner."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "The son of a poor man."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A drunk."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A reformed criminal."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A thug."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A failed craftsman."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A favorite among the ladies."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The guard works for...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "The steady pay."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A chance to deal out sadistic punishment."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Gold to repay debts."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Gold to aid a family member."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A chance to escape from life imprisonment."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Patriotic devotion."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "On the guard\u2019s face is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A large wart."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "An unsightly scar."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A look of determination."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A foolish grin."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A stupid stare."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A look of confusion."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A bulbous nose."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Bushy eyebrows."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Fearsome sideburns."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "An unruly beard."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A neatly-trimmed mustache."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A waxed mustache."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "The guard carries...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A blade with soft leather tassels dangling from the pommel."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A blade with an inscription."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A highly polished blade."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A token from a favorite harlot."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A trophy from a criminal."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A ribbon from a noble maiden."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A silk handkerchief."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A flask of wine."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A lucky charm (d4): 1. rabbit\u2019s foot; 2. old coin; 3. shiny coin; 4. four-leaf clover."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A grocery list."
+                }
+            ]
+        }
+    ],
+    "title": "Watchmen",
+    "use_with": [
+        {
+            "link": "3t0zag",
+            "title": "Assassins' guilds"
+        },
+        {
+            "link": "3sj8mc",
+            "title": "Noble houses"
+        },
+        {
+            "link": "3t2qzc",
+            "title": "Outlaws bands"
+        },
+        {
+            "link": "3t5sik",
+            "title": "Pirate crews"
+        },
+        {
+            "link": "43k8fr",
+            "title": "Prisons"
+        },
+        {
+            "link": "3sj9ub",
+            "title": "Town NPCs"
+        },
+        {
+            "link": "3t5q2e",
+            "title": "Urban gangs"
+        }
+    ]
+}

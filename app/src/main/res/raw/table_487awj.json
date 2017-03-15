@@ -1,0 +1,349 @@
+{
+    "description": "These are some tables for giving spiders some flavor. Mmmm, tasty spiders...",
+    "id": "487awj",
+    "keywords": [
+        "spiders",
+        "webs",
+        "aranea",
+        "drider",
+        "ettercap",
+        "arachnophobia",
+        "eight legs"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/487awj",
+    "related_tables": [
+        {
+            "link": "4spk6l",
+            "title": "Bats"
+        },
+        {
+            "link": "4splu3",
+            "title": "Rats"
+        },
+        {
+            "link": "4aepj5",
+            "title": "Wolves"
+        }
+    ],
+    "tables": [
+        {
+            "dice": "d8",
+            "name": "Color: The spider is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Black."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Dark grey."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Dark brown."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Black and brown."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Black and grey."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Pale brown."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Brown and grey."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Reddish brown."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "Markings: The spider has...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Pale banding on its legs."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Dark banding on its legs."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Bright banding on its legs (d4): 1. orange; 2. red; 3. white; 4. yellow."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Pale stripes down its abdomen."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Dark stripes down its abdomen."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A distinct, crimson shape on its abdomen (d4): 1. arrowhead; 2. pair of eye-like spots; 3. hourglass; 4. star."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A distinct, black or dark grey shape on its abdomen (d4): 1. arrowhead; 2. diamond; 3. pair of wavy lines; 4. star."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "No obvious markings."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Eyes: The spiders eyes are...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Dull and black."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Reflective and black."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Dark grey, almost black."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Dark red."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Bright red."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Pearly white."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Mouth: The spider's mouth is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Flanked by fangs, dripping venom."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Flanked by hooked fangs."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Flanked by hairy chelicerae, each ending in a sharp fang."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Flanked by chelicerae, covered in hair that hides any fangs."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Hungrily opening and closing."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Yawning open."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "Poison: The spider's venom can cause...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Paralysis."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Loss of consciousness."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Nausea."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Headache."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Loss of coordination. "
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Blindness."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Dizziness."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Shortness of breath."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Hunting: The spider prefersto ...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Pick off weak, easy prey."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Pursue its prey until the opportune time to strike."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Lay web traps and wait."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Incapacitate prey, wrap it in webbing and carry it off to its larder."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Ambush prey in territory the spider knows well."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Poison its prey and then retreat, following the prey until it falls."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Webs: The spider spins...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Sheet-like webs."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Webs with radial symmetry."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Webs with triangular symmetry."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Webs with hexagonal symmetry."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Webs with irregular shapes."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Almost no webs; the spider is constantly on the move and on the hunt."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Habitat: This type of spider evolved to thrive...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "In caverns."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "On cliff-sides."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "On the forest floor."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "In grasslands."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "In jungles."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "In rocky deserts."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "In rotting logs."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "In shallow burrows."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "In swamps."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "In treetops."
+                }
+            ]
+        }
+    ],
+    "title": "Spiders",
+    "use_with": [
+        {
+            "link": "3unfbm",
+            "title": "Caverns"
+        },
+        {
+            "link": "3tich6",
+            "title": "Deserts"
+        },
+        {
+            "link": "3uzyyj",
+            "title": "Elves, dark"
+        },
+        {
+            "link": "3sgzxb",
+            "title": "Forests"
+        },
+        {
+            "link": "43ufyr",
+            "title": "Mines"
+        },
+        {
+            "link": "4780bg",
+            "title": "Poisons"
+        },
+        {
+            "link": "43c2q8",
+            "title": "Swamps"
+        },
+        {
+            "link": "427hd8",
+            "title": "Tombs"
+        },
+        {
+            "link": "3si4ms",
+            "title": "Witches"
+        }
+    ]
+}

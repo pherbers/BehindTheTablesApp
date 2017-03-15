@@ -1,24 +1,13 @@
 package de.rub.pherbers.behindthetables.adapter;
 
 import android.content.Context;
-import android.database.DataSetObservable;
-import android.database.DataSetObserver;
-import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
-import android.widget.BaseExpandableListAdapter;
-import android.widget.ImageButton;
-import android.widget.ImageView;
-import android.widget.LinearLayout;
-import android.widget.ListAdapter;
-import android.widget.TextView;
 
 
-import de.rub.pherbers.behindthetables.R;
 import de.rub.pherbers.behindthetables.data.RandomTable;
 import de.rub.pherbers.behindthetables.data.TableCollection;
-import de.rub.pherbers.behindthetables.data.TableEntry;
 import de.rub.pherbers.behindthetables.view.RandomTableView;
 import timber.log.Timber;
 

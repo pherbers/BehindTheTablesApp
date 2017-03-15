@@ -1,0 +1,317 @@
+{
+    "description": "The mad mage has been hybridizing, cross-breeding, and engaging in forms of foul husbandry. These are the fruits of his labors. They may not win best-in-show, but they certainly can terrorize your players.",
+    "id": "4z7ofg",
+    "keywords": [
+        "mutations",
+        "horror",
+        "liger",
+        "hybrids",
+        "laboratory",
+        "genetic engineering",
+        "dolly the sheep",
+        "glowing mice",
+        "mad scientist",
+        "chimeras",
+        "sphinxes",
+        "perytons",
+        "oh my"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/4z7ofg",
+    "related_tables": [
+        {
+            "link": "4mnmre",
+            "title": "Aberrant beasts"
+        },
+        {
+            "link": "4mu1t3",
+            "title": "Demonic beasts"
+        },
+        {
+            "link": "4nbz5o",
+            "title": "Fire beasts"
+        },
+        {
+            "link": "4n03im",
+            "title": "Infernal beasts"
+        },
+        {
+            "link": "4nbzeq",
+            "title": "Sea beasts"
+        },
+        {
+            "link": "4nayky",
+            "title": "Shadow beasts"
+        },
+        {
+            "link": "4nbzhp",
+            "title": "Storm beasts"
+        },
+        {
+            "link": "4nbzt3",
+            "title": "Winter beasts"
+        }
+    ],
+    "tables": [
+        {
+            "dice": "d10",
+            "name": "The mutant creature is a...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Tiny."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Small."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Medium."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Large. "
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Huge."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Bloated. "
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Skeletal. "
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Sickly. "
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Two-headed. "
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Regenerating. "
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Ape."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Bat."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Boar."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Bull."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Crocodile."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Goat."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Lion."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Serpent."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Spider."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Wolf."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "...crossed with a/an...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Displacer beast. "
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Dragon. "
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Ethereal marauder. "
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Fire beetle. "
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Griffon. "
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Nightmare. "
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Ooze. "
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Owlbear. "
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Rust monster. "
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Stirge. "
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "The creature's special abilities include...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Blindsight."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Blood-sucking life drain."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Burrowing."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A flyby attack."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A poisonous sting."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A psionic blast."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Swallowing prey whole."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A tentacle grab."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Teleportation."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Tremorsense."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "...and it exudes an aura of...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Befuddlement."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Crackling lightning."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Darkness."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Decay."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Flames."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Freezing cold."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Madness."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Mists."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Sleepiness."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Terror."
+                }
+            ]
+        }
+    ],
+    "title": "Mutant Creatures",
+    "use_with": [
+        {
+            "link": "3sl4sr",
+            "title": "Alchemists"
+        },
+        {
+            "link": "3unfbm",
+            "title": "Caverns"
+        },
+        {
+            "link": "3xyiqs",
+            "title": "Cults"
+        },
+        {
+            "link": "3u4a05",
+            "title": "Jungles"
+        },
+        {
+            "link": "43bxpl",
+            "title": "Nightmares"
+        },
+        {
+            "link": "44r23c",
+            "title": "Seers"
+        },
+        {
+            "link": "3si4ms",
+            "title": "Witches"
+        }
+    ]
+}

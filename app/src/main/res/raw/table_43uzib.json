@@ -1,0 +1,443 @@
+{
+    "description": "",
+    "id": "43uzib",
+    "keywords": [
+        ""
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/43uzib",
+    "related_tables": [],
+    "tables": [
+        {
+            "dice": "D20",
+            "name": "Dungeon",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A rat scuttles past carrying a finger bone with a ring on it."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "You hear a card game going on in the next room. It sounds like someone is losing their shirt."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A sleepy orc pushes the party to one side and says \"otta ma way cur. Yer blocking the way to the mess hall.\""
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A voice shouts from ahead \"My god! What did you do to the loo?\""
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Blood drips from a hole in the ceiling and pools on the floor."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Your hear the sound of a whip crack from up ahead."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "You find a room of corpses. One has a hand outstretched towards a glowing gem. A second has stabbed the first in the back with a dagger."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A paper boat floats past on an underground stream. If plucked from the water is has a letter written inside."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A prisoner in a cage sees the party and yells \"turn back! Runaway!\""
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Cave paintings cover one of the walls, obviously the work of bored hands."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A side corridor has an active trap and deadly trap. A broken treasure chest at the far end spills a few coins."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A grate in the wall allows you to see a mimic finish consuming an adventurer and scuttle off."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "Wind howls mournfully as you cross a rope bridge strewn with arrow riddled adventurers."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "A hunchbacked orc with his back to you tinkers with something in the wall and complains loudly about always being the one who has to reset the traps."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "A large man sits near a pile of treasure reading a book. If approached he changes into a wisp of smoke and retreats to a lamp. Any amount of rubbing on the lamp produces only \"Go away! We're closed!\""
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "A displacer beast and blink dog come thrashing through a cross corridor."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "A dead man's ghost continues searching for a key to a door. A long dead rouge lies nearby."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "A grouchy dragon stomps around a vast cave shouting \"Igor! Where's the ledger listing my gold coins?!\""
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "A dusty side corridor holds a tiny, rough made shrine to an unlikely god, and a dusty body with it's hands still clasped in prayer."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "A hole broken in the brick walls leads to a very, very dark tunnel. "
+                }
+            ]
+        },
+        {
+            "dice": "D20",
+            "name": "Idyllic Village",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A farmer and his son walk past on the road. The man is teaching his son a song."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A wood cutter pauses his chopping to wave at you as you pass."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A milkman struggles past pulling a horse cart. If questioned he mentions that his horse has taken ill but he's managing. "
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A farm wife sets a pie on a windowsill to cool while you walk by."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A gaggle of children discuss plans to nick a pie from a windowsill."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A butcher haggles cheerfully with a farmer over the price of a fat cow."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A group of women take turns sharing gossip and hoisting buckets from the town well."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A celebration is taking place on the town green for two young people, recently married."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A farmer is having a yard sale and has piled a small mountain of junk outside his home."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A healthy looking dog runs past with a laughing boy in pursuit."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A farm wife watches playing children through an open window."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A man is helping a peddler fix his broken down wagon on the roadside."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "A smith pounds furiously on his anvil but stops to smile when his wife brings him some water."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "A group of old men with long beards sit on a stoop smoking pipes."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "A baker is returning home from making his rounds delivering bread."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "The town priest stands outside his church greeting people as they arrive for the service. He invites the PCs to attend."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "A group of men is mending a broken fence."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "A fisherman walks past carrying tackle on his way down to the lake."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "A peddler is selling simple wares to the villagers from his wagon on the town green."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "A group of dwarves with brightly colored hoods puff pipes on the inn porch and watch the sun set."
+                }
+            ]
+        },
+        {
+            "dice": "D20",
+            "name": "Rotting City",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A group of dogs chewing on fallen guardsmen after a street battle."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A giant spider, seen out of the corner of your eye, pulls a struggling something back into a dark alley."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A group of beggars in rags huddle together for warmth against the chill of the winter morning."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A man and a women, speaking to a stone carver about what to put on their child's headstone."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A burned out drug den with charred corpses outside and city guards keeping gawkers away."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A man doling out rations inside a besieged city. Only those able to fight still get full portions."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A carriage passing through a rutted street with armed guards and a dangerous looking wizard riding shotgun."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A tailor trying hopelessly to impress a noble women with a variety of dresses, all of which she scoffs at. "
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A gang of ruffians scoping out potential victims. They give you a nod of acknowledgement, one predator to another."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A strumpet with a face like a racoon checks you out, then resignedly starts walking towards your party while putting on a fake smile."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A group of guards escorts a morose prisoner to the gallows."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A group of crows flies away from several bodies hanging at the gallows when people approach."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "A group of elves pass the party, holding handkerchiefs to their noses."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "A leper approaches the party and starts begging for alms."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "The king's guard execute a man in the street for a petty crime."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "A passing wagon hits a puddle and sprays the party with vile mud."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "A carriage tramples a club footed beggar who was too slow to move out of the way. "
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "A loan shark approaches the party to make an offer."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "A thick fog rolls in covering the city in damp mist."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "A church bell sounds mournfully, it's ring swallowed up by the fog."
+                }
+            ]
+        },
+        {
+            "dice": "D20",
+            "name": "Ancient Forest",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "The song of a mocking bird changes mid-tune to an ominous imitation."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Elves follow you from a distance but never approach."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A green dragon flies overhead."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "An ancient tree whispers softly to you as you pass."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A break in the tree cover lets down a welcome ray of sunshine."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Wolves howl in the distance."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "This part of the forest is gray and quiet. You notice a low fog has come in and the sounds of birds have stopped."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A giant dead tree has fallen and blocked the road."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A deer bounds across the road with a puma in close pursuit."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "You've heard tales about a devil living in these woods. You keep seeing movement from the corner of your eye."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A druid sits on a stone speaking to the birds."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A great shaggy wolfhound approaches the party. He asks if you are lost."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "The underbrush tappers off and there is nothing left but the trunks of trees and impenetrable leaves overhead."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "A ground bird is building a nest nearby. A colorful piece of cloth flutters among the twigs."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "An ancient shrine looms around a corner in the path. It's long abandoned, but the workmanship was once fine."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "A camped group of travelers in the distance notice the players approach, grab what gear they can and hide."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "A wolverine feeds on the corpse of a fallen traveler and his horse. It growls if you get too close."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "A courier wearing the king's livery pauses at the edge of the forest, gathers his courage, and enters down the path."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "An undertaker lives in a cottage near the entrance to the forest. He makes a point of measuring the players before they depart. He's only concerned with their height from the neck down."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "The party hears the sounds of a chase in the brush at night. Later, a werewolf approaches the party and demands to know if they have seen the \"would-be hunter\" pass this way. "
+                }
+            ]
+        },
+        {
+            "dice": "D20",
+            "name": "Aboard a ship at sea",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "The dolphins riding the bow waves squeak suddenly and flee."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A red dawn spooks the sailors."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A crossing the equator ceremony. The PCs are 'inducted' into Neptune's court."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A women stares mournfully at the sea. She seems an unlikely passenger."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A sailor off duty has a fishing rod cast over the side and a pail of fish beside him."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "The captain unexpectedly approaches the PCs and demands to know what they are doing in this part of the ship."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "The wooden creaking of the hulls sounds ominous to the land lubbers."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A howling storm can be seen in the distance."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "The Captain stares with steely eyes into a spyglass then turns to his men with a look of grim resolve."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "The masts of another ship are visible in the distance."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Flotsam from a wreck is seen in the distance. Men cling to bits and pieces. The captain explains there is a reef there, and refuses to approach."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "An imperial courier approaches the ship in port, and the captain regrets to inform his passengers there has been a change in destination. "
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "Pirates approach and greet the Captain as an old friend."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "The sun rises bright and clear, and the winds pick up, a good omen for the day."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "Land birds are sighted in the distance where there should be none."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "At the next stop in port the sailors sing a batch of work songs the bards has never heard before."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "A storm is sighted coming this way. The Captain sends his first make down to below to \"make sure the cargo doesn't escape.\""
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "A group of sailors is being flogged at the mast for breaking into the wine supplies."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "A group of sailors is being flogged at the mast for something the party rouge actually stole."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "Someone in the party overhears whispers of mutiny. "
+                }
+            ]
+        }
+    ],
+    "title": "Vignettes, encounters, and bits of color",
+    "use_with": []
+}

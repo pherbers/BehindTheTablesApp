@@ -1,0 +1,228 @@
+{
+    "description": "This is a table for rapidly generating a handful of landmarks or districts for any city or town. \n\nTo quickly generate a town or city district:\n\n[1] Choose or roll for a central landmark or district.  \n[2] Then roll or choose 2-6 street names.  \n[3] Sketch out these streets, leading away from the central landmark to other parts of the town or city.  \n[4] Fill in some details.",
+    "id": "43xgqj",
+    "keywords": [
+        "town",
+        "city",
+        "district",
+        "landmarks",
+        "points-of-interest",
+        "city-building",
+        "town-building"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/43xgqj",
+    "related_tables": [],
+    "tables": [
+        {
+            "dice": "d20",
+            "name": "Landmark: You see a/an...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Academy or university."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Ancient ruin."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Arena."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Cemetery."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Civic hall, council hall, or guild hall."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Common or greenway."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Fortress."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Gateway or arch."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Library."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Lighthouse or watchtower."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Marketplace."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Memorial (d4): 1. mausoleum; 2. reflecting pool; 3. large statue; 4. botanical garden."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "Monument (d6): 1. colossus; 2. column; 3. obelisk; 4. plaque; 5. statue garden; 6. wall."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "Palace."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "Parade grounds or drilling yard."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "Pier, marina, or traveler's bazaar."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "Plaza or public square."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "Temple."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "Theater."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "Stockyards."
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "This part of the city is the...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Slums."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Residential district, poor."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Residential district, middle class."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Residential district, upper class."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Palace district."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Temple district."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Crafting district."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Docks district."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Riverfront district."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Harbor district."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "University district."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Military district."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "Market district."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "Garden district."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "Monument district."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "Necropolis."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "Theater district."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "Civic center."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "Ethnic enclave."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "Foreign enclave."
+                }
+            ]
+        }
+    ],
+    "title": "City Landmarks and Districts",
+    "use_with": [
+        {
+            "link": "43ek9v",
+            "title": "Castle"
+        },
+        {
+            "link": "43k8fr",
+            "title": "Prison"
+        },
+        {
+            "link": "4jn2j9",
+            "title": "Quick city-building"
+        },
+        {
+            "link": "435qlc",
+            "title": "Reputation and rumors"
+        },
+        {
+            "link": "43uzib",
+            "title": "Rotting city encounters"
+        },
+        {
+            "link": "3xw3lq",
+            "title": "Street names"
+        },
+        {
+            "link": "3xpb4r",
+            "title": "Temple"
+        },
+        {
+            "link": "3sj9ub",
+            "title": "Town NPCs"
+        },
+        {
+            "link": "4daxw7",
+            "title": "Urban marketplace"
+        }
+    ]
+}

@@ -1,0 +1,459 @@
+{
+    "description": "These are tables for quickly coming up some distinctive, individual kobolds.",
+    "id": "4g487v",
+    "keywords": [
+        "kobolds",
+        "yapping",
+        "scaly",
+        "creepers",
+        "tricky",
+        "traps",
+        "sentient procompsognathus"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/4g487v",
+    "related_tables": [
+        {
+            "link": "4fhp6q",
+            "title": "Goblins"
+        }
+    ],
+    "tables": [
+        {
+            "dice": "d20",
+            "name": "This kobold is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A miner."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A scout."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A warrior."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A trapmaker."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A sentry."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A slinger."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A sneakthief."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A wyrmpriest."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A rat-catcher."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A speardancer."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A pyromancer."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A sorcerer."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "A tunnel-prowler."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "A dragonshield."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "A gemcutter."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "A cook."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "A digger."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "A prankster."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "A slyblade."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "A worthless nobody."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "The kobold is particularly skilled at...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Being sneaky."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Not being seen."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Tracking foes."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Building traps."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Avoiding traps."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Repairing traps."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Foraging for food and water."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Digging tunnels."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Blasting tunnels."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Backstabbing foes."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Backstabbing allies."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Cutting throats."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "The kobold wields...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A jagged little sword."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A mended sword"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A spiked club."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A wicked looking axe."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A spear tipped with obsidian."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Several daggers of obsidian."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A large, serrated dagger."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A pair of curved daggers."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A cracked wooden shield."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A shield with scorch marks."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A sling with a pouch of small, smooth stones."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A sling with a clay pot full of goo."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "The kobold wears...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Armor with greasy stains."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Patched leather armor."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Piecemeal chain armor."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A leather helm."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A bat-winged helm."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A dragon-face helm."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A breastplate emblazoned with a snake."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Several ropes tied to its belt."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A belt with a lot of tools."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A cloudy crystal on a string around its neck."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A black cloak with a hood."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A large belt purse."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "The kobold has...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Red warpaint on its face."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A missing eye."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Burn scars on its face."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Several missing front teeth."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Unusually long teeth."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A long, thin bone in its nose piercing."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Violet eyes."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Dark, striped scales."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Bright, spotted scales."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Pale, striped scales."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Dull, spotted scales."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Several missing fingers."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "The kobold has...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "An unsettling stare."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A lean and hungry look."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A maniacal laugh."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "An incessant cackle."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A high-pitched twittering laugh."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A tendency to snicker at everything."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A nervous twitch."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A difficult time standing still."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A limp."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A habit of tapping one foot when it stands still."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A habit of chewing on its fingers."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A ponderous bulk, for a kobold."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "Presently, the kobold is looking to...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Find something to eat."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Find something to drink."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Find some coins or gems to steal."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Warn its master of monster hunters in the area."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Warn its master of a savage beast in the area."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Report to its master as to where to find treasure."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Prove its mettle to its master."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Avoid notice by its master"
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Avoid notice by anyone."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Leave its master entirely."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Play a cruel prank. "
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Test out a newly built trap."
+                }
+            ]
+        }
+    ],
+    "title": "Kobolds",
+    "use_with": [
+        {
+            "link": "3unfbm",
+            "title": "Cavern"
+        },
+        {
+            "link": "4b9wlm",
+            "title": "Dragons"
+        },
+        {
+            "link": "3sgzxb",
+            "title": "Forest"
+        },
+        {
+            "link": "3uzuni",
+            "title": "Lizardfolk"
+        },
+        {
+            "link": "43ufyr",
+            "title": "Mines"
+        },
+        {
+            "link": "42rm5s",
+            "title": "Mountains"
+        }
+    ]
+}

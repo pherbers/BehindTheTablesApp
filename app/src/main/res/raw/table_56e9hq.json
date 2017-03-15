@@ -1,0 +1,364 @@
+{
+    "description": "Use these table to generate a plot line of political intrigue for your players in a city or nation. Plots are centered around the \"leader\" being the person mention in the first table: Major, King, Queen, Guild Leader, etc.",
+    "id": "56e9hq",
+    "keywords": [
+        "politics",
+        "plot",
+        "subterfuge",
+        "story"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/56e9hq",
+    "related_tables": [],
+    "tables": [
+        {
+            "dice": "d6",
+            "name": "At the center of it all is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A mayor's"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A king's / queen's"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A prince's / princess's"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A noble's"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A citizen's"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A guild leader's"
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "...relation...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Self"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Parent"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Grandparent"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Sibling"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Best friend"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Trusted adviser"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Child"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Cousin"
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Aunt / Uncle"
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Spouse"
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Courtesan"
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Personal guard"
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "Nephew / Niece"
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "Mistress / Lover"
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "Rival"
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "Handmaiden / Servant"
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "Secret lover"
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "Jester"
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "Doctor"
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "Cook"
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "Who is trying to...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Start a coup"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Corrupt the leader"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Frame the leader for (d4): 1. corruption; 2. inappropriate relations; 3. murder; 4. embezzlement"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Control the leader from the behind the scenes"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Gain more power"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Gain more influence"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Defect"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Assassinate the leader"
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Assassinate a rival"
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Discredit the leader"
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Discredit a rival"
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Force a war to start"
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "Commit genocide"
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "Usurp the throne"
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "Steal money from the people"
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "Steal money from the kingdom"
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "Collect personal favors"
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "Find a position of power for all of their friends and family"
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "Play a massive joke on the people"
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "Ingratiate themselves with a group of powerful people"
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "...who will...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Trade favors for sex"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Trade favors for money"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Trade favors for information"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Trade favors for favors"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Trade favors for drugs"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Trade favors for influence"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Only assist family"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Only assist friends"
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Only lookout for themselves"
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Do anything to achieve their goal"
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "...and is motivated because...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A family member was killed"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A friend was killed"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "They are compelled by greed"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "They are compelled by power"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "They are being manipulated / threatened by (d6): 1. A secret society; 2. A relation (Roll again on the relation table); 3. A personal rival; 4. The leader's rival; 5. A foreign nation; 6. A fiend"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A warped sense of patriotism (It's for your own good!)"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "They wish to regain a lost station"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "It's necessary for the good of the nation"
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "They are simply bored"
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "It is their god's will"
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "Your heard about this from...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A member of a secret society"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Someone close to the leader"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Someone close to the leader's relation"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A secretive observer"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "It's common knowledge"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Rumors in a tavern"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A note left in the night"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "From the person themselves"
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "From the victim of the plot"
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "From whispers from the grave"
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "From a foreign national with their own interests"
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "From someone who's own plot is being hampered by this plot."
+                }
+            ]
+        }
+    ],
+    "title": "Political Plot",
+    "use_with": []
+}

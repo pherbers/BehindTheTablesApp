@@ -1,0 +1,2072 @@
+{
+    "description": "These are tables for quickly generating a name for a pub, tavern, inn, or the like.",
+    "id": "51kzka",
+    "keywords": [
+        "inn",
+        "tavern",
+        "pub",
+        "bar",
+        "taproom",
+        "songhall",
+        "alehouse",
+        "brewery"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/51kzka",
+    "related_tables": [],
+    "tables": [
+        {
+            "dice": "d4",
+            "name": "Naming Formula:",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Roll one result from the [Adjective] table and one result from the [Noun 1] table and combine them as follows: \"The [Adjective] [Noun 1]\""
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Roll two results from the [Noun 1] table and combine them as follows: \"The [Noun 1A] and [Noun 1B]\" or \"The [Noun 1A] and the [Noun 1B]\""
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Roll one result from the [Noun 1] table and one result from the [Noun 2] table and combine them as follows: \"The [Noun 1]'s [Noun 2]\" or \"The [Noun 1] and the [Noun 2]\""
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Roll one result from the [Verb] table and one result from the [Noun 1] table and combine them as follows: \"The [Verb] [Noun 1]\""
+                }
+            ]
+        },
+        {
+            "dice": "d100",
+            "name": "Verb:",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Moping"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Drowning"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Hanging"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Belching"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Running"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Walking"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Hunting"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Fighting"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Swinging"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Breaking"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Working"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Fermenting"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Flowering"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Worrying"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Following"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Flowing"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Complaining"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Standing"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Joking"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Laughing"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Panting"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Boarding"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Lounging"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Cutting"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Singing"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Staring"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Goading"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Disappointing"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Faltering"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Binding"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Winding"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Sundering"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Longing"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Fumbling"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Bumbling"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Stumbling"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Pining"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Whining"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Flying"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Hoarding"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Whoring"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Warring"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Winking"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Skittering"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Slithering"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Snoring"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Snorting"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Playing"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Practicing"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Grappling"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Burning"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Flaming"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Freezing"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Poisoning"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Burying"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Throwing"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Sparking"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Steaming"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Smiting"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Chittering"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Chattering"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Mumbling"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Grating"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Plowing"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Biting"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Howling"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Roaring"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Shouting"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Pouring"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Squeaking"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Stinging"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Charging"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Bleating"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Stabbing"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Goring"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Poking"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Swallowing"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Sucking"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Drinking"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Sneaking"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Hiding"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Slashing"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Limping"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Tripping"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Shifting"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Sliding"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Blinding"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Piercing"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Bludgeoning"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Crushing"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Hopping"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Thundering"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Hushing"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Crying"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Wailing"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Mourning"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Darkening"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Piling"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Digging"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Flinging"
+                }
+            ]
+        },
+        {
+            "dice": "d100",
+            "name": "Adjective:",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Wayward"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Quiet"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Jolly"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Good"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Crooked"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "White"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Gray"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Blackened"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Harried"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Crimson"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Silver"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Golden"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Disturbed"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Filthy"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Ugly"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Bastard"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Faltering"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Glorious"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Beautiful"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Handsome"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Wrinkled"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Unhappy"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Intelligent"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Lovely"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Ignorant"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Senile"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Sour"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Sweet"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Lonely"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Green"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Blind"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Hungry"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Worried"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Educated"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Stupid"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Emboldened"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Honorary"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Stinky"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Bottomless"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Greasy"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Sloppy"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Stylish"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Distressed"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Harrowed"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Tormented"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Mortified"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Lopsided"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Broken"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Moldy"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Gooey"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Fermented"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Blighted"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Ornate"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Drowned"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Murdered"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Widowed"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Hanged"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Angry"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Lusty"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Haunted"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Strong"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Withered"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Comely"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Pious"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Penitent "
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Patient"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Drunk"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Worthy"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Wealthy"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Loathsome"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Weak"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Miniscule"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Miniature"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Enormous"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Enlarged"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Engorged"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Lecherous"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Despicable"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Lewd"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Portly"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Violent"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Bumbling"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Faulty"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Pristine"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Cleanly"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Cracked"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Splintered"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Jeweled"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Superior"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Flawless"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Common"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Exquisite"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Elegant"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Fine"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Dull"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Brittle"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Fragile"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Effeminate"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Masculine"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Supine"
+                }
+            ]
+        },
+        {
+            "dice": "d100",
+            "name": "Noun 1A:",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Warhorse"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Horseman"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Maiden"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Mage"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Bachelor"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "King"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Magistrate"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Warchief"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Warrior"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Mare"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Wolf"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Fox"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Lion"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Lamb"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Warden"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Mule"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Assassin"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Swordsman"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Lady"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Knight"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Soldier"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Wizard"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Warlock"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Ranger"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Bard"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Druid"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Monk"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Paladin"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Sorcerer"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Rogue"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Cleric"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Bear"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Goblin"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Kobold"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Gnome"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Halfling"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Dwarf"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Fool"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Virgin"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Horde"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Squire"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Eagle"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Rooster"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Piglet"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Thief"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Priest"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Friar"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Blacksmith"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Guard"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Stag"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Hag"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Devil"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Angel"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Serpent"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Snake"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Rat"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Mouse"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Bandit"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Chieftain"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Griffon"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Dragon"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Lizard"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Pony"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Baron"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Heifer"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Bull"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Hound"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Goat"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Toad"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Stallion"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Monster"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Vermin"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Beholder"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Monkey"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Elephant"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Boar"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Beagle"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Bat"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Demon"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Imp"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Sprite"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Fey"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Spirit"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Bitch"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Starling"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Minotaur"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Barbarian"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Prophet"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Merchant"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Cobbler"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Unicorn"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Ogre"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Nymph"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Butcher"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Captain"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Angler"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Lover"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Mason"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Tinker"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Whale"
+                }
+            ]
+        },
+        {
+            "dice": "d100",
+            "name": "Noun 1B:",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Warhorse"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Horseman"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Maiden"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Mage"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Bachelor"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "King"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Magistrate"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Warchief"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Warrior"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Mare"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Wolf"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Fox"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Lion"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Lamb"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Warden"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Mule"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Assassin"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Swordsman"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Lady"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Knight"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Soldier"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Wizard"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Warlock"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Ranger"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Bard"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Druid"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Monk"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Paladin"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Sorcerer"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Rogue"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Cleric"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Bear"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Goblin"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Kobold"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Gnome"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Halfling"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Dwarf"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Fool"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Virgin"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Horde"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Squire"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Eagle"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Rooster"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Piglet"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Thief"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Priest"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Friar"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Blacksmith"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Guard"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Stag"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Hag"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Devil"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Angel"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Serpent"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Snake"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Rat"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Mouse"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Bandit"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Chieftain"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Griffon"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Dragon"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Lizard"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Pony"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Baron"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Heifer"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Bull"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Hound"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Goat"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Toad"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Stallion"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Monster"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Vermin"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Beholder"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Monkey"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Elephant"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Boar"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Beagle"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Bat"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Demon"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Imp"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Sprite"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Fey"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Spirit"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Bitch"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Starling"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Minotaur"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Barbarian"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Prophet"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Merchant"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Cobbler"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Unicorn"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Ogre"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Nymph"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Butcher"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Captain"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Angler"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Lover"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Mason"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Tinker"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Whale"
+                }
+            ]
+        },
+        {
+            "dice": "d100",
+            "name": "Noun 2:",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Mount"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Saddle"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Guild"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Fangs"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Man"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Pardon"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Pleasure"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Belt"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Staff"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Shield"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Prince"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Master"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Servant"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Meal"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Prince"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Favor"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Love"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Word"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Scribe"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Apprentice"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Acolyte"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Dress"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Goddess"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "God"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Gold"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Purse"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Trap"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "King"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Son"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Sister"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Mother"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Daughter"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Cry"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Shout"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Cupboard"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Pantry"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Queen"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Wealth"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Star"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Void"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Woman"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Man"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Whore"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Butcher"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Anvil"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Tome"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Sacrifice"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Armor"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Cup"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Pot"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Stove"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Stool"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Princess"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Chain"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Sword"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Pork"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Grain"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Tooth"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Lance"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Axe"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Scabbard"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Knife"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Dagger"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Spear"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Bow"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Crossbow"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Quarterstaff"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Staff"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Fire"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Ice"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Wind"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Earth"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Water"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Stone"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Ladle"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Monastery"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Chalice"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Goblet"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Dungeon"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Lust"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Lantern"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Bone"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Life"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Stone"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Mistress"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Mind"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Treasure"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Barter"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Armorer"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Butler"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Page"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Tome"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Feather"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Shadow"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Friend"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Labyrinth"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Mountain"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Hope"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Boot"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Gauntlet"
+                }
+            ]
+        }
+    ],
+    "title": "Pub Names",
+    "use_with": []
+}

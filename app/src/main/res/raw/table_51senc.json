@@ -1,0 +1,237 @@
+{
+    "description": "Use these tables to generate a quick rumor of questionable veracity.",
+    "id": "51senc",
+    "keywords": [
+        "rumors",
+        "gossip",
+        "hearsay",
+        "scandal",
+        "spurrious lies",
+        "improbable lies",
+        "truthiness"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/51senc",
+    "related_tables": [
+        {
+            "link": "48spuq",
+            "title": "Gossip and hearsay"
+        },
+        {
+            "link": "435qlc",
+            "title": "Reputations and rumors"
+        },
+        {
+            "link": "4q6c0h",
+            "title": "Rumor mill"
+        }
+    ],
+    "tables": [
+        {
+            "dice": "1d10",
+            "name": "My cousin told me about...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A child."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "A fat merchant."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "A temple priest."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "A sailor."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "A soldier."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "A magician."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "A noble."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "A rogue."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "A crazy monk."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "A drunken farmer."
+                }
+            ]
+        },
+        {
+            "dice": "1d10",
+            "name": "...and they...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Got drunk."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Got washed out to sea."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Got stuck on a runaway horse."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Found an old well."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Disappeared for 3 days."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Found an old tomb."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Met a weird stranger."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Found a magic item."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Were sleepwalking."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Walked off into the forest."
+                }
+            ]
+        },
+        {
+            "dice": "1d10",
+            "name": "...and discovered...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A new disease."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "A powerful artefact."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "A cursed item."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "A sleeping monster."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "A treasure map."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "A hero/villain thought dead, returned to life."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "A book of secrets."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "A key to a vast fortune."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "A suppressed truth about the ruling kingdom."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "A door to another plane."
+                }
+            ]
+        },
+        {
+            "dice": "1d10",
+            "name": "...and now...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "People are disappearing!"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "People are sick!"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "The king has decreed strange new laws!"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "The temple has issued strange new tenets!"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "The sun might not come back up!"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "The moon might fracture!"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "The world might be invaded!"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "People are having bad dreams every night!"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "People are unable to sleep!"
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "People are afraid to come outside!"
+                }
+            ]
+        }
+    ],
+    "title": "Rumor Factory",
+    "use_with": [
+        {
+            "link": "40r6nd",
+            "title": "Strange people"
+        },
+        {
+            "link": "40r638",
+            "title": "Strange places"
+        },
+        {
+            "link": "51kzka",
+            "title": "Tavern and pub names"
+        },
+        {
+            "link": "435mxf",
+            "title": "Tavern goings-on"
+        },
+        {
+            "link": "40r76r",
+            "title": "Unusual crimes"
+        }
+    ]
+}

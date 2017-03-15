@@ -1,0 +1,757 @@
+{
+    "description": "A few tables to generate random strange crimes.\n\nThe basic structure is supposed to be this:\n\n**VICTIMTYPE** + **ORIGIN** + **VICTIM** is believed to have been **CRIME** + **LOCATION** + **CIRCUMSTANCES**. The case is handled by **INVESTIGATORS** who are **INTEREST** solving it and **WILLINGNESS** share details.\n\n**SOURCE** a connection to **CLUE**.",
+    "id": "40r76r",
+    "keywords": [
+        "Strange",
+        "people",
+        "npcs",
+        "crime",
+        "mystery",
+        "murder,"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/40r76r",
+    "related_tables": [],
+    "tables": [
+        {
+            "dice": "D20",
+            "name": "VICTIMTYPE",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "a group of travelers lead by a"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "a caravan lead by a"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "an adventuring party lead by a"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "a group of pilgrims following a"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "a young"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "an old"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "a down on his luck"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "a common"
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "a few"
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "a hated"
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "another"
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "a middleaged"
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "the family of a"
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "the friend of a"
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "a strange"
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "a famous"
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "a well-liked"
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "a simple dressed"
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "an extravagantly dressed"
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "a commonly dressed"
+                }
+            ]
+        },
+        {
+            "dice": "D4",
+            "name": "ORIGIN",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "local"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "foreign"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "exotic looking"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "unknown"
+                }
+            ]
+        },
+        {
+            "dice": "D20",
+            "name": "VICTIM",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "man"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "woman"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "craftsman"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "guard"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "noble"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "slave"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "servant"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "child"
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "lord"
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "mage"
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "priest"
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "merchant"
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "thief"
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "assassin"
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "officer"
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "hobo"
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "prostitute"
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "criminal"
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "art collector"
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "archivist"
+                }
+            ]
+        },
+        {
+            "dice": "D20",
+            "name": "CRIME",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "killed"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "robbed"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "kidnapped"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "extorted"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "blackmailed"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "attacked"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "eaten"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "decapitated"
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "mutilated"
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "assaulted"
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "taken hostage"
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "banished to another plane"
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "blown up"
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "set on fire"
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "polimorphed into an ottoman"
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "fed to wild animals"
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "thrown into a pit"
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "tricked"
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "cloned"
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "shrinked"
+                }
+            ]
+        },
+        {
+            "dice": "D36",
+            "name": "LOCATION (1D6D6)",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "at home"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "in the street in broad daylight"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "in a dark alley"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "in a tavern"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "at a brothel"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "on the outskirts of town"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "in the park"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "in someone\u2019s garden"
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "in a temple"
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "on the town square"
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "out in the woods"
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "down by the lake"
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "in the swamp"
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "in the nearby ruin"
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "in a nearby cave"
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "by the sewer exit"
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "in a guard tower"
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "in an abandoned house"
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "in an abandoned warehouse"
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "in an old mansion"
+                },
+                {
+                    "dice_val": "21",
+                    "entry": "in the stable of an old estate"
+                },
+                {
+                    "dice_val": "22",
+                    "entry": "in the greenhouse of an old mansion"
+                },
+                {
+                    "dice_val": "23",
+                    "entry": "in a crypt"
+                },
+                {
+                    "dice_val": "24",
+                    "entry": "in a library"
+                },
+                {
+                    "dice_val": "25",
+                    "entry": "at the victims own place of work"
+                },
+                {
+                    "dice_val": "26",
+                    "entry": "in the victims own bedroom"
+                },
+                {
+                    "dice_val": "27",
+                    "entry": "in a hidden room in the victims own house"
+                },
+                {
+                    "dice_val": "28",
+                    "entry": "in the common room of a local guild"
+                },
+                {
+                    "dice_val": "29",
+                    "entry": "on a boat on the lake"
+                },
+                {
+                    "dice_val": "30",
+                    "entry": "on a quiet mountain road"
+                },
+                {
+                    "dice_val": "31",
+                    "entry": "on a track in the woods"
+                },
+                {
+                    "dice_val": "32",
+                    "entry": "out by the waterfall"
+                },
+                {
+                    "dice_val": "33",
+                    "entry": "in the cathedral"
+                },
+                {
+                    "dice_val": "34",
+                    "entry": "in the old church"
+                },
+                {
+                    "dice_val": "35",
+                    "entry": "in the catacombs"
+                },
+                {
+                    "dice_val": "36",
+                    "entry": "at an undisclosed location"
+                }
+            ]
+        },
+        {
+            "dice": "D10",
+            "name": "CIRCUMSTANCES",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "to no real surprise to the local population."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "under obviously mysterious circumstances."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "causing great unrest among the local population."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "like several similar victims before."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "without getting any real attention from the local population."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "and the remnants of dark magic is still draining all light from the spot."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "and the local population hasn\u2019t spoken a word since."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "and the town is now under curfew."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "and people believe it to be politically motivated."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "as it happens every month."
+                }
+            ]
+        },
+        {
+            "dice": "D8",
+            "name": "INVESTIGATORS",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "the city guard"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "royal guard"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "a fearsome crew with obvious scars of battle"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "a strange and quiet group, not known by any of the locals"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "men of the church"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "an old man in a robe and his dog"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "a middleaged woman in a simple uniform with her young male assistant"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "a young man, who won\u2019t disclose his relationship to the victim assisted by his mute brother"
+                }
+            ]
+        },
+        {
+            "dice": "D6",
+            "name": "INTEREST",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "keen on "
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "not very interested in"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "doing all they can in"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "letting no one stand in their way of"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "not doing so much for"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "clearly making sure nothing is done in"
+                }
+            ]
+        },
+        {
+            "dice": "D12",
+            "name": "WILLINGNESS",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "are hostile when asked to"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "are in no way willing to"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "are very skeptical to"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "are scared to"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "are clearly not allowed to"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "are, when completely hammered, somewhat willing to"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "skeptical, but somewhat willing to"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "somewhat willing to"
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "willing to"
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "very willing to"
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "way to willing to"
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "yelling to everyone trying to"
+                }
+            ]
+        },
+        {
+            "dice": "D10",
+            "name": "SOURCE",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "According to your sources on the local tavern, there\u2019s "
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A less-reputable local paper writes about"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A scrawny town crier tell passers-by of"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A group of craftsmen walking by talks about"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "According to the flyers distributed in quite overwhelming numbers around town, there is definitely "
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A man without teeth comes up and whispers to a PC"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "By the gate, A hideously deformed man passes you a note mentioning"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "At the scene of the crime is a verse from a poem, written with intestines laid out in beautiful cursive - it has"
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A note on a players bed speaks of"
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "The players heard the victim scream something, when the crime took place, that hinted at"
+                }
+            ]
+        },
+        {
+            "dice": "D20",
+            "name": "CLUE",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "a local cult with rather extreme beliefs"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "a lock of strange fur"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "a rumoured jealous lover"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "a hot tempered spouse"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "the local child, the one with the strangest eyes"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "markings of something having entered from beyond"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "remnants of the darkest magic"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "revenge"
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "lust"
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "greed"
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "a murky acquaintance from the victim\u2019s past"
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "that old tablet covered in obscure symbols"
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "the terrible story no one wants to remember"
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "an old friend of the PCs"
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "a beautiful young woman, who only came to town recently"
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "another horrid crime committed not long ago"
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "the escaped criminal, rumored to be in hiding nearby"
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "markings of a wild animal"
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "that deep rumble, that you might hear coming from below the surface of the paved roads from time to time."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "the nightly activities of one of the PCs, but it\u2019s all so hazy\u2026"
+                }
+            ]
+        }
+    ],
+    "title": "Strange Crimes",
+    "use_with": [
+        {
+            "link": "40r638",
+            "title": "Strange places"
+        },
+        {
+            "link": "40r6nd",
+            "title": "Strange people"
+        }
+    ]
+}

@@ -1,0 +1,142 @@
+{
+    "description": "Use these tables to quickly generate an interesting farmer or peasant NPC.",
+    "id": "3xys3d",
+    "keywords": [
+        "farmer",
+        "farmwife",
+        "farmmaid",
+        "milkmaid",
+        "cowmaid",
+        "farmboy",
+        "farm",
+        "farming",
+        "farmington",
+        "fred",
+        "peasant"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/3xys3d",
+    "related_tables": [],
+    "tables": [
+        {
+            "dice": "d8",
+            "name": "The peasant is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "An old farmer."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A middle-aged farmer."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A young farmer."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A farm boy."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "An old farmwife."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A tough farmwife."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A young maid."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A country girl."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "The peasant seeks someone to...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Lend a hand on a laborious task."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Repair a tool or farming implements."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Help locate a missing beast."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Help locate a missing person."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Help secure an audience with the lord/lady."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Purchase or distribute crops."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Purchase some livestock."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Listen to a tale of woe."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The peasant's primary crops and market fare include...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Grains (d6): 1. barley; 2. oats; 3. corn; 4. rice; 5. rye; 6. wheat."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Meats (d8): 1. beef; 2. chicken; 3. duck; 4. goat; 5. goose; 6. pigeon; 7. pork; 8. mutton."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Fruits (d8): 1. apples; 2. blackberries; 3. blueberries; 4. cherries; 5. lemons; 6. pears; 7. plums; 8. raspberries."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Vegetables (d10): 1. beans; 2. beets; 3. broccoli; 4. cabbages; 5. carrots; 6. cauliflower; 7. mushrooms; 8. peas; 9. radishes; 10. squash."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Dairy or eggs (d8): 1. cow's milk; 2. goat's milk; 3. sheep's milk; 4. hard cheese; 5. mild cheese; 6. pungent cheese; 7. sharp cheese; 8. soft cheese; 9. eggs; 10. goose eggs."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Herbs and spices (d10): 1. basil; 2. garlic; 3. ginger; 4. mint; 5. oregano; 6. parsley; 7. pepper; 8. rosemary; 9. sage; 10. thyme."
+                }
+            ]
+        }
+    ],
+    "title": "Farmfolk",
+    "use_with": [
+        {
+            "link": "3sj9ub",
+            "title": "Town NPCs"
+        },
+        {
+            "link": "43uzib",
+            "title": "Idyllic village encounters"
+        },
+        {
+            "link": "47x04h",
+            "title": "Plains"
+        }
+    ]
+}

@@ -1,0 +1,675 @@
+{
+    "description": "These are tables for generating a knight to serve as ally, foe, or foil to your PCs. These tables also include suggestions for retainers if the knight employs any.",
+    "id": "3tkfho",
+    "keywords": [
+        "knight",
+        "sir",
+        "ser",
+        "fighter",
+        "sword",
+        "questing",
+        "chivalry",
+        "pompous",
+        "jerk",
+        "noble",
+        "honor",
+        "warrior",
+        "oath"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/3tkfho",
+    "related_tables": [
+        {
+            "link": "43emxb",
+            "title": "Castle inhabitants"
+        },
+        {
+            "link": "3sj8mc",
+            "title": "Noble houses"
+        }
+    ],
+    "tables": [
+        {
+            "dice": "d20",
+            "name": "The knight\u2019s house\u2019s colors are...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Black."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Red / scarlet."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Gold."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Forest green."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Royal blue."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Violet."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Silver / light grey."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Bronze."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Tan / khaki."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Brown / beaver."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Dark grey / gunmetal."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "White."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "Maroon."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "Sky blue."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "Navy blue."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "Dark brown / chocolate."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "Teal / turquoise."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "Yellow."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "Orange."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "Olive green."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "The knight\u2019s house's symbol is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A weapon (d8): 1. arrow; 2. axe; 3. dagger; 4. hammer; 5. mace; 6. spear; 7. staff; 8. sword."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A piece of armor (d4): 1. breastplate; 2. gauntlet; 3. helm; 4. shield."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A celestial body (d4): 1. sun; 2. moon; 3. star; 4. comet."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A plant or part of a plant (d12): 1. apple; 2. barley; 3. briar; 4. fig; 5. grapes; 6. lily; 7. maple; 8. oak; 9. olive; 10. pine; 11. rose; 12. wheat."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "An aquatic beast (d6): 1. crab; 2. crocodile; 3. frog; 4. fish; 5. octopus; 6. whale."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A small beast (d12): 1. badger; 2. bat; 3. beaver; 4. dog; 5. ferret; 6. fox; 7. hedgehog; 8. lizard; 9. rat; 10. scorpion; 11. snake; 12. spider."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A great beast (d8): 1. bear; 2. boar; 3. bull; 4. dragon; 5. lion; 6. ox; 7. stag; 8. wolf."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A bird (d12): 1. cardinal; 2. dove; 3. eagle; 4. hawk; 5. mockingbird; 6. owl; 7. pelican; 8. raven; 9. rooster; 10. sparrow; 11. swan; 12. vulture."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The knight has sworn to a noble lord or lady to...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Protect that person from harm."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Defend that person\u2019s lands."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Avenge that person\u2019s grievances."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Protect that person\u2019s loved ones."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Advance that person\u2019s ideals or faith."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Ride to war in that person\u2019s name. "
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "Above all else, the knight values...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Bravery."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Honor."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Righteousness."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Strength and might."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Power and tyranny."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Romantic devotion."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Romantic conquest."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Carousing."
+                }
+            ]
+        },
+        {
+            "dice": "d4",
+            "name": "The knight is armored in...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Studded leather armor."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Chainmail."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Scale armor."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Plate armor."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The knight\u2019s armor is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Shiny and new."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "In excellent condition."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Obviously repaired, but serviceable."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Covered in dings and dents."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Dirty and well-worn."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Barely held together."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "The knight is wielding...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A longsword."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A longsword and a shield."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Two shortswords."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A shortsword and a shield."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A bastard sword."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A greatsword."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A flail and a shield."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A morningstar."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A battleaxe and a shield."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A warhammer and a shield."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A lance and a longsword."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A lance and a battleaxe."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The knight\u2019s mount is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A huge destrier."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A reliable courser."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A snorting charger."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A swift garron."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A wickering palfrey."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A nervous pony."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "The knight is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A pompous windbag."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A charming hero."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A daring swashbuckler."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A violent drunk."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A brilliant strategist."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A religious zealot."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A beautiful youth."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A brutish thug."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A celebrated war hero."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A popular tavern patron."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A favorite among the ladies."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Ruggedly handsome."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "On the knight\u2019s face is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A missing ear."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A jagged scar."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A hard-set jaw."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A friendly grin."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A faraway look."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A sad look."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A pair of piercing eyes."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A broken nose."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Bushy eyebrows."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Unshaven stubble."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A neatly-trimmed beard."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "An extravagant mustache."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "The knight carries...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A blade with soft leather tassels dangling from the pommel."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A blade with a carved hilt (d6): 1. ivory; 2. jade; 3. soapstone; 4. ebony; 5. mahogany; 6. oak."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A blade with beasts sculpted into the steel of the guard (d6): 1. dragons; 2. lions; 3. scorpions; 4. snakes; 5. spiders; 6. wolves."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A blade made of blackened steel."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A highly polished blade."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A token from a sweetheart."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A token from a parent."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A letter from a fallen comrade."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A trophy from a fallen enemy."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A ribbon from a faraway maiden."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "The servant is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A squire from a powerful noble house."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A squire from a minor noble house."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A squire of common birth."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A frightened link boy."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "An long-time valet."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A reformed criminal-turned valet."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "The son of an enemy."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A mysterious foreigner."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A journeyman smith or armorer."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A simple-minded stable hand."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "An expert on horses."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A camp follower or harlot."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The servant works for...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "The steady pay."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "The adventure."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "The training and advancement opportunies."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "No reason, other than being told."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A chance to escape from life imprisonment."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Romantic devotion."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "On the servant\u2019s face is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A large wart."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "An unsightly scar."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A look of determination."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A foolish grin."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A stupid stare."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A look of confusion."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A long, hooked nose."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Pronounced ears. "
+                }
+            ]
+        }
+    ],
+    "title": "Knights",
+    "use_with": [
+        {
+            "link": "46ma8g",
+            "title": "Bards"
+        },
+        {
+            "link": "43ek9v",
+            "title": "Castles"
+        },
+        {
+            "link": "45iihj",
+            "title": "Damsel in distress"
+        },
+        {
+            "link": "4tguyo",
+            "title": "Horses"
+        },
+        {
+            "link": "3sl2r2",
+            "title": "Merchant caravans"
+        },
+        {
+            "link": "3tjg9d",
+            "title": "Military companies"
+        },
+        {
+            "link": "3xyhdl",
+            "title": "Nobles"
+        },
+        {
+            "link": "4xvcgo",
+            "title": "Princesses"
+        },
+        {
+            "link": "4b8u29",
+            "title": "Reputations of adventurers"
+        }
+    ]
+}

@@ -1,0 +1,235 @@
+{
+    "description": "Infernal beasts can be found in the Hells' legions serving as war beasts, mounts, and messengers. This is a short set of tables for quickly coming up with brief description of an interesting infernal beast.",
+    "id": "4n03im",
+    "keywords": [
+        "devils",
+        "the hells",
+        "hellhound",
+        "hellbeast",
+        "possessed animals"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/4n03im",
+    "related_tables": [
+        {
+            "link": "4mnnq4",
+            "title": "Celestial beasts"
+        },
+        {
+            "link": "4mu1t3",
+            "title": "Demonic beasts"
+        },
+        {
+            "link": "4nbz0l",
+            "title": "Fire beasts"
+        },
+        {
+            "link": "4nayky",
+            "title": "Shadow beasts"
+        },
+        {
+            "link": "4nbzt3",
+            "title": "Winter beasts"
+        }
+    ],
+    "tables": [
+        {
+            "dice": "d12",
+            "name": "The infernal beast appears in the form of...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A bat."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A drake."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A hound."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A horse."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A falcon."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A lizard."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A panther."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A raven."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A scorpion."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A serpent."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A worm."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A wyvern."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "The beast has...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Glowing red eyes."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Pale, sinister eyes."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Reddish skin around the face."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Several short horns or tusks."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Curled horns or tusks."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Long pointy horns."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "An odor of brimstone."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "An aura of choking smoke."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "...and...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Powerful hind legs for leaping and pouncing."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Speaks in a hissing voice."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Speaks in a growling voice."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A forked tongue."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Poisonous fangs."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Red or black, leathery wings."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Black or grey, feathered wings."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A tail with a venomous stinger."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The beast is looking for...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A mortal to tempt and to corrupt."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A soul to collect for its master."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A soul to torment."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "An opportunity to overthrow its master."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A specific mortal who sold his or her soul."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "An item of great power and evil."
+                }
+            ]
+        }
+    ],
+    "title": "Infernal Beasts",
+    "use_with": [
+        {
+            "link": "3unfbm",
+            "title": "Caverns"
+        },
+        {
+            "link": "40wc26",
+            "title": "Cultists"
+        },
+        {
+            "link": "3xyiqs",
+            "title": "Cults"
+        },
+        {
+            "link": "4boiw9",
+            "title": "Fiends"
+        },
+        {
+            "link": "43bxpl",
+            "title": "Nightmares"
+        },
+        {
+            "link": "4780bg",
+            "title": "Poisons"
+        },
+        {
+            "link": "3xpb4r",
+            "title": "Temples"
+        },
+        {
+            "link": "427hd8",
+            "title": "Tombs"
+        },
+        {
+            "link": "3si4ms",
+            "title": "Witches"
+        }
+    ]
+}

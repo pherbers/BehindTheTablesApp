@@ -1,0 +1,231 @@
+{
+    "description": "Most shadow beasts are stealthy scavengers who feed on dead flesh or dangerous hunters who live for the kill. This is a short set of tables for quickly coming up with brief description of an interesting shadow beast.",
+    "id": "4nayky",
+    "keywords": [
+        "shadowfell",
+        "shadowy",
+        "deathtouched",
+        "shadowtouched",
+        "ravens"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/4nayky",
+    "related_tables": [
+        {
+            "link": "4mnmre",
+            "title": "Aberrant beasts"
+        },
+        {
+            "link": "4mu1t3",
+            "title": "Demonic beasts"
+        },
+        {
+            "link": "4n03im",
+            "title": "Infernal beasts"
+        },
+        {
+            "link": "4nbzmi",
+            "title": "Undead beasts"
+        },
+        {
+            "link": "4nbzt3",
+            "title": "Winter beasts"
+        }
+    ],
+    "tables": [
+        {
+            "dice": "d12",
+            "name": "The shadow beast is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A bat."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A centipede."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A monkey."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "An owl."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A panther."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A rat."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A raven."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A serpent."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A spider."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A vulture."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A wolf."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A wyvern."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "The beast has...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Dark, sinister eyes."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Pale, glowing eyes."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Dark stripes or markings."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Eerie grey coloration."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Venomous fangs."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Blackened teeth."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "An aura of gloom."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "An odor of death."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "...and...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Can disappear into shadows."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Can teleport in a swirl of shadows."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Moves without a sound."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Speaks in rhymes and riddles."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Gives you an uneasy feeling."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A mournful howl or cry."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "The beast is looking for...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A soul to devour."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Dead flesh to eat."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Something to kill."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A place to lair among ghosts."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "The location of an ancient lich's tomb."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A dark hole in which to wait for prey."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Someone to listen to its tale of terror and death."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "The loathsome mage who summoned it. "
+                }
+            ]
+        }
+    ],
+    "title": "Shadow Beasts",
+    "use_with": [
+        {
+            "link": "3unfbm",
+            "title": "Caverns"
+        },
+        {
+            "link": "3tielc",
+            "title": "Desert, shadowy"
+        },
+        {
+            "link": "3sh0bv",
+            "title": "Forest, haunted"
+        },
+        {
+            "link": "3w1g84",
+            "title": "Necromancers"
+        },
+        {
+            "link": "4780bg",
+            "title": "Poisons"
+        },
+        {
+            "link": "427hd8",
+            "title": "Tombs"
+        },
+        {
+            "link": "3sorre",
+            "title": "Undead, restless"
+        },
+        {
+            "link": "3si4ms",
+            "title": "Witches"
+        }
+    ]
+}

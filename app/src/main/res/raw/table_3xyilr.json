@@ -1,0 +1,508 @@
+{
+    "description": "Use these tables to quickly generate an strange cult to serve as foe or foil for your PCs.",
+    "id": "3xyilr",
+    "keywords": [
+        "cult",
+        "cultist",
+        "religion",
+        "religious heretic"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/3xyilr",
+    "related_tables": [],
+    "tables": [
+        {
+            "dice": "d6",
+            "name": "The society's main goal is to...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Foil the plans of another secret society."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Bring about the destruction of the city, region, or world."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Foment rebellion against the ruling class."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Hunt down and eliminate members of a specific race or class."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Protect the common people from tyranny."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Protect the city, region, or world from outside malign influences."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "The society is led by...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A council who gain their seats by virtue of heredity."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A council who gain their seats by virtue of experience."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A council who gain their seats by elections."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A dangerous megalomaniac."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A femme fatale."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "An altruistic knight."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A dashing rogue."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A religious zealot."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A wise old priest or mage."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A celebrated war hero."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A wealthy merchant or noble."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A fugitive from justice."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "Members of the society recognize each other by...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A secret handshake."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A secret gesture."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A secret password."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A set of coded phrases and responses."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A subtle pin or piece of jewelry."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A subtle fashion or style of dress."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A cue specified by another member of the society."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "The way society members style their facial hair."
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "The society's colors are...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Black."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Red / scarlet."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Gold."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Forest green."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Royal blue."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Violet."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Silver / light grey."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Bronze."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Tan / khaki."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Brown / beaver."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Dark grey / gunmetal."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "White."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "Maroon."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "Sky blue."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "Navy blue."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "Dark brown / chocolate."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "Teal / turquoise."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "Yellow."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "Orange."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "Olive green."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "The society's symbol is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A weapon (d8): 1. arrow; 2. axe; 3. dagger; 4. hammer; 5. mace; 6. spear; 7. staff; 8. sword."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A piece of armor (d4): 1. breastplate; 2. gauntlet; 3. helm; 4. shield."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A celestial body (d4): 1. sun; 2. moon; 3. star; 4. comet."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A plant or part of a plant (d12): 1. apple; 2. barley; 3. briar; 4. fig; 5. grapes; 6. lily; 7. maple; 8. oak; 9. olive; 10. pine; 11. rose; 12. wheat."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "An aquatic beast (d6): 1. crab; 2. crocodile; 3. frog; 4. fish; 5. octopus; 6. whale."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A small beast (d12): 1. badger; 2. bat; 3. beaver; 4. dog; 5. ferret; 6. fox; 7. hedgehog; 8. lizard; 9. rat; 10. scorpion; 11. snake; 12. spider."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A great beast (d8): 1. bear; 2. boar; 3. bull; 4. dragon; 5. lion; 6. ox; 7. stag; 8. wolf."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A bird (d12): 1. cardinal; 2. dove; 3. eagle; 4. hawk; 5. mockingbird; 6. owl; 7. pelican; 8. raven; 9. rooster; 10. sparrow; 11. swan; 12. vulture."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "An elemental rune or image (d8): 1. cloud; 2. flame; 3. ice; 4. lightning bolt; 5. snow; 6. stone; 7. wave of water; 8. whirlwind."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "An icon of death (d4): 1. a pair of crossed bones; 2. a ghost; 3. a skull; 4. a spectral hand."
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "The society's motto champions the ideals of...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Compassion."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Courage."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Discipline."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Domination."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Duty."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Excellence."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Faith."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Honor."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Hope."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Integrity."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "'Knowledge"
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Justice."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "Loyalty."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "Mercy."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "Patience."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "Power."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "Righteousness."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "Strength."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "Victory. "
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "Wisdom."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Members of the society typically operate...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Alone and in secret."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "In pairs, working in secret."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "In small groups, working in secret."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Alone, but openly."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "In pairs, but openly."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "In small groups, but openly."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Members of the society typically know...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Very few other members of the society."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Several other members of the society."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "The details of the society's organization."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Nothing about the society's leadership."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "The names of the society's leaders, though they\u2019ve never any of them."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "One of the society's leading members and no other members."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "Members of the society occasionally gather to meet in...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A secret chamber in a well-known temple."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "The cellar of a popular tavern."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A secret chamber in a well-known guild-hall."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "The cellar of a wealthy merchant's house."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "The city sewers."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "The ancient catacombs beneath the city."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "The residence of the leader or a senior member."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A wealthy merchant's office."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A private dining room in a dingy tavern."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A brothel."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A warehouse or shipyard."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "The city's sewers."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "The society's membership is primarily made up of...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "The poor and downtrodden (slaves, beggars, urchins, laborers, servants, etc.)."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "The wealthy elite (merchants, nobles, etc.)."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Members of a particular religion (a temple, a cult, a sect, etc.)."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Members of a particular trade (blacksmiths, carpenters, fishermen, weavers, etc.)."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Members of a particular class (bards, fighters, mages, priests, rangers, thieves, etc.)"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Members of a particular race (dwarves, elves, gnomes, halflings, etc.)."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Members of specific ancient lineages (noble houses, descendants of heroes, etc.)"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "An eclectic mix of society."
+                }
+            ]
+        }
+    ],
+    "title": "Secret Societies",
+    "use_with": []
+}

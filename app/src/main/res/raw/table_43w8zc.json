@@ -1,0 +1,1354 @@
+{
+    "description": "These are tables for adding some flavor to a harlot NPC. From silly to sultry and from light-hearted to sad, let's see what she can do...",
+    "id": "43w8zc",
+    "keywords": [
+        "brothel",
+        "whorehouse",
+        "harlotry",
+        "hooker",
+        "prostitute",
+        "working girl",
+        "whore",
+        "painted lady",
+        "lover",
+        "paramour",
+        "tart",
+        "madame",
+        "adult entertainment"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/43w8zc",
+    "related_tables": [],
+    "tables": [
+        {
+            "dice": "d200",
+            "name": "This place is called...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Daisies."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "The Don."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Blinkers."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "The Prude's Suspenders."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Gold\u2019s Dust."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "The Velvet Fang."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "The Whisper Home."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "The Hook."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Over the River."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Slooshes."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "The Rapid Rascal."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "The Stoat."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "The Fidgety Ferret."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "Long Shaft."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "The Guards. "
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "Chastity\u2019s."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "The Mask."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "The Red Dress."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "Jewels."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "Silken Flute."
+                },
+                {
+                    "dice_val": "21",
+                    "entry": "The Nag\u2019s Head."
+                },
+                {
+                    "dice_val": "22",
+                    "entry": "Drummers."
+                },
+                {
+                    "dice_val": "23",
+                    "entry": "Sailors Choice."
+                },
+                {
+                    "dice_val": "24",
+                    "entry": "Blacksmiths Envy."
+                },
+                {
+                    "dice_val": "25",
+                    "entry": "The Nagging Wife."
+                },
+                {
+                    "dice_val": "26",
+                    "entry": "Colins Rubble."
+                },
+                {
+                    "dice_val": "27",
+                    "entry": "Dron's Beat."
+                },
+                {
+                    "dice_val": "28",
+                    "entry": "The Wink."
+                },
+                {
+                    "dice_val": "29",
+                    "entry": "Maggie\u2019s Horn."
+                },
+                {
+                    "dice_val": "30",
+                    "entry": "The Sun &amp; Cider."
+                },
+                {
+                    "dice_val": "31",
+                    "entry": "The Oakworm."
+                },
+                {
+                    "dice_val": "32",
+                    "entry": "Tickle &amp; Feather."
+                },
+                {
+                    "dice_val": "33",
+                    "entry": "The Mistress."
+                },
+                {
+                    "dice_val": "34",
+                    "entry": "Madam Zersannies's."
+                },
+                {
+                    "dice_val": "35",
+                    "entry": "The King's Court."
+                },
+                {
+                    "dice_val": "36",
+                    "entry": "The Cursed Coin. "
+                },
+                {
+                    "dice_val": "37",
+                    "entry": "Slit."
+                },
+                {
+                    "dice_val": "38",
+                    "entry": "The Maiden Head."
+                },
+                {
+                    "dice_val": "39",
+                    "entry": "The Rusty."
+                },
+                {
+                    "dice_val": "40",
+                    "entry": "The Silken Ferret."
+                },
+                {
+                    "dice_val": "41",
+                    "entry": "Long Legs."
+                },
+                {
+                    "dice_val": "42",
+                    "entry": "Elven Whispers."
+                },
+                {
+                    "dice_val": "43",
+                    "entry": "The Leg."
+                },
+                {
+                    "dice_val": "44",
+                    "entry": "False Suspenders."
+                },
+                {
+                    "dice_val": "45",
+                    "entry": "Aunt Fannies Bloomers."
+                },
+                {
+                    "dice_val": "46",
+                    "entry": "Final Rest."
+                },
+                {
+                    "dice_val": "47",
+                    "entry": "Cocks Crow."
+                },
+                {
+                    "dice_val": "48",
+                    "entry": "The Unblinking Eye."
+                },
+                {
+                    "dice_val": "49",
+                    "entry": "The Bountiful Bosom."
+                },
+                {
+                    "dice_val": "50",
+                    "entry": "Tuskers."
+                },
+                {
+                    "dice_val": "51",
+                    "entry": "The Thrusting Gentleman."
+                },
+                {
+                    "dice_val": "52",
+                    "entry": "Tally Hoes."
+                },
+                {
+                    "dice_val": "53",
+                    "entry": "Rutting."
+                },
+                {
+                    "dice_val": "54",
+                    "entry": "Pigs in Blankets."
+                },
+                {
+                    "dice_val": "55",
+                    "entry": "The Delicate Touch."
+                },
+                {
+                    "dice_val": "56",
+                    "entry": "Aphrodite\u2019s Wish."
+                },
+                {
+                    "dice_val": "57",
+                    "entry": "The Dirty Secret."
+                },
+                {
+                    "dice_val": "58",
+                    "entry": "Long Locks."
+                },
+                {
+                    "dice_val": "59",
+                    "entry": "Sweat."
+                },
+                {
+                    "dice_val": "60",
+                    "entry": "Brothel."
+                },
+                {
+                    "dice_val": "61",
+                    "entry": "Taters."
+                },
+                {
+                    "dice_val": "62",
+                    "entry": "The Swift Finish."
+                },
+                {
+                    "dice_val": "63",
+                    "entry": "Cumberlands."
+                },
+                {
+                    "dice_val": "64",
+                    "entry": "The Missing Sausage."
+                },
+                {
+                    "dice_val": "65",
+                    "entry": "The Fools Frolic.   "
+                },
+                {
+                    "dice_val": "66",
+                    "entry": "Dragons."
+                },
+                {
+                    "dice_val": "67",
+                    "entry": "The Bushel."
+                },
+                {
+                    "dice_val": "68",
+                    "entry": "Farmers Oats."
+                },
+                {
+                    "dice_val": "69",
+                    "entry": "The Raised Brow."
+                },
+                {
+                    "dice_val": "70",
+                    "entry": "Genies."
+                },
+                {
+                    "dice_val": "71",
+                    "entry": "The Farfetched Feather."
+                },
+                {
+                    "dice_val": "72",
+                    "entry": "Junk."
+                },
+                {
+                    "dice_val": "73",
+                    "entry": "The Connoisseur\u2019s Choice."
+                },
+                {
+                    "dice_val": "74",
+                    "entry": "Colossus."
+                },
+                {
+                    "dice_val": "75",
+                    "entry": "The Smooth Ride."
+                },
+                {
+                    "dice_val": "76",
+                    "entry": "Bucking."
+                },
+                {
+                    "dice_val": "77",
+                    "entry": "The Great Big Globes."
+                },
+                {
+                    "dice_val": "78",
+                    "entry": "The Glimmeric."
+                },
+                {
+                    "dice_val": "79",
+                    "entry": "Loving Embrace."
+                },
+                {
+                    "dice_val": "80",
+                    "entry": "Chokers Necklace."
+                },
+                {
+                    "dice_val": "81",
+                    "entry": "The Grand Madame's Emporium of Fine Delicacies, Treats, and the Exotic."
+                },
+                {
+                    "dice_val": "82",
+                    "entry": "Thug\u2019s Retreat."
+                },
+                {
+                    "dice_val": "83",
+                    "entry": "Warriors' Return."
+                },
+                {
+                    "dice_val": "84",
+                    "entry": "Gold Gobblers."
+                },
+                {
+                    "dice_val": "85",
+                    "entry": "Cackling Croons."
+                },
+                {
+                    "dice_val": "86",
+                    "entry": "The Warty."
+                },
+                {
+                    "dice_val": "87",
+                    "entry": "Bessie\u2019s Best."
+                },
+                {
+                    "dice_val": "88",
+                    "entry": "Corset."
+                },
+                {
+                    "dice_val": "89",
+                    "entry": "Winkies. "
+                },
+                {
+                    "dice_val": "90",
+                    "entry": "The Shagger."
+                },
+                {
+                    "dice_val": "91",
+                    "entry": "Port of Call."
+                },
+                {
+                    "dice_val": "92",
+                    "entry": "The Home Away from Hoes."
+                },
+                {
+                    "dice_val": "93",
+                    "entry": "Smooth."
+                },
+                {
+                    "dice_val": "94",
+                    "entry": "The Maiden Fair."
+                },
+                {
+                    "dice_val": "95",
+                    "entry": "The Bit."
+                },
+                {
+                    "dice_val": "96",
+                    "entry": "Hosted."
+                },
+                {
+                    "dice_val": "97",
+                    "entry": "Glamourous Delights"
+                },
+                {
+                    "dice_val": "98",
+                    "entry": "Happily Ever After."
+                },
+                {
+                    "dice_val": "99",
+                    "entry": "Sultry Stare."
+                },
+                {
+                    "dice_val": "100",
+                    "entry": "The Full Flush."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "The Lighted Candle."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "The Red Candle."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "The Raised Candle."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "The Dancing Flame."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "The Candlelight Resort."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "The Sweetest Cherry."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Cherry's."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Cherry Pie."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "The Velvet Cherry."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "The Golden Cherry."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "The Silk Curtain."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "The Red Curtain."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "The Lacy Curtain."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "The Welcoming Curtain."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "The Satin Curtain."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "Satin Dolls."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "Sweet Dolls."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "Porcelain Dolls."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "The Sugar Doll."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "Dancers and Dolls."
+                },
+                {
+                    "dice_val": "21",
+                    "entry": "The Red Door."
+                },
+                {
+                    "dice_val": "22",
+                    "entry": "The Golden Door."
+                },
+                {
+                    "dice_val": "23",
+                    "entry": "The Silver Door."
+                },
+                {
+                    "dice_val": "24",
+                    "entry": "The Maiden's Door."
+                },
+                {
+                    "dice_val": "25",
+                    "entry": "The Dancers' Door."
+                },
+                {
+                    "dice_val": "26",
+                    "entry": "Lover's Embrace."
+                },
+                {
+                    "dice_val": "27",
+                    "entry": "Lady's Embrace."
+                },
+                {
+                    "dice_val": "28",
+                    "entry": "The Sweetest Embrace."
+                },
+                {
+                    "dice_val": "29",
+                    "entry": "The Warmest Embrace."
+                },
+                {
+                    "dice_val": "30",
+                    "entry": "Welcoming Embrace."
+                },
+                {
+                    "dice_val": "31",
+                    "entry": "The Satin Glove."
+                },
+                {
+                    "dice_val": "32",
+                    "entry": "Silky Gloves."
+                },
+                {
+                    "dice_val": "33",
+                    "entry": "Lacy Gloves."
+                },
+                {
+                    "dice_val": "34",
+                    "entry": "The Lady's Glove."
+                },
+                {
+                    "dice_val": "35",
+                    "entry": "The Maiden's Glove."
+                },
+                {
+                    "dice_val": "36",
+                    "entry": "The Shining Heart."
+                },
+                {
+                    "dice_val": "37",
+                    "entry": "Pink Hearts."
+                },
+                {
+                    "dice_val": "38",
+                    "entry": "Lacy Hearts."
+                },
+                {
+                    "dice_val": "39",
+                    "entry": "Sweetheart's"
+                },
+                {
+                    "dice_val": "40",
+                    "entry": "The Maiden's Heart."
+                },
+                {
+                    "dice_val": "41",
+                    "entry": "The Night House."
+                },
+                {
+                    "dice_val": "42",
+                    "entry": "The Pink House."
+                },
+                {
+                    "dice_val": "43",
+                    "entry": "The Porcelain House."
+                },
+                {
+                    "dice_val": "44",
+                    "entry": "The Welcoming House."
+                },
+                {
+                    "dice_val": "45",
+                    "entry": "The Cozy House."
+                },
+                {
+                    "dice_val": "46",
+                    "entry": "The Warmest Lamp."
+                },
+                {
+                    "dice_val": "47",
+                    "entry": "The Red Lamp."
+                },
+                {
+                    "dice_val": "48",
+                    "entry": "The Pink Lamp."
+                },
+                {
+                    "dice_val": "49",
+                    "entry": "The Soft Lamp."
+                },
+                {
+                    "dice_val": "50",
+                    "entry": "The Lady's Lamp."
+                },
+                {
+                    "dice_val": "51",
+                    "entry": "The Lady's Kiss."
+                },
+                {
+                    "dice_val": "52",
+                    "entry": "The Maiden's Kiss."
+                },
+                {
+                    "dice_val": "53",
+                    "entry": "The Night's Kiss."
+                },
+                {
+                    "dice_val": "54",
+                    "entry": "Cozy Kisses."
+                },
+                {
+                    "dice_val": "55",
+                    "entry": "Satin Kisses."
+                },
+                {
+                    "dice_val": "56",
+                    "entry": "Peach's Place."
+                },
+                {
+                    "dice_val": "57",
+                    "entry": "The Peach."
+                },
+                {
+                    "dice_val": "58",
+                    "entry": "The Prettiest Peach."
+                },
+                {
+                    "dice_val": "59",
+                    "entry": "The Sweetest Peach."
+                },
+                {
+                    "dice_val": "60",
+                    "entry": "The Golden Peach."
+                },
+                {
+                    "dice_val": "61",
+                    "entry": "The Silky Purse."
+                },
+                {
+                    "dice_val": "62",
+                    "entry": "The Satin Purse."
+                },
+                {
+                    "dice_val": "63",
+                    "entry": "The Lady's Purse."
+                },
+                {
+                    "dice_val": "64",
+                    "entry": "The Dancer's Purse."
+                },
+                {
+                    "dice_val": "65",
+                    "entry": "The Pink Purse."
+                },
+                {
+                    "dice_val": "66",
+                    "entry": "The Maiden's Room."
+                },
+                {
+                    "dice_val": "67",
+                    "entry": "The Lovers' Room."
+                },
+                {
+                    "dice_val": "68",
+                    "entry": "The Night Room."
+                },
+                {
+                    "dice_val": "69",
+                    "entry": "The Warm Room."
+                },
+                {
+                    "dice_val": "70",
+                    "entry": "The Red Room."
+                },
+                {
+                    "dice_val": "71",
+                    "entry": "The Silver Slipper."
+                },
+                {
+                    "dice_val": "72",
+                    "entry": "The Satin Slipper."
+                },
+                {
+                    "dice_val": "73",
+                    "entry": "The Silk Slipper."
+                },
+                {
+                    "dice_val": "74",
+                    "entry": "The Red Slipper."
+                },
+                {
+                    "dice_val": "75",
+                    "entry": "The Dancer's Slipper."
+                },
+                {
+                    "dice_val": "76",
+                    "entry": "The Lacy Skirt."
+                },
+                {
+                    "dice_val": "77",
+                    "entry": "The Welcoming Skirt."
+                },
+                {
+                    "dice_val": "78",
+                    "entry": "The Pink Skirt."
+                },
+                {
+                    "dice_val": "79",
+                    "entry": "The Dancer's Skirt."
+                },
+                {
+                    "dice_val": "80",
+                    "entry": "The Lady's Skirt."
+                },
+                {
+                    "dice_val": "81",
+                    "entry": "The Maiden's Shoe."
+                },
+                {
+                    "dice_val": "82",
+                    "entry": "The Red Shoe."
+                },
+                {
+                    "dice_val": "83",
+                    "entry": "Cozy Shoes."
+                },
+                {
+                    "dice_val": "84",
+                    "entry": "Lovers' Shoes."
+                },
+                {
+                    "dice_val": "85",
+                    "entry": "Silver Shoes."
+                },
+                {
+                    "dice_val": "86",
+                    "entry": "Silky Stockings."
+                },
+                {
+                    "dice_val": "87",
+                    "entry": "The Red Stocking."
+                },
+                {
+                    "dice_val": "88",
+                    "entry": "The Lacy Stocking."
+                },
+                {
+                    "dice_val": "89",
+                    "entry": "The Lady's Stocking."
+                },
+                {
+                    "dice_val": "90",
+                    "entry": "The Softest Stockings."
+                },
+                {
+                    "dice_val": "91",
+                    "entry": "The Maiden's Veil."
+                },
+                {
+                    "dice_val": "92",
+                    "entry": "The Lacy Veil."
+                },
+                {
+                    "dice_val": "93",
+                    "entry": "The Silk Veil."
+                },
+                {
+                    "dice_val": "94",
+                    "entry": "The Lovers' Veil."
+                },
+                {
+                    "dice_val": "95",
+                    "entry": "The Veil of Night."
+                },
+                {
+                    "dice_val": "96",
+                    "entry": "Soft-Lighted Window."
+                },
+                {
+                    "dice_val": "97",
+                    "entry": "The Shining Window."
+                },
+                {
+                    "dice_val": "98",
+                    "entry": "The Lighted Window."
+                },
+                {
+                    "dice_val": "99",
+                    "entry": "The Pink Winodw."
+                },
+                {
+                    "dice_val": "100",
+                    "entry": "The Welcoming Window."
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "The brothel is located...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "In the slums."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "In a shantytown."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "In a well-to-do residential neighborhood."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "In the docks district."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "In the riverfront district."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "In the barracks district."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "In an ally off a foreign bazaar."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "In an ally off the main market square."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "In the shadow of a temple."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Above a boisterous tavern. "
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Behind a tavern teeming with criminals."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Adjacent to a tavern full of gamblers."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "Underground."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "Outside the walls of the city or on the outskirts of a town."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "At the base of a wizards\u2019 tower."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "In cave that had been a monster\u2019s lair."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "Above an inn on a busy trading route."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "In the basement of a tavern."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "On a street with many other brothels."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "In a house in a park, garden, or forest."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "In addition to the \u2018usual\u2019 everyday brothel fare, here you can procure...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Really weird stuff, for those with the most interesting fetishes."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Illegal stuff. If this is found out, the place would be burnt down, and the owners hung. It is clearly kept in great secret."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Performances involving food."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "An outlet to live out violent fantasies."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Exotic races."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "The most beautiful women and men. Not just a claim, it\u2019s the gods\u2019 honest truth. "
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "An all-inclusive lump-sum deal\u2014all the harlots, food, and drink you can handle!"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "The sale of mind-altering drugs."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Stuff with exotic/magical ingredients, potions, etc."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Magical delights."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "The place is run by...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A collective of the inmates themselves."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A mean old madam."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A large madam with a no-nonsense attitude."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A warm motherly figure."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A surly brute."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A tyrannical and cruel fellow."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A sultry seductress."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A charming witch."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "To eat, the place serves...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Simple snacks."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Banquets."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Peasant food."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Food hand-fed to you by a harlot."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Exotic delights."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Spicy treats."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Simple food."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Sweets and delicacies."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Grubby, poorly made meals."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "All you can eat buffets."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Simple stew and bread."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Nothing; it satisfies other appetites."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "To drink, the place serves...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Ales."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Cocktails"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Grog, and nothing but grog."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Cheap wines."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Mead."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "The finest wines and champagnes."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Lagers."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Nothing; inebriation is not tolerated."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "People talk about this place; they say...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "The girls are underpaid and poorly treated."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Nothing really; it\u2019s a neighborhood brothel."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A prominent noble or merchant is a regular."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "The goddess of love and fertility blessed this place and all her followers must visit."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "The usual stuff; a new girl is making a stir."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Once a month it offers discounted services."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "It is secretly the home to a dark cult."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "All the inmates there are related."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Nothing much, a popular girl is with child."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "You can pay for services with things other than coin (d6): 1. contract work; 2. criminal favors; 3. goods; 4. religious services; 5. secrets; 6. stock."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "People talk about this place; rumors suggest that recently...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A nobleman got one of the girls with child but refuses to acknowledge her or the baby."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Someone slaughtered half of the workers and clients in the night."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A client was stabbed with a letter opener."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A man claiming to be a paragon of the god of love visited the place."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A group of outraged townsfolk has started protesting outside of the brothel, disgusted with what it does."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "The oldest patron, who visited the brothel every day for the last fifty years has died. A day of mourning and celebration, along with a lavish funeral is being held for him."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "One of the inmates was strangled."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "One of the inmates has fallen madly in love with a client, but he or she is married."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A sinkhole has appeared in the basement. No one can see bottom, and the boss worries it might grow and do more damage."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Several clients have caught a disease. "
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Room Furnishings: This room has...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A four-poster bed with velvet curtains."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A four-poster bed with lacy curtains."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A soft, leather chaise lounge."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A plush, pink chaise lounge."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A large pile of pillows with soft tassels."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A large pile of pillows with frilly edges."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A table with fruit and wine set upon it."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A table with perfumes and oils set upon it."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A large mirror against one wall."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A large mirror on the ceiling over the bed."
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "Features: You notice...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "The scent of lavender."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "The scent of lilac perfume."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "The scent of ginger and cinnamon. "
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "The scent of roses."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Scented candles."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "The soft red glow from a shaded lamp."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A lamp burning dimly."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A statue of two figures kissing."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A statue of two figures coupling."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A statue of a nude woman bathing."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A painting of several nudes bathing."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A painting of a pair of lovers."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "A curtain of beads."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "A silky curtain."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "A plush carpet beneath your feet."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "A thick fur carpet beneath your feet."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "The sound of distant, soft music."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "The sound of furniture creaking nearby."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "A lengthy, shrill scream."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "A long moan."
+                }
+            ]
+        }
+    ],
+    "title": "Brothels",
+    "use_with": [
+        {
+            "link": "3tkge0",
+            "title": "Guards, city or town"
+        },
+        {
+            "link": "43wnpg",
+            "title": "Harlots"
+        },
+        {
+            "link": "43vqqs",
+            "title": "Miners"
+        },
+        {
+            "link": "3xyhdl",
+            "title": "Nobles"
+        },
+        {
+            "link": "3t5sik",
+            "title": "Pirates"
+        },
+        {
+            "link": "3whlp0",
+            "title": "Priests"
+        },
+        {
+            "link": "3tjg9d",
+            "title": "Soldiers"
+        },
+        {
+            "link": "435mxf",
+            "title": "Tavern goings-on"
+        },
+        {
+            "link": "4034w3",
+            "title": "Thieves"
+        }
+    ]
+}

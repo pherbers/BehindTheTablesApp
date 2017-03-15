@@ -1,0 +1,443 @@
+{
+    "description": "This is kind of dumb (like 5 minutes dumb), but I was toying with the idea of seeding ideas for 10k Dungeons. (There are over 10M combinations with these... so if I want no repeats, I just have to spin out a name and a description of less than 0.1% of the possibilities.)\n\nThis little generator is not profound. It is not rich in details. However, it is quick, and you'll get the bare bones of a dungeon into which you can drop your PCs. \n\nI may build a better one or an expanded one some day, but it might be useful now.",
+    "id": "4iq4of",
+    "keywords": [
+        "dungeons of all sorts",
+        "caves",
+        "caverns",
+        "castles",
+        "fortresses",
+        "ruins",
+        "mines",
+        "tombs",
+        "crypts",
+        "catacombs",
+        "prisons",
+        "jails",
+        "mazes",
+        "labyrinths",
+        "treasure vaults",
+        "lairs",
+        "burrows",
+        "deep",
+        "dank",
+        "dark"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/4iq4of",
+    "related_tables": [],
+    "tables": [
+        {
+            "dice": "d10",
+            "name": "This place is (or was) a...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A stronghold."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A temple."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A tomb."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A prison."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A mine."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A lair."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A palace."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A storage vault."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A sewer."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A maze."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "...built by...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "An ancient dwarvish clan."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "An ancient elf prince."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A powerful wizard."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A dark sorceress."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A foreign empire."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "An ambitious queen of old."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Prosperous merchants."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A powerful noble family."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Religious zealots."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "An ancient race of giants."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A tyrannical king of old."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "No one; it's a natural cave."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "...and located...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Beneath a cold mountain."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Beneath a fiery mountain."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Near a well-traveled mountain pass."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Deep within a forest."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Deep within a desert."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Beside the sea."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "On an island."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Beneath a bustling city."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Beneath the ruin of an ancient city."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Beneath a well-known castle or monastery."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Beneath a the ruin of an old castle or monastery."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "In a place reachable only by magic."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "The place is currently occupied by...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A dangerous outlaw."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "An elemental lord."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A vampire."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A lich."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A demon."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A devil."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "An orc warlord."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A hobgoblin commander."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "An aberrant presence."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A witch."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A giant."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A dragon."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "...and some...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Thieves."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Goblins."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Zombies."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Skeletons."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Bats."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Rats."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Spiders."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Oozes."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Kobolds."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Cultists."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Troglodytes."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Ogres."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "If you survive the...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Gauntlet of mechanical traps."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Powerful magical wards."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Golem guardians."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Elemental guardians."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Noxious gas."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Toxic mold."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Horrible curse."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Unstable ceilings."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Flooding chambers."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Sinkholes."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Steam vents and lava flows."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Slippery footing."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "...you might recover the...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Weapon of a legendary warrior."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Wand of a famous witch or wizard."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Spellbook of a notorious mage."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Treasure stash of a notable pirate."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Hoard of an old dragon."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Treasury of an ancient dwarvish realm."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Artifacts of an elvish hero."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Relics of a celebrated priest."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Chests of silver carried by a lost ship or caravan."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Crown jewels of a long-dead queen."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Largest diamond found in this part of the world."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Staff of an infamous sorcerer or necromancer."
+                }
+            ]
+        }
+    ],
+    "title": "Basic Dungeons",
+    "use_with": [
+        {
+            "link": "43ek9v",
+            "title": "Castle"
+        },
+        {
+            "link": "3unfbm",
+            "title": "Caverns"
+        },
+        {
+            "link": "43t6g9",
+            "title": "Dungeon, castle"
+        },
+        {
+            "link": "46ai2g",
+            "title": "Dungeon dressing"
+        },
+        {
+            "link": "43uzib",
+            "title": "Dungeon encounters"
+        },
+        {
+            "link": "43ufyr",
+            "title": "Mine"
+        },
+        {
+            "link": "40pjmd",
+            "title": "Monastery"
+        },
+        {
+            "link": "43k8fr",
+            "title": "Prison"
+        },
+        {
+            "link": "3xpb4r",
+            "title": "Temple"
+        },
+        {
+            "link": "427hd8",
+            "title": "Tomb"
+        }
+    ]
+}

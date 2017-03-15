@@ -1,0 +1,234 @@
+{
+    "description": "Enchanted with the magic of fey realms, fey beasts sometimes visit mortals in their dreams attempting to ensnare them in some plot by luring them near their deep woods homes. This is a short set of tables for quickly coming up with brief description of an interesting fey beast.",
+    "id": "4n02oc",
+    "keywords": [
+        "feywild",
+        "fairy tale",
+        "enchanted beasts",
+        "talking animals"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/4n02oc",
+    "related_tables": [
+        {
+            "link": "4mnnq4",
+            "title": "Celestial beasts"
+        },
+        {
+            "link": "4nbz9h",
+            "title": "Legendary beasts"
+        },
+        {
+            "link": "4nayky",
+            "title": "Shadow beasts"
+        },
+        {
+            "link": "4nbzhp",
+            "title": "Storm beasts"
+        },
+        {
+            "link": "4nbzt3",
+            "title": "Winter beasts"
+        }
+    ],
+    "tables": [
+        {
+            "dice": "d12",
+            "name": "The fey beast is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A bear."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A beaver."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A boar."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "An elk."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A hawk."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "An owl."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "An owlbear."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A panther."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A songbird."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A swan."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A toad."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A wolf."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The beast has...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Unusually bright coloration."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Unusual stripes or markings."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Captivating, blue or grey eyes."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Mischievous, green or gold eyes."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A shimmering aura."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A misty aura."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "...and...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Moves gracefully, almost dancing."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Darts in and out of hiding places."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Can create an illusory double of itself."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Can teleport short distances."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Speaks in rhymes and riddles."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Speaks in songs."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Gives you an uneasy feeling."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Relishes in playful pranks and hijinks."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "The beast is looking for...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "An answer to an ancient riddle."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A mortal worthy of its service."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A mortal to torment and to tease."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "An artifact of an elvish hero of a past age."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "The location of an ancient, elvish ruin."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "The source of corruption near its home."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "The recipient of a specific, secret message."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A new song to sing."
+                }
+            ]
+        }
+    ],
+    "title": "Fey Beasts",
+    "use_with": [
+        {
+            "link": "45x5jp",
+            "title": "Druids"
+        },
+        {
+            "link": "4fsrky",
+            "title": "Gnomes"
+        },
+        {
+            "link": "3vlzrw",
+            "title": "Faeriefolk"
+        },
+        {
+            "link": "3sgzxb",
+            "title": "Forest"
+        },
+        {
+            "link": "3sh0hz",
+            "title": "Forest, enchanted"
+        },
+        {
+            "link": "3vh7jd",
+            "title": "High elves"
+        },
+        {
+            "link": "3vjsea",
+            "title": "Treefolk"
+        },
+        {
+            "link": "3si4ms",
+            "title": "Witches"
+        },
+        {
+            "link": "3va3dw",
+            "title": "Wood elves"
+        }
+    ]
+}

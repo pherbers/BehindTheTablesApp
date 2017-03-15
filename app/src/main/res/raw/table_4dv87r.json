@@ -1,0 +1,381 @@
+{
+    "description": "These are tables for quickly coming up with a flavorful meal or a menu for a tavern, pub, or inn in the docks district, down by the harbor, along a river delta, or in a fishing village.",
+    "id": "4dv87r",
+    "keywords": [
+        "mariners",
+        "sailors",
+        "pirates",
+        "knaves",
+        "bar",
+        "tavern",
+        "beer",
+        "ale",
+        "seafood",
+        "pub grub",
+        "fish n' chips"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/4dv87r",
+    "related_tables": [
+        {
+            "link": "4dpnzh",
+            "title": "Dinner around the campfire"
+        },
+        {
+            "link": "4dv7i9",
+            "title": "Dinner at a country inn"
+        }
+    ],
+    "tables": [
+        {
+            "dice": "d10",
+            "name": "Tonight, at a dockside tavern, we dine on...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Stewed."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Breaded."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Fried."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Battered."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Baked."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Brined."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Seared."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Peppered."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Salted."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Pickled."
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Clams."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Crab."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Herring."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Lobster."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Mussels."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Oysters."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Salmon."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Smelt."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Haddock."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Mackerel."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Squid."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Shrimp."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "Prawns."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "Tuna."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "Halibut."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "Cod."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "Sea bass."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "Goose."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "Chicken."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "Mutton."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "...with...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Golden potatoes."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Red potatoes."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Beets."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Leeks."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Lentils."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Red beans."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Black beans."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Turnip mash."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Diced turnips."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Wild rice."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "...and...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Carrots."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Red cabbage."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Green cabbage."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Purple cabbage."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Dill weed."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Lemongrass."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Lemon wedges."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Parsley."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Radishes."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Peas."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Green onions."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Yellow onions."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "On the side, there is some...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Sourdough bread."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Fresh bread."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Crusty bread."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Sweet bread."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Sesame bread."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Oat bread."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Pumpernickel bread."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Beer bread."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "To wash it down, we have some...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Bitter ale."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Wheat ale."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Steam beer."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Porter."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Mead."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Sour wine."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Red wine."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Tea."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Spiced rum."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Dry rum."
+                }
+            ]
+        }
+    ],
+    "title": "Dinner at a Dockside Tavern",
+    "use_with": [
+        {
+            "link": "46ma8g",
+            "title": "Bards"
+        },
+        {
+            "link": "3su3be",
+            "title": "Fishermen"
+        },
+        {
+            "link": "43wnpg",
+            "title": "Harlots"
+        },
+        {
+            "link": "3t5sik",
+            "title": "Pirate crews"
+        },
+        {
+            "link": "497u5a",
+            "title": "Sailors"
+        },
+        {
+            "link": "41bq04",
+            "title": "Sellswords"
+        },
+        {
+            "link": "4034w3",
+            "title": "Thieves"
+        },
+        {
+            "link": "3sj9ub",
+            "title": "Town NPCs"
+        }
+    ]
+}
