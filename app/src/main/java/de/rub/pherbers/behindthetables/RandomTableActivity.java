@@ -1,5 +1,7 @@
 package de.rub.pherbers.behindthetables;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.os.PersistableBundle;
 import android.support.v7.app.AppCompatActivity;
@@ -7,6 +9,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.webkit.URLUtil;
 import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.TextView;
@@ -138,6 +141,11 @@ public class RandomTableActivity extends AppCompatActivity {
             case R.id.random_table_activity_expand_all:
                 actionExpandAll();
                 break;
+            case R.id.random_table_activity_reference:
+                Intent i = new Intent(Intent.ACTION_VIEW);
+                i.setData(Uri.parse(table.getReference()));
+                startActivity(i);
+                break;
             default:
                 Timber.w("Unknown menu in RandomTableActivity");
                 break;
@@ -148,6 +156,12 @@ public class RandomTableActivity extends AppCompatActivity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.random_table_activity_menu, menu);
+        // Disable "Open on reddit" if no reference is given
+        if(!URLUtil.isValidUrl(table.getReference())) {
+            MenuItem item = menu.findItem(R.id.random_table_activity_reference);
+            item.setVisible(false);
+            item.setEnabled(false);
+        }
         return true;
     }
 }

@@ -8,5 +8,10 @@
         app:showAsAction="never" />
     <item
         android:id="@+id/random_table_activity_expand_all"
-        android:title="@string/action_expand_all" />
+        android:title="@string/action_expand_all"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/random_table_activity_reference"
+        android:title="Open on reddit"
+        app:showAsAction="never" />
 </menu>
