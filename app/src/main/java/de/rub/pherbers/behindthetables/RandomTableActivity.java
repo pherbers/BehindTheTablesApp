@@ -62,9 +62,6 @@ public class RandomTableActivity extends AppCompatActivity {
                 rtv.toggle();
                 //listAdapter.notifyDataSetChanged();
                 //listView.postInvalidate();
-
-                // Scroll to expanded list
-                listView.smoothScrollToPosition(position);
             }
         });
 
@@ -163,5 +160,9 @@ public class RandomTableActivity extends AppCompatActivity {
             item.setEnabled(false);
         }
         return true;
+    }
+
+    public ListView getListView() {
+        return listView;
     }
 }

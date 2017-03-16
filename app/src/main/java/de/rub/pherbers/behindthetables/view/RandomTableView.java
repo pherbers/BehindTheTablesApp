@@ -32,7 +32,9 @@ public class RandomTableView extends LinearLayout {
     private static final int ANIM_DURATION = 200;
 
     private ArrayList<View> childEntryViews;
+    private LinearLayout viewBefore;
     private View highlightedView;
+    private LinearLayout viewAfter;
 
     public RandomTableView(Context context, final ViewGroup parent, RandomTable ptable, int pos) {
         super(context);
@@ -61,11 +63,25 @@ public class RandomTableView extends LinearLayout {
         childEntryViews = new ArrayList<>();
 
         addView(v);
+        viewBefore = new LinearLayout(context);
+        ViewGroup viewCurrent = viewBefore;
+        addView(viewBefore);
+        viewBefore.setOrientation(LinearLayout.VERTICAL);
+        viewBefore.setLayoutParams(new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT));
+        viewBefore.setVisibility(table.isExpanded()?View.VISIBLE:View.GONE);
+
+        viewAfter = new LinearLayout(context);
+        viewAfter.setOrientation(LinearLayout.VERTICAL);
+        viewAfter.setLayoutParams(new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT));
+        viewAfter.setVisibility(table.isExpanded()?View.VISIBLE:View.GONE);
         for(int i = 0; i < table.getEntries().size(); i++) {
-            if(table.getRolledIndex() == i)
-                appendChild(i, parent, false, true, true);
+            if(table.getRolledIndex() == i) {
+                appendChild(i, this, false, true, true);
+                addView(viewAfter);
+                viewCurrent = viewAfter;
+            }
             else
-                appendChild(i, parent, false, table.isExpanded(), false);
+                appendChild(i, viewCurrent, false, table.isExpanded(), false);
         }
     }
 
@@ -75,20 +91,20 @@ public class RandomTableView extends LinearLayout {
             LinearLayout.LayoutParams lp = new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, 3);
             divider.setLayoutParams(lp);
             divider.setBackground(getContext().getResources().getDrawable(android.R.drawable.divider_horizontal_bright));
-            addView(divider);
+            parent.addView(divider);
             if(!visible)
                 divider.setVisibility(View.GONE);
         }
         View childView = getChildView(entrypos, parent);
         if(highlight)
             childView.setBackgroundColor(getContext().getResources().getColor(R.color.colorTableHighlight));
-        if(!visible)
-            childView.setVisibility(View.GONE);
+//        if(!visible)
+//            childView.setVisibility(View.GONE);
 
         childEntryViews.add(childView);
         if(highlight)
             highlightedView = childView;
-        addView(childView);
+        parent.addView(childView);
     }
 
     public View getChildView(int childPosition, ViewGroup parent) {
@@ -98,7 +114,7 @@ public class RandomTableView extends LinearLayout {
         // String text = getChild(groupPosition, childPosition).toString();
         // tv.setText(text);
         TextView textentry = (TextView) v.findViewById(R.id.table_entry_text);
-        TextView diceentry = (TextView) v.findViewById(R.id.table_entry_dive_value);
+        TextView diceentry = (TextView) v.findViewById(R.id.table_entry_dice_value);
         TableEntry te = table.getEntries().get(childPosition);
         textentry.setText(te.getText());
         diceentry.setText(getContext().getString(R.string.dice_entry_string, te.getDiceValue()));
@@ -117,35 +133,28 @@ public class RandomTableView extends LinearLayout {
         if(table.isExpanded())
             return;
         Timber.i("Expand");
-        ExpandCollapseAnimation anim = null;
-        for(int i = 0; i < childEntryViews.size(); i++) {
-            View entryView = childEntryViews.get(i);
-            if(entryView != highlightedView) {
-                ExpandCollapseAnimation.setHeightForWrapContent((Activity) getContext(), entryView);
-                anim = new ExpandCollapseAnimation(entryView, ANIM_DURATION);
-                entryView.startAnimation(anim);
-            }
+        ExpandCollapseAnimation.setHeightForWrapContent((Activity) getContext(), viewBefore);
+        ExpandCollapseAnimation animBefore = new ExpandCollapseAnimation(viewBefore, ANIM_DURATION);
+        viewBefore.startAnimation(animBefore);
 
-        }
-        if (anim != null && scroll) {
-            anim.setAnimationListener(new Animation.AnimationListener() {
+        ExpandCollapseAnimation.setHeightForWrapContent((Activity) getContext(), viewAfter);
+        ExpandCollapseAnimation animAfter = new ExpandCollapseAnimation(viewAfter, ANIM_DURATION);
+        viewAfter.startAnimation(animAfter);
+        if (scroll) {
+            animBefore.setAnimationListener(new Animation.AnimationListener() {
                 @Override
                 public void onAnimationStart(Animation animation) {
-
                 }
-
                 @Override
                 public void onAnimationEnd(Animation animation) {
                     final Handler handler = new Handler();
                     handler.postDelayed(new Runnable() {
                         @Override
                         public void run() {((RandomTableActivity) getContext()).scrollToPosition(pos);}
-                    }, 10);
+                    }, 5);
                 }
-
                 @Override
                 public void onAnimationRepeat(Animation animation) {
-
                 }
             });
         }
@@ -156,35 +165,28 @@ public class RandomTableView extends LinearLayout {
         if(!table.isExpanded())
             return;
         Timber.i("Collapse");
-        ExpandCollapseAnimation anim = null;
-        for(int i = 0; i < childEntryViews.size(); i++) {
-            View entryView = childEntryViews.get(i);
-            if(entryView != highlightedView) {
-                ExpandCollapseAnimation.setHeightForWrapContent((Activity) getContext(), entryView);
-                anim = new ExpandCollapseAnimation(entryView, ANIM_DURATION);
-                entryView.startAnimation(anim);
-            }
+        ExpandCollapseAnimation.setHeightForWrapContent((Activity) getContext(), viewBefore);
+        ExpandCollapseAnimation animBefore = new ExpandCollapseAnimation(viewBefore, ANIM_DURATION);
+        viewBefore.startAnimation(animBefore);
 
-        }
-        if (anim != null && scroll) {
-            anim.setAnimationListener(new Animation.AnimationListener() {
+        ExpandCollapseAnimation.setHeightForWrapContent((Activity) getContext(), viewAfter);
+        ExpandCollapseAnimation animAfter = new ExpandCollapseAnimation(viewAfter, ANIM_DURATION);
+        viewAfter.startAnimation(animAfter);
+        if (scroll) {
+            animBefore.setAnimationListener(new Animation.AnimationListener() {
                 @Override
                 public void onAnimationStart(Animation animation) {
-
                 }
-
                 @Override
                 public void onAnimationEnd(Animation animation) {
                     final Handler handler = new Handler();
                     handler.postDelayed(new Runnable() {
                         @Override
                         public void run() {((RandomTableActivity) getContext()).scrollToPosition(pos);}
-                    }, 10);
+                    }, 5);
                 }
-
                 @Override
                 public void onAnimationRepeat(Animation animation) {
-
                 }
             });
         }
@@ -197,6 +199,10 @@ public class RandomTableView extends LinearLayout {
         else
             collapse(true);
         //table.toggle();
+    }
+
+    public boolean isExpanded() {
+        return table.isExpanded();
     }
 
 }
