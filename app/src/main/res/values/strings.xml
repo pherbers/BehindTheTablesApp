@@ -98,4 +98,6 @@
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="error_unknown"><![CDATA[<Error: Unknown>]]></string>
+    <string name="info_index_indicator">#%1$d</string>
 </resources>

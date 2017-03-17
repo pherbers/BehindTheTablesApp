@@ -19,7 +19,7 @@ public class BehindTheTables extends Application {
 	@Override
 	public void onCreate() {
 		super.onCreate();
-		if (BuildConfig.DEBUG) {
+		if (isDebugBuild()) {
 			Timber.plant(new DebugTree());
 		} else {
 			Timber.plant(new ReleaseTree());
@@ -28,6 +28,10 @@ public class BehindTheTables extends Application {
 
 		//Warming up the DB for future use!
 		new DBAdapter(this).open().close();
+	}
+
+	public static boolean isDebugBuild(){
+		return BuildConfig.DEBUG;
 	}
 
 	private class DebugTree extends Timber.DebugTree {
