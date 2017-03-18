@@ -3,8 +3,10 @@ package de.rub.pherbers.behindthetables.view;
 import android.app.Activity;
 import android.content.Context;
 import android.os.Handler;
+import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
+import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 import android.view.animation.Animation;
 import android.widget.ImageButton;
@@ -24,60 +26,80 @@ import timber.log.Timber;
  * Created by Patrick on 12.03.2017.
  */
 
-public class RandomTableView extends LinearLayout {
+public class RandomTableViewHolder extends RecyclerView.ViewHolder implements OnClickListener{
 
     private RandomTable table;
-    private int pos;
 
     private static final int ANIM_DURATION = 200;
 
-    private ArrayList<View> childEntryViews;
     private LinearLayout viewBefore;
     private View highlightedView;
     private LinearLayout viewAfter;
 
-    public RandomTableView(Context context, final ViewGroup parent, RandomTable ptable, int pos) {
-        super(context);
+    private LinearLayout view;
+
+    private View tableGroup;
+
+    public RandomTableViewHolder(Context context, final ViewGroup parent) {
+        super(new LinearLayout(context));
+        view = (LinearLayout)itemView;
+
+        setIsRecyclable(false);
+
         //Timber.i("New child");
-        this.table = ptable;
-        this.pos = pos;
 
         LayoutInflater li = LayoutInflater.from(context);
-        View v = li.inflate(R.layout.table_group_layout, parent, false);
-
-        TextView tv = (TextView) v.findViewById(R.id.table_group_text);
-        tv.setText(table.getName());
-        ImageButton btn = (ImageButton) v.findViewById(R.id.table_group_roll_button);
+        tableGroup = li.inflate(R.layout.table_group_layout, parent, false);
+        ImageButton btn = (ImageButton) tableGroup.findViewById(R.id.table_group_roll_button);
         btn.setFocusable(false);
-        btn.setOnClickListener(new View.OnClickListener() {
+        btn.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View v) {
                 Timber.d("Click Entry Btn");
-                RandomTableView.this.table.roll();
-                ((RandomTableActivity)getContext()).redrawList();
+                RandomTableViewHolder.this.table.roll();
+//                ((RandomTableActivity)view.getContext()).redrawListAtPos(getAdapterPosition());
+                ((RandomTableActivity)view.getContext()).redrawList();
             }
         });
-        setOrientation(LinearLayout.VERTICAL);
-        setLayoutParams(new ViewGroup.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT));
 
-        childEntryViews = new ArrayList<>();
+        view.setOrientation(LinearLayout.VERTICAL);
+        view.setLayoutParams(new ViewGroup.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT));
 
-        addView(v);
-        viewBefore = new LinearLayout(context);
-        ViewGroup viewCurrent = viewBefore;
-        addView(viewBefore);
+        view.setClickable(true);
+        view.setFocusable(true);
+        view.setFocusableInTouchMode(true);
+
+        view.addView(tableGroup);
+        viewBefore = new LinearLayout(view.getContext());
+        view.addView(viewBefore);
         viewBefore.setOrientation(LinearLayout.VERTICAL);
         viewBefore.setLayoutParams(new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT));
-        viewBefore.setVisibility(table.isExpanded()?View.VISIBLE:View.GONE);
 
-        viewAfter = new LinearLayout(context);
+        viewAfter = new LinearLayout(view.getContext());
         viewAfter.setOrientation(LinearLayout.VERTICAL);
         viewAfter.setLayoutParams(new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT));
+
+        itemView.setOnClickListener(this);
+    }
+
+    public void bindData(RandomTable table) {
+        this.table = table;
+        TextView tv = (TextView) tableGroup.findViewById(R.id.table_group_text);;
+        tv.setText(table.getName());
+        viewBefore.setVisibility(table.isExpanded()?View.VISIBLE:View.GONE);
         viewAfter.setVisibility(table.isExpanded()?View.VISIBLE:View.GONE);
+        viewBefore.removeAllViews();
+        viewAfter.removeAllViews();
+        ViewGroup viewCurrent = viewBefore;
+        view.removeView(viewAfter);
+        view.removeView(highlightedView);
         for(int i = 0; i < table.getEntries().size(); i++) {
             if(table.getRolledIndex() == i) {
-                appendChild(i, this, false, true, true);
-                addView(viewAfter);
+                if (highlightedView != null) {
+                    updateHighlight();
+                } else
+                    appendChild(i, view, false, true, true);
+                view.addView(viewAfter);
                 viewCurrent = viewAfter;
             }
             else
@@ -87,28 +109,35 @@ public class RandomTableView extends LinearLayout {
 
     private void appendChild(int entrypos, ViewGroup parent, boolean addDivider, boolean visible, boolean highlight) {
         if(addDivider) {
-            ImageView divider = new ImageView(getContext());
+            ImageView divider = new ImageView(view.getContext());
             LinearLayout.LayoutParams lp = new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, 3);
             divider.setLayoutParams(lp);
-            divider.setBackground(getContext().getResources().getDrawable(android.R.drawable.divider_horizontal_bright));
+            divider.setBackground(view.getContext().getResources().getDrawable(android.R.drawable.divider_horizontal_bright));
             parent.addView(divider);
             if(!visible)
                 divider.setVisibility(View.GONE);
         }
         View childView = getChildView(entrypos, parent);
         if(highlight)
-            childView.setBackgroundColor(getContext().getResources().getColor(R.color.colorTableHighlight));
+            childView.setBackgroundColor(view.getContext().getResources().getColor(R.color.colorTableHighlight));
 //        if(!visible)
 //            childView.setVisibility(View.GONE);
 
-        childEntryViews.add(childView);
-        if(highlight)
+        if(highlight) {
             highlightedView = childView;
+
+//            highlightedView.setVisibility(View.GONE);
+//            ExpandCollapseAnimation.setHeightForWrapContent((Activity) view.getContext(), highlightedView);
+//            final ExpandCollapseAnimation animHighlight = new ExpandCollapseAnimation(highlightedView, ANIM_DURATION);
+//            highlightedView.startAnimation(animHighlight);
+        }
+
         parent.addView(childView);
+
     }
 
-    public View getChildView(int childPosition, ViewGroup parent) {
-        LayoutInflater li = LayoutInflater.from(getContext());
+    private View getChildView(int childPosition, ViewGroup parent) {
+        LayoutInflater li = LayoutInflater.from(view.getContext());
         View v = li.inflate(R.layout.table_entry_layout, parent, false);
         // TextView tv = (TextView) v.findViewById(android.R.id.text1);
         // String text = getChild(groupPosition, childPosition).toString();
@@ -117,28 +146,37 @@ public class RandomTableView extends LinearLayout {
         TextView diceentry = (TextView) v.findViewById(R.id.table_entry_dice_value);
         TableEntry te = table.getEntries().get(childPosition);
         textentry.setText(te.getText());
-        diceentry.setText(getContext().getString(R.string.dice_entry_string, te.getDiceValue()));
+        diceentry.setText(view.getContext().getString(R.string.dice_entry_string, te.getDiceValue()));
 
         if(table.getRolledIndex() == childPosition) {
-            v.setBackgroundColor(getContext().getResources().getColor(R.color.colorTableHighlight));
+            v.setBackgroundColor(view.getContext().getResources().getColor(R.color.colorTableHighlight));
         } else if (childPosition % 2 == 0) {
-            v.setBackgroundColor(getContext().getResources().getColor(R.color.colorTableEven));
+            v.setBackgroundColor(view.getContext().getResources().getColor(R.color.colorTableEven));
         } else {
-            v.setBackgroundColor(getContext().getResources().getColor(R.color.colorTableOdd));
+            v.setBackgroundColor(view.getContext().getResources().getColor(R.color.colorTableOdd));
         }
         return v;
+    }
+
+    private void updateHighlight() {
+        TextView textentry = (TextView) highlightedView.findViewById(R.id.table_entry_text);
+        TextView diceentry = (TextView) highlightedView.findViewById(R.id.table_entry_dice_value);
+        TableEntry te = table.getEntries().get(table.getRolledIndex());
+        textentry.setText(te.getText());
+        diceentry.setText(view.getContext().getString(R.string.dice_entry_string, te.getDiceValue()));
+        view.addView(highlightedView);
     }
 
     public void expand(boolean scroll) {
         if(table.isExpanded())
             return;
         Timber.i("Expand");
-        ExpandCollapseAnimation.setHeightForWrapContent((Activity) getContext(), viewBefore);
-        ExpandCollapseAnimation animBefore = new ExpandCollapseAnimation(viewBefore, ANIM_DURATION);
+        ExpandCollapseAnimation.setHeightForWrapContent((Activity) view.getContext(), viewBefore);
+        final ExpandCollapseAnimation animBefore = new ExpandCollapseAnimation(viewBefore, ANIM_DURATION);
         viewBefore.startAnimation(animBefore);
 
-        ExpandCollapseAnimation.setHeightForWrapContent((Activity) getContext(), viewAfter);
-        ExpandCollapseAnimation animAfter = new ExpandCollapseAnimation(viewAfter, ANIM_DURATION);
+        ExpandCollapseAnimation.setHeightForWrapContent((Activity) view.getContext(), viewAfter);
+        final ExpandCollapseAnimation animAfter = new ExpandCollapseAnimation(viewAfter, ANIM_DURATION);
         viewAfter.startAnimation(animAfter);
         if (scroll) {
             animBefore.setAnimationListener(new Animation.AnimationListener() {
@@ -150,7 +188,7 @@ public class RandomTableView extends LinearLayout {
                     final Handler handler = new Handler();
                     handler.postDelayed(new Runnable() {
                         @Override
-                        public void run() {((RandomTableActivity) getContext()).scrollToPosition(pos);}
+                        public void run() {((RandomTableActivity) view.getContext()).scrollToPosition(getAdapterPosition());}
                     }, 5);
                 }
                 @Override
@@ -165,11 +203,11 @@ public class RandomTableView extends LinearLayout {
         if(!table.isExpanded())
             return;
         Timber.i("Collapse");
-        ExpandCollapseAnimation.setHeightForWrapContent((Activity) getContext(), viewBefore);
+        ExpandCollapseAnimation.setHeightForWrapContent((Activity) view.getContext(), viewBefore);
         ExpandCollapseAnimation animBefore = new ExpandCollapseAnimation(viewBefore, ANIM_DURATION);
         viewBefore.startAnimation(animBefore);
 
-        ExpandCollapseAnimation.setHeightForWrapContent((Activity) getContext(), viewAfter);
+        ExpandCollapseAnimation.setHeightForWrapContent((Activity) view.getContext(), viewAfter);
         ExpandCollapseAnimation animAfter = new ExpandCollapseAnimation(viewAfter, ANIM_DURATION);
         viewAfter.startAnimation(animAfter);
         if (scroll) {
@@ -182,7 +220,7 @@ public class RandomTableView extends LinearLayout {
                     final Handler handler = new Handler();
                     handler.postDelayed(new Runnable() {
                         @Override
-                        public void run() {((RandomTableActivity) getContext()).scrollToPosition(pos);}
+                        public void run() {((RandomTableActivity) view.getContext()).scrollToPosition(getAdapterPosition());}
                     }, 5);
                 }
                 @Override
@@ -205,4 +243,23 @@ public class RandomTableView extends LinearLayout {
         return table.isExpanded();
     }
 
+    public View getView() {
+        return view;
+    }
+
+    @Override
+    public void onClick(View v) {
+        int pos = getAdapterPosition();
+        if (pos != RecyclerView.NO_POSITION) { // Check if an item was deleted, but the user clicked it before the UI removed it
+            toggle();
+        }
+    }
+
+    public void clearAnimation() {
+        viewBefore.clearAnimation();
+        viewAfter.clearAnimation();
+        viewBefore.setLayoutParams(new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT));
+        viewAfter.setLayoutParams(new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT));
+
+    }
 }

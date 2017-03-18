@@ -64,7 +64,7 @@
         android:layout_marginTop="@dimen/activity_vertical_margin"
         />
 
-    <ListView
+    <android.support.v7.widget.RecyclerView
         android:id="@+id/random_table_list"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -73,6 +73,7 @@
         android:dividerHeight="1dp"
         android:footerDividersEnabled="true"
         android:groupIndicator="@null"
-        android:headerDividersEnabled="true"/>
+        android:headerDividersEnabled="true"
+        />
 
 </LinearLayout>

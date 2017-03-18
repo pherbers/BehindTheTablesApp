@@ -5,12 +5,15 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.os.PersistableBundle;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.DividerItemDecoration;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.MotionEvent;
 import android.view.View;
 import android.webkit.URLUtil;
-import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.TextView;
 
@@ -21,13 +24,13 @@ import de.rub.pherbers.behindthetables.data.RandomTable;
 import de.rub.pherbers.behindthetables.data.TableCollection;
 import de.rub.pherbers.behindthetables.data.TableCollectionContainer;
 import de.rub.pherbers.behindthetables.data.TableReader;
-import de.rub.pherbers.behindthetables.view.RandomTableView;
+import de.rub.pherbers.behindthetables.view.RandomTableViewHolder;
 import timber.log.Timber;
 
 public class RandomTableActivity extends AppCompatActivity {
 
     private TableCollection table;
-    private ListView listView;
+    private RecyclerView listView;
     private RandomTableListAdapter listAdapter;
 
     @Override
@@ -53,20 +56,14 @@ public class RandomTableActivity extends AppCompatActivity {
             table = tableCollectionContainer.get("asdf");
         }
 
-        listView = (ListView) findViewById(R.id.random_table_list);
-        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-            @Override
-            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                RandomTableView rtv = (RandomTableView) view;
-                Timber.i("Click");
-                rtv.toggle();
-                //listAdapter.notifyDataSetChanged();
-                //listView.postInvalidate();
-            }
-        });
+        listView = (RecyclerView) findViewById(R.id.random_table_list);
+        LinearLayoutManager layoutManager = new LinearLayoutManager(this);
+        listView.setLayoutManager(layoutManager);
 
         listAdapter = new RandomTableListAdapter(this, table);
         listView.setAdapter(listAdapter);
+        DividerItemDecoration mDividerItemDecoration = new DividerItemDecoration(this, layoutManager.getOrientation());
+        listView.addItemDecoration(mDividerItemDecoration);
 
         TextView tv = (TextView) findViewById(R.id.random_table_title);
         tv.setText(table.getTitle());
@@ -96,10 +93,14 @@ public class RandomTableActivity extends AppCompatActivity {
     }
 
     public void actionCollapseAll() {
-        for(int i = 0; i < listView.getChildCount(); i++) {
-            View v = listView.getChildAt(i);
-            if(v instanceof RandomTableView)
-                ((RandomTableView) v).collapse(false);
+        for(int i = 0; i < listAdapter.getItemCount(); i++) {
+            View c = listView.getChildAt(i);
+            if (c == null) {
+                continue;
+            }
+            RecyclerView.ViewHolder v = listView.getChildViewHolder(c);
+            if(v instanceof RandomTableViewHolder)
+                ((RandomTableViewHolder) v).collapse(false);
         }
         for(RandomTable t:table.getTables())
             t.setExpanded(false);
@@ -107,10 +108,14 @@ public class RandomTableActivity extends AppCompatActivity {
     }
 
     public void actionExpandAll() {
-        for(int i = 0; i < listView.getChildCount(); i++) {
-            View v = listView.getChildAt(i);
-            if(v instanceof RandomTableView)
-                ((RandomTableView) v).expand(false);
+        for(int i = 0; i < listAdapter.getItemCount(); i++) {
+            View c = listView.getChildAt(i);
+            if (c == null) {
+                continue;
+            }
+            RecyclerView.ViewHolder v = listView.getChildViewHolder(c);
+            if(v instanceof RandomTableViewHolder)
+                ((RandomTableViewHolder) v).expand(false);
         }
         for(RandomTable t:table.getTables())
             t.setExpanded(true);
@@ -124,6 +129,10 @@ public class RandomTableActivity extends AppCompatActivity {
                 listView.invalidate();
             }
         });
+    }
+
+    public void redrawListAtPos(int pos) {
+        listAdapter.notifyItemChanged(pos);
     }
 
     @Override
@@ -162,7 +171,7 @@ public class RandomTableActivity extends AppCompatActivity {
         return true;
     }
 
-    public ListView getListView() {
+    public RecyclerView getListView() {
         return listView;
     }
 }
