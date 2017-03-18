@@ -21,6 +21,7 @@ public class RandomTableListAdapter extends RecyclerView.Adapter<RandomTableView
     public RandomTableListAdapter(Context context, TableCollection tableCollection) {
         this.context = context;
         this.tableCollection = tableCollection;
+        setHasStableIds(true);
     }
 
     @Override
@@ -48,4 +49,5 @@ public class RandomTableListAdapter extends RecyclerView.Adapter<RandomTableView
     public void onViewDetachedFromWindow(RandomTableViewHolder holder) {
         holder.clearAnimation();
     }
+
 }

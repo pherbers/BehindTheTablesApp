@@ -44,8 +44,6 @@ public class RandomTableViewHolder extends RecyclerView.ViewHolder implements On
         super(new LinearLayout(context));
         view = (LinearLayout)itemView;
 
-        setIsRecyclable(false);
-
         //Timber.i("New child");
 
         LayoutInflater li = LayoutInflater.from(context);
@@ -83,6 +81,7 @@ public class RandomTableViewHolder extends RecyclerView.ViewHolder implements On
     }
 
     public void bindData(RandomTable table) {
+        Timber.d("Binding data for " + table);
         this.table = table;
         TextView tv = (TextView) tableGroup.findViewById(R.id.table_group_text);;
         tv.setText(table.getName());
@@ -202,6 +201,7 @@ public class RandomTableViewHolder extends RecyclerView.ViewHolder implements On
     public void collapse(boolean scroll) {
         if(!table.isExpanded())
             return;
+        setIsRecyclable(false);
         Timber.i("Collapse");
         ExpandCollapseAnimation.setHeightForWrapContent((Activity) view.getContext(), viewBefore);
         ExpandCollapseAnimation animBefore = new ExpandCollapseAnimation(viewBefore, ANIM_DURATION);
@@ -222,6 +222,7 @@ public class RandomTableViewHolder extends RecyclerView.ViewHolder implements On
                         @Override
                         public void run() {((RandomTableActivity) view.getContext()).scrollToPosition(getAdapterPosition());}
                     }, 5);
+                    setIsRecyclable(true);
                 }
                 @Override
                 public void onAnimationRepeat(Animation animation) {

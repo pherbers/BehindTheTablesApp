@@ -94,31 +94,45 @@ public class RandomTableActivity extends AppCompatActivity {
 
     public void actionCollapseAll() {
         for(int i = 0; i < listAdapter.getItemCount(); i++) {
-            View c = listView.getChildAt(i);
-            if (c == null) {
+            RecyclerView.ViewHolder v = listView.findViewHolderForLayoutPosition(i);
+            if (v == null) {
                 continue;
             }
-            RecyclerView.ViewHolder v = listView.getChildViewHolder(c);
             if(v instanceof RandomTableViewHolder)
                 ((RandomTableViewHolder) v).collapse(false);
         }
         for(RandomTable t:table.getTables())
             t.setExpanded(false);
-        listView.smoothScrollToPosition(0);
+        int firstPos = ((LinearLayoutManager)listView.getLayoutManager()).findFirstVisibleItemPosition();
+        int lastPos = ((LinearLayoutManager)listView.getLayoutManager()).findLastVisibleItemPosition();
+        if(firstPos > 0) {
+            listAdapter.notifyItemRangeChanged(0, firstPos);
+        }
+        if(lastPos < listAdapter.getItemCount()-1) {
+            listAdapter.notifyItemRangeChanged(lastPos+1, listAdapter.getItemCount()-1);
+        }
+        //listView.smoothScrollToPosition(0);
     }
 
     public void actionExpandAll() {
         for(int i = 0; i < listAdapter.getItemCount(); i++) {
-            View c = listView.getChildAt(i);
-            if (c == null) {
+            RecyclerView.ViewHolder v = listView.findViewHolderForLayoutPosition(i);
+            if (v == null) {
                 continue;
             }
-            RecyclerView.ViewHolder v = listView.getChildViewHolder(c);
             if(v instanceof RandomTableViewHolder)
                 ((RandomTableViewHolder) v).expand(false);
         }
         for(RandomTable t:table.getTables())
             t.setExpanded(true);
+        int firstPos = ((LinearLayoutManager)listView.getLayoutManager()).findFirstVisibleItemPosition();
+        int lastPos = ((LinearLayoutManager)listView.getLayoutManager()).findLastVisibleItemPosition();
+        if(firstPos > 0) {
+            listAdapter.notifyItemRangeChanged(0, firstPos - 1);
+        }
+        if(lastPos < listAdapter.getItemCount()) {
+            listAdapter.notifyItemRangeChanged(lastPos+1, listAdapter.getItemCount());
+        }
     }
 
     public void redrawList() {
