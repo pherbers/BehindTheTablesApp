@@ -55,8 +55,8 @@ public class RandomTableViewHolder extends RecyclerView.ViewHolder implements On
             public void onClick(View v) {
                 Timber.d("Click Entry Btn");
                 RandomTableViewHolder.this.table.roll();
-//                ((RandomTableActivity)view.getContext()).redrawListAtPos(getAdapterPosition());
-                ((RandomTableActivity)view.getContext()).redrawList();
+                ((RandomTableActivity)view.getContext()).redrawListAtPos(getAdapterPosition());
+//                ((RandomTableActivity)view.getContext()).redrawList();
             }
         });
 

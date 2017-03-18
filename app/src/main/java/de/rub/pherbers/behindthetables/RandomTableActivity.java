@@ -79,7 +79,9 @@ public class RandomTableActivity extends AppCompatActivity {
 
     public void diceRollAction(View mView) {
         table.rollAllTables();
-        redrawList();
+        for(int i = 0; i  < listAdapter.getItemCount(); i++) {
+            redrawListAtPos(i);
+        }
     }
 
     @Override
