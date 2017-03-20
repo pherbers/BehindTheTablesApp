@@ -3,6 +3,10 @@ package de.rub.pherbers.behindthetables.view;
 import android.app.Activity;
 import android.content.Context;
 import android.os.Handler;
+import android.support.v4.view.ViewCompat;
+import android.support.v4.view.ViewPropertyAnimatorCompat;
+import android.support.v4.view.ViewPropertyAnimatorListener;
+import android.support.v4.view.ViewPropertyAnimatorListenerAdapter;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -54,8 +58,9 @@ public class RandomTableViewHolder extends RecyclerView.ViewHolder implements On
             @Override
             public void onClick(View v) {
                 Timber.d("Click Entry Btn");
+                int prev = RandomTableViewHolder.this.table.getRolledIndex();
                 RandomTableViewHolder.this.table.roll();
-                ((RandomTableActivity)view.getContext()).redrawListAtPos(getAdapterPosition());
+                rerollAnimation(prev<0);
 //                ((RandomTableActivity)view.getContext()).redrawList();
             }
         });
@@ -92,6 +97,7 @@ public class RandomTableViewHolder extends RecyclerView.ViewHolder implements On
         ViewGroup viewCurrent = viewBefore;
         view.removeView(viewAfter);
         view.removeView(highlightedView);
+        highlightedView = null;
         for(int i = 0; i < table.getEntries().size(); i++) {
             if(table.getRolledIndex() == i) {
                 if (highlightedView != null) {
@@ -261,6 +267,46 @@ public class RandomTableViewHolder extends RecyclerView.ViewHolder implements On
         viewAfter.clearAnimation();
         viewBefore.setLayoutParams(new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT));
         viewAfter.setLayoutParams(new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT));
+        if(highlightedView != null) {
+            highlightedView.clearAnimation();
+            highlightedView.setLayoutParams(new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT));
+            highlightedView.setAlpha(1);
+        }
+    }
 
+    public void rerollAnimation(boolean expand) {
+        if(!expand && !isExpanded()) {
+            // Animation if highlight exists
+            ViewCompat.animate(highlightedView).alpha(0).setDuration(ANIM_DURATION/2).setListener(new ViewPropertyAnimatorListener() {
+                @Override
+                public void onAnimationStart(View view) {}
+                @Override
+                public void onAnimationEnd(View view) {
+                    bindData(table);
+                    ViewCompat.animate(highlightedView).alpha(1).setDuration(ANIM_DURATION/2).setListener(new ViewPropertyAnimatorListener() {
+                        @Override
+                        public void onAnimationStart(View view) {}
+                        @Override
+                        public void onAnimationEnd(View view) {view.setAlpha(1);}
+                        @Override
+                        public void onAnimationCancel(View view) {view.setAlpha(1);}
+                    });
+                }
+                @Override
+                public void onAnimationCancel(View view) {
+                    bindData(table);
+                    view.setAlpha(1);
+                }
+            });
+        } else if (expand && !isExpanded()) {
+            // Animation to display highlight
+            bindData(table);
+            highlightedView.setVisibility(View.GONE);
+            ExpandCollapseAnimation.setHeightForWrapContent((Activity)view.getContext(), highlightedView);
+            ExpandCollapseAnimation anim = new ExpandCollapseAnimation(highlightedView, ANIM_DURATION);
+            highlightedView.startAnimation(anim);
+        } else {
+            ((RandomTableActivity)view.getContext()).redrawListAtPos(getAdapterPosition());
+        }
     }
 }

@@ -12,6 +12,10 @@
         app:showAsAction="never"/>
     <item
         android:id="@+id/random_table_activity_reference"
-        android:title="Open on reddit"
+        android:title="@string/action_open_on_reddit"
         app:showAsAction="never" />
+    <item
+        android:id="@+id/random_table_activity_reset"
+        android:title="@string/action_reset_table"
+        app:showAsAction="never"/>
 </menu>

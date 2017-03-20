@@ -98,4 +98,6 @@
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_reset_table">Reset</string>
+    <string name="action_open_on_reddit">Open on reddit</string>
 </resources>

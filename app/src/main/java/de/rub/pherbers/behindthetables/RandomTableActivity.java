@@ -4,10 +4,14 @@ import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.PersistableBundle;
+import android.support.v4.view.ViewCompat;
+import android.support.v4.view.ViewPropertyAnimatorCompat;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.DefaultItemAnimator;
 import android.support.v7.widget.DividerItemDecoration;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.support.v7.widget.SimpleItemAnimator;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -24,6 +28,7 @@ import de.rub.pherbers.behindthetables.data.RandomTable;
 import de.rub.pherbers.behindthetables.data.TableCollection;
 import de.rub.pherbers.behindthetables.data.TableCollectionContainer;
 import de.rub.pherbers.behindthetables.data.TableReader;
+import de.rub.pherbers.behindthetables.view.MyItemAnimator;
 import de.rub.pherbers.behindthetables.view.RandomTableViewHolder;
 import timber.log.Timber;
 
@@ -65,6 +70,10 @@ public class RandomTableActivity extends AppCompatActivity {
         DividerItemDecoration mDividerItemDecoration = new DividerItemDecoration(this, layoutManager.getOrientation());
         listView.addItemDecoration(mDividerItemDecoration);
 
+        SimpleItemAnimator animator = new MyItemAnimator();
+        animator = new DefaultItemAnimator();
+        listView.setItemAnimator(animator);
+
         TextView tv = (TextView) findViewById(R.id.random_table_title);
         tv.setText(table.getTitle());
 
@@ -78,9 +87,14 @@ public class RandomTableActivity extends AppCompatActivity {
     }
 
     public void diceRollAction(View mView) {
-        table.rollAllTables();
+        //table.rollAllTables();
         for(int i = 0; i  < listAdapter.getItemCount(); i++) {
-            redrawListAtPos(i);
+            RandomTableViewHolder v = (RandomTableViewHolder)listView.findViewHolderForAdapterPosition(i);
+            int prev = table.getTables().get(i).getRolledIndex();
+            table.getTables().get(i).roll();
+            if (v != null) {
+                v.rerollAnimation(prev < 0);
+            }
         }
     }
 
@@ -130,10 +144,10 @@ public class RandomTableActivity extends AppCompatActivity {
         int firstPos = ((LinearLayoutManager)listView.getLayoutManager()).findFirstVisibleItemPosition();
         int lastPos = ((LinearLayoutManager)listView.getLayoutManager()).findLastVisibleItemPosition();
         if(firstPos > 0) {
-            listAdapter.notifyItemRangeChanged(0, firstPos - 1);
+            listAdapter.notifyItemRangeChanged(0, firstPos);
         }
-        if(lastPos < listAdapter.getItemCount()) {
-            listAdapter.notifyItemRangeChanged(lastPos+1, listAdapter.getItemCount());
+        if(lastPos < listAdapter.getItemCount()-1) {
+            listAdapter.notifyItemRangeChanged(lastPos+1, listAdapter.getItemCount()-1);
         }
     }
 
@@ -168,11 +182,21 @@ public class RandomTableActivity extends AppCompatActivity {
                 i.setData(Uri.parse(table.getReference()));
                 startActivity(i);
                 break;
+            case R.id.random_table_activity_reset:
+                resetTable();
+                break;
             default:
                 Timber.w("Unknown menu in RandomTableActivity");
                 break;
         }
         return super.onOptionsItemSelected(item);
+    }
+
+    public void resetTable() {
+        for(int i = 0; i  < listAdapter.getItemCount(); i++) {
+            table.getTables().get(i).setRolledIndex(-1);
+            redrawListAtPos(i);
+        }
     }
 
     @Override
@@ -190,4 +214,5 @@ public class RandomTableActivity extends AppCompatActivity {
     public RecyclerView getListView() {
         return listView;
     }
+
 }
