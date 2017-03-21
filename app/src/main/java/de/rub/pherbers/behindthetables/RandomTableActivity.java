@@ -93,7 +93,7 @@ public class RandomTableActivity extends AppCompatActivity {
             int prev = table.getTables().get(i).getRolledIndex();
             table.getTables().get(i).roll();
             if (v != null) {
-                v.rerollAnimation(prev < 0);
+                v.rerollAnimation(prev);
             }
         }
     }

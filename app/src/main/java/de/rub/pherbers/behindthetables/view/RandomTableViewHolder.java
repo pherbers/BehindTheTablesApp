@@ -1,8 +1,15 @@
 package de.rub.pherbers.behindthetables.view;
 
+import android.animation.Animator;
+import android.animation.ArgbEvaluator;
+import android.animation.ObjectAnimator;
+import android.animation.ValueAnimator;
 import android.app.Activity;
 import android.content.Context;
+import android.graphics.Color;
 import android.os.Handler;
+import android.support.v4.animation.ValueAnimatorCompat;
+import android.support.v4.content.ContextCompat;
 import android.support.v4.view.ViewCompat;
 import android.support.v4.view.ViewPropertyAnimatorCompat;
 import android.support.v4.view.ViewPropertyAnimatorListener;
@@ -12,6 +19,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.ViewGroup;
+import android.view.ViewPropertyAnimator;
 import android.view.animation.Animation;
 import android.widget.ImageButton;
 import android.widget.ImageView;
@@ -37,7 +45,7 @@ public class RandomTableViewHolder extends RecyclerView.ViewHolder implements On
     private static final int ANIM_DURATION = 200;
 
     private LinearLayout viewBefore;
-    private View highlightedView;
+    private ViewGroup highlightedView;
     private LinearLayout viewAfter;
 
     private LinearLayout view;
@@ -60,8 +68,7 @@ public class RandomTableViewHolder extends RecyclerView.ViewHolder implements On
                 Timber.d("Click Entry Btn");
                 int prev = RandomTableViewHolder.this.table.getRolledIndex();
                 RandomTableViewHolder.this.table.roll();
-                rerollAnimation(prev<0);
-//                ((RandomTableActivity)view.getContext()).redrawList();
+                rerollAnimation(prev);
             }
         });
 
@@ -110,6 +117,12 @@ public class RandomTableViewHolder extends RecyclerView.ViewHolder implements On
             else
                 appendChild(i, viewCurrent, false, table.isExpanded(), false);
         }
+        viewBefore.getLayoutParams().height = RecyclerView.LayoutParams.WRAP_CONTENT;
+        if (highlightedView != null) {
+            highlightedView.getLayoutParams().height = RecyclerView.LayoutParams.WRAP_CONTENT;
+        } else
+            view.addView(viewAfter);
+        viewAfter.getLayoutParams().height = RecyclerView.LayoutParams.WRAP_CONTENT;
     }
 
     private void appendChild(int entrypos, ViewGroup parent, boolean addDivider, boolean visible, boolean highlight) {
@@ -129,7 +142,7 @@ public class RandomTableViewHolder extends RecyclerView.ViewHolder implements On
 //            childView.setVisibility(View.GONE);
 
         if(highlight) {
-            highlightedView = childView;
+            highlightedView = (LinearLayout)childView;
 
 //            highlightedView.setVisibility(View.GONE);
 //            ExpandCollapseAnimation.setHeightForWrapContent((Activity) view.getContext(), highlightedView);
@@ -274,16 +287,16 @@ public class RandomTableViewHolder extends RecyclerView.ViewHolder implements On
         }
     }
 
-    public void rerollAnimation(boolean expand) {
-        if(!expand && !isExpanded()) {
-            // Animation if highlight exists
-            ViewCompat.animate(highlightedView).alpha(0).setDuration(ANIM_DURATION/2).setListener(new ViewPropertyAnimatorListener() {
+    public void rerollAnimation(int previous) {
+        if(previous > -1 && !isExpanded()) {
+            // Animation if highlight exists but table is not expanded
+            ViewCompat.animate(highlightedView.getChildAt(1)).alpha(0).setDuration(ANIM_DURATION/2).setListener(new ViewPropertyAnimatorListener() {
                 @Override
                 public void onAnimationStart(View view) {}
                 @Override
                 public void onAnimationEnd(View view) {
                     bindData(table);
-                    ViewCompat.animate(highlightedView).alpha(1).setDuration(ANIM_DURATION/2).setListener(new ViewPropertyAnimatorListener() {
+                    ViewCompat.animate(highlightedView.getChildAt(1)).alpha(1).setDuration(ANIM_DURATION/2).setListener(new ViewPropertyAnimatorListener() {
                         @Override
                         public void onAnimationStart(View view) {}
                         @Override
@@ -298,15 +311,94 @@ public class RandomTableViewHolder extends RecyclerView.ViewHolder implements On
                     view.setAlpha(1);
                 }
             });
-        } else if (expand && !isExpanded()) {
-            // Animation to display highlight
+        } else if (previous < 0 && !isExpanded()) {
+            // Animation to expand new highlight if table is not expanded
             bindData(table);
             highlightedView.setVisibility(View.GONE);
             ExpandCollapseAnimation.setHeightForWrapContent((Activity)view.getContext(), highlightedView);
             ExpandCollapseAnimation anim = new ExpandCollapseAnimation(highlightedView, ANIM_DURATION);
             highlightedView.startAnimation(anim);
+        } else if (previous > 0 && isExpanded()){
+            // Table is expanded and an element is already highlighted
+            ValueAnimator anim = ValueAnimator.ofObject(new ArgbEvaluator(), ContextCompat.getColor(view.getContext(),R.color.colorTableHighlight),
+                    previous%2==1?ContextCompat.getColor(view.getContext(),R.color.colorTableOdd):ContextCompat.getColor(view.getContext(),R.color.colorTableEven));
+            anim.setDuration(ANIM_DURATION/2);
+            final ValueAnimator.AnimatorUpdateListener animupdate = new AnimUpdater(highlightedView);
+            anim.addUpdateListener(animupdate);
+            anim.addListener(new Animator.AnimatorListener() {
+                @Override
+                public void onAnimationStart(Animator animation) {}
+                @Override
+                public void onAnimationEnd(Animator animation) {
+                    bindData(table);
+                    int newIndex = table.getRolledIndex();
+                    highlightedView.setBackgroundColor(ContextCompat.getColor(view.getContext(), newIndex%2==0?R.color.colorTableEven: R.color.colorTableOdd));
+                    ValueAnimator anim = ValueAnimator.ofObject(new ArgbEvaluator(),ContextCompat.getColor(view.getContext(),newIndex%2==1?R.color.colorTableOdd:R.color.colorTableEven),
+                            ContextCompat.getColor(view.getContext(),R.color.colorTableHighlight));
+                    anim.setDuration(ANIM_DURATION/2);
+                    anim.addUpdateListener(animupdate);
+                    anim.addListener(new Animator.AnimatorListener() {
+                        @Override
+                        public void onAnimationStart(Animator animation) {}
+                        @Override
+                        public void onAnimationEnd(Animator animation) {
+                            highlightedView.setBackgroundColor(ContextCompat.getColor(view.getContext(), R.color.colorTableHighlight));
+                        }
+                        @Override
+                        public void onAnimationCancel(Animator animation) {
+                            highlightedView.setBackgroundColor(ContextCompat.getColor(view.getContext(), R.color.colorTableHighlight));
+                        }
+                        @Override
+                        public void onAnimationRepeat(Animator animation) {}
+                    });
+                    anim.start();
+                }
+                @Override
+                public void onAnimationCancel(Animator animation) {
+                    bindData(table);
+                    highlightedView.setBackgroundColor(ContextCompat.getColor(view.getContext(), R.color.colorTableHighlight));
+                }
+                @Override
+                public void onAnimationRepeat(Animator animation) {}
+            });
+            anim.start();
         } else {
-            ((RandomTableActivity)view.getContext()).redrawListAtPos(getAdapterPosition());
+            // Table is expanded, but nothing is highlighted yet
+
+            bindData(table);
+            int newIndex = table.getRolledIndex();
+            View v = highlightedView;
+            v.setBackgroundColor(ContextCompat.getColor(view.getContext(), newIndex%2==0?R.color.colorTableEven: R.color.colorTableOdd));
+            ValueAnimator anim = ValueAnimator.ofObject(new ArgbEvaluator(),ContextCompat.getColor(view.getContext(),newIndex%2==0?R.color.colorTableEven:R.color.colorTableOdd),
+                    ContextCompat.getColor(view.getContext(),R.color.colorTableHighlight));
+            anim.setDuration(ANIM_DURATION/2);
+            anim.addUpdateListener(new AnimUpdater(v));
+            anim.addListener(new Animator.AnimatorListener() {
+                @Override
+                public void onAnimationStart(Animator animation) {}
+                @Override
+                public void onAnimationEnd(Animator animation) {
+                    highlightedView.setBackgroundColor(ContextCompat.getColor(view.getContext(), R.color.colorTableHighlight));
+                }
+                @Override
+                public void onAnimationCancel(Animator animation) {
+                    bindData(table);
+                    highlightedView.setBackgroundColor(ContextCompat.getColor(view.getContext(), R.color.colorTableHighlight));
+                }
+                @Override
+                public void onAnimationRepeat(Animator animation) {}
+            });
+            anim.start();
+        }
+    }
+    private class AnimUpdater implements ValueAnimator.AnimatorUpdateListener {
+        View v;
+        public AnimUpdater(View v) {
+            this.v = v;
+        }
+        @Override
+        public void onAnimationUpdate(ValueAnimator animation) {
+            v.setBackgroundColor((int) animation.getAnimatedValue());
         }
     }
 }
