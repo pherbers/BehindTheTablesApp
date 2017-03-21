@@ -77,6 +77,8 @@ public class RandomTableActivity extends AppCompatActivity {
 			table = tableCollectionContainer.get(tableIdentifier);
 		}
 
+
+
 		listView = (ListView) findViewById(R.id.random_table_list);
 		listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
 			@Override
