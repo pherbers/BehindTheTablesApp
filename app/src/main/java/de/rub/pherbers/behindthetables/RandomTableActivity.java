@@ -1,7 +1,6 @@
 package de.rub.pherbers.behindthetables;
 
 import android.content.Intent;
-import android.net.Uri;
 import android.os.Bundle;
 import android.os.PersistableBundle;
 import android.support.v4.view.ViewCompat;
@@ -17,7 +16,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.MotionEvent;
 import android.view.View;
-import android.webkit.URLUtil;
+import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.TextView;
 
@@ -27,16 +26,19 @@ import de.rub.pherbers.behindthetables.adapter.RandomTableListAdapter;
 import de.rub.pherbers.behindthetables.data.RandomTable;
 import de.rub.pherbers.behindthetables.data.TableCollection;
 import de.rub.pherbers.behindthetables.data.TableCollectionContainer;
+import de.rub.pherbers.behindthetables.data.TableFile;
 import de.rub.pherbers.behindthetables.data.TableReader;
-import de.rub.pherbers.behindthetables.view.MyItemAnimator;
-import de.rub.pherbers.behindthetables.view.RandomTableViewHolder;
+import de.rub.pherbers.behindthetables.sql.DBAdapter;
+import de.rub.pherbers.behindthetables.view.RandomTableView;
 import timber.log.Timber;
 
 public class RandomTableActivity extends AppCompatActivity {
 
-    private TableCollection table;
-    private RecyclerView listView;
-    private RandomTableListAdapter listAdapter;
+	public static final String EXTRA_TABLE_DATABASE_ID = BehindTheTables.APP_TAG + "extra_table_database_id";
+
+	private TableCollection table;
+	private RecyclerView listView;
+	private RandomTableListAdapter listAdapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -48,18 +50,42 @@ public class RandomTableActivity extends AppCompatActivity {
             getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         }
 
-        TableCollectionContainer tableCollectionContainer = TableCollectionContainer.getTableCollectionContainer();
-        if(!tableCollectionContainer.containsKey("asdf")) {
-            try {
-                table = TableReader.readTable(getResources().openRawResource(R.raw.table_3sgzxb));
-                tableCollectionContainer.put("asdf", table);
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
-        }
-        else {
-            table = tableCollectionContainer.get("asdf");
-        }
+		Intent sourceIntent = getIntent();
+		if (!sourceIntent.hasExtra(EXTRA_TABLE_DATABASE_ID)) {
+			Timber.e("This Random Table activity has no Table Database ID in the start intent! Aborting!");
+			finish();
+			return;
+		}
+
+		long databaseID = sourceIntent.getLongExtra(EXTRA_TABLE_DATABASE_ID, -1);
+		DBAdapter adapter = new DBAdapter(this).open();
+		TableFile file = TableFile.getFromDB(databaseID, adapter);
+		adapter.close();
+
+		if (file == null) {
+			Timber.e("Failed to optain a table file from the DB with the ID " + databaseID + "! Aborting activity!");
+			finish();
+			return;
+		}
+
+		String tableIdentifier = file.getIdentifier();
+		TableCollectionContainer tableCollectionContainer = TableCollectionContainer.getTableCollectionContainer();
+		if (!tableCollectionContainer.containsKey(tableIdentifier)) {
+			try {
+				if (file.isExternal()) {
+					//TODO Load external file
+				} else {
+					table = TableReader.readTable(getResources().openRawResource(file.getResourceID()));
+				}
+				tableCollectionContainer.put(tableIdentifier, table);
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
+		} else {
+			table = tableCollectionContainer.get(tableIdentifier);
+		}
+
+
 
         listView = (RecyclerView) findViewById(R.id.random_table_list);
         LinearLayoutManager layoutManager = new LinearLayoutManager(this);

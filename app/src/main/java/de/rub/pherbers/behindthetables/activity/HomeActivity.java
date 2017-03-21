@@ -1,37 +1,47 @@
 package de.rub.pherbers.behindthetables.activity;
 
 import android.Manifest;
+import android.content.Intent;
 import android.content.pm.PackageManager;
+import android.database.Cursor;
 import android.os.Bundle;
-import android.support.constraint.solver.ArrayLinkedVariables;
 import android.support.design.widget.NavigationView;
-import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.DividerItemDecoration;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.EditText;
 
-import java.io.File;
-import java.lang.reflect.Field;
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collections;
 
 import de.rub.pherbers.behindthetables.BehindTheTables;
 import de.rub.pherbers.behindthetables.R;
+import de.rub.pherbers.behindthetables.RandomTableActivity;
+import de.rub.pherbers.behindthetables.adapter.RandomTableListAdapter;
+import de.rub.pherbers.behindthetables.adapter.TableFileAdapter;
 import de.rub.pherbers.behindthetables.data.TableFile;
-import de.rub.pherbers.behindthetables.util.FileManager;
+import de.rub.pherbers.behindthetables.sql.DBAdapter;
+import de.rub.pherbers.behindthetables.view.listener.RecyclerItemClickListener;
 import timber.log.Timber;
+
+import static android.provider.AlarmClock.EXTRA_MESSAGE;
 
 public class HomeActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
 
 	public static final int PERMISSION_REQUEST_CODE = BehindTheTables.APP_TAG.hashCode() % (int) Math.pow(2, 15) - 1;
 
 	private ArrayList<TableFile> foundTables;
+	private RecyclerView list;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -49,13 +59,35 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
 		//	}
 		//});
 
-
 		DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
 		ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
 				this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
 		drawer.setDrawerListener(toggle);
 		toggle.syncState();
 		((NavigationView) findViewById(R.id.nav_view)).setNavigationItemSelectedListener(this);
+
+		list = (RecyclerView) findViewById(R.id.home_table_file_list);
+		list.setHasFixedSize(true);
+		LinearLayoutManager layoutManager = new LinearLayoutManager(this);
+		list.setLayoutManager(layoutManager);
+		list.addOnItemTouchListener(new RecyclerItemClickListener(this, list, new RecyclerItemClickListener.OnItemClickListener() {
+			@Override
+			public void onItemClick(View view, int position) {
+				TableFile file = foundTables.get(position);
+				Timber.i("User clicked: " + file.getIdentifier());
+
+				viewTableCollection(file);
+			}
+
+			@Override
+			public void onLongItemClick(View view, int position) {
+
+			}
+		}));
+
+		DividerItemDecoration dividerItemDecoration = new DividerItemDecoration(list.getContext(),
+				layoutManager.getOrientation());
+		list.addItemDecoration(dividerItemDecoration);
 
 		//TODO Code to request permission
 		//Timber.i("My files dir: " + new FileManager(this).getJSONTableDir());
@@ -71,22 +103,54 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
 		//}
 	}
 
-	private void discoverTables() {
-		String tableIdentifier = getString(R.string.const_table_identifier).toLowerCase();
-
-		Timber.i("Just to be sure. Known raw file ID: " + R.raw.table_4y5pl2);
-		Field[] fields = R.raw.class.getFields();
-		for (int i = 0; i < fields.length - 1; i++) {
-			String name = fields[i].getName();
-			Timber.v("Found this file in the raw data: " + name);
-
-			if (name.toLowerCase().startsWith(tableIdentifier)) {
-				Timber.v("Found this raw data to be a valid table: " + name);
-				foundTables.add(new TableFile(getResources().getIdentifier(name, "raw", getPackageName())));
-			}
+	public void viewTableCollection(TableFile file) {
+		if (file == null) {
+			Timber.e("Attempting to view a table, but the table-file is null!");
+			return;
 		}
 
-		Timber.i("List of discovered tables: " + Arrays.toString(foundTables.toArray()));
+		Intent intent = new Intent(this, RandomTableActivity.class);
+		intent.putExtra(RandomTableActivity.EXTRA_TABLE_DATABASE_ID, file.getDatabaseID());
+		startActivity(intent);
+	}
+
+	private void discoverTables() {
+		foundTables = new ArrayList<>();
+
+		//Discovering internal JSONs. Might be obsolete
+		//Timber.i("Just to be sure. Known raw file ID: " + R.raw.table_4y5pl2);
+		//Field[] fields = R.raw.class.getFields();
+		//for (int i = 0; i < fields.length - 1; i++) {
+		//	String name = fields[i].getName();
+		//	Timber.v("Found this file in the raw data: " + name);
+		//
+		//	if (name.toLowerCase().startsWith(tableIdentifier)) {
+		//		Timber.v("Found this raw data to be a valid table: " + name);
+		//		foundTables.add(new TableFile(getResources().getIdentifier(name, "raw", getPackageName())));
+		//	}
+		//}
+
+		//Discovering JSONs from DB
+		DBAdapter adapter = new DBAdapter(this).open();
+		Cursor cursor = adapter.getAllRows();
+		while (cursor.moveToNext()) {
+			long id = cursor.getLong(DBAdapter.COL_ROWID);
+			foundTables.add(TableFile.getFromDB(id, adapter));
+		}
+		adapter.close();
+		Timber.i("Number of JSONs found in the DB: " + cursor.getCount());
+
+		//Discovering external JSONs.
+		Timber.i("Attempting to discover external JSON files.");
+		if (ContextCompat.checkSelfPermission(this, Manifest.permission.READ_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED) {
+			//TODO implement external search
+		} else {
+			Timber.i("... but this app has no permission to read the external storage.");
+		}
+
+		Timber.i("List of discovered tables [count: " + foundTables.size() + "] :" + Arrays.toString(foundTables.toArray()));
+
+		list.setAdapter(new TableFileAdapter(this, foundTables));
 	}
 
 	@Override
@@ -110,6 +174,11 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		getMenuInflater().inflate(R.menu.menu_home, menu);
+
+		if (!BehindTheTables.isDebugBuild()) {
+			menu.removeItem(R.id.action_debug_reset_db);
+		}
+
 		return true;
 	}
 
@@ -118,6 +187,11 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
 		switch (item.getItemId()) {
 			case R.id.action_settings:
 				//TODO Settings?
+				break;
+			case R.id.action_debug_reset_db:
+				DBAdapter adapter = new DBAdapter(this).open();
+				adapter.fillWithDefaultData();
+				adapter.close();
 				break;
 			default:
 				Timber.w("Unknown menu item selected.");

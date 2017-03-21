@@ -100,4 +100,6 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="action_reset_table">Reset</string>
     <string name="action_open_on_reddit">Open on reddit</string>
+    <string name="error_unknown"><![CDATA[<Error: Unknown>]]></string>
+    <string name="info_index_indicator">#%1$d</string>
 </resources>

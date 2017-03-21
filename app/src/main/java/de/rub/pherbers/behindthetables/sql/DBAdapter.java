@@ -6,8 +6,10 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
+import java.util.Date;
 import java.util.Observable;
 
+import de.rub.pherbers.behindthetables.R;
 import timber.log.Timber;
 
 import static de.rub.pherbers.behindthetables.BehindTheTables.APP_TAG;
@@ -63,6 +65,12 @@ public class DBAdapter extends Observable {
 
 	public DBAdapter(Context context) {
 		myDBHelper = new DatabaseHelper(context);
+
+		if (myDBHelper.isSetupRequired()) {
+			open();
+			fillWithDefaultData();
+			close();
+		}
 	}
 
 	// Open the database connection.
@@ -95,6 +103,7 @@ public class DBAdapter extends Observable {
 			} while (c.moveToNext());
 		}
 		c.close();
+		Timber.w("All SQL Entries have been deleted.");
 
 		setChanged();
 		notifyObservers();
@@ -108,6 +117,23 @@ public class DBAdapter extends Observable {
 			c.moveToFirst();
 		}
 		return c;
+	}
+
+	public void fillWithDefaultData() {
+		//TODO implement
+		deleteAll();
+
+		Timber.w("The database was newly set up and is filled with default data now!");
+		long timestamp = new Date().getTime();
+
+		insertRow("table_3tjg9d", String.valueOf(R.raw.table_3tjg9d), "default", 0);
+		insertRow("table_3xys3d", String.valueOf(R.raw.table_3xys3d), "default", 0);
+		insertRow("table_44r23c", String.valueOf(R.raw.table_44r23c), "default", 0);
+		insertRow("table_43c3c6", String.valueOf(R.raw.table_43c3c6), "default", 0);
+		insertRow("table_484u5s", String.valueOf(R.raw.table_484u5s), "default", 0);
+		insertRow("table_567owq", String.valueOf(R.raw.table_567owq), "default", 0);
+
+		Timber.w("Database size after init = " + getAllRows().getCount() + ". Filling took " + (timestamp - new Date().getTime()) + " ms.");
 	}
 
 	// Get a specific row (by rowId)
@@ -153,12 +179,6 @@ public class DBAdapter extends Observable {
 	public int updateRow(int rowId, String title, String path, String tags, int fav) {
 		String where = KEY_ROWID + "=" + rowId;
 
-		/*
-		 * CHANGE 4:
-		 */
-		// TODO: Update data in the row with new fields.
-		// TODO: Also change the function's arguments to be what you need!
-		// Create row's data:
 		ContentValues newValues = new ContentValues();
 		newValues.put(KEY_TABLE_COLLECTION_FAV, fav);
 		newValues.put(KEY_TABLE_COLLECTION_PATH, path);
@@ -174,11 +194,15 @@ public class DBAdapter extends Observable {
 		return rows;
 	}
 
+
 	/**
 	 * Private class which handles database creation and upgrading.
 	 * Used to handle low-level database access.
 	 */
 	private static class DatabaseHelper extends SQLiteOpenHelper {
+
+		private boolean setupRequired;
+
 		DatabaseHelper(Context context) {
 			super(context, DATABASE_NAME, null, DATABASE_VERSION);
 		}
@@ -186,14 +210,9 @@ public class DBAdapter extends Observable {
 		@Override
 		public void onCreate(SQLiteDatabase _db) {
 			_db.execSQL(DATABASE_CREATE_SQL);
-			Timber.i("Set up a new database without problems! Database ID: "+DATABASE_NAME);
+			Timber.i("Set up a new database without problems! Database ID: " + DATABASE_NAME);
 
-			fillWithDefaultData();
-		}
-
-		private void fillWithDefaultData() {
-			Timber.w("TODO: Fill the database with default data now!");
-			//TODO fill db
+			setupRequired = true;
 		}
 
 		@Override
@@ -205,6 +224,10 @@ public class DBAdapter extends Observable {
 
 			// Recreate new database:
 			onCreate(_db);
+		}
+
+		public boolean isSetupRequired() {
+			return setupRequired;
 		}
 	}
 
