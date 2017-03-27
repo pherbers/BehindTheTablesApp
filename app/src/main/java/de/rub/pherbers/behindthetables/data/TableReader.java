@@ -12,9 +12,7 @@ import java.util.List;
  * Created by Patrick on 11.03.2017.
  */
 
-public class TableReader {
-
-    private TableReader() { }
+public abstract class TableReader {
 
     public static TableCollection readTable(InputStream is) throws IOException {
 
@@ -30,7 +28,7 @@ public class TableReader {
         List<TableLink> use_with_tables = null;
         List<String> keywords = null;
 
-        while(jr.hasNext()) {
+        while (jr.hasNext()) {
             String name = jr.nextName();
             if (name.equals("title"))
                 title = jr.nextString();
@@ -43,7 +41,7 @@ public class TableReader {
             } else if (name.equals("keywords")) {
                 jr.beginArray();
                 keywords = new ArrayList<>();
-                while(jr.hasNext())
+                while (jr.hasNext())
                     keywords.add(jr.nextString());
                 jr.endArray();
             } else if (name.equals("reference")) {
@@ -66,13 +64,13 @@ public class TableReader {
     private static List<TableLink> readLinks(JsonReader jr) throws IOException {
         List<TableLink> tableLinks = new ArrayList<>();
         jr.beginArray();
-        while(jr.hasNext()) {
+        while (jr.hasNext()) {
             jr.beginObject();
             String link = "";
             String title = "";
-            while(jr.hasNext()) {
+            while (jr.hasNext()) {
                 String name = jr.nextName();
-                if(name.equals("link"))
+                if (name.equals("link"))
                     link = jr.nextString();
                 else if (name.equals("title"))
                     title = jr.nextString();
@@ -88,7 +86,7 @@ public class TableReader {
         jr.beginArray();
         List<RandomTable> tables = new ArrayList<>();
         int i = 0;
-        while(jr.hasNext()) {
+        while (jr.hasNext()) {
             tables.add(readTableJson(jr, i));
             i++;
         }
@@ -103,24 +101,24 @@ public class TableReader {
 
         jr.beginObject();
 
-        while(jr.hasNext()) {
+        while (jr.hasNext()) {
             String name = jr.nextName();
             if (name.equals("name"))
                 title = jr.nextString();
             else if (name.equals("dice"))
                 dice = jr.nextString();
             else if (name.equals("table_entries")) {
-                int i = 1;
+                int i = 1; //TODO is this ever used?
                 jr.beginArray();
                 while (jr.hasNext()) {
                     jr.beginObject();
                     String entry = "";
                     String diceVal = "";
-                    while(jr.hasNext()) {
+                    while (jr.hasNext()) {
                         String entry_key = jr.nextName();
-                        if(entry_key.equals("dice_val")){
+                        if (entry_key.equals("dice_val")) {
                             diceVal = jr.nextString();
-                        }else if(entry_key.equals("entry")) {
+                        } else if (entry_key.equals("entry")) {
                             entry = jr.nextString();
                         }
                     }

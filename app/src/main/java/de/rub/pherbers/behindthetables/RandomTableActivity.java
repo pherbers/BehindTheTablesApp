@@ -1,4 +1,5 @@
 package de.rub.pherbers.behindthetables;
+//TODO move this to package de.rub.pherbers.behindthetables.activiy
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -76,8 +77,6 @@ public class RandomTableActivity extends AppCompatActivity {
 		} else {
 			table = tableCollectionContainer.get(tableIdentifier);
 		}
-
-
 
 		listView = (ListView) findViewById(R.id.random_table_list);
 		listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
