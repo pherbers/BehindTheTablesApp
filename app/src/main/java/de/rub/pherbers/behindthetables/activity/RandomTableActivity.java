@@ -1,4 +1,5 @@
 package de.rub.pherbers.behindthetables;
+//TODO move this to package de.rub.pherbers.behindthetables.activiy
 
 import android.content.Intent;
 import android.net.Uri;
@@ -30,7 +31,7 @@ import timber.log.Timber;
 
 public class RandomTableActivity extends AppCompatActivity {
 
-    public static final String EXTRA_TABLE_DATABASE_ID = BehindTheTables.APP_TAG + "extra_table_database_id";
+	public static final String EXTRA_TABLE_DATABASE_ID = BehindTheTables.APP_TAG + "extra_table_database_id";
 
     private TableCollection table;
     private RecyclerView listView;
