@@ -35,10 +35,11 @@ import de.rub.pherbers.behindthetables.view.listener.RecyclerItemClickListener;
 import timber.log.Timber;
 
 import static android.provider.AlarmClock.EXTRA_MESSAGE;
+import static de.rub.pherbers.behindthetables.BehindTheTables.APP_TAG;
 
 public class HomeActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
 
-    public static final int PERMISSION_REQUEST_CODE = BehindTheTables.APP_TAG.hashCode() % (int) Math.pow(2, 15) - 1;
+    public static final String INSTANCE_SCROLL_POSITION = APP_TAG + "home_scroll_position";
 
     private ArrayList<TableFile> foundTables;
     private RecyclerView list;
@@ -74,20 +75,25 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
             @Override
             public void onItemClick(View view, int position) {
                 TableFile file = foundTables.get(position);
-                Timber.i("User clicked: " + file.getIdentifier());
-
-                viewTableCollection(file);
+                onItemClicked(file);
             }
 
             @Override
             public void onLongItemClick(View view, int position) {
-
+                TableFile file = foundTables.get(position);
+                onItemLongClickd(file);
             }
         }));
 
         DividerItemDecoration dividerItemDecoration = new DividerItemDecoration(list.getContext(),
                 layoutManager.getOrientation());
         list.addItemDecoration(dividerItemDecoration);
+
+        if (savedInstanceState != null) {
+            if (savedInstanceState.containsKey(INSTANCE_SCROLL_POSITION)) {
+                list.scrollToPosition(savedInstanceState.getInt(INSTANCE_SCROLL_POSITION));
+            }
+        }
 
         //TODO Code to request permission
         //Timber.i("My files dir: " + new FileManager(this).getJSONTableDir());
@@ -150,6 +156,28 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
 
         Timber.i("List of displayed tables [count: " + foundTables.size() + "]: " + Arrays.toString(foundTables.toArray()));
         list.setAdapter(new TableFileAdapter(this, foundTables));
+    }
+
+    private void onItemClicked(TableFile file) {
+        Timber.i("User clicked: " + file.getIdentifier());
+        viewTableCollection(file);
+    }
+
+    public void onItemLongClickd(TableFile file) {
+        Timber.i("User long clicked: " + file.getIdentifier());
+
+    }
+
+    @Override
+    protected void onRestoreInstanceState(Bundle savedInstanceState) {
+        super.onRestoreInstanceState(savedInstanceState);
+
+        int scrollPos = 0;
+        RecyclerView.LayoutManager layoutManager = list.getLayoutManager();
+        if (layoutManager != null && layoutManager instanceof LinearLayoutManager) {
+            scrollPos = ((LinearLayoutManager) layoutManager).findFirstVisibleItemPosition();
+        }
+        savedInstanceState.putInt(INSTANCE_SCROLL_POSITION, scrollPos);
     }
 
     @Override

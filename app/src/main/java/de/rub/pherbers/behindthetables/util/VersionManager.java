@@ -1,5 +1,7 @@
 package de.rub.pherbers.behindthetables.util;
 
+import android.content.Context;
+
 import timber.log.Timber;
 
 /**
@@ -8,7 +10,7 @@ import timber.log.Timber;
 
 public class VersionManager {
 
-	public static void onVersionChange(int oldVersion, int newVersion) {
+	public static void onVersionChange(Context context, int oldVersion, int newVersion) {
 		Timber.i("App version changed! " + oldVersion + " -> " + newVersion);
 
 		switch (newVersion) {

@@ -182,7 +182,7 @@ public class DBAdapter extends Observable {
     }
 
     // Change an existing row to be equal to new data.
-    public int updateRow(int rowId, String title, String path, String tags, int fav) {
+    public int updateRow(long rowId, String title, String path, String tags, int fav) {
         String where = KEY_ROWID + "=" + rowId;
 
         ContentValues newValues = new ContentValues();
