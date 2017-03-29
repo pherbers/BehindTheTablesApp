@@ -1,4 +1,5 @@
 {
+    "category": "Plot",
     "description": "These tables are for coming up with NPC reactions, motivations, and rumors in a quick fashion. They are designed to be used with /u/famoushippopotamus's Rumor Ladder.\n\n- ***Rumor Ladder.*** False (Appears as Specific or Exact), Vague, Mixed, General, Specific, Exact\n\n The rumor ladder is used as a sliding scale when providing information to PCs. Depending on the attitude towards the PC, an NPC may provide information that is very good (Exact) or very poor (False). This will depend on the attitude of the NPC and can be move up or down the ladder depending on future actions and conversations with the NPC. \n\nThe tables:\n\n- ***NPC Reactions.*** This is how an NPC responds to interaction with a PC. The (Letters) are subtables, which you will find after the main \"reasons\" tables.\n\n- ***NPC Motivations.*** These are revealed if the NPC is questioned by the PC.\n\n- ***Area/Site Status.*** These are used to determine random properties about a location.\n\n- ***Subtables.*** These fill in the blanks as indicated by the (Letters) in the results from the other tables.",
     "id": "4q6c0h",
     "keywords": [

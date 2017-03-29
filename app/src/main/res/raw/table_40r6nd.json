@@ -1,4 +1,5 @@
 {
+    "category": "NPCs",
     "description": "A few tables to generate random strange people.\n\nThe basic structure is supposed to be this:\n\nX is a _AGE_ + _SEX_ with _HAIRTYPE_ + _HAIRCOLOR_ + _HAIRSTYLE_ and _MARK_, who\u2019s living _HOME_ + _LOCATION_.\n\nX is _OCCUPATION_ + _SUBTABLE_. People in town _RENOWN_.\n\nX is _BUILD_. A characteristic feature of X is _DESCRIPTOR PHYSICAL_. X talks _SPEECH_.\n \nAll X really wants is to _MOTIVE_.",
     "id": "40r6nd",
     "keywords": [

@@ -24,6 +24,7 @@ public abstract class TableReader {
         String reference = "";
         String description = "";
         String id = "";
+        String category = "No Category";
         List<TableLink> related_tables = null;
         List<TableLink> use_with_tables = null;
         List<String> keywords = null;
@@ -32,6 +33,8 @@ public abstract class TableReader {
             String name = jr.nextName();
             if (name.equals("title"))
                 title = jr.nextString();
+            else if (name.equals("category"))
+                category = jr.nextString();
             else if (name.equals("tables"))
                 tables = readTableListJson(jr);
             else if (name.equals("description")) {
@@ -54,7 +57,7 @@ public abstract class TableReader {
         }
         jr.endObject();
 
-        TableCollection tc = new TableCollection(title, tables, reference, description, id, related_tables, use_with_tables, keywords);
+        TableCollection tc = new TableCollection(title, tables, reference, description, category, id, related_tables, use_with_tables, keywords);
 
         is.close();
 

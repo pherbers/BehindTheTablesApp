@@ -1,4 +1,5 @@
 {
+    "category": "Plot",
     "description": "Use these table to generate a plot line of political intrigue for your players in a city or nation. Plots are centered around the \"leader\" being the person mention in the first table: Major, King, Queen, Guild Leader, etc.",
     "id": "56e9hq",
     "keywords": [
@@ -360,5 +361,18 @@
         }
     ],
     "title": "Political Plot",
-    "use_with": []
+    "use_with": [
+        {
+            "link": "4jn2j9",
+            "title": "Quick City-Building"
+        },
+        {
+            "link": "4xlnp7",
+            "title": "Nation"
+        },
+        {
+            "link": "4pxgzh",
+            "title": "Villains"
+        }
+    ]
 }

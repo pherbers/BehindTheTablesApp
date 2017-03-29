@@ -1,4 +1,5 @@
 {
+    "category": "Wilderness",
     "description": "Use these tables to quickly generate a unique world geography for your players to play in. Describe the unique characteristics of the world as a whole, as opposed to the area they are currently exploring.",
     "id": "4u4m6h",
     "keywords": [
@@ -11,7 +12,16 @@
         "cataclysm"
     ],
     "reference": "https://www.reddit.com/r/BehindTheTables/comments/4u4m6h",
-    "related_tables": [],
+    "related_tables": [
+        {
+            "link": "4xln3t",
+            "title": "Continent"
+        },
+        {
+            "link": "4xlnp7",
+            "title": "Nation"
+        }
+    ],
     "tables": [
         {
             "dice": "d8",
@@ -555,5 +565,50 @@
         }
     ],
     "title": "World",
-    "use_with": []
+    "use_with": [
+        {
+            "link": "4jn2j9",
+            "title": "Quick City-Building"
+        },
+        {
+            "link": "4djg97",
+            "title": "Simple Settlements"
+        },
+        {
+            "link": "42rm5s",
+            "title": "What's in the Mountains?"
+        },
+        {
+            "link": "3unfbm",
+            "title": "What's in the Cavern?"
+        },
+        {
+            "link": "3u4a05",
+            "title": "What's in the Jungle?"
+        },
+        {
+            "link": "3tjb63",
+            "title": "What's in the Flame-Scorched Desert?"
+        },
+        {
+            "link": "3tich6",
+            "title": "What's in the Desert?"
+        },
+        {
+            "link": "3tielc",
+            "title": "What's in the Shadowy Desert?"
+        },
+        {
+            "link": "3sgzxb",
+            "title": "What's in the Forest?"
+        },
+        {
+            "link": "3sh0hz",
+            "title": "What's in the Enchanted Forest?"
+        },
+        {
+            "link": "3sh0bv",
+            "title": "What's in the Haunted Forest?"
+        }
+    ]
 }

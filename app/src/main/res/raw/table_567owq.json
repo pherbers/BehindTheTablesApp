@@ -1,4 +1,5 @@
 {
+    "category": "Magic",
     "description": "I like a little variety in my magic items, so I've created a series of tables that help randomize the properties of your *Bag of Holding* or *Heward's Handy Haversack*. Also included are a small number of adventure seeds.",
     "id": "567owq",
     "keywords": [
@@ -962,5 +963,22 @@
         }
     ],
     "title": "Bag of Holding and Heward's Handy Haversack",
-    "use_with": []
+    "use_with": [
+        {
+            "link": "4c5iu4",
+            "title": "Potions"
+        },
+        {
+            "link": "438vlw",
+            "title": "Tresure Chests"
+        },
+        {
+            "link": "435djx",
+            "title": "Coins"
+        },
+        {
+            "link": "3xys5x",
+            "title": "Pickpocket Loot"
+        }
+    ]
 }

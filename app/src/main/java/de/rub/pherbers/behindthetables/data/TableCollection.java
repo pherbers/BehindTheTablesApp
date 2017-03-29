@@ -13,6 +13,7 @@ public class TableCollection {
     private List<RandomTable> tables;
     private String description = "";
     private String id = "";
+    private String category;
     private List<TableLink> relatedTables = null;
     private List<TableLink> useWithTables = null;
     private List<String> keywords = null;
@@ -22,11 +23,12 @@ public class TableCollection {
         this.tables = tables;
     }
 
-    public TableCollection(String title, List<RandomTable> tables, String reference, String description, String id, List<TableLink> relatedTables, List<TableLink> useWithTables, List<String> keywords) {
+    public TableCollection(String title, List<RandomTable> tables, String reference, String description, String category, String id, List<TableLink> relatedTables, List<TableLink> useWithTables, List<String> keywords) {
         this.title = title;
         this.reference = reference;
         this.tables = tables;
         this.description = description;
+        this.category = category;
         this.id = id;
         this.relatedTables = relatedTables;
         this.useWithTables = useWithTables;
@@ -71,6 +73,14 @@ public class TableCollection {
 
     public void setId(String id) {
         this.id = id;
+    }
+
+    public String getCategory() {
+        return category;
+    }
+
+    public void setCategory(String category) {
+        this.category = category;
     }
 
     public List<TableLink> getRelatedTables() {

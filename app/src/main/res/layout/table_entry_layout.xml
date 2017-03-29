@@ -30,6 +30,7 @@
             android:id="@+id/table_entry_text"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:layout_marginEnd="@dimen/text_margin"
             android:layout_marginStart="@dimen/text_margin"
             android:fontFamily="sans-serif"
             android:gravity="center_vertical"

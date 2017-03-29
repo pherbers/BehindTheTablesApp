@@ -1,4 +1,5 @@
 {
+    "category": "Settlements",
     "description": "These are tables for generating some interesting local color next time your adventurers visit the local tavern. Roll as little or as often as you like on each table to fill out your common room.",
     "id": "435mxf",
     "keywords": [
@@ -107,15 +108,15 @@
             "table_entries": [
                 {
                     "dice_val": "1",
-                    "entry": "The bartender tells elaborate stories about where the stuffed wyrmling dragon on the mantel came from. In reality, he\u00e2\u20ac\u2122s a retired wizard and it\u00e2\u20ac\u2122s his familiar which grew sick and died. He keeps it as a memento. "
+                    "entry": "The bartender tells elaborate stories about where the stuffed wyrmling dragon on the mantel came from. In reality, he\u2019s a retired wizard and it\u2019s his familiar which grew sick and died. He keeps it as a memento. "
                 },
                 {
                     "dice_val": "2",
-                    "entry": "A bard is telling a story about the player\u00e2\u20ac\u2122s latest act of daring do. He\u00e2\u20ac\u2122s embellishing quite a bit. When he recognizes the party he makes a big spectacle. "
+                    "entry": "A bard is telling a story about the player\u2019s latest act of daring do. He\u2019s embellishing quite a bit. When he recognizes the party he makes a big spectacle. "
                 },
                 {
                     "dice_val": "3",
-                    "entry": "A bard is telling the story of the player\u00e2\u20ac\u2122s latest exploit. It\u00e2\u20ac\u2122s an obvious character assassination. "
+                    "entry": "A bard is telling the story of the player\u2019s latest exploit. It\u2019s an obvious character assassination. "
                 },
                 {
                     "dice_val": "4",
@@ -375,7 +376,7 @@
                 },
                 {
                     "dice_val": "1",
-                    "entry": "their reputation for go\u00c5\u201a\u00c4\u2026bkis is unrivaled"
+                    "entry": "their reputation for go\u0142\u0105bkis is unrivaled"
                 },
                 {
                     "dice_val": "1",

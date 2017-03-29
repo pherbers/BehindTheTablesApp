@@ -1,4 +1,5 @@
 {
+    "category": "Wilderness",
     "description": "Use these tables to quickly generate a unique nation for your players. The nation includes the politics, economics, and state of affairs, to add a distinct flair to your player's exploration",
     "id": "4xlnp7",
     "keywords": [
@@ -7,7 +8,12 @@
         "economics"
     ],
     "reference": "https://www.reddit.com/r/BehindTheTables/comments/4xlnp7",
-    "related_tables": [],
+    "related_tables": [
+        {
+            "link": "4xln3t",
+            "title": "Continent"
+        }
+    ],
     "tables": [
         {
             "dice": "d6",
@@ -1003,5 +1009,50 @@
         }
     ],
     "title": "Nation",
-    "use_with": []
+    "use_with": [
+        {
+            "link": "4jn2j9",
+            "title": "Quick City-Building"
+        },
+        {
+            "link": "4djg97",
+            "title": "Simple Settlements"
+        },
+        {
+            "link": "42rm5s",
+            "title": "What's in the Mountains?"
+        },
+        {
+            "link": "3unfbm",
+            "title": "What's in the Cavern?"
+        },
+        {
+            "link": "3u4a05",
+            "title": "What's in the Jungle?"
+        },
+        {
+            "link": "3tjb63",
+            "title": "What's in the Flame-Scorched Desert?"
+        },
+        {
+            "link": "3tich6",
+            "title": "What's in the Desert?"
+        },
+        {
+            "link": "3tielc",
+            "title": "What's in the Shadowy Desert?"
+        },
+        {
+            "link": "3sgzxb",
+            "title": "What's in the Forest?"
+        },
+        {
+            "link": "3sh0hz",
+            "title": "What's in the Enchanted Forest?"
+        },
+        {
+            "link": "3sh0bv",
+            "title": "What's in the Haunted Forest?"
+        }
+    ]
 }

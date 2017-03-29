@@ -1,4 +1,5 @@
 {
+    "category": "Dungeons/Locations",
     "description": "This is kind of dumb (like 5 minutes dumb), but I was toying with the idea of seeding ideas for 10k Dungeons. (There are over 10M combinations with these... so if I want no repeats, I just have to spin out a name and a description of less than 0.1% of the possibilities.)\n\nThis little generator is not profound. It is not rich in details. However, it is quick, and you'll get the bare bones of a dungeon into which you can drop your PCs. \n\nI may build a better one or an expanded one some day, but it might be useful now.",
     "id": "4iq4of",
     "keywords": [
