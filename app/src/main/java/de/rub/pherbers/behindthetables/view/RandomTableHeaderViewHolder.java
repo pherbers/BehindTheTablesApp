@@ -22,6 +22,10 @@ public class RandomTableHeaderViewHolder extends ViewHolder{
     }
 
     public void bindData(TableCollection table) {
+        TextView desc = (TextView) itemView.findViewById(R.id.table_info_description);
+        // TODO: Add Markdown parser
+        desc.setText(table.getDescription());
+
         if(table.getUseWithTables().isEmpty()) {
             itemView.findViewById(R.id.table_info_use_with_scroll).setVisibility(View.GONE);
         } else {

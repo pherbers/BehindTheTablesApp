@@ -1,0 +1,1224 @@
+{
+    "category": "Magic",
+    "description": "Use these tables to rapidly generate a pantheon of gods for a culture or religion in your game world.",
+    "id": "3shczv",
+    "keywords": [
+        "pantheon",
+        "gods",
+        "deities",
+        "religion",
+        "faith",
+        "priest",
+        "cleric",
+        "world-building"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/comments/3shczv",
+    "related_tables": [],
+    "tables": [
+        {
+            "dice": "d6",
+            "name": "This god of the sun and/or sky is often called...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "The Father of the Heavens."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "The Master of the Skies."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "The King of the Wind and Sky."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "The Keeper of the Sun's Flame."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "The Lord of Light."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "The Burning Man."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "He holds dominion over...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "The sun and light."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "The sun and stars."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "The winds and clouds."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Light and fire."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Fire and power."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "The air elementals and fire elementals."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "His followers must...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Always keep a lamp burning."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Ritualistically burn or brand themselves."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Pray at sunrise and sunset."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Read his sacred texts in the daylight hours daily."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Keep a sundial at their homes as part of a shrine."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Humbly cover themselves from ever allowing direct sunlight to reach their skin."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "This earth and/or mother goddess is often called...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "The Mother of All Things."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "The Keeper of Life and Death."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "The Earth-Mother."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "The Protector of Life."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "The Defender of her Children."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "The Queen of the Earth."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "She holds dominion over...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "The earth and harvest."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "The earth and trees."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Maidens and healers."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Family and childbirth."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "The hearth and home."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Wives and mothers."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Her followers must...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Have a shrine dedicated to her at home."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Ritualistically bury their dead in the earth."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Pray prostrate on the ground daily."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Always use salt to season their food."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Grow something in or at their home."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Take care of their own mothers as they age."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "This god of crafting and/or knowledge is often called...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "The Forger of Mountains."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "The Lord of Craft."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "The Maker of Metal."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "The Master of Wisdom."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "The Keeper of Knowledge."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "The Great Smith."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "He holds dominion over...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Forges and fire."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Artisans and craftsmen."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Knowledge and skill."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Knowledge and wisdom."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Armorers and blacksmiths."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Metal and flame."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "His followers must...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Build or craft something with their hands."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Ritualistically burn their dead."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Engage in vigorous scholarly debates."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Read something new every day. "
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Collect, melt-down, and re-forge any discarded metal objects."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Maintain a shrine with candles and a small stone or metal figurine dedicated to the god in their home."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "This god of darkness and/or secrets is often called...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "The Lord of Darkness."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "The Serpent in the Shadows."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "The Finder of Secrets."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "The Watchful Eye."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "The Spider in the Gloom."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "The Keeper of Mysteries."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "He holds dominion over...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Darkness and poison."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Shadows and spies."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Secrets and treachery."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Ancient lore and mysteries."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Assassins and thieves."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Spiders and snakes."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "His followers must...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Never speak of their true devotion to nonbelievers."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Ritualistically cut out their tongues if they betray a secret."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Pray every night while in utter darkness."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Keep a journal of secrets in a hidden location."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Learn a set of secret gestures to recognize a fellow believer."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Avoid direct sunlight. "
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "This god of death and/or evil is often called...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "The Harbinger of Death."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Death's Companion."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "The Lord of Torment."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "The Bringer of Pain."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "The King of Cruelty."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "The Collector of Souls."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "He holds dominion over...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Necromancers and assassins."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Death and pain."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Cruelty and torture."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Death and cruelty."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Ghosts and graveyards."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Torment and discord."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "His followers must...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Commit murder at least once in their lives."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Ritualistically eat their dead."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Participate in painful rituals of human sacrifice."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Pray in a cemetery, tomb, or place touched by death weekly. "
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Read his sacred texts in a crypt or place touched by death."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Keep a shrine in their home that contains the bones of someone they knew."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "This goddess the harvest and/or seasons is often called...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "The Giver of Fruit."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "The Grower of Crops."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "The Maiden of Spring."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "The Mistress of Summer."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "The Singer of Autumn's Song"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "The Lady of Winter."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "She holds dominion over...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Farmers and gardeners."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Harvests and crops."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Time and seasons."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Feasts and famines."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Harvest and plenty."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Joyfulness and sorrow."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Her followers must...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Prepare burnt offerings of fruits and vegetables."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Ritualistically bury their dead in the earth."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Read from her sacred texts daily."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Grow something in the ground or in a pot at home."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Keep a journal of crop production and harvests across seasons."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Water their garden during times of drought."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "This goddess of love and/or fertility is often called...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "The Bearer of Children."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "The Fair Maiden."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "The Mistress of Seduction."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "The Giver of Love."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "The Queen of Beauty."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "The Bearer of Fruit."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "She holds dominion over...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Marriage and children."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Love and music."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Love and beauty. "
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Seduction and manipulation."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Music and dance."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Lovers and poets."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Her followers must...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Participate in ritualistic sexual orgies."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Procreate to the fullest extent they can."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Publicly display their affections for loved ones."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Keep a secret journal of romantic exploits."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Eat sacred fruits on specified feast days."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Be subject of a ceremony that welcomes them into adulthood."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "This goddess of the moon and/or magic is often called...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "The Lady of the Moon."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "The Moon-Witch."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "The Mistress of Starlight."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "The Maiden of Magic."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "The Lady of Light and Shadow."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "The Queen of Night."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "She holds dominion over...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "The moon and the stars."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "The moon and the night."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Magic and light."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Witches and wizards."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Magic and the night."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Astrologers and seers."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Her followers must...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Hold an all-night prayer vigil when the moon is full."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Read her sacred texts by moonlight once a month."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Engage in vigorous debates of mysticism and magic."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Keep a journal of magical secrets and lore."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Learn to read ancient runes."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Never take a meal during daylight hours."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "This goddess the hunt and/or woodlands is often called...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "The Great Huntress."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "The Lady of the Hunt."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "The Maiden of the Woods."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "The Keeper of the Ancient Grove."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "The Spirit of the Forest."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "The Princess of Predators."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "She holds dominion over...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Hunters and woodsmen."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Beasts and the wilderness."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Forests and trees."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Forests and woodland creatures."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Druids and rangers."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Elves and the fey."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Her followers must...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Pray beneath a tree every day."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Read her sacred texts in a grove of trees once a week."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Participate in an annual hunting festival."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Prepare burnt offerings of beasts slain on a hunt."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Never harm a living tree."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Plant a new tree wherever another has fallen."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "This god is of storms and/or seas often called...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "The Lord of Thunder and Lightning."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "The Storm-Bringer."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "The Master of the Seas."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "The Taker of Ships."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "The Prince of Wind and Water."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "The King Beneath the Waves."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "He holds dominion over...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "The sea and storms."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "The sea and ships."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Sailors and pirates."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Storms and strength."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Merchants and traders."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Fish and fowl."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "His followers must...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Splash saltwater on themselves when praying daily."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Give their dead a burial at sea."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Kneel outside to offer a short prayer whenever it rains."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Keep a journal of storms and strange meteorological phenomena."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Collect rainwater to use in sacred rituals."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Always offer shelter from storms to anyone who needs it."
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "This trickster and/or messenger god is often called...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "The Maker of Mischief."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "The Knife-Sharp Wit."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "The Messenger of the Gods."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "The Swift Strider."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "The Lucky Traveler."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "The Wandering Rogue."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "The Giver of Wine."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "The Wild Wanderer."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "He holds dominion over...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Mischief and pranks."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Trickery and cruel jokes."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Rogues and thieves."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Travelers and wanderers."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Wine and festivals."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Roads and winds."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "His followers must...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Drink enormous amounts of wine at festivals."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Participate in pranks and subversive activities."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Pray at the beginning and end of any journey."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Make a pilgrimage to a holy place at least once."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Always offer food and drink to travelers."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Reserve one day of the week for merriment and leisure."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "This war/tyrant god is often called...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "The Lord of Battle."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "The Bringer of Blood."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "The Unyielding Tyrant."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "The Harbinger of Doom."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "The War-Maker."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "The Prince of Sword and Spear."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "He holds dominion over...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Soldiers and gladiators."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Violence and slaughter."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Tyranny and domination."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Strength and glory."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Barbarians and mercenaries."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Battle and victory."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "His followers must...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Ritualistically scar themselves."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Fight with a military company or war clan at least once."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Read his sacred texts and train with weapons daily."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Spend the night in prayer on the eve of battle."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Anoint their weapons and armor with sacred oil."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Say a prayer when washing blood from their weapons."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Intrapantheon relationships: [This deity] is the _____ of [that deity].",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "father/mother"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "sister/brother"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "son/daughter"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "husband/wife"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "spurned lover"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "close ally"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "sometimes ally"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "false ally"
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "oft-times rival "
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "bitter enemy"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The gods are...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Gods, you heretic half-wit."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Mortals who aquired great power. "
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Children of a now dead Pantheon."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Devils who staged a sucessful coup."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Fake, and their priests are frauds or misguided. "
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Creatures from a distant plane never heard of. "
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The gods relationship with their followers...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Is good. The god attempts to protect and provide for them. "
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Is harsh. The god demands great sacrifices from their people."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Is parasitic. The god feeds on worship and/or sacrifices."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Is benevolent, but distant. The god provides his clerics power but provides little direction. "
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Is strained. The followers have done something to offend their god recently."
+                },
+                {
+                    "dice_val": "1",
+                    "entry": "Must be Crazy. The god has done something recently that befuddles his/her followers. "
+                }
+            ]
+        }
+    ],
+    "title": "The Five-Minute Pantheon",
+    "use_with": [
+        {
+            "link": "3whlp0",
+            "title": "Priests"
+        },
+        {
+            "link": "3xpb4r",
+            "title": "Temples"
+        }
+    ]
+}

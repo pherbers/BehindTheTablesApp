@@ -1,0 +1,366 @@
+{
+    "category": "Settlements",
+    "description": "Add some local color to various locations",
+    "id": "45uoqf",
+    "keywords": [
+        "Dwarf",
+        "elf",
+        "orc",
+        "gnome",
+        "vignette",
+        "town",
+        "village",
+        "homlet",
+        "enclave"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/comments/45uoqf",
+    "related_tables": [],
+    "tables": [
+        {
+            "dice": "d20",
+            "name": "Dwarf Enclave",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A merchant loading up his wares for a long trading journey."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A brewer rolling a large barrel down the street to a tavern."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A group of miners singing a work song with a rhythmic cadence."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A smith pounding hot metal at an open air forge."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A group of militia practicing formation fighting."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A group of militia discussing the weak points on a giant's body."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A crier hawking fine mushrooms."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A group of unbearded youth's fleeing the scene of a mushroom heist. "
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A group of dwarves comparing beards and ornaments."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A dwarf noble passes by with a gigantic mustache, ponderous and regal. "
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A tinker mending pots and pans."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A peddler just returned from distant lands is unloading his wagon to set up a stall."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "A roaring fire surrounding by several dwarves turning meat on spits."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "A dwarf guiding a party from one of the other races around the community. They receive distrusting stares."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "A dwarf butcher moving roasts in and out of a smoke house."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "A shrewish dwarf-wife berating her husband from a window while he chops wood in the yard."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "A stout dwarf maid dragging a burly dwarf man off behind a building by his beard with a glint of mischief in her eye."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "A dwarf trapper &amp; the village rat catcher, both dressed in pelts, stomp past hauling a small wagon full of cages."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "An elf wizard enchanting a sword of the finest dwarf make. "
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "Human envoy's from distant lands, decked in gems, awaiting a chance to meet with the leader of the enclave."
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "Elf Enclave",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A lane, marked with carefully trimmed trees."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A single early blooming flower with the snow carefully pushed away."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A group of birds, twittering in tune with a druid's flute."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A group of border guards who appear as if from nowhere behind the party."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A fletcher cutting shafts for new arrows from a well tended grove of saplings."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A druid, protected by magic, carefully harvesting honey from well cared for bee hives."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A group of weavers, spinning fabric that seems to fade into the background even as it's being woven."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "An elven cobbler, making fine boots for those with dainty feet. "
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A group of wizards cornering a druid and interrogating him about a plant they've taken an interest in."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "An elf lord, noble in bearing, who dismisses his retinue so that he may walk through the woods undisturbed for a moment. "
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A neatly stacked pile of bows, arrows, and tanglefoot bags on the edge of a small camp."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A large, fine tent, it's fabric nearly invisible against the trees."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "A rope hanging from the trees, its destination lost in the branches above."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "A group of youth's skipping their classes. The youngest appears to be in his 80's."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "An elf maid painting a landscape on fine canvas."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "An elf carpenter using magic to bend wood into fine bowls and dinner ware."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "A grand vista of the valley opens up just around a turn in the path. It's breath taking. "
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "A dwarf crafting a chest with an intricate lock for an elf wizard who looks on. \t"
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "A group of guards leads an orc prisoner away, bound and gagged."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "A ranger, bloody and bandaged, limps into the encampment and demands to see the king immediately."
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "Orc Enclave",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A roaring feast is going on with great bonfires and drums."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Two orcs are fist fighting in a pit with mangled knuckles and bloody tusks."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "An orc smith beats captured armor into new spear points for the troops."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A raiding party is returning with a new batch of mewling captives. "
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A young half-orc boy is being banished as his parentage is becoming more apparent."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A great tent, made of hide and decorated with skulls, looms over the camp."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A group of sweating orcs digs a trench around the camp and places sharpened stakes."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A brave trader has set up his wagon on the far side of the camp and it peddling goods to surly orcs."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A group of the kings knights have arrived to deliver an ultimatum to the chief."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A wrong turn takes you down a confusing path of randomly pitched tents and yurts."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A group of hobgoblin emissaries look around at the disorganized camp with obvious scorn."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A hill giant, chained and whipped, is being 'trained' for the next raid."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "A cantankerous orc wife throws his husband out of their tent and pummels him in the street to great guffaws from onlookers."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "The chief and his retinue pass, they seem like low brow thugs."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "The chief and his retinue pass, he seems more regal and intelligent than you expected."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "A group of orc traders has just returned from bartering with a town too strong to rob."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "An orc wolf master is training pups in a pen."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "An envoy from a stronger orc band has arrived to collect tribute."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "A surly old dwarf walks through the camp and demands the chief present himself. The orcs give him a wide berth."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "You overhear a group of orcs discussing their plan to overthrow the chief and take his place."
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "Gnome Enclave",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A machine, equal parts steam and brass, goes careening past with a flustered gnome in hot pursuit."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A persistent turnip salesman espouses the virtue of his wares and won't let you leave till you buy some."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Gnomes, stacked 6 high, are holding up a 7th who is tinkering with the insides of a clock tower."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A group of four gnomes discuss the best way to fix a broken wagon wheel."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A tiny gnome boy jumps up and grabs your purse. Suddenly frightened, now he won't let go because he's scared of heights."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A group of brownies are in town to buy goods from the \"big folk.\""
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A fat gnome clerk walks past with an apprentice, overburdened by books and papers, in tow."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A gnome running an open air cafeteria is fending off a persistent turnip merchant."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Garruck has gotten stuck down the town well and a group of gnomes are standing around debating how to get him out. No rush, he was testing a new potion of water-breathing."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Two gnomes are sitting outside a leather worker's shop sewing new pockets into their leather armor."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "A group of youths with a pilfered pie go running past. You could probably snag it."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A baker is hawking the finest breads from the window of his shop."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "A wagon full of peddlers is off to try their luck selling gizmos to the dwarves."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "Two gnomish sages are discussing best irrigation practices."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "A gnome is having an intense conversation with a badger on the side of the street. "
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "A gnomish lord goes past on a sedan chair carried by servants. He's on eye level with you."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "A confused ogre is helping with a local building project. Swears he's a gnome with a growth problem. Could he be telling the truth?"
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "You overhear a group of gnomes plotting to build a burrowing machine that will steal all the turnips from the turnip merchant's fields."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "You see a gaggle of gnomes desperately running towards the elven spice merchant, just arrived from distant lands. Many turnips sit abandoned."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "A tiny flying machine zips past your ear as you look around the village. It suddenly reverses direction and comes zipping back towards you."
+                }
+            ]
+        }
+    ],
+    "title": "Vignettes II: Dwarves, Elves, Orcs, and Gnomes",
+    "use_with": []
+}
