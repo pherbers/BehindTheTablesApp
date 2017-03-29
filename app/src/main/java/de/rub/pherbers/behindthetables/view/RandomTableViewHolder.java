@@ -2,34 +2,26 @@ package de.rub.pherbers.behindthetables.view;
 
 import android.animation.Animator;
 import android.animation.ArgbEvaluator;
-import android.animation.ObjectAnimator;
 import android.animation.ValueAnimator;
 import android.app.Activity;
 import android.content.Context;
-import android.graphics.Color;
 import android.os.Handler;
-import android.support.v4.animation.ValueAnimatorCompat;
 import android.support.v4.content.ContextCompat;
 import android.support.v4.view.ViewCompat;
-import android.support.v4.view.ViewPropertyAnimatorCompat;
 import android.support.v4.view.ViewPropertyAnimatorListener;
-import android.support.v4.view.ViewPropertyAnimatorListenerAdapter;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.ViewGroup;
-import android.view.ViewPropertyAnimator;
 import android.view.animation.Animation;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import java.util.ArrayList;
-
 import de.rub.pherbers.behindthetables.R;
-import de.rub.pherbers.behindthetables.RandomTableActivity;
+import de.rub.pherbers.behindthetables.activity.RandomTableActivity;
 import de.rub.pherbers.behindthetables.data.RandomTable;
 import de.rub.pherbers.behindthetables.data.TableEntry;
 import timber.log.Timber;

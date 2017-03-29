@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/colorTableOdd"
+    android:paddingStart="@dimen/text_margin"
+    android:paddingEnd="@dimen/text_margin"
+    android:paddingTop="@dimen/text_vertical_margin"
+    android:paddingBottom="@dimen/text_margin">
+
+    <TextView
+        android:id="@+id/table_info_description"
+        style="?android:attr/textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/text_vertical_margin"
+        android:layout_marginTop="@dimen/text_vertical_margin"
+        android:layout_weight="1"
+        android:text="@string/sample_description" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Use with:"
+        android:visibility="gone"/>
+
+    <HorizontalScrollView
+        android:id="@+id/table_info_use_with_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:overScrollMode="never"
+        android:paddingBottom="@dimen/text_vertical_margin"
+        android:paddingTop="@dimen/text_vertical_margin"
+        android:requiresFadingEdge="horizontal"
+        android:scrollbars="none">
+
+        <TextView
+            android:id="@+id/table_info_use_with"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:maxLines="1"
+            android:scrollHorizontally="true"
+            android:text=""
+            android:textColorLink="@color/colorLink" />
+
+    </HorizontalScrollView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Related:"
+        android:visibility="gone"/>
+
+    <HorizontalScrollView
+        android:id="@+id/table_info_related_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:overScrollMode="never"
+        android:paddingBottom="@dimen/text_vertical_margin"
+        android:paddingTop="@dimen/text_vertical_margin"
+        android:requiresFadingEdge="horizontal"
+        android:scrollbars="none">
+
+        <TextView
+            android:id="@+id/table_info_related"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:maxLines="1"
+            android:scrollHorizontally="true"
+            android:text=""
+            android:textColorLink="@color/colorLink" />
+
+    </HorizontalScrollView>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Keywords:"
+        android:visibility="gone"/>
+
+    <HorizontalScrollView
+        android:id="@+id/table_info_keywords_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:overScrollMode="never"
+        android:paddingBottom="@dimen/text_vertical_margin"
+        android:paddingTop="@dimen/text_vertical_margin"
+        android:requiresFadingEdge="horizontal"
+        android:scrollbars="none">
+
+        <TextView
+            android:id="@+id/table_info_keywords"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:maxLines="1"
+            android:scrollHorizontally="true"
+            android:text=""
+            android:textColorLink="@color/colorLink" />
+
+    </HorizontalScrollView>
+
+</LinearLayout>

@@ -1,4 +1,4 @@
-package de.rub.pherbers.behindthetables;
+package de.rub.pherbers.behindthetables.activity;
 //TODO move this to package de.rub.pherbers.behindthetables.activiy
 
 import android.content.Intent;
@@ -15,10 +15,11 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.webkit.URLUtil;
-import android.widget.TextView;
 
 import java.io.IOException;
 
+import de.rub.pherbers.behindthetables.BehindTheTables;
+import de.rub.pherbers.behindthetables.R;
 import de.rub.pherbers.behindthetables.adapter.RandomTableListAdapter;
 import de.rub.pherbers.behindthetables.data.RandomTable;
 import de.rub.pherbers.behindthetables.data.TableCollection;
@@ -41,7 +42,7 @@ public class RandomTableActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_random_table);
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        Toolbar toolbar = (Toolbar) findViewById(R.id.random_table_toolbar);
         setSupportActionBar(toolbar);
         if (getSupportActionBar() != null) {
             getSupportActionBar().setDisplayHomeAsUpEnabled(true);
@@ -60,7 +61,7 @@ public class RandomTableActivity extends AppCompatActivity {
         adapter.close();
 
         if (file == null) {
-            Timber.e("Failed to optain a table file from the DB with the ID " + databaseID + "! Aborting activity!");
+            Timber.e("Failed to obtain a table file from the DB with the ID " + databaseID + "! Aborting activity!");
             finish();
             return;
         }
@@ -82,6 +83,7 @@ public class RandomTableActivity extends AppCompatActivity {
             table = tableCollectionContainer.get(tableIdentifier);
         }
 
+        setTitle(table.getTitle());
 
         listView = (RecyclerView) findViewById(R.id.random_table_list);
         LinearLayoutManager layoutManager = new LinearLayoutManager(this);
@@ -95,11 +97,11 @@ public class RandomTableActivity extends AppCompatActivity {
         RecyclerView.ItemAnimator animator = new DefaultItemAnimator();
         listView.setItemAnimator(animator);
 
-        TextView tv = (TextView) findViewById(R.id.random_table_title);
-        tv.setText(table.getTitle());
+        //TextView tv = (TextView) findViewById(R.id.random_table_title);
+        //tv.setText(table.getTitle());
 
-        TextView desc_tv = (TextView) findViewById(R.id.random_table_desc);
-        desc_tv.setText(table.getDescription());
+        //TextView desc_tv = (TextView) findViewById(R.id.random_table_desc);
+        //desc_tv.setText(table.getDescription());
     }
 
     @Override
@@ -109,8 +111,8 @@ public class RandomTableActivity extends AppCompatActivity {
 
     public void diceRollAction(View mView) {
         //table.rollAllTables();
-        for (int i = 0; i < listAdapter.getItemCount(); i++) {
-            RandomTableViewHolder v = (RandomTableViewHolder) listView.findViewHolderForAdapterPosition(i);
+        for (int i = 0; i < listAdapter.getItemCount()-1; i++) {
+            RandomTableViewHolder v = (RandomTableViewHolder) listView.findViewHolderForAdapterPosition(i+1);
             int prev = table.getTables().get(i).getRolledIndex();
             table.getTables().get(i).roll();
             if (v != null) {
@@ -130,7 +132,7 @@ public class RandomTableActivity extends AppCompatActivity {
     }
 
     public void actionCollapseAll() {
-        for (int i = 0; i < listAdapter.getItemCount(); i++) {
+        for (int i = 1; i < listAdapter.getItemCount(); i++) {
             RecyclerView.ViewHolder v = listView.findViewHolderForLayoutPosition(i);
             if (v == null) {
                 continue;
@@ -152,7 +154,7 @@ public class RandomTableActivity extends AppCompatActivity {
     }
 
     public void actionExpandAll() {
-        for (int i = 0; i < listAdapter.getItemCount(); i++) {
+        for (int i = 1; i < listAdapter.getItemCount(); i++) {
             RecyclerView.ViewHolder v = listView.findViewHolderForLayoutPosition(i);
             if (v == null) {
                 continue;

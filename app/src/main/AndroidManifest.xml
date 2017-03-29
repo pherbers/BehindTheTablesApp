@@ -15,7 +15,7 @@
         <activity android:name=".MainActivity">
         </activity>
         <activity
-            android:name=".RandomTableActivity"
+            android:name=".activity.RandomTableActivity"
             android:label="@string/title_activity_random_table"
             android:parentActivityName=".activity.HomeActivity"
             android:theme="@style/AppTheme.NoActionBar">

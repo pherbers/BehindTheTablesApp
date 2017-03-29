@@ -2,9 +2,10 @@
 <resources>
     <color name="colorPrimary">#b78763</color>
     <color name="colorPrimaryDark">#b36f3d</color>
-    <color name="colorAccent">#ffcf88</color>
+    <color name="colorAccent">#4ec6ff</color>
     <color name="colorLightPrimary">#e7dfd9</color>
     <color name="colorTableOdd">#FFf1efed</color>
     <color name="colorTableEven">#FFe7dfd9</color>
     <color name="colorTableHighlight">#FFe9cfbc</color>
+    <color name="colorLink">#3e51fc</color>
 </resources>

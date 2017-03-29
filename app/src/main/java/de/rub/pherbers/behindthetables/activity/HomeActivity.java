@@ -26,7 +26,6 @@ import java.util.Arrays;
 
 import de.rub.pherbers.behindthetables.BehindTheTables;
 import de.rub.pherbers.behindthetables.R;
-import de.rub.pherbers.behindthetables.RandomTableActivity;
 import de.rub.pherbers.behindthetables.adapter.RandomTableListAdapter;
 import de.rub.pherbers.behindthetables.adapter.TableFileAdapter;
 import de.rub.pherbers.behindthetables.data.TableFile;

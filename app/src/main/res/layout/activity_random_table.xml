@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context="de.rub.pherbers.behindthetables.RandomTableActivity">
+    tools:context="de.rub.pherbers.behindthetables.activity.RandomTableActivity">
 
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
@@ -13,7 +13,7 @@
         android:theme="@style/AppTheme.AppBarOverlay">
 
         <android.support.v7.widget.Toolbar
-            android:id="@+id/toolbar"
+            android:id="@+id/random_table_toolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             android:background="?attr/colorPrimary"
@@ -21,6 +21,22 @@
 
     </android.support.design.widget.AppBarLayout>
 
-    <include layout="@layout/content_random_table" />
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/floatingActionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|left"
+        android:layout_margin="16dp"
+        android:clickable="true"
+        android:onClick="diceRollAction"
+        app:backgroundTint="@color/colorPrimary"
+        app:fabSize="normal"
+        app:layout_anchor="@+id/include"
+        app:layout_anchorGravity="bottom|right"
+        app:srcCompat="@drawable/ic_star_border_black_48dp" />
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/content_random_table" />
 
 </android.support.design.widget.CoordinatorLayout>
