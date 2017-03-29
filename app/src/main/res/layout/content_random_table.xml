@@ -1,31 +1,79 @@
 <?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_random_table"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="0sp"
+    android:paddingLeft="0sp"
+    android:paddingRight="0sp"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="de.rub.pherbers.behindthetables.RandomTableActivity"
+    tools:showIn="@layout/activity_random_table"
+    android:orientation="vertical"
+    android:background="@color/colorTableOdd">
 
-    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
-        xmlns:tools="http://schemas.android.com/tools"
-        android:id="@+id/content_random_table"
+    <LinearLayout
+        android:orientation="horizontal"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@color/colorTableOdd"
-        android:orientation="vertical"
-        android:paddingBottom="0sp"
-        android:paddingLeft="0sp"
-        android:paddingRight="0sp"
-        android:paddingTop="@dimen/activity_vertical_margin"
-        app:layout_behavior="@string/appbar_scrolling_view_behavior"
-        app:layout_collapseMode="pin"
-        tools:context="de.rub.pherbers.behindthetables.RandomTableActivity"
-        tools:showIn="@layout/activity_random_table">
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin">
 
-    <android.support.v7.widget.RecyclerView
-            android:id="@+id/random_table_list"
+        <TextView
+            android:text="Random Mage's Tower"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:descendantFocusability="blocksDescendants"
-            android:divider="@android:color/darker_gray"
-            android:dividerHeight="1dp"
-            android:footerDividersEnabled="true"
-            android:groupIndicator="@null"
-            android:headerDividersEnabled="true" />
+            android:gravity="center_vertical"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:id="@+id/random_table_title"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:textAppearance="@android:style/TextAppearance.Large"
+            android:layout_weight="3" />
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            style="@style/Widget.AppCompat.ImageButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:elevation="0dp"
+            android:onClick="diceRollAction"
+            app:srcCompat="@android:drawable/ic_menu_rotate" />
 
     </LinearLayout>
+
+    <TextView
+    android:text="Description"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/random_table_desc"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/random_table_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:descendantFocusability="blocksDescendants"
+        android:divider="@android:color/darker_gray"
+        android:dividerHeight="1dp"
+        android:footerDividersEnabled="true"
+        android:groupIndicator="@null"
+        android:headerDividersEnabled="true"
+        />
+
+</LinearLayout>
