@@ -29,6 +29,7 @@
         android:contentDescription="@string/reroll_single_table_btn"
         android:focusable="false"
         android:focusableInTouchMode="false"
-        app:srcCompat="@android:drawable/ic_menu_rotate" />
+        android:tint="@android:color/darker_gray"
+        app:srcCompat="@drawable/ic_casino_black_24dp" />
 
 </LinearLayout>

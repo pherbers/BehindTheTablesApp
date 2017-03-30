@@ -29,11 +29,12 @@
         android:layout_margin="16dp"
         android:clickable="true"
         android:onClick="diceRollAction"
+        android:tint="@color/colorLightPrimary"
         app:backgroundTint="@color/colorPrimary"
         app:fabSize="normal"
         app:layout_anchor="@+id/include"
         app:layout_anchorGravity="bottom|right"
-        app:srcCompat="@drawable/ic_star_border_black_48dp" />
+        app:srcCompat="@drawable/dice192" />
 
     <include
         android:id="@+id/include"
