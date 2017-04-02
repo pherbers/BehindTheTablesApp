@@ -44,6 +44,7 @@ public class TableFileAdapter extends RecyclerView.Adapter<TableFileAdapter.Hold
     public void onBindViewHolder(final Holder holder, int position) {
         final TableFile file = files.get(position);
 
+        holder.flavorTF.setText(file.getDescription());
         holder.titleTF.setText(file.getTitle());
         holder.indexTF.setText(context.getString(R.string.info_index_indicator, (position + 1)));
 
@@ -87,15 +88,17 @@ public class TableFileAdapter extends RecyclerView.Adapter<TableFileAdapter.Hold
     }
 
     class Holder extends RecyclerView.ViewHolder implements View.OnClickListener {
-        protected TextView titleTF, indexTF, pathTF;
+        protected TextView titleTF, indexTF, pathTF, flavorTF;
         //protected ImageButton favBT;
 
         public Holder(View view) {
             super(view);
 
-            this.titleTF = (TextView) view.findViewById(R.id.table_file_title);
-            this.indexTF = (TextView) view.findViewById(R.id.table_file_index);
-            this.pathTF = (TextView) view.findViewById(R.id.table_file_path);
+            flavorTF = (TextView) view.findViewById(R.id.table_file_flavor);
+            titleTF = (TextView) view.findViewById(R.id.table_file_title);
+            indexTF = (TextView) view.findViewById(R.id.table_file_index);
+            pathTF = (TextView) view.findViewById(R.id.table_file_path);
+
             //this.favBT = (ImageButton) view.findViewById(R.id.table_file_list_fav_bt);
         }
 

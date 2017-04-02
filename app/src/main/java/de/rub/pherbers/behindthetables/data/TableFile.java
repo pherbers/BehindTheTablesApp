@@ -60,7 +60,7 @@ public class TableFile implements Comparable<TableFile> {
     }
 
     public boolean isExternal() {
-        return getFile() != null;
+        return !getResourceLocation().startsWith("table_");
     }
 
     public File getFile() {

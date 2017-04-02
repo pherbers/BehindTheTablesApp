@@ -93,7 +93,7 @@ public class DBAdapter extends Observable {
     }
 
     public boolean deleteRow(String resourceLocation) {
-        String where = KEY_TABLE_COLLECTION_RESOURCE_LOCATION + "=" + resourceLocation;
+        String where = KEY_TABLE_COLLECTION_RESOURCE_LOCATION + "='" + resourceLocation + "'";
         boolean b = db.delete(DATABASE_TABLE, where, null) != 0;
 
         setChanged();
@@ -121,8 +121,7 @@ public class DBAdapter extends Observable {
 
     public synchronized Cursor getAllRows() {
         String where = null;
-        Cursor c = db.query(true, DATABASE_TABLE, null,
-                where, null, null, null, null, null);
+        Cursor c = db.query(true, DATABASE_TABLE, ALL_KEYS, where, null, null, null, null, null);
         if (c != null) {
             c.moveToFirst();
         }
@@ -153,8 +152,8 @@ public class DBAdapter extends Observable {
 
     // Get a specific row (by rowId)
     public Cursor getRow(String resourceLocation) {
-        String where = KEY_TABLE_COLLECTION_RESOURCE_LOCATION + "=" + resourceLocation;
-        Cursor c = db.query(true, DATABASE_TABLE, ALL_KEYS,
+        String where = KEY_TABLE_COLLECTION_RESOURCE_LOCATION + "='" + resourceLocation + "'";
+        Cursor c = db.query(true, DATABASE_TABLE, null,
                 where, null, null, null, null, null);
         if (c != null) {
             c.moveToFirst();
@@ -181,7 +180,7 @@ public class DBAdapter extends Observable {
 
     // Change an existing row to be equal to new data.
     public int updateRow(String resourceLocation, String title, String description, String keywords, String useWith, String relatedTables) {
-        String where = KEY_TABLE_COLLECTION_RESOURCE_LOCATION + "=" + resourceLocation;
+        String where = KEY_TABLE_COLLECTION_RESOURCE_LOCATION + "='" + resourceLocation + "'";
 
         ContentValues newValues = new ContentValues();
         newValues.put(KEY_TABLE_COLLECTION_TITLE, title);

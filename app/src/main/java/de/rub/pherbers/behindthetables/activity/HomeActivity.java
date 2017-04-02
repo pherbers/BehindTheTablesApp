@@ -122,23 +122,12 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
     private void discoverTables() {
         foundTables = new ArrayList<>();
 
-        //Discovering internal JSONs. Might be obsolete
-        //Timber.i("Just to be sure. Known raw file ID: " + R.raw.table_4y5pl2);
-        //Field[] fields = R.raw.class.getFields();
-        //for (int i = 0; i < fields.length - 1; i++) {
-        //	String name = fields[i].getName();
-        //	Timber.v("Found this file in the raw data: " + name);
-        //
-        //	if (name.toLowerCase().startsWith(tableIdentifier)) {
-        //		Timber.v("Found this raw data to be a valid table: " + name);
-        //		foundTables.add(new TableFile(getResources().getIdentifier(name, "raw", getPackageName())));
-        //	}
-        //}
-
         //Discovering JSONs from DB
         DBAdapter adapter = new DBAdapter(this).open();
         Cursor cursor = adapter.getAllRows();
         while (cursor.moveToNext()) {
+            String res = cursor.getString(DBAdapter.COL_TABLE_COLLECTION_LOCATION);
+            foundTables.add(TableFile.createFromDB(res, adapter));
             //long id = cursor.getLong(DBAdapter.COL_ROWID);
             //foundTables.add(TableFile.getFromDB(id, adapter));
         }
@@ -194,7 +183,7 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
         super.onResume();
 
         foundTables = new ArrayList<>();
-        //discoverTables();
+        discoverTables();
     }
 
     @Override
