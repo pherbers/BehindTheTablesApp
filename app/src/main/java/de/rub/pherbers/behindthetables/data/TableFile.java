@@ -59,6 +59,11 @@ public class TableFile implements Comparable<TableFile> {
         }
     }
 
+    @Override
+    public String toString() {
+        return getTitle();
+    }
+
     public boolean isExternal() {
         return !getResourceLocation().startsWith("table_");
     }
