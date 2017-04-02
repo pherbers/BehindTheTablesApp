@@ -21,43 +21,50 @@ import static de.rub.pherbers.behindthetables.BehindTheTables.APP_TAG;
 
 public class DBAdapter extends Observable {
 
+    public static final char LINK_COLLECTION_SEPARATOR = ';';
+
     // DB Fields
-    public static final String KEY_ROWID = "_id";
-    public static final int COL_ROWID = 0;
+    //public static final String KEY_ROWID = "_id";
+    //public static final int COL_ROWID = 0;
 
     // Entry col names
-    public static final String KEY_TABLE_COLLECTION_PATH = "filepath";
-    public static final String KEY_TABLE_COLLECTION_FAV = "fav";
+    public static final String KEY_TABLE_COLLECTION_RESOURCE_LOCATION = "resource_location";
     public static final String KEY_TABLE_COLLECTION_TITLE = "title";
-    public static final String KEY_TABLE_COLLECTION_SEARCH_TAGS = "search_tags";
+    public static final String KEY_TABLE_COLLECTION_KEYWORDS = "keywords";
+    public static final String KEY_TABLE_COLLECTION_USE_WITH = "use_with";
+    public static final String KEY_TABLE_COLLECTION_RELATED_TABLES = "related_tables";
+    public static final String KEY_TABLE_COLLECTION_DESCRIPTION = "description";
 
     // field numbers (0 is reserved for ID!)
-    public static final int COL_TABLE_COLLECTION_PATH = 1;
-    public static final int COL_TABLE_COLLECTION_FAV = 2;
-    public static final int COL_TABLE_COLLECTION_TITLE = 3;
-    public static final int COL_TABLE_COLLECTION_SEARCH_TAGS = 4;
+    public static final int COL_TABLE_COLLECTION_LOCATION = 0;
+    public static final int COL_TABLE_COLLECTION_TITLE = 1;
+    public static final int COL_TABLE_COLLECTION_KEYWORDS = 2;
+    public static final int COL_TABLE_COLLECTION_USE_WITH = 43;
+    public static final int COL_TABLE_COLLECTION_RELATED_TABLES = 4;
+    public static final int COL_TABLE_COLLECTION_DESCRIPTION = 5;
 
-    public static final String[] ALL_KEYS = new String[]{KEY_ROWID, KEY_TABLE_COLLECTION_PATH, KEY_TABLE_COLLECTION_FAV, KEY_TABLE_COLLECTION_TITLE, KEY_TABLE_COLLECTION_SEARCH_TAGS};
+    public static final String[] ALL_KEYS = new String[]{KEY_TABLE_COLLECTION_RESOURCE_LOCATION, KEY_TABLE_COLLECTION_TITLE, KEY_TABLE_COLLECTION_KEYWORDS, KEY_TABLE_COLLECTION_USE_WITH, KEY_TABLE_COLLECTION_RELATED_TABLES, KEY_TABLE_COLLECTION_DESCRIPTION};
 
     public static final String DATABASE_NAME = APP_TAG + "database";
     public static final String DATABASE_TABLE = "TableCollectionIndex";
 
     // Tracking DB version if a new version of the app changes the format.
-    public static final int DATABASE_VERSION = 1;
+    public static final int DATABASE_VERSION = 2;
 
     private static final String DATABASE_CREATE_SQL =
             "create table " + DATABASE_TABLE
-                    + " (" + KEY_ROWID + " integer primary key, "
+                    + " (" + KEY_TABLE_COLLECTION_RESOURCE_LOCATION + " text primary key, "
                     // + KEY_{...} + " {type} not null"
                     //	- Key is the column name you created above.
                     //	- {type} is one of: text, integer, real, blob
                     //		(http://www.sqlite.org/datatype3.html)
                     //  - "not null" means it is a required field (must be given a value).
                     // NOTE: All must be comma separated (end of line!) Last one must have NO comma!!
-                    + KEY_TABLE_COLLECTION_PATH + " text not null, "
-                    + KEY_TABLE_COLLECTION_FAV + " integer not null, "
-                    + KEY_TABLE_COLLECTION_SEARCH_TAGS + " text not null, "
-                    + KEY_TABLE_COLLECTION_TITLE + " text not null"
+                    + KEY_TABLE_COLLECTION_TITLE + " text not null, "
+                    + KEY_TABLE_COLLECTION_KEYWORDS + " text not null, "
+                    + KEY_TABLE_COLLECTION_USE_WITH + " integer not null, "
+                    + KEY_TABLE_COLLECTION_RELATED_TABLES + " text not null, "
+                    + KEY_TABLE_COLLECTION_DESCRIPTION + " text not null "
                     // Rest  of creation:
                     + ");";
 
@@ -85,8 +92,8 @@ public class DBAdapter extends Observable {
         myDBHelper.close();
     }
 
-    public boolean deleteRow(long rowId) {
-        String where = KEY_ROWID + "=" + rowId;
+    public boolean deleteRow(String resourceLocation) {
+        String where = KEY_TABLE_COLLECTION_RESOURCE_LOCATION + "=" + resourceLocation;
         boolean b = db.delete(DATABASE_TABLE, where, null) != 0;
 
         setChanged();
@@ -96,14 +103,16 @@ public class DBAdapter extends Observable {
     }
 
     public void deleteAll() {
-        Cursor c = getAllRows();
-        long rowId = c.getColumnIndexOrThrow(KEY_ROWID);
-        if (c.moveToFirst()) {
-            do {
-                deleteRow(c.getLong((int) rowId));
-            } while (c.moveToNext());
-        }
-        c.close();
+        //Cursor c = getAllRows();
+        //long rowId = c.getColumnIndexOrThrow(KEY_ROWID);
+        //if (c.moveToFirst()) {
+        //    do {
+        //        deleteRow(c.getLong((int) rowId));
+        //    } while (c.moveToNext());
+        //}
+        //c.close();
+
+        db.delete(DATABASE_TABLE, null, null);
         Timber.w("All SQL Entries have been deleted.");
 
         setChanged();
@@ -112,7 +121,7 @@ public class DBAdapter extends Observable {
 
     public synchronized Cursor getAllRows() {
         String where = null;
-        Cursor c = db.query(true, DATABASE_TABLE, ALL_KEYS,
+        Cursor c = db.query(true, DATABASE_TABLE, null,
                 where, null, null, null, null, null);
         if (c != null) {
             c.moveToFirst();
@@ -143,8 +152,8 @@ public class DBAdapter extends Observable {
     }
 
     // Get a specific row (by rowId)
-    public Cursor getRow(long rowId) {
-        String where = KEY_ROWID + "=" + rowId;
+    public Cursor getRow(String resourceLocation) {
+        String where = KEY_TABLE_COLLECTION_RESOURCE_LOCATION + "=" + resourceLocation;
         Cursor c = db.query(true, DATABASE_TABLE, ALL_KEYS,
                 where, null, null, null, null, null);
         if (c != null) {
@@ -153,25 +162,14 @@ public class DBAdapter extends Observable {
         return c;
     }
 
-    public Cursor getViaFileIdentifier(String identifier) {
-        String where = KEY_TABLE_COLLECTION_PATH + "=" + identifier;
-        Cursor c = db.query(true, DATABASE_TABLE, ALL_KEYS,
-                where, null, null, null, null, null);
-        if (c != null) {
-            c.moveToFirst();
-        }
-        return c;
-    }
-
-    // Add a new set of values to the database.
-    public long insertRow(String title, String path, String tags, int fav) {
-        // Create row's data:
+    public long insertRow(String resourceLocation, String title, String description, String keywords, String useWith, String relatedTables) {
         ContentValues initialValues = new ContentValues();
-        initialValues.put(KEY_TABLE_COLLECTION_FAV, fav);
-        initialValues.put(KEY_TABLE_COLLECTION_PATH, path);
-        initialValues.put(KEY_TABLE_COLLECTION_SEARCH_TAGS, tags);
+        initialValues.put(KEY_TABLE_COLLECTION_RESOURCE_LOCATION, resourceLocation);
         initialValues.put(KEY_TABLE_COLLECTION_TITLE, title);
-        // Insert it into the database.
+        initialValues.put(KEY_TABLE_COLLECTION_DESCRIPTION, description);
+        initialValues.put(KEY_TABLE_COLLECTION_KEYWORDS, keywords);
+        initialValues.put(KEY_TABLE_COLLECTION_USE_WITH, useWith);
+        initialValues.put(KEY_TABLE_COLLECTION_RELATED_TABLES, relatedTables);
 
         long l = db.insert(DATABASE_TABLE, null, initialValues);
 
@@ -182,13 +180,15 @@ public class DBAdapter extends Observable {
     }
 
     // Change an existing row to be equal to new data.
-    public int updateRow(long rowId, String title, String path, String tags, int fav) {
-        String where = KEY_ROWID + "=" + rowId;
+    public int updateRow(String resourceLocation, String title, String description, String keywords, String useWith, String relatedTables) {
+        String where = KEY_TABLE_COLLECTION_RESOURCE_LOCATION + "=" + resourceLocation;
 
         ContentValues newValues = new ContentValues();
-        newValues.put(KEY_TABLE_COLLECTION_FAV, fav);
-        newValues.put(KEY_TABLE_COLLECTION_PATH, path);
-        newValues.put(KEY_TABLE_COLLECTION_SEARCH_TAGS, tags);
+        newValues.put(KEY_TABLE_COLLECTION_TITLE, title);
+        newValues.put(KEY_TABLE_COLLECTION_DESCRIPTION, description);
+        newValues.put(KEY_TABLE_COLLECTION_KEYWORDS, keywords);
+        newValues.put(KEY_TABLE_COLLECTION_USE_WITH, useWith);
+        newValues.put(KEY_TABLE_COLLECTION_RELATED_TABLES, relatedTables);
         newValues.put(KEY_TABLE_COLLECTION_TITLE, title);
 
         // Insert it into the database.

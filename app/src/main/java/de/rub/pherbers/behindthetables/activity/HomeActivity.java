@@ -115,7 +115,7 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
         }
 
         Intent intent = new Intent(this, RandomTableActivity.class);
-        intent.putExtra(RandomTableActivity.EXTRA_TABLE_DATABASE_ID, file.getDatabaseID());
+        intent.putExtra(RandomTableActivity.EXTRA_TABLE_DATABASE_RESOURCE_LOCATION, file.getResourceLocation());
         startActivity(intent);
     }
 
@@ -139,8 +139,8 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
         DBAdapter adapter = new DBAdapter(this).open();
         Cursor cursor = adapter.getAllRows();
         while (cursor.moveToNext()) {
-            long id = cursor.getLong(DBAdapter.COL_ROWID);
-            foundTables.add(TableFile.getFromDB(id, adapter));
+            //long id = cursor.getLong(DBAdapter.COL_ROWID);
+            //foundTables.add(TableFile.getFromDB(id, adapter));
         }
         adapter.close();
         Timber.i("Number of JSONs found in the DB: " + cursor.getCount());
@@ -158,12 +158,12 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
     }
 
     private void onItemClicked(TableFile file) {
-        Timber.i("User clicked: " + file.getIdentifier());
+        Timber.i("User clicked: " + file.getTitle());
         viewTableCollection(file);
     }
 
     public void onItemLongClickd(TableFile file) {
-        Timber.i("User long clicked: " + file.getIdentifier());
+        Timber.i("User long clicked: " + file.getTitle());
 
     }
 
@@ -194,7 +194,7 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
         super.onResume();
 
         foundTables = new ArrayList<>();
-        discoverTables();
+        //discoverTables();
     }
 
     @Override

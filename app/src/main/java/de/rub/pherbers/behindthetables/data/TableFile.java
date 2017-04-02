@@ -1,5 +1,6 @@
 package de.rub.pherbers.behindthetables.data;
 
+import android.content.Context;
 import android.database.Cursor;
 import android.support.annotation.NonNull;
 
@@ -7,7 +8,6 @@ import java.io.File;
 import java.util.Date;
 
 import de.rub.pherbers.behindthetables.sql.DBAdapter;
-import timber.log.Timber;
 
 /**
  * Created by Nils on 14.03.2017.
@@ -15,100 +15,56 @@ import timber.log.Timber;
 
 public class TableFile implements Comparable<TableFile> {
 
-    public static final long FILE_NOT_REGISTERED_IN_DB = -1;
-    private int resource;
-    private File file;
-    private long databaseID;
     private String title;
-    private String tags;
+    private String description;
+    private String resourceLocation;
     private boolean fav;
 
-    public TableFile(int resource) {
-        this.resource = resource;
-        databaseID = FILE_NOT_REGISTERED_IN_DB;
-
-        Timber.v("Created a new internal TableFile. Resource ID: " + resource);
+    private TableFile() {
     }
 
-    public TableFile(File file) {
-        this.file = file;
-        databaseID = FILE_NOT_REGISTERED_IN_DB;
-
-        Timber.v("Created a new external TableFile. Resource path: " + file.getAbsolutePath());
+    public static TableFile createEmpty() {
+        return new TableFile();
     }
 
-    public void saveToDB(DBAdapter adapter) {
-        if (isRegisteredInDB()) {
-            adapter.updateRow(getDatabaseID(), getTitle(), getIdentifier(), getTags(), isFavNumeric());
-        } else {
-            long id = adapter.insertRow(getTitle(), getIdentifier(), getTags(), isFavNumeric());
-            setDatabaseID(id);
-        }
-    }
+    public static TableFile createFromDB(String resourceLocation, DBAdapter adapter) {
+        TableFile file = createEmpty();
 
-    public static TableFile getFromDB(long id, DBAdapter adapter) {
-        Cursor cursor = adapter.getRow(id);
-        if (cursor == null) {
-            return null;
+        Cursor c = adapter.getRow(resourceLocation);
+        if (!c.moveToFirst()) {
+            throw new IllegalArgumentException("Table entry '" + resourceLocation + "' does not exist in the DB!");
         }
 
-        TableFile file = null;
-        String path = cursor.getString(DBAdapter.COL_TABLE_COLLECTION_PATH);
-        if (isNumeric(path)) {
-            file = new TableFile(Integer.parseInt(path));
-        } else {
-            file = new TableFile(new File(path));
-        }
-
-        String title = cursor.getString(DBAdapter.COL_TABLE_COLLECTION_TITLE);
-        boolean fav = cursor.getInt(DBAdapter.COL_TABLE_COLLECTION_FAV) != 0;
-        String tags = cursor.getString(DBAdapter.COL_TABLE_COLLECTION_SEARCH_TAGS);
-
-        file.setTitle(title);
-        file.setFav(fav);
-        file.setTags(tags);
-        file.setDatabaseID(id);
+        file.setTitle(c.getString(DBAdapter.COL_TABLE_COLLECTION_TITLE));
+        file.setDescription(c.getString(DBAdapter.COL_TABLE_COLLECTION_DESCRIPTION));
+        file.setResourceLocation(resourceLocation);
 
         return file;
     }
 
-    private static boolean isNumeric(String value) {
-        try {
-            Integer.parseInt(value);
-        } catch (NumberFormatException e) {
-            return false;
+    public void saveToDB(DBAdapter adapter) {
+        //if (isRegisteredInDB()) {
+        //    adapter.updateRow(getDatabaseID(), getTitle(), getIdentifier(), getTags(), isFavNumeric());
+        //} else {
+        //    long id = adapter.insertRow(getTitle(), getIdentifier(), getTags(), isFavNumeric());
+        //    setDatabaseID(id);
+        //}
+    }
+
+    public int getResourceID(Context context) {
+        if (isExternal()) {
+            return -1;
+        } else {
+            return context.getResources().getIdentifier(getResourceLocation(), "raw", context.getPackageName());
         }
-        return true;
-    }
-
-    public boolean isRegisteredInDB() {
-        return getDatabaseID() != FILE_NOT_REGISTERED_IN_DB;
-    }
-
-    public String getIdentifier() {
-        if (isExternal()) return file.getAbsolutePath();
-        return String.valueOf(resource);
-    }
-
-    public int isFavNumeric() {
-        return isFav() ? 1 : 0;
-    }
-
-    @Override
-    public String toString() {
-        return getIdentifier();
     }
 
     public boolean isExternal() {
         return getFile() != null;
     }
 
-    public int getResourceID() {
-        return resource;
-    }
-
     public File getFile() {
-        return file;
+        return new File(getResourceLocation());
     }
 
     public Date getLastModified() {
@@ -124,14 +80,6 @@ public class TableFile implements Comparable<TableFile> {
         this.fav = fav;
     }
 
-    public long getDatabaseID() {
-        return databaseID;
-    }
-
-    private void setDatabaseID(long databaseID) {
-        this.databaseID = databaseID;
-    }
-
     public String getTitle() {
         return title;
     }
@@ -140,16 +88,24 @@ public class TableFile implements Comparable<TableFile> {
         this.title = title;
     }
 
-    public String getTags() {
-        return tags;
+    public String getDescription() {
+        return description;
     }
 
-    public void setTags(String tags) {
-        this.tags = tags;
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    public String getResourceLocation() {
+        return resourceLocation;
+    }
+
+    public void setResourceLocation(String resourceLocation) {
+        this.resourceLocation = resourceLocation;
     }
 
     public boolean equals(TableFile file) {
-        return getIdentifier().equals(file.getIdentifier());
+        return getResourceLocation().equals(file.getResourceLocation());
     }
 
     @Override
@@ -158,7 +114,7 @@ public class TableFile implements Comparable<TableFile> {
             if (isExternal()) {
                 return getLastModified().compareTo(file.getLastModified());
             } else {
-                return getResourceID() - file.getResourceID();
+                return getTitle().compareTo(file.getTitle());
             }
         } else if (isExternal()) return -1;
         return 1;

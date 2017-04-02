@@ -32,7 +32,7 @@ import timber.log.Timber;
 
 public class RandomTableActivity extends AppCompatActivity {
 
-	public static final String EXTRA_TABLE_DATABASE_ID = BehindTheTables.APP_TAG + "extra_table_database_id";
+    public static final String EXTRA_TABLE_DATABASE_RESOURCE_LOCATION = BehindTheTables.APP_TAG + "extra_table_database_resource_location";
 
     private TableCollection table;
     private RecyclerView listView;
@@ -49,38 +49,39 @@ public class RandomTableActivity extends AppCompatActivity {
         }
 
         Intent sourceIntent = getIntent();
-        if (!sourceIntent.hasExtra(EXTRA_TABLE_DATABASE_ID)) {
+        if (!sourceIntent.hasExtra(EXTRA_TABLE_DATABASE_RESOURCE_LOCATION)) {
             Timber.e("This Random Table activity has no Table Database ID in the start intent! Aborting!");
+            //TODO handle this case better
             finish();
             return;
         }
 
-        long databaseID = sourceIntent.getLongExtra(EXTRA_TABLE_DATABASE_ID, -1);
+        String resourceLocation = sourceIntent.getStringExtra(EXTRA_TABLE_DATABASE_RESOURCE_LOCATION);
         DBAdapter adapter = new DBAdapter(this).open();
-        TableFile file = TableFile.getFromDB(databaseID, adapter);
+        TableFile file = TableFile.createFromDB(resourceLocation, adapter);
         adapter.close();
 
         if (file == null) {
-            Timber.e("Failed to obtain a table file from the DB with the ID " + databaseID + "! Aborting activity!");
+            Timber.e("Failed to obtain a table file from the DB with the location " + resourceLocation + "! Aborting activity!");
+            //TODO handle this case better
             finish();
             return;
         }
 
-        String tableIdentifier = file.getIdentifier();
         TableCollectionContainer tableCollectionContainer = TableCollectionContainer.getTableCollectionContainer();
-        if (!tableCollectionContainer.containsKey(tableIdentifier)) {
+        if (!tableCollectionContainer.containsKey(resourceLocation)) {
             try {
                 if (file.isExternal()) {
                     //TODO Load external file
                 } else {
-                    table = TableReader.readTable(getResources().openRawResource(file.getResourceID()));
+                    table = TableReader.readTable(getResources().openRawResource(file.getResourceID(this)));
                 }
-                tableCollectionContainer.put(tableIdentifier, table);
+                tableCollectionContainer.put(resourceLocation, table);
             } catch (IOException e) {
                 e.printStackTrace();
             }
         } else {
-            table = tableCollectionContainer.get(tableIdentifier);
+            table = tableCollectionContainer.get(resourceLocation);
         }
 
         setTitle(table.getTitle());
@@ -111,8 +112,8 @@ public class RandomTableActivity extends AppCompatActivity {
 
     public void diceRollAction(View mView) {
         //table.rollAllTables();
-        for (int i = 0; i < listAdapter.getItemCount()-1; i++) {
-            RandomTableViewHolder v = (RandomTableViewHolder) listView.findViewHolderForAdapterPosition(i+1);
+        for (int i = 0; i < listAdapter.getItemCount() - 1; i++) {
+            RandomTableViewHolder v = (RandomTableViewHolder) listView.findViewHolderForAdapterPosition(i + 1);
             int prev = table.getTables().get(i).getRolledIndex();
             table.getTables().get(i).roll();
             if (v != null) {

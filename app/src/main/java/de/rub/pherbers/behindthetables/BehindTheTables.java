@@ -9,6 +9,8 @@ import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
 import android.util.Log;
 
+import com.amitshekhar.DebugDB;
+
 import de.rub.pherbers.behindthetables.sql.DBAdapter;
 import de.rub.pherbers.behindthetables.util.VersionManager;
 import timber.log.Timber;
@@ -28,6 +30,7 @@ public class BehindTheTables extends Application {
         super.onCreate();
         if (isDebugBuild()) {
             Timber.plant(new DebugTree());
+            Timber.i("Debug-DB URL: " + DebugDB.getAddressLog());
         } else {
             Timber.plant(new ReleaseTree());
         }
