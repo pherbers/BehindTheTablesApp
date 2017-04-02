@@ -20,12 +20,10 @@ public class TableLinkMovementMethod extends LinkMovementMethod {
 
     private static TableLinkMovementMethod tableMovementMethod = new TableLinkMovementMethod();
 
-    public boolean onTouchEvent(android.widget.TextView widget, android.text.Spannable buffer, android.view.MotionEvent event)
-    {
+    public boolean onTouchEvent(android.widget.TextView widget, android.text.Spannable buffer, android.view.MotionEvent event) {
         int action = event.getAction();
 
-        if (action == MotionEvent.ACTION_UP)
-        {
+        if (action == MotionEvent.ACTION_UP) {
             int x = (int) event.getX();
             int y = (int) event.getY();
 
@@ -40,16 +38,15 @@ public class TableLinkMovementMethod extends LinkMovementMethod {
             int off = layout.getOffsetForHorizontal(line, x);
 
             URLSpan[] link = buffer.getSpans(off, off, URLSpan.class);
-            if (link.length != 0)
-            {
+            if (link.length != 0) {
                 String url = link[0].getURL();
                 Timber.d("Link " + url);
-                Toast.makeText(widget.getContext(), "Table link was clicked: " + url, Toast.LENGTH_LONG).show();
+                //Toast.makeText(widget.getContext(), "Table link was clicked: " + url, Toast.LENGTH_LONG).show();
 
-                // TODO: Launch intent
-                //Intent intent = new Intent(widget.getContext(), RandomTableActivity.class);
-                //intent.putExtra(RandomTableActivity.EXTRA_TABLE_DATABASE_ID, file.getDatabaseID());
-                //widget.getContext().startActivity(intent);
+                Context context = widget.getContext();
+                Intent intent = new Intent(context, RandomTableActivity.class);
+                intent.putExtra(RandomTableActivity.EXTRA_TABLE_DATABASE_RESOURCE_LOCATION, "table_" + url);
+                context.startActivity(intent);
 
                 return true;
             }
