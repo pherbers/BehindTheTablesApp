@@ -8,6 +8,7 @@ import android.content.pm.PackageManager;
 import android.database.Cursor;
 import android.os.Bundle;
 import android.os.PersistableBundle;
+import android.provider.SearchRecentSuggestions;
 import android.support.annotation.Nullable;
 import android.support.design.widget.NavigationView;
 import android.support.v4.content.ContextCompat;
@@ -41,6 +42,7 @@ import de.rub.pherbers.behindthetables.adapter.TableFileAdapter;
 import de.rub.pherbers.behindthetables.data.TableFile;
 import de.rub.pherbers.behindthetables.sql.DBAdapter;
 import de.rub.pherbers.behindthetables.sql.DefaultTables;
+import de.rub.pherbers.behindthetables.util.TableSearchRecentSuggestionsProvider;
 import de.rub.pherbers.behindthetables.view.listener.RecyclerItemClickListener;
 import timber.log.Timber;
 
@@ -180,11 +182,20 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
         Timber.i("search query request: " + searchQuery);
         bufferedSearchQuery = searchQuery;
 
-        searchQuery = searchQuery.replace(String.valueOf(DBAdapter.LINK_COLLECTION_SEPARATOR), " ").toLowerCase();
+        searchQuery = searchQuery.replace(String.valueOf(DBAdapter.LINK_COLLECTION_SEPARATOR), " ").toLowerCase().trim();
         matchedTables = new ArrayList<>();
 
         for (TableFile f : foundTables) {
+            //TODO maybe apply preferences to narrow search creteria?
             if (f.getTitle().toLowerCase().contains(searchQuery)) {
+                matchedTables.add(f);
+                continue;
+            }
+            if (f.hasKeyword(searchQuery)) {
+                matchedTables.add(f);
+                continue;
+            }
+            if (f.getDescription().toLowerCase().contains(searchQuery)) {
                 matchedTables.add(f);
             }
         }
@@ -302,6 +313,10 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
     private void handleSearchIntent(Intent intent) {
         if (Intent.ACTION_SEARCH.equals(intent.getAction())) {
             bufferedSearchQuery = intent.getStringExtra(SearchManager.QUERY);
+
+            SearchRecentSuggestions suggestions = new SearchRecentSuggestions(this,
+                    TableSearchRecentSuggestionsProvider.AUTHORITY, TableSearchRecentSuggestionsProvider.MODE);
+            suggestions.saveRecentQuery(bufferedSearchQuery, null);
         }
     }
 

@@ -5,9 +5,12 @@ import android.database.Cursor;
 import android.support.annotation.NonNull;
 
 import java.io.File;
+import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Date;
 
 import de.rub.pherbers.behindthetables.sql.DBAdapter;
+import timber.log.Timber;
 
 /**
  * Created by Nils on 14.03.2017.
@@ -15,12 +18,16 @@ import de.rub.pherbers.behindthetables.sql.DBAdapter;
 
 public class TableFile implements Comparable<TableFile> {
 
+    private ArrayList<String> keywords;
+
     private String title;
     private String description;
     private String resourceLocation;
     private boolean fav;
 
     private TableFile() {
+        setFav(false);
+        keywords = new ArrayList<>();
     }
 
     public static TableFile createEmpty() {
@@ -39,9 +46,16 @@ public class TableFile implements Comparable<TableFile> {
         file.setDescription(c.getString(DBAdapter.COL_TABLE_COLLECTION_DESCRIPTION));
         file.setResourceLocation(resourceLocation);
 
+        String keys = c.getString(DBAdapter.COL_TABLE_COLLECTION_KEYWORDS);
+        for (String s : keys.split(String.valueOf(DBAdapter.LINK_COLLECTION_SEPARATOR))) {
+            Timber.v("Added keyword '" + s + "' to " + file.getTitle());
+            file.keywords.add(s.toLowerCase().trim());
+        }
+
         return file;
     }
 
+    @Deprecated
     public void saveToDB(DBAdapter adapter) {
         //if (isRegisteredInDB()) {
         //    adapter.updateRow(getDatabaseID(), getTitle(), getIdentifier(), getTags(), isFavNumeric());
@@ -103,6 +117,18 @@ public class TableFile implements Comparable<TableFile> {
 
     public String getResourceLocation() {
         return resourceLocation;
+    }
+
+    public boolean hasKeyword(String candidate) {
+        boolean found = false;
+        for (String s : getKeywords()) {
+            found |= s.toLowerCase().trim().contains(candidate.toLowerCase().trim());
+        }
+        return false;
+    }
+
+    public ArrayList<String> getKeywords() {
+        return keywords;
     }
 
     public void setResourceLocation(String resourceLocation) {

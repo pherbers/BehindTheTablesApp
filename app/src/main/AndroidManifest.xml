@@ -37,6 +37,11 @@
                 android:name="android.app.searchable"
                 android:resource="@xml/searchable"/>
         </activity>
+
+        <provider android:name=".util.TableSearchRecentSuggestionsProvider"
+                  android:authorities="de.rub.btt.TableSearchSuggestionProvider"
+                  android:exported="false"/>
+
     </application>
 
 </manifest>
