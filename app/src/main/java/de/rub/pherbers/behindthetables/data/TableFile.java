@@ -1,16 +1,24 @@
 package de.rub.pherbers.behindthetables.data;
 
 import android.content.Context;
+import android.content.SharedPreferences;
 import android.database.Cursor;
+import android.preference.PreferenceManager;
 import android.support.annotation.NonNull;
+import android.util.ArraySet;
 
 import java.io.File;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Date;
+import java.util.HashSet;
+import java.util.Set;
 
 import de.rub.pherbers.behindthetables.sql.DBAdapter;
 import timber.log.Timber;
+
+import static de.rub.pherbers.behindthetables.BehindTheTables.APP_TAG;
+import static de.rub.pherbers.behindthetables.BehindTheTables.PREFS_TAG;
 
 /**
  * Created by Nils on 14.03.2017.
@@ -18,15 +26,15 @@ import timber.log.Timber;
 
 public class TableFile implements Comparable<TableFile> {
 
+    public static final String PREFS_FAVORITE_TABLES = PREFS_TAG + "fav_tables";
+
     private ArrayList<String> keywords;
 
     private String title;
     private String description;
     private String resourceLocation;
-    private boolean fav;
 
     private TableFile() {
-        setFav(false);
         keywords = new ArrayList<>();
     }
 
@@ -91,12 +99,35 @@ public class TableFile implements Comparable<TableFile> {
         return new Date(getFile().lastModified());
     }
 
-    public boolean isFav() {
-        return fav;
+    public boolean isFavorite(Context context) {
+        SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(context);
+        Set<String> favs = new HashSet<String>(preferences.getStringSet(PREFS_FAVORITE_TABLES, new HashSet<String>()));
+
+        for (String s : favs) {
+            if (s.equals(getResourceLocation())) return true;
+        }
+        return false;
     }
 
-    public void setFav(boolean fav) {
-        this.fav = fav;
+    public void setFavorite(Context context, boolean favorite) {
+        Timber.i("Request to change fav of '" + getTitle() + "' from " + isFavorite(context) + " to " + favorite);
+
+        if (favorite && isFavorite(context)) {
+            Timber.w("Table '" + getTitle() + "' is already in the favorites. Nothing to be changed.");
+            return;
+        }
+
+        SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(context);
+        Set<String> favs = new HashSet<String>(prefs.getStringSet(PREFS_FAVORITE_TABLES, new HashSet<String>()));
+        SharedPreferences.Editor editor = prefs.edit();
+
+        if (favorite) {
+            favs.add(getResourceLocation());
+        } else {
+            favs.remove(getResourceLocation());
+        }
+        editor.putStringSet(PREFS_FAVORITE_TABLES, favs);
+        editor.apply();
     }
 
     public String getTitle() {
@@ -124,7 +155,7 @@ public class TableFile implements Comparable<TableFile> {
         for (String s : getKeywords()) {
             found |= s.toLowerCase().trim().contains(candidate.toLowerCase().trim());
         }
-        return false;
+        return found;
     }
 
     public ArrayList<String> getKeywords() {

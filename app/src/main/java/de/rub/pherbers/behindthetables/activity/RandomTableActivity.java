@@ -15,6 +15,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.webkit.URLUtil;
+import android.widget.Toast;
 
 import java.io.IOException;
 
@@ -37,6 +38,7 @@ public class RandomTableActivity extends AppCompatActivity {
     private TableCollection table;
     private RecyclerView listView;
     private RandomTableListAdapter listAdapter;
+    private TableFile tableFile;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -58,10 +60,10 @@ public class RandomTableActivity extends AppCompatActivity {
 
         String resourceLocation = sourceIntent.getStringExtra(EXTRA_TABLE_DATABASE_RESOURCE_LOCATION);
         DBAdapter adapter = new DBAdapter(this).open();
-        TableFile file = TableFile.createFromDB(resourceLocation, adapter);
+        tableFile = TableFile.createFromDB(resourceLocation, adapter);
         adapter.close();
 
-        if (file == null) {
+        if (tableFile == null) {
             Timber.e("Failed to obtain a table file from the DB with the location " + resourceLocation + "! Aborting activity!");
             //TODO handle this case better
             finish();
@@ -71,10 +73,10 @@ public class RandomTableActivity extends AppCompatActivity {
         TableCollectionContainer tableCollectionContainer = TableCollectionContainer.getTableCollectionContainer();
         if (!tableCollectionContainer.containsKey(resourceLocation)) {
             try {
-                if (file.isExternal()) {
+                if (tableFile.isExternal()) {
                     //TODO Load external file
                 } else {
-                    table = TableReader.readTable(getResources().openRawResource(file.getResourceID(this)));
+                    table = TableReader.readTable(getResources().openRawResource(tableFile.getResourceID(this)));
                 }
                 tableCollectionContainer.put(resourceLocation, table);
             } catch (IOException e) {
@@ -209,11 +211,27 @@ public class RandomTableActivity extends AppCompatActivity {
             case R.id.random_table_activity_reset:
                 resetTable();
                 break;
+            case R.id.random_table_activity_fav:
+                setTableFavorite(true);
+                break;
+            case R.id.random_table_activity_unfav:
+                setTableFavorite(false);
+                break;
             default:
                 Timber.w("Unknown menu in RandomTableActivity");
                 break;
         }
         return super.onOptionsItemSelected(item);
+    }
+
+    private void setTableFavorite(boolean favorite) {
+        int text;
+        if (favorite) text = R.string.info_added_to_favs;
+        else text = R.string.info_removed_from_favs;
+
+        Toast.makeText(this, getString(text, tableFile.getTitle()), Toast.LENGTH_LONG).show();
+        tableFile.setFavorite(this, favorite);
+        invalidateOptionsMenu();
     }
 
     public void resetTable() {
@@ -227,11 +245,20 @@ public class RandomTableActivity extends AppCompatActivity {
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.random_table_activity_menu, menu);
         // Disable "Open on reddit" if no reference is given
+        // TODO this could be optimised. See code below.
         if (!URLUtil.isValidUrl(table.getReference())) {
             MenuItem item = menu.findItem(R.id.random_table_activity_reference);
             item.setVisible(false);
             item.setEnabled(false);
         }
+
+        Timber.i("onCreateOptionsMenu() called -> tableFile is fav? " + tableFile.isFavorite(this));
+        if (tableFile.isFavorite(this)) {
+            menu.removeItem(R.id.random_table_activity_fav);
+        } else {
+            menu.removeItem(R.id.random_table_activity_unfav);
+        }
+
         return true;
     }
 

@@ -23,7 +23,7 @@ public class BehindTheTables extends Application {
 
     public static final String APP_TAG = "de.rub.btt.";
     public static final String PREFS_TAG = APP_TAG + "prefs_";
-    public static final String PREFS_LAST_KNOWN_VERSION = PREFS_TAG + "_last_known_version";
+    public static final String PREFS_LAST_KNOWN_VERSION = PREFS_TAG + "last_known_version";
 
     @Override
     public void onCreate() {

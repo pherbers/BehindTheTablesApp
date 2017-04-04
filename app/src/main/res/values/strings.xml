@@ -108,4 +108,14 @@
     <string name="action_toggle_fav">Toggle favourite</string>
     <string name="action_search">Search</string>
     <string name="action_search_detail">Search table</string>
+    <string name="action_fav">Add to favorites</string>
+    <string name="action_unfav">Remove from favorites</string>
+    <string name="search_query_support_fav_tag">favorites</string>
+    <string name="action_fav_detail">Do you want to add \'%1$s\' to your favorites?</string>
+    <string name="action_unfav_detail">Do you want to remove \'%1$s\' from your favorites?</string>
+
+    <string name="info_added_to_favs">\'%1$s\' added to favorites.</string>
+    <string name="info_removed_from_favs">\'%1$s\' removed from favorites.</string>
+    <string name="action_clear_favs">Clear favorites</string>
+    <string name="action_clear_favs_detail">Do you want to unfavorite all tables?\n\nCurrently favored: %1$d table(s)!</string>
 </resources>

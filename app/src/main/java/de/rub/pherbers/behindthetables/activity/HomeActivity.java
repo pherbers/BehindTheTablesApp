@@ -3,11 +3,14 @@ package de.rub.pherbers.behindthetables.activity;
 import android.Manifest;
 import android.app.SearchManager;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 import android.database.Cursor;
 import android.os.Bundle;
 import android.os.PersistableBundle;
+import android.preference.PreferenceManager;
 import android.provider.SearchRecentSuggestions;
 import android.support.annotation.Nullable;
 import android.support.design.widget.NavigationView;
@@ -17,6 +20,7 @@ import android.support.v4.view.MenuItemCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarActivity;
 import android.support.v7.app.ActionBarDrawerToggle;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.DividerItemDecoration;
 import android.support.v7.widget.LinearLayoutManager;
@@ -30,10 +34,12 @@ import android.view.SearchEvent;
 import android.view.View;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.EditText;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
+import java.util.HashSet;
 
 import de.rub.pherbers.behindthetables.BehindTheTables;
 import de.rub.pherbers.behindthetables.R;
@@ -58,6 +64,7 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
     private ArrayList<TableFile> foundTables, matchedTables;
     private RecyclerView list;
     private SearchView searchView;
+    private TableFileAdapter listAdapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -175,7 +182,7 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
         }
 
         Timber.i("List of displayed tables [count: " + foundTables.size() + "]: " + Arrays.toString(foundTables.toArray()));
-        list.setAdapter(new TableFileAdapter(this, foundTables));
+        displayFiles(foundTables);
     }
 
     private void updateDiscoveredFiles(String searchQuery) {
@@ -195,6 +202,12 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
                 matchedTables.add(f);
                 continue;
             }
+            if (f.isFavorite(this)) {
+                if (getString(R.string.search_query_support_fav_tag).contains(searchQuery)) {
+                    matchedTables.add(f);
+                    continue;
+                }
+            }
             if (f.getDescription().toLowerCase().contains(searchQuery)) {
                 matchedTables.add(f);
             }
@@ -204,7 +217,12 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
         Timber.i("Discovered tables that match search query: " + Arrays.toString(matchedTables.toArray()));
         Timber.i(matchedTables.size() + " / " + foundTables.size() + " apply to the search query.");
 
-        list.setAdapter(new TableFileAdapter(this, matchedTables));
+        displayFiles(matchedTables);
+    }
+
+    private void displayFiles(ArrayList<TableFile> tables) {
+        listAdapter = new TableFileAdapter(this, tables);
+        list.setAdapter(listAdapter);
     }
 
     private void onItemClicked(TableFile file) {
@@ -212,9 +230,79 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
         viewTableCollection(file);
     }
 
-    public void onItemLongClickd(TableFile file) {
+    public void onItemLongClickd(final TableFile file) {
         Timber.i("User long clicked: " + file.getTitle());
 
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setTitle(file.getTitle());
+        builder.setNegativeButton(android.R.string.cancel, new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialogInterface, int i) {
+                dialogInterface.cancel();
+            }
+        });
+
+        int icon;
+        int message;
+        if (file.isFavorite(this)) {
+            icon = R.drawable.ic_star_border_black_48dp;
+            message = R.string.action_unfav_detail;
+            builder.setPositiveButton(R.string.action_unfav, new DialogInterface.OnClickListener() {
+                @Override
+                public void onClick(DialogInterface dialogInterface, int i) {
+                    file.setFavorite(HomeActivity.this, false);
+                    Toast.makeText(HomeActivity.this, getString(R.string.info_removed_from_favs, file.getTitle()), Toast.LENGTH_LONG).show();
+                    listAdapter.notifyDataSetChanged();
+                }
+            });
+        } else {
+            icon = R.drawable.ic_star_black_48dp;
+            message = R.string.action_fav_detail;
+            builder.setPositiveButton(R.string.action_fav, new DialogInterface.OnClickListener() {
+                @Override
+                public void onClick(DialogInterface dialogInterface, int i) {
+                    file.setFavorite(HomeActivity.this, true);
+                    Toast.makeText(HomeActivity.this, getString(R.string.info_added_to_favs, file.getTitle()), Toast.LENGTH_LONG).show();
+                    listAdapter.notifyDataSetChanged();
+                }
+            });
+        }
+        builder.setMessage(getString(message, file.getTitle()));
+        builder.setIcon(icon);
+
+        builder.show();
+    }
+
+    private void requestClearFavs() {
+        SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(this);
+        int count = preferences.getStringSet(TableFile.PREFS_FAVORITE_TABLES, new HashSet<String>()).size();
+
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setIcon(R.drawable.ic_star_black_48dp);
+        builder.setTitle(R.string.app_name);
+        builder.setMessage(getString(R.string.action_clear_favs_detail, count));
+        builder.setNegativeButton(android.R.string.cancel, new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialogInterface, int i) {
+                dialogInterface.cancel();
+            }
+        });
+        builder.setPositiveButton(R.string.action_clear_favs, new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialogInterface, int i) {
+                dialogInterface.dismiss();
+                clearFavs();
+            }
+        });
+        builder.show();
+    }
+
+    private void clearFavs() {
+        SharedPreferences.Editor editor = PreferenceManager.getDefaultSharedPreferences(this).edit();
+        editor.putStringSet(TableFile.PREFS_FAVORITE_TABLES, new HashSet<String>());
+        editor.apply();
+
+        listAdapter.notifyDataSetChanged();
     }
 
     @Override
@@ -330,6 +418,9 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
                 DBAdapter adapter = new DBAdapter(this).open();
                 adapter.fillWithDefaultData(this);
                 adapter.close();
+                break;
+            case R.id.action_clar_favs:
+                requestClearFavs();
                 break;
             default:
                 Timber.w("Unknown menu item selected.");
