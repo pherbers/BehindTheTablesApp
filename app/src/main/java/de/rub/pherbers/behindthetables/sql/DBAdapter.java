@@ -21,6 +21,7 @@ import static de.rub.pherbers.behindthetables.BehindTheTables.APP_TAG;
 
 public class DBAdapter extends Observable {
 
+    public static final long CATEGORY_NOT_FOUND = -1;
     public static final char LINK_COLLECTION_SEPARATOR = ';';
 
     // DB Fields
@@ -34,6 +35,7 @@ public class DBAdapter extends Observable {
     public static final String KEY_TABLE_COLLECTION_USE_WITH = "use_with";
     public static final String KEY_TABLE_COLLECTION_RELATED_TABLES = "related_tables";
     public static final String KEY_TABLE_COLLECTION_DESCRIPTION = "description";
+    public static final String KEY_TABLE_COLLECTION_CATEGORY_ID = "category_id";
 
     public static final String KEY_CATEGORY_TITLE = "title";
 
@@ -41,9 +43,10 @@ public class DBAdapter extends Observable {
     public static final int COL_TABLE_COLLECTION_LOCATION = 0;
     public static final int COL_TABLE_COLLECTION_TITLE = 1;
     public static final int COL_TABLE_COLLECTION_KEYWORDS = 2;
-    public static final int COL_TABLE_COLLECTION_USE_WITH = 43;
+    public static final int COL_TABLE_COLLECTION_USE_WITH = 3;
     public static final int COL_TABLE_COLLECTION_RELATED_TABLES = 4;
     public static final int COL_TABLE_COLLECTION_DESCRIPTION = 5;
+    public static final int COL_TABLE_COLLECTION_CATEGORY_ID = 6;
 
     public static final int COL_CATEGORY_TITLE = 1;
 
@@ -56,7 +59,7 @@ public class DBAdapter extends Observable {
     public static final String DATABASE_TABLE_CATEGORY = "Category";
 
     // Tracking DB version if a new version of the app changes the format.
-    public static final int DATABASE_VERSION = 3;
+    public static final int DATABASE_VERSION = 4;
 
     private static final String DATABASE_TABLE_COLLECTION_CREATE_SQL =
             "create table " +DATABASE_TABLE_TABLE_COLLECTION
@@ -71,7 +74,8 @@ public class DBAdapter extends Observable {
                     + KEY_TABLE_COLLECTION_KEYWORDS + " text not null, "
                     + KEY_TABLE_COLLECTION_USE_WITH + " integer not null, "
                     + KEY_TABLE_COLLECTION_RELATED_TABLES + " text not null, "
-                    + KEY_TABLE_COLLECTION_DESCRIPTION + " text not null "
+                    + KEY_TABLE_COLLECTION_DESCRIPTION + " text not null, "
+                    + KEY_TABLE_COLLECTION_CATEGORY_ID + " integer not null "
                     // Rest  of creation:
                     + ");";
 
@@ -139,6 +143,15 @@ public class DBAdapter extends Observable {
         return c;
     }
 
+    public synchronized Cursor getAllTableCollections(long categoryID) {
+        String where = DATABASE_TABLE_TABLE_COLLECTION+"."+KEY_TABLE_COLLECTION_CATEGORY_ID+"="+categoryID;
+        Cursor c = db.query(true, DATABASE_TABLE_TABLE_COLLECTION, ALL_KEYS_TABLE_COLLECTION, where, null, null, null, null, null);
+        if (c != null) {
+            c.moveToFirst();
+        }
+        return c;
+    }
+
     public synchronized Cursor getAllCategories() {
         String where = null;
         Cursor c = db.query(true, DATABASE_TABLE_CATEGORY, ALL_KEYS_CATEGORY, where, null, null, null, null, null);
@@ -171,6 +184,19 @@ public class DBAdapter extends Observable {
         Timber.w("Database size after init = " + getAllTableCollections().getCount() + ". Filling took " + (new Date().getTime() - timestamp) + " ms.");
     }
 
+    public long existsCategory(String title){
+        String where = KEY_CATEGORY_TITLE + "='" + title + "'";
+        long ret = CATEGORY_NOT_FOUND;
+
+        Cursor c = db.query(true,DATABASE_TABLE_CATEGORY,ALL_KEYS_CATEGORY,where,null,null,null,null,null);
+        if(c.moveToFirst()){
+            ret= c.getLong(COL_CATEGORY_ROWID);
+        }
+
+        c.close();
+        return ret;
+    }
+
     // Get a specific row (by rowId)
     public Cursor getTableCollection(String resourceLocation) {
         String where = KEY_TABLE_COLLECTION_RESOURCE_LOCATION + "='" + resourceLocation + "'";
@@ -192,7 +218,7 @@ public class DBAdapter extends Observable {
         return c;
     }
 
-    public long insertTableCollection(String resourceLocation, String title, String description, String keywords, String useWith, String relatedTables) {
+    public long insertTableCollection(String resourceLocation, String title, String description, String keywords, String useWith, String relatedTables, long categoryID) {
         ContentValues initialValues = new ContentValues();
         initialValues.put(KEY_TABLE_COLLECTION_RESOURCE_LOCATION, resourceLocation);
         initialValues.put(KEY_TABLE_COLLECTION_TITLE, title);
@@ -200,6 +226,7 @@ public class DBAdapter extends Observable {
         initialValues.put(KEY_TABLE_COLLECTION_KEYWORDS, keywords);
         initialValues.put(KEY_TABLE_COLLECTION_USE_WITH, useWith);
         initialValues.put(KEY_TABLE_COLLECTION_RELATED_TABLES, relatedTables);
+        initialValues.put(KEY_TABLE_COLLECTION_CATEGORY_ID, categoryID);
 
         long l = db.insert(DATABASE_TABLE_TABLE_COLLECTION, null, initialValues);
 
@@ -219,7 +246,7 @@ public class DBAdapter extends Observable {
     }
 
     // Change an existing row to be equal to new data.
-    public int updateTableCollection(String resourceLocation, String title, String description, String keywords, String useWith, String relatedTables) {
+    public int updateTableCollection(String resourceLocation, String title, String description, String keywords, String useWith, String relatedTables, long categoryID) {
         String where = KEY_TABLE_COLLECTION_RESOURCE_LOCATION + "='" + resourceLocation + "'";
 
         ContentValues newValues = new ContentValues();
@@ -229,6 +256,7 @@ public class DBAdapter extends Observable {
         newValues.put(KEY_TABLE_COLLECTION_USE_WITH, useWith);
         newValues.put(KEY_TABLE_COLLECTION_RELATED_TABLES, relatedTables);
         newValues.put(KEY_TABLE_COLLECTION_TITLE, title);
+        newValues.put(KEY_TABLE_COLLECTION_CATEGORY_ID, categoryID);
 
         // Insert it into the database.
         int rows = db.update(DATABASE_TABLE_TABLE_COLLECTION, newValues, where, null);

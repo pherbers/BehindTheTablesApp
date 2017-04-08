@@ -49,6 +49,7 @@ public class TableSelectActivity extends AppCompatActivity implements Navigation
 
     public static final String INSTANCE_SCROLL_POSITION = APP_TAG + "home_scroll_position";
     public static final String INSTANCE_SEARCH_QUERY = APP_TAG + "home_search_query";
+    public static final String EXTRA_CATEGORY_DISCRIMINATOR = APP_TAG+"extra_category_discriminator";
 
     private String bufferedSearchQuery;
     private ArrayList<TableFile> foundTables, matchedTables;
@@ -144,9 +145,20 @@ public class TableSelectActivity extends AppCompatActivity implements Navigation
         matchedTables = null;
         foundTables = new ArrayList<>();
 
-        //Discovering JSONs from DB
+        Intent intent = getIntent();
         DBAdapter adapter = new DBAdapter(this).open();
-        Cursor cursor = adapter.getAllTableCollections();
+
+        Cursor cursor;
+        if (intent.hasExtra(EXTRA_CATEGORY_DISCRIMINATOR)){
+            long discriminator = intent.getLongExtra(EXTRA_CATEGORY_DISCRIMINATOR,-1);
+            Timber.i("Category discriminator: "+discriminator);
+            cursor = adapter.getAllTableCollections(discriminator);
+        }else{
+            Timber.i("No category specified. Displaying all tables.");
+            cursor = adapter.getAllTableCollections();
+        }
+
+        //Discovering JSONs from DB
         while (cursor.moveToNext()) {
             String res = cursor.getString(DBAdapter.COL_TABLE_COLLECTION_LOCATION);
             foundTables.add(TableFile.createFromDB(res, adapter));

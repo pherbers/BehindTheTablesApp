@@ -55,7 +55,9 @@ public abstract class DefaultTables {
 
                 Timber.i(raw_filename + " -> reddit ID: " + redditID + " title: " + title + ", keywords: " + keywords + ", catgetory: " + category + "!");
 
-                adapter.insertTableCollection(raw_filename, title, description, keywords, useWith, relatedTables);
+                long categoryID = handleCategory(adapter,category);
+
+                adapter.insertTableCollection(raw_filename, title, description, keywords, useWith, relatedTables,categoryID);
                 //int id = context.getResources().getIdentifier(raw_filename, "raw", context.getPackageName());
                 //Timber.i("Read through the meta.json. Filename: " + raw_filename + " -> '" + title + "'. Resource ID: " + id);
                 //adapter.insertRow(title,String.valueOf(id),"",0);
@@ -67,6 +69,16 @@ public abstract class DefaultTables {
         }
 
         return true;
+    }
+
+    private static  long handleCategory(DBAdapter adapter,String category){
+        long categoryRow = adapter.existsCategory(category);
+
+        if(categoryRow == DBAdapter.CATEGORY_NOT_FOUND){
+            categoryRow = adapter.insertCategory(category);
+        }
+
+        return categoryRow;
     }
 
     private static String extractJSONArray(JSONArray array) throws JSONException {
