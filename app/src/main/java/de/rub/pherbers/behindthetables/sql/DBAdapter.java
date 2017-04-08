@@ -24,8 +24,8 @@ public class DBAdapter extends Observable {
     public static final char LINK_COLLECTION_SEPARATOR = ';';
 
     // DB Fields
-    //public static final String KEY_ROWID = "_id";
-    //public static final int COL_ROWID = 0;
+    public static final String KEY_CATEGORY_ROWID = "_id";
+    public static final int COL_CATEGORY_ROWID = 0;
 
     // Entry col names
     public static final String KEY_TABLE_COLLECTION_RESOURCE_LOCATION = "resource_location";
@@ -35,6 +35,8 @@ public class DBAdapter extends Observable {
     public static final String KEY_TABLE_COLLECTION_RELATED_TABLES = "related_tables";
     public static final String KEY_TABLE_COLLECTION_DESCRIPTION = "description";
 
+    public static final String KEY_CATEGORY_TITLE = "title";
+
     // field numbers (0 is reserved for ID!)
     public static final int COL_TABLE_COLLECTION_LOCATION = 0;
     public static final int COL_TABLE_COLLECTION_TITLE = 1;
@@ -43,16 +45,21 @@ public class DBAdapter extends Observable {
     public static final int COL_TABLE_COLLECTION_RELATED_TABLES = 4;
     public static final int COL_TABLE_COLLECTION_DESCRIPTION = 5;
 
-    public static final String[] ALL_KEYS = new String[]{KEY_TABLE_COLLECTION_RESOURCE_LOCATION, KEY_TABLE_COLLECTION_TITLE, KEY_TABLE_COLLECTION_KEYWORDS, KEY_TABLE_COLLECTION_USE_WITH, KEY_TABLE_COLLECTION_RELATED_TABLES, KEY_TABLE_COLLECTION_DESCRIPTION};
+    public static final int COL_CATEGORY_TITLE = 1;
+
+    public static final String[] ALL_KEYS_TABLE_COLLECTION = new String[]{KEY_TABLE_COLLECTION_RESOURCE_LOCATION, KEY_TABLE_COLLECTION_TITLE, KEY_TABLE_COLLECTION_KEYWORDS, KEY_TABLE_COLLECTION_USE_WITH, KEY_TABLE_COLLECTION_RELATED_TABLES, KEY_TABLE_COLLECTION_DESCRIPTION};
+    public static final String[] ALL_KEYS_CATEGORY = new String[]{KEY_CATEGORY_ROWID,KEY_CATEGORY_TITLE};
+
 
     public static final String DATABASE_NAME = APP_TAG + "database";
-    public static final String DATABASE_TABLE = "TableCollectionIndex";
+    public static final String DATABASE_TABLE_TABLE_COLLECTION = "TableCollectionIndex";
+    public static final String DATABASE_TABLE_CATEGORY = "Category";
 
     // Tracking DB version if a new version of the app changes the format.
-    public static final int DATABASE_VERSION = 2;
+    public static final int DATABASE_VERSION = 3;
 
-    private static final String DATABASE_CREATE_SQL =
-            "create table " + DATABASE_TABLE
+    private static final String DATABASE_TABLE_COLLECTION_CREATE_SQL =
+            "create table " +DATABASE_TABLE_TABLE_COLLECTION
                     + " (" + KEY_TABLE_COLLECTION_RESOURCE_LOCATION + " text primary key, "
                     // + KEY_{...} + " {type} not null"
                     //	- Key is the column name you created above.
@@ -67,6 +74,10 @@ public class DBAdapter extends Observable {
                     + KEY_TABLE_COLLECTION_DESCRIPTION + " text not null "
                     // Rest  of creation:
                     + ");";
+
+    private static final String DATABASE_CATEGORY_CREATE_SQL =
+            "create table "+DATABASE_TABLE_CATEGORY + " ("+ KEY_CATEGORY_ROWID+" integer primary key, "
+            + KEY_CATEGORY_TITLE+" text not null);";
 
     private DatabaseHelper myDBHelper;
     private SQLiteDatabase db;
@@ -92,9 +103,9 @@ public class DBAdapter extends Observable {
         myDBHelper.close();
     }
 
-    public boolean deleteRow(String resourceLocation) {
+    public boolean deleteTableCollection(String resourceLocation) {
         String where = KEY_TABLE_COLLECTION_RESOURCE_LOCATION + "='" + resourceLocation + "'";
-        boolean b = db.delete(DATABASE_TABLE, where, null) != 0;
+        boolean b = db.delete(DATABASE_TABLE_TABLE_COLLECTION, where, null) != 0;
 
         setChanged();
         notifyObservers();
@@ -102,7 +113,7 @@ public class DBAdapter extends Observable {
         return b;
     }
 
-    public void deleteAll() {
+    public void deleteAll(String tableName) {
         //Cursor c = getAllRows();
         //long rowId = c.getColumnIndexOrThrow(KEY_ROWID);
         //if (c.moveToFirst()) {
@@ -112,16 +123,25 @@ public class DBAdapter extends Observable {
         //}
         //c.close();
 
-        db.delete(DATABASE_TABLE, null, null);
+        db.delete(tableName, null, null);
         Timber.w("All SQL Entries have been deleted.");
 
         setChanged();
         notifyObservers();
     }
 
-    public synchronized Cursor getAllRows() {
+    public synchronized Cursor getAllTableCollections() {
         String where = null;
-        Cursor c = db.query(true, DATABASE_TABLE, ALL_KEYS, where, null, null, null, null, null);
+        Cursor c = db.query(true, DATABASE_TABLE_TABLE_COLLECTION, ALL_KEYS_TABLE_COLLECTION, where, null, null, null, null, null);
+        if (c != null) {
+            c.moveToFirst();
+        }
+        return c;
+    }
+
+    public synchronized Cursor getAllCategories() {
+        String where = null;
+        Cursor c = db.query(true, DATABASE_TABLE_CATEGORY, ALL_KEYS_CATEGORY, where, null, null, null, null, null);
         if (c != null) {
             c.moveToFirst();
         }
@@ -130,7 +150,8 @@ public class DBAdapter extends Observable {
 
     public void fillWithDefaultData(Context context) {
         //TODO implement
-        deleteAll();
+        deleteAll(DATABASE_TABLE_TABLE_COLLECTION);
+        deleteAll(DATABASE_TABLE_CATEGORY);
 
         Timber.w("The database was newly set up and is filled with default data now!");
         long timestamp = new Date().getTime();
@@ -147,13 +168,13 @@ public class DBAdapter extends Observable {
             //TODO error handling
         }
 
-        Timber.w("Database size after init = " + getAllRows().getCount() + ". Filling took " + (new Date().getTime() - timestamp) + " ms.");
+        Timber.w("Database size after init = " + getAllTableCollections().getCount() + ". Filling took " + (new Date().getTime() - timestamp) + " ms.");
     }
 
     // Get a specific row (by rowId)
-    public Cursor getRow(String resourceLocation) {
+    public Cursor getTableCollection(String resourceLocation) {
         String where = KEY_TABLE_COLLECTION_RESOURCE_LOCATION + "='" + resourceLocation + "'";
-        Cursor c = db.query(true, DATABASE_TABLE, null,
+        Cursor c = db.query(true, DATABASE_TABLE_TABLE_COLLECTION, null,
                 where, null, null, null, null, null);
         if (c != null) {
             c.moveToFirst();
@@ -161,7 +182,17 @@ public class DBAdapter extends Observable {
         return c;
     }
 
-    public long insertRow(String resourceLocation, String title, String description, String keywords, String useWith, String relatedTables) {
+    public Cursor getCategory(long id) {
+        String where = KEY_CATEGORY_ROWID + "=" +id ;
+        Cursor c = db.query(true, DATABASE_TABLE_CATEGORY, null,
+                where, null, null, null, null, null);
+        if (c != null) {
+            c.moveToFirst();
+        }
+        return c;
+    }
+
+    public long insertTableCollection(String resourceLocation, String title, String description, String keywords, String useWith, String relatedTables) {
         ContentValues initialValues = new ContentValues();
         initialValues.put(KEY_TABLE_COLLECTION_RESOURCE_LOCATION, resourceLocation);
         initialValues.put(KEY_TABLE_COLLECTION_TITLE, title);
@@ -170,7 +201,7 @@ public class DBAdapter extends Observable {
         initialValues.put(KEY_TABLE_COLLECTION_USE_WITH, useWith);
         initialValues.put(KEY_TABLE_COLLECTION_RELATED_TABLES, relatedTables);
 
-        long l = db.insert(DATABASE_TABLE, null, initialValues);
+        long l = db.insert(DATABASE_TABLE_TABLE_COLLECTION, null, initialValues);
 
         setChanged();
         notifyObservers();
@@ -178,8 +209,17 @@ public class DBAdapter extends Observable {
         return l;
     }
 
+    public long insertCategory(String title) {
+        ContentValues initialValues = new ContentValues();
+        initialValues.put(KEY_CATEGORY_TITLE, title);
+
+        long l = db.insert(DATABASE_TABLE_CATEGORY, null, initialValues);
+
+        return l;
+    }
+
     // Change an existing row to be equal to new data.
-    public int updateRow(String resourceLocation, String title, String description, String keywords, String useWith, String relatedTables) {
+    public int updateTableCollection(String resourceLocation, String title, String description, String keywords, String useWith, String relatedTables) {
         String where = KEY_TABLE_COLLECTION_RESOURCE_LOCATION + "='" + resourceLocation + "'";
 
         ContentValues newValues = new ContentValues();
@@ -191,10 +231,22 @@ public class DBAdapter extends Observable {
         newValues.put(KEY_TABLE_COLLECTION_TITLE, title);
 
         // Insert it into the database.
-        int rows = db.update(DATABASE_TABLE, newValues, where, null);
+        int rows = db.update(DATABASE_TABLE_TABLE_COLLECTION, newValues, where, null);
 
         setChanged();
         notifyObservers();
+
+        return rows;
+    }
+
+    public int updateTableCategory(long id, String title) {
+        String where = ALL_KEYS_CATEGORY + "=" + id;
+
+        ContentValues newValues = new ContentValues();
+        newValues.put(KEY_CATEGORY_TITLE, title);
+
+        // Insert it into the database.
+        int rows = db.update(DATABASE_TABLE_CATEGORY, newValues, where, null);
 
         return rows;
     }
@@ -214,7 +266,8 @@ public class DBAdapter extends Observable {
 
         @Override
         public void onCreate(SQLiteDatabase _db) {
-            _db.execSQL(DATABASE_CREATE_SQL);
+            _db.execSQL(DATABASE_TABLE_COLLECTION_CREATE_SQL);
+            _db.execSQL(DATABASE_CATEGORY_CREATE_SQL);
             Timber.i("Set up a new database without problems! Database ID: " + DATABASE_NAME);
 
             setupRequired = true;
@@ -225,7 +278,8 @@ public class DBAdapter extends Observable {
             Timber.i("Upgrading application's database from version " + oldVersion + " to " + newVersion + ", which will destroy all old data!");
 
             // Destroy old database:
-            _db.execSQL("DROP TABLE IF EXISTS " + DATABASE_TABLE);
+            _db.execSQL("DROP TABLE IF EXISTS " + DATABASE_TABLE_CATEGORY);
+            _db.execSQL("DROP TABLE IF EXISTS " + DATABASE_TABLE_TABLE_COLLECTION);
 
             // Recreate new database:
             onCreate(_db);

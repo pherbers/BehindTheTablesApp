@@ -45,7 +45,7 @@ public class TableFile implements Comparable<TableFile> {
     public static TableFile createFromDB(String resourceLocation, DBAdapter adapter) {
         TableFile file = createEmpty();
 
-        Cursor c = adapter.getRow(resourceLocation);
+        Cursor c = adapter.getTableCollection(resourceLocation);
         if (!c.moveToFirst()) {
             throw new IllegalArgumentException("Table entry '" + resourceLocation + "' does not exist in the DB!");
         }

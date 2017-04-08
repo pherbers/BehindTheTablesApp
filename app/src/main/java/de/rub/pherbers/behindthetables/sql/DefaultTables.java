@@ -55,7 +55,7 @@ public abstract class DefaultTables {
 
                 Timber.i(raw_filename + " -> reddit ID: " + redditID + " title: " + title + ", keywords: " + keywords + ", catgetory: " + category + "!");
 
-                adapter.insertRow(raw_filename, title, description, keywords, useWith, relatedTables);
+                adapter.insertTableCollection(raw_filename, title, description, keywords, useWith, relatedTables);
                 //int id = context.getResources().getIdentifier(raw_filename, "raw", context.getPackageName());
                 //Timber.i("Read through the meta.json. Filename: " + raw_filename + " -> '" + title + "'. Resource ID: " + id);
                 //adapter.insertRow(title,String.valueOf(id),"",0);

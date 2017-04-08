@@ -9,16 +9,13 @@ import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 import android.database.Cursor;
 import android.os.Bundle;
-import android.os.PersistableBundle;
 import android.preference.PreferenceManager;
 import android.provider.SearchRecentSuggestions;
-import android.support.annotation.Nullable;
 import android.support.design.widget.NavigationView;
 import android.support.v4.content.ContextCompat;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.view.MenuItemCompat;
 import android.support.v4.widget.DrawerLayout;
-import android.support.v7.app.ActionBarActivity;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
@@ -27,35 +24,28 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.SearchView;
 import android.support.v7.widget.Toolbar;
-import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.SearchEvent;
 import android.view.View;
 import android.view.inputmethod.InputMethodManager;
-import android.widget.EditText;
 import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collections;
 import java.util.HashSet;
 
 import de.rub.pherbers.behindthetables.BehindTheTables;
 import de.rub.pherbers.behindthetables.R;
-import de.rub.pherbers.behindthetables.adapter.RandomTableListAdapter;
 import de.rub.pherbers.behindthetables.adapter.TableFileAdapter;
 import de.rub.pherbers.behindthetables.data.TableFile;
 import de.rub.pherbers.behindthetables.sql.DBAdapter;
-import de.rub.pherbers.behindthetables.sql.DefaultTables;
 import de.rub.pherbers.behindthetables.util.TableSearchRecentSuggestionsProvider;
 import de.rub.pherbers.behindthetables.view.listener.RecyclerItemClickListener;
 import timber.log.Timber;
 
-import static android.provider.AlarmClock.EXTRA_MESSAGE;
 import static de.rub.pherbers.behindthetables.BehindTheTables.APP_TAG;
 
-public class HomeActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
+public class TableSelectActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
 
     public static final String INSTANCE_SCROLL_POSITION = APP_TAG + "home_scroll_position";
     public static final String INSTANCE_SEARCH_QUERY = APP_TAG + "home_search_query";
@@ -69,7 +59,7 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_home);
+        setContentView(R.layout.activity_table_select);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         matchedTables = null;
@@ -82,13 +72,6 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
         //				.setAction("Action", null).show();
         //	}
         //});
-
-        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
-        ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
-                this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
-        drawer.setDrawerListener(toggle);
-        toggle.syncState();
-        ((NavigationView) findViewById(R.id.nav_view)).setNavigationItemSelectedListener(this);
 
         list = (RecyclerView) findViewById(R.id.home_table_file_list);
         list.setHasFixedSize(true);
@@ -163,7 +146,7 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
 
         //Discovering JSONs from DB
         DBAdapter adapter = new DBAdapter(this).open();
-        Cursor cursor = adapter.getAllRows();
+        Cursor cursor = adapter.getAllTableCollections();
         while (cursor.moveToNext()) {
             String res = cursor.getString(DBAdapter.COL_TABLE_COLLECTION_LOCATION);
             foundTables.add(TableFile.createFromDB(res, adapter));
@@ -250,8 +233,8 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
             builder.setPositiveButton(R.string.action_unfav, new DialogInterface.OnClickListener() {
                 @Override
                 public void onClick(DialogInterface dialogInterface, int i) {
-                    file.setFavorite(HomeActivity.this, false);
-                    Toast.makeText(HomeActivity.this, getString(R.string.info_removed_from_favs, file.getTitle()), Toast.LENGTH_LONG).show();
+                    file.setFavorite(TableSelectActivity.this, false);
+                    Toast.makeText(TableSelectActivity.this, getString(R.string.info_removed_from_favs, file.getTitle()), Toast.LENGTH_LONG).show();
                     listAdapter.notifyDataSetChanged();
                 }
             });
@@ -261,8 +244,8 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
             builder.setPositiveButton(R.string.action_fav, new DialogInterface.OnClickListener() {
                 @Override
                 public void onClick(DialogInterface dialogInterface, int i) {
-                    file.setFavorite(HomeActivity.this, true);
-                    Toast.makeText(HomeActivity.this, getString(R.string.info_added_to_favs, file.getTitle()), Toast.LENGTH_LONG).show();
+                    file.setFavorite(TableSelectActivity.this, true);
+                    Toast.makeText(TableSelectActivity.this, getString(R.string.info_added_to_favs, file.getTitle()), Toast.LENGTH_LONG).show();
                     listAdapter.notifyDataSetChanged();
                 }
             });

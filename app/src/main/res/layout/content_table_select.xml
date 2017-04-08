@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="de.rub.pherbers.behindthetables.activity.HomeActivity"
+    tools:context="de.rub.pherbers.behindthetables.activity.TableSelectActivity"
     tools:showIn="@layout/app_bar_home">
 
     <android.support.v7.widget.RecyclerView
