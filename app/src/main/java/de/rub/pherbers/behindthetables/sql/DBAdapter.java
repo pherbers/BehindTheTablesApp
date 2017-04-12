@@ -51,7 +51,7 @@ public class DBAdapter extends Observable {
     public static final int COL_CATEGORY_TITLE = 1;
 
     public static final String[] ALL_KEYS_TABLE_COLLECTION = new String[]{KEY_TABLE_COLLECTION_RESOURCE_LOCATION, KEY_TABLE_COLLECTION_TITLE, KEY_TABLE_COLLECTION_KEYWORDS, KEY_TABLE_COLLECTION_USE_WITH, KEY_TABLE_COLLECTION_RELATED_TABLES, KEY_TABLE_COLLECTION_DESCRIPTION};
-    public static final String[] ALL_KEYS_CATEGORY = new String[]{KEY_CATEGORY_ROWID,KEY_CATEGORY_TITLE};
+    public static final String[] ALL_KEYS_CATEGORY = new String[]{KEY_CATEGORY_ROWID, KEY_CATEGORY_TITLE};
 
 
     public static final String DATABASE_NAME = APP_TAG + "database";
@@ -62,7 +62,7 @@ public class DBAdapter extends Observable {
     public static final int DATABASE_VERSION = 4;
 
     private static final String DATABASE_TABLE_COLLECTION_CREATE_SQL =
-            "create table " +DATABASE_TABLE_TABLE_COLLECTION
+            "create table " + DATABASE_TABLE_TABLE_COLLECTION
                     + " (" + KEY_TABLE_COLLECTION_RESOURCE_LOCATION + " text primary key, "
                     // + KEY_{...} + " {type} not null"
                     //	- Key is the column name you created above.
@@ -80,8 +80,8 @@ public class DBAdapter extends Observable {
                     + ");";
 
     private static final String DATABASE_CATEGORY_CREATE_SQL =
-            "create table "+DATABASE_TABLE_CATEGORY + " ("+ KEY_CATEGORY_ROWID+" integer primary key, "
-            + KEY_CATEGORY_TITLE+" text not null);";
+            "create table " + DATABASE_TABLE_CATEGORY + " (" + KEY_CATEGORY_ROWID + " integer primary key, "
+                    + KEY_CATEGORY_TITLE + " text not null);";
 
     private DatabaseHelper myDBHelper;
     private SQLiteDatabase db;
@@ -144,7 +144,7 @@ public class DBAdapter extends Observable {
     }
 
     public synchronized Cursor getAllTableCollections(long categoryID) {
-        String where = DATABASE_TABLE_TABLE_COLLECTION+"."+KEY_TABLE_COLLECTION_CATEGORY_ID+"="+categoryID;
+        String where = DATABASE_TABLE_TABLE_COLLECTION + "." + KEY_TABLE_COLLECTION_CATEGORY_ID + "=" + categoryID;
         Cursor c = db.query(true, DATABASE_TABLE_TABLE_COLLECTION, ALL_KEYS_TABLE_COLLECTION, where, null, null, null, null, null);
         if (c != null) {
             c.moveToFirst();
@@ -152,13 +152,16 @@ public class DBAdapter extends Observable {
         return c;
     }
 
-    public synchronized Cursor getAllCategories() {
-        String where = null;
-        Cursor c = db.query(true, DATABASE_TABLE_CATEGORY, ALL_KEYS_CATEGORY, where, null, null, null, null, null);
+    public synchronized Cursor getAllCategories(String orderBy) {
+        Cursor c = db.query(true, DATABASE_TABLE_CATEGORY, ALL_KEYS_CATEGORY, null, null, null, null, orderBy, null);
         if (c != null) {
             c.moveToFirst();
         }
         return c;
+    }
+
+    public synchronized Cursor getAllCategories() {
+        return getAllCategories(null);
     }
 
     public void fillWithDefaultData(Context context) {
@@ -184,13 +187,13 @@ public class DBAdapter extends Observable {
         Timber.w("Database size after init = " + getAllTableCollections().getCount() + ". Filling took " + (new Date().getTime() - timestamp) + " ms.");
     }
 
-    public long existsCategory(String title){
+    public long existsCategory(String title) {
         String where = KEY_CATEGORY_TITLE + "='" + title + "'";
         long ret = CATEGORY_NOT_FOUND;
 
-        Cursor c = db.query(true,DATABASE_TABLE_CATEGORY,ALL_KEYS_CATEGORY,where,null,null,null,null,null);
-        if(c.moveToFirst()){
-            ret= c.getLong(COL_CATEGORY_ROWID);
+        Cursor c = db.query(true, DATABASE_TABLE_CATEGORY, ALL_KEYS_CATEGORY, where, null, null, null, null, null);
+        if (c.moveToFirst()) {
+            ret = c.getLong(COL_CATEGORY_ROWID);
         }
 
         c.close();
@@ -209,7 +212,7 @@ public class DBAdapter extends Observable {
     }
 
     public Cursor getCategory(long id) {
-        String where = KEY_CATEGORY_ROWID + "=" +id ;
+        String where = KEY_CATEGORY_ROWID + "=" + id;
         Cursor c = db.query(true, DATABASE_TABLE_CATEGORY, null,
                 where, null, null, null, null, null);
         if (c != null) {

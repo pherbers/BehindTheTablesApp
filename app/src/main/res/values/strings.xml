@@ -118,4 +118,7 @@
     <string name="info_removed_from_favs">\'%1$s\' removed from favorites.</string>
     <string name="action_clear_favs">Clear favorites</string>
     <string name="action_clear_favs_detail">Do you want to unfavorite all tables?\n\nCurrently favored: %1$d table(s)!</string>
+    <string name="action_select_category_instruction">Select a category</string>
+    <string name="category_all">All categories</string>
+    <string name="category_favs">Favorites only</string>
 </resources>

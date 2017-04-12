@@ -16,7 +16,7 @@ import android.support.v4.content.ContextCompat;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.view.MenuItemCompat;
 import android.support.v4.widget.DrawerLayout;
-import android.support.v7.app.ActionBarDrawerToggle;
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.DividerItemDecoration;
@@ -49,13 +49,17 @@ public class TableSelectActivity extends AppCompatActivity implements Navigation
 
     public static final String INSTANCE_SCROLL_POSITION = APP_TAG + "home_scroll_position";
     public static final String INSTANCE_SEARCH_QUERY = APP_TAG + "home_search_query";
-    public static final String EXTRA_CATEGORY_DISCRIMINATOR = APP_TAG+"extra_category_discriminator";
+
+    public static final String EXTRA_CATEGORY_DISCRIMINATOR = APP_TAG + "extra_category_discriminator";
+    public static final String EXTRA_FAVS_ONLY = APP_TAG + "extra_favs_only";
 
     private String bufferedSearchQuery;
     private ArrayList<TableFile> foundTables, matchedTables;
     private RecyclerView list;
     private SearchView searchView;
     private TableFileAdapter listAdapter;
+
+    private boolean favsOnly;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -73,6 +77,31 @@ public class TableSelectActivity extends AppCompatActivity implements Navigation
         //				.setAction("Action", null).show();
         //	}
         //});
+
+        Intent intent = getIntent();
+        favsOnly = intent.getBooleanExtra(EXTRA_FAVS_ONLY, false);
+
+        ActionBar bar = getSupportActionBar();
+        if (bar != null) {
+            bar.setDisplayHomeAsUpEnabled(true);
+            bar.setTitle(R.string.app_name);
+
+            if (favsOnly) {
+                bar.setSubtitle(R.string.category_favs);
+            } else {
+                if (intent.hasExtra(EXTRA_CATEGORY_DISCRIMINATOR)) {
+                    DBAdapter adapter = new DBAdapter(this).open();
+                    Cursor c = adapter.getCategory(intent.getLongExtra(EXTRA_CATEGORY_DISCRIMINATOR, -1));
+                    if (c.moveToFirst()) {
+                        bar.setSubtitle(c.getString(DBAdapter.COL_CATEGORY_TITLE));
+                    } else {
+                        bar.setSubtitle(R.string.category_all);
+                    }
+                } else {
+                    bar.setSubtitle(R.string.category_all);
+                }
+            }
+        }
 
         list = (RecyclerView) findViewById(R.id.home_table_file_list);
         list.setHasFixedSize(true);
@@ -149,19 +178,26 @@ public class TableSelectActivity extends AppCompatActivity implements Navigation
         DBAdapter adapter = new DBAdapter(this).open();
 
         Cursor cursor;
-        if (intent.hasExtra(EXTRA_CATEGORY_DISCRIMINATOR)){
-            long discriminator = intent.getLongExtra(EXTRA_CATEGORY_DISCRIMINATOR,-1);
-            Timber.i("Category discriminator: "+discriminator);
+        if (intent.hasExtra(EXTRA_CATEGORY_DISCRIMINATOR)) {
+            long discriminator = intent.getLongExtra(EXTRA_CATEGORY_DISCRIMINATOR, -1);
+            Timber.i("Category discriminator: " + discriminator);
             cursor = adapter.getAllTableCollections(discriminator);
-        }else{
-            Timber.i("No category specified. Displaying all tables.");
+        } else {
+            Timber.i("No category discriminator specified. Displaying all tables.");
             cursor = adapter.getAllTableCollections();
         }
 
         //Discovering JSONs from DB
         while (cursor.moveToNext()) {
             String res = cursor.getString(DBAdapter.COL_TABLE_COLLECTION_LOCATION);
-            foundTables.add(TableFile.createFromDB(res, adapter));
+            TableFile file = TableFile.createFromDB(res, adapter);
+            if (favsOnly) {
+                if (file.isFavorite(this)) {
+                    foundTables.add(file);
+                }
+            } else {
+                foundTables.add(file);
+            }
             //long id = cursor.getLong(DBAdapter.COL_ROWID);
             //foundTables.add(TableFile.getFromDB(id, adapter));
         }
@@ -344,7 +380,7 @@ public class TableSelectActivity extends AppCompatActivity implements Navigation
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.menu_home, menu);
+        getMenuInflater().inflate(R.menu.menu_table_select, menu);
 
         if (!BehindTheTables.isDebugBuild()) {
             menu.removeItem(R.id.action_debug_reset_db);
@@ -416,6 +452,9 @@ public class TableSelectActivity extends AppCompatActivity implements Navigation
                 break;
             case R.id.action_clar_favs:
                 requestClearFavs();
+                break;
+            case android.R.id.home:
+                finish();
                 break;
             default:
                 Timber.w("Unknown menu item selected.");

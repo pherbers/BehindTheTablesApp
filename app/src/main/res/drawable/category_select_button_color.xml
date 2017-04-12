@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:shape="rectangle">
+            <solid
+                android:color="@android:color/black"/>
+        </shape>
+    </item>
+
+    <item>
+        <inset
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:drawable="@drawable/category_select_button_color_inside"
+            android:insetTop="@dimen/category_button_border_size"
+            android:insetRight="@dimen/category_button_border_size"
+            android:insetBottom="@dimen/category_button_border_size"
+            android:insetLeft="@dimen/category_button_border_size" />
+      <!--  <shape
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:shape="rectangle">
+            <solid
+                android:color="@color/colorAccent"/>
+        </shape> -->
+    </item>
+
+</layer-list>
+
+    <!--
+    <shape
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:shape="rectangle">
+
+        <solid
+            android:color="@android:color/black"/>
+
+    </shape> -->
+
+
+
