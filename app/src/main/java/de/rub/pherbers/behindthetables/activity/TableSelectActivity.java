@@ -5,11 +5,9 @@ import android.app.SearchManager;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
-import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 import android.database.Cursor;
 import android.os.Bundle;
-import android.preference.PreferenceManager;
 import android.provider.SearchRecentSuggestions;
 import android.support.design.widget.NavigationView;
 import android.support.v4.content.ContextCompat;
@@ -32,9 +30,8 @@ import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.HashSet;
+import java.util.Random;
 
-import de.rub.pherbers.behindthetables.BehindTheTables;
 import de.rub.pherbers.behindthetables.R;
 import de.rub.pherbers.behindthetables.adapter.TableFileAdapter;
 import de.rub.pherbers.behindthetables.data.TableFile;
@@ -157,6 +154,17 @@ public class TableSelectActivity extends AppCompatActivity implements Navigation
         //			new String[]{Manifest.permission.WRITE_EXTERNAL_STORAGE},
         //			PERMISSION_REQUEST_CODE);
         //}
+    }
+
+    public void viewTableCollection(Random random) {
+        ArrayList<TableFile> list;
+        if (matchedTables == null) {
+            list = new ArrayList<>(foundTables);
+        } else {
+            list = new ArrayList<>(matchedTables);
+        }
+
+        viewTableCollection(list.get(random.nextInt(list.size())));
     }
 
     public void viewTableCollection(TableFile file) {
@@ -304,38 +312,6 @@ public class TableSelectActivity extends AppCompatActivity implements Navigation
         builder.show();
     }
 
-    private void requestClearFavs() {
-        SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(this);
-        int count = preferences.getStringSet(TableFile.PREFS_FAVORITE_TABLES, new HashSet<String>()).size();
-
-        AlertDialog.Builder builder = new AlertDialog.Builder(this);
-        builder.setIcon(R.drawable.ic_star_black_48dp);
-        builder.setTitle(R.string.app_name);
-        builder.setMessage(getString(R.string.action_clear_favs_detail, count));
-        builder.setNegativeButton(android.R.string.cancel, new DialogInterface.OnClickListener() {
-            @Override
-            public void onClick(DialogInterface dialogInterface, int i) {
-                dialogInterface.cancel();
-            }
-        });
-        builder.setPositiveButton(R.string.action_clear_favs, new DialogInterface.OnClickListener() {
-            @Override
-            public void onClick(DialogInterface dialogInterface, int i) {
-                dialogInterface.dismiss();
-                clearFavs();
-            }
-        });
-        builder.show();
-    }
-
-    private void clearFavs() {
-        SharedPreferences.Editor editor = PreferenceManager.getDefaultSharedPreferences(this).edit();
-        editor.putStringSet(TableFile.PREFS_FAVORITE_TABLES, new HashSet<String>());
-        editor.apply();
-
-        listAdapter.notifyDataSetChanged();
-    }
-
     @Override
     protected void onSaveInstanceState(Bundle outState) {
         super.onSaveInstanceState(outState);
@@ -381,10 +357,6 @@ public class TableSelectActivity extends AppCompatActivity implements Navigation
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.menu_table_select, menu);
-
-        if (!BehindTheTables.isDebugBuild()) {
-            menu.removeItem(R.id.action_debug_reset_db);
-        }
 
         SearchManager searchManager = (SearchManager) getSystemService(SEARCH_SERVICE);
         MenuItem item = menu.findItem(R.id.action_search);
@@ -442,19 +414,14 @@ public class TableSelectActivity extends AppCompatActivity implements Navigation
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
-            case R.id.action_settings:
+            case R.id.action_table_settings:
                 //TODO Settings?
-                break;
-            case R.id.action_debug_reset_db:
-                DBAdapter adapter = new DBAdapter(this).open();
-                adapter.fillWithDefaultData(this);
-                adapter.close();
-                break;
-            case R.id.action_clar_favs:
-                requestClearFavs();
                 break;
             case android.R.id.home:
                 finish();
+                break;
+            case R.id.action_random_table:
+                viewTableCollection(new Random());
                 break;
             default:
                 Timber.w("Unknown menu item selected.");

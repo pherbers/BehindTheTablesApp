@@ -121,4 +121,5 @@
     <string name="action_select_category_instruction">Select a category</string>
     <string name="category_all">All categories</string>
     <string name="category_favs">Favorites only</string>
+    <string name="action_random_table">I\'m feeling lucky</string>
 </resources>

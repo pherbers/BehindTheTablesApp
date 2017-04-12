@@ -2,6 +2,7 @@ package de.rub.pherbers.behindthetables;
 
 import android.Manifest;
 import android.app.Application;
+import android.content.Context;
 import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 import android.preference.PreferenceManager;
@@ -11,6 +12,9 @@ import android.util.Log;
 
 import com.amitshekhar.DebugDB;
 
+import java.util.HashSet;
+
+import de.rub.pherbers.behindthetables.data.TableFile;
 import de.rub.pherbers.behindthetables.sql.DBAdapter;
 import de.rub.pherbers.behindthetables.util.VersionManager;
 import timber.log.Timber;
@@ -52,6 +56,12 @@ public class BehindTheTables extends Application {
 
         //Warming up the DB for future use!
         new DBAdapter(this).open().close();
+    }
+
+    public static void clearFavs(Context context) {
+        SharedPreferences.Editor editor = PreferenceManager.getDefaultSharedPreferences(context).edit();
+        editor.putStringSet(TableFile.PREFS_FAVORITE_TABLES, new HashSet<String>());
+        editor.apply();
     }
 
     public static boolean isDebugBuild() {

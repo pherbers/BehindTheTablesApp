@@ -1,27 +1,32 @@
 package de.rub.pherbers.behindthetables.activity;
 
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.database.Cursor;
+import android.preference.PreferenceManager;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Gravity;
+import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.BaseAdapter;
-import android.widget.Button;
-import android.widget.EditText;
 import android.widget.GridView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
+import java.util.HashSet;
+
+import de.rub.pherbers.behindthetables.BehindTheTables;
 import de.rub.pherbers.behindthetables.R;
+import de.rub.pherbers.behindthetables.data.TableFile;
 import de.rub.pherbers.behindthetables.sql.DBAdapter;
 import timber.log.Timber;
-
-import static android.provider.AlarmClock.EXTRA_MESSAGE;
 
 public class CategorySelectActivity extends AppCompatActivity implements AdapterView.OnItemClickListener {
 
@@ -53,6 +58,66 @@ public class CategorySelectActivity extends AppCompatActivity implements Adapter
         startActivity(intent);
     }
 
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case R.id.action_table_settings:
+                //TODO Settings?
+                break;
+            case R.id.action_debug_reset_db:
+                DBAdapter adapter = new DBAdapter(this).open();
+                adapter.fillWithDefaultData(this);
+                adapter.close();
+                break;
+            case R.id.action_clar_favs:
+                requestClearFavs();
+                break;
+            case R.id.action_category_settings:
+                //TODO Settings?
+                break;
+            default:
+                Timber.w("Unknown menu item selected.");
+                break;
+        }
+
+        return super.onOptionsItemSelected(item);
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.menu_category_select, menu);
+
+        if (!BehindTheTables.isDebugBuild()) {
+            menu.removeItem(R.id.action_debug_reset_db);
+        }
+
+        return true;
+    }
+
+    private void requestClearFavs() {
+        SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(this);
+        int count = preferences.getStringSet(TableFile.PREFS_FAVORITE_TABLES, new HashSet<String>()).size();
+
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setIcon(R.drawable.ic_star_black_48dp);
+        builder.setTitle(R.string.app_name);
+        builder.setMessage(getString(R.string.action_clear_favs_detail, count));
+        builder.setNegativeButton(android.R.string.cancel, new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialogInterface, int i) {
+                dialogInterface.cancel();
+            }
+        });
+        builder.setPositiveButton(R.string.action_clear_favs, new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialogInterface, int i) {
+                dialogInterface.dismiss();
+                BehindTheTables.clearFavs(CategorySelectActivity.this);
+            }
+        });
+        builder.show();
+    }
+
     class CategoryAdapter extends BaseAdapter {
 
         private Context context;
@@ -75,8 +140,8 @@ public class CategorySelectActivity extends AppCompatActivity implements Adapter
             if (bufferedCategories.moveToPosition(position)) {
                 b.putLong(TableSelectActivity.EXTRA_CATEGORY_DISCRIMINATOR, bufferedCategories.getLong(DBAdapter.COL_CATEGORY_ROWID));
             }
-            if (isCategoryFavs(position)){
-                b.putBoolean(TableSelectActivity.EXTRA_FAVS_ONLY,true);
+            if (isCategoryFavs(position)) {
+                b.putBoolean(TableSelectActivity.EXTRA_FAVS_ONLY, true);
             }
 
             return b;
