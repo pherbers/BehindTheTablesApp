@@ -17,7 +17,8 @@
         android:layout_marginBottom="@dimen/text_vertical_margin"
         android:layout_marginTop="@dimen/text_vertical_margin"
         android:layout_weight="1"
-        android:text="@string/sample_description" />
+        android:text="@string/sample_description"
+        android:textColorLink="@color/colorLink"/>
 
     <TextView
         android:id="@+id/textView2"

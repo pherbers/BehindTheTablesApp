@@ -2,8 +2,12 @@ package de.rub.pherbers.behindthetables.view;
 
 import android.support.v7.widget.RecyclerView.ViewHolder;
 import android.text.Html;
+import android.text.method.LinkMovementMethod;
 import android.view.View;
 import android.widget.TextView;
+
+import org.commonmark.parser.Parser;
+import org.commonmark.renderer.html.HtmlRenderer;
 
 import java.util.List;
 
@@ -24,7 +28,12 @@ public class RandomTableHeaderViewHolder extends ViewHolder{
     public void bindData(TableCollection table) {
         TextView desc = (TextView) itemView.findViewById(R.id.table_info_description);
         // TODO: Add Markdown parser
-        desc.setText(table.getDescription());
+        Parser parser = Parser.builder().build();
+        String htmlString = HtmlRenderer.builder().build().render(parser.parse(table.getDescription()));
+
+        desc.setText(Html.fromHtml(htmlString));
+
+        desc.setMovementMethod(LinkMovementMethod.getInstance());
 
         if(table.getUseWithTables().isEmpty()) {
             itemView.findViewById(R.id.table_info_use_with_scroll).setVisibility(View.GONE);
