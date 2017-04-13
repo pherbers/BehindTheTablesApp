@@ -95,6 +95,7 @@
         "You can use these to generate a single forest location for an encounter or to set up a map of a forest region."</string>
     <string name="action_settings">Settings</string>
     <string name="dice_entry_string">%1$d.</string>
+    <string name="dice_entry_from_to_string">%1$d-%2$d.</string>
     <string name="reroll_single_table_btn">Reroll this table</string>
     <string name="action_collapse_all">Collapse all</string>
     <string name="action_expand_all">Expand all</string>

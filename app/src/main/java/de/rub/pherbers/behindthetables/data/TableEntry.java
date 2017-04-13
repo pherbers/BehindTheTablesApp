@@ -67,6 +67,14 @@ public class TableEntry {
         this.diceValueTo = diceValueTo;
     }
 
+    public String getDiceString() {
+        if(diceValueTo > -1) {
+            return diceValue + " - " + diceValueTo;
+        } else {
+            return Integer.toString(diceValue);
+        }
+    }
+
     @Override
     public String toString() {
         return text;

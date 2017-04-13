@@ -17,11 +17,17 @@ public class RandomTable {
 
     private boolean expanded = false;
 
+    private int maxDiceValue;
+
+    // If the table has entries that have a dice range, we have to do additional calculations
+    private boolean nonUniformDiceEntries = false;
+
     public RandomTable(String name, String dice, int index, List<TableEntry> entries) {
         this.name = name;
         this.entries = entries;
         this.dice = dice;
         this.tableIndex = index;
+        checkEntries();
     }
 
     public String getName() {
@@ -69,7 +75,18 @@ public class RandomTable {
     }
 
     public void roll() {
-        setRolledIndex(new Random().nextInt(entries.size()));
+        if(!isNonUniformDiceEntries())
+            setRolledIndex(new Random().nextInt(entries.size()));
+        else {
+            int rolledDiceValue = new Random().nextInt(maxDiceValue);
+            for(int i = 1; i < entries.size(); i++) {
+                if(rolledDiceValue < entries.get(i).getDiceValue()) {
+                    setRolledIndex(i - 1);
+                    return;
+                }
+            }
+            setRolledIndex(entries.size() - 1);
+        }
     }
 
     public int size() {
@@ -84,8 +101,24 @@ public class RandomTable {
         this.expanded = expanded;
     }
 
+    public boolean isNonUniformDiceEntries() {
+        return nonUniformDiceEntries;
+    }
+
     public void toggle() {
         setExpanded(!isExpanded());
+    }
+
+    public void checkEntries() {
+        for(TableEntry e: entries) {
+            if(e.getDiceValueTo() > -1) {
+                nonUniformDiceEntries = true;
+                if(e.getDiceValueTo() > maxDiceValue)
+                    maxDiceValue = e.getDiceValueTo();
+            }
+            if(e.getDiceValue() > maxDiceValue)
+                maxDiceValue = e.getDiceValue();
+        }
     }
 
     @Override

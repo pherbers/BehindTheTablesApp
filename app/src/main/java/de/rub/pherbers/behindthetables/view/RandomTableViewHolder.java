@@ -168,7 +168,7 @@ public class RandomTableViewHolder extends RecyclerView.ViewHolder implements On
         TextView diceentry = (TextView) v.findViewById(R.id.table_entry_dice_value);
         TableEntry te = table.getEntries().get(childPosition);
         textentry.setText(te.getText());
-        diceentry.setText(view.getContext().getString(R.string.dice_entry_string, te.getDiceValue()));
+        setDiceEntry(diceentry, te);
 
         if(table.getRolledIndex() == childPosition) {
             v.setBackgroundColor(view.getContext().getResources().getColor(R.color.colorTableHighlight));
@@ -185,8 +185,21 @@ public class RandomTableViewHolder extends RecyclerView.ViewHolder implements On
         TextView diceentry = (TextView) highlightedView.findViewById(R.id.table_entry_dice_value);
         TableEntry te = table.getEntries().get(table.getRolledIndex());
         textentry.setText(te.getText());
-        diceentry.setText(view.getContext().getString(R.string.dice_entry_string, te.getDiceValue()));
+        setDiceEntry(diceentry, te);
         view.addView(highlightedView);
+    }
+
+    private void setDiceEntry(TextView diceentry, TableEntry te) {
+        if(te.getDiceValueTo() < 0)
+            diceentry.setText(view.getContext().getString(R.string.dice_entry_string, te.getDiceValue()));
+        else {
+            diceentry.setText(view.getContext().getString(R.string.dice_entry_from_to_string, te.getDiceValue(), te.getDiceValueTo()));
+
+            // We have to scale the text down a bit, otherwise it wont fit :(
+            if(te.getDiceValueTo() > 9)
+                diceentry.setTextScaleX(0.8f);
+        }
+
     }
 
     public void expand(boolean scroll) {

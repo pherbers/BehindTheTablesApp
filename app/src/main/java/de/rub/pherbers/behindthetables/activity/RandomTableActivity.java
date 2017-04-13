@@ -144,6 +144,8 @@ public class RandomTableActivity extends AppCompatActivity {
             if (v instanceof RandomTableViewHolder)
                 ((RandomTableViewHolder) v).collapse(false);
         }
+        for (RandomTable t : table.getTables())
+            t.setExpanded(false);
         updateListOutOfView();
     }
 
