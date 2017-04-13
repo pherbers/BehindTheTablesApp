@@ -122,6 +122,7 @@ public class RandomTableActivity extends AppCompatActivity {
                 v.rerollAnimation(prev);
             }
         }
+        updateListOutOfView();
     }
 
     @Override
@@ -143,17 +144,7 @@ public class RandomTableActivity extends AppCompatActivity {
             if (v instanceof RandomTableViewHolder)
                 ((RandomTableViewHolder) v).collapse(false);
         }
-        for (RandomTable t : table.getTables())
-            t.setExpanded(false);
-        int firstPos = ((LinearLayoutManager) listView.getLayoutManager()).findFirstVisibleItemPosition();
-        int lastPos = ((LinearLayoutManager) listView.getLayoutManager()).findLastVisibleItemPosition();
-        if (firstPos > 0) {
-            listAdapter.notifyItemRangeChanged(0, firstPos);
-        }
-        if (lastPos < listAdapter.getItemCount() - 1) {
-            listAdapter.notifyItemRangeChanged(lastPos + 1, listAdapter.getItemCount() - 1);
-        }
-        //listView.smoothScrollToPosition(0);
+        updateListOutOfView();
     }
 
     public void actionExpandAll() {
@@ -167,6 +158,10 @@ public class RandomTableActivity extends AppCompatActivity {
         }
         for (RandomTable t : table.getTables())
             t.setExpanded(true);
+        updateListOutOfView();
+    }
+
+    public void updateListOutOfView() {
         int firstPos = ((LinearLayoutManager) listView.getLayoutManager()).findFirstVisibleItemPosition();
         int lastPos = ((LinearLayoutManager) listView.getLayoutManager()).findLastVisibleItemPosition();
         if (firstPos > 0) {
