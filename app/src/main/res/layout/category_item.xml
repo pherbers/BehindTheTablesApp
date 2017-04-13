@@ -1,11 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
 
     <TextView
+        android:id="@+id/category_item_text"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Category X"/>
+        android:layout_height="70dp"
+        android:padding="1dp"
+        android:layout_margin="5dp"
+        android:gravity="center"
+        android:text="Category X"
+        android:background="@drawable/category_item_drawable"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
 
 </LinearLayout>

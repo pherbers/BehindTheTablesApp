@@ -9,7 +9,9 @@ import android.preference.PreferenceManager;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.TypedValue;
 import android.view.Gravity;
+import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -185,13 +187,14 @@ public class CategorySelectActivity extends AppCompatActivity implements Adapter
 
         @Override
         public View getView(int i, View view, ViewGroup viewGroup) {
-            TextView tv = new TextView(context);
-            //button.setLayoutParams(new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, LinearLayout.LayoutParams.MATCH_PARENT, 1f));
-            tv.setGravity(Gravity.CENTER);
-            tv.setTextAppearance(context, android.R.style.TextAppearance_Large);
-            tv.setBackground(context.getResources().getDrawable(R.drawable.category_select_button_color));
-            LinearLayout.LayoutParams layoutParams = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, 200);
-            tv.setLayoutParams(layoutParams);
+            View v;
+            if (view != null)
+                v = view;
+            else
+                v = LayoutInflater.from(context).inflate(R.layout.category_item, viewGroup, false);
+
+            TextView tv = (TextView) v.findViewById(R.id.category_item_text);
+
             String text = getItem(i);
 
             Timber.i("Displaying category button on position " + i + " -> '" + text + "'.");
