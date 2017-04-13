@@ -15,6 +15,7 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
@@ -44,7 +45,7 @@ public class RandomTableViewHolder extends RecyclerView.ViewHolder implements On
 
     private View tableGroup;
 
-    public RandomTableViewHolder(Context context, final ViewGroup parent) {
+    public RandomTableViewHolder(final Context context, final ViewGroup parent) {
         super(new LinearLayout(context));
         view = (LinearLayout)itemView;
 
@@ -58,6 +59,11 @@ public class RandomTableViewHolder extends RecyclerView.ViewHolder implements On
             @Override
             public void onClick(View v) {
                 Timber.d("Click Entry Btn");
+
+                ImageButton btn = (ImageButton) view.findViewById(R.id.table_group_roll_button);
+                Animation anim = AnimationUtils.loadAnimation(context, R.anim.dice_button_rotator);
+                btn.startAnimation(anim);
+
                 int prev = RandomTableViewHolder.this.table.getRolledIndex();
                 RandomTableViewHolder.this.table.roll();
                 rerollAnimation(prev);

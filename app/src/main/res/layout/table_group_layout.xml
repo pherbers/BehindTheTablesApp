@@ -9,26 +9,32 @@
 
     <TextView
         android:id="@+id/table_group_text"
-        android:layout_width="match_parent"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center_vertical"
         android:layout_marginStart="@dimen/table_entry_margin"
-        android:layout_weight="0.1"
+        android:layout_weight="1"
         android:fontFamily="sans-serif"
         android:text="The tower's shape is approximately that of..."
         android:textAppearance="@android:style/TextAppearance.Medium" />
 
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@android:color/darker_gray"
+        android:layout_margin="2dp"/>
+
     <ImageButton
         android:id="@+id/table_group_roll_button"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_vertical"
-        android:layout_weight="0.9"
         android:background="@android:color/transparent"
         android:contentDescription="@string/reroll_single_table_btn"
         android:focusable="false"
+        android:padding="5dp"
         android:focusableInTouchMode="false"
         android:tint="@android:color/darker_gray"
-        app:srcCompat="@drawable/ic_casino_black_24dp" />
+        app:srcCompat="@drawable/dice_reroll_86" />
 
 </LinearLayout>

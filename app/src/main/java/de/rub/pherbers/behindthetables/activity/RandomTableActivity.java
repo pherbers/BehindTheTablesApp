@@ -14,7 +14,10 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.webkit.URLUtil;
+import android.widget.ImageButton;
 import android.widget.Toast;
 
 import java.io.IOException;
@@ -113,6 +116,9 @@ public class RandomTableActivity extends AppCompatActivity {
     }
 
     public void diceRollAction(View mView) {
+        ImageButton btn = (ImageButton) findViewById(R.id.floatingActionButton);
+        Animation anim = AnimationUtils.loadAnimation(this, R.anim.dice_button_rotator);
+        btn.startAnimation(anim);
         //table.rollAllTables();
         for (int i = 0; i < listAdapter.getItemCount()-1; i++) {
             RandomTableViewHolder v = (RandomTableViewHolder) listView.findViewHolderForAdapterPosition(i + 1);
