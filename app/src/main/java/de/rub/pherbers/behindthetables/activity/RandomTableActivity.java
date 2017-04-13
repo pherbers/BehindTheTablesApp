@@ -114,7 +114,7 @@ public class RandomTableActivity extends AppCompatActivity {
 
     public void diceRollAction(View mView) {
         //table.rollAllTables();
-        for (int i = 0; i < listAdapter.getItemCount() - 1; i++) {
+        for (int i = 0; i < listAdapter.getItemCount()-1; i++) {
             RandomTableViewHolder v = (RandomTableViewHolder) listView.findViewHolderForAdapterPosition(i + 1);
             int prev = table.getTables().get(i).getRolledIndex();
             table.getTables().get(i).roll();

@@ -85,7 +85,11 @@ public class RandomTableViewHolder extends RecyclerView.ViewHolder implements On
     }
 
     public void bindData(RandomTable table) {
-        Timber.d("Binding data for " + table);
+        bindData(table, table.isExpanded());
+    }
+
+    public void bindData(RandomTable table, boolean addAllViews) {
+        Timber.d("Binding data for " + table + (addAllViews?" and adding all views":""));
         this.table = table;
         TextView tv = (TextView) tableGroup.findViewById(R.id.table_group_text);;
         tv.setText(table.getName());
@@ -97,24 +101,32 @@ public class RandomTableViewHolder extends RecyclerView.ViewHolder implements On
         view.removeView(viewAfter);
         view.removeView(highlightedView);
         highlightedView = null;
-        for(int i = 0; i < table.getEntries().size(); i++) {
-            if(table.getRolledIndex() == i) {
-                if (highlightedView != null) {
-                    updateHighlight();
-                } else
-                    appendChild(i, view, false, true, true);
-                view.addView(viewAfter);
-                viewCurrent = viewAfter;
+        if(addAllViews){
+            for(int i = 0; i < table.getEntries().size(); i++) {
+                if(table.getRolledIndex() == i) {
+                    if (highlightedView != null) {
+                        updateHighlight();
+                    } else
+                        appendChild(i, view, false, true, true);
+                    view.addView(viewAfter);
+                    viewCurrent = viewAfter;
+                }
+                else
+                    appendChild(i, viewCurrent, false, false, false);
             }
-            else
-                appendChild(i, viewCurrent, false, table.isExpanded(), false);
+            viewBefore.getLayoutParams().height = RecyclerView.LayoutParams.WRAP_CONTENT;
+            if (highlightedView != null) {
+                highlightedView.getLayoutParams().height = RecyclerView.LayoutParams.WRAP_CONTENT;
+            } else
+                view.addView(viewAfter);
+            viewAfter.getLayoutParams().height = RecyclerView.LayoutParams.WRAP_CONTENT;
+        } else if (table.getRolledIndex() > -1) {
+            if (highlightedView != null) {
+                updateHighlight();
+                Timber.d("Reused highlight view for " + table);
+            } else
+                appendChild(table.getRolledIndex(), view, false, true, true);
         }
-        viewBefore.getLayoutParams().height = RecyclerView.LayoutParams.WRAP_CONTENT;
-        if (highlightedView != null) {
-            highlightedView.getLayoutParams().height = RecyclerView.LayoutParams.WRAP_CONTENT;
-        } else
-            view.addView(viewAfter);
-        viewAfter.getLayoutParams().height = RecyclerView.LayoutParams.WRAP_CONTENT;
     }
 
     private void appendChild(int entrypos, ViewGroup parent, boolean addDivider, boolean visible, boolean highlight) {
@@ -180,6 +192,7 @@ public class RandomTableViewHolder extends RecyclerView.ViewHolder implements On
     public void expand(boolean scroll) {
         if(table.isExpanded())
             return;
+        bindData(table, true);
         Timber.i("Expand");
         ExpandCollapseAnimation.setHeightForWrapContent((Activity) view.getContext(), viewBefore);
         final ExpandCollapseAnimation animBefore = new ExpandCollapseAnimation(viewBefore, ANIM_DURATION);
