@@ -30,11 +30,11 @@
     "tables": [
         {
             "dice": "d10",
-            "name": "The outlaw band\u2019s primary \u201cbusiness\u201d involves...",
+            "name": "The outlaw band’s primary “business” involves...",
             "table_entries": [
                 {
                     "dice_val": "1",
-                    "entry": "Poaching from the sovereign's preserve or a prominent noble\u2019s lands."
+                    "entry": "Poaching from the sovereign's preserve or a prominent noble’s lands."
                 },
                 {
                     "dice_val": "2",
@@ -76,7 +76,7 @@
         },
         {
             "dice": "d10",
-            "name": "The outlaw band\u2019s colors are...",
+            "name": "The outlaw band’s colors are...",
             "table_entries": [
                 {
                     "dice_val": "1",
@@ -122,7 +122,7 @@
         },
         {
             "dice": "d12",
-            "name": "The outlaw band\u2019s symbol is...",
+            "name": "The outlaw band’s symbol is...",
             "table_entries": [
                 {
                     "dice_val": "1",
@@ -176,7 +176,7 @@
         },
         {
             "dice": "d12",
-            "name": "The outlaw band\u2019s leader is...",
+            "name": "The outlaw band’s leader is...",
             "table_entries": [
                 {
                     "dice_val": "1",
@@ -230,7 +230,7 @@
         },
         {
             "dice": "d6",
-            "name": "The outlaw band\u2019s members are primarily...",
+            "name": "The outlaw band’s members are primarily...",
             "table_entries": [
                 {
                     "dice_val": "1",
@@ -260,15 +260,15 @@
         },
         {
             "dice": "d8",
-            "name": "The outlaw band\u2019s goals include (leadership and rank-and-file members could have different goals)...",
+            "name": "The outlaw band’s goals include (leadership and rank-and-file members could have different goals)...",
             "table_entries": [
                 {
                     "dice_val": "1",
-                    "entry": "Domination of the region\u2019s trade."
+                    "entry": "Domination of the region’s trade."
                 },
                 {
                     "dice_val": "2",
-                    "entry": "Sabotage of the region\u2019s trade."
+                    "entry": "Sabotage of the region’s trade."
                 },
                 {
                     "dice_val": "3",
@@ -276,11 +276,11 @@
                 },
                 {
                     "dice_val": "4",
-                    "entry": "Revenge against the region\u2019s elite."
+                    "entry": "Revenge against the region’s elite."
                 },
                 {
                     "dice_val": "5",
-                    "entry": "Rebellion against the region\u2019s elite."
+                    "entry": "Rebellion against the region’s elite."
                 },
                 {
                     "dice_val": "6",
@@ -344,7 +344,7 @@
         },
         {
             "dice": "d10",
-            "name": "The outlaw band\u2019s headquarters is hidden in or near...",
+            "name": "The outlaw band’s headquarters is hidden in or near...",
             "table_entries": [
                 {
                     "dice_val": "1",
@@ -352,7 +352,7 @@
                 },
                 {
                     "dice_val": "2",
-                    "entry": "The village\u2019s market square."
+                    "entry": "The village’s market square."
                 },
                 {
                     "dice_val": "3",
@@ -544,11 +544,11 @@
                 },
                 {
                     "dice_val": "5",
-                    "entry": "To sell the beasts\u2019 meat."
+                    "entry": "To sell the beasts’ meat."
                 },
                 {
                     "dice_val": "6",
-                    "entry": "To sell the beasts\u2019 pelts."
+                    "entry": "To sell the beasts’ pelts."
                 }
             ]
         },
@@ -684,7 +684,7 @@
                 },
                 {
                     "dice_val": "8",
-                    "entry": "The sovereign\u2019s main rival."
+                    "entry": "The sovereign’s main rival."
                 }
             ]
         }

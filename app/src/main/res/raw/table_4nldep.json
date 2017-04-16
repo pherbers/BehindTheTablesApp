@@ -53,11 +53,11 @@
                 },
                 {
                     "dice_val": "9",
-                    "entry": "Nothing; it\u2019s a genetic condition."
+                    "entry": "Nothing; it’s a genetic condition."
                 },
                 {
                     "dice_val": "10",
-                    "entry": "Nothing; it\u2019s a chronic condition brought on by lifestyle choices."
+                    "entry": "Nothing; it’s a chronic condition brought on by lifestyle choices."
                 },
                 {
                     "dice_val": "11",
@@ -103,7 +103,7 @@
                 },
                 {
                     "dice_val": "8",
-                    "entry": "Some time in the person\u2019s life (2 to 40 yrs)."
+                    "entry": "Some time in the person’s life (2 to 40 yrs)."
                 }
             ]
         },

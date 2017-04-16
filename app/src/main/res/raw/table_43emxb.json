@@ -73,7 +73,7 @@
                 },
                 {
                     "dice_val": "3",
-                    "entry": "Prepare the castle\u2019s defenders for war."
+                    "entry": "Prepare the castle’s defenders for war."
                 },
                 {
                     "dice_val": "4",
@@ -215,7 +215,7 @@
                 },
                 {
                     "dice_val": "3",
-                    "entry": "Love of his liege\u2019s family."
+                    "entry": "Love of his liege’s family."
                 },
                 {
                     "dice_val": "4",
@@ -233,7 +233,7 @@
         },
         {
             "dice": "d6",
-            "name": "On the guard\u2019s face is...",
+            "name": "On the guard’s face is...",
             "table_entries": [
                 {
                     "dice_val": "1",
@@ -323,23 +323,23 @@
                 },
                 {
                     "dice_val": "2",
-                    "entry": "Defend his liege\u2019s lands."
+                    "entry": "Defend his liege’s lands."
                 },
                 {
                     "dice_val": "3",
-                    "entry": "Avenge his liege\u2019s personal grievances."
+                    "entry": "Avenge his liege’s personal grievances."
                 },
                 {
                     "dice_val": "4",
-                    "entry": "Protect his liege\u2019s loved ones."
+                    "entry": "Protect his liege’s loved ones."
                 },
                 {
                     "dice_val": "5",
-                    "entry": "Advance his liege\u2019s ideals or faith."
+                    "entry": "Advance his liege’s ideals or faith."
                 },
                 {
                     "dice_val": "6",
-                    "entry": "Ride to war in his liege\u2019s name. "
+                    "entry": "Ride to war in his liege’s name. "
                 }
             ]
         },
@@ -601,7 +601,7 @@
             "table_entries": [
                 {
                     "dice_val": "1",
-                    "entry": "A lesser member of the liege\u2019s house."
+                    "entry": "A lesser member of the liege’s house."
                 },
                 {
                     "dice_val": "2",
@@ -845,7 +845,7 @@
             "table_entries": [
                 {
                     "dice_val": "1",
-                    "entry": "Bring smiles to others\u2019 faces."
+                    "entry": "Bring smiles to others’ faces."
                 },
                 {
                     "dice_val": "2",
@@ -901,7 +901,7 @@
         },
         {
             "dice": "d4",
-            "name": "The tutor\u2019s charges view him/her as...",
+            "name": "The tutor’s charges view him/her as...",
             "table_entries": [
                 {
                     "dice_val": "1",
@@ -981,7 +981,7 @@
             "table_entries": [
                 {
                     "dice_val": "1",
-                    "entry": "Her ladyship\u2019s/her lordship\u2019s favorite."
+                    "entry": "Her ladyship’s/her lordship’s favorite."
                 },
                 {
                     "dice_val": "2",
@@ -1081,7 +1081,7 @@
                 },
                 {
                     "dice_val": "2",
-                    "entry": "The castle\u2019s food stores."
+                    "entry": "The castle’s food stores."
                 },
                 {
                     "dice_val": "3",
@@ -1107,7 +1107,7 @@
                 },
                 {
                     "dice_val": "3",
-                    "entry": "News of his or his wife\u2019s hometown."
+                    "entry": "News of his or his wife’s hometown."
                 },
                 {
                     "dice_val": "4",
@@ -1129,7 +1129,7 @@
                 },
                 {
                     "dice_val": "3",
-                    "entry": "A lucky charm (rabbit\u2019s foot, old coin)."
+                    "entry": "A lucky charm (rabbit’s foot, old coin)."
                 },
                 {
                     "dice_val": "4",
@@ -1155,7 +1155,7 @@
                 },
                 {
                     "dice_val": "2",
-                    "entry": "The son of a servant to the liege\u2019s family."
+                    "entry": "The son of a servant to the liege’s family."
                 },
                 {
                     "dice_val": "3",
@@ -1195,7 +1195,7 @@
             "table_entries": [
                 {
                     "dice_val": "1",
-                    "entry": "Have the fastest horses ready to carry his liege\u2019s messages."
+                    "entry": "Have the fastest horses ready to carry his liege’s messages."
                 },
                 {
                     "dice_val": "2",
@@ -1283,7 +1283,7 @@
             "table_entries": [
                 {
                     "dice_val": "1",
-                    "entry": "A member of the liege\u2019s family."
+                    "entry": "A member of the liege’s family."
                 },
                 {
                     "dice_val": "2",
@@ -1321,7 +1321,7 @@
                 },
                 {
                     "dice_val": "3",
-                    "entry": "How best to protect commonfolk\u2019s livestock."
+                    "entry": "How best to protect commonfolk’s livestock."
                 },
                 {
                     "dice_val": "4",
@@ -1413,7 +1413,7 @@
                 },
                 {
                     "dice_val": "4",
-                    "entry": "Avoid questions regarding the hounds\u2019 obedience."
+                    "entry": "Avoid questions regarding the hounds’ obedience."
                 }
             ]
         },

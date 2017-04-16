@@ -132,7 +132,7 @@
         },
         {
             "dice": "d8",
-            "name": "The noble wears\u2026",
+            "name": "The noble wears…",
             "table_entries": [
                 {
                     "dice_val": "1",
@@ -170,7 +170,7 @@
         },
         {
             "dice": "d8",
-            "name": "The noble has\u2026",
+            "name": "The noble has…",
             "table_entries": [
                 {
                     "dice_val": "1",

@@ -19,7 +19,7 @@
     "tables": [
         {
             "dice": "d12",
-            "name": "The guild\u2019s symbol is...",
+            "name": "The guild’s symbol is...",
             "table_entries": [
                 {
                     "dice_val": "1",
@@ -73,7 +73,7 @@
         },
         {
             "dice": "d20",
-            "name": "The guild\u2019s preferred method of execution is...",
+            "name": "The guild’s preferred method of execution is...",
             "table_entries": [
                 {
                     "dice_val": "1",
@@ -255,25 +255,25 @@
                 },
                 {
                     "dice_val": "3",
-                    "entry": "The details of the guild\u2019s organization."
+                    "entry": "The details of the guild’s organization."
                 },
                 {
                     "dice_val": "4",
-                    "entry": "Nothing about the guild\u2019s leadership."
+                    "entry": "Nothing about the guild’s leadership."
                 },
                 {
                     "dice_val": "5",
-                    "entry": "The names of the guild\u2019s leaders, though they\u2019ve never any of them."
+                    "entry": "The names of the guild’s leaders, though they’ve never any of them."
                 },
                 {
                     "dice_val": "6",
-                    "entry": "One of the guild\u2019s leading members and no other guildmembers."
+                    "entry": "One of the guild’s leading members and no other guildmembers."
                 }
             ]
         },
         {
             "dice": "d12",
-            "name": "The guild\u2019s leader is...",
+            "name": "The guild’s leader is...",
             "table_entries": [
                 {
                     "dice_val": "1",
@@ -327,7 +327,7 @@
         },
         {
             "dice": "d6",
-            "name": "The guild\u2019s goals include (leadership and rank-and-file members could have different goals)...",
+            "name": "The guild’s goals include (leadership and rank-and-file members could have different goals)...",
             "table_entries": [
                 {
                     "dice_val": "1",
@@ -339,11 +339,11 @@
                 },
                 {
                     "dice_val": "3",
-                    "entry": "Eliminating a rival assassins\u2019 guild in the same city or region."
+                    "entry": "Eliminating a rival assassins’ guild in the same city or region."
                 },
                 {
                     "dice_val": "4",
-                    "entry": "Eliminating a rival assassins\u2019 guild in a foreign city or region."
+                    "entry": "Eliminating a rival assassins’ guild in a foreign city or region."
                 },
                 {
                     "dice_val": "5",
@@ -385,7 +385,7 @@
                 },
                 {
                     "dice_val": "7",
-                    "entry": "Members of the client\u2019s family."
+                    "entry": "Members of the client’s family."
                 },
                 {
                     "dice_val": "8",
@@ -471,7 +471,7 @@
         },
         {
             "dice": "d12",
-            "name": "The guild\u2019s headquarters is hidden in or near...",
+            "name": "The guild’s headquarters is hidden in or near...",
             "table_entries": [
                 {
                     "dice_val": "1",

@@ -1,6 +1,6 @@
 {
     "category": "Dungeons/Locations",
-    "description": "These are tables for adding quickly fleshing out a mine. These tables are designed to answer some of the basic questions regarding a mine, but they are not exhaustive, and fit best for a mine that is\u2014at least partially\u2014still actively being excavated.",
+    "description": "These are tables for adding quickly fleshing out a mine. These tables are designed to answer some of the basic questions regarding a mine, but they are not exhaustive, and fit best for a mine that is—at least partially—still actively being excavated.",
     "id": "43ufyr",
     "keywords": [
         "mine",
@@ -106,7 +106,7 @@
         },
         {
             "dice": "d12",
-            "name": "Entrance: The mine\u2019s entrance is...",
+            "name": "Entrance: The mine’s entrance is...",
             "table_entries": [
                 {
                     "dice_val": "1",
@@ -274,7 +274,7 @@
         },
         {
             "dice": "d20",
-            "name": "Denizens: If you dig deep, you\u2019ll find...",
+            "name": "Denizens: If you dig deep, you’ll find...",
             "table_entries": [
                 {
                     "dice_val": "1",
@@ -590,7 +590,7 @@
                 },
                 {
                     "dice_val": "11",
-                    "entry": "A prospector\u2019s mark scratched on the wall."
+                    "entry": "A prospector’s mark scratched on the wall."
                 },
                 {
                     "dice_val": "12",
@@ -654,7 +654,7 @@
                 },
                 {
                     "dice_val": "8",
-                    "entry": "A crime boss who\u2019s never visited the site."
+                    "entry": "A crime boss who’s never visited the site."
                 }
             ]
         },
@@ -676,7 +676,7 @@
                 },
                 {
                     "dice_val": "4",
-                    "entry": "Paid with credit at a merchant\u2019s store."
+                    "entry": "Paid with credit at a merchant’s store."
                 },
                 {
                     "dice_val": "5",

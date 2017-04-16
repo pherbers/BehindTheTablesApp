@@ -129,7 +129,7 @@
         },
         {
             "dice": "d4",
-            "name": "The barbarians\u2019 iconography features...",
+            "name": "The barbarians’ iconography features...",
             "table_entries": [
                 {
                     "dice_val": "1",
@@ -151,7 +151,7 @@
         },
         {
             "dice": "d10",
-            "name": "The barbarians\u2019 leader is...",
+            "name": "The barbarians’ leader is...",
             "table_entries": [
                 {
                     "dice_val": "1",
@@ -343,7 +343,7 @@
         },
         {
             "dice": "d6",
-            "name": "The barbarians\u2019 attitude is...",
+            "name": "The barbarians’ attitude is...",
             "table_entries": [
                 {
                     "dice_val": "1",

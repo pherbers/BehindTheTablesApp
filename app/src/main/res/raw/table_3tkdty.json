@@ -25,7 +25,7 @@
     "tables": [
         {
             "dice": "d12",
-            "name": "The mercenary troop\u2019s colors are...",
+            "name": "The mercenary troop’s colors are...",
             "table_entries": [
                 {
                     "dice_val": "1",
@@ -79,7 +79,7 @@
         },
         {
             "dice": "d20",
-            "name": "The mercenary troop\u2019s banner features...",
+            "name": "The mercenary troop’s banner features...",
             "table_entries": [
                 {
                     "dice_val": "1",
@@ -165,7 +165,7 @@
         },
         {
             "dice": "d10",
-            "name": "The mercenary troop\u2019s commander is...",
+            "name": "The mercenary troop’s commander is...",
             "table_entries": [
                 {
                     "dice_val": "1",
@@ -211,7 +211,7 @@
         },
         {
             "dice": "d6",
-            "name": "The mercenary troop\u2019s attitude toward their commander is...",
+            "name": "The mercenary troop’s attitude toward their commander is...",
             "table_entries": [
                 {
                     "dice_val": "1",

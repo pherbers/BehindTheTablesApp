@@ -369,7 +369,7 @@
         },
         {
             "dice": "d10",
-            "name": "The boat\u2019s hull markings feature...",
+            "name": "The boat’s hull markings feature...",
             "table_entries": [
                 {
                     "dice_val": "1",

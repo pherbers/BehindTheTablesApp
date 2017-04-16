@@ -62,7 +62,7 @@
             "table_entries": [
                 {
                     "dice_val": "1",
-                    "entry": "In honor of the sovereign\u2019s birthday."
+                    "entry": "In honor of the sovereign’s birthday."
                 },
                 {
                     "dice_val": "2",
@@ -134,7 +134,7 @@
         },
         {
             "dice": "d12",
-            "name": "The day\u2019s champion wins...",
+            "name": "The day’s champion wins...",
             "table_entries": [
                 {
                     "dice_val": "1",
@@ -174,7 +174,7 @@
                 },
                 {
                     "dice_val": "10",
-                    "entry": "A position of honor in the sovereign\u2019s guard."
+                    "entry": "A position of honor in the sovereign’s guard."
                 },
                 {
                     "dice_val": "11",
@@ -182,13 +182,13 @@
                 },
                 {
                     "dice_val": "12",
-                    "entry": "A night with one of the nobles\u2019 wives and a purse of gold."
+                    "entry": "A night with one of the nobles’ wives and a purse of gold."
                 }
             ]
         },
         {
             "dice": "d6",
-            "name": "The crowd\u2019s attitude is...",
+            "name": "The crowd’s attitude is...",
             "table_entries": [
                 {
                     "dice_val": "1",

@@ -380,7 +380,7 @@
         },
         {
             "dice": "d10",
-            "name": "The witch\u2019s home is...",
+            "name": "The witch’s home is...",
             "table_entries": [
                 {
                     "dice_val": "1",
@@ -650,7 +650,7 @@
         },
         {
             "dice": "d12",
-            "name": "The witch\u2019s familiar is...",
+            "name": "The witch’s familiar is...",
             "table_entries": [
                 {
                     "dice_val": "1",
@@ -704,7 +704,7 @@
         },
         {
             "dice": "d12",
-            "name": "The witch\u2019s familiar\u2019s manner is...",
+            "name": "The witch’s familiar’s manner is...",
             "table_entries": [
                 {
                     "dice_val": "1",

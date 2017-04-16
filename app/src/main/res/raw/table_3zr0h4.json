@@ -453,7 +453,7 @@
         },
         {
             "dice": "d20",
-            "name": "Body: The person\u2019s body is...",
+            "name": "Body: The person’s body is...",
             "table_entries": [
                 {
                     "dice_val": "1",
@@ -699,7 +699,7 @@
         },
         {
             "dice": "d8",
-            "name": "The jewelry is made of\u2026",
+            "name": "The jewelry is made of…",
             "table_entries": [
                 {
                     "dice_val": "1",
@@ -737,7 +737,7 @@
         },
         {
             "dice": "d8",
-            "name": "Clothes: The person\u2019s clothing is...",
+            "name": "Clothes: The person’s clothing is...",
             "table_entries": [
                 {
                     "dice_val": "1",
@@ -1209,11 +1209,11 @@
                 },
                 {
                     "dice_val": "6",
-                    "entry": "Can\u2019t resist flirting."
+                    "entry": "Can’t resist flirting."
                 },
                 {
                     "dice_val": "7",
-                    "entry": "Can\u2019t stop staring."
+                    "entry": "Can’t stop staring."
                 },
                 {
                     "dice_val": "8",

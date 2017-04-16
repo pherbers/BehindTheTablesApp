@@ -64,7 +64,7 @@
                 },
                 {
                     "dice_val": "12",
-                    "entry": "The cult\u2019s own leader."
+                    "entry": "The cult’s own leader."
                 }
             ]
         },
@@ -116,7 +116,7 @@
         },
         {
             "dice": "d20",
-            "name": "The cult\u2019s leader is...",
+            "name": "The cult’s leader is...",
             "table_entries": [
                 {
                     "dice_val": "1",
@@ -308,7 +308,7 @@
         },
         {
             "dice": "d12",
-            "name": "The cult\u2019s members must follow a strict rule regarding...",
+            "name": "The cult’s members must follow a strict rule regarding...",
             "table_entries": [
                 {
                     "dice_val": "1",
@@ -332,11 +332,11 @@
                 },
                 {
                     "dice_val": "6",
-                    "entry": "Dressing one\u2019s self for worship."
+                    "entry": "Dressing one’s self for worship."
                 },
                 {
                     "dice_val": "7",
-                    "entry": "Dressing one\u2019s self for day-to-day activities."
+                    "entry": "Dressing one’s self for day-to-day activities."
                 },
                 {
                     "dice_val": "8",
@@ -352,17 +352,17 @@
                 },
                 {
                     "dice_val": "11",
-                    "entry": "Styling one\u2019s hair."
+                    "entry": "Styling one’s hair."
                 },
                 {
                     "dice_val": "12",
-                    "entry": "Brushing one\u2019s teeth."
+                    "entry": "Brushing one’s teeth."
                 }
             ]
         },
         {
             "dice": "d12",
-            "name": "The cult\u2019s members are particularly afraid of or takes special care to avoid...",
+            "name": "The cult’s members are particularly afraid of or takes special care to avoid...",
             "table_entries": [
                 {
                     "dice_val": "1",

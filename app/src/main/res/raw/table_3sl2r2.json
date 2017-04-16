@@ -57,7 +57,7 @@
         },
         {
             "dice": "d8",
-            "name": "The caravan\u2019s pack animals are...",
+            "name": "The caravan’s pack animals are...",
             "table_entries": [
                 {
                     "dice_val": "1",
@@ -125,7 +125,7 @@
         },
         {
             "dice": "d4",
-            "name": "The caravan\u2019s general mood is...",
+            "name": "The caravan’s general mood is...",
             "table_entries": [
                 {
                     "dice_val": "1",
@@ -141,7 +141,7 @@
                 },
                 {
                     "dice_val": "4",
-                    "entry": "Eager; great riches await at journey\u2019s end."
+                    "entry": "Eager; great riches await at journey’s end."
                 }
             ]
         },
@@ -209,11 +209,11 @@
                 },
                 {
                     "dice_val": "6",
-                    "entry": "Ways to cheat the caravan\u2019s owner."
+                    "entry": "Ways to cheat the caravan’s owner."
                 },
                 {
                     "dice_val": "7",
-                    "entry": "Ways to speed up the caravan\u2019s pace."
+                    "entry": "Ways to speed up the caravan’s pace."
                 },
                 {
                     "dice_val": "8",
@@ -269,7 +269,7 @@
                 },
                 {
                     "dice_val": "4",
-                    "entry": "A lucky charm (rabbit\u2019s foot, old coin)."
+                    "entry": "A lucky charm (rabbit’s foot, old coin)."
                 },
                 {
                     "dice_val": "5",
@@ -635,7 +635,7 @@
                 },
                 {
                     "dice_val": "6",
-                    "entry": "The real owner\u2019s representative."
+                    "entry": "The real owner’s representative."
                 }
             ]
         },

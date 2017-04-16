@@ -362,7 +362,7 @@
         },
         {
             "dice": "d12",
-            "name": "In humanoid form, the beastshifter\u2019s face has...",
+            "name": "In humanoid form, the beastshifter’s face has...",
             "table_entries": [
                 {
                     "dice_val": "1",
@@ -416,7 +416,7 @@
         },
         {
             "dice": "d20",
-            "name": "The beastshifter\u2019s favorite prey are...",
+            "name": "The beastshifter’s favorite prey are...",
             "table_entries": [
                 {
                     "dice_val": "1",
@@ -522,7 +522,7 @@
                 },
                 {
                     "dice_val": "5",
-                    "entry": "An integral part of the local thieves\u2019 or assassins\u2019 guild."
+                    "entry": "An integral part of the local thieves’ or assassins’ guild."
                 },
                 {
                     "dice_val": "6",
@@ -540,7 +540,7 @@
         },
         {
             "dice": "d12",
-            "name": "The pack\u2019s leader is...",
+            "name": "The pack’s leader is...",
             "table_entries": [
                 {
                     "dice_val": "1",
@@ -594,7 +594,7 @@
         },
         {
             "dice": "d6",
-            "name": "The pack\u2019s attitude toward their leader is...",
+            "name": "The pack’s attitude toward their leader is...",
             "table_entries": [
                 {
                     "dice_val": "1",
@@ -624,11 +624,11 @@
         },
         {
             "dice": "d6",
-            "name": "The pack\u2019s goals include...",
+            "name": "The pack’s goals include...",
             "table_entries": [
                 {
                     "dice_val": "1",
-                    "entry": "Becoming the region\u2019s dominant predators."
+                    "entry": "Becoming the region’s dominant predators."
                 },
                 {
                     "dice_val": "2",
@@ -636,11 +636,11 @@
                 },
                 {
                     "dice_val": "3",
-                    "entry": "Revenge against the region\u2019s elite."
+                    "entry": "Revenge against the region’s elite."
                 },
                 {
                     "dice_val": "4",
-                    "entry": "Rebellion against the region\u2019s elite."
+                    "entry": "Rebellion against the region’s elite."
                 },
                 {
                     "dice_val": "5",

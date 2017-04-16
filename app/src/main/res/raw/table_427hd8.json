@@ -1,6 +1,6 @@
 {
     "category": "Dungeons/Locations",
-    "description": "These tables are designed to quickly generate an interesting tomb for your PCs to explore and within which they may die. \n\nThere are many ways to build a tomb, but most tombs are not terribly complicated. I have tombs for important and wealthy individuals in mind with this set of tables. Each tomb will likely have an entry chamber that the PCs will find after passing through the tomb's entrance. The tomb will also have a grand crypt where the deceased individual honored by the tomb is buried\u2014or, where it appears that the person is buried. Other functional rooms and crypts will be arranged in some manner that makes sense in relation to the entry chamber and the grand crypt, or at least makes sense in terms of the history of the tomb's building (and possible expansions).",
+    "description": "These tables are designed to quickly generate an interesting tomb for your PCs to explore and within which they may die. \n\nThere are many ways to build a tomb, but most tombs are not terribly complicated. I have tombs for important and wealthy individuals in mind with this set of tables. Each tomb will likely have an entry chamber that the PCs will find after passing through the tomb's entrance. The tomb will also have a grand crypt where the deceased individual honored by the tomb is buried—or, where it appears that the person is buried. Other functional rooms and crypts will be arranged in some manner that makes sense in relation to the entry chamber and the grand crypt, or at least makes sense in terms of the history of the tomb's building (and possible expansions).",
     "id": "427hd8",
     "keywords": [
         "tomb",
@@ -118,7 +118,7 @@
         },
         {
             "dice": "d12",
-            "name": "The tomb\u2019s entrance is...",
+            "name": "The tomb’s entrance is...",
             "table_entries": [
                 {
                     "dice_val": "1",
@@ -172,7 +172,7 @@
         },
         {
             "dice": "d10",
-            "name": "The tomb\u2019s entrance is guarded by...",
+            "name": "The tomb’s entrance is guarded by...",
             "table_entries": [
                 {
                     "dice_val": "1",
@@ -218,7 +218,7 @@
         },
         {
             "dice": "d6",
-            "name": "The tomb\u2019s grand crypt is located...",
+            "name": "The tomb’s grand crypt is located...",
             "table_entries": [
                 {
                     "dice_val": "1",
@@ -248,7 +248,7 @@
         },
         {
             "dice": "d8",
-            "name": "The tomb\u2019s layout is...",
+            "name": "The tomb’s layout is...",
             "table_entries": [
                 {
                     "dice_val": "1",
@@ -324,7 +324,7 @@
         },
         {
             "dice": "d6",
-            "name": "Many of the tomb\u2019s ceilings are...",
+            "name": "Many of the tomb’s ceilings are...",
             "table_entries": [
                 {
                     "dice_val": "1",
@@ -414,7 +414,7 @@
                 },
                 {
                     "dice_val": "15",
-                    "entry": "A priest\u2019s robing room."
+                    "entry": "A priest’s robing room."
                 },
                 {
                     "dice_val": "16",
@@ -434,7 +434,7 @@
                 },
                 {
                     "dice_val": "20",
-                    "entry": "A priest\u2019s quarters or robing room."
+                    "entry": "A priest’s quarters or robing room."
                 }
             ]
         },
@@ -712,7 +712,7 @@
                 },
                 {
                     "dice_val": "4",
-                    "entry": "A member of the deceased\u2019s family."
+                    "entry": "A member of the deceased’s family."
                 },
                 {
                     "dice_val": "5",

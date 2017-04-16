@@ -156,7 +156,7 @@
                 },
                 {
                     "dice_val": "2",
-                    "entry": "A body\u2014fresh if possible, decomposed just as good."
+                    "entry": "A body—fresh if possible, decomposed just as good."
                 },
                 {
                     "dice_val": "3",
@@ -408,7 +408,7 @@
         },
         {
             "dice": "d12",
-            "name": "The necromancer's familiar\u2019s manner is...",
+            "name": "The necromancer's familiar’s manner is...",
             "table_entries": [
                 {
                     "dice_val": "1",

@@ -441,7 +441,7 @@
                 },
                 {
                     "dice_val": "10",
-                    "entry": "The largest petals you\u2019ve ever seen."
+                    "entry": "The largest petals you’ve ever seen."
                 }
             ]
         },
@@ -455,7 +455,7 @@
                 },
                 {
                     "dice_val": "2",
-                    "entry": "An eeler\u2019s canoe."
+                    "entry": "An eeler’s canoe."
                 },
                 {
                     "dice_val": "3",
@@ -469,11 +469,11 @@
         },
         {
             "dice": "d12",
-            "name": "What\u2019s in the cave/cavern?",
+            "name": "What’s in the cave/cavern?",
             "table_entries": [
                 {
                     "dice_val": "1",
-                    "entry": "A manticore\u2019s lair."
+                    "entry": "A manticore’s lair."
                 },
                 {
                     "dice_val": "2",
@@ -485,11 +485,11 @@
                 },
                 {
                     "dice_val": "4",
-                    "entry": "A medusa\u2019s stash."
+                    "entry": "A medusa’s stash."
                 },
                 {
                     "dice_val": "5",
-                    "entry": "An rage drake\u2019s lair."
+                    "entry": "An rage drake’s lair."
                 },
                 {
                     "dice_val": "6",
@@ -513,7 +513,7 @@
                 },
                 {
                     "dice_val": "11",
-                    "entry": "Some treasure hunters\u2019 hideout."
+                    "entry": "Some treasure hunters’ hideout."
                 },
                 {
                     "dice_val": "12",
@@ -699,7 +699,7 @@
         },
         {
             "dice": "d6",
-            "name": "What\u2019s in the hole/burrow?",
+            "name": "What’s in the hole/burrow?",
             "table_entries": [
                 {
                     "dice_val": "1",
@@ -729,7 +729,7 @@
         },
         {
             "dice": "d6",
-            "name": "What\u2019s up in the tree?",
+            "name": "What’s up in the tree?",
             "table_entries": [
                 {
                     "dice_val": "1",

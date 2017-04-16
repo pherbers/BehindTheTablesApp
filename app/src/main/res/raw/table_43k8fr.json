@@ -226,7 +226,7 @@
         },
         {
             "dice": "d4",
-            "name": "The cells\u2019 (or pits\u2019) condition is...",
+            "name": "The cells’ (or pits’) condition is...",
             "table_entries": [
                 {
                     "dice_val": "1",
@@ -242,7 +242,7 @@
                 },
                 {
                     "dice_val": "4",
-                    "entry": "So dark it\u2019s difficult to say."
+                    "entry": "So dark it’s difficult to say."
                 }
             ]
         },
@@ -264,7 +264,7 @@
                 },
                 {
                     "dice_val": "4",
-                    "entry": "Like they don\u2019t exist; occasionally they receive food."
+                    "entry": "Like they don’t exist; occasionally they receive food."
                 }
             ]
         },
@@ -294,7 +294,7 @@
                 },
                 {
                     "dice_val": "6",
-                    "entry": "The jailer\u2019s quarters."
+                    "entry": "The jailer’s quarters."
                 },
                 {
                     "dice_val": "7",
@@ -502,7 +502,7 @@
         },
         {
             "dice": "d8",
-            "name": "According to rumor, within the prison\u2019s walls lies...",
+            "name": "According to rumor, within the prison’s walls lies...",
             "table_entries": [
                 {
                     "dice_val": "1",
@@ -682,7 +682,7 @@
         },
         {
             "dice": "d4",
-            "name": "On the guard\u2019s face is...",
+            "name": "On the guard’s face is...",
             "table_entries": [
                 {
                     "dice_val": "1",

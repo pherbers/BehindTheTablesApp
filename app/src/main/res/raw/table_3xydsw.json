@@ -245,7 +245,7 @@
         },
         {
             "dice": "d12",
-            "name": "On the warrior\u2019s face is...",
+            "name": "On the warrior’s face is...",
             "table_entries": [
                 {
                     "dice_val": "1",
@@ -299,7 +299,7 @@
         },
         {
             "dice": "d10",
-            "name": "On the warrior\u2019s body is...",
+            "name": "On the warrior’s body is...",
             "table_entries": [
                 {
                     "dice_val": "1",

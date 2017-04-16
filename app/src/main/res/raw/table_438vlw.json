@@ -17,7 +17,7 @@
     "tables": [
         {
             "dice": "d12",
-            "name": "The chest\u2019s style is",
+            "name": "The chest’s style is",
             "table_entries": [
                 {
                     "dice_val": "1",

@@ -159,7 +159,7 @@
         },
         {
             "dice": "d4",
-            "name": "The cells\u2019 (or pits\u2019) condition is...",
+            "name": "The cells’ (or pits’) condition is...",
             "table_entries": [
                 {
                     "dice_val": "1",
@@ -175,7 +175,7 @@
                 },
                 {
                     "dice_val": "4",
-                    "entry": "So dark it\u2019s difficult to say."
+                    "entry": "So dark it’s difficult to say."
                 }
             ]
         },
@@ -197,7 +197,7 @@
                 },
                 {
                     "dice_val": "4",
-                    "entry": "Like they don\u2019t exist; occasionally they receive food."
+                    "entry": "Like they don’t exist; occasionally they receive food."
                 }
             ]
         },
@@ -249,7 +249,7 @@
         },
         {
             "dice": "d8",
-            "name": "According to rumor, within the castle\u2019s dungeon lies...",
+            "name": "According to rumor, within the castle’s dungeon lies...",
             "table_entries": [
                 {
                     "dice_val": "1",
@@ -311,7 +311,7 @@
                 },
                 {
                     "dice_val": "6",
-                    "entry": "The jailer\u2019s quarters."
+                    "entry": "The jailer’s quarters."
                 },
                 {
                     "dice_val": "7",
@@ -473,31 +473,31 @@
         },
         {
             "dice": "d6",
-            "name": "Even if you make it out of the dungeon, you\u2019ll never escape because...",
+            "name": "Even if you make it out of the dungeon, you’ll never escape because...",
             "table_entries": [
                 {
                     "dice_val": "1",
-                    "entry": "The castle\u2019s huntsman will ride you down."
+                    "entry": "The castle’s huntsman will ride you down."
                 },
                 {
                     "dice_val": "2",
-                    "entry": "The castle\u2019s hunting hounds are peerless."
+                    "entry": "The castle’s hunting hounds are peerless."
                 },
                 {
                     "dice_val": "3",
-                    "entry": "The castle\u2019s ghosts will shriek in alarm."
+                    "entry": "The castle’s ghosts will shriek in alarm."
                 },
                 {
                     "dice_val": "4",
-                    "entry": "The knights sworn to the castle\u2019s liege will not rest until they return you to him or her."
+                    "entry": "The knights sworn to the castle’s liege will not rest until they return you to him or her."
                 },
                 {
                     "dice_val": "5",
-                    "entry": "The castle\u2019s archers will fill you with arrows."
+                    "entry": "The castle’s archers will fill you with arrows."
                 },
                 {
                     "dice_val": "6",
-                    "entry": "You\u2019ve been branded a prisoner of this place; no one will risk helping you."
+                    "entry": "You’ve been branded a prisoner of this place; no one will risk helping you."
                 }
             ]
         },
@@ -653,7 +653,7 @@
                 },
                 {
                     "dice_val": "4",
-                    "entry": "He was caught poaching on his liege\u2019s land."
+                    "entry": "He was caught poaching on his liege’s land."
                 },
                 {
                     "dice_val": "5",

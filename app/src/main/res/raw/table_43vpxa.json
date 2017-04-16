@@ -65,7 +65,7 @@
         },
         {
             "dice": "d10",
-            "name": "The dwarf\u2019s beard is...",
+            "name": "The dwarf’s beard is...",
             "table_entries": [
                 {
                     "dice_val": "1",

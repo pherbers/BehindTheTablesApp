@@ -75,7 +75,7 @@
         },
         {
             "dice": "d8",
-            "name": "Presently, the pirates\u2019 ship is...",
+            "name": "Presently, the pirates’ ship is...",
             "table_entries": [
                 {
                     "dice_val": "1",
@@ -95,7 +95,7 @@
                 },
                 {
                     "dice_val": "5",
-                    "entry": "\u201cOn loan\u201d to some other pirates."
+                    "entry": "“On loan” to some other pirates."
                 },
                 {
                     "dice_val": "6",

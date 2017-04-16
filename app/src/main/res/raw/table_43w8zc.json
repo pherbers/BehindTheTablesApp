@@ -42,7 +42,7 @@
                 },
                 {
                     "dice_val": "5",
-                    "entry": "Gold\u2019s Dust."
+                    "entry": "Gold’s Dust."
                 },
                 {
                     "dice_val": "6",
@@ -86,7 +86,7 @@
                 },
                 {
                     "dice_val": "16",
-                    "entry": "Chastity\u2019s."
+                    "entry": "Chastity’s."
                 },
                 {
                     "dice_val": "17",
@@ -106,7 +106,7 @@
                 },
                 {
                     "dice_val": "21",
-                    "entry": "The Nag\u2019s Head."
+                    "entry": "The Nag’s Head."
                 },
                 {
                     "dice_val": "22",
@@ -138,7 +138,7 @@
                 },
                 {
                     "dice_val": "29",
-                    "entry": "Maggie\u2019s Horn."
+                    "entry": "Maggie’s Horn."
                 },
                 {
                     "dice_val": "30",
@@ -246,7 +246,7 @@
                 },
                 {
                     "dice_val": "56",
-                    "entry": "Aphrodite\u2019s Wish."
+                    "entry": "Aphrodite’s Wish."
                 },
                 {
                     "dice_val": "57",
@@ -314,7 +314,7 @@
                 },
                 {
                     "dice_val": "73",
-                    "entry": "The Connoisseur\u2019s Choice."
+                    "entry": "The Connoisseur’s Choice."
                 },
                 {
                     "dice_val": "74",
@@ -350,7 +350,7 @@
                 },
                 {
                     "dice_val": "82",
-                    "entry": "Thug\u2019s Retreat."
+                    "entry": "Thug’s Retreat."
                 },
                 {
                     "dice_val": "83",
@@ -370,7 +370,7 @@
                 },
                 {
                     "dice_val": "87",
-                    "entry": "Bessie\u2019s Best."
+                    "entry": "Bessie’s Best."
                 },
                 {
                     "dice_val": "88",
@@ -888,11 +888,11 @@
                 },
                 {
                     "dice_val": "15",
-                    "entry": "At the base of a wizards\u2019 tower."
+                    "entry": "At the base of a wizards’ tower."
                 },
                 {
                     "dice_val": "16",
-                    "entry": "In cave that had been a monster\u2019s lair."
+                    "entry": "In cave that had been a monster’s lair."
                 },
                 {
                     "dice_val": "17",
@@ -914,7 +914,7 @@
         },
         {
             "dice": "d10",
-            "name": "In addition to the \u2018usual\u2019 everyday brothel fare, here you can procure...",
+            "name": "In addition to the ‘usual’ everyday brothel fare, here you can procure...",
             "table_entries": [
                 {
                     "dice_val": "1",
@@ -938,11 +938,11 @@
                 },
                 {
                     "dice_val": "6",
-                    "entry": "The most beautiful women and men. Not just a claim, it\u2019s the gods\u2019 honest truth. "
+                    "entry": "The most beautiful women and men. Not just a claim, it’s the gods’ honest truth. "
                 },
                 {
                     "dice_val": "7",
-                    "entry": "An all-inclusive lump-sum deal\u2014all the harlots, food, and drink you can handle!"
+                    "entry": "An all-inclusive lump-sum deal—all the harlots, food, and drink you can handle!"
                 },
                 {
                     "dice_val": "8",
@@ -1098,7 +1098,7 @@
                 },
                 {
                     "dice_val": "2",
-                    "entry": "Nothing really; it\u2019s a neighborhood brothel."
+                    "entry": "Nothing really; it’s a neighborhood brothel."
                 },
                 {
                     "dice_val": "3",

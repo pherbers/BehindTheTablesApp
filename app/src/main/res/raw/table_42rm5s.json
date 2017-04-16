@@ -94,7 +94,7 @@
                 },
                 {
                     "dice_val": "20",
-                    "entry": "An enormous bird\u2019s nest."
+                    "entry": "An enormous bird’s nest."
                 }
             ]
         },
@@ -226,7 +226,7 @@
                 },
                 {
                     "dice_val": "10",
-                    "entry": "A distant sound\u2014a scream, hammers at work, footsteps, or drums."
+                    "entry": "A distant sound—a scream, hammers at work, footsteps, or drums."
                 },
                 {
                     "dice_val": "11",
@@ -242,7 +242,7 @@
                 },
                 {
                     "dice_val": "14",
-                    "entry": "The distant cry of a beast\u2014an eagle, a goat, a mountain lion, or a wolf."
+                    "entry": "The distant cry of a beast—an eagle, a goat, a mountain lion, or a wolf."
                 },
                 {
                     "dice_val": "15",
@@ -272,11 +272,11 @@
         },
         {
             "dice": "d20",
-            "name": "What\u2019s in the cave/cavern/tunnel?",
+            "name": "What’s in the cave/cavern/tunnel?",
             "table_entries": [
                 {
                     "dice_val": "1",
-                    "entry": "A mountain lion\u2019s den."
+                    "entry": "A mountain lion’s den."
                 },
                 {
                     "dice_val": "2",
@@ -316,7 +316,7 @@
                 },
                 {
                     "dice_val": "11",
-                    "entry": "Some outlaws\u2019 hideout."
+                    "entry": "Some outlaws’ hideout."
                 },
                 {
                     "dice_val": "12",
@@ -332,19 +332,19 @@
                 },
                 {
                     "dice_val": "15",
-                    "entry": "A griffon\u2019s nest."
+                    "entry": "A griffon’s nest."
                 },
                 {
                     "dice_val": "16",
-                    "entry": "A manticore\u2019s den."
+                    "entry": "A manticore’s den."
                 },
                 {
                     "dice_val": "17",
-                    "entry": "A basilisk\u2019s lair."
+                    "entry": "A basilisk’s lair."
                 },
                 {
                     "dice_val": "18",
-                    "entry": "A wyvern\u2019s nest."
+                    "entry": "A wyvern’s nest."
                 },
                 {
                     "dice_val": "19",

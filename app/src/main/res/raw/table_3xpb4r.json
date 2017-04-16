@@ -1,6 +1,6 @@
 {
     "category": "Settlements",
-    "description": "Use these tables for laying out an actively used temple complex. I tend to model temples after churches. There is a primary worship chamber where most prayer ceremonies are held. This chamber's size can vary greatly\u2014in a city, the temple might accommodate 1,000 worshipers or more at a time with room for crowds to spill out into a square in front of the temple; in a rural setting or for an obscure faith, the temple might accommodate 100 worshipers or less. Then there are adjacent rooms, wings, or other nearby buildings to support the operation of the temple. These tables are designed to work primarily with this design model in mind, but other layouts are possible.",
+    "description": "Use these tables for laying out an actively used temple complex. I tend to model temples after churches. There is a primary worship chamber where most prayer ceremonies are held. This chamber's size can vary greatly—in a city, the temple might accommodate 1,000 worshipers or more at a time with room for crowds to spill out into a square in front of the temple; in a rural setting or for an obscure faith, the temple might accommodate 100 worshipers or less. Then there are adjacent rooms, wings, or other nearby buildings to support the operation of the temple. These tables are designed to work primarily with this design model in mind, but other layouts are possible.",
     "id": "3xpb4r",
     "keywords": [
         "priest",
@@ -168,7 +168,7 @@
         },
         {
             "dice": "d6",
-            "name": "The temple\u2019s entrance is guarded by...",
+            "name": "The temple’s entrance is guarded by...",
             "table_entries": [
                 {
                     "dice_val": "1",
@@ -198,7 +198,7 @@
         },
         {
             "dice": "d8",
-            "name": "The temple\u2019s main floorplan is...",
+            "name": "The temple’s main floorplan is...",
             "table_entries": [
                 {
                     "dice_val": "1",
@@ -304,7 +304,7 @@
         },
         {
             "dice": "d8",
-            "name": "Many of the temple\u2019s interior walls are...",
+            "name": "Many of the temple’s interior walls are...",
             "table_entries": [
                 {
                     "dice_val": "1",
@@ -342,7 +342,7 @@
         },
         {
             "dice": "d6",
-            "name": "Many of the temple\u2019s ceilings are...",
+            "name": "Many of the temple’s ceilings are...",
             "table_entries": [
                 {
                     "dice_val": "1",
@@ -396,7 +396,7 @@
                 },
                 {
                     "dice_val": "6",
-                    "entry": "A priest\u2019s office or audience chamber."
+                    "entry": "A priest’s office or audience chamber."
                 },
                 {
                     "dice_val": "7",
@@ -432,7 +432,7 @@
                 },
                 {
                     "dice_val": "15",
-                    "entry": "A priest\u2019s quarters or robing room."
+                    "entry": "A priest’s quarters or robing room."
                 },
                 {
                     "dice_val": "16",
@@ -564,11 +564,11 @@
                 },
                 {
                     "dice_val": "5",
-                    "entry": "A member of the temple\u2019s serving staff."
+                    "entry": "A member of the temple’s serving staff."
                 },
                 {
                     "dice_val": "6",
-                    "entry": "A member of the temple\u2019s guard."
+                    "entry": "A member of the temple’s guard."
                 }
             ]
         }

@@ -58,7 +58,7 @@
                 },
                 {
                     "dice_val": "7",
-                    "entry": "Some nomads\u2019 camp."
+                    "entry": "Some nomads’ camp."
                 },
                 {
                     "dice_val": "8",
@@ -278,7 +278,7 @@
         },
         {
             "dice": "d10",
-            "name": "What\u2019s in the cave/cavern?",
+            "name": "What’s in the cave/cavern?",
             "table_entries": [
                 {
                     "dice_val": "1",
@@ -294,11 +294,11 @@
                 },
                 {
                     "dice_val": "4",
-                    "entry": "A wight\u2019s stash."
+                    "entry": "A wight’s stash."
                 },
                 {
                     "dice_val": "5",
-                    "entry": "A ghoul\u2019s lair."
+                    "entry": "A ghoul’s lair."
                 },
                 {
                     "dice_val": "6",
@@ -314,7 +314,7 @@
                 },
                 {
                     "dice_val": "9",
-                    "entry": "Some bandits\u2019 hideout."
+                    "entry": "Some bandits’ hideout."
                 },
                 {
                     "dice_val": "10",
@@ -324,7 +324,7 @@
         },
         {
             "dice": "d6",
-            "name": "What\u2019s in the hole/burrow?",
+            "name": "What’s in the hole/burrow?",
             "table_entries": [
                 {
                     "dice_val": "1",

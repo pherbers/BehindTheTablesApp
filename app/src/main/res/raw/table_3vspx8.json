@@ -132,7 +132,7 @@
         },
         {
             "dice": "d4",
-            "name": "The orcs\u2019 iconography features...",
+            "name": "The orcs’ iconography features...",
             "table_entries": [
                 {
                     "dice_val": "1",
@@ -154,7 +154,7 @@
         },
         {
             "dice": "d10",
-            "name": "The orcs\u2019 chief is...",
+            "name": "The orcs’ chief is...",
             "table_entries": [
                 {
                     "dice_val": "1",
@@ -200,7 +200,7 @@
         },
         {
             "dice": "d12",
-            "name": "The orcs\u2019 favorite meat comes from...",
+            "name": "The orcs’ favorite meat comes from...",
             "table_entries": [
                 {
                     "dice_val": "1",
@@ -392,7 +392,7 @@
         },
         {
             "dice": "d6",
-            "name": "The orcs\u2019 attitude is...",
+            "name": "The orcs’ attitude is...",
             "table_entries": [
                 {
                     "dice_val": "1",
@@ -422,15 +422,15 @@
         },
         {
             "dice": "d6",
-            "name": "The orcs\u2019 goals include (chief and lower-ranking members could have different goals)...",
+            "name": "The orcs’ goals include (chief and lower-ranking members could have different goals)...",
             "table_entries": [
                 {
                     "dice_val": "1",
-                    "entry": "Upheaval of the region\u2019s politics."
+                    "entry": "Upheaval of the region’s politics."
                 },
                 {
                     "dice_val": "2",
-                    "entry": "Disruption of the region\u2019s trade."
+                    "entry": "Disruption of the region’s trade."
                 },
                 {
                     "dice_val": "3",

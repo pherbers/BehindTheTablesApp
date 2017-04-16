@@ -23,7 +23,7 @@
     "tables": [
         {
             "dice": "d20",
-            "name": "The company\u2019s colors are...",
+            "name": "The company’s colors are...",
             "table_entries": [
                 {
                     "dice_val": "1",
@@ -109,7 +109,7 @@
         },
         {
             "dice": "d20",
-            "name": "The company\u2019s banner features...",
+            "name": "The company’s banner features...",
             "table_entries": [
                 {
                     "dice_val": "1",
@@ -195,7 +195,7 @@
         },
         {
             "dice": "d10",
-            "name": "The company\u2019s commander is...",
+            "name": "The company’s commander is...",
             "table_entries": [
                 {
                     "dice_val": "1",
@@ -241,7 +241,7 @@
         },
         {
             "dice": "d6",
-            "name": "The company\u2019s attitude toward their commander is...",
+            "name": "The company’s attitude toward their commander is...",
             "table_entries": [
                 {
                     "dice_val": "1",
@@ -577,7 +577,7 @@
         },
         {
             "dice": "d12",
-            "name": "On the soldier\u2019s face is...",
+            "name": "On the soldier’s face is...",
             "table_entries": [
                 {
                     "dice_val": "1",

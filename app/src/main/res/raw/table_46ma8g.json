@@ -216,7 +216,7 @@
         },
         {
             "dice": "d10",
-            "name": "The bard\u2019s musical instrument is...",
+            "name": "The bard’s musical instrument is...",
             "table_entries": [
                 {
                     "dice_val": "1",
@@ -386,11 +386,11 @@
                 },
                 {
                     "dice_val": "4",
-                    "entry": "A traveler\u2019s cloak."
+                    "entry": "A traveler’s cloak."
                 },
                 {
                     "dice_val": "5",
-                    "entry": "A heavy peddler\u2019s pack."
+                    "entry": "A heavy peddler’s pack."
                 },
                 {
                     "dice_val": "6",
@@ -510,7 +510,7 @@
                 },
                 {
                     "dice_val": "8",
-                    "entry": "A word that rhymes with \u201chippopotamus.\u201d"
+                    "entry": "A word that rhymes with “hippopotamus.”"
                 },
                 {
                     "dice_val": "9",
@@ -610,7 +610,7 @@
                 },
                 {
                     "dice_val": "8",
-                    "entry": "A witch\u2019s home."
+                    "entry": "A witch’s home."
                 },
                 {
                     "dice_val": "9",

@@ -195,7 +195,7 @@
                 },
                 {
                     "dice_val": "10",
-                    "entry": "A shield, emblazoned with the gangs\u2019 symbol."
+                    "entry": "A shield, emblazoned with the gangs’ symbol."
                 },
                 {
                     "dice_val": "11",
@@ -263,7 +263,7 @@
         },
         {
             "dice": "d12",
-            "name": "The goblin\u2019s face has...",
+            "name": "The goblin’s face has...",
             "table_entries": [
                 {
                     "dice_val": "1",

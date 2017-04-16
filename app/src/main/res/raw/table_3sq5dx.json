@@ -176,7 +176,7 @@
         },
         {
             "dice": "d8",
-            "name": "The vampire\u2019s goals include...",
+            "name": "The vampire’s goals include...",
             "table_entries": [
                 {
                     "dice_val": "1",
@@ -188,7 +188,7 @@
                 },
                 {
                     "dice_val": "3",
-                    "entry": "Domination of the city or region\u2019s politics."
+                    "entry": "Domination of the city or region’s politics."
                 },
                 {
                     "dice_val": "4",
@@ -214,7 +214,7 @@
         },
         {
             "dice": "d10",
-            "name": "The vampire\u2019s base of operations is...",
+            "name": "The vampire’s base of operations is...",
             "table_entries": [
                 {
                     "dice_val": "1",
@@ -290,7 +290,7 @@
         },
         {
             "dice": "d20",
-            "name": "The vampire\u2019s favorite prey are...",
+            "name": "The vampire’s favorite prey are...",
             "table_entries": [
                 {
                     "dice_val": "1",
@@ -498,7 +498,7 @@
         },
         {
             "dice": "d6",
-            "name": "The vampire\u2019s gravedirt is from...",
+            "name": "The vampire’s gravedirt is from...",
             "table_entries": [
                 {
                     "dice_val": "1",
@@ -528,7 +528,7 @@
         },
         {
             "dice": "d10",
-            "name": "The vampire\u2019s associates include...",
+            "name": "The vampire’s associates include...",
             "table_entries": [
                 {
                     "dice_val": "1",
@@ -568,7 +568,7 @@
                 },
                 {
                     "dice_val": "10",
-                    "entry": "The local band of outlaws or assassins\u2019 guild."
+                    "entry": "The local band of outlaws or assassins’ guild."
                 }
             ]
         },

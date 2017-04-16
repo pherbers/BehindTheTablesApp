@@ -12,11 +12,11 @@
     "related_tables": [
         {
             "link": "40r638",
-            "title": "Strange Places \u2013 for when you need to grow it somewhere unusual"
+            "title": "Strange Places – for when you need to grow it somewhere unusual"
         },
         {
             "link": "45x72u",
-            "title": "Herb Lore \u2013 for when it relates to alchemy"
+            "title": "Herb Lore – for when it relates to alchemy"
         }
     ],
     "tables": [
@@ -26,27 +26,27 @@
             "table_entries": [
                 {
                     "dice_val": "1",
-                    "entry": "Tiny \u2013 this fruit could be easily flicked away"
+                    "entry": "Tiny – this fruit could be easily flicked away"
                 },
                 {
                     "dice_val": "2",
-                    "entry": "Small \u2013 Two or three of these fruit can be held in one hand"
+                    "entry": "Small – Two or three of these fruit can be held in one hand"
                 },
                 {
                     "dice_val": "3",
-                    "entry": "Normal \u2013 this fruit can be held but not concealed in one hand"
+                    "entry": "Normal – this fruit can be held but not concealed in one hand"
                 },
                 {
                     "dice_val": "4",
-                    "entry": "Big \u2013 this fruit requires two hands to be lifted"
+                    "entry": "Big – this fruit requires two hands to be lifted"
                 },
                 {
                     "dice_val": "5",
-                    "entry": "Gigantic \u2013 a child could easily climb into this fruit"
+                    "entry": "Gigantic – a child could easily climb into this fruit"
                 },
                 {
                     "dice_val": "6",
-                    "entry": "Enormous \u2013 this fruit is man-sized or larger"
+                    "entry": "Enormous – this fruit is man-sized or larger"
                 }
             ]
         },
@@ -960,7 +960,7 @@
                 },
                 {
                     "dice_val": "59",
-                    "entry": "It is in some supernatural way \u201cpure\u201d"
+                    "entry": "It is in some supernatural way “pure”"
                 },
                 {
                     "dice_val": "60",

@@ -332,7 +332,7 @@
         },
         {
             "dice": "d12",
-            "name": "What\u2019s in the cave/cavern?",
+            "name": "What’s in the cave/cavern?",
             "table_entries": [
                 {
                     "dice_val": "1",
@@ -348,11 +348,11 @@
                 },
                 {
                     "dice_val": "4",
-                    "entry": "A wight\u2019s stash."
+                    "entry": "A wight’s stash."
                 },
                 {
                     "dice_val": "5",
-                    "entry": "A ghoul\u2019s lair."
+                    "entry": "A ghoul’s lair."
                 },
                 {
                     "dice_val": "6",
@@ -376,7 +376,7 @@
                 },
                 {
                     "dice_val": "11",
-                    "entry": "Some outlaws\u2019 hideout."
+                    "entry": "Some outlaws’ hideout."
                 },
                 {
                     "dice_val": "12",
@@ -586,7 +586,7 @@
         },
         {
             "dice": "d8",
-            "name": "What\u2019s in the hole/burrow?",
+            "name": "What’s in the hole/burrow?",
             "table_entries": [
                 {
                     "dice_val": "1",

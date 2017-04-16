@@ -1,6 +1,6 @@
 {
     "category": "Food",
-    "description": "These are tables for quickly coming up with a flavorful meal or menu you might find in a seaside caf\u00e9 or palace, mild-climate beach resort, slightly-upscale restaurant or wine bar, or any place that serves delicious meals.",
+    "description": "These are tables for quickly coming up with a flavorful meal or menu you might find in a seaside café or palace, mild-climate beach resort, slightly-upscale restaurant or wine bar, or any place that serves delicious meals.",
     "id": "4e70eq",
     "keywords": [
         "small plates",
@@ -16,7 +16,7 @@
     "related_tables": [
         {
             "link": "4dpl3q",
-            "title": "Breakfast at a city caf\u00e9"
+            "title": "Breakfast at a city café"
         },
         {
             "link": "4dv87r",
@@ -378,7 +378,7 @@
                 },
                 {
                     "dice_val": "7",
-                    "entry": "Ros\u00e9."
+                    "entry": "Rosé."
                 },
                 {
                     "dice_val": "8",
@@ -395,7 +395,7 @@
             ]
         }
     ],
-    "title": "Dinner at a Seaside Caf\u00e9",
+    "title": "Dinner at a Seaside Café",
     "use_with": [
         {
             "link": "46ma8g",

@@ -48,7 +48,7 @@
         },
         {
             "dice": "d20",
-            "name": "Appearance, The warlord has\u2026 ",
+            "name": "Appearance, The warlord has… ",
             "table_entries": [
                 {
                     "dice_val": "1",
@@ -138,15 +138,15 @@
             "table_entries": [
                 {
                     "dice_val": "1",
-                    "entry": "It\u2019s a massive alcoholic. He drinks kegs and kegs of ale every day and demands ale and other drinks as payment."
+                    "entry": "It’s a massive alcoholic. He drinks kegs and kegs of ale every day and demands ale and other drinks as payment."
                 },
                 {
                     "dice_val": "2",
-                    "entry": "He organises feasts made up of the humanoid prisoners. They\u2019re famous throughout the clan and they aim to take as many prisoners in combat for just this reason."
+                    "entry": "He organises feasts made up of the humanoid prisoners. They’re famous throughout the clan and they aim to take as many prisoners in combat for just this reason."
                 },
                 {
                     "dice_val": "3",
-                    "entry": "It\u2019s a fel-orc tainted by fiendish energy in a similar way to a tiefling. Some fiendish powers come from this."
+                    "entry": "It’s a fel-orc tainted by fiendish energy in a similar way to a tiefling. Some fiendish powers come from this."
                 },
                 {
                     "dice_val": "4",
@@ -158,7 +158,7 @@
                 },
                 {
                     "dice_val": "6",
-                    "entry": "He\u2019s blind in both eyes. Strangely, he\u2019s still just as effective in combat."
+                    "entry": "He’s blind in both eyes. Strangely, he’s still just as effective in combat."
                 },
                 {
                     "dice_val": "7",
@@ -166,11 +166,11 @@
                 },
                 {
                     "dice_val": "8",
-                    "entry": "They\u2019re actually happily married to a witch. Although the other orcs find this strange, they\u2019re too terrified of her to question it out loud."
+                    "entry": "They’re actually happily married to a witch. Although the other orcs find this strange, they’re too terrified of her to question it out loud."
                 },
                 {
                     "dice_val": "9",
-                    "entry": "It plans to organise a raid against the heavens itself! Currently they\u2019re constructing a planar portal to get there."
+                    "entry": "It plans to organise a raid against the heavens itself! Currently they’re constructing a planar portal to get there."
                 },
                 {
                     "dice_val": "10",
@@ -178,7 +178,7 @@
                 },
                 {
                     "dice_val": "11",
-                    "entry": "It\u2019s known for using biological warfare and disease magic, catapulting diseased corpses into cities."
+                    "entry": "It’s known for using biological warfare and disease magic, catapulting diseased corpses into cities."
                 },
                 {
                     "dice_val": "12",
@@ -186,11 +186,11 @@
                 },
                 {
                     "dice_val": "13",
-                    "entry": "It kills any orc recruit that doesn\u2019t perform absolutely perfectly. "
+                    "entry": "It kills any orc recruit that doesn’t perform absolutely perfectly. "
                 },
                 {
                     "dice_val": "14",
-                    "entry": "It\u2019s a lycanthrope who openly uses this power in combat."
+                    "entry": "It’s a lycanthrope who openly uses this power in combat."
                 },
                 {
                     "dice_val": "15",
@@ -198,15 +198,15 @@
                 },
                 {
                     "dice_val": "16",
-                    "entry": "It\u2019s crippled and needs to use a potion to walk and fight. A secret guarded from the rest of the clan."
+                    "entry": "It’s crippled and needs to use a potion to walk and fight. A secret guarded from the rest of the clan."
                 },
                 {
                     "dice_val": "17",
-                    "entry": "It\u2019s greedy and only cares about money and jewels. Every raid is for more money."
+                    "entry": "It’s greedy and only cares about money and jewels. Every raid is for more money."
                 },
                 {
                     "dice_val": "18",
-                    "entry": "It\u2019s known as a one man army who has defeated an entire enemy army before single handed."
+                    "entry": "It’s known as a one man army who has defeated an entire enemy army before single handed."
                 },
                 {
                     "dice_val": "19",

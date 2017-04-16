@@ -1,6 +1,6 @@
 {
     "category": "Plot",
-    "description": "At every point in an adventurer\u2019s lifetime, there is bound to be a classic \u201cDamsel in Distress\u201d quest. Daughter or son of some wealthy noble or king gets themself captured and it\u2019s up to the latest and greatest local heroes to bring them back. In this scenario, the word \u2018damsel\u2019 is replaced by \u2018noble\u2019 since this can be either a prince or princess.",
+    "description": "At every point in an adventurer’s lifetime, there is bound to be a classic “Damsel in Distress” quest. Daughter or son of some wealthy noble or king gets themself captured and it’s up to the latest and greatest local heroes to bring them back. In this scenario, the word ‘damsel’ is replaced by ‘noble’ since this can be either a prince or princess.",
     "id": "45iihj",
     "keywords": [
         "damsel",
@@ -14,7 +14,7 @@
     "tables": [
         {
             "dice": "d2",
-            "name": "The noble\u2019s gender is",
+            "name": "The noble’s gender is",
             "table_entries": [
                 {
                     "dice_val": "1",
@@ -40,7 +40,7 @@
                 },
                 {
                     "dice_val": "3",
-                    "entry": "is shown a missing person notice posted by the noble\u2019s family"
+                    "entry": "is shown a missing person notice posted by the noble’s family"
                 },
                 {
                     "dice_val": "4",
@@ -60,7 +60,7 @@
                 },
                 {
                     "dice_val": "8",
-                    "entry": "hears gossip in the tavern about the noble\u2019s whereabouts"
+                    "entry": "hears gossip in the tavern about the noble’s whereabouts"
                 },
                 {
                     "dice_val": "9",
@@ -68,7 +68,7 @@
                 },
                 {
                     "dice_val": "10",
-                    "entry": "is captured and taken by the keeper\u2019s henchmen"
+                    "entry": "is captured and taken by the keeper’s henchmen"
                 }
             ]
         },
@@ -206,7 +206,7 @@
                 },
                 {
                     "dice_val": "10",
-                    "entry": "to fulfill tradition, it\u2019s nothing personal"
+                    "entry": "to fulfill tradition, it’s nothing personal"
                 }
             ]
         },
@@ -266,7 +266,7 @@
                 },
                 {
                     "dice_val": "2",
-                    "entry": "the noble insists their family doesn\u2019t really want them to come back"
+                    "entry": "the noble insists their family doesn’t really want them to come back"
                 },
                 {
                     "dice_val": "3",
@@ -278,7 +278,7 @@
                 },
                 {
                     "dice_val": "5",
-                    "entry": "the noble falls in love with a party member and doesn\u2019t want to leave them"
+                    "entry": "the noble falls in love with a party member and doesn’t want to leave them"
                 },
                 {
                     "dice_val": "6",
@@ -294,7 +294,7 @@
                 },
                 {
                     "dice_val": "9",
-                    "entry": "the noble attacks the party in a frenzy and won\u2019t stop until calmed down or knocked unconscious"
+                    "entry": "the noble attacks the party in a frenzy and won’t stop until calmed down or knocked unconscious"
                 },
                 {
                     "dice_val": "10",
@@ -324,7 +324,7 @@
                 },
                 {
                     "dice_val": "5",
-                    "entry": "the family isn\u2019t offering any payment for the noble\u2019s return"
+                    "entry": "the family isn’t offering any payment for the noble’s return"
                 },
                 {
                     "dice_val": "6",

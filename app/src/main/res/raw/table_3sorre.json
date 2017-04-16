@@ -305,7 +305,7 @@
         },
         {
             "dice": "d6",
-            "name": "The spirit\u2019s initial reaction when it encounters living creatures is...",
+            "name": "The spirit’s initial reaction when it encounters living creatures is...",
             "table_entries": [
                 {
                     "dice_val": "1",
@@ -383,7 +383,7 @@
                 },
                 {
                     "dice_val": "10",
-                    "entry": "Occupying part of someone else\u2019s corpse (skull or hand)."
+                    "entry": "Occupying part of someone else’s corpse (skull or hand)."
                 }
             ]
         },

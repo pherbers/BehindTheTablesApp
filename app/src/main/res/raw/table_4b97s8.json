@@ -111,7 +111,7 @@
         },
         {
             "dice": "d10",
-            "name": "The mercenary\u2019s primary skillset is that of...",
+            "name": "The mercenary’s primary skillset is that of...",
             "table_entries": [
                 {
                     "dice_val": "1",
@@ -157,7 +157,7 @@
         },
         {
             "dice": "d10",
-            "name": "The mercenary\u2019s primary weapon is...",
+            "name": "The mercenary’s primary weapon is...",
             "table_entries": [
                 {
                     "dice_val": "1",
@@ -203,7 +203,7 @@
         },
         {
             "dice": "d8",
-            "name": "The mercenary\u2019s weapon is...",
+            "name": "The mercenary’s weapon is...",
             "table_entries": [
                 {
                     "dice_val": "1",
@@ -437,7 +437,7 @@
         },
         {
             "dice": "d4",
-            "name": "The mercenary\u2019s level of competence could be described as...",
+            "name": "The mercenary’s level of competence could be described as...",
             "table_entries": [
                 {
                     "dice_val": "1",
@@ -459,7 +459,7 @@
         },
         {
             "dice": "d6",
-            "name": "The mercenary\u2019s pricing is...",
+            "name": "The mercenary’s pricing is...",
             "table_entries": [
                 {
                     "dice_val": "1",

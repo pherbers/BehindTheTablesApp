@@ -49,7 +49,7 @@
                 },
                 {
                     "dice_val": "9",
-                    "entry": "Possessed. The seer\u2019s eyes roll back and they mechanically start reciting"
+                    "entry": "Possessed. The seer’s eyes roll back and they mechanically start reciting"
                 },
                 {
                     "dice_val": "10",
@@ -105,7 +105,7 @@
         },
         {
             "dice": "d10",
-            "name": "Roll The subject will\u2026",
+            "name": "Roll The subject will…",
             "table_entries": [
                 {
                     "dice_val": "1",
@@ -151,7 +151,7 @@
         },
         {
             "dice": "d10",
-            "name": "Roll Helped/prevent by\u2026",
+            "name": "Roll Helped/prevent by…",
             "table_entries": [
                 {
                     "dice_val": "1",

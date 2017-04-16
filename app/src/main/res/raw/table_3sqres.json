@@ -76,7 +76,7 @@
         },
         {
             "dice": "d20",
-            "name": "The killer\u2019s modus operandi is...",
+            "name": "The killer’s modus operandi is...",
             "table_entries": [
                 {
                     "dice_val": "1",
@@ -216,7 +216,7 @@
         },
         {
             "dice": "d6",
-            "name": "The killer\u2019s purposes include...",
+            "name": "The killer’s purposes include...",
             "table_entries": [
                 {
                     "dice_val": "1",
@@ -276,7 +276,7 @@
         },
         {
             "dice": "d6",
-            "name": "Timing: The killer typically plans murders for\u2026",
+            "name": "Timing: The killer typically plans murders for…",
             "table_entries": [
                 {
                     "dice_val": "1",
@@ -306,11 +306,11 @@
         },
         {
             "dice": "d12",
-            "name": "The killer\u2019s base of operations is hidden in or near...",
+            "name": "The killer’s base of operations is hidden in or near...",
             "table_entries": [
                 {
                     "dice_val": "1",
-                    "entry": "The killer\u2019s own residence."
+                    "entry": "The killer’s own residence."
                 },
                 {
                     "dice_val": "2",
@@ -360,7 +360,7 @@
         },
         {
             "dice": "d20",
-            "name": "The killer\u2019s favorite victims are...",
+            "name": "The killer’s favorite victims are...",
             "table_entries": [
                 {
                     "dice_val": "1",
@@ -492,7 +492,7 @@
         },
         {
             "dice": "d8",
-            "name": "The killer wears\u2026",
+            "name": "The killer wears…",
             "table_entries": [
                 {
                     "dice_val": "1",
@@ -530,7 +530,7 @@
         },
         {
             "dice": "d12",
-            "name": "The killer carries\u2026",
+            "name": "The killer carries…",
             "table_entries": [
                 {
                     "dice_val": "1",

@@ -1,7 +1,10 @@
+# -*- coding: utf-8 -*-
 import re
 import json
 import os
 import traceback
+
+meta_dict = {}
 
 def convert_md_to_json(textfile):
     text = textfile.read()
@@ -15,6 +18,7 @@ def convert_md_to_json(textfile):
     r_item = re.compile(r"(\d+-?\d*)\.\s*(.+)")
 
     r_link = re.compile(r"[-\*] \[(.+)\]\s*\(.*?\/([a-z0-9]{6})[\/\)]")
+    r_meta_header = re.compile(r"\*\*(.*?):?\*\*\s*?\n")
 
     line_splits = re.split(r"\n\s*----*\s*\n", text)
     category = line_splits[0]
@@ -23,7 +27,7 @@ def convert_md_to_json(textfile):
     tabletitle = line_splits[4]
     tabletext = "\n".join(line_splits[4:])
 
-    meta_split = re.split("\*\*(.*):\*\*", metainfo)
+    meta_split = r_meta_header.split(metainfo)
     i=1
     description = ""
     use_with_text = ""
@@ -50,10 +54,10 @@ def convert_md_to_json(textfile):
     json_dict['id'] = postid
     json_dict['reference'] = "https://www.reddit.com/r/BehindTheTables/comments/" + json_dict['id']
 
-    tables = []
-
     if postid == "debug":
         import pdb; pdb.set_trace()
+
+    tables = []
 
     for line in tabletext.split("\n"):
         match = r_category.match(line)
@@ -68,7 +72,16 @@ def convert_md_to_json(textfile):
             tables[-1]['table_entries'].append({'entry': match.group(2), 'dice_val': match.group(1)})
     json_dict['tables'] = tables
     with open("tables_json/table_" + json_dict['id'] + ".json", 'w', encoding="utf-8") as outfile:
-        json.dump(json_dict, outfile, sort_keys=True, indent=4)
+        json.dump(json_dict, outfile, sort_keys=True, indent=4, ensure_ascii=False)
+
+    # Add to meta_table
+    meta = {"keywords": json_dict["keywords"],
+            "description": json_dict["description"],
+            "title": json_dict["title"],
+            "related_tables": [uw['link'] for uw in json_dict["related_tables"]],
+            "use_with": [uw['link'] for uw in json_dict["use_with"]],
+            "category": json_dict["category"]}
+    meta_dict["table_" + json_dict["id"]] = meta
 
 def replace_line(input_text, line_num, text):
     l = input_text.split("\n")
@@ -138,3 +151,6 @@ for filename in os.listdir('tables/'):
             print("Failure to convert in file " + filename)
             
             print(traceback.format_exc())
+
+with open('tables_json/tables_meta.json', 'w', encoding='utf-8') as meta_file:
+    json.dump(meta_dict, meta_file, sort_keys=True, indent="\t", ensure_ascii=False)

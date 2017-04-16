@@ -1,6 +1,6 @@
 {
     "category": "NPCs",
-    "description": "A few tables to generate random strange people.\n\nThe basic structure is supposed to be this:\n\nX is a _AGE_ + _SEX_ with _HAIRTYPE_ + _HAIRCOLOR_ + _HAIRSTYLE_ and _MARK_, who\u2019s living _HOME_ + _LOCATION_.\n\nX is _OCCUPATION_ + _SUBTABLE_. People in town _RENOWN_.\n\nX is _BUILD_. A characteristic feature of X is _DESCRIPTOR PHYSICAL_. X talks _SPEECH_.\n \nAll X really wants is to _MOTIVE_.",
+    "description": "A few tables to generate random strange people.\n\nThe basic structure is supposed to be this:\n\nX is a _AGE_ + _SEX_ with _HAIRTYPE_ + _HAIRCOLOR_ + _HAIRSTYLE_ and _MARK_, who’s living _HOME_ + _LOCATION_.\n\nX is _OCCUPATION_ + _SUBTABLE_. People in town _RENOWN_.\n\nX is _BUILD_. A characteristic feature of X is _DESCRIPTOR PHYSICAL_. X talks _SPEECH_.\n \nAll X really wants is to _MOTIVE_.",
     "id": "40r6nd",
     "keywords": [
         "Strange",
@@ -334,7 +334,7 @@
                 },
                 {
                     "dice_val": "7",
-                    "entry": "**in a tent** (D4): 1. in a public park; 2. on a graveyard; 3. under a bridge; 4. in someone else\u2019s garden;"
+                    "entry": "**in a tent** (D4): 1. in a public park; 2. on a graveyard; 3. under a bridge; 4. in someone else’s garden;"
                 },
                 {
                     "dice_val": "8",
@@ -342,7 +342,7 @@
                 },
                 {
                     "dice_val": "9",
-                    "entry": "**in the basement** (D4): 1. of an abandoned hospital; 2. of a workshop; 3. of someone else\u2019s house; 4. of a sketchy tavern"
+                    "entry": "**in the basement** (D4): 1. of an abandoned hospital; 2. of a workshop; 3. of someone else’s house; 4. of a sketchy tavern"
                 },
                 {
                     "dice_val": "10",
@@ -376,7 +376,7 @@
                 },
                 {
                     "dice_val": "6",
-                    "entry": "\u2026 Beneath the city?"
+                    "entry": "… Beneath the city?"
                 },
                 {
                     "dice_val": "7",
@@ -384,7 +384,7 @@
                 },
                 {
                     "dice_val": "8",
-                    "entry": "somewhere we\u2019ve all suppressed from our memories."
+                    "entry": "somewhere we’ve all suppressed from our memories."
                 },
                 {
                     "dice_val": "9",
@@ -406,7 +406,7 @@
                 },
                 {
                     "dice_val": "2",
-                    "entry": "**a priest** (D4): 1. with little interest in his flock; 2. who\u2019s slowly but steadily deviating from the pious path; 3. who lives in seclusion; 4. with a veiled interest in the obscure;"
+                    "entry": "**a priest** (D4): 1. with little interest in his flock; 2. who’s slowly but steadily deviating from the pious path; 3. who lives in seclusion; 4. with a veiled interest in the obscure;"
                 },
                 {
                     "dice_val": "3",
@@ -414,27 +414,27 @@
                 },
                 {
                     "dice_val": "4",
-                    "entry": "**an adventurer** (D4): 1. who\u2019s only ever seen leaving home at night; 2. with a staggering hatred for the undead; 3. who\u2019s constantly preparing for the apocalypse; 4. who\u2019s always just getting wasted alone"
+                    "entry": "**an adventurer** (D4): 1. who’s only ever seen leaving home at night; 2. with a staggering hatred for the undead; 3. who’s constantly preparing for the apocalypse; 4. who’s always just getting wasted alone"
                 },
                 {
                     "dice_val": "5",
-                    "entry": "**a doctor** (D4): 1. with dubious credentials; 2. who\u2019s working on an alternative treatment for a rare malady; 3. who\u2019s obsessed with immortality; 4. who\u2019s offering treatment to everyone, whether healthy or ill;"
+                    "entry": "**a doctor** (D4): 1. with dubious credentials; 2. who’s working on an alternative treatment for a rare malady; 3. who’s obsessed with immortality; 4. who’s offering treatment to everyone, whether healthy or ill;"
                 },
                 {
                     "dice_val": "6",
-                    "entry": "**a known thief** (D4): 1. who allegedly has buried the past; 2. who\u2019s always on the lookout for someone\u2026 Or something; 3. who\u2019s getting by selling strange otherworldly goods in an alley; 4. who\u2019s only ever stealing from the same person;"
+                    "entry": "**a known thief** (D4): 1. who allegedly has buried the past; 2. who’s always on the lookout for someone… Or something; 3. who’s getting by selling strange otherworldly goods in an alley; 4. who’s only ever stealing from the same person;"
                 },
                 {
                     "dice_val": "7",
-                    "entry": "**a prostitute** (D4): 1. always providing for the same mysterious customer; 2. who\u2019s always stumbling around in the streets at night; 3. who\u2019s always seen crying; 4. who always gently takes the hand of a PC and starts growling;"
+                    "entry": "**a prostitute** (D4): 1. always providing for the same mysterious customer; 2. who’s always stumbling around in the streets at night; 3. who’s always seen crying; 4. who always gently takes the hand of a PC and starts growling;"
                 },
                 {
                     "dice_val": "8",
-                    "entry": "**a blacksmith** (D4): 1. who\u2019s always making nails; 2. who\u2019s making iron masks of customers faces; 3. with an affection for toys and dolls; 4. who\u2019s always make the same small figurines;"
+                    "entry": "**a blacksmith** (D4): 1. who’s always making nails; 2. who’s making iron masks of customers faces; 3. with an affection for toys and dolls; 4. who’s always make the same small figurines;"
                 },
                 {
                     "dice_val": "9",
-                    "entry": "**a guard** (D4): 1. who enjoys humiliating civilians; 2. with a worrying love for power; 3. who\u2019s only talking to the towns kids and animals; 4. with a clear disdain for a local religious order;"
+                    "entry": "**a guard** (D4): 1. who enjoys humiliating civilians; 2. with a worrying love for power; 3. who’s only talking to the towns kids and animals; 4. with a clear disdain for a local religious order;"
                 },
                 {
                     "dice_val": "10",

@@ -63,7 +63,7 @@
         },
         {
             "dice": "d6",
-            "name": "The sellsword\u2019s armor is...",
+            "name": "The sellsword’s armor is...",
             "table_entries": [
                 {
                     "dice_val": "1",
@@ -277,7 +277,7 @@
         },
         {
             "dice": "d12",
-            "name": "On the sellsword\u2019s face is...",
+            "name": "On the sellsword’s face is...",
             "table_entries": [
                 {
                     "dice_val": "1",

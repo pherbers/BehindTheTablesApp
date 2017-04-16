@@ -1,6 +1,6 @@
 {
     "category": "Objects, Items, and Miscellany",
-    "description": "This post should add some helpful insight on what to throw at the adventuring party that doesn\u2019t always check for those pesky tripwires. Since arcane traps and mechanical traps are so different I made two sets of tables for each of them.",
+    "description": "This post should add some helpful insight on what to throw at the adventuring party that doesn’t always check for those pesky tripwires. Since arcane traps and mechanical traps are so different I made two sets of tables for each of them.",
     "id": "43bznq",
     "keywords": [
         "traps",
@@ -38,7 +38,7 @@
                 },
                 {
                     "dice_val": "6",
-                    "entry": "Removing an object from it\u2019s resting place"
+                    "entry": "Removing an object from it’s resting place"
                 },
                 {
                     "dice_val": "7",

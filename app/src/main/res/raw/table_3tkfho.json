@@ -31,7 +31,7 @@
     "tables": [
         {
             "dice": "d20",
-            "name": "The knight\u2019s house\u2019s colors are...",
+            "name": "The knight’s house’s colors are...",
             "table_entries": [
                 {
                     "dice_val": "1",
@@ -117,7 +117,7 @@
         },
         {
             "dice": "d8",
-            "name": "The knight\u2019s house's symbol is...",
+            "name": "The knight’s house's symbol is...",
             "table_entries": [
                 {
                     "dice_val": "1",
@@ -163,23 +163,23 @@
                 },
                 {
                     "dice_val": "2",
-                    "entry": "Defend that person\u2019s lands."
+                    "entry": "Defend that person’s lands."
                 },
                 {
                     "dice_val": "3",
-                    "entry": "Avenge that person\u2019s grievances."
+                    "entry": "Avenge that person’s grievances."
                 },
                 {
                     "dice_val": "4",
-                    "entry": "Protect that person\u2019s loved ones."
+                    "entry": "Protect that person’s loved ones."
                 },
                 {
                     "dice_val": "5",
-                    "entry": "Advance that person\u2019s ideals or faith."
+                    "entry": "Advance that person’s ideals or faith."
                 },
                 {
                     "dice_val": "6",
-                    "entry": "Ride to war in that person\u2019s name. "
+                    "entry": "Ride to war in that person’s name. "
                 }
             ]
         },
@@ -245,7 +245,7 @@
         },
         {
             "dice": "d6",
-            "name": "The knight\u2019s armor is...",
+            "name": "The knight’s armor is...",
             "table_entries": [
                 {
                     "dice_val": "1",
@@ -329,7 +329,7 @@
         },
         {
             "dice": "d6",
-            "name": "The knight\u2019s mount is...",
+            "name": "The knight’s mount is...",
             "table_entries": [
                 {
                     "dice_val": "1",
@@ -413,7 +413,7 @@
         },
         {
             "dice": "d12",
-            "name": "On the knight\u2019s face is...",
+            "name": "On the knight’s face is...",
             "table_entries": [
                 {
                     "dice_val": "1",
@@ -597,7 +597,7 @@
         },
         {
             "dice": "d8",
-            "name": "On the servant\u2019s face is...",
+            "name": "On the servant’s face is...",
             "table_entries": [
                 {
                     "dice_val": "1",

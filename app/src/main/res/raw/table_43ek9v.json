@@ -151,7 +151,7 @@
         },
         {
             "dice": "d6",
-            "name": "Currently, the castle\u2019s condition is...",
+            "name": "Currently, the castle’s condition is...",
             "table_entries": [
                 {
                     "dice_val": "1",
@@ -289,7 +289,7 @@
         },
         {
             "dice": "d10",
-            "name": "The castle\u2019s outer defenses include...",
+            "name": "The castle’s outer defenses include...",
             "table_entries": [
                 {
                     "dice_val": "1",
@@ -335,7 +335,7 @@
         },
         {
             "dice": "d6",
-            "name": "The inner keep\u2019s defenses include...",
+            "name": "The inner keep’s defenses include...",
             "table_entries": [
                 {
                     "dice_val": "1",
@@ -779,7 +779,7 @@
                 },
                 {
                     "dice_val": "5",
-                    "entry": "A maid fussing over her lady\u2019s dress."
+                    "entry": "A maid fussing over her lady’s dress."
                 },
                 {
                     "dice_val": "6",

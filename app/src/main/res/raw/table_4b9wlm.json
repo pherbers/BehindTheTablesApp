@@ -136,7 +136,7 @@
                 },
                 {
                     "dice_val": "19-20",
-                    "entry": "It\u2019s covered in thick chains. Most likely result of it losing a fight long ago.  "
+                    "entry": "It’s covered in thick chains. Most likely result of it losing a fight long ago.  "
                 },
                 {
                     "dice_val": "21-22",
@@ -268,7 +268,7 @@
                 },
                 {
                     "dice_val": "72",
-                    "entry": "It has a face eerily similar to a humanoid\u2019s.  "
+                    "entry": "It has a face eerily similar to a humanoid’s.  "
                 },
                 {
                     "dice_val": "73",
@@ -292,7 +292,7 @@
                 },
                 {
                     "dice_val": "81",
-                    "entry": "It\u2019s missing one of its limbs entirely.  "
+                    "entry": "It’s missing one of its limbs entirely.  "
                 },
                 {
                     "dice_val": "82",
@@ -386,7 +386,7 @@
                 },
                 {
                     "dice_val": "09-10",
-                    "entry": "A mane of \u2018hair\u2019 by its head.  "
+                    "entry": "A mane of ‘hair’ by its head.  "
                 },
                 {
                     "dice_val": "11-13",
@@ -544,7 +544,7 @@
                 },
                 {
                     "dice_val": "3-4",
-                    "entry": "The runt of the litter. It\u2019s smaller than average and weaker, yet more intelligent and stealthy.  "
+                    "entry": "The runt of the litter. It’s smaller than average and weaker, yet more intelligent and stealthy.  "
                 },
                 {
                     "dice_val": "5-6",
@@ -600,7 +600,7 @@
                 },
                 {
                     "dice_val": "30-31",
-                    "entry": "Very eager to make friends. Although making friends for a dragon often involves \u2018playing\u2019 with them in ways similar to a cat playing with a mouse.  "
+                    "entry": "Very eager to make friends. Although making friends for a dragon often involves ‘playing’ with them in ways similar to a cat playing with a mouse.  "
                 },
                 {
                     "dice_val": "32-33",
@@ -608,7 +608,7 @@
                 },
                 {
                     "dice_val": "34-35",
-                    "entry": "Part of a pair mated for life. They\u2019re very unwilling to separate.  "
+                    "entry": "Part of a pair mated for life. They’re very unwilling to separate.  "
                 },
                 {
                     "dice_val": "36-37",
@@ -668,7 +668,7 @@
                 },
                 {
                     "dice_val": "58-59",
-                    "entry": "Extremely intelligent, or thinks it is. It tries to use its mind to solve problems, and, of course, it thinks it\u2019s better at this than everyone else.  "
+                    "entry": "Extremely intelligent, or thinks it is. It tries to use its mind to solve problems, and, of course, it thinks it’s better at this than everyone else.  "
                 },
                 {
                     "dice_val": "60-61",
@@ -712,11 +712,11 @@
                 },
                 {
                     "dice_val": "73-74",
-                    "entry": "Sleeping. It hibernates for centuries at a time\u2026 leading to a lot of confusion. Its snoring is so loud it is mistaken for wind.  "
+                    "entry": "Sleeping. It hibernates for centuries at a time… leading to a lot of confusion. Its snoring is so loud it is mistaken for wind.  "
                 },
                 {
                     "dice_val": "75",
-                    "entry": "False. The dragon tries to be the opposite alignment of its natural state\u2026 While it tries hard, it still feels urges and can lose control.  "
+                    "entry": "False. The dragon tries to be the opposite alignment of its natural state… While it tries hard, it still feels urges and can lose control.  "
                 },
                 {
                     "dice_val": "76",
@@ -724,11 +724,11 @@
                 },
                 {
                     "dice_val": "77",
-                    "entry": "Cursed with vampirism. While this doesn\u2019t work exactly the same as with humanoids, it has given the dragon a ceaseless hunger for blood.  "
+                    "entry": "Cursed with vampirism. While this doesn’t work exactly the same as with humanoids, it has given the dragon a ceaseless hunger for blood.  "
                 },
                 {
                     "dice_val": "78",
-                    "entry": "Cursed with lycanthropy. While it doesn\u2019t work the same as with humanoids, the dragon is amazingly violent beneath a full moon, and it hates silver.  "
+                    "entry": "Cursed with lycanthropy. While it doesn’t work the same as with humanoids, the dragon is amazingly violent beneath a full moon, and it hates silver.  "
                 },
                 {
                     "dice_val": "79",
@@ -744,7 +744,7 @@
                 },
                 {
                     "dice_val": "82",
-                    "entry": "Mostly lawful. It follows \u2018the law\u2019 of the land, but it might occasionally stretch laws to allow it do what it wants.  "
+                    "entry": "Mostly lawful. It follows ‘the law’ of the land, but it might occasionally stretch laws to allow it do what it wants.  "
                 },
                 {
                     "dice_val": "83",
@@ -772,11 +772,11 @@
                 },
                 {
                     "dice_val": "89",
-                    "entry": "Lazy. Why do anything when you can rest? It doesn\u2019t want to bother any one as much as it just wants to sleep and be left alone.  "
+                    "entry": "Lazy. Why do anything when you can rest? It doesn’t want to bother any one as much as it just wants to sleep and be left alone.  "
                 },
                 {
                     "dice_val": "90",
-                    "entry": "Vengeful. If someone wrongs this dragon even slightly, it will come at them, their children, their children\u2019s children as well as every town they have been through ever.  "
+                    "entry": "Vengeful. If someone wrongs this dragon even slightly, it will come at them, their children, their children’s children as well as every town they have been through ever.  "
                 },
                 {
                     "dice_val": "91",
@@ -800,7 +800,7 @@
                 },
                 {
                     "dice_val": "96",
-                    "entry": "Very shy. It suffers from severe social anxiety and doesn\u2019t want to talk to anyone.  "
+                    "entry": "Very shy. It suffers from severe social anxiety and doesn’t want to talk to anyone.  "
                 },
                 {
                     "dice_val": "97",
@@ -908,7 +908,7 @@
         },
         {
             "dice": "d100",
-            "name": "Hoard: Each dragon is compelled to hoard what it treasures, and this dragon\u2019s hoard is...",
+            "name": "Hoard: Each dragon is compelled to hoard what it treasures, and this dragon’s hoard is...",
             "table_entries": [
                 {
                     "dice_val": "01-04",
@@ -1034,7 +1034,7 @@
         },
         {
             "dice": "d100",
-            "name": "Lair: This dragon\u2019s lair is...",
+            "name": "Lair: This dragon’s lair is...",
             "table_entries": [
                 {
                     "dice_val": "01-04",
@@ -1062,7 +1062,7 @@
                 },
                 {
                     "dice_val": "23-25",
-                    "entry": "A cavern carved out of stone by the dragon itself. The walls are full of these sharp cuts scraped by the dragon and the chambers are of a size that matches the dragon\u2019s wingspan.  "
+                    "entry": "A cavern carved out of stone by the dragon itself. The walls are full of these sharp cuts scraped by the dragon and the chambers are of a size that matches the dragon’s wingspan.  "
                 },
                 {
                     "dice_val": "26-29",
@@ -1078,7 +1078,7 @@
                 },
                 {
                     "dice_val": "36-38",
-                    "entry": "In a series of Underdark caverns. The Underdark can be a great place for a dragon that\u2019s trying to hide away.  "
+                    "entry": "In a series of Underdark caverns. The Underdark can be a great place for a dragon that’s trying to hide away.  "
                 },
                 {
                     "dice_val": "39-42",
@@ -1090,7 +1090,7 @@
                 },
                 {
                     "dice_val": "46-49",
-                    "entry": "A tomb. The dragon has little respect for the dead of mortals, so the tomb\u2019s layout has proved a useful lair.  "
+                    "entry": "A tomb. The dragon has little respect for the dead of mortals, so the tomb’s layout has proved a useful lair.  "
                 },
                 {
                     "dice_val": "50-53",
@@ -1160,7 +1160,7 @@
         },
         {
             "dice": "d100",
-            "name": "The dragon\u2019s lair also has...",
+            "name": "The dragon’s lair also has...",
             "table_entries": [
                 {
                     "dice_val": "01-03",
@@ -1184,11 +1184,11 @@
                 },
                 {
                     "dice_val": "19-21",
-                    "entry": "A room of the dragon\u2019s concubines of various races.  "
+                    "entry": "A room of the dragon’s concubines of various races.  "
                 },
                 {
                     "dice_val": "22-24",
-                    "entry": "Puzzles that requires a dragon\u2019s strength to operate.  "
+                    "entry": "Puzzles that requires a dragon’s strength to operate.  "
                 },
                 {
                     "dice_val": "25-27",
@@ -1196,7 +1196,7 @@
                 },
                 {
                     "dice_val": "28-30",
-                    "entry": "Murals of the dragon\u2019s personal conquests.  "
+                    "entry": "Murals of the dragon’s personal conquests.  "
                 },
                 {
                     "dice_val": "31-34",
@@ -1240,7 +1240,7 @@
                 },
                 {
                     "dice_val": "66-69",
-                    "entry": "The bones of one of the dragon\u2019s parents.  "
+                    "entry": "The bones of one of the dragon’s parents.  "
                 },
                 {
                     "dice_val": "70-72",
@@ -1302,7 +1302,7 @@
                 },
                 {
                     "dice_val": "16-20",
-                    "entry": "The dragon\u2019s children, including purebred dragons and half-dragon creatures.  "
+                    "entry": "The dragon’s children, including purebred dragons and half-dragon creatures.  "
                 },
                 {
                     "dice_val": "21-25",
@@ -1334,7 +1334,7 @@
                 },
                 {
                     "dice_val": "56-60",
-                    "entry": "Genasi linked to the dragon\u2019s element.  "
+                    "entry": "Genasi linked to the dragon’s element.  "
                 },
                 {
                     "dice_val": "61-65",

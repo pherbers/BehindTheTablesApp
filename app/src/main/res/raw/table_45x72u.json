@@ -52,7 +52,7 @@
                 },
                 {
                     "dice_val": "7",
-                    "entry": "Recover one\u2019s strength."
+                    "entry": "Recover one’s strength."
                 },
                 {
                     "dice_val": "8",
@@ -124,7 +124,7 @@
         },
         {
             "dice": "d10",
-            "name": "The herbal concoction\u2019s color could be described as...",
+            "name": "The herbal concoction’s color could be described as...",
             "table_entries": [
                 {
                     "dice_val": "1",

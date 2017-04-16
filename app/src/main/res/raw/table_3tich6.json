@@ -56,7 +56,7 @@
                 },
                 {
                     "dice_val": "8",
-                    "entry": "Some nomads\u2019 camp."
+                    "entry": "Some nomads’ camp."
                 },
                 {
                     "dice_val": "9",
@@ -68,7 +68,7 @@
                 },
                 {
                     "dice_val": "11",
-                    "entry": "A merchant caravan\u2019s camp."
+                    "entry": "A merchant caravan’s camp."
                 },
                 {
                     "dice_val": "12",
@@ -506,13 +506,13 @@
                 },
                 {
                     "dice_val": "6",
-                    "entry": "Never; this place hasn\u2019t had water in years."
+                    "entry": "Never; this place hasn’t had water in years."
                 }
             ]
         },
         {
             "dice": "d12",
-            "name": "What\u2019s in the cave/cavern?",
+            "name": "What’s in the cave/cavern?",
             "table_entries": [
                 {
                     "dice_val": "1",
@@ -536,7 +536,7 @@
                 },
                 {
                     "dice_val": "6",
-                    "entry": "Some gnolls\u2019 hideout."
+                    "entry": "Some gnolls’ hideout."
                 },
                 {
                     "dice_val": "7",
@@ -548,7 +548,7 @@
                 },
                 {
                     "dice_val": "9",
-                    "entry": "Some bandits\u2019 hideout."
+                    "entry": "Some bandits’ hideout."
                 },
                 {
                     "dice_val": "10",
@@ -566,7 +566,7 @@
         },
         {
             "dice": "d8",
-            "name": "What\u2019s in the hole/burrow?",
+            "name": "What’s in the hole/burrow?",
             "table_entries": [
                 {
                     "dice_val": "1",

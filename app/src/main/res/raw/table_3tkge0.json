@@ -20,7 +20,7 @@
     "tables": [
         {
             "dice": "d12",
-            "name": "The watch\u2019s colors are...",
+            "name": "The watch’s colors are...",
             "table_entries": [
                 {
                     "dice_val": "1",
@@ -74,7 +74,7 @@
         },
         {
             "dice": "d12",
-            "name": "The watch\u2019s symbol is...",
+            "name": "The watch’s symbol is...",
             "table_entries": [
                 {
                     "dice_val": "1",
@@ -128,7 +128,7 @@
         },
         {
             "dice": "d12",
-            "name": "The watch\u2019s captain is...",
+            "name": "The watch’s captain is...",
             "table_entries": [
                 {
                     "dice_val": "1",
@@ -182,7 +182,7 @@
         },
         {
             "dice": "d6",
-            "name": "The watch\u2019s attitude toward their captain is...",
+            "name": "The watch’s attitude toward their captain is...",
             "table_entries": [
                 {
                     "dice_val": "1",
@@ -308,7 +308,7 @@
                 },
                 {
                     "dice_val": "5",
-                    "entry": "Maces and crossbows. \u00ac\u00ac"
+                    "entry": "Maces and crossbows. ¬¬"
                 },
                 {
                     "dice_val": "6",
@@ -410,7 +410,7 @@
         },
         {
             "dice": "d12",
-            "name": "On the constable\u2019s face is...",
+            "name": "On the constable’s face is...",
             "table_entries": [
                 {
                     "dice_val": "1",
@@ -586,7 +586,7 @@
         },
         {
             "dice": "d12",
-            "name": "On the guard\u2019s face is...",
+            "name": "On the guard’s face is...",
             "table_entries": [
                 {
                     "dice_val": "1",
@@ -676,7 +676,7 @@
                 },
                 {
                     "dice_val": "9",
-                    "entry": "A lucky charm (d4): 1. rabbit\u2019s foot; 2. old coin; 3. shiny coin; 4. four-leaf clover."
+                    "entry": "A lucky charm (d4): 1. rabbit’s foot; 2. old coin; 3. shiny coin; 4. four-leaf clover."
                 },
                 {
                     "dice_val": "10",

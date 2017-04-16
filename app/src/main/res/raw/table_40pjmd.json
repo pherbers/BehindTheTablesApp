@@ -267,7 +267,7 @@
         },
         {
             "dice": "d4",
-            "name": "Many of the monastery\u2019s ceilings are...",
+            "name": "Many of the monastery’s ceilings are...",
             "table_entries": [
                 {
                     "dice_val": "1",
@@ -319,7 +319,7 @@
         },
         {
             "dice": "d8",
-            "name": "Many of the monastery\u2019s interior walls are...",
+            "name": "Many of the monastery’s interior walls are...",
             "table_entries": [
                 {
                     "dice_val": "1",
@@ -479,11 +479,11 @@
                 },
                 {
                     "dice_val": "9",
-                    "entry": "A member of the monastery\u2019s serving staff."
+                    "entry": "A member of the monastery’s serving staff."
                 },
                 {
                     "dice_val": "10",
-                    "entry": "A member of the monastery\u2019s guard."
+                    "entry": "A member of the monastery’s guard."
                 },
                 {
                     "dice_val": "11",
@@ -491,7 +491,7 @@
                 },
                 {
                     "dice_val": "12",
-                    "entry": "A feeling that you\u2019re being watched."
+                    "entry": "A feeling that you’re being watched."
                 }
             ]
         },
@@ -525,7 +525,7 @@
                 },
                 {
                     "dice_val": "7",
-                    "entry": "Ritual transformation into a god\u2019s avatar."
+                    "entry": "Ritual transformation into a god’s avatar."
                 },
                 {
                     "dice_val": "8",
@@ -543,7 +543,7 @@
         },
         {
             "dice": "d4",
-            "name": "The monastery\u2019s secret is known to...",
+            "name": "The monastery’s secret is known to...",
             "table_entries": [
                 {
                     "dice_val": "1",
@@ -555,7 +555,7 @@
                 },
                 {
                     "dice_val": "3",
-                    "entry": "Several of the monastery\u2019s masters."
+                    "entry": "Several of the monastery’s masters."
                 },
                 {
                     "dice_val": "4",

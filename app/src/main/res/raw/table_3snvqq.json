@@ -15,7 +15,7 @@
     "tables": [
         {
             "dice": "d10",
-            "name": "The goblins\u2019 primary \u201cbusiness\u201d involves...",
+            "name": "The goblins’ primary “business” involves...",
             "table_entries": [
                 {
                     "dice_val": "1",
@@ -35,7 +35,7 @@
                 },
                 {
                     "dice_val": "5",
-                    "entry": "Holding up traders\u2019 ships or wagons. "
+                    "entry": "Holding up traders’ ships or wagons. "
                 },
                 {
                     "dice_val": "6",
@@ -61,7 +61,7 @@
         },
         {
             "dice": "d10",
-            "name": "The goblin gang\u2019s symbol is...",
+            "name": "The goblin gang’s symbol is...",
             "table_entries": [
                 {
                     "dice_val": "1",
@@ -107,7 +107,7 @@
         },
         {
             "dice": "d20",
-            "name": "The goblin gang\u2019s colors are...",
+            "name": "The goblin gang’s colors are...",
             "table_entries": [
                 {
                     "dice_val": "1",
@@ -193,7 +193,7 @@
         },
         {
             "dice": "d6",
-            "name": "The goblins\u2019 lair is located...",
+            "name": "The goblins’ lair is located...",
             "table_entries": [
                 {
                     "dice_val": "1",
@@ -223,7 +223,7 @@
         },
         {
             "dice": "d6",
-            "name": "The goblins\u2019 lair is...",
+            "name": "The goblins’ lair is...",
             "table_entries": [
                 {
                     "dice_val": "1",
@@ -339,7 +339,7 @@
         },
         {
             "dice": "d10",
-            "name": "The goblins\u2019 are currently planning a raid on...",
+            "name": "The goblins’ are currently planning a raid on...",
             "table_entries": [
                 {
                     "dice_val": "1",
@@ -385,7 +385,7 @@
         },
         {
             "dice": "d10",
-            "name": "The goblins\u2019 boss is...",
+            "name": "The goblins’ boss is...",
             "table_entries": [
                 {
                     "dice_val": "1",
@@ -431,15 +431,15 @@
         },
         {
             "dice": "d6",
-            "name": "The goblins\u2019 goals include (boss and rank-and-file members could have different goals)...",
+            "name": "The goblins’ goals include (boss and rank-and-file members could have different goals)...",
             "table_entries": [
                 {
                     "dice_val": "1",
-                    "entry": "Disruption of the region\u2019s politics."
+                    "entry": "Disruption of the region’s politics."
                 },
                 {
                     "dice_val": "2",
-                    "entry": "Disruption of the region\u2019s trade."
+                    "entry": "Disruption of the region’s trade."
                 },
                 {
                     "dice_val": "3",
