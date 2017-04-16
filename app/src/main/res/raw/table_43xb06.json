@@ -17,6 +17,9 @@
     "related_tables": [],
     "tables": [
         {
+            "subcategory": "Random Merchant Guilds: We have what you need..."
+        },
+        {
             "dice": "d8",
             "name": "The guild is controlled by...",
             "table_entries": [
@@ -283,6 +286,9 @@
             ]
         },
         {
+            "subcategory": "Trading Company"
+        },
+        {
             "dice": "d6",
             "name": "This trading company's specific specialty or purpose is...",
             "table_entries": [
@@ -351,6 +357,9 @@
             ]
         },
         {
+            "subcategory": "Shopkeeper"
+        },
+        {
             "dice": "d4",
             "name": "The shopkeeper is...",
             "table_entries": [
@@ -393,6 +402,9 @@
                     "entry": "Share some wine and chat."
                 }
             ]
+        },
+        {
+            "subcategory": "Merchant"
         },
         {
             "dice": "d6",

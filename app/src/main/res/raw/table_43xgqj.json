@@ -15,6 +15,9 @@
     "related_tables": [],
     "tables": [
         {
+            "subcategory": "Random City Features"
+        },
+        {
             "dice": "d20",
             "name": "Landmark: You see a/an...",
             "table_entries": [

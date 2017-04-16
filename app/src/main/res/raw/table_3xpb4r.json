@@ -29,6 +29,9 @@
     ],
     "tables": [
         {
+            "subcategory": "Random Temple: Kneel before the gods..."
+        },
+        {
             "dice": "d6",
             "name": "Worshipers at the temple pray to...",
             "table_entries": [

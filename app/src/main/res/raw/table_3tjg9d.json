@@ -22,6 +22,9 @@
     ],
     "tables": [
         {
+            "subcategory": "Random Military Companies"
+        },
+        {
             "dice": "d20",
             "name": "The company’s colors are...",
             "table_entries": [
@@ -466,6 +469,9 @@
                     "entry": "Green boys."
                 }
             ]
+        },
+        {
+            "subcategory": "Individual Soldiers"
         },
         {
             "dice": "d12",

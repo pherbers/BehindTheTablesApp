@@ -22,6 +22,9 @@
     "related_tables": [],
     "tables": [
         {
+            "subcategory": "Random Dinner in a Dwarvish Alehouse"
+        },
+        {
             "dice": "d12",
             "name": "Tonight, in a dwarvish alehouse, we dine on...",
             "table_entries": [

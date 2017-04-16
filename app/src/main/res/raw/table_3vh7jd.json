@@ -24,6 +24,9 @@
     ],
     "tables": [
         {
+            "subcategory": "Random High Elves"
+        },
+        {
             "dice": "d8",
             "name": "Hair: The high elf has...",
             "table_entries": [

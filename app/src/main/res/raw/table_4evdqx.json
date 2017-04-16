@@ -26,6 +26,9 @@
     ],
     "tables": [
         {
+            "subcategory": "Dinner in a Witch's Hovel"
+        },
+        {
             "dice": "d12",
             "name": "Tonight, in a witch's hovel, we dine on...",
             "table_entries": [

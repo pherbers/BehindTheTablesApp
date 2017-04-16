@@ -1,0 +1,346 @@
+{
+    "category": "Dungeons/Locations",
+    "description": "*I am challenging myself to write a table set every day for one month. This is the fifth. These aren’t all going to be brilliant, but I’m trying to churn them out quickly (in the little time I have) to get some thoughts out and keep the juices flowing.*\n\n*I may come back to these for expansion, clean-up and revision. I may not even add these to the wiki. These short posts are me trying to get something out in ~15 minutes or less.*\n\n*Note, this one was tough, and it took me a bit longer than 15 min (but not more than 30).*\n\nUse these to make a quick elemental air dungeon.",
+    "id": "5xnofs",
+    "keywords": [
+        "air wind",
+        "giants",
+        "clouds",
+        "beanstalk"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/comments/5xnofs",
+    "related_tables": [
+        {
+            "link": "5y0ucp",
+            "title": "Elemental earth dungeon"
+        },
+        {
+            "link": "5xcmqe",
+            "title": "Elemental fire dungeon"
+        },
+        {
+            "link": "5wzioq",
+            "title": "Elemental water dungeon"
+        }
+    ],
+    "tables": [
+        {
+            "subcategory": "Random Dungeon of Elemental Air"
+        },
+        {
+            "dice": "d6",
+            "name": "This place is a...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Palace built by an air elemental lord."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Series of caves in a floating earth mote."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Series of deep tunnels with constant, howling wind."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Stronghold built by beings of elemental air."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Temple dedicated to a wind god."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Maze of semi-solid clouds."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Ambient sounds: You hear a/an...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Constant howl of wind."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Constant rush of air."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Constant monotone whistling."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Eerie, shifting succession of musical chords."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Intermittent clap of thunder."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Flute playing somewhere."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Major feature: You see a/an...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Intersection with swiftly shifting winds."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Large cloud sculpture."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Shimmering, eerie fog."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Barrel of feathered arrows."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Altar to a wind god."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Tremendous beanstalk or staircase descending far below where you stand."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Minor feature: You notice a/an...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Small cloud shaped like an animal."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Floating lamp."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Icon of a wind god."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Rush of cool air."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Sudden shrill whistle in the distance."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Swirl of dust."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "NPC: You meet a/an…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Ghost of an unfortunate explorer."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Half-mad elemental cultist."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Nervous beastshifter (roll on beast table)."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Contemplative monk."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Interplanar traveler."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Inventor with a flying contraption."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Beast: You meet a/an…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Raven."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Bat."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Hawk."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Giant bee."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Pterodactyl."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Swarm of moths."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Secondary Monster: You come upon a/an…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Air elemental."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Arrowhawk."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Invisible stalker."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Wyvern."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Spectre."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Roc."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Primary monster: This place is currently ruled by a/an…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Djinn prince."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Cloud giant."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Giant eagle."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Evil entropomancer."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Beholder."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Wraith."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Traps/hazard: You must survive the…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Trap door to a tremendous fall."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Poisoned dart trap."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Magic crossbow turret trap."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Runes that explode in bursts of lightning."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Sealing chamber that turns into a vacuum."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Curse of listlessness."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Reward/treasure: If you survive, you may find a/an...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Infamous giant’s treasure hoard."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Wreck of a legendary airship."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Rod of elemental power."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Bow that belonged to an ancient hero."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Powerful wizard’s lost spellbook."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Imprisoned dragon."
+                }
+            ]
+        }
+    ],
+    "title": "Elemental Air Dungeon",
+    "use_with": [
+        {
+            "link": "4spk6l",
+            "title": "Bats"
+        },
+        {
+            "link": "40wc26",
+            "title": "Cultists"
+        },
+        {
+            "link": "3xq9nd",
+            "title": "Monks"
+        }
+    ]
+}

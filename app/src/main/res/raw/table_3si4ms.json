@@ -25,6 +25,9 @@
     ],
     "tables": [
         {
+            "subcategory": "Random Witches"
+        },
+        {
             "dice": "d20",
             "name": "The witch is...",
             "table_entries": [
@@ -479,6 +482,9 @@
             ]
         },
         {
+            "subcategory": "Potion Brewing"
+        },
+        {
             "dice": "d10",
             "name": "The witch's brew is percolating in...",
             "table_entries": [
@@ -647,6 +653,9 @@
                     "entry": "A component for a beguiling charm."
                 }
             ]
+        },
+        {
+            "subcategory": "Familiars"
         },
         {
             "dice": "d12",

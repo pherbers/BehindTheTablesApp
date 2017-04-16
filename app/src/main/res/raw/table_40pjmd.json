@@ -20,6 +20,9 @@
     ],
     "tables": [
         {
+            "subcategory": "Discipline, Strength, and Wisdom..."
+        },
+        {
             "dice": "d12",
             "name": "Visitors to the monastery come seeking...",
             "table_entries": [

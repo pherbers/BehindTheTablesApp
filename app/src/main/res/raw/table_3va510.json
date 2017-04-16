@@ -12,6 +12,9 @@
     "related_tables": [],
     "tables": [
         {
+            "subcategory": "Random Woodsmen"
+        },
+        {
             "dice": "d10",
             "name": "Facial Feature: The woodsman has...",
             "table_entries": [

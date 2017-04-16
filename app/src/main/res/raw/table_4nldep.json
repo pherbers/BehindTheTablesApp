@@ -406,6 +406,9 @@
             ]
         },
         {
+            "subcategory": "Magical Maladies"
+        },
+        {
             "dice": "d20",
             "name": "The magical disease is associated with...",
             "table_entries": [

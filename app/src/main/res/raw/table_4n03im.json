@@ -34,6 +34,9 @@
     ],
     "tables": [
         {
+            "subcategory": "Random Infernal Beast"
+        },
+        {
             "dice": "d12",
             "name": "The infernal beast appears in the form of...",
             "table_entries": [

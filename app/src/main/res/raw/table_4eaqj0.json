@@ -32,6 +32,9 @@
     ],
     "tables": [
         {
+            "subcategory": "Random Dinner among Easterlings"
+        },
+        {
             "dice": "d10",
             "name": "Tonight, among easterlings, we dine on...",
             "table_entries": [

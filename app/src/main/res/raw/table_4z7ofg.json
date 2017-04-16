@@ -54,6 +54,9 @@
     ],
     "tables": [
         {
+            "subcategory": "Random Mutant Creatures"
+        },
+        {
             "dice": "d10",
             "name": "The mutant creature is a...",
             "table_entries": [

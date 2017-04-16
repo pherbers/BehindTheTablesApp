@@ -25,6 +25,9 @@
     ],
     "tables": [
         {
+            "subcategory": "Dinner in a Goblin Hideout"
+        },
+        {
             "dice": "d10",
             "name": "Tonight, in a goblin hideout, we dine on...",
             "table_entries": [

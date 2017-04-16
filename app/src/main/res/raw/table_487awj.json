@@ -28,6 +28,9 @@
     ],
     "tables": [
         {
+            "subcategory": "Random Spiders"
+        },
+        {
             "dice": "d8",
             "name": "Color: The spider is...",
             "table_entries": [

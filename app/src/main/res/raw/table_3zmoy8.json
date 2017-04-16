@@ -35,6 +35,9 @@
     ],
     "tables": [
         {
+            "subcategory": "Random Military Camps"
+        },
+        {
             "dice": "d10",
             "name": "This tent is functions as...",
             "table_entries": [
@@ -225,6 +228,9 @@
             ]
         },
         {
+            "subcategory": "Commander"
+        },
+        {
             "dice": "d6",
             "name": "The commander is...",
             "table_entries": [
@@ -337,6 +343,9 @@
             ]
         },
         {
+            "subcategory": "Soldier"
+        },
+        {
             "dice": "d6",
             "name": "The soldier fights for...",
             "table_entries": [
@@ -411,6 +420,9 @@
             ]
         },
         {
+            "subcategory": "Scout"
+        },
+        {
             "dice": "d4",
             "name": "The scout is...",
             "table_entries": [
@@ -475,6 +487,9 @@
                     "entry": "A large knife and climbing gear."
                 }
             ]
+        },
+        {
+            "subcategory": "Armorer"
         },
         {
             "dice": "d4",
@@ -543,6 +558,9 @@
             ]
         },
         {
+            "subcategory": "Quartermaster"
+        },
+        {
             "dice": "d4",
             "name": "The quartermaster is...",
             "table_entries": [
@@ -607,6 +625,9 @@
                     "entry": "Bones, scalps, teeth, or other grisly trophies."
                 }
             ]
+        },
+        {
+            "subcategory": "Stable Hand / Squire / Valet"
         },
         {
             "dice": "d8",
@@ -699,6 +720,9 @@
             ]
         },
         {
+            "subcategory": "Cook"
+        },
+        {
             "dice": "d6",
             "name": "The cook is looking for...",
             "table_entries": [
@@ -727,6 +751,9 @@
                     "entry": "The bottom of a bottle."
                 }
             ]
+        },
+        {
+            "subcategory": "Camp Follower"
         },
         {
             "dice": "d6",

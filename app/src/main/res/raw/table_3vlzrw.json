@@ -19,9 +19,7 @@
     "related_tables": [],
     "tables": [
         {
-            "dice": "d6",
-            "name": "Hair: The faerie has...",
-            "table_entries": []
+            "subcategory": "Random Faeriefolk"
         },
         {
             "dice": "d12",

@@ -21,6 +21,9 @@
     ],
     "tables": [
         {
+            "subcategory": "Random Snake Cultists"
+        },
+        {
             "dice": "d10",
             "name": "Profession: The cultist is...",
             "table_entries": [

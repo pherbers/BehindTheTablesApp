@@ -25,6 +25,9 @@
     ],
     "tables": [
         {
+            "subcategory": "Orc Warlords"
+        },
+        {
             "dice": "d4",
             "name": "Race, This Orc is a...",
             "table_entries": [
@@ -48,7 +51,7 @@
         },
         {
             "dice": "d20",
-            "name": "Appearance, The warlord has… ",
+            "name": "Appearance, The warlord has…",
             "table_entries": [
                 {
                     "dice_val": "1",

@@ -1850,7 +1850,7 @@
 			"legend"
 		],
 		"related_tables": [],
-		"title": "Reputations &amp; Rumors",
+		"title": "Reputations & Rumors",
 		"use_with": []
 	},
 	"table_438vlw": {
@@ -2874,7 +2874,7 @@
 	},
 	"table_4boiw9": {
 		"category": "Monsters",
-		"description": "Fiends vary wildly in form and  all share a cruelty and disdain for mortals and an extraplanar origin. These tables are useful for generating a fiend that could be demonic or infernal in origin or hail from a different place entirely. It gives you some unique features of the fiend's appearance, its goals and machinations, and its preferred methods of tormenting mortals.\n\nThe line between demons and devils is not as sharp in my cosmology as it is in others. Devils tend to be less rigid and structured in their schemes and wars than canonical D&amp;D devils, but they are moreso than demons. Demons tend to be less wanton and self-destructive in sowing chaos than canonical D&amp;D demons, but they are moreso than devils. Succubi, rakshasas, and other fiends are possible, but all fiends are rare encounters. Each fiend is a unique manifestation of evil in my world. For this break from canon, I apologize. I may consider separating these tables at some time in the future to better fit the canonical mold.",
+		"description": "Fiends vary wildly in form and  all share a cruelty and disdain for mortals and an extraplanar origin. These tables are useful for generating a fiend that could be demonic or infernal in origin or hail from a different place entirely. It gives you some unique features of the fiend's appearance, its goals and machinations, and its preferred methods of tormenting mortals.\n\nThe line between demons and devils is not as sharp in my cosmology as it is in others. Devils tend to be less rigid and structured in their schemes and wars than canonical D&D devils, but they are moreso than demons. Demons tend to be less wanton and self-destructive in sowing chaos than canonical D&D demons, but they are moreso than devils. Succubi, rakshasas, and other fiends are possible, but all fiends are rare encounters. Each fiend is a unique manifestation of evil in my world. For this break from canon, I apologize. I may consider separating these tables at some time in the future to better fit the canonical mold.",
 		"keywords": [
 			"demon",
 			"devil",
@@ -4692,7 +4692,7 @@
 			"checkers",
 			"cyvasse",
 			"cribbage",
-			"d&amp;d"
+			"d&d"
 		],
 		"related_tables": [],
 		"title": "Games",
@@ -5014,5 +5014,180 @@
 		"related_tables": [],
 		"title": "Rogue Missions",
 		"use_with": []
+	},
+	"table_5loo6y": {
+		"category": "Plot",
+		"description": "Use these table to generate an object of interest that is possessed by a PC or NPC, and has been passed down in the family for 1 or more generations.",
+		"keywords": [
+			"backstory",
+			"history",
+			"npc",
+			"pc"
+		],
+		"related_tables": [],
+		"title": "Heirlooms",
+		"use_with": [
+			"3zr0h4",
+			"4hbe7j"
+		]
+	},
+	"table_5wzioq": {
+		"category": "Dungeons/Locations",
+		"description": "*I am challenging myself to write a table set every day for one month. This is the first. These aren’t all going to be brilliant, but I’m trying to churn them out quickly (in the little time I have) to get some thoughts out and keep the juices flowing.*\n\n*I may come back to these for expansion, clean-up and revision. I may not even add these to the wiki. These short posts are me trying to get something out in ~15 minutes or less.*\n\nUse these to make a quick water elemental-themed dungeon.",
+		"keywords": [
+			"water elemental",
+			"olhydra",
+			"solkara",
+			"deep creatures"
+		],
+		"related_tables": [
+			"5xnofs",
+			"5y0ucp",
+			"5xcmqe"
+		],
+		"title": "Elemental Water Dungeon",
+		"use_with": [
+			"3xyiqs",
+			"3su3be",
+			"3t5sik",
+			"4nbzeq"
+		]
+	},
+	"table_5x6ij0": {
+		"category": "Monsters",
+		"description": "*I am challenging myself to write a table set every day for one month. This is the second. These aren’t all going to be brilliant, but I’m trying to churn them out quickly (in the little time I have) to get some thoughts out and keep the juices flowing.*\n\n*I may come back to these for expansion, clean-up and revision. I may not even add these to the wiki. These short posts are me trying to get something out in ~15 minutes or less.*\n\nUse these to make a quick merfolk NPC.",
+		"keywords": [
+			"Merfolk",
+			"mermaid",
+			"merman",
+			"neptune",
+			"triton",
+			"ariel",
+			"aquaman"
+		],
+		"related_tables": [],
+		"title": "Merfolk",
+		"use_with": [
+			"5wzioq",
+			"3su3be",
+			"3t5sik",
+			"4nbzeq"
+		]
+	},
+	"table_5xcmqe": {
+		"category": "Dungeons/Locations",
+		"description": "*I am challenging myself to write a table set every day for one month. This is the third. These aren’t all going to be brilliant, but I’m trying to churn them out quickly (in the little time I have) to get some thoughts out and keep the juices flowing.*\n\n*I may come back to these for expansion, clean-up and revision. I may not even add these to the wiki. These short posts are me trying to get something out in ~15 minutes or less.*\n\nUse these to make a quick elemental fire dungeon.",
+		"keywords": [
+			"efreet",
+			"ifrit",
+			"efreeti",
+			"city of brass",
+			"elemental fire",
+			"elemental chaos",
+			"imix",
+			"balrog",
+			"mount doom",
+			"through fire and flame"
+		],
+		"related_tables": [
+			"5xnofs",
+			"5y0ucp",
+			"5wzioq"
+		],
+		"title": "Elemental Fire Dungeon",
+		"use_with": [
+			"3xyiqs",
+			"4boiw9",
+			"4nbz5o",
+			"3tjb63"
+		]
+	},
+	"table_5xhhlw": {
+		"category": "Wilderness",
+		"description": "*I am challenging myself to write a table set every day for one month. This is the fourth. These aren’t all going to be brilliant, but I’m trying to churn them out quickly (in the little time I have) to get some thoughts out and keep the juices flowing.*\n\n*I may come back to these for expansion, clean-up and revision. I may not even add these to the wiki. These short posts are me trying to get something out in ~15 minutes or less.*\n\nUse these to make a quick swamp region.",
+		"keywords": [
+			"swamp",
+			"bog",
+			"marsh",
+			"muck",
+			"mud",
+			"wilderness",
+			"delta",
+			"bayou"
+		],
+		"related_tables": [
+			"43c2q8"
+		],
+		"title": "Quick Swamp",
+		"use_with": [
+			"3xpb4r",
+			"427hd8",
+			"4elhkc",
+			"3uzuni",
+			"3si4ms"
+		]
+	},
+	"table_5xnofs": {
+		"category": "Dungeons/Locations",
+		"description": "*I am challenging myself to write a table set every day for one month. This is the fifth. These aren’t all going to be brilliant, but I’m trying to churn them out quickly (in the little time I have) to get some thoughts out and keep the juices flowing.*\n\n*I may come back to these for expansion, clean-up and revision. I may not even add these to the wiki. These short posts are me trying to get something out in ~15 minutes or less.*\n\n*Note, this one was tough, and it took me a bit longer than 15 min (but not more than 30).*\n\nUse these to make a quick elemental air dungeon.",
+		"keywords": [
+			"air wind",
+			"giants",
+			"clouds",
+			"beanstalk"
+		],
+		"related_tables": [
+			"5y0ucp",
+			"5xcmqe",
+			"5wzioq"
+		],
+		"title": "Elemental Air Dungeon",
+		"use_with": [
+			"4spk6l",
+			"40wc26",
+			"3xq9nd"
+		]
+	},
+	"table_5xtmto": {
+		"category": "Monsters",
+		"description": "*I am challenging myself to write a table set every day for one month. This is the sixth. These aren’t all going to be brilliant, but I’m trying to churn them out quickly (in the little time I have) to get some thoughts out and keep the juices flowing.*\n\n*I may come back to these for expansion, clean-up and revision. I may not even add these to the wiki. These short posts are me trying to get something out in ~15 minutes or less.*\n\nUse these to make a quick ogre.",
+		"keywords": [
+			"ogre",
+			"half-ogre",
+			"brute",
+			"shrek"
+		],
+		"related_tables": [],
+		"title": "Ogres",
+		"use_with": [
+			"3unfbm",
+			"3snvqq",
+			"42rm5s",
+			"3vspx8"
+		]
+	},
+	"table_5y0ucp": {
+		"category": "Dungeons/Locations",
+		"description": "*I am challenging myself to write a table set every day for one month. This is the seventh. These aren’t all going to be brilliant, but I’m trying to churn them out quickly (in the little time I have) to get some thoughts out and keep the juices flowing.*\n\n*I may come back to these for expansion, clean-up and revision. I may not even add these to the wiki. These short posts are me trying to get something out in ~15 minutes or less.*\n\nUse these to make a quick elemental earth dungeon.",
+		"keywords": [
+			"elemental earth",
+			"plane of mud",
+			"ogremoch",
+			"hobbit holes",
+			"stonehenge",
+			"iron hill"
+		],
+		"related_tables": [
+			"5xnofs",
+			"5xcmqe",
+			"5wzioq"
+		],
+		"title": "Elemental Earth Dungeon",
+		"use_with": [
+			"3unfbm",
+			"3xyiqs",
+			"43ufyr",
+			"50t6ir"
+		]
 	}
 }

@@ -23,6 +23,9 @@
     ],
     "tables": [
         {
+            "subcategory": "Random Herb Lore"
+        },
+        {
             "dice": "d12",
             "name": "The herbal concoction will help...",
             "table_entries": [
@@ -385,6 +388,9 @@
                     "entry": "Taken at a time that matches a natural cycle (d12): 1. spring equinox; 2. summer solstice; 3. autumn equinox; 4. winter solstice; 5. new moon; 6. waxing moon; 7. full moon; 8. waning moon; 9. dawn; 10. midday; 11. at dusk; 12. midnight."
                 }
             ]
+        },
+        {
+            "subcategory": "Herb Names"
         },
         {
             "dice": "d20",

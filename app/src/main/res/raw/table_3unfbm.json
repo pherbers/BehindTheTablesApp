@@ -21,6 +21,9 @@
     ],
     "tables": [
         {
+            "subcategory": "Into the Dark…"
+        },
+        {
             "dice": "d10",
             "name": "Entrance: The cave mouth is...",
             "table_entries": [

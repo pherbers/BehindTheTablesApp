@@ -28,6 +28,9 @@
     "related_tables": [],
     "tables": [
         {
+            "subcategory": "Random Dungeons"
+        },
+        {
             "dice": "d10",
             "name": "This place is (or was) a...",
             "table_entries": [

@@ -18,6 +18,9 @@
     "related_tables": [],
     "tables": [
         {
+            "subcategory": "Street Food Generator"
+        },
+        {
             "dice": "d6",
             "name": "Varieties: This dish is...",
             "table_entries": [
@@ -176,6 +179,9 @@
             ]
         },
         {
+            "subcategory": "Flavors"
+        },
+        {
             "dice": "d6",
             "name": "Sweet flavors: The dish is flavored with...",
             "table_entries": [
@@ -282,6 +288,9 @@
             ]
         },
         {
+            "subcategory": "Fruits"
+        },
+        {
             "dice": "d20",
             "name": "Fruits: The dish is made with...",
             "table_entries": [
@@ -366,6 +375,9 @@
                     "entry": "Dryad melons."
                 }
             ]
+        },
+        {
+            "subcategory": "Vegetables"
         },
         {
             "dice": "d20",
@@ -454,6 +466,9 @@
             ]
         },
         {
+            "subcategory": "Savories"
+        },
+        {
             "dice": "d20",
             "name": "Savories: The dish is made with...",
             "table_entries": [
@@ -538,6 +553,9 @@
                     "entry": "Walnuts."
                 }
             ]
+        },
+        {
+            "subcategory": "Seafood"
         },
         {
             "dice": "d20",
@@ -710,6 +728,9 @@
                     "entry": "Aberrant tentacles."
                 }
             ]
+        },
+        {
+            "subcategory": "Meats"
         },
         {
             "dice": "d20",
@@ -968,6 +989,9 @@
                     "entry": "Virgin priestess."
                 }
             ]
+        },
+        {
+            "subcategory": "Breads"
         },
         {
             "dice": "d12",

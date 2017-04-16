@@ -22,6 +22,9 @@
     ],
     "tables": [
         {
+            "subcategory": "Random Books"
+        },
+        {
             "dice": "d20",
             "name": "The book's subject is...",
             "table_entries": [

@@ -41,6 +41,9 @@
     ],
     "tables": [
         {
+            "subcategory": "Random Legendary Beast"
+        },
+        {
             "dice": "d20",
             "name": "The legendary beast is...",
             "table_entries": [

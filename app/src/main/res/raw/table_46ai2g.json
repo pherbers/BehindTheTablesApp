@@ -18,6 +18,9 @@
     "related_tables": [],
     "tables": [
         {
+            "subcategory": "Random Dungeon Dressing"
+        },
+        {
             "dice": "d100",
             "name": "Air Currents",
             "table_entries": [
@@ -285,7 +288,7 @@
                 },
                 {
                     "dice_val": "62-64",
-                    "entry": "leaves (dry) &amp; twigs.  "
+                    "entry": "leaves (dry) & twigs.  "
                 },
                 {
                     "dice_val": "65-68",
@@ -313,7 +316,7 @@
                 },
                 {
                     "dice_val": "75-76",
-                    "entry": "rubble &amp; dirt.  "
+                    "entry": "rubble & dirt.  "
                 },
                 {
                     "dice_val": "77",
@@ -669,7 +672,7 @@
                 },
                 {
                     "dice_val": "12",
-                    "entry": "brazier &amp; charcoal.  "
+                    "entry": "brazier & charcoal.  "
                 },
                 {
                     "dice_val": "13",
@@ -773,7 +776,7 @@
                 },
                 {
                     "dice_val": "40-42",
-                    "entry": "fireplace &amp; wood.  "
+                    "entry": "fireplace & wood.  "
                 },
                 {
                     "dice_val": "43",
@@ -1331,7 +1334,7 @@
                 },
                 {
                     "dice_val": "04-05",
-                    "entry": "balance &amp; weights.  "
+                    "entry": "balance & weights.  "
                 },
                 {
                     "dice_val": "06-09",
@@ -1467,7 +1470,7 @@
                 },
                 {
                     "dice_val": "55",
-                    "entry": "mortar &amp; pestle.  "
+                    "entry": "mortar & pestle.  "
                 },
                 {
                     "dice_val": "56",
@@ -2019,7 +2022,7 @@
                 },
                 {
                     "dice_val": "81-84",
-                    "entry": "tinderbox (with flint &amp; steel).  "
+                    "entry": "tinderbox (with flint & steel).  "
                 },
                 {
                     "dice_val": "85-86",

@@ -22,6 +22,9 @@
     ],
     "tables": [
         {
+            "subcategory": "Random Castle Dungeons: In the Darkest Pits..."
+        },
+        {
             "dice": "d6",
             "name": "The dungeon is located...",
             "table_entries": [
@@ -502,6 +505,9 @@
             ]
         },
         {
+            "subcategory": "Jailer"
+        },
+        {
             "dice": "d6",
             "name": "The jailer is...",
             "table_entries": [
@@ -614,6 +620,9 @@
             ]
         },
         {
+            "subcategory": "Prisoner"
+        },
+        {
             "dice": "d4",
             "name": "The prisoner has...",
             "table_entries": [
@@ -686,6 +695,9 @@
                     "entry": "Been driven mad."
                 }
             ]
+        },
+        {
+            "subcategory": "Torturer"
         },
         {
             "dice": "d4",

@@ -27,6 +27,9 @@
     ],
     "tables": [
         {
+            "subcategory": "Random Sailors"
+        },
+        {
             "dice": "d12",
             "name": "The sailor is...",
             "table_entries": [

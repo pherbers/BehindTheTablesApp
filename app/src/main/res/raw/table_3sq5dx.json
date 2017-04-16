@@ -13,6 +13,9 @@
     "related_tables": [],
     "tables": [
         {
+            "subcategory": "Random Vampires"
+        },
+        {
             "dice": "d12",
             "name": "In life, the vampire was...",
             "table_entries": [

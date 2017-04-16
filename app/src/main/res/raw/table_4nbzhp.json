@@ -38,6 +38,9 @@
     ],
     "tables": [
         {
+            "subcategory": "Random Storm Beast"
+        },
+        {
             "dice": "d12",
             "name": "The storm beast is...",
             "table_entries": [

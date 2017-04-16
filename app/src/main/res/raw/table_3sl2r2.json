@@ -26,6 +26,9 @@
     ],
     "tables": [
         {
+            "subcategory": "Random Merchant Caravans"
+        },
+        {
             "dice": "d6",
             "name": "The caravan is...",
             "table_entries": [
@@ -144,6 +147,9 @@
                     "entry": "Eager; great riches await at journey’s end."
                 }
             ]
+        },
+        {
+            "subcategory": "Caravan Master"
         },
         {
             "dice": "d8",
@@ -290,6 +296,9 @@
             ]
         },
         {
+            "subcategory": "Animal Handler/Porter"
+        },
+        {
             "dice": "d6",
             "name": "The animal handler has...",
             "table_entries": [
@@ -372,6 +381,9 @@
             ]
         },
         {
+            "subcategory": "Cook"
+        },
+        {
             "dice": "d4",
             "name": "The cook greets you with...",
             "table_entries": [
@@ -444,6 +456,9 @@
                     "entry": "A bottle of whisky."
                 }
             ]
+        },
+        {
+            "subcategory": "Guard"
         },
         {
             "dice": "d6",
@@ -544,6 +559,9 @@
             ]
         },
         {
+            "subcategory": "Guide"
+        },
+        {
             "dice": "d4",
             "name": "The guide is...",
             "table_entries": [
@@ -608,6 +626,9 @@
                     "entry": "A large knife and some rope."
                 }
             ]
+        },
+        {
+            "subcategory": "Caravan Owner"
         },
         {
             "dice": "d6",
@@ -712,6 +733,9 @@
                     "entry": "Shells, beads, and trinkets."
                 }
             ]
+        },
+        {
+            "subcategory": "Traveler"
         },
         {
             "dice": "d6",

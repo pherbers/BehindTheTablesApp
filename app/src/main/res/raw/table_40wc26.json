@@ -20,6 +20,9 @@
     ],
     "tables": [
         {
+            "subcategory": "Random Cultists"
+        },
+        {
             "dice": "d6",
             "name": "The cultist...",
             "table_entries": [

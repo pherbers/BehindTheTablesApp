@@ -1,0 +1,320 @@
+{
+    "category": "Wilderness",
+    "description": "*I am challenging myself to write a table set every day for one month. This is the fourth. These aren’t all going to be brilliant, but I’m trying to churn them out quickly (in the little time I have) to get some thoughts out and keep the juices flowing.*\n\n*I may come back to these for expansion, clean-up and revision. I may not even add these to the wiki. These short posts are me trying to get something out in ~15 minutes or less.*\n\nUse these to make a quick swamp region.",
+    "id": "5xhhlw",
+    "keywords": [
+        "swamp",
+        "bog",
+        "marsh",
+        "muck",
+        "mud",
+        "wilderness",
+        "delta",
+        "bayou"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/comments/5xhhlw",
+    "related_tables": [
+        {
+            "link": "43c2q8",
+            "title": "Swamp"
+        }
+    ],
+    "tables": [
+        {
+            "subcategory": "Random Swamp"
+        },
+        {
+            "dice": "d6",
+            "name": "Point of interest: You come upon a/an...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Ring of ancient monoliths."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Entrance to a flooded tomb."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Ruined temple."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "House floating on pontoons."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Dwelling built upon stilts."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Damp cave."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Landmark/feature: You see a/an...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Bubbling pool of mud."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Enormous gnarled old tree."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Hillock rising above the water."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Thorny bramble."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Patch of very tall reeds."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Large, rotting log."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Minor feature: You notice a/an...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Scent of decay."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Bird call."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Flying waterfowl."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Lizard climbing a tree."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Especially mossy tree."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Patch of mushrooms."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Daytime encounters: You meet a/an...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Beast (roll on beast table)."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Monster (roll on monster table)."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Reclusive beastshifter (roll on beast table)."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Solitary fisherman."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Eccentric herbalist."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Skilled hunter."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Nighttime encounters: You meet a/an...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Beast (roll on beast table)."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Monster (roll on monster table)."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Hungry ghoul"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Malevolent ghost."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Foul-mouthed witch."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Desperate fugitive."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Beast: You come upon a/an...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Crocodile."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Snake."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Predatory fish."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Predatory bird (hawk or owl)."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Giant frog."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Giant rat."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Monster: You come upon a/an...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Bullywug."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Lizardfolk."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Bog hag."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Displacer beast."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Manticore."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Stirge."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Hazard: You happen upon a/an…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Patch of sticky mud."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Patch of quicksand."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Swarm of biting flies."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Sudden rainstorm."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Nauseating stench."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Hunter’s snare."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Power center: This region is ruled or menaced by a/an…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Black dragon."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Hydra."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Lich."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Council of swampfolk elders."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Tribal chieftain."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Noble family."
+                }
+            ]
+        }
+    ],
+    "title": "Quick Swamp",
+    "use_with": [
+        {
+            "link": "3xpb4r",
+            "title": "Temple"
+        },
+        {
+            "link": "427hd8",
+            "title": "Tomb"
+        },
+        {
+            "link": "4elhkc",
+            "title": "Dinner among swampfolk"
+        },
+        {
+            "link": "3uzuni",
+            "title": "Lizardfolk"
+        },
+        {
+            "link": "3si4ms",
+            "title": "Witches"
+        }
+    ]
+}

@@ -30,6 +30,9 @@
     ],
     "tables": [
         {
+            "subcategory": "Random Rats"
+        },
+        {
             "dice": "d6",
             "name": "Size: The rat is...",
             "table_entries": [

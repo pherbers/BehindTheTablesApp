@@ -24,6 +24,9 @@
     ],
     "tables": [
         {
+            "subcategory": "Random Mercenary Troops"
+        },
+        {
             "dice": "d12",
             "name": "The mercenary troop’s colors are...",
             "table_entries": [

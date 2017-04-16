@@ -13,6 +13,9 @@
     "related_tables": [],
     "tables": [
         {
+            "subcategory": "Grow Your Very Own Swamp"
+        },
+        {
             "dice": "d10",
             "name": "Roll Odor",
             "table_entries": [

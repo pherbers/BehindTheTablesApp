@@ -10,7 +10,7 @@ public class TableCollection {
 
     private String title;
     private String reference;
-    private List<RandomTable> tables;
+    private List<TableCollectionEntry> tables;
     private String description = "";
     private String id = "";
     private String category;
@@ -18,12 +18,12 @@ public class TableCollection {
     private List<TableLink> useWithTables = null;
     private List<String> keywords = null;
 
-    public TableCollection(String title, List<RandomTable> tables) {
+    public TableCollection(String title, List<TableCollectionEntry> tables) {
         this.title = title;
         this.tables = tables;
     }
 
-    public TableCollection(String title, List<RandomTable> tables, String reference, String description, String category, String id, List<TableLink> relatedTables, List<TableLink> useWithTables, List<String> keywords) {
+    public TableCollection(String title, List<TableCollectionEntry> tables, String reference, String description, String category, String id, List<TableLink> relatedTables, List<TableLink> useWithTables, List<String> keywords) {
         this.title = title;
         this.reference = reference;
         this.tables = tables;
@@ -43,11 +43,11 @@ public class TableCollection {
         this.reference = reference;
     }
 
-    public List<RandomTable> getTables() {
+    public List<TableCollectionEntry> getTables() {
         return tables;
     }
 
-    public void setTables(List<RandomTable> tables) {
+    public void setTables(List<TableCollectionEntry> tables) {
         this.tables = tables;
     }
 
@@ -108,8 +108,9 @@ public class TableCollection {
     }
 
     public void rollAllTables() {
-        for(RandomTable table: tables) {
-            table.roll();
+        for(TableCollectionEntry table: tables) {
+            if(table instanceof RandomTable)
+                ((RandomTable)table).roll();
         }
     }
 }

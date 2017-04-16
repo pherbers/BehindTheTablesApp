@@ -30,6 +30,12 @@
     ],
     "tables": [
         {
+            "subcategory": "Who Lives in this Castle?"
+        },
+        {
+            "subcategory": "Nobleman"
+        },
+        {
             "dice": "d6",
             "name": "The lord is...",
             "table_entries": [
@@ -120,6 +126,9 @@
             ]
         },
         {
+            "subcategory": "Noblewoman"
+        },
+        {
             "dice": "d6",
             "name": "The lady is...",
             "table_entries": [
@@ -202,6 +211,9 @@
             ]
         },
         {
+            "subcategory": "Guard"
+        },
+        {
             "dice": "d6",
             "name": "The guard serves his liege for...",
             "table_entries": [
@@ -282,6 +294,9 @@
                     "entry": "A ribbon from a sweet maiden."
                 }
             ]
+        },
+        {
+            "subcategory": "Knight"
         },
         {
             "dice": "d6",
@@ -374,6 +389,9 @@
             ]
         },
         {
+            "subcategory": "Squire / Valet"
+        },
+        {
             "dice": "d6",
             "name": "The retainer is...",
             "table_entries": [
@@ -456,6 +474,9 @@
             ]
         },
         {
+            "subcategory": "Archer"
+        },
+        {
             "dice": "d6",
             "name": "The archer is...",
             "table_entries": [
@@ -530,6 +551,9 @@
             ]
         },
         {
+            "subcategory": "Armorer / Smith"
+        },
+        {
             "dice": "d4",
             "name": "The smith is...",
             "table_entries": [
@@ -594,6 +618,9 @@
                     "entry": "Little more than a few coins."
                 }
             ]
+        },
+        {
+            "subcategory": "Steward"
         },
         {
             "dice": "d4",
@@ -662,6 +689,9 @@
             ]
         },
         {
+            "subcategory": "Chaplain"
+        },
+        {
             "dice": "d4",
             "name": "The chaplain is...",
             "table_entries": [
@@ -728,6 +758,9 @@
             ]
         },
         {
+            "subcategory": "Cook"
+        },
+        {
             "dice": "d4",
             "name": "The cook greets you with...",
             "table_entries": [
@@ -770,6 +803,9 @@
                     "entry": "The bottom of a bottle."
                 }
             ]
+        },
+        {
+            "subcategory": "Fool / Jester"
         },
         {
             "dice": "d6",
@@ -868,6 +904,9 @@
                     "entry": "Get drunk and feel numb."
                 }
             ]
+        },
+        {
+            "subcategory": "Tutor / Sage"
         },
         {
             "dice": "d6",
@@ -976,6 +1015,9 @@
             ]
         },
         {
+            "subcategory": "Maidservant"
+        },
+        {
             "dice": "d4",
             "name": "The servant is...",
             "table_entries": [
@@ -1040,6 +1082,9 @@
                     "entry": "Bend your ear for an old folk tale."
                 }
             ]
+        },
+        {
+            "subcategory": "Guard Captain"
         },
         {
             "dice": "d6",
@@ -1146,6 +1191,9 @@
             ]
         },
         {
+            "subcategory": "Horsemaster"
+        },
+        {
             "dice": "d4",
             "name": "The horsemaster is...",
             "table_entries": [
@@ -1212,6 +1260,9 @@
             ]
         },
         {
+            "subcategory": "Stable Hand"
+        },
+        {
             "dice": "d4",
             "name": "The stable hand is...",
             "table_entries": [
@@ -1276,6 +1327,9 @@
                     "entry": "Pet the pretty horses."
                 }
             ]
+        },
+        {
+            "subcategory": "Huntsman"
         },
         {
             "dice": "d6",
@@ -1374,6 +1428,9 @@
             ]
         },
         {
+            "subcategory": "Kennelmaster"
+        },
+        {
             "dice": "d4",
             "name": "The kennelmaster is...",
             "table_entries": [
@@ -1438,6 +1495,9 @@
                     "entry": "A rope leash."
                 }
             ]
+        },
+        {
+            "subcategory": "Bowyer / Fletcher"
         },
         {
             "dice": "d4",

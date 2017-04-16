@@ -26,6 +26,9 @@
     ],
     "tables": [
         {
+            "subcategory": "Random Dinner among Desert Nomads"
+        },
+        {
             "dice": "d8",
             "name": "Tonight, among desert nomads, we dine on...",
             "table_entries": [

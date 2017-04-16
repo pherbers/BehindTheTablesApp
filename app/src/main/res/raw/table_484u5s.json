@@ -10,6 +10,9 @@
     "related_tables": [],
     "tables": [
         {
+            "subcategory": "Silly insults"
+        },
+        {
             "dice": "d41",
             "name": "You...",
             "table_entries": [

@@ -34,6 +34,9 @@
     ],
     "tables": [
         {
+            "subcategory": "Random Dinner among Swampfolk"
+        },
+        {
             "dice": "d12",
             "name": "Tonight, among swampfolk, we dine on...",
             "table_entries": [

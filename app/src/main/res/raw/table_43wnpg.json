@@ -21,6 +21,9 @@
     "related_tables": [],
     "tables": [
         {
+            "subcategory": "Random Harlots"
+        },
+        {
             "dice": "d10",
             "name": "The harlot is...",
             "table_entries": [

@@ -18,6 +18,9 @@
     "related_tables": [],
     "tables": [
         {
+            "subcategory": "Random Dwarves"
+        },
+        {
             "dice": "d10",
             "name": "The dwarf is...",
             "table_entries": [

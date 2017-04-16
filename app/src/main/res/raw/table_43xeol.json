@@ -18,6 +18,9 @@
     "related_tables": [],
     "tables": [
         {
+            "subcategory": "Random Magical Device Mishaps"
+        },
+        {
             "dice": "d6",
             "name": "Magical Device Mishaps",
             "table_entries": [

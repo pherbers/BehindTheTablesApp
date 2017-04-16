@@ -17,6 +17,9 @@
     "related_tables": [],
     "tables": [
         {
+            "subcategory": "Random Treefolk"
+        },
+        {
             "dice": "d8",
             "name": "The treeperson is...",
             "table_entries": [

@@ -9,6 +9,9 @@
     "related_tables": [],
     "tables": [
         {
+            "subcategory": "You see nearby:"
+        },
+        {
             "dice": "D20",
             "name": "Dungeon",
             "table_entries": [

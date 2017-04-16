@@ -26,6 +26,9 @@
     ],
     "tables": [
         {
+            "subcategory": "Into the woods…"
+        },
+        {
             "dice": "d12",
             "name": "Interesting Location: You find...",
             "table_entries": [

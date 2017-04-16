@@ -22,6 +22,9 @@
     "related_tables": [],
     "tables": [
         {
+            "subcategory": "You have heard of the adventurer in front of you because..."
+        },
+        {
             "dice": "D10",
             "name": "Barbarian",
             "table_entries": [

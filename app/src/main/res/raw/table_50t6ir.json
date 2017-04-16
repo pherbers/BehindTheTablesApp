@@ -18,6 +18,12 @@
     "related_tables": [],
     "tables": [
         {
+            "subcategory": "Into the Dark…"
+        },
+        {
+            "subcategory": "Random Oozes"
+        },
+        {
             "dice": "d20",
             "name": "Color: The ooze is...",
             "table_entries": [

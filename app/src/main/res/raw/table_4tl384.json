@@ -24,6 +24,9 @@
     ],
     "tables": [
         {
+            "subcategory": "Random Holy Altar"
+        },
+        {
             "dice": "d10",
             "name": "The altar chamber is lit by...",
             "table_entries": [
@@ -206,6 +209,9 @@
                     "entry": "A censer."
                 }
             ]
+        },
+        {
+            "subcategory": "Ritual On A Holy Altar"
         },
         {
             "dice": "d6",

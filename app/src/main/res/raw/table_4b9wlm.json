@@ -15,6 +15,9 @@
     "related_tables": [],
     "tables": [
         {
+            "subcategory": "Random Dragons"
+        },
+        {
             "dice": "d100",
             "name": "Age: The dragon is...",
             "table_entries": [

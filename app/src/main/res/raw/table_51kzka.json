@@ -16,6 +16,9 @@
     "related_tables": [],
     "tables": [
         {
+            "subcategory": "Random Pub Names"
+        },
+        {
             "dice": "d4",
             "name": "Naming Formula:",
             "table_entries": [

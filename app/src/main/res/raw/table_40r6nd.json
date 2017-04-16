@@ -13,6 +13,9 @@
     "related_tables": [],
     "tables": [
         {
+            "subcategory": "Strange People"
+        },
+        {
             "dice": "D8",
             "name": "AGE",
             "table_entries": [

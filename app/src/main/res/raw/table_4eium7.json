@@ -17,6 +17,9 @@
     "related_tables": [],
     "tables": [
         {
+            "subcategory": "Random Junk"
+        },
+        {
             "dice": "d100",
             "name": "Mostly useless junk: The crate contains...",
             "table_entries": [

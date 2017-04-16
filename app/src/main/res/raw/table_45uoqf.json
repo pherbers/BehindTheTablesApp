@@ -17,6 +17,9 @@
     "related_tables": [],
     "tables": [
         {
+            "subcategory": "You see nearby:"
+        },
+        {
             "dice": "d20",
             "name": "Dwarf Enclave",
             "table_entries": [
@@ -90,7 +93,7 @@
                 },
                 {
                     "dice_val": "18",
-                    "entry": "A dwarf trapper &amp; the village rat catcher, both dressed in pelts, stomp past hauling a small wagon full of cages."
+                    "entry": "A dwarf trapper & the village rat catcher, both dressed in pelts, stomp past hauling a small wagon full of cages."
                 },
                 {
                     "dice_val": "19",

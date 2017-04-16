@@ -16,6 +16,9 @@
     "related_tables": [],
     "tables": [
         {
+            "subcategory": "Random Golems"
+        },
+        {
             "dice": "d12",
             "name": "The golem is...",
             "table_entries": [

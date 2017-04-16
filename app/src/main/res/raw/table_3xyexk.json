@@ -19,6 +19,9 @@
     "related_tables": [],
     "tables": [
         {
+            "subcategory": "Random Arena Games"
+        },
+        {
             "dice": "d8",
             "name": "The arena is...",
             "table_entries": [

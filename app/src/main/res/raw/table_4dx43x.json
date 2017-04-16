@@ -33,6 +33,9 @@
     ],
     "tables": [
         {
+            "subcategory": "Random Dinner at a Mining Town Pub"
+        },
+        {
             "dice": "d10",
             "name": "Tonight, at a mining town pub, we dine on...",
             "table_entries": [

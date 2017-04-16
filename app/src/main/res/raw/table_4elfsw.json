@@ -33,6 +33,9 @@
     ],
     "tables": [
         {
+            "subcategory": "Random Dinner among Jungle Dwellers"
+        },
+        {
             "dice": "d12",
             "name": "Tonight, among jungle dwellers, we dine on...",
             "table_entries": [

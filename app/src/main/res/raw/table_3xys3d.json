@@ -19,6 +19,9 @@
     "related_tables": [],
     "tables": [
         {
+            "subcategory": "Random Farmfolk"
+        },
+        {
             "dice": "d8",
             "name": "The peasant is...",
             "table_entries": [

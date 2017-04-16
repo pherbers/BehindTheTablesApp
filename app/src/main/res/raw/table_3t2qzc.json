@@ -29,6 +29,9 @@
     ],
     "tables": [
         {
+            "subcategory": "Random Outlaw Bands"
+        },
+        {
             "dice": "d10",
             "name": "The outlaw band’s primary “business” involves...",
             "table_entries": [
@@ -485,7 +488,16 @@
                 {
                     "dice_val": "12",
                     "entry": "Extravagant mustaches."
-                },
+                }
+            ]
+        },
+        {
+            "subcategory": "Poachers"
+        },
+        {
+            "dice": "d8",
+            "name": "The poachers’ favorite prey includes...",
+            "table_entries": [
                 {
                     "dice_val": "1",
                     "entry": "Bears."
@@ -525,7 +537,13 @@
                 {
                     "dice_val": "10",
                     "entry": "Wolves."
-                },
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The poachers’ hunt...",
+            "table_entries": [
                 {
                     "dice_val": "1",
                     "entry": "For sport."
@@ -551,6 +569,9 @@
                     "entry": "To sell the beasts’ pelts."
                 }
             ]
+        },
+        {
+            "subcategory": "Robbers"
         },
         {
             "dice": "d6",
@@ -619,6 +640,9 @@
                     "entry": "Drinking too much ale. "
                 }
             ]
+        },
+        {
+            "subcategory": "Smugglers"
         },
         {
             "dice": "d6",

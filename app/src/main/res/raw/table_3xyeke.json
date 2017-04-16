@@ -24,6 +24,9 @@
     ],
     "tables": [
         {
+            "subcategory": "Random Gladiators"
+        },
+        {
             "dice": "d8",
             "name": "The gladiator is armored in...",
             "table_entries": [

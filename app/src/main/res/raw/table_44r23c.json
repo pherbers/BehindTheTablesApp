@@ -25,6 +25,9 @@
     ],
     "tables": [
         {
+            "subcategory": "Random Seers"
+        },
+        {
             "dice": "d10",
             "name": "The seer is...",
             "table_entries": [

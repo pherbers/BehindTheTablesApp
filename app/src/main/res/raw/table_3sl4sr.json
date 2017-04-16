@@ -26,6 +26,9 @@
     ],
     "tables": [
         {
+            "subcategory": "Random Alchemists"
+        },
+        {
             "dice": "d8",
             "name": "The alchemist is...",
             "table_entries": [
@@ -206,6 +209,9 @@
                     "entry": "Warding."
                 }
             ]
+        },
+        {
+            "subcategory": "Potion Brewing"
         },
         {
             "dice": "d12",

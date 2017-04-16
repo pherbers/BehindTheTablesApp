@@ -20,6 +20,12 @@
     "related_tables": [],
     "tables": [
         {
+            "subcategory": "Random NPC Traits"
+        },
+        {
+            "subcategory": "Facial Features"
+        },
+        {
             "dice": "d20",
             "name": "Eyes: The person has...",
             "table_entries": [
@@ -422,6 +428,9 @@
             ]
         },
         {
+            "subcategory": "Physical Traits"
+        },
+        {
             "dice": "d6",
             "name": "Height: The person is...",
             "table_entries": [
@@ -588,6 +597,9 @@
                     "entry": "A long, thin scar."
                 }
             ]
+        },
+        {
+            "subcategory": "Accessories"
         },
         {
             "dice": "d12",
@@ -770,7 +782,16 @@
                 {
                     "dice_val": "8",
                     "entry": "Tattered and worn."
-                },
+                }
+            ]
+        },
+        {
+            "subcategory": "Emotions And Attitude"
+        },
+        {
+            "dice": "d32",
+            "name": "Calm Trait: When calm, the person is typically...",
+            "table_entries": [
                 {
                     "dice_val": "1",
                     "entry": "Compassionate"
@@ -898,7 +919,13 @@
                 {
                     "dice_val": "32",
                     "entry": "Weak-Willed"
-                },
+                }
+            ]
+        },
+        {
+            "dice": "d32",
+            "name": "Stress Trait: When stressed, the person often becomes...",
+            "table_entries": [
                 {
                     "dice_val": "1",
                     "entry": "Withdrawn"
@@ -1116,6 +1143,9 @@
             ]
         },
         {
+            "subcategory": "Faith And Beliefs"
+        },
+        {
             "dice": "d8",
             "name": "The person is a...",
             "table_entries": [
@@ -1182,6 +1212,9 @@
                     "entry": "A race (d8): 1. dwarves; 2. elves; 3. gnomes;; 4. goblins; 5. half-breeds; 5. halflings; 6. humans; 7. orcs; 8. reptilians."
                 }
             ]
+        },
+        {
+            "subcategory": "Flaws"
         },
         {
             "dice": "d20",

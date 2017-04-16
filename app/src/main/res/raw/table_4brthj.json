@@ -24,6 +24,9 @@
     ],
     "tables": [
         {
+            "subcategory": "Random Orcs"
+        },
+        {
             "dice": "d8",
             "name": "Skin: The orc has...",
             "table_entries": [

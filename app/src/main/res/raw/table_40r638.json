@@ -12,6 +12,9 @@
     "related_tables": [],
     "tables": [
         {
+            "subcategory": "Strange locations"
+        },
+        {
             "dice": "D10",
             "name": "Source",
             "table_entries": [
@@ -637,7 +640,7 @@
         },
         {
             "dice": "D20",
-            "name": "Area - *somewhere* ",
+            "name": "Area - *somewhere*",
             "table_entries": [
                 {
                     "dice_val": "1",

@@ -20,6 +20,9 @@
     ],
     "tables": [
         {
+            "subcategory": "Random Graverobbers"
+        },
+        {
             "dice": "d10",
             "name": "The graverobber is...",
             "table_entries": [

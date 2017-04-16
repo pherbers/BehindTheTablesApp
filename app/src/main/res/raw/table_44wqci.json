@@ -40,6 +40,9 @@
     ],
     "tables": [
         {
+            "subcategory": "Random Assassins"
+        },
+        {
             "dice": "d12",
             "name": "The assassin is...",
             "table_entries": [

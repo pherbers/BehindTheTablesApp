@@ -25,6 +25,9 @@
     ],
     "tables": [
         {
+            "subcategory": "Random Unholy Altar"
+        },
+        {
             "dice": "d10",
             "name": "The altar chamber is lit by...",
             "table_entries": [
@@ -207,6 +210,9 @@
                     "entry": "A ceremonial knife."
                 }
             ]
+        },
+        {
+            "subcategory": "Sacrifice On Unholy Altars"
         },
         {
             "dice": "d6",

@@ -1,0 +1,356 @@
+{
+    "category": "Dungeons/Locations",
+    "description": "*I am challenging myself to write a table set every day for one month. This is the third. These aren’t all going to be brilliant, but I’m trying to churn them out quickly (in the little time I have) to get some thoughts out and keep the juices flowing.*\n\n*I may come back to these for expansion, clean-up and revision. I may not even add these to the wiki. These short posts are me trying to get something out in ~15 minutes or less.*\n\nUse these to make a quick elemental fire dungeon.",
+    "id": "5xcmqe",
+    "keywords": [
+        "efreet",
+        "ifrit",
+        "efreeti",
+        "city of brass",
+        "elemental fire",
+        "elemental chaos",
+        "imix",
+        "balrog",
+        "mount doom",
+        "through fire and flame"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/comments/5xcmqe",
+    "related_tables": [
+        {
+            "link": "5xnofs",
+            "title": "Elemental air dungeon"
+        },
+        {
+            "link": "5y0ucp",
+            "title": "Elemental earth dungeon"
+        },
+        {
+            "link": "5wzioq",
+            "title": "Elemental water dungeon"
+        }
+    ],
+    "tables": [
+        {
+            "subcategory": "Random Dungeon of Elemental Fire"
+        },
+        {
+            "dice": "d6",
+            "name": "This place is a...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Volcanic mountain."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Series of geothermal vents deep underground."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Stronghold built by beings of flame."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Temple dedicated to a fiery god."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Palace built by a fire elemental lord."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Enormous forge or armory gone wrong."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Air quality: The air in the chambers in here is…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Filled with choking ash."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Filled with hot ash."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Filled with choking smoke."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Filled with dark smoke."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Uncomfortably hot."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Filled with poisonous gas."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Major feature: You see a/an...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Over-sized brazier."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Large iron sculpture."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Altar to a fiery god."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Rack of iron spears or steel scimitars."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Charred skeleton of a mortal."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Fountain of smoke and flame."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Minor feature: You notice a/an...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Wisp of smoke."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Scent of brimstone."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Icon of a fiery god."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Charred wooden object."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Scorch marks on the wall."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Iron wall sconce with a torch."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "NPC: You meet a/an…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Half-mad elemental cultist."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Escaped mortal slave."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Intrepid dwarvish prospector."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Wayward warlock."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Hermetic monk."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Half-fiend scholar."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Beast: You meet a…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Fire bat."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Swarm of fire beetles."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Flame drake."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Fiendish hyena."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Flame snake."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Fiendish stirge."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Secondary monster: You come upon a/an…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Azer."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Gnoll."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Fire elemental."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Hell hound."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Salamander."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Flaming skeleton."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Primary monster: This place is currently ruled by a/an…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Scheming devil."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Efreet prince."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Fire demon."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Fire giant."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Evil pyromancer."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Red dragon."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Traps/hazard: You must survive the…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Sealing chamber that fills with poisonous gas."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Sudden and sporadic walls of flame."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Collapsing ceiling."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Explosive bursts of fire and rock."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "False-floor pit trap."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Whirling blades trap."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Reward/treasure: If you survive, you may find a/an...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Notorious bandit’s treasure hoard."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Wand of elemental power."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Ancient weapon forged of fire and steel."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Crystal that offers glimpses of the future."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Genie bound to a lamp."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Captive phoenix."
+                }
+            ]
+        }
+    ],
+    "title": "Elemental Fire Dungeon",
+    "use_with": [
+        {
+            "link": "3xyiqs",
+            "title": "Cults"
+        },
+        {
+            "link": "4boiw9",
+            "title": "Fiends"
+        },
+        {
+            "link": "4nbz5o",
+            "title": "Fire beasts"
+        },
+        {
+            "link": "3tjb63",
+            "title": "Flame-scorched desert"
+        }
+    ]
+}

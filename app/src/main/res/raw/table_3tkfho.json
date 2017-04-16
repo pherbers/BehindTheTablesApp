@@ -30,6 +30,9 @@
     ],
     "tables": [
         {
+            "subcategory": "Random Sworn Swords"
+        },
+        {
             "dice": "d20",
             "name": "The knight’s house’s colors are...",
             "table_entries": [
@@ -510,6 +513,9 @@
                     "entry": "A ribbon from a faraway maiden."
                 }
             ]
+        },
+        {
+            "subcategory": "Retainers"
         },
         {
             "dice": "d12",

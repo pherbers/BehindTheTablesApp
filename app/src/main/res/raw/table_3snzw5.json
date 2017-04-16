@@ -17,6 +17,9 @@
     "related_tables": [],
     "tables": [
         {
+            "subcategory": "Random Lycanthropes"
+        },
+        {
             "dice": "d12",
             "name": "The beastshifter transforms into...",
             "table_entries": [
@@ -501,6 +504,9 @@
             ]
         },
         {
+            "subcategory": "Lycanthrope Packs"
+        },
+        {
             "dice": "d8",
             "name": "The pack is...",
             "table_entries": [
@@ -651,6 +657,9 @@
                     "entry": "Violence to slake their bloodlust."
                 }
             ]
+        },
+        {
+            "subcategory": "Uncommon Lycanthropes"
         },
         {
             "dice": "d20",

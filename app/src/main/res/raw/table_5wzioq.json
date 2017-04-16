@@ -1,0 +1,350 @@
+{
+    "category": "Dungeons/Locations",
+    "description": "*I am challenging myself to write a table set every day for one month. This is the first. These aren’t all going to be brilliant, but I’m trying to churn them out quickly (in the little time I have) to get some thoughts out and keep the juices flowing.*\n\n*I may come back to these for expansion, clean-up and revision. I may not even add these to the wiki. These short posts are me trying to get something out in ~15 minutes or less.*\n\nUse these to make a quick water elemental-themed dungeon.",
+    "id": "5wzioq",
+    "keywords": [
+        "water elemental",
+        "olhydra",
+        "solkara",
+        "deep creatures"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/comments/5wzioq",
+    "related_tables": [
+        {
+            "link": "5xnofs",
+            "title": "Elemental air dungeon"
+        },
+        {
+            "link": "5y0ucp",
+            "title": "Elemental earth dungeon"
+        },
+        {
+            "link": "5xcmqe",
+            "title": "Elemental fire dungeon"
+        }
+    ],
+    "tables": [
+        {
+            "subcategory": "Random Dungeon of Elemental Water"
+        },
+        {
+            "dice": "d6",
+            "name": "This place is a...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Sea cave."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Series of flooded tunnels deep underground."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Stronghold built by aquatic beings."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Temple dedicated to a watery god."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Palace built by a water elemental lord."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Sewer gone wrong."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Water level: The chambers in this place...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Are always flooded up to the ceiling."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Are always flooded in the lower levels."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Are always flooded up to the waist."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Fill with water at high tide."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Fill with water seasonally."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Fill with water at the whim of an elemental lord."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Major feature: You see a/an...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Air pocket."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Altar to a watery god."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Heavy chest."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Rack of harpoons and/or spears."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Skeleton of a drowned mortal."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Teeming reef."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Minor feature: You see a...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Little stream of bubbles."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Icon of a watery god."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Debris from a broken boat."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "School of fish."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Ragged piece of cloth."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Pocket of cool water."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "NPC: You meet a/an…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Smuggler’s ghost."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Curious mermaid."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Suspicious sea elf."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Eccentric treasure hunter."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Half-mad elemental cultist."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Reclusive beastshifter (roll on beast table)."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Beast: You meet a/an…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Dolphin."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Giant clam."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Lobster."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Octopus."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Seal."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Shark."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Secondary monster: You come upon a/an…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Aberrant sea beast (roll on beast table)."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Swarm of crabs or carnivorous fish."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Kuo-toa."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Sahuagin."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Sea hag."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Water elemental."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Primary monster: This place is currently ruled by a…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Aboleth."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Blue dragon."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Kraken."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Maridan prince."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Storm giant."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Storm sorcerer."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Traps/hazard: You must survive the…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Electric eels."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Poisonous jellyfish."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Poisoned dart trap."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Flooding airlock trap."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Swirling currents."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Curse of rotting death."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Reward/treasure: If you survive, you may find...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Pirate captain’s hoard."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Staff of elemental power."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Ancient weapon forged of coral."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Legendary gemstone lost at sea."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Key to opening a portal to another realm."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Captive mermaid princess."
+                }
+            ]
+        }
+    ],
+    "title": "Elemental Water Dungeon",
+    "use_with": [
+        {
+            "link": "3xyiqs",
+            "title": "Cults"
+        },
+        {
+            "link": "3su3be",
+            "title": "Fish, daily catch"
+        },
+        {
+            "link": "3t5sik",
+            "title": "Pirate crews"
+        },
+        {
+            "link": "4nbzeq",
+            "title": "Sea beasts"
+        }
+    ]
+}

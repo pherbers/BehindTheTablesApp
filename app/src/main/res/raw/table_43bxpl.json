@@ -12,6 +12,9 @@
     "related_tables": [],
     "tables": [
         {
+            "subcategory": "Your Nightmare is Here"
+        },
+        {
             "dice": "d10",
             "name": "Roll  You find yourself in",
             "table_entries": [

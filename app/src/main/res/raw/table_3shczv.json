@@ -16,6 +16,9 @@
     "related_tables": [],
     "tables": [
         {
+            "subcategory": "Deity 1: GOD OF THE SUN/SKY"
+        },
+        {
             "dice": "d6",
             "name": "This god of the sun and/or sky is often called...",
             "table_entries": [
@@ -104,6 +107,9 @@
                     "entry": "Humbly cover themselves from ever allowing direct sunlight to reach their skin."
                 }
             ]
+        },
+        {
+            "subcategory": "Deity 2: EARTH/MOTHER GODDESS"
         },
         {
             "dice": "d6",
@@ -196,6 +202,9 @@
             ]
         },
         {
+            "subcategory": "Deity 3: GOD OF CRAFT/KNOWLEDGE"
+        },
+        {
             "dice": "d6",
             "name": "This god of crafting and/or knowledge is often called...",
             "table_entries": [
@@ -284,6 +293,9 @@
                     "entry": "Maintain a shrine with candles and a small stone or metal figurine dedicated to the god in their home."
                 }
             ]
+        },
+        {
+            "subcategory": "Deity 4: GOD OF DARKNESS/SECRETS"
         },
         {
             "dice": "d6",
@@ -376,6 +388,9 @@
             ]
         },
         {
+            "subcategory": "Deity 5: GOD OF DEATH/EVIL"
+        },
+        {
             "dice": "d6",
             "name": "This god of death and/or evil is often called...",
             "table_entries": [
@@ -464,6 +479,9 @@
                     "entry": "Keep a shrine in their home that contains the bones of someone they knew."
                 }
             ]
+        },
+        {
+            "subcategory": "Deity 6: GODDESS OF THE HARVEST/SEASONS"
         },
         {
             "dice": "d6",
@@ -556,6 +574,9 @@
             ]
         },
         {
+            "subcategory": "Deity 7: GODDESS OF LOVE/FERTILITY..."
+        },
+        {
             "dice": "d6",
             "name": "This goddess of love and/or fertility is often called...",
             "table_entries": [
@@ -644,6 +665,9 @@
                     "entry": "Be subject of a ceremony that welcomes them into adulthood."
                 }
             ]
+        },
+        {
+            "subcategory": "Deity 8: GODDESS OF MOON/MAGIC"
         },
         {
             "dice": "d6",
@@ -736,6 +760,9 @@
             ]
         },
         {
+            "subcategory": "Deity 9: GODDESS OF THE HUNT/WOODLANDS"
+        },
+        {
             "dice": "d6",
             "name": "This goddess the hunt and/or woodlands is often called...",
             "table_entries": [
@@ -826,6 +853,9 @@
             ]
         },
         {
+            "subcategory": "Deity 10: THE GOD OF STORMS/SEAS"
+        },
+        {
             "dice": "d6",
             "name": "This god is of storms and/or seas often called...",
             "table_entries": [
@@ -914,6 +944,9 @@
                     "entry": "Always offer shelter from storms to anyone who needs it."
                 }
             ]
+        },
+        {
+            "subcategory": "Deity 11: THE TRICKSTER/MESSENGER GOD"
         },
         {
             "dice": "d8",
@@ -1014,6 +1047,9 @@
             ]
         },
         {
+            "subcategory": "Deity 12: THE WAR/TYRANT GOD"
+        },
+        {
             "dice": "d6",
             "name": "This war/tyrant god is often called...",
             "table_entries": [
@@ -1102,6 +1138,9 @@
                     "entry": "Say a prayer when washing blood from their weapons."
                 }
             ]
+        },
+        {
+            "subcategory": "Relationships"
         },
         {
             "dice": "d10",

@@ -1,7 +1,5 @@
 package de.rub.pherbers.behindthetables.data;
 
-import android.util.JsonReader;
-
 import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
@@ -21,7 +19,7 @@ public abstract class TableReader {
 
     public static TableCollection readTable(InputStream is) throws IOException {
         String title;
-        List<RandomTable> tables;
+        List<TableCollectionEntry> tables;
         String reference;
         String description;
         String id;
@@ -63,13 +61,13 @@ public abstract class TableReader {
         return tableLinks;
     }
 
-    private static List<RandomTable> readTableListJson(JsonArray ja) throws IOException {
+    private static List<TableCollectionEntry> readTableListJson(JsonArray ja) throws IOException {
         int i = 0;
-        List<RandomTable> tables = new ArrayList<>();
+        List<TableCollectionEntry> tables = new ArrayList<>();
         for(JsonElement e: ja) {
             JsonObject jo = e.getAsJsonObject();
             if(jo.has("subcategory")) {
-
+                tables.add(new SubcategoryEntry(jo.get("subcategory").getAsString()));
             } else {
                 tables.add(readTableJson(jo, i));
                 i++;

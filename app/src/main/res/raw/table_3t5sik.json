@@ -28,6 +28,9 @@
     ],
     "tables": [
         {
+            "subcategory": "Random Pirate Crews"
+        },
+        {
             "dice": "d10",
             "name": "The pirates' ship is...",
             "table_entries": [
@@ -594,6 +597,9 @@
                     "entry": "Drinking too much rum. "
                 }
             ]
+        },
+        {
+            "subcategory": "Individual Pirates"
         },
         {
             "dice": "d12",

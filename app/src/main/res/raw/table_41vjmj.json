@@ -14,6 +14,9 @@
     ],
     "tables": [
         {
+            "subcategory": "Magic Wand Generator"
+        },
+        {
             "dice": "d8",
             "name": "The wand's tip is...",
             "table_entries": [
@@ -86,7 +89,13 @@
                 {
                     "dice_val": "8",
                     "entry": "Not there, this is an orb not a wand."
-                },
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "The wand is also decorated with...",
+            "table_entries": [
                 {
                     "dice_val": "1",
                     "entry": "Mystic runes, that cause pain to look upon."

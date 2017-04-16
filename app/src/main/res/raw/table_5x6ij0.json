@@ -1,0 +1,280 @@
+{
+    "category": "Monsters",
+    "description": "*I am challenging myself to write a table set every day for one month. This is the second. These aren’t all going to be brilliant, but I’m trying to churn them out quickly (in the little time I have) to get some thoughts out and keep the juices flowing.*\n\n*I may come back to these for expansion, clean-up and revision. I may not even add these to the wiki. These short posts are me trying to get something out in ~15 minutes or less.*\n\nUse these to make a quick merfolk NPC.",
+    "id": "5x6ij0",
+    "keywords": [
+        "Merfolk",
+        "mermaid",
+        "merman",
+        "neptune",
+        "triton",
+        "ariel",
+        "aquaman"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/comments/5x6ij0",
+    "related_tables": [],
+    "tables": [
+        {
+            "subcategory": "Random Merfolk"
+        },
+        {
+            "dice": "d6",
+            "name": "Hair color: The merfolk’s hair is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Red."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Gold."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Grey."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Dark brown."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Light brown."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Black."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Scale color: The merfolk’s scales are...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Pale green."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Dark green."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Greenish blue."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Iridescent blue."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Dull silver."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Shiny silver."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Training: The merfolk is a/an...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Crafter."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Forager."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Musician."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Seer."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Servant."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Warrior."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Skill: The merfolk is particularly good at...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Outswimming enemies."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Finding places to hide."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Singing."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Interpreting dreams."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Dodging attacks."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Spear-throwing."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Quirk/flaw: The merfolk frequently...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Interrupts others."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Hums when feeling nervous."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Makes uncomfortable eye contact."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Fidgets."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Refuses to do business with surface-dwellers."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Fears touching anything made above water."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Possessions: The merfolk is carrying...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A finely-crafted trident."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A simple spear."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A string of pearls."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A shell necklace."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "An unusual seashell."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A stringed musical instrument."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Immediate goal: The merfolk is looking for...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A tasty snack."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A good laugh."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Someone to listen to a song."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Someone to hear a sad tale."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A pretty seashell."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Shark repellent."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Ambition: The merfolk would like to...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Regrow a dying coral reef."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Chase away an aquatic demon."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Explore a dangerous underwater ruin."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Locate a long lost treasure."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Bring calamity to the surface-dwellers."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Learn about life on land."
+                }
+            ]
+        }
+    ],
+    "title": "Merfolk",
+    "use_with": [
+        {
+            "link": "5wzioq",
+            "title": "Elemental Water Dungeon"
+        },
+        {
+            "link": "3su3be",
+            "title": "Fish, daily catch"
+        },
+        {
+            "link": "3t5sik",
+            "title": "Pirate crews"
+        },
+        {
+            "link": "4nbzeq",
+            "title": "Sea beasts"
+        }
+    ]
+}

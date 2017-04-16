@@ -30,6 +30,9 @@
     ],
     "tables": [
         {
+            "subcategory": "Random Savage Hordes"
+        },
+        {
             "dice": "d6",
             "name": "The barbarians are...",
             "table_entries": [

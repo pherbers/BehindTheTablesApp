@@ -38,6 +38,9 @@
     ],
     "tables": [
         {
+            "subcategory": "Random Monkeys"
+        },
+        {
             "dice": "d12",
             "name": "The monkey's name is...",
             "table_entries": [

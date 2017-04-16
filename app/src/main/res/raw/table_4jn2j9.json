@@ -24,6 +24,9 @@
     "related_tables": [],
     "tables": [
         {
+            "subcategory": "Random City: Minimal Urban Planning"
+        },
+        {
             "dice": "d10",
             "name": "Geography: The city grew up around...",
             "table_entries": [

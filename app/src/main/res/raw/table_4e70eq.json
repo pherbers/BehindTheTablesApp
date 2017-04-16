@@ -25,6 +25,9 @@
     ],
     "tables": [
         {
+            "subcategory": "Random Dinner at a Seaside Cafe"
+        },
+        {
             "dice": "d10",
             "name": "Tonight, at a seaside cafe, we dine on...",
             "table_entries": [

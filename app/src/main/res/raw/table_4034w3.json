@@ -36,6 +36,9 @@
     ],
     "tables": [
         {
+            "subcategory": "Random Thieves"
+        },
+        {
             "dice": "d12",
             "name": "The thief is...",
             "table_entries": [

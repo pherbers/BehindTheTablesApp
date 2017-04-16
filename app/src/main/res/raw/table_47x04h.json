@@ -17,6 +17,9 @@
     "related_tables": [],
     "tables": [
         {
+            "subcategory": "Across the open wilderness"
+        },
+        {
             "dice": "d6",
             "name": "Foliage: The plant life is...",
             "table_entries": [
@@ -329,7 +332,13 @@
                 {
                     "dice_val": "8",
                     "entry": "Nothing near the surface, but the cave goes deep. Very deep...."
-                },
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Who are the nomads?",
+            "table_entries": [
                 {
                     "dice_val": "1",
                     "entry": "a tribe of centaurs, wary of outsiders."

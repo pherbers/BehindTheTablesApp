@@ -28,6 +28,9 @@
     "related_tables": [],
     "tables": [
         {
+            "subcategory": "Random Urban Marketplace"
+        },
+        {
             "dice": "d8",
             "name": "The marketplace is located in...",
             "table_entries": [
@@ -110,6 +113,9 @@
                     "entry": "Order of arrival at the marketplace on any given day."
                 }
             ]
+        },
+        {
+            "subcategory": "Individual Vendors"
         },
         {
             "dice": "d12",
@@ -376,6 +382,12 @@
                     "entry": "Very slow; the vendor makes only a few sales a day."
                 }
             ]
+        },
+        {
+            "subcategory": "More On The Merchandise"
+        },
+        {
+            "subcategory": "Other People In The Marketplace"
         }
     ],
     "title": "Urban Marketplace",

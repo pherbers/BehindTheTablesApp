@@ -12,6 +12,9 @@
     "related_tables": [],
     "tables": [
         {
+            "subcategory": "Divintation"
+        },
+        {
             "dice": "d10",
             "name": "Roll The Target",
             "table_entries": [

@@ -12,6 +12,9 @@
     "related_tables": [],
     "tables": [
         {
+            "subcategory": "Potions"
+        },
+        {
             "dice": "d10",
             "name": "Title. This is a...",
             "table_entries": [

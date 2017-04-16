@@ -12,6 +12,9 @@
     "related_tables": [],
     "tables": [
         {
+            "subcategory": "Random Secret Society"
+        },
+        {
             "dice": "d6",
             "name": "The society's main goal is to...",
             "table_entries": [

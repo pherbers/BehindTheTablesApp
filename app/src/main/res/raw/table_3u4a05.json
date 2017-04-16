@@ -34,6 +34,9 @@
     ],
     "tables": [
         {
+            "subcategory": "Welcome to the Jungle…"
+        },
+        {
             "dice": "d12",
             "name": "Interesting Location: You find...",
             "table_entries": [

@@ -31,6 +31,9 @@
     ],
     "tables": [
         {
+            "subcategory": "Random Tombs: Who Goes There?..."
+        },
+        {
             "dice": "d20",
             "name": "This tomb was built for...",
             "table_entries": [
@@ -555,6 +558,9 @@
             ]
         },
         {
+            "subcategory": "Undead Denizens"
+        },
+        {
             "dice": "d20",
             "name": "What haunts this tomb?",
             "table_entries": [
@@ -639,6 +645,9 @@
                     "entry": "A vengeful death knight."
                 }
             ]
+        },
+        {
+            "subcategory": "Living Denizens"
         },
         {
             "dice": "d12",

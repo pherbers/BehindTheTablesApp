@@ -18,6 +18,9 @@
     ],
     "tables": [
         {
+            "subcategory": "Random Assassins' Guilds"
+        },
+        {
             "dice": "d12",
             "name": "The guild’s symbol is...",
             "table_entries": [

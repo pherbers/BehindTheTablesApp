@@ -39,6 +39,9 @@
     ],
     "tables": [
         {
+            "subcategory": "Random Demonic Beast"
+        },
+        {
             "dice": "d12",
             "name": "The demonic beast appears in the form of...",
             "table_entries": [

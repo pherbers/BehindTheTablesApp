@@ -1,6 +1,6 @@
 {
     "category": "Monsters",
-    "description": "Fiends vary wildly in form and  all share a cruelty and disdain for mortals and an extraplanar origin. These tables are useful for generating a fiend that could be demonic or infernal in origin or hail from a different place entirely. It gives you some unique features of the fiend's appearance, its goals and machinations, and its preferred methods of tormenting mortals.\n\nThe line between demons and devils is not as sharp in my cosmology as it is in others. Devils tend to be less rigid and structured in their schemes and wars than canonical D&amp;D devils, but they are moreso than demons. Demons tend to be less wanton and self-destructive in sowing chaos than canonical D&amp;D demons, but they are moreso than devils. Succubi, rakshasas, and other fiends are possible, but all fiends are rare encounters. Each fiend is a unique manifestation of evil in my world. For this break from canon, I apologize. I may consider separating these tables at some time in the future to better fit the canonical mold.",
+    "description": "Fiends vary wildly in form and  all share a cruelty and disdain for mortals and an extraplanar origin. These tables are useful for generating a fiend that could be demonic or infernal in origin or hail from a different place entirely. It gives you some unique features of the fiend's appearance, its goals and machinations, and its preferred methods of tormenting mortals.\n\nThe line between demons and devils is not as sharp in my cosmology as it is in others. Devils tend to be less rigid and structured in their schemes and wars than canonical D&D devils, but they are moreso than demons. Demons tend to be less wanton and self-destructive in sowing chaos than canonical D&D demons, but they are moreso than devils. Succubi, rakshasas, and other fiends are possible, but all fiends are rare encounters. Each fiend is a unique manifestation of evil in my world. For this break from canon, I apologize. I may consider separating these tables at some time in the future to better fit the canonical mold.",
     "id": "4boiw9",
     "keywords": [
         "demon",
@@ -28,6 +28,9 @@
     "reference": "https://www.reddit.com/r/BehindTheTables/comments/4boiw9",
     "related_tables": [],
     "tables": [
+        {
+            "subcategory": "Random Fiends"
+        },
         {
             "dice": "d12",
             "name": "Status/Rank: The fiend is...",

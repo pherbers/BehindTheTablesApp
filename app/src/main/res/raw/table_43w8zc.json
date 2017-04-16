@@ -21,6 +21,9 @@
     "related_tables": [],
     "tables": [
         {
+            "subcategory": "Random Brothels: What'll it be, sailor?..."
+        },
+        {
             "dice": "d200",
             "name": "This place is called...",
             "table_entries": [
@@ -142,7 +145,7 @@
                 },
                 {
                     "dice_val": "30",
-                    "entry": "The Sun &amp; Cider."
+                    "entry": "The Sun & Cider."
                 },
                 {
                     "dice_val": "31",
@@ -150,7 +153,7 @@
                 },
                 {
                     "dice_val": "32",
-                    "entry": "Tickle &amp; Feather."
+                    "entry": "Tickle & Feather."
                 },
                 {
                     "dice_val": "33",

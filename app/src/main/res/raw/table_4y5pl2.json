@@ -21,6 +21,9 @@
     ],
     "tables": [
         {
+            "subcategory": "Random Mage's Tower"
+        },
+        {
             "dice": "d10",
             "name": "The master of this tower is...",
             "table_entries": [

@@ -43,6 +43,9 @@
     ],
     "tables": [
         {
+            "subcategory": "Random Bards"
+        },
+        {
             "dice": "d20",
             "name": "The bard is...",
             "table_entries": [

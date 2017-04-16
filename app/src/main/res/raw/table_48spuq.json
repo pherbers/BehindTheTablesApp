@@ -28,6 +28,9 @@
     ],
     "tables": [
         {
+            "subcategory": "Random Rumors: What's the talk?"
+        },
+        {
             "dice": "d20",
             "name": "I heard that, [when], ...",
             "table_entries": [

@@ -31,6 +31,9 @@
     ],
     "tables": [
         {
+            "subcategory": "Random Dinner among Islanders"
+        },
+        {
             "dice": "d10",
             "name": "Tonight, among islanders, we dine on...",
             "table_entries": [

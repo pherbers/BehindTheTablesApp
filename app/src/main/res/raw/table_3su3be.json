@@ -20,6 +20,12 @@
     "related_tables": [],
     "tables": [
         {
+            "subcategory": "Gone Fishing"
+        },
+        {
+            "subcategory": "Fisherfolk"
+        },
+        {
             "dice": "d10",
             "name": "The fisherman fishes in...",
             "table_entries": [
@@ -286,6 +292,9 @@
             ]
         },
         {
+            "subcategory": "Fishing Boat"
+        },
+        {
             "dice": "d6",
             "name": "The boat is...",
             "table_entries": [
@@ -414,6 +423,9 @@
             ]
         },
         {
+            "subcategory": "Cold Ocean Fishing"
+        },
+        {
             "dice": "d10",
             "name": "Near-shore catch: You haul in...",
             "table_entries": [
@@ -536,6 +548,9 @@
             ]
         },
         {
+            "subcategory": "Warm Ocean Fishing"
+        },
+        {
             "dice": "d8",
             "name": "Near-shore catch: You haul in...",
             "table_entries": [
@@ -656,6 +671,9 @@
                     "entry": "A swordfish (fights)."
                 }
             ]
+        },
+        {
+            "subcategory": "Freshwater Fishing"
         },
         {
             "dice": "d10",

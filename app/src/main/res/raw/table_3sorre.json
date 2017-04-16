@@ -24,6 +24,9 @@
     "related_tables": [],
     "tables": [
         {
+            "subcategory": "Random Restless Undead"
+        },
+        {
             "dice": "d20",
             "name": "The person was...",
             "table_entries": [
@@ -342,6 +345,9 @@
             ]
         },
         {
+            "subcategory": "Corporeal Undead"
+        },
+        {
             "dice": "d10",
             "name": "The person's spirit is...",
             "table_entries": [
@@ -470,6 +476,9 @@
                     "entry": "A creepy mustache."
                 }
             ]
+        },
+        {
+            "subcategory": "Incorporeal Undead"
         },
         {
             "dice": "d10",

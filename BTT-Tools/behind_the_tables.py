@@ -13,8 +13,9 @@ def convert_md_to_json(textfile):
 
     text = static_fixes(text, postid)
 
-    r_title = re.compile(r"\s*\*\*(\d*[dD]\d+)\s+(.+)\*\*")
-    r_category = re.compile(r"\*\*(?!\d*[dD]\d+)(.+)\*\*")
+    r_title = re.compile(r"\s*\*\*(\d*[dD]\d+)\.?[\s\*]+(.+)\*\*")
+    r_category = re.compile(r"^\s*\*\*(.+)\*\*\s*$")
+    r_category2 = re.compile(r"^\s*#+\s*(.+)\s*$")
     r_item = re.compile(r"(\d+-?\d*)\.\s*(.+)")
 
     r_link = re.compile(r"[-\*] \[(.+)\]\s*\(.*?\/([a-z0-9]{6})[\/\)]")
@@ -60,17 +61,33 @@ def convert_md_to_json(textfile):
     tables = []
 
     for line in tabletext.split("\n"):
-        match = r_category.match(line)
-        if match:
-            pass
         match = r_title.match(line)
         if match:
-            tables.append({'name': match.group(2), 'dice': match.group(1), 'table_entries': []})
+            tables.append({'name': match.group(2).strip(), 'dice': match.group(1).strip(), 'table_entries': []})
+            continue
+        match = r_category.match(line)
+        if match:
+            subcategory = match.group(1)
+            # If a subcategory is all caps, make it title case
+            if subcategory.isupper():
+                subcategory = subcategory.title()
+            tables.append({'subcategory': subcategory.strip()})
             continue
         match = r_item.match(line)
         if match:
             tables[-1]['table_entries'].append({'entry': match.group(2), 'dice_val': match.group(1)})
+    
     json_dict['tables'] = tables
+
+    # Do a quick check if the dice numbers match the number of entries
+    for table in json_dict["tables"]:
+        if "table_entries" in table:
+            dicenumber = int(table["dice"].lower().split("d")[-1])
+            tablenumber = len(table['table_entries'])
+            last_entry_number = int(table['table_entries'][-1]['dice_val'].split("-")[-1])
+            if not dicenumber == tablenumber and not dicenumber == last_entry_number:
+                print("Warning! In table {} for entry {}, dice number ({}) is not equal to the number of entries ({})".format(postid, table['name'], dicenumber, tablenumber))
+
     with open("tables_json/table_" + json_dict['id'] + ".json", 'w', encoding="utf-8") as outfile:
         json.dump(json_dict, outfile, sort_keys=True, indent=4, ensure_ascii=False)
 
@@ -137,6 +154,18 @@ def static_fixes(text, postid):
         text = replace_line(text, 232, "**D10 Situation - *If asked further, people will tell you, that***")
         text = replace_line(text, 247, "**D6 Person**")
         text = replace_line(text, 258, "**D20 Action**")
+
+    # Put a dice number bro
+    if postid == "4xlnp7":
+        text = replace_line(text, 148, "**d6 Sub-divisions: To manage the nation, it is split into multiple...**")
+
+    # That table has no entries!
+    if postid == "3vlzrw":
+        text = replace_line(text, 40, "")
+
+    # Encoding failed
+    if postid == "435qlc":
+        text = replace_line(text, 3, "Reputations & Rumors")
 
     return text
 

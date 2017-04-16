@@ -51,6 +51,12 @@
     ],
     "tables": [
         {
+            "subcategory": "Random Quick Town NPCs"
+        },
+        {
+            "subcategory": "Alchemist"
+        },
+        {
             "dice": "d6",
             "name": "The alchemist is...",
             "table_entries": [
@@ -123,6 +129,9 @@
                     "entry": "A pyrophoric substance."
                 }
             ]
+        },
+        {
+            "subcategory": "Criminal"
         },
         {
             "dice": "d6",
@@ -215,6 +224,9 @@
             ]
         },
         {
+            "subcategory": "Law Official"
+        },
+        {
             "dice": "d4",
             "name": "The law official is...",
             "table_entries": [
@@ -287,6 +299,9 @@
                     "entry": "A pocketbook of local laws."
                 }
             ]
+        },
+        {
+            "subcategory": "Noble"
         },
         {
             "dice": "d6",
@@ -379,6 +394,9 @@
             ]
         },
         {
+            "subcategory": "Priest"
+        },
+        {
             "dice": "d6",
             "name": "The priest is...",
             "table_entries": [
@@ -451,6 +469,9 @@
                     "entry": "A wineskin."
                 }
             ]
+        },
+        {
+            "subcategory": "Seer"
         },
         {
             "dice": "d6",
@@ -527,6 +548,9 @@
             ]
         },
         {
+            "subcategory": "Smith"
+        },
+        {
             "dice": "d4",
             "name": "The smith is...",
             "table_entries": [
@@ -591,6 +615,9 @@
                     "entry": "Little more than a few coins."
                 }
             ]
+        },
+        {
+            "subcategory": "Traveler"
         },
         {
             "dice": "d8",
@@ -675,6 +702,9 @@
                     "entry": "Drinking companions."
                 }
             ]
+        },
+        {
+            "subcategory": "Barkeep/Barmaid"
         },
         {
             "dice": "d8",

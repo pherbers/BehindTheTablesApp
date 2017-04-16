@@ -13,6 +13,9 @@
     "related_tables": [],
     "tables": [
         {
+            "subcategory": "Traps"
+        },
+        {
             "dice": "d10",
             "name": "Roll  Mechanical Source",
             "table_entries": [

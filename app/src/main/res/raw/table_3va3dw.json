@@ -25,6 +25,9 @@
     ],
     "tables": [
         {
+            "subcategory": "Random Wood Elves"
+        },
+        {
             "dice": "d8",
             "name": "Hair: The wood elf has...",
             "table_entries": [

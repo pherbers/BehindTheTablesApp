@@ -30,6 +30,9 @@
     ],
     "tables": [
         {
+            "subcategory": "Random Songs"
+        },
+        {
             "dice": "d20",
             "name": "The song is about (roll twice)...",
             "table_entries": [

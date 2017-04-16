@@ -34,6 +34,9 @@
     ],
     "tables": [
         {
+            "subcategory": "Random Shadow Beast"
+        },
+        {
             "dice": "d12",
             "name": "The shadow beast is...",
             "table_entries": [

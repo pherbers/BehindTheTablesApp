@@ -36,6 +36,9 @@
     ],
     "tables": [
         {
+            "subcategory": "Random Celestial Beast"
+        },
+        {
             "dice": "d12",
             "name": "The celestial beast appears in the form of...",
             "table_entries": [

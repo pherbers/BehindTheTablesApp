@@ -28,6 +28,9 @@
     ],
     "tables": [
         {
+            "subcategory": "Situation Tables"
+        },
+        {
             "dice": "d20",
             "name": "When the NPC overhears the PC or the party talking, his/her reaction is...",
             "table_entries": [
@@ -128,6 +131,9 @@
                     "entry": "Haunted (S) or Cursed (T).  "
                 }
             ]
+        },
+        {
+            "subcategory": "Subtables"
         },
         {
             "dice": "d20",

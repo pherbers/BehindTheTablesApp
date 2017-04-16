@@ -13,6 +13,9 @@
     "related_tables": [],
     "tables": [
         {
+            "subcategory": "Damsel In Distress"
+        },
+        {
             "dice": "d2",
             "name": "The noble’s gender is",
             "table_entries": [

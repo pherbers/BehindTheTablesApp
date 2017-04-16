@@ -21,6 +21,9 @@
     ],
     "tables": [
         {
+            "subcategory": "Exotic Fruits and Vegetables"
+        },
+        {
             "dice": "D6",
             "name": "Size:",
             "table_entries": [

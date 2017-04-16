@@ -392,7 +392,13 @@
                 {
                     "dice_val": "8",
                     "entry": "A cult claiming a bastion separate from society"
-                },
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Sub-divisions: To manage the nation, it is split into multiple...",
+            "table_entries": [
                 {
                     "dice_val": "1",
                     "entry": "Autonomous states"

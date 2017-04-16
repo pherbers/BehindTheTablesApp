@@ -34,6 +34,9 @@
     ],
     "tables": [
         {
+            "subcategory": "Random Sea Beast"
+        },
+        {
             "dice": "d12",
             "name": "The sea beast is...",
             "table_entries": [

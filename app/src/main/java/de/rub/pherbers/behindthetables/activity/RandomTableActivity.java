@@ -21,6 +21,7 @@ import android.widget.ImageButton;
 import android.widget.Toast;
 
 import java.io.IOException;
+import java.util.Random;
 
 import de.rub.pherbers.behindthetables.BehindTheTables;
 import de.rub.pherbers.behindthetables.R;
@@ -28,6 +29,7 @@ import de.rub.pherbers.behindthetables.adapter.RandomTableListAdapter;
 import de.rub.pherbers.behindthetables.data.RandomTable;
 import de.rub.pherbers.behindthetables.data.TableCollection;
 import de.rub.pherbers.behindthetables.data.TableCollectionContainer;
+import de.rub.pherbers.behindthetables.data.TableCollectionEntry;
 import de.rub.pherbers.behindthetables.data.TableFile;
 import de.rub.pherbers.behindthetables.data.TableReader;
 import de.rub.pherbers.behindthetables.sql.DBAdapter;
@@ -121,11 +123,13 @@ public class RandomTableActivity extends AppCompatActivity {
         btn.startAnimation(anim);
         //table.rollAllTables();
         for (int i = 0; i < listAdapter.getItemCount()-1; i++) {
-            RandomTableViewHolder v = (RandomTableViewHolder) listView.findViewHolderForAdapterPosition(i + 1);
-            int prev = table.getTables().get(i).getRolledIndex();
-            table.getTables().get(i).roll();
-            if (v != null) {
-                v.rerollAnimation(prev);
+            if(table.getTables().get(i) instanceof RandomTable){
+                RandomTableViewHolder v = (RandomTableViewHolder) listView.findViewHolderForAdapterPosition(i + 1);
+                int prev = ((RandomTable)table.getTables().get(i)).getRolledIndex();
+                ((RandomTable)table.getTables().get(i)).roll();
+                if (v != null) {
+                    v.rerollAnimation(prev);
+                }
             }
         }
         updateListOutOfView();
@@ -150,8 +154,9 @@ public class RandomTableActivity extends AppCompatActivity {
             if (v instanceof RandomTableViewHolder)
                 ((RandomTableViewHolder) v).collapse(false);
         }
-        for (RandomTable t : table.getTables())
-            t.setExpanded(false);
+        for (TableCollectionEntry t : table.getTables())
+            if(t instanceof RandomTable)
+                ((RandomTable)t).setExpanded(false);
         updateListOutOfView();
     }
 
@@ -164,8 +169,9 @@ public class RandomTableActivity extends AppCompatActivity {
             if (v instanceof RandomTableViewHolder)
                 ((RandomTableViewHolder) v).expand(false);
         }
-        for (RandomTable t : table.getTables())
-            t.setExpanded(true);
+        for (TableCollectionEntry t : table.getTables())
+            if(t instanceof RandomTable)
+                ((RandomTable)t).setExpanded(true);
         updateListOutOfView();
     }
 
@@ -238,9 +244,11 @@ public class RandomTableActivity extends AppCompatActivity {
     }
 
     public void resetTable() {
-        for (int i = 0; i < listAdapter.getItemCount(); i++) {
-            table.getTables().get(i).setRolledIndex(-1);
-            redrawListAtPos(i);
+        for (int i = 1; i < listAdapter.getItemCount(); i++) {
+            if(table.getTables().get(i) instanceof RandomTable) {
+                ((RandomTable)table.getTables().get(i)).setRolledIndex(-1);
+                redrawListAtPos(i);
+            }
         }
     }
 

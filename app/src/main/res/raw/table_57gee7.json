@@ -25,6 +25,12 @@
     "related_tables": [],
     "tables": [
         {
+            "subcategory": "Random Rogue Missions"
+        },
+        {
+            "subcategory": "Alchemy"
+        },
+        {
             "dice": "d10",
             "name": "Alchemy Missions: Easy",
             "table_entries": [
@@ -101,6 +107,9 @@
                     "entry": "Successfully reduce your creation time by 25%.  "
                 }
             ]
+        },
+        {
+            "subcategory": "Assassination"
         },
         {
             "dice": "d10",
@@ -181,6 +190,9 @@
             ]
         },
         {
+            "subcategory": "Blackmail"
+        },
+        {
             "dice": "d10",
             "name": "Blackmail Missions: Easy",
             "table_entries": [
@@ -257,6 +269,9 @@
                     "entry": "Collect enough evidence on your allies to ensure a clean exit strategy, if needed.  "
                 }
             ]
+        },
+        {
+            "subcategory": "Burglary"
         },
         {
             "dice": "d10",
@@ -337,6 +352,9 @@
             ]
         },
         {
+            "subcategory": "Confidence Games"
+        },
+        {
             "dice": "d10",
             "name": "Con-Game Missions: Easy",
             "table_entries": [
@@ -413,6 +431,9 @@
                     "entry": "Become accepted as a legitimate agent in the commercial/political/royal world in a Life Grift.  "
                 }
             ]
+        },
+        {
+            "subcategory": "Fencing Of Goods"
         },
         {
             "dice": "d10",
@@ -493,6 +514,9 @@
             ]
         },
         {
+            "subcategory": "Fraud: Forgery And Counterfeiting"
+        },
+        {
             "dice": "d10",
             "name": "Fraud Missions: Easy",
             "table_entries": [
@@ -569,6 +593,9 @@
                     "entry": "Create a counterfeit that for an object that is normally displayed in a public location and switch them.  "
                 }
             ]
+        },
+        {
+            "subcategory": "Gambling"
         },
         {
             "dice": "d10",
@@ -649,6 +676,9 @@
             ]
         },
         {
+            "subcategory": "Kidnapping"
+        },
+        {
             "dice": "d10",
             "name": "Kidnapping Missions: Easy",
             "table_entries": [
@@ -725,6 +755,9 @@
                     "entry": "Abduct an enemy target in enemy territory and demand a ransom of at least 500gp.  "
                 }
             ]
+        },
+        {
+            "subcategory": "Narcotics"
         },
         {
             "dice": "d10",
@@ -805,6 +838,9 @@
             ]
         },
         {
+            "subcategory": "Prostitution"
+        },
+        {
             "dice": "d10",
             "name": "Prostitution Missions: Easy",
             "table_entries": [
@@ -881,6 +917,9 @@
                     "entry": "Discover who has been murdering your employees.  "
                 }
             ]
+        },
+        {
+            "subcategory": "Protection"
         },
         {
             "dice": "d10",
@@ -961,6 +1000,9 @@
             ]
         },
         {
+            "subcategory": "Slavery"
+        },
+        {
             "dice": "d10",
             "name": "Slavery Missions: Easy",
             "table_entries": [
@@ -1039,6 +1081,9 @@
             ]
         },
         {
+            "subcategory": "Smuggling"
+        },
+        {
             "dice": "d10",
             "name": "Smuggling Missions: Easy",
             "table_entries": [
@@ -1115,6 +1160,9 @@
                     "entry": "Move live cargo through enemy territory and return to the Guild.  "
                 }
             ]
+        },
+        {
+            "subcategory": "Street Crimes: Pickpocketing And Mugging"
         },
         {
             "dice": "d10",

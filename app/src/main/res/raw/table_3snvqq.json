@@ -14,6 +14,9 @@
     "related_tables": [],
     "tables": [
         {
+            "subcategory": "Random Goblin Gangs"
+        },
+        {
             "dice": "d10",
             "name": "The goblins’ primary “business” involves...",
             "table_entries": [

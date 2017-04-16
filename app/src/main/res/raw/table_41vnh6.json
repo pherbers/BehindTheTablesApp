@@ -9,6 +9,9 @@
     "related_tables": [],
     "tables": [
         {
+            "subcategory": "Treasure Map Generator"
+        },
+        {
             "dice": "d20",
             "name": "Find the...",
             "table_entries": [

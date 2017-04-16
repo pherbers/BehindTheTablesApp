@@ -17,6 +17,9 @@ def fetch_table(item):
         j=requests.get("https://www.reddit.com/r/BehindTheTables/comments/" + postID + ".json", headers=headers)
         selftext = j.json()[0]['data']['children'][0]['data']['selftext']
         title = j.json()[0]['data']['children'][0]['data']['title']
+        selftext = selftext.replace("&amp;", "&")
+        selftext = selftext.replace("nbsp;", " ")
+        title = title.replace("&amp;", "&")
         text_file = open("tables/" + postID + ".md", "w", encoding="utf-8")
         text_file.write(category + "\n----\n" + title + "\n----\n" + selftext)
         text_file.close()
@@ -40,6 +43,8 @@ def fetch_wiki():
                   "- [Nightmares](https://redd.it/43bxpl) \n- [Nightmares (Variant)](https://redd.it/439amj)")
     s = s.replace("- [Gossip and hearsay](https://redd.it/48spuq) ([variant](https://redd.it/51senc))", 
                   "- [Gossip and hearsay](https://redd.it/48spuq)\n- [Gossip and hearsay (Variant)](https://redd.it/51senc)")
+    s = s.replace("- [Swamp](https://redd.it/43c2q8) ([variant](https://redd.it/5xhhlw))", 
+                  "- [Swamp](https://redd.it/43c2q8)\n- [Swamp Variant](https://redd.it/5xhhlw)")
 
     categories = re.split(r"\*\*(.*)\*\*", s)
 

@@ -31,6 +31,9 @@
     ],
     "tables": [
         {
+            "subcategory": "Random Undead Beast"
+        },
+        {
             "dice": "d12",
             "name": "The undead beast was once...",
             "table_entries": [

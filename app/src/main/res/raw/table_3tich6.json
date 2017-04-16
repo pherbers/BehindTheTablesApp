@@ -23,6 +23,9 @@
     ],
     "tables": [
         {
+            "subcategory": "Across the wasteland..."
+        },
+        {
             "dice": "d20",
             "name": "Interesting Location: You find...",
             "table_entries": [

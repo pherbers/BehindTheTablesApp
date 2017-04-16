@@ -39,6 +39,9 @@
     ],
     "tables": [
         {
+            "subcategory": "Random Winter Beast"
+        },
+        {
             "dice": "d12",
             "name": "The winter beast is...",
             "table_entries": [

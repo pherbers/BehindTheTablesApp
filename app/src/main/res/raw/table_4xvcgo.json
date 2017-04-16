@@ -26,6 +26,9 @@
     "related_tables": [],
     "tables": [
         {
+            "subcategory": "Random Princesses"
+        },
+        {
             "dice": "d12",
             "name": "The princess is the daughter of...",
             "table_entries": [

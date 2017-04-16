@@ -21,6 +21,9 @@
     ],
     "tables": [
         {
+            "subcategory": "Random Serial Killers"
+        },
+        {
             "dice": "d12",
             "name": "The killer is...",
             "table_entries": [

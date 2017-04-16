@@ -28,6 +28,9 @@
     ],
     "tables": [
         {
+            "subcategory": "Random Castle: To the keep!..."
+        },
+        {
             "dice": "d10",
             "name": "The castle sits...",
             "table_entries": [
@@ -710,6 +713,9 @@
                     "entry": "A small wall basin and font."
                 }
             ]
+        },
+        {
+            "subcategory": "Encounters"
         },
         {
             "dice": "d10",

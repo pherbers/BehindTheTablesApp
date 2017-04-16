@@ -33,6 +33,9 @@
     ],
     "tables": [
         {
+            "subcategory": "Random Aberrant Beast"
+        },
+        {
             "dice": "d12",
             "name": "The aberrant beast looks a good bit like...",
             "table_entries": [

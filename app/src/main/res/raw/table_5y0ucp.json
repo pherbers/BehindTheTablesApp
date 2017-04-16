@@ -1,0 +1,352 @@
+{
+    "category": "Dungeons/Locations",
+    "description": "*I am challenging myself to write a table set every day for one month. This is the seventh. These aren’t all going to be brilliant, but I’m trying to churn them out quickly (in the little time I have) to get some thoughts out and keep the juices flowing.*\n\n*I may come back to these for expansion, clean-up and revision. I may not even add these to the wiki. These short posts are me trying to get something out in ~15 minutes or less.*\n\nUse these to make a quick elemental earth dungeon.",
+    "id": "5y0ucp",
+    "keywords": [
+        "elemental earth",
+        "plane of mud",
+        "ogremoch",
+        "hobbit holes",
+        "stonehenge",
+        "iron hill"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/comments/5y0ucp",
+    "related_tables": [
+        {
+            "link": "5xnofs",
+            "title": "Elemental air dungeon"
+        },
+        {
+            "link": "5xcmqe",
+            "title": "Elemental fire dungeon"
+        },
+        {
+            "link": "5wzioq",
+            "title": "Elemental water dungeon"
+        }
+    ],
+    "tables": [
+        {
+            "subcategory": "Random Dungeon of Elemental Earth"
+        },
+        {
+            "dice": "d6",
+            "name": "This place is a...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Palace built by an earth elemental lord."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Temple dedicated to an earth god."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Stronghold built by beings of elemental earth."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Series of unstable tunnels deep below ground."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Labyrinth of solid rock."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Mining operation gone wrong."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Floor/terrain: You frequently step on...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Slippery dust."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Boot-sucking mud."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Loose rubble."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Smooth gravel."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Jagged rocks."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Sharp metal spikes."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Major feature: You see a/an...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Stone monolith."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Altar to an earth god"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Statue of a figure made of stone or iron."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Natural bridge of stone."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Series of stone columns."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Deep chasm."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Minor feature: You notice a/an...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Small stone statue."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Icon of an earth god."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Stalactite."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Brief tremor."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Distant rumbling sound."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Swirl of dust."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "NPC: You meet a/an…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Ghost of an unlucky treasure hunter."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Half-mad elemental cultist."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Dwarvish prospector."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Brooding monk."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Dark elf wanderer."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Inventor of a digging contraption."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Beast: You meet a/an…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Giant mole."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Swarm of rats."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Giant centipede."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Giant ant."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Giant earthworm."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Sludgy ooze."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Secondary Monster: You come upon a/an…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Earth elemental."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Rust monster."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Xorn."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Galeb duhr."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Zombie."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Otyugh."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Primary monster: This place is currently ruled by a/an…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Dao prince."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Stone giant."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Ancient dragon."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Powerful geomancer."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Lich."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Grick alpha."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Traps/hazard: You must survive the…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Pits of stinking mud."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Crushing walls trap."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Kissing maidens trap."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Spears-from-the-floor trap."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Crumbling bridges and arches."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Collapsing ceilings."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Reward/treasure: If you survive, you may find a/an...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Notorious necromancer’s spellbook."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Orb of elemental power."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Storied vein of precious ore (gold, platinum, adamantine, or mithral)."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Diamond of dwarvish legend."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Hammer wielded by a godlike warrior."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Captive demon."
+                }
+            ]
+        }
+    ],
+    "title": "Elemental Earth Dungeon",
+    "use_with": [
+        {
+            "link": "3unfbm",
+            "title": "Caverns"
+        },
+        {
+            "link": "3xyiqs",
+            "title": "Cults"
+        },
+        {
+            "link": "43ufyr",
+            "title": "Mine"
+        },
+        {
+            "link": "50t6ir",
+            "title": "Oozes"
+        }
+    ]
+}

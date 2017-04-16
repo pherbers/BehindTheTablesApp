@@ -17,6 +17,9 @@
     "related_tables": [],
     "tables": [
         {
+            "subcategory": "Random Lizardfolk"
+        },
+        {
             "dice": "d8",
             "name": "Coloring: The lizardolk's scales are...",
             "table_entries": [

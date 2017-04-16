@@ -30,6 +30,9 @@
     ],
     "tables": [
         {
+            "subcategory": "Random Horses"
+        },
+        {
             "dice": "d8",
             "name": "Breed/Variety: The horse is...",
             "table_entries": [

@@ -1,0 +1,277 @@
+{
+    "category": "Monsters",
+    "description": "*I am challenging myself to write a table set every day for one month. This is the sixth. These aren’t all going to be brilliant, but I’m trying to churn them out quickly (in the little time I have) to get some thoughts out and keep the juices flowing.*\n\n*I may come back to these for expansion, clean-up and revision. I may not even add these to the wiki. These short posts are me trying to get something out in ~15 minutes or less.*\n\nUse these to make a quick ogre.",
+    "id": "5xtmto",
+    "keywords": [
+        "ogre",
+        "half-ogre",
+        "brute",
+        "shrek"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/comments/5xtmto",
+    "related_tables": [],
+    "tables": [
+        {
+            "subcategory": "Random Ogre"
+        },
+        {
+            "dice": "d6",
+            "name": "Hair: The ogre’s hair is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Long and stringy."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Wispy and thin."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Dark and matted."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A tangled mess."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Cut unevenly."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Gone; the ogre is bald."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Eyes: The ogre’s eyes are...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Mismatched colors."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Mismatched sizes."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Dark and menacing."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Wide and vacant."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Scarred; one eye is missing."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Crossed."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Training: The ogre is a/an...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Berserker."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Chanter."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Hunter."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Scavenger."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Thug."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Warrior."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Skill: The ogre is particularly good at...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Crushing skulls."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Breaking wooden doors."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Bending metal bars."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Roasting meat."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Frightening people."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Sitting very, very still."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Quirk/flaw: Even for an ogre, the ogre frequently...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Scratches itself."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Gets distracted by food."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Guffaws."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Loses its temper."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Picks its teeth."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Yawns."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Possessions: The ogre is carrying...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A sharp spear."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A heavy club."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A spiked club."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A sackful of trinkets."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A necklace of bones."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A string of severed ears."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Immediate goal: The ogre is looking for a/an...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Easy meal."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Fatty meal."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Steady meal ticket."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Fight it can win."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Shiny bauble."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Object its chief asked for, but the ogre can’t remember what it was. "
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Past misfortune: The ogre was once…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Pressed into service in an orkish army."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Tricked into doing some dirty work by some goblins."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Charmed by witch."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Badly burned in a fire."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Imprisoned in a cold, dark cell."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Bested by a rival for the affections of another ogre."
+                }
+            ]
+        }
+    ],
+    "title": "Ogres",
+    "use_with": [
+        {
+            "link": "3unfbm",
+            "title": "Caverns"
+        },
+        {
+            "link": "3snvqq",
+            "title": "Goblin gangs"
+        },
+        {
+            "link": "42rm5s",
+            "title": "Mountains"
+        },
+        {
+            "link": "3vspx8",
+            "title": "Orkish clans"
+        }
+    ]
+}

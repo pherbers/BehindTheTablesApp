@@ -9,6 +9,9 @@
     "related_tables": [],
     "tables": [
         {
+            "subcategory": "Random Magic Shops"
+        },
+        {
             "dice": "d10",
             "name": "The name of the shop is:",
             "table_entries": [

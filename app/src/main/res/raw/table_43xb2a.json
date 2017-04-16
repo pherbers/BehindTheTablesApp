@@ -20,6 +20,9 @@
     "related_tables": [],
     "tables": [
         {
+            "subcategory": "Random Crafting Guilds: Hire the professionals..."
+        },
+        {
             "dice": "d20",
             "name": "This is a guild for...",
             "table_entries": [
@@ -310,6 +313,9 @@
             ]
         },
         {
+            "subcategory": "Apprentice Crafter"
+        },
+        {
             "dice": "d4",
             "name": "The apprentice is...",
             "table_entries": [
@@ -352,6 +358,9 @@
                     "entry": "Sneak off for a drink and some kisses."
                 }
             ]
+        },
+        {
+            "subcategory": "Artisan"
         },
         {
             "dice": "d6",

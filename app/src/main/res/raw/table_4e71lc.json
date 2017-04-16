@@ -21,6 +21,9 @@
     ],
     "tables": [
         {
+            "subcategory": "Random Dinner in a Mages' Academy Dining Hall"
+        },
+        {
             "dice": "d8",
             "name": "Tonight, in the mages' academy dining hall, we dine on...",
             "table_entries": [

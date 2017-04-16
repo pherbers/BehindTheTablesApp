@@ -16,6 +16,9 @@
     "related_tables": [],
     "tables": [
         {
+            "subcategory": "Random Dinner in an Elvish Dwelling"
+        },
+        {
             "dice": "d8",
             "name": "Tonight, in an elvish dwelling, we dine on...",
             "table_entries": [

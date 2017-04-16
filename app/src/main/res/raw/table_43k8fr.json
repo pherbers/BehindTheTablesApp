@@ -27,6 +27,9 @@
     ],
     "tables": [
         {
+            "subcategory": "Random Prisons: But, I swear, I'm innocent!..."
+        },
+        {
             "dice": "d12",
             "name": "The prison is located...",
             "table_entries": [
@@ -539,6 +542,9 @@
             ]
         },
         {
+            "subcategory": "Jailer"
+        },
+        {
             "dice": "d8",
             "name": "The jailer is...",
             "table_entries": [
@@ -659,6 +665,9 @@
             ]
         },
         {
+            "subcategory": "Guard"
+        },
+        {
             "dice": "d4",
             "name": "The guard took this job for...",
             "table_entries": [
@@ -701,6 +710,9 @@
                     "entry": "A bushy mustache."
                 }
             ]
+        },
+        {
+            "subcategory": "Prisoner"
         },
         {
             "dice": "d4",

@@ -33,6 +33,9 @@
     ],
     "tables": [
         {
+            "subcategory": "Random Priests"
+        },
+        {
             "dice": "d12",
             "name": "The priest is...",
             "table_entries": [

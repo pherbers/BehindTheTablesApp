@@ -19,6 +19,9 @@
     "related_tables": [],
     "tables": [
         {
+            "subcategory": "Random Watchmen"
+        },
+        {
             "dice": "d12",
             "name": "The watch’s colors are...",
             "table_entries": [
@@ -333,6 +336,9 @@
             ]
         },
         {
+            "subcategory": "Individual Investigators"
+        },
+        {
             "dice": "d10",
             "name": "The constable is...",
             "table_entries": [
@@ -507,6 +513,9 @@
                     "entry": "A pocket-sized almanac."
                 }
             ]
+        },
+        {
+            "subcategory": "Individual Guards"
         },
         {
             "dice": "d10",

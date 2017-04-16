@@ -23,6 +23,9 @@
     "related_tables": [],
     "tables": [
         {
+            "subcategory": "Random Wines"
+        },
+        {
             "dice": "d10",
             "name": "This wine was made in...",
             "table_entries": [

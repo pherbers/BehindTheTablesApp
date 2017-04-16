@@ -29,6 +29,9 @@
     ],
     "tables": [
         {
+            "subcategory": "Random Noble Houses"
+        },
+        {
             "dice": "d6",
             "name": "The house is...",
             "table_entries": [

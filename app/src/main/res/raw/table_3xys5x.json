@@ -17,6 +17,9 @@
     "related_tables": [],
     "tables": [
         {
+            "subcategory": "Random Pickpocket Loot"
+        },
+        {
             "dice": "d10",
             "name": "On a successful pickpocket check, the thief finds...",
             "table_entries": [

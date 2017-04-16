@@ -13,6 +13,9 @@
     "related_tables": [],
     "tables": [
         {
+            "subcategory": "Over the mountains…"
+        },
+        {
             "dice": "d20",
             "name": "Interesting Location: You find...",
             "table_entries": [

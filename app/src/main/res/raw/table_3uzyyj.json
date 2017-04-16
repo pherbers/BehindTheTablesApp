@@ -25,6 +25,9 @@
     ],
     "tables": [
         {
+            "subcategory": "Random Dark Elves"
+        },
+        {
             "dice": "d6",
             "name": "The dark elf has...",
             "table_entries": [

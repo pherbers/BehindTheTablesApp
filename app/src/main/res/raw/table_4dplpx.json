@@ -19,6 +19,9 @@
     ],
     "tables": [
         {
+            "subcategory": "Random Breakfast at a Traveler's Inn"
+        },
+        {
             "dice": "d12",
             "name": "This morning, at a traveler's inn, we break our fast on...",
             "table_entries": [

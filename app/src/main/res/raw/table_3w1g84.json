@@ -25,6 +25,9 @@
     ],
     "tables": [
         {
+            "subcategory": "Random Necromancers"
+        },
+        {
             "dice": "d10",
             "name": "The necromancer is...",
             "table_entries": [
@@ -359,6 +362,9 @@
                     "entry": "A small notebook filled with notes on (d4): 1. anatomy; 2. behavior of zombies; 3. crypt architecture; 4. ghostly hauntings."
                 }
             ]
+        },
+        {
+            "subcategory": "Familiars"
         },
         {
             "dice": "d10",

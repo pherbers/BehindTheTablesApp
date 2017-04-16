@@ -15,6 +15,9 @@
     "related_tables": [],
     "tables": [
         {
+            "subcategory": "Random Miners"
+        },
+        {
             "dice": "d6",
             "name": "The miner is...",
             "table_entries": [

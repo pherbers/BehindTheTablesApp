@@ -9,8 +9,12 @@ import android.widget.LinearLayout;
 
 
 import de.rub.pherbers.behindthetables.R;
+import de.rub.pherbers.behindthetables.data.RandomTable;
+import de.rub.pherbers.behindthetables.data.SubcategoryEntry;
 import de.rub.pherbers.behindthetables.data.TableCollection;
+import de.rub.pherbers.behindthetables.data.TableCollectionEntry;
 import de.rub.pherbers.behindthetables.view.RandomTableHeaderViewHolder;
+import de.rub.pherbers.behindthetables.view.RandomTableSubcategoryViewHolder;
 import de.rub.pherbers.behindthetables.view.RandomTableViewHolder;
 
 /**
@@ -23,7 +27,8 @@ public class RandomTableListAdapter extends RecyclerView.Adapter<RecyclerView.Vi
     private Context context;
 
     private static int VIEW_HEADER = 0;
-    private static int VIEW_ENTRY = 1;
+    private static int VIEW_SUBCATEGORY = 1;
+    private static int VIEW_ENTRY = 2;
 
     public RandomTableListAdapter(Context context, TableCollection tableCollection) {
         this.context = context;
@@ -48,6 +53,8 @@ public class RandomTableListAdapter extends RecyclerView.Adapter<RecyclerView.Vi
             v = new RandomTableViewHolder(context, parent);
         } else if(viewType == VIEW_HEADER) {
             v = new RandomTableHeaderViewHolder(LayoutInflater.from(context).inflate(R.layout.table_info_layout, parent, false));
+        } else if(viewType == VIEW_SUBCATEGORY) {
+            v = new RandomTableSubcategoryViewHolder(LayoutInflater.from(context).inflate(R.layout.table_subcategory_layout, parent, false));
         }
         return v;
     }
@@ -57,13 +64,19 @@ public class RandomTableListAdapter extends RecyclerView.Adapter<RecyclerView.Vi
         if (position == 0) {
             return VIEW_HEADER;
         }
+        else if (tableCollection.getTables().get(position-1) instanceof SubcategoryEntry)
+            return VIEW_SUBCATEGORY;
         return VIEW_ENTRY;
     }
 
     @Override
     public void onBindViewHolder(RecyclerView.ViewHolder holder, int position) {
         if(position > 0) {
-            ((RandomTableViewHolder)holder).bindData(tableCollection.getTables().get(position-1));
+            TableCollectionEntry tce = tableCollection.getTables().get(position-1);
+            if(getItemViewType(position) == VIEW_SUBCATEGORY)
+                ((RandomTableSubcategoryViewHolder)holder).bindData((SubcategoryEntry) tce);
+            else
+                ((RandomTableViewHolder)holder).bindData((RandomTable) tce);
         } else
             ((RandomTableHeaderViewHolder)holder).bindData(tableCollection);
     }

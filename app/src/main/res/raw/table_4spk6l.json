@@ -28,6 +28,9 @@
     ],
     "tables": [
         {
+            "subcategory": "Random Bats"
+        },
+        {
             "dice": "d6",
             "name": "Size: The bat is...",
             "table_entries": [

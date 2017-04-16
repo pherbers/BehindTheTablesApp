@@ -30,6 +30,9 @@
     ],
     "tables": [
         {
+            "subcategory": "Random Barbarian Warriors"
+        },
+        {
             "dice": "d8",
             "name": "The warrior is armored in...",
             "table_entries": [

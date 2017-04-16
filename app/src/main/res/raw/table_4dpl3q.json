@@ -24,6 +24,9 @@
     ],
     "tables": [
         {
+            "subcategory": "Random Breakfast at a City Cafe"
+        },
+        {
             "dice": "d12",
             "name": "This morning, at a city cafe, we break our fast on...",
             "table_entries": [

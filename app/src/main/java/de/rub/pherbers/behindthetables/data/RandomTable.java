@@ -7,7 +7,7 @@ import java.util.Random;
  * Created by Patrick on 11.03.2017.
  */
 
-public class RandomTable {
+public class RandomTable implements TableCollectionEntry {
     private String name;
     private String dice;
     private List<TableEntry> entries;

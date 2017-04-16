@@ -15,6 +15,9 @@
     "related_tables": [],
     "tables": [
         {
+            "subcategory": "Random Monster Hunters"
+        },
+        {
             "dice": "d10",
             "name": "The monster hunter is...",
             "table_entries": [

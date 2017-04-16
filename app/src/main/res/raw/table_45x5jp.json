@@ -19,6 +19,9 @@
     "related_tables": [],
     "tables": [
         {
+            "subcategory": "Random Druids"
+        },
+        {
             "dice": "d20",
             "name": "The druid is...",
             "table_entries": [

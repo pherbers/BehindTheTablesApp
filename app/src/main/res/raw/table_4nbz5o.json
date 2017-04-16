@@ -34,6 +34,9 @@
     ],
     "tables": [
         {
+            "subcategory": "Random Fire Beast"
+        },
+        {
             "dice": "d12",
             "name": "The fire beast is...",
             "table_entries": [

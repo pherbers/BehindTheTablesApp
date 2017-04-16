@@ -14,6 +14,9 @@
     "related_tables": [],
     "tables": [
         {
+            "subcategory": "Random Street Names"
+        },
+        {
             "dice": "d20",
             "name": "The locals call this street...",
             "table_entries": [

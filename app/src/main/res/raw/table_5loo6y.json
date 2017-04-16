@@ -1,0 +1,262 @@
+{
+    "category": "Plot",
+    "description": "Use these table to generate an object of interest that is possessed by a PC or NPC, and has been passed down in the family for 1 or more generations.",
+    "id": "5loo6y",
+    "keywords": [
+        "backstory",
+        "history",
+        "npc",
+        "pc"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/comments/5loo6y",
+    "related_tables": [],
+    "tables": [
+        {
+            "dice": "d8",
+            "name": "The heirloom is a...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Jewellery (d6): 1. Broach; 2. Necklace; 3. Ring; 4. Earring; 5. Gem; 6. Monocle"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Carving of (d4): 1. A family member; 2. An animal; 3. Nothing in particular; 4. A flower"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Art (d4): 1. Painting; 2. Vase; 3. Rug; 4. Tapestry"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Furniture (d6): 1. Wardrobe; 2. Couch; 3. Table; 4. Chair; 5. Mirror; 6. Clock"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Musical Instrument (d4): 1. Piano; 2. Lute; 3. Flute; 4. Harp"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A weapon (d8): 1. Sword, 2. Axe; 3. Lance; 4. Dagger; 5. Mace; 6. Bow; 7. Crossbow; 8. Morningstar"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A piece of armor (d4): 1. Shield; 2. Helmet; 3. Breastplate; 4. Bracers"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A tool (d8): 1. Rake; 2. Shovel; 3. Rolling pin; 4. Hatchet; 5. Staff; 6. Frying Pan; 7. Tea pot; 8. Silverware"
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "The heirloom once belonged to...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "The owner's mother"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "The owner's father"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "The owner's grandmother"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "The owner's grandfather"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A long lost relative"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "No one really knows. It has just be passed down"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A noble"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "An foreigner"
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A god"
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "The family's patron"
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "The heirloom is made of...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Wood"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Gold"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Silver"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Bronze"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Copper"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Steel"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Iron"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Mithril"
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Tin"
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Adamantine"
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "An unknown material"
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Brass"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "...and is adorned with...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Rubies"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Diamonds"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Pearls"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Gold Filigree"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Silver Filigree"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Nothing"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "...The heirloom's value is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "None. It only has value to its family"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "None. It doesn't even have value to its family"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Only the value of its base components"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Moderately valuable"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Very valuable"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Its value is legendary"
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "The heirloom is special because...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "It is magical"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "It was crafted by a member of the family"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "It is said to be lucky"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "It signifies a special event in the family"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "It signifies a special event in the region"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Many rumors surrounds it, none are actually true"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "No reason, it is just tradition to hand it down"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "It was blessed by a god"
+                }
+            ]
+        }
+    ],
+    "title": "Heirlooms",
+    "use_with": [
+        {
+            "link": "3zr0h4",
+            "title": "NPC Appearance, Personality, Faith, and Flaws"
+        },
+        {
+            "link": "4hbe7j",
+            "title": "Player Character"
+        }
+    ]
+}

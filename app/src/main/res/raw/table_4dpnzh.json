@@ -28,6 +28,9 @@
     ],
     "tables": [
         {
+            "subcategory": "Random Dinner around the Campfire"
+        },
+        {
             "dice": "d10",
             "name": "Tonight, around the campfire, we dine on...",
             "table_entries": [

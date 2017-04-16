@@ -14,6 +14,9 @@
     "related_tables": [],
     "tables": [
         {
+            "subcategory": "Random hoards of coins"
+        },
+        {
             "dice": "D10",
             "name": "Material",
             "table_entries": [

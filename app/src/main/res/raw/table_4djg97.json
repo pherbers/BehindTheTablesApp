@@ -14,6 +14,9 @@
     "related_tables": [],
     "tables": [
         {
+            "subcategory": "Simple Settlement"
+        },
+        {
             "dice": "d50",
             "name": "Settlement name (part 1)...",
             "table_entries": [

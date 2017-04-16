@@ -14,6 +14,9 @@
     "related_tables": [],
     "tables": [
         {
+            "subcategory": "Random Player Character (5E)"
+        },
+        {
             "dice": "d12",
             "name": "Race: The character is...",
             "table_entries": [
