@@ -5,9 +5,11 @@ import android.app.SearchManager;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 import android.database.Cursor;
 import android.os.Bundle;
+import android.preference.PreferenceManager;
 import android.provider.SearchRecentSuggestions;
 import android.support.design.widget.NavigationView;
 import android.support.v4.content.ContextCompat;
@@ -30,6 +32,7 @@ import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.HashSet;
 import java.util.Random;
 
 import de.rub.pherbers.behindthetables.R;
@@ -181,36 +184,41 @@ public class TableSelectActivity extends AppCompatActivity implements Navigation
     private void discoverTables() {
         matchedTables = null;
         foundTables = new ArrayList<>();
-
-        Intent intent = getIntent();
         DBAdapter adapter = new DBAdapter(this).open();
 
-        Cursor cursor;
-        if (intent.hasExtra(EXTRA_CATEGORY_DISCRIMINATOR)) {
-            long discriminator = intent.getLongExtra(EXTRA_CATEGORY_DISCRIMINATOR, -1);
-            Timber.i("Category discriminator: " + discriminator);
-            cursor = adapter.getAllTableCollections(discriminator);
-        } else {
-            Timber.i("No category discriminator specified. Displaying all tables.");
-            cursor = adapter.getAllTableCollections();
-        }
+        if (favsOnly) {
+            //Discovering JSONs from favs.
 
-        //Discovering JSONs from DB
-        while (cursor.moveToNext()) {
-            String res = cursor.getString(DBAdapter.COL_TABLE_COLLECTION_LOCATION);
-            TableFile file = TableFile.createFromDB(res, adapter);
-            if (favsOnly) {
-                if (file.isFavorite(this)) {
-                    foundTables.add(file);
-                }
-            } else {
-                foundTables.add(file);
+            SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(this);
+            for (String s : preferences.getStringSet(TableFile.PREFS_FAVORITE_TABLES, new HashSet<String>())) {
+                foundTables.add(TableFile.createFromDB(s, adapter));
             }
-            //long id = cursor.getLong(DBAdapter.COL_ROWID);
-            //foundTables.add(TableFile.getFromDB(id, adapter));
+            Timber.i("DB files that are favs found: " + foundTables.size());
+        } else {
+            //Discovering JSONs from DB
+
+            Intent intent = getIntent();
+            Cursor cursor;
+            if (intent.hasExtra(EXTRA_CATEGORY_DISCRIMINATOR)) {
+                long discriminator = intent.getLongExtra(EXTRA_CATEGORY_DISCRIMINATOR, -1);
+                Timber.i("Category discriminator: " + discriminator);
+                cursor = adapter.getAllTableCollections(discriminator);
+            } else {
+                Timber.i("No category discriminator specified. Displaying all tables.");
+                cursor = adapter.getAllTableCollections();
+            }
+
+            TableFile file = null;
+            while (cursor.moveToNext()) {
+                String res = cursor.getString(DBAdapter.COL_TABLE_COLLECTION_LOCATION);
+                file = TableFile.createFromDB(res, adapter);
+                foundTables.add(file);
+                //long id = cursor.getLong(DBAdapter.COL_ROWID);
+                //foundTables.add(TableFile.getFromDB(id, adapter));
+            }
+            Timber.i("Number of JSONs found in the DB: " + cursor.getCount());
         }
         adapter.close();
-        Timber.i("Number of JSONs found in the DB: " + cursor.getCount());
 
         //Discovering external JSONs.
         Timber.i("Attempting to discover external JSON files.");
