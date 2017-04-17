@@ -32,6 +32,7 @@ import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.HashSet;
 import java.util.Random;
 
@@ -268,6 +269,7 @@ public class TableSelectActivity extends AppCompatActivity implements Navigation
     }
 
     private void displayFiles(ArrayList<TableFile> tables) {
+        Collections.sort(tables);
         listAdapter = new TableFileAdapter(this, tables);
         list.setAdapter(listAdapter);
     }
