@@ -47,18 +47,18 @@ import static de.rub.pherbers.behindthetables.BehindTheTables.APP_TAG;
 
 public class TableSelectActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
 
-    public static final String INSTANCE_SCROLL_POSITION = APP_TAG + "home_scroll_position";
     public static final String INSTANCE_SEARCH_QUERY = APP_TAG + "home_search_query";
-
+    public static final String INSTANCE_SCROLL_POSITION = APP_TAG + "home_scroll_position";
     public static final String EXTRA_CATEGORY_DISCRIMINATOR = APP_TAG + "extra_category_discriminator";
     public static final String EXTRA_FAVS_ONLY = APP_TAG + "extra_favs_only";
 
-    private String bufferedSearchQuery;
     private ArrayList<TableFile> foundTables, matchedTables;
     private RecyclerView list;
     private SearchView searchView;
     private TableFileAdapter listAdapter;
 
+    private String bufferedSearchQuery;
+    private int bufferedScrollPos;
     private boolean favsOnly;
 
     @Override
@@ -324,14 +324,7 @@ public class TableSelectActivity extends AppCompatActivity implements Navigation
     protected void onSaveInstanceState(Bundle outState) {
         super.onSaveInstanceState(outState);
 
-        Timber.i("Packing saved instance.");
-        int scrollPos = 0;
-        RecyclerView.LayoutManager layoutManager = list.getLayoutManager();
-        if (layoutManager != null && layoutManager instanceof LinearLayoutManager) {
-            scrollPos = ((LinearLayoutManager) layoutManager).findFirstVisibleItemPosition();
-        }
-        outState.putInt(INSTANCE_SCROLL_POSITION, scrollPos);
-
+        outState.putInt(INSTANCE_SCROLL_POSITION, getScrollPosition());
         if (bufferedSearchQuery != null) {
             outState.putString(INSTANCE_SEARCH_QUERY, bufferedSearchQuery);
         }
@@ -360,6 +353,15 @@ public class TableSelectActivity extends AppCompatActivity implements Navigation
                 searchView.setQuery(bufferedSearchQuery, false);
             }
         }
+
+        list.scrollToPosition(bufferedScrollPos);
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+
+        bufferedScrollPos = getScrollPosition();
     }
 
     @Override
@@ -400,6 +402,16 @@ public class TableSelectActivity extends AppCompatActivity implements Navigation
             InputMethodManager imm = (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
             imm.hideSoftInputFromWindow(view.getWindowToken(), 0);
         }
+    }
+
+    private int getScrollPosition() {
+        Timber.i("Packing saved instance for adapterview.");
+        int pos = 0;
+        RecyclerView.LayoutManager layoutManager = list.getLayoutManager();
+        if (layoutManager != null && layoutManager instanceof LinearLayoutManager) {
+            pos = ((LinearLayoutManager) layoutManager).findFirstVisibleItemPosition();
+        }
+        return pos;
     }
 
     @Override
