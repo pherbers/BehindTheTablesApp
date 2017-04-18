@@ -172,14 +172,14 @@ public class TableFile implements Comparable<TableFile> {
 
     @Override
     public int compareTo(@NonNull TableFile file) {
-        if (isExternal() == file.isExternal()) {
-            if (isExternal()) {
-                return getLastModified().compareTo(file.getLastModified());
-            } else {
+        //if (isExternal() == file.isExternal()) {
+        //    if (isExternal()) {
+        //        return getLastModified().compareTo(file.getLastModified());
+        //    } else {
                 return getTitle().compareTo(file.getTitle());
-            }
-        } else if (isExternal()) return -1;
-        return 1;
+        //    }
+        //} else if (isExternal()) return -1;
+        //return 1;
     }
 
 
