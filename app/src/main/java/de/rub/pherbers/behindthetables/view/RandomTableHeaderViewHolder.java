@@ -6,6 +6,8 @@ import android.text.method.LinkMovementMethod;
 import android.view.View;
 import android.widget.TextView;
 
+import com.ms.square.android.expandabletextview.ExpandableTextView;
+
 import org.commonmark.parser.Parser;
 import org.commonmark.renderer.html.HtmlRenderer;
 
@@ -26,14 +28,16 @@ public class RandomTableHeaderViewHolder extends ViewHolder{
     }
 
     public void bindData(TableCollection table) {
-        TextView desc = (TextView) itemView.findViewById(R.id.table_info_description);
-        // TODO: Add Markdown parser
+        final ExpandableTextView desc = (ExpandableTextView) itemView.findViewById(R.id.table_info_description);
+        final TextView textView = (TextView) itemView.findViewById(R.id.expandable_text);
+
+        // Parse Markdown
         Parser parser = Parser.builder().build();
         String htmlString = HtmlRenderer.builder().build().render(parser.parse(table.getDescription()));
 
-        desc.setText(Html.fromHtml(htmlString));
+        desc.setText(RandomTableSubcategoryViewHolder.trimTrailingWhitespace(Html.fromHtml(htmlString)));
 
-        desc.setMovementMethod(LinkMovementMethod.getInstance());
+        textView.setMovementMethod(LinkMovementMethod.getInstance());
 
         if(table.getUseWithTables().isEmpty()) {
             itemView.findViewById(R.id.table_info_use_with_scroll).setVisibility(View.GONE);

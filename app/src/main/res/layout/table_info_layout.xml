@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical"
@@ -9,16 +10,38 @@
     android:paddingTop="@dimen/text_vertical_margin"
     android:paddingBottom="@dimen/text_margin">
 
-    <TextView
-        android:id="@+id/table_info_description"
-        style="?android:attr/textAppearanceSmall"
+    <com.ms.square.android.expandabletextview.ExpandableTextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="@dimen/text_vertical_margin"
-        android:layout_marginTop="@dimen/text_vertical_margin"
-        android:layout_weight="1"
+        android:id="@+id/table_info_description"
+        app:maxCollapsedLines="5"
         android:text="@string/sample_description"
-        android:textColorLink="@color/colorLink"/>
+        app:expandDrawable="@drawable/ic_arrow_drop_down_black_24dp"
+        app:collapseDrawable="@drawable/ic_arrow_drop_up_black_24dp">
+        <TextView
+            android:id="@id/expandable_text"
+            style="?android:attr/textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="@dimen/text_vertical_margin"
+
+            android:textColorLink="@color/colorLink"/>
+
+        <ImageButton
+            android:id="@id/expand_collapse"
+            android:background="@android:color/transparent"
+            android:tint="@android:color/darker_gray"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="0dp"
+            android:layout_marginBottom="@dimen/text_vertical_margin"
+            android:padding="0dp"
+            app:srcCompat="@drawable/ic_arrow_drop_down_black_24dp" />
+
+
+    </com.ms.square.android.expandabletextview.ExpandableTextView>
+
 
     <TextView
         android:id="@+id/textView2"
