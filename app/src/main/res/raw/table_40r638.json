@@ -23,39 +23,39 @@
                     "entry": "Rumors speak of a"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "2",
                     "entry": "When wanting to scare the children, locals tell an old tale of a"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "3",
                     "entry": "In the corner of the taverns sits a group of pale figures, with low voices they’re talking about a"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "4",
                     "entry": "Legend speak of a"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "5",
                     "entry": "An old man walking around town speaks of a"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "6",
                     "entry": "Etched into a stone is the warning of a "
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "7",
                     "entry": "In the hand of the corpse of a woman along the road is a map with a drawing of a"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "8",
                     "entry": "Nailed to a tree is a small note with a warning to all about a"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "9",
                     "entry": "Underneath a large stone is an weather-worn diary. The last page is about a"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "10",
                     "entry": "Passers-by talk about the disappearance of someone. They mention a"
                 }
             ]
@@ -69,79 +69,79 @@
                     "entry": "haunted"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "2",
                     "entry": "cursed"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "3",
                     "entry": "dark"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "4",
                     "entry": "musty old"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "5",
                     "entry": "ruined"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "6",
                     "entry": "unfinished"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "7",
                     "entry": "hidden"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "8",
                     "entry": "foul smelling"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "9",
                     "entry": "strange"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "10",
                     "entry": "living"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "11",
                     "entry": "shapeshifting"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "12",
                     "entry": "overgrown"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "13",
                     "entry": "ordinary looking"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "14",
                     "entry": "enchanted"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "15",
                     "entry": "strangely alluring"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "16",
                     "entry": "growling"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "17",
                     "entry": "singing"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "18",
                     "entry": "ever burning"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "19",
                     "entry": "hovering"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "20",
                     "entry": "damp"
                 }
             ]
@@ -155,399 +155,399 @@
                     "entry": "house"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "2",
                     "entry": "villa"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "3",
                     "entry": "small community of houses"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "4",
                     "entry": "estate"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "5",
                     "entry": "castle"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "6",
                     "entry": "fort"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "7",
                     "entry": "fortress"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "8",
                     "entry": "underground complex"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "9",
                     "entry": "temple"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "10",
                     "entry": "monestary"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "11",
                     "entry": "graveyard"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "12",
                     "entry": "monument"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "13",
                     "entry": "statue"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "14",
                     "entry": "tree"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "15",
                     "entry": "basement"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "16",
                     "entry": "mausoleum"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "17",
                     "entry": "giant nest"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "18",
                     "entry": "water-mill"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "19",
                     "entry": "granary"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "20",
                     "entry": "workshop"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "21",
                     "entry": "barrack"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "22",
                     "entry": "mansion"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "23",
                     "entry": "warehouse"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "24",
                     "entry": "stable"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "25",
                     "entry": "kennel"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "26",
                     "entry": "sign post"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "27",
                     "entry": "deep hole in the ground"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "28",
                     "entry": "shop"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "29",
                     "entry": "marketsplace"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "30",
                     "entry": "ship"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "31",
                     "entry": "gate"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "32",
                     "entry": "tower"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "33",
                     "entry": "wall"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "34",
                     "entry": "inn"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "35",
                     "entry": "tavern"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "36",
                     "entry": "hotel"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "37",
                     "entry": "quarry"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "38",
                     "entry": "mine"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "39",
                     "entry": "gate"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "40",
                     "entry": "shrine"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "41",
                     "entry": "door"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "42",
                     "entry": "hatch"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "43",
                     "entry": "ladder"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "44",
                     "entry": "bridge"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "45",
                     "entry": "bedroll"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "46",
                     "entry": "tent"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "47",
                     "entry": "tree house"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "48",
                     "entry": "log cabin"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "49",
                     "entry": "hut"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "50",
                     "entry": "shed"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "51",
                     "entry": "obelisk"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "52",
                     "entry": "monolith"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "53",
                     "entry": "column"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "54",
                     "entry": "city block"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "55",
                     "entry": "guard house"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "56",
                     "entry": "hospital"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "57",
                     "entry": "townhouse"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "58",
                     "entry": "hamlet"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "59",
                     "entry": "community"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "60",
                     "entry": "township"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "61",
                     "entry": "dwelling"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "62",
                     "entry": "park"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "63",
                     "entry": "field"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "64",
                     "entry": "property"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "65",
                     "entry": "area"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "66",
                     "entry": "row of townhouses"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "67",
                     "entry": "lodge"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "68",
                     "entry": "lumber camp"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "69",
                     "entry": "fisherman’s hut"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "70",
                     "entry": "sanctuary"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "71",
                     "entry": "chapel"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "72",
                     "entry": "holy site"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "73",
                     "entry": "crossroads"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "74",
                     "entry": "small sized town"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "75",
                     "entry": "medium sized town"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "76",
                     "entry": "large sized town"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "77",
                     "entry": "small sized settlement"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "78",
                     "entry": "medium sized settlement"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "79",
                     "entry": "large sized settlement"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "80",
                     "entry": "small sized village"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "81",
                     "entry": "medium sized village"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "82",
                     "entry": "large sized village"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "83",
                     "entry": "compound"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "84",
                     "entry": "construction site"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "85",
                     "entry": "gravestone"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "86",
                     "entry": "tomb"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "87",
                     "entry": "cairn"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "88",
                     "entry": "mural"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "89",
                     "entry": "garden"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "90",
                     "entry": "greenhouse"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "91",
                     "entry": "observatory"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "92",
                     "entry": "museum"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "93",
                     "entry": "manor"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "94",
                     "entry": "château"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "95",
                     "entry": "palace"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "96",
                     "entry": "citadel"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "97",
                     "entry": "keep"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "98",
                     "entry": "stronghold"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "99",
                     "entry": "den"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "100",
                     "entry": "lair"
                 }
             ]
@@ -561,79 +561,79 @@
                     "entry": "long forgotten"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "2",
                     "entry": "long abandoned"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "3",
                     "entry": "with the markings of a terrible beast"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "4",
                     "entry": "with the markings of a group terrible beasts"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "5",
                     "entry": "covered in etchings of dark teachings"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "6",
                     "entry": "with a glowing aura of a silvery light"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "7",
                     "entry": "said to be owned by an old man or woman"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "8",
                     "entry": "said to be the site of a terrible crime"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "9",
                     "entry": "said to be the site of a spell going terribly wrong"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "10",
                     "entry": "letting off the feeling of a strange presence"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "11",
                     "entry": "with the etchings of a dark ritual"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "12",
                     "entry": "said to be home to evil spirits"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "13",
                     "entry": "said to be corrupted by dark forces"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "14",
                     "entry": "said to house something truly abnormal"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "15",
                     "entry": "said to hold a cursed item"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "16",
                     "entry": "said to be the location of a decadent monthly feast with masked guests"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "17",
                     "entry": "said to be a fantastic place to visit"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "18",
                     "entry": "said to be a place of madness"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "19",
                     "entry": "covered in eldritch symbols"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "20",
                     "entry": "said to be place from where no one ever returns"
                 }
             ]
@@ -647,79 +647,79 @@
                     "entry": "within the city wall"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "2",
                     "entry": "not far from town"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "3",
                     "entry": "near the outpost"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "4",
                     "entry": "in the wilderness"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "5",
                     "entry": "in the mountains"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "6",
                     "entry": "in the forest"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "7",
                     "entry": "in the ocean"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "8",
                     "entry": "in the swamp"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "9",
                     "entry": "in the desert"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "10",
                     "entry": "on the great plains"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "11",
                     "entry": "along the coast"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "12",
                     "entry": "along the road"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "13",
                     "entry": "on a magical plane"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "14",
                     "entry": "in a nearby cave"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "15",
                     "entry": "by the lake"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "16",
                     "entry": "below the city"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "17",
                     "entry": "below the mountain"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "18",
                     "entry": "in the neighboring nation"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "19",
                     "entry": "far away"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "20",
                     "entry": "unknown"
                 }
             ]
@@ -733,39 +733,39 @@
                     "entry": "it’s definitely just a myth and you shouldn't worry."
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "2",
                     "entry": "people who’ve seen it are not the same."
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "3",
                     "entry": "it's makes people mad."
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "4",
                     "entry": "it turns people homicidal."
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "5",
                     "entry": "it is also said to hold great treasure."
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "6",
                     "entry": "people who’ve seen it starts rambling in a strange language."
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "7",
                     "entry": "it should be avoided at all cost."
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "8",
                     "entry": "a(nother) strange fellow also asked everyone about it not too long ago. Might have a relation as to why"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "9",
                     "entry": "a group of adventurers went there a few days ago and haven’t been seen since."
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "10",
                     "entry": "the town idiot returned from there and said it’s really isn’t as bad as people say it is. For some reason however,"
                 }
             ]
@@ -779,23 +779,23 @@
                     "entry": "(d6): 1. X, the captain of the guard; 2. X, an interested archivist; 3. X, a visiting noble; 4. X, a worried local craftsman; 5. X, the parent of a missing girl; 6. X, a traveling merchant"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "2",
                     "entry": "(d6): 1. X, the local ruler; 2. X, a priest at a local temple; 3. X, a strange man at the inn; 4. X, a collector of sorts; 5. X, the child; 6. X, the blacksmith"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "3",
                     "entry": "(d6): 1. X, a local noble; 2. X, a man at the court of the local lord; 3. X, the gravedigger; 4. X, a local shopkeeper; 5. X, a local beggar; 6. X, a random hobo"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "4",
                     "entry": "(d6): 1. X, another adventurer; 2. X, a farm boy at a nearby estate; 3. X, the sheepherder; 4. X, the librarian; 5. X, the biologist; 6. X, a passing traveler"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "5",
                     "entry": "(d6): 1. X, a breeder of rare birds; 2. X, a local mason; 3. X, a famous artist; 4. X, a failed local artist; 5. X, an old tinkerer; 6. a hooded stranger"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "6",
                     "entry": "(d6): 1. a stranger whose name is always forgotten; 2. a stranger without a name; 3. a stranger who only communicates in writing; 4. a stranger who just leaves a letter on a PC’s pillow; 5. an old friend of a PC; 6. an eerie faceless person"
                 }
             ]
@@ -809,79 +809,79 @@
                     "entry": "starts crying when asked about the place."
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "2",
                     "entry": "asks of the players to travel there with him."
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "3",
                     "entry": "asks the players to go explore."
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "4",
                     "entry": "asks the players to destroy it."
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "5",
                     "entry": "asks the players to collect something from there."
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "6",
                     "entry": "asks for a souvenir from there."
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "7",
                     "entry": "invites the players to a party, when asked about the place."
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "8",
                     "entry": "faints, when asked about the place."
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "9",
                     "entry": "suddenly disappears, when asked about the place."
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "10",
                     "entry": "starts growling, when asked about the place."
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "11",
                     "entry": "calls the guard, when asked about the place."
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "12",
                     "entry": "hushes on the players and leads them to his/her home, when asked about the place."
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "13",
                     "entry": "tries to kill the players in their sleep."
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "14",
                     "entry": "is seen with a map leading there."
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "15",
                     "entry": "tries to rally people on the street to go there together for some reason."
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "16",
                     "entry": "has covered all the walls of his house with drawings of the place."
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "17",
                     "entry": "starts drooling when asked about the place."
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "18",
                     "entry": "freezes for a second before completely ignoring the players and walking away, when asked about the place."
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "19",
                     "entry": "starts singing and dancing, when asked about the place."
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "20",
                     "entry": "says it’s already too late."
                 }
             ]

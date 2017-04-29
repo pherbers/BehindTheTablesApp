@@ -1197,23 +1197,23 @@
                     "entry": "Gods, you heretic half-wit."
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "2",
                     "entry": "Mortals who aquired great power. "
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "3",
                     "entry": "Children of a now dead Pantheon."
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "4",
                     "entry": "Devils who staged a sucessful coup."
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "5",
                     "entry": "Fake, and their priests are frauds or misguided. "
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "6",
                     "entry": "Creatures from a distant plane never heard of. "
                 }
             ]
@@ -1227,23 +1227,23 @@
                     "entry": "Is good. The god attempts to protect and provide for them. "
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "2",
                     "entry": "Is harsh. The god demands great sacrifices from their people."
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "3",
                     "entry": "Is parasitic. The god feeds on worship and/or sacrifices."
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "4",
                     "entry": "Is benevolent, but distant. The god provides his clerics power but provides little direction. "
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "5",
                     "entry": "Is strained. The followers have done something to offend their god recently."
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "6",
                     "entry": "Must be Crazy. The god has done something recently that befuddles his/her followers. "
                 }
             ]

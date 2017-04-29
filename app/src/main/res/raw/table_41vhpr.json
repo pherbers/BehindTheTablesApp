@@ -118,7 +118,13 @@
                 {
                     "dice_val": "12",
                     "entry": "Bone."
-                },
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "The shaft is made of...",
+            "table_entries": [
                 {
                     "dice_val": "1",
                     "entry": "Polished elm."

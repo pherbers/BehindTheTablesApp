@@ -181,35 +181,35 @@
                     "entry": "A cluster of buildings with gardens, lawns, and yards in the spaces between."
                 },
                 {
-                    "dice_val": "2",
+                    "dice_val": "3",
                     "entry": "A cluster of interconnected buildings."
                 },
                 {
-                    "dice_val": "3",
+                    "dice_val": "4",
                     "entry": "A cluster of buildings ringed by a fence or low wall."
                 },
                 {
-                    "dice_val": "4",
+                    "dice_val": "5",
                     "entry": "A cluster of buildings ringed by a defensible stone wall."
                 },
                 {
-                    "dice_val": "5",
+                    "dice_val": "6",
                     "entry": "A single large building."
                 },
                 {
-                    "dice_val": "6",
+                    "dice_val": "7",
                     "entry": "A large main building with several smaller support buildings located nearby."
                 },
                 {
-                    "dice_val": "7",
+                    "dice_val": "8",
                     "entry": "A fortress with walls and watchtowers or sentry posts."
                 },
                 {
-                    "dice_val": "8",
+                    "dice_val": "9",
                     "entry": "A labyrinthine series of small buildings."
                 },
                 {
-                    "dice_val": "9",
+                    "dice_val": "10",
                     "entry": "Symmetrically divided into two or more wings."
                 }
             ]

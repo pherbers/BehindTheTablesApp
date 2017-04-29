@@ -79,6 +79,11 @@ def convert_md_to_json(textfile):
     
     json_dict['tables'] = tables
 
+    # Fix numbering on consecutive entries (because markdown allows any sequence of numbers, but we dont)
+    for table in json_dict["tables"]:
+        if "table_entries" in table:
+            fix_numbering(table)
+
     # Do a quick check if the dice numbers match the number of entries
     for table in json_dict["tables"]:
         if "table_entries" in table:
@@ -100,6 +105,26 @@ def convert_md_to_json(textfile):
             "category": json_dict["category"]}
     meta_dict["table_" + json_dict["id"]] = meta
 
+def fix_numbering(table):
+    table_entries = table['table_entries']
+    tablenumber = len(table_entries)
+    # Check if all dice values are single values, return if not
+    try:
+        for table_entry in table_entries:
+            int(table_entry['dice_val'])
+    except ValueError:
+        return
+
+    # If we don't start at 1, it's probably a multi-dice table
+    if int(table_entries[0]['dice_val']) != 1:
+        return
+    # Check if last entry is not equal to the length of the table
+    if int(table_entries[-1]['dice_val']) != tablenumber:
+        # If yes, rebuild dice values
+        for i, table_entry in enumerate(table_entries):
+            table_entry['dice_val'] = str(i + 1)
+
+
 def replace_line(input_text, line_num, text):
     l = input_text.split("\n")
     l[line_num-1] = text
@@ -110,26 +135,25 @@ def static_fixes(text, postid):
 
     # Someone forgot to add a divider between the infos and the tables...
     if postid == "41vhpr":
-        return replace_line(text, 28, "----")
+        text = replace_line(text, 28, "----")
 
     # 439amj just can't be saved, sorry
 
     # Again, the divider
     if postid == "4psde0":
-        return replace_line(text, 28, "----")
+        text = replace_line(text, 28, "----")
 
     if postid == "4pxgzh":
-        return replace_line(text, 28, "----")
+        text = replace_line(text, 28, "----")
 
     if postid == "4xln3t":
-        return replace_line(text, 41, "----")
+        text = replace_line(text, 41, "----")
 
     # Divider and Link back missing
     if postid == "567owq":
         text = replace_line(text, 30, "----\n")
         text = replace_line(text, 28, "----\n")
         text = replace_line(text, 4, "----\nStuff\n----")
-        return text
 
     # Someone forgot the dice value
     if postid == "45uoqf":
@@ -137,11 +161,10 @@ def static_fixes(text, postid):
         text = replace_line(text, 57, "**d20 Elf Enclave**")
         text = replace_line(text, 80, "**d20 Orc Enclave**")
         text = replace_line(text, 104, "**d20 Gnome Enclave**")
-        return text
 
     # This one got a little too fancy with its description, so we just cut it out for now
     if postid == "3shczv":
-        return replace_line(text, 33, " ")
+        text = replace_line(text, 33, " ")
 
     # Get your table titles right m8
     if postid == "40r638":
@@ -166,6 +189,23 @@ def static_fixes(text, postid):
     # Encoding failed
     if postid == "435qlc":
         text = replace_line(text, 3, "Reputations & Rumors")
+
+    # Title spans two lines, and I don't want to rewrite the whole parsing functions to work on that
+    if postid == "3tielc":
+        text = replace_line(text, 161, "**d6 Who resides in the stone house now?**")
+        text = replace_line(text, 162, "")
+
+    # Missing stars around title
+    if postid == "41vhpr":
+        text = replace_line(text, 59, "**d12 The shaft is made of...**")
+
+    # That's a nice preamble, but not so nice for this purpose
+    if "*I am challenging myself" in text:
+        l = text.split("\n")
+        for linenum, line in enumerate(l):
+            if line.startswith("*I am challenging myself") or line.startswith("*I may come back"):
+                l[linenum] = ""
+        text = "\n".join(l)
 
     return text
 

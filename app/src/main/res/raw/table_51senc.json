@@ -36,39 +36,39 @@
                     "entry": "A child."
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "2",
                     "entry": "A fat merchant."
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "3",
                     "entry": "A temple priest."
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "4",
                     "entry": "A sailor."
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "5",
                     "entry": "A soldier."
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "6",
                     "entry": "A magician."
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "7",
                     "entry": "A noble."
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "8",
                     "entry": "A rogue."
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "9",
                     "entry": "A crazy monk."
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "10",
                     "entry": "A drunken farmer."
                 }
             ]
@@ -82,39 +82,39 @@
                     "entry": "Got drunk."
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "2",
                     "entry": "Got washed out to sea."
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "3",
                     "entry": "Got stuck on a runaway horse."
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "4",
                     "entry": "Found an old well."
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "5",
                     "entry": "Disappeared for 3 days."
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "6",
                     "entry": "Found an old tomb."
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "7",
                     "entry": "Met a weird stranger."
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "8",
                     "entry": "Found a magic item."
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "9",
                     "entry": "Were sleepwalking."
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "10",
                     "entry": "Walked off into the forest."
                 }
             ]
@@ -128,39 +128,39 @@
                     "entry": "A new disease."
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "2",
                     "entry": "A powerful artefact."
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "3",
                     "entry": "A cursed item."
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "4",
                     "entry": "A sleeping monster."
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "5",
                     "entry": "A treasure map."
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "6",
                     "entry": "A hero/villain thought dead, returned to life."
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "7",
                     "entry": "A book of secrets."
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "8",
                     "entry": "A key to a vast fortune."
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "9",
                     "entry": "A suppressed truth about the ruling kingdom."
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "10",
                     "entry": "A door to another plane."
                 }
             ]
@@ -174,39 +174,39 @@
                     "entry": "People are disappearing!"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "2",
                     "entry": "People are sick!"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "3",
                     "entry": "The king has decreed strange new laws!"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "4",
                     "entry": "The temple has issued strange new tenets!"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "5",
                     "entry": "The sun might not come back up!"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "6",
                     "entry": "The moon might fracture!"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "7",
                     "entry": "The world might be invaded!"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "8",
                     "entry": "People are having bad dreams every night!"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "9",
                     "entry": "People are unable to sleep!"
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "10",
                     "entry": "People are afraid to come outside!"
                 }
             ]

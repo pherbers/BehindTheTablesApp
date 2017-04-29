@@ -29,23 +29,23 @@
                     "entry": "Exotic / Unusual (roll again and choose something outlandish/rare)."
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "2",
                     "entry": "Fruits."
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "3",
                     "entry": "Meats."
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "4",
                     "entry": "Savories: These include cheese, nuts and seeds."
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "5",
                     "entry": "Seafood: This includes shellfish and ocean plants."
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "6",
                     "entry": "Vegetables."
                 }
             ]
@@ -59,15 +59,15 @@
                     "entry": "Sweet."
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "2",
                     "entry": "Spicy."
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "3",
                     "entry": "Sour."
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "4",
                     "entry": "Savory."
                 }
             ]
@@ -81,39 +81,39 @@
                     "entry": "Baked."
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "2",
                     "entry": "Boiled."
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "3",
                     "entry": "Broiled."
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "4",
                     "entry": "Fried."
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "5",
                     "entry": "Grilled."
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "6",
                     "entry": "Poached."
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "7",
                     "entry": "Roasted."
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "8",
                     "entry": "Sauteed."
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "9",
                     "entry": "Seared."
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "10",
                     "entry": "Steamed."
                 }
             ]
@@ -127,15 +127,15 @@
                     "entry": "Bread."
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "2",
                     "entry": "Leaf/Skewer."
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "3",
                     "entry": "Pastry."
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "4",
                     "entry": "Rice."
                 }
             ]
@@ -149,31 +149,31 @@
                     "entry": "Cider."
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "2",
                     "entry": "Juice."
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "3",
                     "entry": "Mead."
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "4",
                     "entry": "Milk / Kefir."
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "5",
                     "entry": "Tea / Coffee / Chocolate."
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "6",
                     "entry": "Wine."
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "7",
                     "entry": "Beer."
                 },
                 {
-                    "dice_val": "1",
+                    "dice_val": "8",
                     "entry": "Spirits / Cocktails."
                 }
             ]

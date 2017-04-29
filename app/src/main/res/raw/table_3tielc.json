@@ -412,7 +412,13 @@
                 {
                     "dice_val": "6",
                     "entry": "A member of an ancient clan."
-                },
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Who resides in the stone house now?",
+            "table_entries": [
                 {
                     "dice_val": "1",
                     "entry": "A death hound."
