@@ -1,16 +1,22 @@
 package de.rub.pherbers.behindthetables.activity;
 
+import android.Manifest;
+import android.app.Dialog;
+import android.app.DialogFragment;
+import android.app.FragmentManager;
+import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.database.Cursor;
 import android.preference.PreferenceManager;
+import android.support.v4.app.ActivityCompat;
+import android.support.v4.os.AsyncTaskCompat;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.TypedValue;
-import android.view.Gravity;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -19,20 +25,32 @@ import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.BaseAdapter;
 import android.widget.GridView;
-import android.widget.LinearLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
+import java.io.File;
+import java.util.ArrayList;
 import java.util.HashSet;
 
 import de.rub.pherbers.behindthetables.BehindTheTables;
 import de.rub.pherbers.behindthetables.R;
+import de.rub.pherbers.behindthetables.concurrent.task.BuildDBTask;
 import de.rub.pherbers.behindthetables.data.TableFile;
 import de.rub.pherbers.behindthetables.sql.DBAdapter;
+import de.rub.pherbers.behindthetables.data.io.FileManager;
+import de.rub.pherbers.behindthetables.view.dialog.ProgressDialogFragment;
 import timber.log.Timber;
 
-public class CategorySelectActivity extends AppCompatActivity implements AdapterView.OnItemClickListener {
+import static de.rub.pherbers.behindthetables.BehindTheTables.APP_TAG;
+
+public class CategorySelectActivity extends AppCompatActivity implements AdapterView.OnItemClickListener, BuildDBTask.BuildDBTaskListener {
+
+    public static final int EXTERNAL_STORAGE_REQUEST_CODE = 1;
+    public static final String DIALOG_IDENTIFIER = APP_TAG+"category_dialog";
 
     private CategoryAdapter adapter;
+    private BuildDBTask buildDBTask;
+    private ProgressDialog blockingDialog;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -57,7 +75,63 @@ public class CategorySelectActivity extends AppCompatActivity implements Adapter
     public void requestTableActivity(Bundle args) {
         Intent intent = new Intent(this, TableSelectActivity.class);
         intent.putExtras(args);
+        Timber.w("Changing to a table activity from the 'category select' activity. Category args: " + args.getLong(TableSelectActivity.EXTRA_CATEGORY_DISCRIMINATOR, -1));
         startActivity(intent);
+    }
+
+    public void requestDiscoverExternalFiles() {
+        FileManager manager = new FileManager(this);
+        if (!manager.hasPermission()) {
+            Timber.i("This app does not have permission to write the external storage!");
+            Timber.i("Asking for permissions now.");
+            ActivityCompat.requestPermissions(this,
+                    new String[]{Manifest.permission.WRITE_EXTERNAL_STORAGE},
+                    EXTERNAL_STORAGE_REQUEST_CODE);
+        } else {
+            File externalTableDir = manager.getExternalTableDir();
+            Timber.i("The App has access to the external storage. Displaying info dialog now. Looking in " + externalTableDir.getAbsolutePath());
+
+            AlertDialog.Builder builder = new AlertDialog.Builder(this);
+            builder.setTitle(R.string.app_name);
+            builder.setIcon(R.mipmap.ic_launcher);
+            builder.setMessage(getString(R.string.info_discover_external_files_dialog, externalTableDir.getAbsolutePath()));
+            builder.setNegativeButton(android.R.string.cancel, new DialogInterface.OnClickListener() {
+                @Override
+                public void onClick(DialogInterface dialogInterface, int i) {
+                    dialogInterface.cancel();
+                }
+            });
+            builder.setPositiveButton(R.string.action_discover_external, new DialogInterface.OnClickListener() {
+                @Override
+                public void onClick(DialogInterface dialogInterface, int i) {
+                    dialogInterface.dismiss();
+                    discoverExternalFiles();
+
+                }
+            });
+            builder.setNeutralButton(R.string.action_more_info, new DialogInterface.OnClickListener() {
+                @Override
+                public void onClick(DialogInterface dialogInterface, int i) {
+                    dialogInterface.dismiss();
+                    //TODO 'more info' here!
+                }
+            });
+            builder.show();
+        }
+    }
+
+    private void discoverExternalFiles() {
+        buildDBTask = new BuildDBTask(this,getClass());
+        //buildDBTask.setListener(this);
+        AsyncTaskCompat.executeParallel(buildDBTask);
+
+        displayBlockingDialog();
+    }
+
+    private void displayBlockingDialog() {
+        FragmentManager fragmentManager = getFragmentManager();
+        ProgressDialogFragment newFragment = new ProgressDialogFragment();
+        newFragment.show(fragmentManager, DIALOG_IDENTIFIER);
     }
 
     @Override
@@ -76,6 +150,10 @@ public class CategorySelectActivity extends AppCompatActivity implements Adapter
                 break;
             case R.id.action_category_settings:
                 //TODO Settings?
+                //TODO warum ist das doppelt implementiert?
+                break;
+            case R.id.action_discover_external:
+                requestDiscoverExternalFiles();
                 break;
             default:
                 Timber.w("Unknown menu item selected.");
@@ -118,6 +196,17 @@ public class CategorySelectActivity extends AppCompatActivity implements Adapter
             }
         });
         builder.show();
+    }
+
+    @Override
+    public void onDBSetupFinished(boolean success, ArrayList<File> allExternalFiles, ArrayList<File> errorExternalFiles) {
+        buildDBTask = null;
+        int found = allExternalFiles.size();
+        int errors = errorExternalFiles.size();
+        Timber.i("Finished executing paralel DB task. External files found: " + found + ". Of those errors contained: " + errors);
+
+        DialogFragment df = (DialogFragment) getFragmentManager().findFragmentByTag(DIALOG_IDENTIFIER);
+        df.dismiss();
     }
 
     class CategoryAdapter extends BaseAdapter {

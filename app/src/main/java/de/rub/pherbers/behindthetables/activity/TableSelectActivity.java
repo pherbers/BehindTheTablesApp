@@ -145,19 +145,6 @@ public class TableSelectActivity extends AppCompatActivity implements Navigation
 
         handleSearchIntent(getIntent());
         hideSoftInput();
-
-        //TODO Code to request permission
-        //Timber.i("My files dir: " + new FileManager(this).getJSONTableDir());
-        //if (ContextCompat.checkSelfPermission(this,
-        //		Manifest.permission.WRITE_EXTERNAL_STORAGE)
-        //		!= PackageManager.PERMISSION_GRANTED) {
-        //
-        //	Timber.i("This app does not have permission to write the external storage!");
-        //	Timber.i("Asking for permissions now.");
-        //	ActivityCompat.requestPermissions(this,
-        //			new String[]{Manifest.permission.WRITE_EXTERNAL_STORAGE},
-        //			PERMISSION_REQUEST_CODE);
-        //}
     }
 
     public void viewTableCollection(Random random) {
@@ -210,13 +197,14 @@ public class TableSelectActivity extends AppCompatActivity implements Navigation
             }
 
             TableFile file = null;
-            while (cursor.moveToNext()) {
-                String res = cursor.getString(DBAdapter.COL_TABLE_COLLECTION_LOCATION);
-                file = TableFile.createFromDB(res, adapter);
-                foundTables.add(file);
-                //long id = cursor.getLong(DBAdapter.COL_ROWID);
-                //foundTables.add(TableFile.getFromDB(id, adapter));
-            }
+            if (cursor.moveToFirst())
+                do {
+                    String res = cursor.getString(DBAdapter.COL_TABLE_COLLECTION_LOCATION);
+                    file = TableFile.createFromDB(res, adapter);
+                    foundTables.add(file);
+                    //long id = cursor.getLong(DBAdapter.COL_ROWID);
+                    //foundTables.add(TableFile.getFromDB(id, adapter));
+                } while (cursor.moveToNext());
             Timber.i("Number of JSONs found in the DB: " + cursor.getCount());
         }
         adapter.close();
