@@ -20,28 +20,36 @@ public abstract class TableReader {
     public static TableCollection readTable(InputStream is) throws IOException {
         String title;
         List<TableCollectionEntry> tables;
-        String reference;
-        String description;
+        String reference = null;
+        String description = "";
         String id;
         String category;
-        List<TableLink> related_tables;
-        List<TableLink> use_with_tables;
+        List<TableLink> related_tables = new ArrayList<>();
+        List<TableLink> use_with_tables = new ArrayList<>();
         List<String> keywords = new ArrayList<>();
 
         JsonParser parser = new JsonParser();
         JsonObject tableCollection = parser.parse(new InputStreamReader(is, "UTF-8")).getAsJsonObject();
         is.close();
         title = tableCollection.get("title").getAsString();
-        description = tableCollection.get("description").getAsString();
-        reference = tableCollection.get("reference").getAsString();
         category = tableCollection.get("category").getAsString();
         id = tableCollection.get("id").getAsString();
-        JsonArray keywordsArray = tableCollection.get("keywords").getAsJsonArray();
-        for (JsonElement e: keywordsArray) {
-            keywords.add(e.getAsString());
+
+        if(tableCollection.has("reference"))
+            reference = tableCollection.get("reference").getAsString();
+        if(tableCollection.has("description"))
+            description = tableCollection.get("description").getAsString();
+
+        if(tableCollection.has("keywords")) {
+            JsonArray keywordsArray = tableCollection.get("keywords").getAsJsonArray();
+            for (JsonElement e : keywordsArray) {
+                keywords.add(e.getAsString());
+            }
         }
-        related_tables = readLinks(tableCollection.get("related_tables").getAsJsonArray());
-        use_with_tables = readLinks(tableCollection.get("use_with").getAsJsonArray());
+        if(tableCollection.has("related_tables"))
+            related_tables = readLinks(tableCollection.get("related_tables").getAsJsonArray());
+        if(tableCollection.has("use_with"))
+            use_with_tables = readLinks(tableCollection.get("use_with").getAsJsonArray());
 
         tables = readTableListJson(tableCollection.get("tables").getAsJsonArray());
 
