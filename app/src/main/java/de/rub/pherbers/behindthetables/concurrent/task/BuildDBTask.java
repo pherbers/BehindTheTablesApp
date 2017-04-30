@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.os.AsyncTask;
+import android.util.Log;
 
 import org.json.JSONException;
 
@@ -12,6 +13,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Date;
 
+import de.rub.pherbers.behindthetables.BehindTheTables;
 import de.rub.pherbers.behindthetables.data.io.FileManager;
 import de.rub.pherbers.behindthetables.sql.DBAdapter;
 import de.rub.pherbers.behindthetables.sql.DefaultTables;
@@ -22,6 +24,9 @@ import timber.log.Timber;
  */
 
 public class BuildDBTask extends AsyncTask<Void, Void, Boolean> {
+
+    public static final String INTENT_EXTRA_DB_TASK_IMPORTED = BehindTheTables.APP_TAG + "intent_extra_db_task_imported";
+    public static final String INTENT_EXTRA_DB_TASK_FAILED = BehindTheTables.APP_TAG + "intent_extra_db_task_failed";
 
     private Context context;
     private DBAdapter adapter;
@@ -92,6 +97,11 @@ public class BuildDBTask extends AsyncTask<Void, Void, Boolean> {
         if (callBackTarget != null) {
             Intent intent = new Intent(context, callBackTarget);
             intent.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION | Intent.FLAG_ACTIVITY_CLEAR_TOP);
+
+            intent.putExtra(INTENT_EXTRA_DB_TASK_IMPORTED,parseFileArray(externalTableFiles));
+            intent.putExtra(INTENT_EXTRA_DB_TASK_FAILED,parseFileArray(errorFiles));
+            Timber.i("Parsed extra example (imported list): "+parseFileArray(externalTableFiles));
+
             context.startActivity(intent);
         }
     }
@@ -119,6 +129,17 @@ public class BuildDBTask extends AsyncTask<Void, Void, Boolean> {
                 }
             }
         }
+    }
+
+    private String[] parseFileArray(ArrayList<File> list) {
+        String[] ret = new String[list.size()];
+        for (int i = 0; i < ret.length; i++) {
+            ret[i] = list.get(i).getAbsolutePath();
+            Timber.i("Parsing list. Pos: "+i+" Item: "+list.get(i).getAbsolutePath());
+        }
+        Timber.i("Packed list to String-Array: Len.: "+ret.length);
+
+        return ret;
     }
 
     @Deprecated
