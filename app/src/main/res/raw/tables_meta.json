@@ -1236,7 +1236,7 @@
 	},
 	"table_3xw3lq": {
 		"category": "Settlements",
-		"description": "This is a table for rapidly generating a handful of interesting street names for any city or town. These names suggest something about the street's current or past purpose or destination. \n\nTo quickly generate a town or city district:\n\n[1] Choose a central landmark such as a market square, palace, temple, town square, university, etc.  \n[2] Then roll or choose 2-6 street names.  \n[3] Sketch out these streets, leading away from your central landmark to other parts of the town or city.  \n[4] Fill in some details.",
+		"description": "This is a table for rapidly generating a handful of interesting street names for any city or town. These names suggest something about the street's current or past purpose or destination. To quickly generate a town or city district: [1] Choose a central landmark such as a market square, palace, temple, town square, university, etc. [2] Then roll or choose 2-6 street names. [3] Sketch out these streets, leading away from your central landmark to other parts of the town or city. [4] Fill in some details.",
 		"keywords": [
 			"town",
 			"city",
@@ -1494,7 +1494,7 @@
 	},
 	"table_3zr0h4": {
 		"category": "NPCs",
-		"description": "Use these tables to quickly generate a description of an NPC's appearance, his or her emotional range, current emotional state, beliefs, and flaws. \n\nWhen building an NPC I would not choose something from every table. I would definitely choose a result from 2-4 of the tables for the facial features, physical traits, and accessories sections, and I would definitely pick a calm trait and a stress trait. That would give me a few distinguishing features about the NPC's appearance and a sense as to how to role-play the NPC's emotions.",
+		"description": "Use these tables to quickly generate a description of an NPC's appearance, his or her emotional range, current emotional state, beliefs, and flaws. When building an NPC I would not choose something from every table. I would definitely choose a result from 2-4 of the tables for the facial features, physical traits, and accessories sections, and I would definitely pick a calm trait and a stress trait. That would give me a few distinguishing features about the NPC's appearance and a sense as to how to role-play the NPC's emotions.",
 		"keywords": [
 			"NPC generator",
 			"physical appearance",
@@ -1572,7 +1572,7 @@
 	},
 	"table_40r638": {
 		"category": "Plot",
-		"description": "A few tables to generate random strange locations in the form of rumors, stories, or legends.\n\nThe basic structure is supposed to be this:\n\n__SOURCE__ + __DESCRIPTOR 1__ + __PLACE__ + __DESCRIPTOR 2__ somewhere __AREA__. If asked further, people will tell you, that __SITUATION__ + __PERSON__ + __ACTION__.",
+		"description": "A few tables to generate random strange locations in the form of rumors, stories, or legends. The basic structure is supposed to be this: __SOURCE__ + __DESCRIPTOR 1__ + __PLACE__ + __DESCRIPTOR 2__ somewhere __AREA__. If asked further, people will tell you, that __SITUATION__ + __PERSON__ + __ACTION__.",
 		"keywords": [
 			"Strange",
 			"locations",
@@ -1588,7 +1588,7 @@
 	},
 	"table_40r6nd": {
 		"category": "NPCs",
-		"description": "A few tables to generate random strange people.\n\nThe basic structure is supposed to be this:\n\nX is a _AGE_ + _SEX_ with _HAIRTYPE_ + _HAIRCOLOR_ + _HAIRSTYLE_ and _MARK_, who’s living _HOME_ + _LOCATION_.\n\nX is _OCCUPATION_ + _SUBTABLE_. People in town _RENOWN_.\n\nX is _BUILD_. A characteristic feature of X is _DESCRIPTOR PHYSICAL_. X talks _SPEECH_.\n \nAll X really wants is to _MOTIVE_.",
+		"description": "A few tables to generate random strange people. The basic structure is supposed to be this: X is a _AGE_ + _SEX_ with _HAIRTYPE_ + _HAIRCOLOR_ + _HAIRSTYLE_ and _MARK_, who’s living _HOME_ + _LOCATION_. X is _OCCUPATION_ + _SUBTABLE_. People in town _RENOWN_. X is _BUILD_. A characteristic feature of X is _DESCRIPTOR PHYSICAL_. X talks _SPEECH_. All X really wants is to _MOTIVE_.",
 		"keywords": [
 			"Strange",
 			"people",
@@ -1605,7 +1605,7 @@
 	},
 	"table_40r76r": {
 		"category": "Plot",
-		"description": "A few tables to generate random strange crimes.\n\nThe basic structure is supposed to be this:\n\n**VICTIMTYPE** + **ORIGIN** + **VICTIM** is believed to have been **CRIME** + **LOCATION** + **CIRCUMSTANCES**. The case is handled by **INVESTIGATORS** who are **INTEREST** solving it and **WILLINGNESS** share details.\n\n**SOURCE** a connection to **CLUE**.",
+		"description": "A few tables to generate random strange crimes. The basic structure is supposed to be this: **VICTIMTYPE** + **ORIGIN** + **VICTIM** is believed to have been **CRIME** + **LOCATION** + **CIRCUMSTANCES**. The case is handled by **INVESTIGATORS** who are **INTEREST** solving it and **WILLINGNESS** share details. **SOURCE** a connection to **CLUE**.",
 		"keywords": [
 			"Strange",
 			"people",
@@ -1727,7 +1727,7 @@
 	},
 	"table_427hd8": {
 		"category": "Dungeons/Locations",
-		"description": "These tables are designed to quickly generate an interesting tomb for your PCs to explore and within which they may die. \n\nThere are many ways to build a tomb, but most tombs are not terribly complicated. I have tombs for important and wealthy individuals in mind with this set of tables. Each tomb will likely have an entry chamber that the PCs will find after passing through the tomb's entrance. The tomb will also have a grand crypt where the deceased individual honored by the tomb is buried—or, where it appears that the person is buried. Other functional rooms and crypts will be arranged in some manner that makes sense in relation to the entry chamber and the grand crypt, or at least makes sense in terms of the history of the tomb's building (and possible expansions).",
+		"description": "These tables are designed to quickly generate an interesting tomb for your PCs to explore and within which they may die. There are many ways to build a tomb, but most tombs are not terribly complicated. I have tombs for important and wealthy individuals in mind with this set of tables. Each tomb will likely have an entry chamber that the PCs will find after passing through the tomb's entrance. The tomb will also have a grand crypt where the deceased individual honored by the tomb is buried—or, where it appears that the person is buried. Other functional rooms and crypts will be arranged in some manner that makes sense in relation to the entry chamber and the grand crypt, or at least makes sense in terms of the history of the tomb's building (and possible expansions).",
 		"keywords": [
 			"tomb",
 			"crypt",
@@ -1855,7 +1855,7 @@
 	},
 	"table_438vlw": {
 		"category": "Objects, Items, and Miscellany",
-		"description": "Use for when a party encounters a treasure chest to give it some tasty flavor.  Delicious, delicious treasure chests.  Can also be used to make Mimics if you feel like it.",
+		"description": "Use for when a party encounters a treasure chest to give it some tasty flavor. Delicious, delicious treasure chests. Can also be used to make Mimics if you feel like it.",
 		"keywords": [
 			"Treasure",
 			"hoarde",
@@ -2271,7 +2271,7 @@
 	},
 	"table_43xeol": {
 		"category": "Objects, Items, and Miscellany",
-		"description": "These are tables for randomly determining a host of magical mishaps, including scroll-scribing-gone-wrong, mechanical-contraptions-gone-haywire, and alchemy-gone-explosive. These tables have a few suggested mechanics (for 5E), but the flavor is easy enough to adapt to other editions.\n\nStart by rolling on the **Magical Device Mishaps** table. This table determines whether the device failure involves a stored spell misfiring, an alchemical mishap, or a mechanical problem.\n\n**Stored Spell Mishaps** may not render the device inoperable, merely discharged. But the stored spell must be replaced. If you have sufficient understanding of the device, you can spend one hour repairing it after a stored spell mishap has occurred. You must be able to cast the stored spell (or an appropriate replacement for it) and expend a spell slot of appropriate level in order to do so (DM's discretion). I might use this table for random scroll-scribing mishaps.\n\nResults 1-12 on the **Alchemical Mishaps** table do not render the device inoperable. However, no one can attempt to operate the device again until its alchemical component has been replaced with the appropriate alchemical item or potion. Results 13-20 on the Alchemical Mishaps table do significant damage to the deivice, rendering it inoperable. If you have sufficient understanding of the device, you can spend one hour (or longer) repairing it after a damaging alchemical mishap has occurred. You might need appropriate tools, need to use an appropriate alchemical item or potion, need to expend a spell slot, or replace mechanical parts (DM's discretion).\n\nA **Mechanical Mishap** renders the device inoperable until it is repaired. Repairing the device takes one hour (or longer). You might need appropriate tools, need access to special materials, or need to expend a spell slot (DM's discretion).",
+		"description": "These are tables for randomly determining a host of magical mishaps, including scroll-scribing-gone-wrong, mechanical-contraptions-gone-haywire, and alchemy-gone-explosive. These tables have a few suggested mechanics (for 5E), but the flavor is easy enough to adapt to other editions. Start by rolling on the **Magical Device Mishaps** table. This table determines whether the device failure involves a stored spell misfiring, an alchemical mishap, or a mechanical problem. **Stored Spell Mishaps** may not render the device inoperable, merely discharged. But the stored spell must be replaced. If you have sufficient understanding of the device, you can spend one hour repairing it after a stored spell mishap has occurred. You must be able to cast the stored spell (or an appropriate replacement for it) and expend a spell slot of appropriate level in order to do so (DM's discretion). I might use this table for random scroll-scribing mishaps. Results 1-12 on the **Alchemical Mishaps** table do not render the device inoperable. However, no one can attempt to operate the device again until its alchemical component has been replaced with the appropriate alchemical item or potion. Results 13-20 on the Alchemical Mishaps table do significant damage to the deivice, rendering it inoperable. If you have sufficient understanding of the device, you can spend one hour (or longer) repairing it after a damaging alchemical mishap has occurred. You might need appropriate tools, need to use an appropriate alchemical item or potion, need to expend a spell slot, or replace mechanical parts (DM's discretion). A **Mechanical Mishap** renders the device inoperable until it is repaired. Repairing the device takes one hour (or longer). You might need appropriate tools, need access to special materials, or need to expend a spell slot (DM's discretion).",
 		"keywords": [
 			"alchemy",
 			"mishap",
@@ -2297,7 +2297,7 @@
 	},
 	"table_43xgqj": {
 		"category": "Settlements",
-		"description": "This is a table for rapidly generating a handful of landmarks or districts for any city or town. \n\nTo quickly generate a town or city district:\n\n[1] Choose or roll for a central landmark or district.  \n[2] Then roll or choose 2-6 street names.  \n[3] Sketch out these streets, leading away from the central landmark to other parts of the town or city.  \n[4] Fill in some details.",
+		"description": "This is a table for rapidly generating a handful of landmarks or districts for any city or town. To quickly generate a town or city district: [1] Choose or roll for a central landmark or district. [2] Then roll or choose 2-6 street names. [3] Sketch out these streets, leading away from the central landmark to other parts of the town or city. [4] Fill in some details.",
 		"keywords": [
 			"town",
 			"city",
@@ -2444,7 +2444,7 @@
 	},
 	"table_45x72u": {
 		"category": "Objects, Items, and Miscellany",
-		"description": "This is far from complete, and there are some awesome resources out there. I might expand it in the future, but for now, it should serve for quickly coming up with a little mechanics-free herb lore for a druid, herbalist, or healer-type NPC in your game.\n\nFor side effects and mishaps, I might refer to the Alchemical Mishaps table in the absence of something better.\n\nFor herb names, i would roll one or two times on each and combine the words in a way that sounds reasonable. Some examples:\n\n- 20, 12, 3 ... Wind, Night, Blossom ... *Nightwind blossom*\n- 3, 5, 15 ... Dawn, Dust, Sap ... *Dawnsap dust*\n- 16, 13, 4 ... Silver, Root, Bulb ... *Silverroot bulb*\n- 14, 12, 9 ... Rain, Petal, Needle ... *Rainpetal needles*\n- 19, 17, 13 ... White, Stalk, Root ... *Root of whitestalk*\n- 5, 17, 10 ... Dust, Sun, Nut ... *Sundust nuts*",
+		"description": "This is far from complete, and there are some awesome resources out there. I might expand it in the future, but for now, it should serve for quickly coming up with a little mechanics-free herb lore for a druid, herbalist, or healer-type NPC in your game. For side effects and mishaps, I might refer to the Alchemical Mishaps table in the absence of something better. For herb names, i would roll one or two times on each and combine the words in a way that sounds reasonable. Some examples: - 20, 12, 3 ... Wind, Night, Blossom ... *Nightwind blossom* - 3, 5, 15 ... Dawn, Dust, Sap ... *Dawnsap dust* - 16, 13, 4 ... Silver, Root, Bulb ... *Silverroot bulb* - 14, 12, 9 ... Rain, Petal, Needle ... *Rainpetal needles* - 19, 17, 13 ... White, Stalk, Root ... *Root of whitestalk* - 5, 17, 10 ... Dust, Sun, Nut ... *Sundust nuts*",
 		"keywords": [
 			"herb lore",
 			"herbalism",
@@ -2507,7 +2507,7 @@
 	},
 	"table_46m9xc": {
 		"category": "Plot",
-		"description": "These are tables for generating an interesting song to add to your setting, from things a wandering minstrel might sing to things a company of soldiers might sing on the march and from things a king may request to hear in court to things laborers might sing while toiling.\n\nMy favorite part is that with the cheat sheet in front of me, I can throw two d20s and two d6s together to generate a topic for a song in a single toss. The sub-tables are up to d8s in the online version (below).",
+		"description": "These are tables for generating an interesting song to add to your setting, from things a wandering minstrel might sing to things a company of soldiers might sing on the march and from things a king may request to hear in court to things laborers might sing while toiling. My favorite part is that with the cheat sheet in front of me, I can throw two d20s and two d6s together to generate a topic for a song in a single toss. The sub-tables are up to d8s in the online version (below).",
 		"keywords": [
 			"bard",
 			"minstrel",
@@ -2590,7 +2590,7 @@
 	},
 	"table_4780bg": {
 		"category": "Objects, Items, and Miscellany",
-		"description": "This is far from complete, and there are some awesome resources out there. I might expand it in the future, but for now, it should serve for quickly coming up with a little mechanics-free poison for an assassin, alchemist, or poisoner-type NPC in your game.\n\nFor mechanical effects, I might pull something from the Alchemical Mishaps table in the absence of something better.",
+		"description": "This is far from complete, and there are some awesome resources out there. I might expand it in the future, but for now, it should serve for quickly coming up with a little mechanics-free poison for an assassin, alchemist, or poisoner-type NPC in your game. For mechanical effects, I might pull something from the Alchemical Mishaps table in the absence of something better.",
 		"keywords": [
 			"poisons",
 			"poisoncraft",
@@ -2692,7 +2692,7 @@
 	},
 	"table_48cev4": {
 		"category": "Settlements",
-		"description": "\"is there a magic shop in town?\" - every PC ever, entering any town ever, no matter how small the town is, the players will want to know if they can buy cool magical shit. and sometimes you just havent thought that out, so here is a quick way for you to answer\n\n\"... yes!\"",
+		"description": "\"is there a magic shop in town?\" - every PC ever, entering any town ever, no matter how small the town is, the players will want to know if they can buy cool magical shit. and sometimes you just havent thought that out, so here is a quick way for you to answer \"... yes!\"",
 		"keywords": [
 			""
 		],
@@ -2702,7 +2702,7 @@
 	},
 	"table_48spuq": {
 		"category": "Plot",
-		"description": "Use these to generate a juicy bit of gossip, a scandalous rumor, or some outrageous hearsay. These tables work like Mad Libs to fill in the following sentences:\n\n\"I heard that, **[when]**, **[who]** was seen with **[who or what]** down near **[where]** and nearby there was **[who or what]**. I heard it from **[whom]**, so it **[veracity]**.\"",
+		"description": "Use these to generate a juicy bit of gossip, a scandalous rumor, or some outrageous hearsay. These tables work like Mad Libs to fill in the following sentences: \"I heard that, **[when]**, **[who]** was seen with **[who or what]** down near **[where]** and nearby there was **[who or what]**. I heard it from **[whom]**, so it **[veracity]**.\"",
 		"keywords": [
 			"rumors",
 			"gossip",
@@ -2874,7 +2874,7 @@
 	},
 	"table_4boiw9": {
 		"category": "Monsters",
-		"description": "Fiends vary wildly in form and  all share a cruelty and disdain for mortals and an extraplanar origin. These tables are useful for generating a fiend that could be demonic or infernal in origin or hail from a different place entirely. It gives you some unique features of the fiend's appearance, its goals and machinations, and its preferred methods of tormenting mortals.\n\nThe line between demons and devils is not as sharp in my cosmology as it is in others. Devils tend to be less rigid and structured in their schemes and wars than canonical D&D devils, but they are moreso than demons. Demons tend to be less wanton and self-destructive in sowing chaos than canonical D&D demons, but they are moreso than devils. Succubi, rakshasas, and other fiends are possible, but all fiends are rare encounters. Each fiend is a unique manifestation of evil in my world. For this break from canon, I apologize. I may consider separating these tables at some time in the future to better fit the canonical mold.",
+		"description": "Fiends vary wildly in form and all share a cruelty and disdain for mortals and an extraplanar origin. These tables are useful for generating a fiend that could be demonic or infernal in origin or hail from a different place entirely. It gives you some unique features of the fiend's appearance, its goals and machinations, and its preferred methods of tormenting mortals. The line between demons and devils is not as sharp in my cosmology as it is in others. Devils tend to be less rigid and structured in their schemes and wars than canonical D&D devils, but they are moreso than demons. Demons tend to be less wanton and self-destructive in sowing chaos than canonical D&D demons, but they are moreso than devils. Succubi, rakshasas, and other fiends are possible, but all fiends are rare encounters. Each fiend is a unique manifestation of evil in my world. For this break from canon, I apologize. I may consider separating these tables at some time in the future to better fit the canonical mold.",
 		"keywords": [
 			"demon",
 			"devil",
@@ -3074,7 +3074,7 @@
 	},
 	"table_4dglp9": {
 		"category": "Food",
-		"description": "The smells and tastes of the street flavor each city with its own identifiable mark. Liven up your city with a roving set of delicious food for your adventurers to nosh on, and who knows? Maybe the Sweet Steamed Shrimp in *Your town* will become the talk of the party someday?\n\n**Cart** (Movable Stall): One dish, no beverage. Costs 1-4 coins.\n\n**Kiosk** (Stall): One or two dishes OR one dish and one beverage. Dish costs 4-8 coins and beverage cost 1-4 coins.\n\n**Wagon** (Food Truck): One, two or three dishes OR one or two dishes and one or two beverages: Dish costs 1-8 coins and beverages cost 1-4 coins.",
+		"description": "The smells and tastes of the street flavor each city with its own identifiable mark. Liven up your city with a roving set of delicious food for your adventurers to nosh on, and who knows? Maybe the Sweet Steamed Shrimp in *Your town* will become the talk of the party someday? **Cart** (Movable Stall): One dish, no beverage. Costs 1-4 coins. **Kiosk** (Stall): One or two dishes OR one dish and one beverage. Dish costs 4-8 coins and beverage cost 1-4 coins. **Wagon** (Food Truck): One, two or three dishes OR one or two dishes and one or two beverages: Dish costs 1-8 coins and beverages cost 1-4 coins.",
 		"keywords": [
 			"sandwiches",
 			"tacos",
@@ -3098,7 +3098,7 @@
 	},
 	"table_4djg97": {
 		"category": "Settlements",
-		"description": "This table is one I have been using for a while, but expanded upon for submission. I use it to quickly generate a general idea about a settlement, such as its size, character, name, and why the PCs care that it exists.\n\nI would suggest that you use the d30 table (why the players should care) sparingly, and try to come up with ways that incorporate your plot or the characters' backstories, but if you're in a bind then I think it might help!",
+		"description": "This table is one I have been using for a while, but expanded upon for submission. I use it to quickly generate a general idea about a settlement, such as its size, character, name, and why the PCs care that it exists. I would suggest that you use the d30 table (why the players should care) sparingly, and try to come up with ways that incorporate your plot or the characters' backstories, but if you're in a bind then I think it might help!",
 		"keywords": [
 			"Town",
 			"City",
@@ -3820,7 +3820,7 @@
 	},
 	"table_4hbe7j": {
 		"category": "NPCs",
-		"description": "This is kind of dumb, but I wasted a few minutes typing it up from memory in response to a comment. I'm sure I've missed some things.\n\nThe only situation where it kind of makes sense to me is if you want to have extremely disposable PCs in a 5E game and you don't want to think about making the decisions. \n\nBut, it's here, and it might be useful.",
+		"description": "This is kind of dumb, but I wasted a few minutes typing it up from memory in response to a comment. I'm sure I've missed some things. The only situation where it kind of makes sense to me is if you want to have extremely disposable PCs in a 5E game and you don't want to think about making the decisions. But, it's here, and it might be useful.",
 		"keywords": [
 			"NPC generator",
 			"PC generator",
@@ -3861,7 +3861,7 @@
 	},
 	"table_4iq4of": {
 		"category": "Dungeons/Locations",
-		"description": "This is kind of dumb (like 5 minutes dumb), but I was toying with the idea of seeding ideas for 10k Dungeons. (There are over 10M combinations with these... so if I want no repeats, I just have to spin out a name and a description of less than 0.1% of the possibilities.)\n\nThis little generator is not profound. It is not rich in details. However, it is quick, and you'll get the bare bones of a dungeon into which you can drop your PCs. \n\nI may build a better one or an expanded one some day, but it might be useful now.",
+		"description": "This is kind of dumb (like 5 minutes dumb), but I was toying with the idea of seeding ideas for 10k Dungeons. (There are over 10M combinations with these... so if I want no repeats, I just have to spin out a name and a description of less than 0.1% of the possibilities.) This little generator is not profound. It is not rich in details. However, it is quick, and you'll get the bare bones of a dungeon into which you can drop your PCs. I may build a better one or an expanded one some day, but it might be useful now.",
 		"keywords": [
 			"dungeons of all sorts",
 			"caves",
@@ -3935,7 +3935,7 @@
 	},
 	"table_4jn2j9": {
 		"category": "Settlements",
-		"description": "These are tables for rapidly generating key features of a city. This is not a substitute for proper world-building, but it is meant to be a springboard for facilitating urban world-building.\n\nOnce you have the basics for your city, use the [landmarks and districts](https://redd.it/43xgqj) and [street names](https://redd.it/3xw3lq) tables to fill in the map of your city. Then use some of the [other table sets](https://www.reddit.com/r/BehindTheTables/wiki/index) to flesh out factions, locations, and prominent NPCs.",
+		"description": "These are tables for rapidly generating key features of a city. This is not a substitute for proper world-building, but it is meant to be a springboard for facilitating urban world-building. Once you have the basics for your city, use the [landmarks and districts](https://redd.it/43xgqj) and [street names](https://redd.it/3xw3lq) tables to fill in the map of your city. Then use some of the [other table sets](https://www.reddit.com/r/BehindTheTables/wiki/index) to flesh out factions, locations, and prominent NPCs.",
 		"keywords": [
 			"town",
 			"city",
@@ -4418,7 +4418,7 @@
 	},
 	"table_4q6c0h": {
 		"category": "Plot",
-		"description": "These tables are for coming up with NPC reactions, motivations, and rumors in a quick fashion. They are designed to be used with /u/famoushippopotamus's Rumor Ladder.\n\n- ***Rumor Ladder.*** False (Appears as Specific or Exact), Vague, Mixed, General, Specific, Exact\n\n The rumor ladder is used as a sliding scale when providing information to PCs. Depending on the attitude towards the PC, an NPC may provide information that is very good (Exact) or very poor (False). This will depend on the attitude of the NPC and can be move up or down the ladder depending on future actions and conversations with the NPC. \n\nThe tables:\n\n- ***NPC Reactions.*** This is how an NPC responds to interaction with a PC. The (Letters) are subtables, which you will find after the main \"reasons\" tables.\n\n- ***NPC Motivations.*** These are revealed if the NPC is questioned by the PC.\n\n- ***Area/Site Status.*** These are used to determine random properties about a location.\n\n- ***Subtables.*** These fill in the blanks as indicated by the (Letters) in the results from the other tables.",
+		"description": "These tables are for coming up with NPC reactions, motivations, and rumors in a quick fashion. They are designed to be used with /u/famoushippopotamus's Rumor Ladder. - ***Rumor Ladder.*** False (Appears as Specific or Exact), Vague, Mixed, General, Specific, Exact The rumor ladder is used as a sliding scale when providing information to PCs. Depending on the attitude towards the PC, an NPC may provide information that is very good (Exact) or very poor (False). This will depend on the attitude of the NPC and can be move up or down the ladder depending on future actions and conversations with the NPC. The tables: - ***NPC Reactions.*** This is how an NPC responds to interaction with a PC. The (Letters) are subtables, which you will find after the main \"reasons\" tables. - ***NPC Motivations.*** These are revealed if the NPC is questioned by the PC. - ***Area/Site Status.*** These are used to determine random properties about a location. - ***Subtables.*** These fill in the blanks as indicated by the (Letters) in the results from the other tables.",
 		"keywords": [
 			"rumors",
 			"motivations",
@@ -4532,7 +4532,7 @@
 	},
 	"table_4tguyo": {
 		"category": "Monsters",
-		"description": "These are some tables for giving horses some flavor. These tables are far from exhaustive, but they should help to fill in a few details quickly. \n\n*A rider approaches! ... and what sort of horse is he riding?*",
+		"description": "These are some tables for giving horses some flavor. These tables are far from exhaustive, but they should help to fill in a few details quickly. *A rider approaches! ... and what sort of horse is he riding?*",
 		"keywords": [
 			"horses",
 			"equines",
@@ -4991,7 +4991,7 @@
 	},
 	"table_57gee7": {
 		"category": "Plot",
-		"description": "These are tables for quickly coming up with an objective for a mission geared at rogues, thieves, and the like. Something that the local thieves' guild, assassins' guild, or outlaw gang might request the PCs do.\n\n*Other useful links:* [Let's Build a Thieves Guild 01](https://www.reddit.com/r/DnDBehindTheScreen/comments/2uxfyy/lets_build_a_thieves_guild_part_1/), [Let's Build a Thieves Guild 02](https://www.reddit.com/r/DnDBehindTheScreen/comments/2uxg1c/lets_build_a_thieves_guild_part_2/), [Let's Build a Heist](https://www.reddit.com/r/DnDBehindTheScreen/comments/3emivn/lets_build_a_heist/), [Let's Build a Rogue Session](https://www.reddit.com/r/DnDBehindTheScreen/comments/3efubx/lets_build_a_rogue_session/), [Confidence Games (Short and Long Cons)](https://www.reddit.com/r/DnDBehindTheScreen/comments/3tj3wi/the_flimflam_man/), [Let's Build a Villain](https://www.reddit.com/r/DnDBehindTheScreen/comments/2ye320/lets_build_a_villain/), [Rogue: Kits and More](https://www.reddit.com/r/DnDBehindTheScreen/comments/44fyf6/rogues_kits_and_more/)",
+		"description": "These are tables for quickly coming up with an objective for a mission geared at rogues, thieves, and the like. Something that the local thieves' guild, assassins' guild, or outlaw gang might request the PCs do. *Other useful links:* [Let's Build a Thieves Guild 01](https://www.reddit.com/r/DnDBehindTheScreen/comments/2uxfyy/lets_build_a_thieves_guild_part_1/), [Let's Build a Thieves Guild 02](https://www.reddit.com/r/DnDBehindTheScreen/comments/2uxg1c/lets_build_a_thieves_guild_part_2/), [Let's Build a Heist](https://www.reddit.com/r/DnDBehindTheScreen/comments/3emivn/lets_build_a_heist/), [Let's Build a Rogue Session](https://www.reddit.com/r/DnDBehindTheScreen/comments/3efubx/lets_build_a_rogue_session/), [Confidence Games (Short and Long Cons)](https://www.reddit.com/r/DnDBehindTheScreen/comments/3tj3wi/the_flimflam_man/), [Let's Build a Villain](https://www.reddit.com/r/DnDBehindTheScreen/comments/2ye320/lets_build_a_villain/), [Rogue: Kits and More](https://www.reddit.com/r/DnDBehindTheScreen/comments/44fyf6/rogues_kits_and_more/)",
 		"keywords": [
 			"gang",
 			"thieves",
@@ -5129,7 +5129,7 @@
 	},
 	"table_5xnofs": {
 		"category": "Dungeons/Locations",
-		"description": "*Note, this one was tough, and it took me a bit longer than 15 min (but not more than 30).*\n\nUse these to make a quick elemental air dungeon.",
+		"description": "*Note, this one was tough, and it took me a bit longer than 15 min (but not more than 30).* Use these to make a quick elemental air dungeon.",
 		"keywords": [
 			"air wind",
 			"giants",

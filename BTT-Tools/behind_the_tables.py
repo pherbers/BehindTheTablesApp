@@ -97,8 +97,11 @@ def convert_md_to_json(textfile):
         json.dump(json_dict, outfile, sort_keys=True, indent=4, ensure_ascii=False)
 
     # Add to meta_table
+    desc_short = json_dict["description"]
+    desc_short = re.sub(r"\s+", " ", description)
+
     meta = {"keywords": json_dict["keywords"],
-            "description": json_dict["description"],
+            "description": desc_short,
             "title": json_dict["title"],
             "related_tables": [uw['link'] for uw in json_dict["related_tables"]],
             "use_with": [uw['link'] for uw in json_dict["use_with"]],
