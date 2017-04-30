@@ -122,5 +122,15 @@
     <string name="action_select_category_instruction">Select a category</string>
     <string name="category_all">All categories</string>
     <string name="category_favs">Favorites only</string>
+    <string name="action_again">Try again</string>
     <string name="action_random_table">I\'m feeling lucky</string>
+    <string name="action_discover_external">Import tables</string>
+    <string name="action_more_info">More info</string>
+    <string name="info_discover_external_files_dialog">You can add your own table files in any subfolder in this directory:\n\n%1$s\n\nYour tables must be in the JSON file format.\nTo view and download examples tap on \'more info\'.</string>
+    <string name="action_discover_external_progressdialog">Preparing tables. Please wait.</string>
+
+    <string name="info_imports_failed_title">Import failed!</string>
+    <string name="info_imports_failed_text">Failed to import %1$s file(s) out of %2$s found file(s) (%3$s failure)!\nThe other files were imported without problems.\n\nList of files causing trouble:\n%4$s</string>
+    <string name="info_imports_nothing_found">No files to import found on the device.</string>
+    <string name="info_imports_everything_ok">Added %1$d external tables.</string>
 </resources>

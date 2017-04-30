@@ -1,16 +1,22 @@
 package de.rub.pherbers.behindthetables.activity;
 
+import android.Manifest;
+import android.app.Dialog;
+import android.app.DialogFragment;
+import android.app.FragmentManager;
+import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.database.Cursor;
 import android.preference.PreferenceManager;
+import android.support.v4.app.ActivityCompat;
+import android.support.v4.os.AsyncTaskCompat;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.TypedValue;
-import android.view.Gravity;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -19,20 +25,35 @@ import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.BaseAdapter;
 import android.widget.GridView;
-import android.widget.LinearLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
+import java.io.File;
+import java.util.ArrayList;
 import java.util.HashSet;
+import java.util.StringTokenizer;
 
 import de.rub.pherbers.behindthetables.BehindTheTables;
 import de.rub.pherbers.behindthetables.R;
+import de.rub.pherbers.behindthetables.concurrent.task.BuildDBTask;
 import de.rub.pherbers.behindthetables.data.TableFile;
 import de.rub.pherbers.behindthetables.sql.DBAdapter;
+import de.rub.pherbers.behindthetables.data.io.FileManager;
+import de.rub.pherbers.behindthetables.view.dialog.ProgressDialogFragment;
 import timber.log.Timber;
 
-public class CategorySelectActivity extends AppCompatActivity implements AdapterView.OnItemClickListener {
+import static de.rub.pherbers.behindthetables.BehindTheTables.APP_TAG;
+import static de.rub.pherbers.behindthetables.concurrent.task.BuildDBTask.INTENT_EXTRA_DB_TASK_FAILED;
+import static de.rub.pherbers.behindthetables.concurrent.task.BuildDBTask.INTENT_EXTRA_DB_TASK_IMPORTED;
+
+public class CategorySelectActivity extends AppCompatActivity implements AdapterView.OnItemClickListener, BuildDBTask.BuildDBTaskListener {
+
+    public static final int EXTERNAL_STORAGE_REQUEST_CODE = 1;
+    public static final String DIALOG_IDENTIFIER = APP_TAG + "category_dialog";
 
     private CategoryAdapter adapter;
+    private BuildDBTask buildDBTask;
+    private ProgressDialog blockingDialog;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -42,6 +63,21 @@ public class CategorySelectActivity extends AppCompatActivity implements Adapter
         GridView gridView = (GridView) findViewById(R.id.category_list_view);
         adapter = new CategoryAdapter(this);
         gridView.setAdapter(adapter);
+
+        Intent intent = getIntent();
+        if (intent != null) {
+            Timber.i("Checking the intent extras. Has TASK_IMPORTED: " + intent.hasExtra(INTENT_EXTRA_DB_TASK_IMPORTED) + ", TASK_FAILED: " + intent.hasExtra(INTENT_EXTRA_DB_TASK_FAILED));
+
+            if (intent.hasExtra(INTENT_EXTRA_DB_TASK_IMPORTED)) {
+                String[] imported = intent.getStringArrayExtra(INTENT_EXTRA_DB_TASK_IMPORTED);
+                String[] failed = intent.getStringArrayExtra(INTENT_EXTRA_DB_TASK_FAILED);
+                Timber.i("Checking the resulting file arrays: Imported: " + imported + " Failed: " + failed);
+
+                intent.removeExtra(INTENT_EXTRA_DB_TASK_IMPORTED);
+                intent.removeExtra(INTENT_EXTRA_DB_TASK_FAILED);
+                evaluateImport(imported, failed);
+            }
+        }
 
         gridView.setOnItemClickListener(this);
     }
@@ -57,7 +93,63 @@ public class CategorySelectActivity extends AppCompatActivity implements Adapter
     public void requestTableActivity(Bundle args) {
         Intent intent = new Intent(this, TableSelectActivity.class);
         intent.putExtras(args);
+        Timber.w("Changing to a table activity from the 'category select' activity. Category args: " + args.getLong(TableSelectActivity.EXTRA_CATEGORY_DISCRIMINATOR, -1));
         startActivity(intent);
+    }
+
+    public void requestDiscoverExternalFiles() {
+        FileManager manager = new FileManager(this);
+        if (!manager.hasPermission()) {
+            Timber.i("This app does not have permission to write the external storage!");
+            Timber.i("Asking for permissions now.");
+            ActivityCompat.requestPermissions(this,
+                    new String[]{Manifest.permission.WRITE_EXTERNAL_STORAGE},
+                    EXTERNAL_STORAGE_REQUEST_CODE);
+        } else {
+            File externalTableDir = manager.getExternalTableDir();
+            Timber.i("The App has access to the external storage. Displaying info dialog now. Looking in " + externalTableDir.getAbsolutePath());
+
+            AlertDialog.Builder builder = new AlertDialog.Builder(this);
+            builder.setTitle(R.string.app_name);
+            builder.setIcon(R.mipmap.ic_launcher);
+            builder.setMessage(getString(R.string.info_discover_external_files_dialog, externalTableDir.getAbsolutePath()));
+            builder.setNegativeButton(android.R.string.cancel, new DialogInterface.OnClickListener() {
+                @Override
+                public void onClick(DialogInterface dialogInterface, int i) {
+                    dialogInterface.cancel();
+                }
+            });
+            builder.setPositiveButton(R.string.action_discover_external, new DialogInterface.OnClickListener() {
+                @Override
+                public void onClick(DialogInterface dialogInterface, int i) {
+                    dialogInterface.dismiss();
+                    discoverExternalFiles();
+
+                }
+            });
+            builder.setNeutralButton(R.string.action_more_info, new DialogInterface.OnClickListener() {
+                @Override
+                public void onClick(DialogInterface dialogInterface, int i) {
+                    dialogInterface.dismiss();
+                    //TODO 'more info' here!
+                }
+            });
+            builder.show();
+        }
+    }
+
+    private void discoverExternalFiles() {
+        buildDBTask = new BuildDBTask(this, getClass());
+        //buildDBTask.setListener(this);
+        AsyncTaskCompat.executeParallel(buildDBTask);
+
+        displayBlockingDialog();
+    }
+
+    private void displayBlockingDialog() {
+        FragmentManager fragmentManager = getFragmentManager();
+        ProgressDialogFragment newFragment = new ProgressDialogFragment();
+        newFragment.show(fragmentManager, DIALOG_IDENTIFIER);
     }
 
     @Override
@@ -76,6 +168,10 @@ public class CategorySelectActivity extends AppCompatActivity implements Adapter
                 break;
             case R.id.action_category_settings:
                 //TODO Settings?
+                //TODO warum ist das doppelt implementiert?
+                break;
+            case R.id.action_discover_external:
+                requestDiscoverExternalFiles();
                 break;
             default:
                 Timber.w("Unknown menu item selected.");
@@ -83,6 +179,53 @@ public class CategorySelectActivity extends AppCompatActivity implements Adapter
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    private void evaluateImport(String[] imported, String[] failed) {
+        int importedCount = imported.length;
+        int failedCount = failed.length;
+
+        if (importedCount == 0) {
+            Toast.makeText(this, R.string.info_imports_nothing_found, Toast.LENGTH_LONG).show();
+            return;
+        }
+
+        if (failedCount == 0) {
+            Toast.makeText(this, getString(R.string.info_imports_everything_ok, importedCount), Toast.LENGTH_LONG).show();
+        } else {
+            int percent = (int) ((failedCount * 100.0f) / importedCount);
+
+            AlertDialog.Builder builder = new AlertDialog.Builder(this);
+            builder.setTitle(R.string.info_imports_failed_title);
+            builder.setMessage(getString(R.string.info_imports_failed_text, String.valueOf(failedCount),String.valueOf(importedCount), percent + "%", formatFileList(failed)));
+            builder.setIcon(R.drawable.ic_warning_black_48dp);
+            builder.setNegativeButton(android.R.string.ok, new DialogInterface.OnClickListener() {
+                @Override
+                public void onClick(DialogInterface dialogInterface, int i) {
+                    dialogInterface.dismiss();
+                }
+            });
+            builder.setPositiveButton(R.string.action_again, new DialogInterface.OnClickListener() {
+                @Override
+                public void onClick(DialogInterface dialogInterface, int i) {
+                    dialogInterface.dismiss();
+                    requestDiscoverExternalFiles();
+                }
+            });
+            builder.show();
+        }
+    }
+
+    private String formatFileList(String[] list) {
+        StringBuilder builder = new StringBuilder();
+        int len = new FileManager(this).getExternalTableDir().getAbsolutePath().length();
+
+        for (String s : list) {
+            String line = "\n-" + s.substring(len);
+            builder.append(line);
+        }
+
+        return builder.toString().trim();
     }
 
     @Override
@@ -118,6 +261,17 @@ public class CategorySelectActivity extends AppCompatActivity implements Adapter
             }
         });
         builder.show();
+    }
+
+    @Override
+    public void onDBSetupFinished(boolean success, ArrayList<File> allExternalFiles, ArrayList<File> errorExternalFiles) {
+        buildDBTask = null;
+        int found = allExternalFiles.size();
+        int errors = errorExternalFiles.size();
+        Timber.i("Finished executing paralel DB task. External files found: " + found + ". Of those errors contained: " + errors);
+
+        DialogFragment df = (DialogFragment) getFragmentManager().findFragmentByTag(DIALOG_IDENTIFIER);
+        df.dismiss();
     }
 
     class CategoryAdapter extends BaseAdapter {

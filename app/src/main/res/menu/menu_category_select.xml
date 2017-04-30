@@ -13,6 +13,11 @@
         app:showAsAction="never"/>
 
     <item
+        android:id="@+id/action_discover_external"
+        android:title="@string/action_discover_external"
+        app:showAsAction="never"/>
+
+    <item
         android:id="@+id/action_category_settings"
         android:title="@string/action_settings"
         app:showAsAction="never"/>

@@ -165,26 +165,16 @@ public class DBAdapter extends Observable {
     }
 
     public void fillWithDefaultData(Context context) {
-        //TODO implement
         deleteAll(DATABASE_TABLE_TABLE_COLLECTION);
         deleteAll(DATABASE_TABLE_CATEGORY);
 
         Timber.w("The database was newly set up and is filled with default data now!");
         long timestamp = new Date().getTime();
 
-        //insertRow("table_3tjg9d", String.valueOf(R.raw.table_3tjg9d), "default", 0);
-        //insertRow("table_3xys3d", String.valueOf(R.raw.table_3xys3d), "default", 0);
-        //insertRow("table_44r23c", String.valueOf(R.raw.table_44r23c), "default", 0);
-        //insertRow("table_43c3c6", String.valueOf(R.raw.table_43c3c6), "default", 0);
-        //insertRow("table_484u5s", String.valueOf(R.raw.table_484u5s), "default", 0);
-        //insertRow("table_567owq", String.valueOf(R.raw.table_567owq), "default", 0);
-
         if (!DefaultTables.discoverDefaultTables(context, this)) {
             Timber.e("Failed to discover default internal data!");
             //TODO error handling
         }
-
-        Timber.w("Database size after init = " + getAllTableCollections().getCount() + ". Filling took " + (new Date().getTime() - timestamp) + " ms.");
     }
 
     public long existsCategory(String title) {

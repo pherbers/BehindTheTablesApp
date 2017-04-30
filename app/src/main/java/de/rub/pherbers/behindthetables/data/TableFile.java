@@ -14,6 +14,7 @@ import java.util.Date;
 import java.util.HashSet;
 import java.util.Set;
 
+import de.rub.pherbers.behindthetables.data.io.FileManager;
 import de.rub.pherbers.behindthetables.sql.DBAdapter;
 import timber.log.Timber;
 
@@ -107,6 +108,13 @@ public class TableFile implements Comparable<TableFile> {
             if (s.equals(getResourceLocation())) return true;
         }
         return false;
+    }
+
+    public String getShortExternalPath(Context context){
+        if (!isExternal()) return null;
+
+        String basePath = new FileManager(context).getExternalTableDir().getAbsolutePath();
+        return getResourceLocation().substring(basePath.length());
     }
 
     public void setFavorite(Context context, boolean favorite) {

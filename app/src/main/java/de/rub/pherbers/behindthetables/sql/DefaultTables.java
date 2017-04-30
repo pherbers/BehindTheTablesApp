@@ -7,9 +7,13 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.io.Reader;
 import java.util.Iterator;
 
 import de.rub.pherbers.behindthetables.R;
@@ -24,40 +28,15 @@ import static de.rub.pherbers.behindthetables.sql.DBAdapter.LINK_COLLECTION_SEPA
 public abstract class DefaultTables {
 
     public static boolean discoverDefaultTables(Context context, DBAdapter adapter) {
-        BufferedReader reader = new BufferedReader(new InputStreamReader(context.getResources().openRawResource(R.raw.tables_meta)));
-        StringBuilder out = new StringBuilder();
-        String line;
-
         try {
-            while ((line = reader.readLine()) != null) {
-                out.append(line);
-            }
-        } catch (IOException e) {
-            e.printStackTrace();
-            Timber.e(e, "Failed to read the meta RAW file!");
-            return false;
-        }
-
-        try {
-            JSONObject meta = new JSONObject(out.toString());
+            JSONObject meta = readJSONFile(new InputStreamReader(context.getResources().openRawResource(R.raw.tables_meta)));
             Iterator<String> keys = meta.keys();
             while (keys.hasNext()) {
                 String raw_filename = keys.next();
                 JSONObject tableInfo = meta.getJSONObject(raw_filename);
-
                 String redditID = raw_filename.replace("table_", "");
-                String description = tableInfo.getString("description");
-                String title = tableInfo.getString("title");
-                String category = tableInfo.getString("category");
-                String keywords = extractJSONArray(tableInfo.getJSONArray("keywords"));
-                String relatedTables = extractJSONArray(tableInfo.getJSONArray("related_tables"));
-                String useWith = extractJSONArray(tableInfo.getJSONArray("use_with"));
 
-                Timber.i(raw_filename + " -> reddit ID: " + redditID + " title: " + title + ", keywords: " + keywords + ", catgetory: " + category + "!");
-
-                long categoryID = handleCategory(adapter,category);
-
-                adapter.insertTableCollection(raw_filename, title, description, keywords, useWith, relatedTables,categoryID);
+                insertTable(raw_filename, redditID, tableInfo, adapter);
                 //int id = context.getResources().getIdentifier(raw_filename, "raw", context.getPackageName());
                 //Timber.i("Read through the meta.json. Filename: " + raw_filename + " -> '" + title + "'. Resource ID: " + id);
                 //adapter.insertRow(title,String.valueOf(id),"",0);
@@ -66,15 +45,63 @@ public abstract class DefaultTables {
             e.printStackTrace();
             Timber.e(e, "Failed to fetch meta table information because of a JSON error!");
             return false;
-        }
+        } catch (IOException e) {
+            e.printStackTrace();
+            Timber.e(e, "Failed to fetch meta table information because of an I/O error!");
+            return false;
+        }//TODO error handling?
 
         return true;
     }
 
-    private static  long handleCategory(DBAdapter adapter,String category){
+    public static JSONObject readJSONFile(Reader resourceStream) throws JSONException, IOException {
+        BufferedReader reader = new BufferedReader(resourceStream);
+        StringBuilder out = new StringBuilder();
+        String line;
+
+        while ((line = reader.readLine()) != null) {
+            out.append(line);
+        }
+
+        return new JSONObject(out.toString());
+    }
+
+    public static void insertTable(File file, DBAdapter adapter) throws IOException, JSONException {
+        insertTable(file.getAbsolutePath(), "", readJSONFile(new FileReader(file)), adapter);
+    }
+
+    public static void insertTable(String resourceLocation, String redditID, JSONObject table, DBAdapter adapter) throws JSONException {
+        String title = table.getString("title");
+        String category = table.getString("category");
+
+        String description = "";
+        String keywords = "";
+        String relatedTables = "";
+        String useWith = "";
+
+        if (table.has("description")) {
+            description = table.getString("description");
+        }
+        if (table.has("keywords")) {
+            keywords = extractJSONArray(table.getJSONArray("keywords"));
+        }
+        if (table.has("related_tables")) {
+            relatedTables = extractJSONArray(table.getJSONArray("related_tables"));
+        }
+        if (table.has("use_with")) {
+            useWith = extractJSONArray(table.getJSONArray("use_with"));
+        }
+
+        long categoryID = handleCategory(adapter, category);
+
+        Timber.i(resourceLocation + " -> reddit ID: " + redditID + " title: " + title + ", keywords: " + keywords + ", catgetory: " + category + " (" + categoryID + ")!");
+        adapter.insertTableCollection(resourceLocation, title, description, keywords, useWith, relatedTables, categoryID);
+    }
+
+    public static long handleCategory(DBAdapter adapter, String category) {
         long categoryRow = adapter.existsCategory(category);
 
-        if(categoryRow == DBAdapter.CATEGORY_NOT_FOUND){
+        if (categoryRow == DBAdapter.CATEGORY_NOT_FOUND) {
             categoryRow = adapter.insertCategory(category);
         }
 
