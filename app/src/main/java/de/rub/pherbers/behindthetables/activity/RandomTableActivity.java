@@ -1,10 +1,12 @@
 package de.rub.pherbers.behindthetables.activity;
 //TODO move this to package de.rub.pherbers.behindthetables.activiy
 
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.PersistableBundle;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.DefaultItemAnimator;
 import android.support.v7.widget.DividerItemDecoration;
@@ -20,6 +22,7 @@ import android.webkit.URLUtil;
 import android.widget.ImageButton;
 import android.widget.Toast;
 
+import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Random;
 
@@ -32,6 +35,7 @@ import de.rub.pherbers.behindthetables.data.TableCollectionContainer;
 import de.rub.pherbers.behindthetables.data.TableCollectionEntry;
 import de.rub.pherbers.behindthetables.data.TableFile;
 import de.rub.pherbers.behindthetables.data.TableReader;
+import de.rub.pherbers.behindthetables.data.io.FileManager;
 import de.rub.pherbers.behindthetables.sql.DBAdapter;
 import de.rub.pherbers.behindthetables.view.RandomTableViewHolder;
 import timber.log.Timber;
@@ -49,11 +53,7 @@ public class RandomTableActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_random_table);
-        Toolbar toolbar = (Toolbar) findViewById(R.id.random_table_toolbar);
-        setSupportActionBar(toolbar);
-        if (getSupportActionBar() != null) {
-            getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        }
+
 
         Intent sourceIntent = getIntent();
         if (!sourceIntent.hasExtra(EXTRA_TABLE_DATABASE_RESOURCE_LOCATION)) {
@@ -79,16 +79,34 @@ public class RandomTableActivity extends AppCompatActivity {
         if (!tableCollectionContainer.containsKey(resourceLocation)) {
             try {
                 if (tableFile.isExternal()) {
-                    //TODO Load external file
+                    table = TableReader.readTable(new FileInputStream(tableFile.getFile()));
                 } else {
                     table = TableReader.readTable(getResources().openRawResource(tableFile.getResourceID(this)));
                 }
                 tableCollectionContainer.put(resourceLocation, table);
             } catch (IOException e) {
-                e.printStackTrace();
+                new AlertDialog.Builder(this)
+                        .setTitle(R.string.app_name)
+                        .setIcon(R.drawable.ic_warning_black_48dp)
+                        .setMessage(getString(R.string.table_file_ioexception, tableFile.getResourceLocation()))
+                        .setCancelable(false)
+                        .setPositiveButton(android.R.string.ok, new DialogInterface.OnClickListener() {
+                            @Override
+                            public void onClick(DialogInterface dialog, int which) {
+                                dialog.dismiss();
+                                finish();
+                            }
+                        }).show();
+                return;
             }
         } else {
             table = tableCollectionContainer.get(resourceLocation);
+        }
+
+        Toolbar toolbar = (Toolbar) findViewById(R.id.random_table_toolbar);
+        setSupportActionBar(toolbar);
+        if (getSupportActionBar() != null) {
+            getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         }
 
         setTitle(table.getTitle());

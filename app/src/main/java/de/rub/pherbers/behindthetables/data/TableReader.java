@@ -22,7 +22,7 @@ public abstract class TableReader {
         List<TableCollectionEntry> tables;
         String reference = null;
         String description = "";
-        String id;
+        String id = null;
         String category;
         List<TableLink> related_tables = new ArrayList<>();
         List<TableLink> use_with_tables = new ArrayList<>();
@@ -33,8 +33,9 @@ public abstract class TableReader {
         is.close();
         title = tableCollection.get("title").getAsString();
         category = tableCollection.get("category").getAsString();
-        id = tableCollection.get("id").getAsString();
 
+        if(tableCollection.has("id"))
+            id = tableCollection.get("id").getAsString();
         if(tableCollection.has("reference"))
             reference = tableCollection.get("reference").getAsString();
         if(tableCollection.has("description"))

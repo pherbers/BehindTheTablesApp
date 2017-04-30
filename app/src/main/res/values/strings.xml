@@ -133,4 +133,5 @@
     <string name="info_imports_failed_text">Failed to import %1$s file(s) out of %2$s found file(s) (%3$s failure)!\nThe other files were imported without problems.\n\nList of files causing trouble:\n%4$s</string>
     <string name="info_imports_nothing_found">No files to import found on the device.</string>
     <string name="info_imports_everything_ok">Added %1$d external tables.</string>
+    <string name="table_file_ioexception">Table file %1$s could not be read.</string>
 </resources>

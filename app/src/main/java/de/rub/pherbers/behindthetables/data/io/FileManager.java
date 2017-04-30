@@ -5,6 +5,7 @@ import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
+import android.media.MediaScannerConnection;
 import android.net.Uri;
 import android.os.Environment;
 import android.support.v4.content.ContextCompat;
@@ -85,7 +86,9 @@ public class FileManager {
         if (f.exists()) return true;
 
         try {
-            return f.createNewFile();
+            boolean newFile = f.createNewFile();
+            MediaScannerConnection.scanFile (context, new String[] {f.toString()}, null, null);
+            return newFile;
         } catch (IOException e) {
             e.printStackTrace();
             Timber.e(e, "Wanted to create 'NomediaFile' in " + parent.getAbsolutePath() + " but it failed!");
