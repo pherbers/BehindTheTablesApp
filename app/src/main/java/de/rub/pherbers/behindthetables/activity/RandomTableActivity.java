@@ -1,11 +1,13 @@
 package de.rub.pherbers.behindthetables.activity;
 //TODO move this to package de.rub.pherbers.behindthetables.activiy
 
+import android.Manifest;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.PersistableBundle;
+import android.support.v4.app.ActivityCompat;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.DefaultItemAnimator;
@@ -13,17 +15,22 @@ import android.support.v7.widget.DividerItemDecoration;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
+import android.webkit.MimeTypeMap;
 import android.webkit.URLUtil;
 import android.widget.ImageButton;
 import android.widget.Toast;
 
+import java.io.BufferedReader;
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.Random;
 
 import de.rub.pherbers.behindthetables.BehindTheTables;
@@ -39,6 +46,9 @@ import de.rub.pherbers.behindthetables.data.io.FileManager;
 import de.rub.pherbers.behindthetables.sql.DBAdapter;
 import de.rub.pherbers.behindthetables.view.RandomTableViewHolder;
 import timber.log.Timber;
+
+import static de.rub.pherbers.behindthetables.R.string.action_externa_file_info_detail;
+import static de.rub.pherbers.behindthetables.activity.CategorySelectActivity.EXTERNAL_STORAGE_REQUEST_CODE;
 
 public class RandomTableActivity extends AppCompatActivity {
 
@@ -140,11 +150,11 @@ public class RandomTableActivity extends AppCompatActivity {
         Animation anim = AnimationUtils.loadAnimation(this, R.anim.dice_button_rotator);
         btn.startAnimation(anim);
         //table.rollAllTables();
-        for (int i = 0; i < listAdapter.getItemCount()-1; i++) {
-            if(table.getTables().get(i) instanceof RandomTable){
+        for (int i = 0; i < listAdapter.getItemCount() - 1; i++) {
+            if (table.getTables().get(i) instanceof RandomTable) {
                 RandomTableViewHolder v = (RandomTableViewHolder) listView.findViewHolderForAdapterPosition(i + 1);
-                int prev = ((RandomTable)table.getTables().get(i)).getRolledIndex();
-                ((RandomTable)table.getTables().get(i)).roll();
+                int prev = ((RandomTable) table.getTables().get(i)).getRolledIndex();
+                ((RandomTable) table.getTables().get(i)).roll();
                 if (v != null) {
                     v.rerollAnimation(prev);
                 }
@@ -173,8 +183,8 @@ public class RandomTableActivity extends AppCompatActivity {
                 ((RandomTableViewHolder) v).collapse(false);
         }
         for (TableCollectionEntry t : table.getTables())
-            if(t instanceof RandomTable)
-                ((RandomTable)t).setExpanded(false);
+            if (t instanceof RandomTable)
+                ((RandomTable) t).setExpanded(false);
         updateListOutOfView();
     }
 
@@ -188,8 +198,8 @@ public class RandomTableActivity extends AppCompatActivity {
                 ((RandomTableViewHolder) v).expand(false);
         }
         for (TableCollectionEntry t : table.getTables())
-            if(t instanceof RandomTable)
-                ((RandomTable)t).setExpanded(true);
+            if (t instanceof RandomTable)
+                ((RandomTable) t).setExpanded(true);
         updateListOutOfView();
     }
 
@@ -244,6 +254,9 @@ public class RandomTableActivity extends AppCompatActivity {
             case R.id.random_table_activity_unfav:
                 setTableFavorite(false);
                 break;
+            case R.id.action_external_file_info:
+                requestFileFinfoDialog();
+                break;
             default:
                 Timber.w("Unknown menu in RandomTableActivity");
                 break;
@@ -263,18 +276,121 @@ public class RandomTableActivity extends AppCompatActivity {
 
     public void resetTable() {
         for (int i = 1; i < listAdapter.getItemCount(); i++) {
-            if(table.getTables().get(i) instanceof RandomTable) {
-                ((RandomTable)table.getTables().get(i)).setRolledIndex(-1);
+            if (table.getTables().get(i) instanceof RandomTable) {
+                ((RandomTable) table.getTables().get(i)).setRolledIndex(-1);
                 redrawListAtPos(i);
             }
         }
+    }
+
+    private void requestFileFinfoDialog() {
+        if (!tableFile.isExternal()) {
+            Timber.w("File info requested, but the file is not external.");
+            return;
+        }
+
+        FileManager manager = new FileManager(this);
+        if (!manager.hasPermission()) {
+            Timber.e("Can't give file info because the app has lost permission!");
+            ActivityCompat.requestPermissions(this,
+                    new String[]{Manifest.permission.WRITE_EXTERNAL_STORAGE},
+                    EXTERNAL_STORAGE_REQUEST_CODE);
+            return;
+        }
+
+        File f = tableFile.getFile();
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setIcon(R.mipmap.ic_launcher);
+        builder.setTitle(table.getTitle());
+        builder.setMessage(getString(R.string.action_externa_file_info_detail, tableFile.getShortExternalPath(this), manager.getFileSizeFormated(f), manager.getFileDateRelative(f)));
+        builder.setNegativeButton(android.R.string.ok, new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialogInterface, int i) {
+                dialogInterface.cancel();
+            }
+        });
+        builder.setNeutralButton(R.string.action_share_external_file_content, new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialogInterface, int i) {
+                dialogInterface.dismiss();
+
+                File f = tableFile.getFile();
+                StringBuilder builder = new StringBuilder();
+                try {
+                    FileInputStream fstream = new FileInputStream(f);
+                    BufferedReader br = new BufferedReader(new InputStreamReader(fstream));
+                    String strLine;
+                    while ((strLine = br.readLine()) != null) {
+                        builder.append(strLine);
+                    }
+                    br.close();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                    Timber.e("Failed to read file '" + f.getAbsolutePath() + "'");
+                    //TODO exception handling
+                    return;
+                }
+
+                Intent sendIntent = new Intent();
+                sendIntent.setAction(Intent.ACTION_SEND);
+                sendIntent.putExtra(Intent.EXTRA_TEXT, builder.toString());
+                sendIntent.setType("text/plain");
+                startActivity(Intent.createChooser(sendIntent, getString(R.string.action_share_external_file_content)));
+            }
+        });
+        builder.setPositiveButton(R.string.action_share_external_file, new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialogInterface, int i) {
+                dialogInterface.dismiss();
+                File f = tableFile.getFile();
+                //f = new File("/storage/emulated/0/Documents/Behind%20the%20Tables/Roll%20tables/phb_jsons/backgrounds/template.txt");
+                Uri uri = Uri.fromFile(f);
+                String fileType = MimeTypeMap.getSingleton().getMimeTypeFromExtension("json");
+                if (fileType == null) {
+                    Timber.w("Android has found no intent type for JSON files via the 'MimeTypeMap' approach! Reverting to default.");
+                    Toast.makeText(RandomTableActivity.this, R.string.error_no_mimetype_for_json, Toast.LENGTH_LONG).show();
+                    fileType = "application/json";
+                }
+
+                Timber.i("Sharing '" + f.getAbsolutePath() + "' -> URI: " + uri + " -> Type: " + fileType);
+
+                Intent intent = new Intent();
+                intent.setAction(Intent.ACTION_SEND);
+                intent.setDataAndType(uri, fileType);
+
+                //MimeTypeMap myMime = MimeTypeMap.getSingleton();
+                //Intent intent = new Intent(Intent.ACTION_VIEW);
+                //String mimeExtension = myMime.getMimeTypeFromExtension("json");
+                //if (mimeExtension != null) {
+                //    String mimeType = mimeExtension;
+                //    //if (notificationIntent) {
+                //        mimeType = mimeExtension.substring(1);
+                //    //}
+                //    intent.setDataAndType(Uri.fromFile(f), mimeType);
+                //    intent.setFlags(Intent.FLAG_ACTIVITY_NO_HISTORY);
+                //} else{
+                //    Timber.e("Faild bc no extension");
+                //    return;
+                //}
+
+                startActivity(Intent.createChooser(intent, getString(R.string.action_share_external_file)));
+                //Intent selector = intent.getSelector();
+                //if (selector == null) {
+                //    Timber.e("Intent failed!");
+                //} else {
+                //    startActivity(selector);
+                //}
+            }
+        });
+
+        builder.show();
     }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.random_table_activity_menu, menu);
         // Disable "Open on reddit" if no reference is given
-        // TODO this could be optimised. See code below.
+        // TODO could this be optimised? See code below.
         if (!URLUtil.isValidUrl(table.getReference())) {
             MenuItem item = menu.findItem(R.id.random_table_activity_reference);
             item.setVisible(false);
@@ -286,6 +402,10 @@ public class RandomTableActivity extends AppCompatActivity {
             menu.removeItem(R.id.random_table_activity_fav);
         } else {
             menu.removeItem(R.id.random_table_activity_unfav);
+        }
+
+        if (!tableFile.isExternal()) {
+            menu.removeItem(R.id.action_external_file_info);
         }
 
         return true;
