@@ -8,6 +8,7 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.os.PersistableBundle;
 import android.support.v4.app.ActivityCompat;
+import android.support.v4.content.FileProvider;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.DefaultItemAnimator;
@@ -31,15 +32,18 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.Arrays;
 import java.util.Random;
 
 import de.rub.pherbers.behindthetables.BehindTheTables;
 import de.rub.pherbers.behindthetables.R;
 import de.rub.pherbers.behindthetables.adapter.RandomTableListAdapter;
 import de.rub.pherbers.behindthetables.data.RandomTable;
+import de.rub.pherbers.behindthetables.data.SubcategoryEntry;
 import de.rub.pherbers.behindthetables.data.TableCollection;
 import de.rub.pherbers.behindthetables.data.TableCollectionContainer;
 import de.rub.pherbers.behindthetables.data.TableCollectionEntry;
+import de.rub.pherbers.behindthetables.data.TableEntry;
 import de.rub.pherbers.behindthetables.data.TableFile;
 import de.rub.pherbers.behindthetables.data.TableReader;
 import de.rub.pherbers.behindthetables.data.io.FileManager;
@@ -47,12 +51,13 @@ import de.rub.pherbers.behindthetables.sql.DBAdapter;
 import de.rub.pherbers.behindthetables.view.RandomTableViewHolder;
 import timber.log.Timber;
 
+import static de.rub.pherbers.behindthetables.BehindTheTables.APP_TAG;
 import static de.rub.pherbers.behindthetables.R.string.action_externa_file_info_detail;
 import static de.rub.pherbers.behindthetables.activity.CategorySelectActivity.EXTERNAL_STORAGE_REQUEST_CODE;
 
 public class RandomTableActivity extends AppCompatActivity {
 
-    public static final String EXTRA_TABLE_DATABASE_RESOURCE_LOCATION = BehindTheTables.APP_TAG + "extra_table_database_resource_location";
+    public static final String EXTRA_TABLE_DATABASE_RESOURCE_LOCATION = APP_TAG + "extra_table_database_resource_location";
 
     private TableCollection table;
     private RecyclerView listView;
@@ -254,6 +259,9 @@ public class RandomTableActivity extends AppCompatActivity {
             case R.id.random_table_activity_unfav:
                 setTableFavorite(false);
                 break;
+            case R.id.action_share_table:
+                actionShare();
+                break;
             case R.id.action_external_file_info:
                 requestFileFinfoDialog();
                 break;
@@ -338,52 +346,73 @@ public class RandomTableActivity extends AppCompatActivity {
                 startActivity(Intent.createChooser(sendIntent, getString(R.string.action_share_external_file_content)));
             }
         });
+
         builder.setPositiveButton(R.string.action_share_external_file, new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialogInterface, int i) {
                 dialogInterface.dismiss();
                 File f = tableFile.getFile();
-                //f = new File("/storage/emulated/0/Documents/Behind%20the%20Tables/Roll%20tables/phb_jsons/backgrounds/template.txt");
-                Uri uri = Uri.fromFile(f);
-                String fileType = MimeTypeMap.getSingleton().getMimeTypeFromExtension("json");
-                if (fileType == null) {
-                    Timber.w("Android has found no intent type for JSON files via the 'MimeTypeMap' approach! Reverting to default.");
-                    Toast.makeText(RandomTableActivity.this, R.string.error_no_mimetype_for_json, Toast.LENGTH_LONG).show();
-                    fileType = "application/json";
-                }
+                Uri uri = Uri.parse(f.getAbsolutePath());
+                String fileType = "application/json";
 
                 Timber.i("Sharing '" + f.getAbsolutePath() + "' -> URI: " + uri + " -> Type: " + fileType);
-
                 Intent intent = new Intent();
+                intent.putExtra(Intent.EXTRA_STREAM, Uri.parse("file://"+f.getAbsolutePath()));
+                intent.setType(fileType);
                 intent.setAction(Intent.ACTION_SEND);
-                intent.setDataAndType(uri, fileType);
-
-                //MimeTypeMap myMime = MimeTypeMap.getSingleton();
-                //Intent intent = new Intent(Intent.ACTION_VIEW);
-                //String mimeExtension = myMime.getMimeTypeFromExtension("json");
-                //if (mimeExtension != null) {
-                //    String mimeType = mimeExtension;
-                //    //if (notificationIntent) {
-                //        mimeType = mimeExtension.substring(1);
-                //    //}
-                //    intent.setDataAndType(Uri.fromFile(f), mimeType);
-                //    intent.setFlags(Intent.FLAG_ACTIVITY_NO_HISTORY);
-                //} else{
-                //    Timber.e("Faild bc no extension");
-                //    return;
-                //}
-
                 startActivity(Intent.createChooser(intent, getString(R.string.action_share_external_file)));
-                //Intent selector = intent.getSelector();
-                //if (selector == null) {
-                //    Timber.e("Intent failed!");
-                //} else {
-                //    startActivity(selector);
-                //}
             }
         });
 
         builder.show();
+    }
+
+    private void actionShare() {
+        StringBuilder builder = new StringBuilder();
+        String currentCategory = null;
+        builder.append(table.getTitle());
+        builder.append("\n\n");
+
+        for (TableCollectionEntry entry : table.getTables()) {
+            Timber.i(entry.toString());
+            Timber.i(entry.getClass().getCanonicalName());
+
+            if (entry instanceof SubcategoryEntry) {
+                SubcategoryEntry category = (SubcategoryEntry) entry;
+                currentCategory = category.getText();
+            }
+
+            if (entry instanceof RandomTable) {
+                RandomTable randomTable = (RandomTable) entry;
+
+                int index = randomTable.getRolledIndex();
+                if (index != RandomTable.TABLE_NOT_ROLLED_YET) {
+                    if (currentCategory != null) {
+                        if (!builder.toString().trim().equals(table.getTitle()))
+                            builder.append("\n\n");
+                        builder.append(currentCategory);
+                        currentCategory = null;
+                    }
+
+                    builder.append("\n");
+                    builder.append(randomTable.getName());
+                    builder.append(": ");
+                    builder.append(randomTable.getEntries().get(index));
+                }
+            }
+        }
+
+        String text = builder.toString().trim();
+        if (text.equals(table.getTitle())) {
+            Toast.makeText(this, R.string.error_nothing_rolled, Toast.LENGTH_LONG).show();
+            return;
+        }
+
+        Intent sendIntent = new Intent();
+        sendIntent.setAction(Intent.ACTION_SEND);
+        sendIntent.putExtra(Intent.EXTRA_TEXT, builder.toString());
+        sendIntent.setType("text/plain");
+        startActivity(Intent.createChooser(sendIntent, getString(R.string.action_share_tables_with)));
     }
 
     @Override

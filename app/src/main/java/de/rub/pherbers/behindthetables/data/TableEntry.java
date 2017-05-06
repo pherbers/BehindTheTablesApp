@@ -77,6 +77,6 @@ public class TableEntry {
 
     @Override
     public String toString() {
-        return text;
+        return getText();
     }
 }

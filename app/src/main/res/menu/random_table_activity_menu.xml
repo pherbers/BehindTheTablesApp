@@ -7,11 +7,15 @@
         android:icon="@drawable/ic_star_border_white_48dp"
         android:title="@string/action_fav"
         app:showAsAction="ifRoom"/>
-
     <item
         android:id="@+id/random_table_activity_unfav"
         android:icon="@drawable/ic_star_white_48dp"
         android:title="@string/action_unfav"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/action_share_table"
+        android:title="@string/action_share"
+        android:icon="@drawable/ic_share_white_48dp"
         app:showAsAction="ifRoom"/>
 
     <item

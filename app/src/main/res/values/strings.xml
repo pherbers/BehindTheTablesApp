@@ -147,4 +147,7 @@
     <string name="action_share_external_file">Export file</string>
     <string name="action_share_external_file_content">Share file content</string>
     <string name="error_no_mimetype_for_json">Your android does not (yet) know how to properly handle JSON files. This might result in unexpected behaviour.</string>
+    <string name="action_share">Share</string>
+    <string name="action_share_tables_with">Share table results via:</string>
+    <string name="error_nothing_rolled">No table has been rolled yet.</string>
 </resources>
