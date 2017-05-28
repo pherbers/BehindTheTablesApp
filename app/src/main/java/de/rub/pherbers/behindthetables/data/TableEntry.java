@@ -9,6 +9,8 @@ import java.util.regex.Pattern;
 
 public class TableEntry {
     private String text;
+
+    private int entryPosition;
     private int diceValue;
     private int diceValueTo = -1;
 
@@ -17,18 +19,21 @@ public class TableEntry {
     private static final Pattern singleNumberRegex = Pattern.compile("^(\\d+)$");
     private static final Pattern doubleNumberRegex = Pattern.compile("^(\\d+)\\s*-\\s*(\\d+)$");
 
-    public TableEntry(String text, int diceValue) {
+    public TableEntry(int entryPosition, String text, int diceValue) {
+        this.entryPosition = entryPosition;
         this.text = text;
         this.diceValue = diceValue;
     }
 
-    public TableEntry(String text, int diceValue, int diceValueTo) {
+    public TableEntry(int entryPosition, String text, int diceValue, int diceValueTo) {
+        this.entryPosition = entryPosition;
         this.text = text;
         this.diceValue = diceValue;
         this.diceValueTo = diceValueTo;
     }
 
-    public TableEntry(String entry, String diceString) {
+    public TableEntry(int entryPosition, String entry, String diceString) {
+        this.entryPosition = entryPosition;
         this.text = entry;
 
         Matcher m1 = singleNumberRegex.matcher(diceString);
@@ -65,6 +70,10 @@ public class TableEntry {
 
     public void setDiceValueTo(int diceValueTo) {
         this.diceValueTo = diceValueTo;
+    }
+
+    public int getEntryPosition() {
+        return entryPosition;
     }
 
     public String getDiceString() {

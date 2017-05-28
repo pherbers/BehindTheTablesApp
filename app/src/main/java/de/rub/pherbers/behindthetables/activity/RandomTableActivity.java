@@ -3,28 +3,23 @@ package de.rub.pherbers.behindthetables.activity;
 
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.graphics.Canvas;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.PersistableBundle;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.DefaultItemAnimator;
-import android.support.v7.widget.DividerItemDecoration;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.view.animation.Animation;
-import android.view.animation.AnimationUtils;
 import android.webkit.URLUtil;
-import android.widget.ImageButton;
 import android.widget.Toast;
 
 import java.io.FileInputStream;
 import java.io.IOException;
-import java.util.Random;
 
 import de.rub.pherbers.behindthetables.BehindTheTables;
 import de.rub.pherbers.behindthetables.R;
@@ -35,9 +30,10 @@ import de.rub.pherbers.behindthetables.data.TableCollectionContainer;
 import de.rub.pherbers.behindthetables.data.TableCollectionEntry;
 import de.rub.pherbers.behindthetables.data.TableFile;
 import de.rub.pherbers.behindthetables.data.TableReader;
-import de.rub.pherbers.behindthetables.data.io.FileManager;
 import de.rub.pherbers.behindthetables.sql.DBAdapter;
-import de.rub.pherbers.behindthetables.view.RandomTableViewHolder;
+import de.rub.pherbers.behindthetables.view.DividerItemDecoration;
+import de.rub.pherbers.behindthetables.view.MyItemAnimator;
+import jp.wasabeef.recyclerview.animators.FadeInDownAnimator;
 import timber.log.Timber;
 
 public class RandomTableActivity extends AppCompatActivity {
@@ -120,14 +116,13 @@ public class RandomTableActivity extends AppCompatActivity {
         DividerItemDecoration mDividerItemDecoration = new DividerItemDecoration(this, layoutManager.getOrientation());
         listView.addItemDecoration(mDividerItemDecoration);
 
-        RecyclerView.ItemAnimator animator = new DefaultItemAnimator();
+        RecyclerView.ItemAnimator animator = new MyItemAnimator();
+        animator.setAddDuration(100);
         listView.setItemAnimator(animator);
 
-        //TextView tv = (TextView) findViewById(R.id.random_table_title);
-        //tv.setText(table.getTitle());
+        animator.setChangeDuration(1000);
 
-        //TextView desc_tv = (TextView) findViewById(R.id.random_table_desc);
-        //desc_tv.setText(table.getDescription());
+
     }
 
     @Override
@@ -136,21 +131,9 @@ public class RandomTableActivity extends AppCompatActivity {
     }
 
     public void diceRollAction(View mView) {
-        ImageButton btn = (ImageButton) findViewById(R.id.floatingActionButton);
-        Animation anim = AnimationUtils.loadAnimation(this, R.anim.dice_button_rotator);
-        btn.startAnimation(anim);
-        //table.rollAllTables();
-        for (int i = 0; i < listAdapter.getItemCount()-1; i++) {
-            if(table.getTables().get(i) instanceof RandomTable){
-                RandomTableViewHolder v = (RandomTableViewHolder) listView.findViewHolderForAdapterPosition(i + 1);
-                int prev = ((RandomTable)table.getTables().get(i)).getRolledIndex();
-                ((RandomTable)table.getTables().get(i)).roll();
-                if (v != null) {
-                    v.rerollAnimation(prev);
-                }
-            }
-        }
-        updateListOutOfView();
+        for(TableCollectionEntry tce: table.getTables())
+            if(tce instanceof RandomTable)
+                listAdapter.rollTable((RandomTable) tce);
     }
 
     @Override
@@ -164,33 +147,15 @@ public class RandomTableActivity extends AppCompatActivity {
     }
 
     public void actionCollapseAll() {
-        for (int i = 1; i < listAdapter.getItemCount(); i++) {
-            RecyclerView.ViewHolder v = listView.findViewHolderForLayoutPosition(i);
-            if (v == null) {
-                continue;
-            }
-            if (v instanceof RandomTableViewHolder)
-                ((RandomTableViewHolder) v).collapse(false);
-        }
-        for (TableCollectionEntry t : table.getTables())
-            if(t instanceof RandomTable)
-                ((RandomTable)t).setExpanded(false);
-        updateListOutOfView();
+        for(TableCollectionEntry tce: table.getTables())
+            if(tce instanceof RandomTable)
+                listAdapter.collapseTable((RandomTable) tce);
     }
 
     public void actionExpandAll() {
-        for (int i = 1; i < listAdapter.getItemCount(); i++) {
-            RecyclerView.ViewHolder v = listView.findViewHolderForLayoutPosition(i);
-            if (v == null) {
-                continue;
-            }
-            if (v instanceof RandomTableViewHolder)
-                ((RandomTableViewHolder) v).expand(false);
-        }
-        for (TableCollectionEntry t : table.getTables())
-            if(t instanceof RandomTable)
-                ((RandomTable)t).setExpanded(true);
-        updateListOutOfView();
+        for(TableCollectionEntry tce: table.getTables())
+            if(tce instanceof RandomTable)
+                listAdapter.expandTable((RandomTable) tce);
     }
 
     public void updateListOutOfView() {

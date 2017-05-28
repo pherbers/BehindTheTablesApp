@@ -93,10 +93,12 @@ public abstract class TableReader {
         title = jo.get("name").getAsString();
         dice = jo.get("dice").getAsString();
         JsonArray table_entries = jo.get("table_entries").getAsJsonArray();
+        int i = 0;
         for(JsonElement e: table_entries) {
             String entry = e.getAsJsonObject().get("entry").getAsString();
             String diceVal = e.getAsJsonObject().get("dice_val").getAsString();
-            entries.add(new TableEntry(entry, diceVal));
+            entries.add(new TableEntry(i, entry, diceVal));
+            i++;
         }
 
         RandomTable table = new RandomTable(title, dice, index, entries);
