@@ -61,10 +61,16 @@ public class MyItemAnimator extends BaseItemAnimator {
 
     @Override protected void animateAddImpl(final RecyclerView.ViewHolder holder) {
         long delay;
-        if(holder instanceof RandomTableEntryViewHolder)
-            delay = ((RandomTableEntryViewHolder) holder).getTableEntry().getEntryPosition() * getAddDuration() / 4;
-        else
+        if(holder instanceof RandomTableEntryViewHolder) {
+            if (((RandomTableEntryViewHolder) holder).isRolledEntry())
+                // Because changes in the rolled index are animated here too, we do not want any delay when rerolling entries
+                delay = 0;
+            else
+                delay = ((RandomTableEntryViewHolder) holder).getTableEntry().getEntryPosition() * getAddDuration() / 4;
+        }
+        else {
             delay = getAddDelay(holder);
+        }
         ViewCompat.animate(holder.itemView)
                 .translationY(0)
                 .alpha(1)

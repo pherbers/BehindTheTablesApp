@@ -118,9 +118,9 @@ public class RandomTableActivity extends AppCompatActivity {
 
         RecyclerView.ItemAnimator animator = new MyItemAnimator();
         animator.setAddDuration(100);
+        animator.setChangeDuration(100);
         listView.setItemAnimator(animator);
 
-        animator.setChangeDuration(1000);
 
 
     }

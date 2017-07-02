@@ -63,6 +63,8 @@ public class RandomTableViewHolder extends RecyclerView.ViewHolder implements On
 
         view.addView(tableGroup);
         itemView.setOnClickListener(this);
+
+        view.setBackgroundColor(view.getContext().getResources().getColor(R.color.colorTableOdd));
     }
 
     public void bindData(RandomTable table) {

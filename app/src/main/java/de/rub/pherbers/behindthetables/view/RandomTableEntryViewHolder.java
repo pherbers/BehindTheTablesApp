@@ -71,6 +71,10 @@ public class RandomTableEntryViewHolder extends ViewHolder implements View.OnCli
         return true;
     }
 
+    public boolean isRolledEntry() {
+        return table.getRolledIndex() == tableEntry.getEntryPosition();
+    }
+
     public TableEntry getTableEntry() {
         return tableEntry;
     }

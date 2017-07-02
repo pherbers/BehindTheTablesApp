@@ -25,6 +25,7 @@ import android.graphics.Rect;
 import android.graphics.drawable.Drawable;
 import android.support.annotation.NonNull;
 import android.support.v4.view.ViewCompat;
+import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.widget.LinearLayout;
@@ -126,9 +127,10 @@ public class DividerItemDecoration extends RecyclerView.ItemDecoration {
         for (int i = 0; i < childCount; i++) {
             final View child = parent.getChildAt(i);
             parent.getDecoratedBoundsWithMargins(child, mBounds);
-            final int bottom = mBounds.bottom + Math.round(ViewCompat.getTranslationY(child)) + (int)parent.getTranslationY();
+            final int bottom = mBounds.bottom + Math.round(ViewCompat.getTranslationY(child)) + (int)child.getTranslationY();
             final int top = bottom - mDivider.getIntrinsicHeight();
             mDivider.setBounds(left, top, right, bottom);
+            mDivider.setAlpha((int) (child.getAlpha()*255));
             mDivider.draw(canvas);
         }
         canvas.restore();
