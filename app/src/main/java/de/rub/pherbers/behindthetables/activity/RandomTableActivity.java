@@ -4,25 +4,22 @@ package de.rub.pherbers.behindthetables.activity;
 import android.Manifest;
 import android.content.DialogInterface;
 import android.content.Intent;
-import android.graphics.Canvas;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.PersistableBundle;
 import android.support.v4.app.ActivityCompat;
-import android.support.v4.content.FileProvider;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
-import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
-import android.webkit.MimeTypeMap;
 import android.webkit.URLUtil;
+import android.widget.ImageButton;
 import android.widget.Toast;
 
 import java.io.BufferedReader;
@@ -30,10 +27,7 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.Arrays;
-import java.util.Random;
 
-import de.rub.pherbers.behindthetables.BehindTheTables;
 import de.rub.pherbers.behindthetables.R;
 import de.rub.pherbers.behindthetables.adapter.RandomTableListAdapter;
 import de.rub.pherbers.behindthetables.data.RandomTable;
@@ -41,17 +35,15 @@ import de.rub.pherbers.behindthetables.data.SubcategoryEntry;
 import de.rub.pherbers.behindthetables.data.TableCollection;
 import de.rub.pherbers.behindthetables.data.TableCollectionContainer;
 import de.rub.pherbers.behindthetables.data.TableCollectionEntry;
-import de.rub.pherbers.behindthetables.data.TableEntry;
 import de.rub.pherbers.behindthetables.data.TableFile;
 import de.rub.pherbers.behindthetables.data.TableReader;
+import de.rub.pherbers.behindthetables.data.io.FileManager;
 import de.rub.pherbers.behindthetables.sql.DBAdapter;
 import de.rub.pherbers.behindthetables.view.DividerItemDecoration;
 import de.rub.pherbers.behindthetables.view.MyItemAnimator;
-import jp.wasabeef.recyclerview.animators.FadeInDownAnimator;
 import timber.log.Timber;
 
 import static de.rub.pherbers.behindthetables.BehindTheTables.APP_TAG;
-import static de.rub.pherbers.behindthetables.R.string.action_externa_file_info_detail;
 import static de.rub.pherbers.behindthetables.activity.CategorySelectActivity.EXTERNAL_STORAGE_REQUEST_CODE;
 
 public class RandomTableActivity extends AppCompatActivity {
@@ -146,6 +138,9 @@ public class RandomTableActivity extends AppCompatActivity {
     }
 
     public void diceRollAction(View mView) {
+        ImageButton btn = (ImageButton) findViewById(R.id.floatingActionButton);
+        Animation anim = AnimationUtils.loadAnimation(this, R.anim.dice_button_rotator);
+        btn.startAnimation(anim);
         for(TableCollectionEntry tce: table.getTables())
             if(tce instanceof RandomTable)
                 listAdapter.rollTable((RandomTable) tce);
