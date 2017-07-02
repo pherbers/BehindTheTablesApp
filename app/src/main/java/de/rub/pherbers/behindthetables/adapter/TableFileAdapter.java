@@ -50,12 +50,6 @@ public class TableFileAdapter extends RecyclerView.Adapter<TableFileAdapter.Hold
         holder.titleTF.setText(file.getTitle());
         holder.indexTF.setText(context.getString(R.string.info_index_indicator, (position + 1)));
 
-        if (file.isExternal()) {
-            holder.pathTF.setText(file.getFile().getAbsolutePath());
-        } else {
-            holder.pathTF.setVisibility(View.GONE);
-        }
-
         holder.titleTF.setCompoundDrawablesRelative(null, null, null, null);
         if (file.isFavorite(getContext())) {
             //holder.titleTF.getViewTreeObserver()
@@ -108,7 +102,7 @@ public class TableFileAdapter extends RecyclerView.Adapter<TableFileAdapter.Hold
     }
 
     class Holder extends RecyclerView.ViewHolder implements View.OnClickListener {
-        protected TextView titleTF, indexTF, pathTF, flavorTF;
+        protected TextView titleTF, indexTF, flavorTF;
         //protected ImageButton favBT;
 
         public Holder(View view) {
@@ -117,7 +111,6 @@ public class TableFileAdapter extends RecyclerView.Adapter<TableFileAdapter.Hold
             flavorTF = (TextView) view.findViewById(R.id.table_file_flavor);
             titleTF = (TextView) view.findViewById(R.id.table_file_title);
             indexTF = (TextView) view.findViewById(R.id.table_file_index);
-            pathTF = (TextView) view.findViewById(R.id.table_file_path);
 
             //this.favBT = (ImageButton) view.findViewById(R.id.table_file_list_fav_bt);
         }

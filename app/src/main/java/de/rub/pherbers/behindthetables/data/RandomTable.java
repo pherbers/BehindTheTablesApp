@@ -8,12 +8,15 @@ import java.util.Random;
  */
 
 public class RandomTable implements TableCollectionEntry {
+
+    public static final int TABLE_NOT_ROLLED_YET = -1;
+
     private String name;
     private String dice;
     private List<TableEntry> entries;
     private int tableIndex;
 
-    private int rolledIndex = -1;
+    private int rolledIndex = TABLE_NOT_ROLLED_YET;
 
     private boolean expanded = false;
 

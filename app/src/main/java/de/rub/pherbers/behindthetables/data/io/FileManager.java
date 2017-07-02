@@ -9,9 +9,12 @@ import android.media.MediaScannerConnection;
 import android.net.Uri;
 import android.os.Environment;
 import android.support.v4.content.ContextCompat;
+import android.text.format.DateUtils;
 
 import java.io.File;
 import java.io.IOException;
+import java.text.DecimalFormat;
+import java.util.Date;
 
 import de.rub.pherbers.behindthetables.R;
 import timber.log.Timber;
@@ -87,7 +90,7 @@ public class FileManager {
 
         try {
             boolean newFile = f.createNewFile();
-            MediaScannerConnection.scanFile (context, new String[] {f.toString()}, null, null);
+            MediaScannerConnection.scanFile(context, new String[]{f.toString()}, null, null);
             return newFile;
         } catch (IOException e) {
             e.printStackTrace();
@@ -112,6 +115,28 @@ public class FileManager {
         createNoMediaFile(f);
 
         return f;
+    }
+
+    public long getFileSize(File f) {
+        return f.length();
+    }
+
+    public String getFileSizeFormated(File f) {
+        long size = getFileSize(f);
+        if (size <= 0) return "0";
+
+        String b = context.getString(R.string.unit_b);
+        String kb = context.getString(R.string.unit_kb);
+        String mb = context.getString(R.string.unit_mb);
+        String gb = context.getString(R.string.unit_gb);
+        String tb = context.getString(R.string.unit_tb);
+        final String[] units = new String[]{b, kb, mb, gb, tb};
+        int digitGroups = (int) (Math.log10(size) / Math.log10(1024));
+        return new DecimalFormat("#,##0.#").format(size / Math.pow(1024, digitGroups)) + " " + units[digitGroups];
+    }
+
+    public String getFileDateRelative(File f) {
+        return DateUtils.getRelativeTimeSpanString(f.lastModified(), new Date().getTime(), 0L, DateUtils.FORMAT_ABBREV_ALL).toString();
     }
 
     public boolean deleteDir(File dir) {

@@ -30,14 +30,6 @@
         android:textAppearance="@android:style/TextAppearance.Small"/>
 
     <TextView
-        android:id="@+id/table_file_path"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="@dimen/table_entry_margin"
-        android:text="@string/error_unknown"
-        android:textAppearance="@android:style/TextAppearance.Small"/>
-
-    <TextView
         android:id="@+id/table_file_index"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

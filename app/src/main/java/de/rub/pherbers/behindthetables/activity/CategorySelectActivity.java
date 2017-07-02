@@ -119,7 +119,7 @@ public class CategorySelectActivity extends AppCompatActivity implements Adapter
                     dialogInterface.cancel();
                 }
             });
-            builder.setPositiveButton(R.string.action_discover_external, new DialogInterface.OnClickListener() {
+            builder.setPositiveButton(R.string.action_discover_external_dialog, new DialogInterface.OnClickListener() {
                 @Override
                 public void onClick(DialogInterface dialogInterface, int i) {
                     dialogInterface.dismiss();

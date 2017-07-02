@@ -18,4 +18,9 @@ public class SubcategoryEntry implements TableCollectionEntry {
     public void setText(String text) {
         this.text = text;
     }
+
+    @Override
+    public String toString() {
+        return getText();
+    }
 }
