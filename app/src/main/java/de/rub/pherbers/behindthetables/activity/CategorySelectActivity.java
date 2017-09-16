@@ -1,22 +1,22 @@
 package de.rub.pherbers.behindthetables.activity;
 
 import android.Manifest;
-import android.app.Dialog;
 import android.app.DialogFragment;
 import android.app.FragmentManager;
 import android.app.ProgressDialog;
+import android.app.SearchManager;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.database.Cursor;
+import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.os.AsyncTaskCompat;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
-import android.util.Log;
+import android.support.v7.widget.SearchView;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -31,14 +31,13 @@ import android.widget.Toast;
 import java.io.File;
 import java.util.ArrayList;
 import java.util.HashSet;
-import java.util.StringTokenizer;
 
 import de.rub.pherbers.behindthetables.BehindTheTables;
 import de.rub.pherbers.behindthetables.R;
 import de.rub.pherbers.behindthetables.concurrent.task.BuildDBTask;
 import de.rub.pherbers.behindthetables.data.TableFile;
-import de.rub.pherbers.behindthetables.sql.DBAdapter;
 import de.rub.pherbers.behindthetables.data.io.FileManager;
+import de.rub.pherbers.behindthetables.sql.DBAdapter;
 import de.rub.pherbers.behindthetables.view.dialog.ProgressDialogFragment;
 import timber.log.Timber;
 
@@ -54,6 +53,9 @@ public class CategorySelectActivity extends AppCompatActivity implements Adapter
     private CategoryAdapter adapter;
     private BuildDBTask buildDBTask;
     private ProgressDialog blockingDialog;
+    private SearchView searchView;
+
+    private String bufferedSearchQuery;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -197,7 +199,7 @@ public class CategorySelectActivity extends AppCompatActivity implements Adapter
 
             AlertDialog.Builder builder = new AlertDialog.Builder(this);
             builder.setTitle(R.string.info_imports_failed_title);
-            builder.setMessage(getString(R.string.info_imports_failed_text, String.valueOf(failedCount),String.valueOf(importedCount), percent + "%", formatFileList(failed)));
+            builder.setMessage(getString(R.string.info_imports_failed_text, String.valueOf(failedCount), String.valueOf(importedCount), percent + "%", formatFileList(failed)));
             builder.setIcon(R.drawable.ic_warning_black_48dp);
             builder.setNegativeButton(android.R.string.ok, new DialogInterface.OnClickListener() {
                 @Override
@@ -236,6 +238,31 @@ public class CategorySelectActivity extends AppCompatActivity implements Adapter
             menu.removeItem(R.id.action_debug_reset_db);
         }
 
+        SearchManager searchManager = (SearchManager) getSystemService(Context.SEARCH_SERVICE);
+        searchView = (SearchView) menu.findItem(R.id.action_category_select_search).getActionView();
+        searchView.setSearchableInfo(searchManager.getSearchableInfo(getComponentName()));
+        searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
+            @Override
+            public boolean onQueryTextSubmit(String query) {
+                updateSearchRequest(query);
+                return false;
+            }
+
+            @Override
+            public boolean onQueryTextChange(String newText) {
+                updateSearchRequest(newText);
+                return false;
+            }
+        });
+        searchView.setSearchableInfo(searchManager.getSearchableInfo(getComponentName()));
+        if (bufferedSearchQuery == null) {
+            searchView.setIconified(true);
+        } else {
+            Timber.e("Found this buffered query while setting up the options menu: " + bufferedSearchQuery);
+            searchView.setIconified(false);
+            searchView.setQuery(bufferedSearchQuery, false);
+        }
+
         return true;
     }
 
@@ -261,6 +288,10 @@ public class CategorySelectActivity extends AppCompatActivity implements Adapter
             }
         });
         builder.show();
+    }
+
+    private void updateSearchRequest(String searchQuery) {
+        Timber.i("CategorySelect: Search query update: "+searchQuery);
     }
 
     @Override

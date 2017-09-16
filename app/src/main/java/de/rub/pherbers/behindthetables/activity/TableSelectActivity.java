@@ -358,8 +358,9 @@ public class TableSelectActivity extends AppCompatActivity implements Navigation
         getMenuInflater().inflate(R.menu.menu_table_select, menu);
 
         SearchManager searchManager = (SearchManager) getSystemService(SEARCH_SERVICE);
-        MenuItem item = menu.findItem(R.id.action_search);
+        MenuItem item = menu.findItem(R.id.action_table_select_search);
         searchView = (SearchView) MenuItemCompat.getActionView(item);
+        searchView.setQueryRefinementEnabled(true);
         searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
             @Override
             public boolean onQueryTextSubmit(String query) {
@@ -377,7 +378,7 @@ public class TableSelectActivity extends AppCompatActivity implements Navigation
         if (bufferedSearchQuery == null) {
             searchView.setIconified(true);
         } else {
-            Timber.e("Found this buffered query while setting up the options menu: " + bufferedSearchQuery);
+            Timber.i("Found this buffered query while setting up the options menu: " + bufferedSearchQuery);
             searchView.setIconified(false);
             searchView.setQuery(bufferedSearchQuery, false);
         }
