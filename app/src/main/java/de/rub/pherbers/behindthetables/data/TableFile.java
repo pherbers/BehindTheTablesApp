@@ -29,14 +29,13 @@ public class TableFile implements Comparable<TableFile> {
 
     public static final String PREFS_FAVORITE_TABLES = PREFS_TAG + "fav_tables";
 
-    private ArrayList<String> keywords;
+    private String keywords;
 
     private String title;
     private String description;
     private String resourceLocation;
 
     private TableFile() {
-        keywords = new ArrayList<>();
     }
 
     public static TableFile createEmpty() {
@@ -55,11 +54,19 @@ public class TableFile implements Comparable<TableFile> {
         file.setDescription(c.getString(DBAdapter.COL_TABLE_COLLECTION_DESCRIPTION));
         file.setResourceLocation(resourceLocation);
 
-        String keys = c.getString(DBAdapter.COL_TABLE_COLLECTION_KEYWORDS);
-        for (String s : keys.split(String.valueOf(DBAdapter.LINK_COLLECTION_SEPARATOR))) {
-            Timber.v("Added keyword '" + s + "' to " + file.getTitle());
-            file.keywords.add(s.toLowerCase().trim());
-        }
+        file.setKeywords(c.getString(DBAdapter.COL_TABLE_COLLECTION_KEYWORDS));
+
+        return file;
+    }
+
+    public static TableFile createFromDB(Cursor cursor) {
+        TableFile file = createEmpty();
+
+        file.setTitle(cursor.getString(DBAdapter.COL_TABLE_COLLECTION_TITLE));
+        file.setDescription(cursor.getString(DBAdapter.COL_TABLE_COLLECTION_DESCRIPTION));
+        file.setResourceLocation(cursor.getString(DBAdapter.COL_TABLE_COLLECTION_LOCATION));
+
+        file.setKeywords(cursor.getString(DBAdapter.COL_TABLE_COLLECTION_KEYWORDS));
 
         return file;
     }
@@ -159,15 +166,15 @@ public class TableFile implements Comparable<TableFile> {
     }
 
     public boolean hasKeyword(String candidate) {
-        boolean found = false;
-        for (String s : getKeywords()) {
-            found |= s.toLowerCase().trim().contains(candidate.toLowerCase().trim());
-        }
-        return found;
+        return getKeywords().toLowerCase().trim().contains(candidate.toLowerCase().trim());
     }
 
-    public ArrayList<String> getKeywords() {
+    public String getKeywords() {
         return keywords;
+    }
+
+    public void setKeywords(String keywords) {
+        this.keywords = keywords;
     }
 
     public void setResourceLocation(String resourceLocation) {
@@ -189,6 +196,5 @@ public class TableFile implements Comparable<TableFile> {
         //} else if (isExternal()) return -1;
         //return 1;
     }
-
 
 }

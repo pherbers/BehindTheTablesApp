@@ -199,8 +199,7 @@ public class TableSelectActivity extends AppCompatActivity implements Navigation
             TableFile file = null;
             if (cursor.moveToFirst())
                 do {
-                    String res = cursor.getString(DBAdapter.COL_TABLE_COLLECTION_LOCATION);
-                    file = TableFile.createFromDB(res, adapter);
+                    file = TableFile.createFromDB(cursor);
                     foundTables.add(file);
                     //long id = cursor.getLong(DBAdapter.COL_ROWID);
                     //foundTables.add(TableFile.getFromDB(id, adapter));
