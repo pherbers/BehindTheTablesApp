@@ -33,12 +33,14 @@ import android.widget.Toast;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
+import java.util.Comparator;
 import java.util.HashSet;
 import java.util.Random;
 
 import de.rub.pherbers.behindthetables.R;
 import de.rub.pherbers.behindthetables.adapter.TableFileAdapter;
 import de.rub.pherbers.behindthetables.data.TableFile;
+import de.rub.pherbers.behindthetables.data.TableFileComparator;
 import de.rub.pherbers.behindthetables.sql.DBAdapter;
 import de.rub.pherbers.behindthetables.util.TableSearchRecentSuggestionsProvider;
 import de.rub.pherbers.behindthetables.view.listener.RecyclerItemClickListener;
@@ -248,15 +250,24 @@ public class TableSelectActivity extends AppCompatActivity implements Navigation
             }
         }
 
+
+
         Timber.i("Already discovered tables: " + Arrays.toString(foundTables.toArray()));
         Timber.i("Discovered tables that match search query: " + Arrays.toString(matchedTables.toArray()));
         Timber.i(matchedTables.size() + " / " + foundTables.size() + " apply to the search query.");
 
-        displayFiles(matchedTables);
+        TableFileComparator tfc = new TableFileComparator(searchQuery);
+        displayFiles(matchedTables, tfc);
     }
 
     private void displayFiles(ArrayList<TableFile> tables) {
         Collections.sort(tables);
+        listAdapter = new TableFileAdapter(this, tables);
+        list.setAdapter(listAdapter);
+    }
+
+    private void displayFiles(ArrayList<TableFile> tables, Comparator<TableFile> comparator) {
+        Collections.sort(tables, comparator);
         listAdapter = new TableFileAdapter(this, tables);
         list.setAdapter(listAdapter);
     }
