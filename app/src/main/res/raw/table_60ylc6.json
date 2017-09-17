@@ -1,0 +1,768 @@
+{
+    "category": "Factions/Groups",
+    "description": "Use these to make a druid circle.",
+    "id": "60ylc6",
+    "keywords": [
+        "druid circles",
+        "wildfolk",
+        "outdoorsmen",
+        "reclusive",
+        "naturalists",
+        "hippies",
+        "rockers",
+        "stonehenge",
+        "eleven"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/comments/60ylc6",
+    "related_tables": [],
+    "tables": [
+        {
+            "subcategory": "Random Druid Circles"
+        },
+        {
+            "dice": "d6",
+            "name": "Category: Members of this druid circle revere...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "The earth."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Weather cycles."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Natural disasters."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Trees."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Beasts."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Bodies of water."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Philosophical focus: Members of this druid circle champion the ideal of...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Balance in all things."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Change as an inevitability."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Endurance in the face of storms."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Harmony with the natural world."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Protecting the weak."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Strength against foes."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Sacred site: The druid circle’s most sacred site is a/an...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Cavern of geological wonders."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Dank, root-filled cave."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Cave behind a beautiful waterfall."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Enormous hollow tree."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Sacred grove of trees."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Ring of ancient monoliths."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Sacred site feature: At the druid circle’s most sacred site you will find...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Ancient paintings."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Twisted vines."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Fragrant flowers."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Unusual mushrooms."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Stunning mineral patterns."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Ripe, delicious fruit."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Druidic focus: Members of this druid circle often carry or wear a/an...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Wand made of blessed wood."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Staff made of ancient wood."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Staff topped with a rare stone."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "String of stone beads or shells."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Many tattoos of primal symbols."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Trophy taken from a beast (d6): 1. claws; 2. fangs; 3. feathers; 4. fur; 5. scales; 6. skull."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Mission: This druid circle's goal is to...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Salvage the natural beauty in a place despite civilization's incursions."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Sabotage attempts to tame wild lands."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Free all captive (read: domesticated) plants and animals."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Protect the land from an ancient evil."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Destroy any undead or evil creatures who threaten a region's natural inhabitants."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Prepare a new breeding ground for powerful beasts of ancient lineage (read: dragons)."
+                }
+            ]
+        },
+        {
+            "subcategory": "Earth Circles"
+        },
+        {
+            "dice": "d6",
+            "name": "Natural focus (earth circle): Members of this druid circle pay particular respect to...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Burrows."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Canyons."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Caves."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Dust storms."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Mountains."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Sand dunes."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Favored beast (earth circle): Members of this druid circle are often accompanied by a/an...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Badger or fox."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Bear."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Eagle or vulture."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Mouse or rat."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Ooze or earth elemental."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Spider."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Habits and rituals (earth circle): Members of this druid circle...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Never wipe the dirt from their feet."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Paint their faces with mud or dust."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Always sleep on bare earth."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Kiss the ground whenever they awake."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Only wear shoes when they go indoors."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Refuse to board any watercraft."
+                }
+            ]
+        },
+        {
+            "subcategory": "Weather Circles"
+        },
+        {
+            "dice": "d6",
+            "name": "Natural focus (weather circle): Members of this druid circle pay particular respect to...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Sunlight."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Thunderstorms."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Wind."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Rain."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Fog."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Snowstorms."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Favored beast (weather circle): Members of this druid circle are often accompanied by a/an...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Swarm of songbirds or flies."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Lizard or toad."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Eagle or owl."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Elemental creature."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Lion or panther."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Wolf."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Habits and rituals (weather circle): Members of this druid circle...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Always sleep outdoors."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Never dry their belongings when they get wet."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Spend time every morning praying for good weather."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Always know when it’s going to rain."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Sow grain seeds wherever they go."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Attack anyone who attempts to manipulate the weather."
+                }
+            ]
+        },
+        {
+            "subcategory": "Natural Disaster Circles"
+        },
+        {
+            "dice": "d6",
+            "name": "Natural focus (natural disaster circle): Members of this druid circle pay particular respect to...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Blizzards."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Earthquakes."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Floods."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Tornadoes."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Tsunamis."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Volcanoes."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Favored beast (natural disaster circle): Members of this druid circle are often accompanied by a/an...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Bear."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Elemental creature."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Eagle."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Rat."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Swarm of flies, songbirds, or fish."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Wolf or seal."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Habits and rituals (natural disaster circle): Members of this druid circle...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Never speak louder than a whisper."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Ritualistically tattoo themselves whenever they endure a natural disaster."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Practice an extreme form of fasting."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Meditate for days on end."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Never possess more than they can carry on their backs."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Never waste food."
+                }
+            ]
+        },
+        {
+            "subcategory": "Tree Circles"
+        },
+        {
+            "dice": "d6",
+            "name": "Natural focus (tree circle): Members of this druid circle pay particular respect to...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Oak or maple trees."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Apple or cherry trees."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Pine or cedar trees."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Fir or juniper trees."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Beech or palm trees."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Walnut or olive trees."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Favored beast (tree circle): Members of this druid circle are often accompanied by a/an...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Bat or spider."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Hawk or owl."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Raccoon or possum."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Songbird."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Snake."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Squirrel or monkey."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Habits and rituals (tree circle): Members of this druid circle...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Only sleep up in trees."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Only use wood products where the wood fell from the tree naturally."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Never start campfires."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Sleep standing up."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Put out any open flame they can reach."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Brew a special hallucinogenic tree bark tea."
+                }
+            ]
+        },
+        {
+            "subcategory": "Beast Circles"
+        },
+        {
+            "dice": "d6",
+            "name": "Natural focus (beast circle): Members of this druid circle pay particular respect to...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Predatory beasts."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Scavenging beasts."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Herd beasts."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Nocturnal beasts."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Aquatic beasts."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Scaly beasts."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Favored beast (beast circle): Members of this druid circle are often accompanied by a/an...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Swarm of diminutive beasts."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Coterie of various beasts."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Mated pair of beasts."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Paragon beast."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Extremely intelligent beast."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Pack or herd of beasts."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Habits and rituals (beast circle): Members of this druid circle...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Never sleep indoors."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Never bathe."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Only eat raw food."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Groom each other with licking and picking."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Communicate with each other in growls and grunts."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Know a secret language of coded bird calls."
+                }
+            ]
+        },
+        {
+            "subcategory": "Water Circles"
+        },
+        {
+            "dice": "d6",
+            "name": "Natural focus (water circle): Members of this druid circle pay particular respect to...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Warm oceans."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Cold oceans."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Rivers."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Lakes."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Underground lakes."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Swamps."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Favored beast (water circle): Members of this druid circle are often accompanied by a/an...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Swarm of frogs, dragonflies, or fish."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Giant crab or crayfish."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Turtle."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Seal or otter."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Orca or hippopotamus."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Shark or giant catfish."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Habits and rituals (water circle): Members of this druid circle...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Fear being dry and constantly drip water on themselves."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Eat only food that has been boiled, brined, or soaked."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Carry vials of water from several places for rituals."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Never write anything on paper because paper dissolves in water."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Refuse to eat any meat derived from aquatic creatures."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Have been ritualistically drowned and revived."
+                }
+            ]
+        }
+    ],
+    "title": "Druid Circles",
+    "use_with": [
+        {
+            "link": "45x5jp",
+            "title": "Druids"
+        }
+    ]
+}

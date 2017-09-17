@@ -1,0 +1,535 @@
+{
+    "category": "Wilderness",
+    "description": "Use these to make a quick tropical grassland region.",
+    "id": "60aia7",
+    "keywords": [
+        "Grassland",
+        "savanna",
+        "sahel",
+        "where the buffalo roam",
+        "where the lions roam"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/comments/60aia7",
+    "related_tables": [
+        {
+            "link": "47x04h",
+            "title": "Plains"
+        },
+        {
+            "link": "5z7ahq",
+            "title": "Temperate grassland"
+        }
+    ],
+    "tables": [
+        {
+            "subcategory": "Random Tropical Grassland"
+        },
+        {
+            "dice": "d6",
+            "name": "Point of interest: You come upon a/an...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Stone ruin (roll on stone ruin table)."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Small homestead."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "House built of dried mud."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Wooden fortification."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Large burrow."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Encampment (roll on encampment table)."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Stone ruin: The ruin appears to have been a/an…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Palace."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Church or temple."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Dwelling."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Astronomical observatory."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Tomb or mausoleum."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Watchtower."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Encampment: This encampment is occupied by a/an…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Barbarian clan."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Hunting party."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Merchant caravan."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Tribe of nomadic herders."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Band of tomb raiders."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "No one; it was abandoned some time ago."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Landscape: The landscape is dominated by…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A wide plain and a distant mountain range."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A wide plain and a distant expanse of forest."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Copses of trees dotting the wide plain."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "An endless sea of grass."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A wide, flat valley flanked by mountains."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Sparse bluffs and mesas rising above the grass."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Grass color: Much of the grass you see is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Lush green."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Pale green."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Yellowish green."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Bluish green."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Gold."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Brown."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Grass height: Most of the grass is…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "As tall as a man on horseback."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Slightly taller than a man."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Almost as tall as a man."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Up to a man’s waist."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Up to a man’s knee."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Only ankle high."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Grass texture: Most of the grass is…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Thick."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Coarse."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Soft."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Wavy."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Sharp edged."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Thorny."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Landmark/feature: You see a/an...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Lone, leafless tree."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Lazy creek."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Stone bluff."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Pond."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Dried river bed."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Series of boulders."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Minor feature: You notice a/an...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Bird call."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Rotting, half-eaten carcass."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Small snake slithering along."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Abandoned firepit."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Strong breeze."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Stench of rotting plants."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Daytime encounters: You meet a/an...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Beast (roll on beast table)."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Monster (roll on monster table)."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Herd animal (roll on herd animal table)."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Suspicious shaman."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Friendly hunter."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Nomadic warrior."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Nighttime encounters: You meet a/an...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Beast (roll on beast table)."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Monster (roll on monster table)."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Stalking demon."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Sorrowful ghost."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Hateful mummy."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Herd of sleepy domestic animals (d4): 1. cattle; 2. goats; 3. horses; 4. sheep."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Hazard: You happen upon a/an…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Sudden thunderstorm."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Dust storm."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Flash flood."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Hunter’s snare."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Patch of sinking mud or sand."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Place touched by a wilting curse."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Beast: You come upon a/an...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Boar or rhinoceros."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Carnivorous dinosaur (d6): 1. carnotaurus; 2. ceratosaurus; 3. dilophosaurus; 4. spinosaurus; 5. tyrannosaurus; 6. velociraptor."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Cheetah or panther."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Lion or tiger."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Hyena or jackal."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Vulture."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Herd animal: You come upon herd of...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Buffaloes."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Elephants."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Gazelles."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Giraffes."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Herbivorous dinosaurs (d6): 1. ankylosaurus; 2. brachiosaurus; 3. diplodocus; 4. pachycephalosaurus; 5. stegosaurus; 6. triceratops."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Wild horses."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Monster: You come upon a/an...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Young dragon."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Ettin."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Yuan-ti."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Giant scorpion."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Manticore."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Griffon."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Power center: This region is ruled or menaced by a/an…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Vengeful mummy lord."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Orkish warlord."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Blood-thirsty cult."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Barbarian clan."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Mysterious witch."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Mining guild."
+                }
+            ]
+        }
+    ],
+    "title": "Quick Tropical Grassland",
+    "use_with": [
+        {
+            "link": "4tguyo",
+            "title": "Horses"
+        },
+        {
+            "link": "3zmoy8",
+            "title": "Military camp NPCs"
+        },
+        {
+            "link": "3vspx8",
+            "title": "Orkish clans"
+        },
+        {
+            "link": "3t2qzc",
+            "title": "Outlaws bands"
+        },
+        {
+            "link": "3tjdae",
+            "title": "Savage hordes"
+        },
+        {
+            "link": "3sorre",
+            "title": "Undead, restless"
+        }
+    ]
+}

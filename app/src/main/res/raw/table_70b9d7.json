@@ -1,0 +1,500 @@
+{
+    "category": "Monsters",
+    "description": "These are some tables for giving bears some flavor. Who'd like to go hunting for a nice warm bearskin rug?",
+    "id": "70b9d7",
+    "keywords": [
+        "bear",
+        "grizzly",
+        "black bear",
+        "spectacled bear",
+        "kodiak",
+        "polar bear",
+        "mama bear",
+        "baby bear",
+        "Beorn",
+        "Mormont",
+        "Baloo",
+        "Ditka"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/comments/70b9d7",
+    "related_tables": [
+        {
+            "link": "4spk6l",
+            "title": "Bats"
+        },
+        {
+            "link": "4splu3",
+            "title": "Rats"
+        },
+        {
+            "link": "487awj",
+            "title": "Spiders"
+        },
+        {
+            "link": "4aepj5",
+            "title": "Wolves"
+        }
+    ],
+    "tables": [
+        {
+            "subcategory": "Random Bears"
+        },
+        {
+            "dice": "d10",
+            "name": "Color: The bear's fur is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Black."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Bluish black."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Black and grey."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Black and tan."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Black and brown."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Dark brown."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Reddish brown."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Sandy brown."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Brown and grey."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Pale grey or white."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Markings: The bear has...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Pale fur on one of its claws."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Pale fur around the face and muzzle."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Lighter fur on its belly."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Darker fur on its belly."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A scar from a past injury (d6): 1. flank; 2. foreleg; 3. hindleg; 4. snout; 5. eye; 6. ear."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Unusually shaggy fur on its back and flanks."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Unusually shaggy fur on its face."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Pronounced tufts of fur around its ears."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A patch of missing fur."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A nose of unusual color (d6): 1. pink; 2. white; 3. grey; 4. red; 5. black with pink splotches; 6. grey with red splotches."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Eyes: The bear's eyes are...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Reflective and black."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Pale grey."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Pale blue."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Brownish grey."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Greenish brown."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Light brown."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Brown."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Dark brown."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Gold."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Red."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Manner: The bear is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Panting lightly."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Panting heavily, its tongue lolling out of its mouth."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Hungrily licking its chops."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Yawning."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Yawning and stretching."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Watching curiously."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Watching warily."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Lumbering along lazily."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Lumbering along with purpose."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Lying about looking sleepy."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Foraging: The bear prefers to...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Pick off weak, easy prey."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Challenge any prey it finds."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Chase down and corner its prey."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Pursue its prey for days until the prey wears down."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Wait in ambush for prey to approach."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Scavenge for dead things."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Scavenge for berries and roots; hunting is hard work."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Return to a large berry or moss patch it found."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Remain in one place as long as food is plentiful."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Wade into shallow water and wait for fish."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Favorite food: If given the choice, the bear will opt to eat a/an/some...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Salmon or trout."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Catfish or bass."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Seal or beaver."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Sheep or goat."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Chicken or pheasant."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Flower petals."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Blackberries or raspberries."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Carrion."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Human child or halfling."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Scraps from a roadside inn's refuse heap."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Common food: When hungry, the bear often eats...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Any wild berries."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Root vegetables."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Leafy greens and moss."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Nuts and seeds."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Ants and beetles."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Worms and grubs."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Mice or rats. "
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Small lizards or snakes."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Rotting fish."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "The bones of something long dead."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Social situation: The bear is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A mother with a single cub."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A mother with a pair of cubs."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A lone young male."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A lone young female."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A long adult male."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A long adult female."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "One of a mated pair."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "One of a pair of young bears who lost their mother."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "An old male."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "An old female."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Habitat: This type of bear evolved to thrive...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "In canyonlands"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "In grassy hills or plains."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "In ancient forests."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "In young forests."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "In dense jungles."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "In rocky hills."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "In rugged mountains."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "In secluded mountain valleys."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "In dark caverns."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "In frozen lands."
+                }
+            ]
+        }
+    ],
+    "title": "Bears",
+    "use_with": [
+        {
+            "link": "3unfbm",
+            "title": "Caverns"
+        },
+        {
+            "link": "45x5jp",
+            "title": "Druids"
+        },
+        {
+            "link": "3va3dw",
+            "title": "Elves, wood"
+        },
+        {
+            "link": "3sgzxb",
+            "title": "Forests"
+        },
+        {
+            "link": "3sh0bv",
+            "title": "Forests, haunted"
+        },
+        {
+            "link": "3snvqq",
+            "title": "Goblins"
+        },
+        {
+            "link": "3snzw5",
+            "title": "Lycanthropes"
+        },
+        {
+            "link": "42rm5s",
+            "title": "Mountains"
+        },
+        {
+            "link": "47x04h",
+            "title": "Plains"
+        },
+        {
+            "link": "3va510",
+            "title": "Woodsmen"
+        }
+    ]
+}

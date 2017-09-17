@@ -1,0 +1,346 @@
+{
+    "category": "Monsters",
+    "description": "Use these to make a quick stone giant to befriend, to confuse, or to terrify your PCs.",
+    "id": "629osp",
+    "keywords": [
+        "Earth titan",
+        "stone club",
+        "rock giant",
+        "boom boom boom"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/comments/629osp",
+    "related_tables": [
+        {
+            "link": "5z21hm",
+            "title": "Fire giants"
+        },
+        {
+            "link": "5yobkq",
+            "title": "Frost giants"
+        },
+        {
+            "link": "605h4l",
+            "title": "Storm giants"
+        }
+    ],
+    "tables": [
+        {
+            "subcategory": "Random Stone Giant"
+        },
+        {
+            "dice": "d6",
+            "name": "Skin color: The stone giant’s skin is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Whitish grey."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Pale grey."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Stony grey."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Granite grey."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Dull grey."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Mottled grey."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Eye color: The stone giant’s eyes are...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Black."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Dark grey."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Dark grey flecked with black."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Black flecked with brown."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Black flecked with silver."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Black flecked with gold."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Distinguishing feature: The stone giant has…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Face paint."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Body paint."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Tattoos on its face."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "An ancient rune tattooed to its chest."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A missing eye."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A scar atop its head."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Home: The stone giant dwells in a/an…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Cavern far beneath a frozen mountain."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Cavern far beneath a stony mountain."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Cavern far beneath a coastal mountain range."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Cave in a dangerous mountain pass."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Series of tunnels far below the surface."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Huge cavern with an underground lake."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Training: The stone giant is a/an...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Dreamseer."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Guardian."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Hunter."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Sculptor or painter."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Rockthrower."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Stoneshaper."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Skill: Even among stone giants, the stone giant is particularly good at...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Carving stone figures."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Carving stone columns and archways."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Cave paintings."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Catching and throwing rocks."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Interpreting dreams."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Leaping and climbing."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Quirk/flaw: The stone giant frequently...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Slaps itself in the face while aboveground."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Hums to itself."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Fails to acknowledge when someone else is speaking."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Attacks surface dwellers on sight."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Ignores surface dwellers who speak to it."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Is irritable when roused from its slumber."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Possessions: The stone giant is carrying a/an...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Huge stone club."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Oversized stone warhammer."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Pouch full of cave bear treats."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Dozen or so vials of various pigments."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Hammer and chisel."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Sack full of large throwing stones."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Immediate goal: The stone giant is looking for a/an...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Replacement for a worn out artist’s tools."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Fine gem to add to its collection."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Dark, quiet place to sit and think."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Report of the goings-on in tunnels beneath a neighboring mountain."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "New source of inspiration for its artwork."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Audience to view its latest piece of art."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Accomplishment: The stone giant is especially proud of…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "His/her pair of graceful, dancing cave bears."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Throwing a boulder across a vast lake."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "The impressive statue of a stony god it spent years scuplting."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "The sprawling mural it painted depicting an epic history of its tribe."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Warning its tribe of the doom that would befall its tribe’s previous home."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "The intricate stonework adorning the walls of its personal chamber."
+                }
+            ]
+        }
+    ],
+    "title": "Stone Giants",
+    "use_with": [
+        {
+            "link": "3unfbm",
+            "title": "Caverns"
+        },
+        {
+            "link": "42rm5s",
+            "title": "Mountains"
+        },
+        {
+            "link": "5y0ucp",
+            "title": "Elemental earth dungeons"
+        }
+    ]
+}

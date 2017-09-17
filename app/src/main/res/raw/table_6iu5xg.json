@@ -1,0 +1,350 @@
+{
+    "category": "NPCs",
+    "description": "This is a quick method for making a heroic druid with some suggestions for who the hero is, what the hero is good at, what interests the hero, and what the hero's ultimate goal might be.\n\nThe situation where this makes the most sense to me is if you want to have somewhat disposable PCs and you don't want to spend too much time making the decisions in building a new PC.",
+    "id": "6iu5xg",
+    "keywords": [
+        "PC generator",
+        "druid",
+        "shaman",
+        "beastshifter"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/comments/6iu5xg",
+    "related_tables": [
+        {
+            "link": "6iu5eo",
+            "title": "Heroic cleric"
+        },
+        {
+            "link": "6iu6uu",
+            "title": "Heroic ranger"
+        },
+        {
+            "link": "6iu7l0",
+            "title": "Heroic sorcerer"
+        }
+    ],
+    "tables": [
+        {
+            "subcategory": "Random Heroic Druid"
+        },
+        {
+            "dice": "d6",
+            "name": "You grew up in a/an…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Ancient forest"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Desert"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Frozen lands"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Mountains"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Swamp"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Young forest"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "In the past, you were a/an…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Acolyte or guardian"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Farmer or herder"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Herbalist or healer"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Huntsman or guide"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Miner or mountaineer"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Sage or scholar"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "You take pride in…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Aiding wounded beasts"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Bird calls"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Foraging"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Hunting down unnatural foes"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Navigating by starlight"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Predicting the weather"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "You need improvement on…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Bedside manner"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Campfire cooking"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Conversation skills"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Drug addiction"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Personal hygiene"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Table manners"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "You became an adventurer to…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Atone for past sins"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Escape from a dull life"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Locate a legendary beast"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Restore a sacred grove"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Avoid the restlessness of staying in one place"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Seek out an ancient tree"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Your favorite weapon is your…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Club or greatclub"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Dagger"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Quarterstaff"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Scimitar"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Shortbow"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Spear"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "You frequently take the form of a/an…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Bear or badger"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Boar or hedgehog"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Eagle or raven"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Elk or rabbit"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Serpent or spider"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Wolf or fox"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "You are carrying a/an/some…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Field guide to herbs"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Packet of ancient seeds"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Poisonous extracts"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "String of teeth"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Unhatched eggs"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Variety of healing herbs"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "You are wearing a/an/some…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Green cape"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Old oaken shield"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Ritualistic scar or tattoo"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "String of teeth or shells"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Tattered wool robe"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Warm furs"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "You have a keen interest in…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Collecting flowers, seeds, or leaves"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Myths and tall tales"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Singing or playing an instrument"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Training pets"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Woodcarving or weaving"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Writing poetry"
+                }
+            ]
+        }
+    ],
+    "title": "Heroic Druid",
+    "use_with": [
+        {
+            "link": "3zr0h4",
+            "title": "NPC appearance, personality, faith, and flaws"
+        },
+        {
+            "link": "4hbe7j",
+            "title": "Player character"
+        },
+        {
+            "link": "60ylc6",
+            "title": "Druid circles"
+        },
+        {
+            "link": "45x72u",
+            "title": "Herb lore"
+        }
+    ]
+}

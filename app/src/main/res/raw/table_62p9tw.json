@@ -1,0 +1,419 @@
+{
+    "category": "Monsters",
+    "description": "Use these to make a quick dragon.",
+    "id": "62p9tw",
+    "keywords": [
+        ""
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/comments/62p9tw",
+    "related_tables": [],
+    "tables": [
+        {
+            "subcategory": "Basics:"
+        },
+        {
+            "subcategory": "Use these tables with:"
+        },
+        {
+            "subcategory": "Related tables:"
+        },
+        {
+            "subcategory": "Keywords:"
+        },
+        {
+            "subcategory": "Random Dragon"
+        },
+        {
+            "dice": "d6",
+            "name": "Scale color: The dragon’s scales are mostly...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Black."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Gold"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Dark green."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Pale green."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Red."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "White."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Hide accent: The dragon has...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A belly and chest..."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Diamond shapes on its back..."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Flecks all over its hide…"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A mask..."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Spots on its belly and chest…"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Stripes on its back…"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "...of…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Brown."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Crimson."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Green."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Grey."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Silver"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Yellow"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Eyes: The dragon’s eyes are...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Mismatched colors."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Misty white."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Smoky grey."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Blood red."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Blazing gold."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Deep green."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Distinguishing feature: The dragon has a/an…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Pronounced underbite."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Pair of ridges above the eyes."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Frill around its neck."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Crest atop its head."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Especially long, forked tongue."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Unusually long fangs."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Scar: The dragon has…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A scar through one of its eyes."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Several missing toes."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A tear in one of its wings."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A long scar on its neck."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A deep scar on its side."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "No noticeable scars."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Breath weapon: The dragon’s breath consists of...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Poisonous smoke and dim orange flames."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Black smoke and dim red flames."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A scorching line of red flame."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Punctuated blasts of yellow flame."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Billowing puffs of orange flame."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A less common form of energy (d6): 1. cone of cold air; 2. line of acid; 3. line of lightning; 4. cloud of toxic green gas; 5. Icy blast; 6. forks of lightning."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Favorite activity: The dragon is most content when it is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Battling dangerous prey."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Eating."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Hunting intelligent prey."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Scavenging for shiny objects."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Sleeping."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Soaring."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Quirk/flaw: Even for a dragon, the dragon frequently...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Gets distracted by shiny objects."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Gets distracted by food."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Exhales flame even when it does not intend to do so."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Lets loose a terrifying cry."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Flies a little too close to the ground when on the attack."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Eats until it is uncomfortably full."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Lair: The dragon has an affinity for building its lair in...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Remote mountains."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Deep caverns."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Savage forests."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Ancient stone ruins."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Coastal caves."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Vast deserts."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Hoard: The dragon has a collection of...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Bones of great beasts it ate."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Bones of humanoids it ate."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Bones of dragons it vanquished."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Shiny objects and broken glass."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Gold and silver coins of every nation."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Sparkly gems from all over the world."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Immediate goal: The dragon is looking for a/an...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Easy meal."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Meal that will fight back."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Meal that will squeal."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Suitable site in which to lair."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Suitable mate."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Shiny bauble. "
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Past misfortune (for ancient dragons): The dragon survived a/an…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Attempt at being eaten by its own mother."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Period of forced servitude in an orkish army."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Period of forced servitude at the hands of a shadowwitch."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Demonic invasion."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Long imprisonment in a dark, cold place."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Near-decapitation by an elvish hero."
+                }
+            ]
+        }
+    ],
+    "title": "Dragons",
+    "use_with": []
+}

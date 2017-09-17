@@ -1,0 +1,408 @@
+{
+    "category": "Magic",
+    "description": "I saw a fellow redditor put up his warlock contract online and it gave me the spur to do up a random generator for your own contracts for you to hand to your players. Perhaps they will start to **worry** about the fact that their soul is in such a powerful creature's hands!\n\nHave a request for a Behind The Tables table? Let me know!",
+    "id": "6gx1c8",
+    "keywords": [
+        ""
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/comments/6gx1c8",
+    "related_tables": [],
+    "tables": [
+        {
+            "subcategory": "Warlock Contract Generator - You want power? One soul, please!"
+        },
+        {
+            "subcategory": "Keywords:"
+        },
+        {
+            "dice": "d8",
+            "name": "If your Patron is an Archfey, your patron is",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Relkath of the Infinite Branches"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Lurue the Unicorn Queen"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Verenestra the Oak Princess"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Sarula Iliene the Nixie Queen"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Aurilandür the Frost Sprite Queen"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Neifion, Lord of Bats"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "An Archfey not on this list"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A Fiend or Great Old One Patron, pretending to be an Archfey"
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "If your Patron is a Fiend, your patron is",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Orcus"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Demogorgon"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Asmodeus"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Mephistopheles "
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Glasya "
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Malkizid "
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Tiamat"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A Fiend not on this list"
+                }
+            ]
+        },
+        {
+            "dice": "d20",
+            "name": "If your Patron is a Great Old One, your patron is",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Atropus"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Zargon the Returner"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Father Llymic"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Pandorym"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Shothragot"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Haask, voice of hargut"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Dendar, the night serpent"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Kezef, the chaos hound"
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Ityak Ortheel, the Elf Eater"
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Bolothamogg, Him Who Watches from Beyond the Stars, "
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Holashner, the Hunger Below"
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Piscaethces, the Blood Queen"
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "Y'chak, the Violet Flame"
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "The DM"
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "Matt Colville"
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "u/famoushippopotamus"
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "The BBEG of the campaign"
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "A Great Old One not on this list"
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "A Fiend or Archfey pretending to be a Great Old One"
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "Roll twice on this list, they are fighting for your soul"
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "In return, your patron wants you to",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Follow his petty demands for small errands at any time"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Eliminate any mortal targets in your natural plane within a reasonable time limit"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Start a cult following that worships the patron, make them famous and reknown in all the lands"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Take down anyone who is part of a cult that belongs to the patron's rival"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Enjoy the power, while he returns to the gambling table to resume his addiction - he uses your soul as collateral to bet on something big"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Destroy the world, and be the evil force in your world, while the patron watches, with popcorn"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "The Patron is bored and doesn't really know what he's doing, so he's giving the whole \"soul bargaining\" thing a try"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Negotiate a peace treaty with a Deity on behalf of the patron, as the Deity would destroy the patron on sight"
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "The contract's duration is a period of",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Three months"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Six months"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "One year"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Five years"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Ten years"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "One Hundred years"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "One Lifetime"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "One Class Level"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "After the period is over, the terms of renewal are",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "The Patron has a new task for you"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "The Patron checks in to see if you have met his deadlines for your past work"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "The Patron forces you to prove that you deserve to continue recieving his powers"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "The periods roll on to the next, automatically renewing"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "The contract is renewed immediately, unless an order of non-renewal is put forward to a dark council within 48 hours of the last period's end"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "The Warlock decides if they want to renew the contract period"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "If the contract is not renewed...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "The powers are stripped from the warlock, and he gets his soul back"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "The warlock does not gain any new powers, but his soul is kept as collateral until he is willing to trade their acquired powers back to have it returned"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "The warlock does not gain any new powers, but keeps his current ones, and the patron keeps the soul"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "The warlock is approached by rival patrons who try and bid for possession of his soul in return for their own patron's blessings"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "The patron sends servants to capture the warlock and bring him to the patron's lair, for a meeting"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "The warlock does not gain any new powers, but the patron immediately finds a new warlock to give power to, if possible, to a rival of the warlock"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "If the terms of the contract are broken",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "The patron sends assassins to kill the warlock"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "The patron sends assassins to kill anyone the warlock has spoken to, but do not kill the warlock"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "The patron sells the warlock's soul to a more powerful patron, in return to get power from this patron themselves"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "The patron sends minions to capture the warlock and bring him to the patron's lair"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "The patron hatches a plan to destroy the world the warlock is native to"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "The patron destroys the warlock's soul, making him unable to be revived if he dies. "
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "If the warlock dies while in service of this contract,",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "They appear in the patron's lair as an incorporeal being, and will continue with their agreement"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "They are reanimated as undead to serve as a slave for the patron for 500 years"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "The Patron is free to do with the soul as they wish"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "The Patron must return the soul to a person of the Warlock's Choosing"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "The Patron will travel to the warlock's realm, with his soul, and will perform his own duties under the guise of the departed warlock's identity"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "The warlock wakes up again, alive. When the contract ends however, the warlock is killed and cannot be resurrected. "
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "If the patron dies while the contract is in effect",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "The warlock's soul is lost in purgatory, drifting forever"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "The soul is in the possession and ownership of whoever killed the patron"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "The soul is returned to the warlock"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "The soul is in limbo while other patrons bid to be the warlock's new patron"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "The warlock loses his powers, and has no memory of anything that happened while he had those powers"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "The warlock's fate is tied with his patron, and they die too. "
+                }
+            ]
+        }
+    ],
+    "title": "Warlock Contract Generator - Choose Your Patron!",
+    "use_with": []
+}

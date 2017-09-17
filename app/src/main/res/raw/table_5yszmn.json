@@ -1,0 +1,273 @@
+{
+    "category": "Objects, Items, and Miscellany",
+    "description": "Use these to make a quick dagger, mundane or magical.",
+    "id": "5yszmn",
+    "keywords": [
+        "Dagger",
+        "knife",
+        "shiv",
+        "blade",
+        "switchblade",
+        "tooth",
+        "thief",
+        "assassin"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/comments/5yszmn",
+    "related_tables": [],
+    "tables": [
+        {
+            "subcategory": "Random Daggers"
+        },
+        {
+            "dice": "d6",
+            "name": "Blade shape: The dagger’s blade is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Broad."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Curved."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Jagged."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Narrow."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Serpentine."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Triangular."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Blade finish: The dagger’s blade is…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Dull."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Gilded."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Black steel."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Polished."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Shiny."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Silvered."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Hilt feature: The dagger’s hilt features…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Arcane runes."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Beast shapes."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Cross-hatched grip."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Embedded gems."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Leather wrappings."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Religious symbols."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Special damage: When properly activated, the dagger can wound foes with…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Cold damage."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Force damage."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Necrotic damage."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Poison damage."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Psychic damage."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Radiant damage."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Special property: The dagger…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Erupts with a burst of flame on a hit."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Erupts with a burst of lightning on a hit."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Stuns the wielder on a critical miss."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Poisons the wielder on a miss."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Returns to the wielder’s hand when thrown."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Never dulls."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Activation: The dagger’s special damage or special property activates or amplifies…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Against a specific type of enemy (d6): 1. dragons; 2. elves; 3. fiends; 4. goblinoids; 5. shapeshifters; 6. undead."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "When wielded by a member of a specific race (d6): 1. dark elf; 2. dwarf; 3. kobold; 4. orc; 5. shadowfolk; 6. wood elf."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "In sunlight."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "In moonlight."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Underground."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Under starlight."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Creator: The dagger was made by a/an…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Elvish blademaker."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Dwarvish armorer."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Young blacksmith."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Old weaponsmith."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Strange witch."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Savage hunter."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Past wielder: The dagger’s most infamous wielder was a/an…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Daring thief."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Untraceable assassin."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Terrifying sorceress."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Powerful warlock."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Celebrated warrior."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Brutal warlord."
+                }
+            ]
+        }
+    ],
+    "title": "Daggers",
+    "use_with": [
+        {
+            "link": "44wqci",
+            "title": "Assassins"
+        },
+        {
+            "link": "4034w3",
+            "title": "Thieves"
+        }
+    ]
+}

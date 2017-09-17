@@ -1,0 +1,373 @@
+{
+    "category": "Dungeons/Locations",
+    "description": "Use these to make a quick cavern in the Feydark or fey-touched location.",
+    "id": "61ls8l",
+    "keywords": [
+        "Feywild",
+        "feydark",
+        "underdark",
+        "faeriefolk",
+        "elves",
+        "gnomes",
+        "satyrs",
+        "hobgoblins",
+        "ghosts",
+        "liches",
+        "curses",
+        "fey realm",
+        "realm of dreams",
+        "thought realm",
+        "nightmares"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/comments/61ls8l",
+    "related_tables": [
+        {
+            "link": "614gba",
+            "title": "Feywild dungeons"
+        }
+    ],
+    "tables": [
+        {
+            "subcategory": "Random Feywild Dungeon"
+        },
+        {
+            "dice": "d6",
+            "name": "Location: This cavern is located…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Within the territory of a subterranean hobgoblin kingdom."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Deep an elvish palace."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Far below an ancient elvish ruin."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Under a range of misty mountains."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Far below a thriving city."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Deeper than any mortal has been known to go."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Major feature: You see a/an...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Dark underground pond."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Series of beautiful, natural columns."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Pair of large stalactites that resemble fangs."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Magically-crafted colonnade."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Dense, swirling fog.."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Set of stone doors in an otherwise natural cavern."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Minor feature: You see a/an...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Constant drip of water."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Signpost warning all to turn back."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Elvish writing scrawled on the cave wall."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Pile of recently cleaned bones."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Ring of brightly-colored mushrooms."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Shimmering mist."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Light source: This cavern is lit by...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Several floating, dim blue flames."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Several heatless, white torches."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Bright, green glowing fungi."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Purplish-red phosphorescent mold."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Shafts of light steered by shiny mirrors."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Nothing at all; the cavern is pitch black."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "NPC: You meet a/an…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Hobgoblin soldier."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Dark elf ranger."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Gnomish explorer."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Cruel satyr."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Angry ghost."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Escaped slave."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Beast: You meet a/an…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Hook horror."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Swarm of rats or worms."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Phase spider."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Giant centipede."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Swarm of bats or moths."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Talking beast (d6): 1. bat; 2. mole; 3. lizard; 4. rat; 5. spider; 6. giant toad."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Secondary Monster: You come upon a/an…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Bugbear thug."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Cyclops guardian."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Displacer beast."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Hungry drider."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Playful pseudodragon."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Armored battle-wight."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Primary monster: This place is currently ruled by a…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Aberrant creature (d6): 1. aboleth; 2. beholder; 3. grick; 4. mind flayer; 5. alhoon (lich); 6. flumph."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Night hag."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Baelnorn (lich)."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Fomorian torturer."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Hobgoblin commander."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Ancient dracolich."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Traps/hazard: You must survive the…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Curse of howling madness. "
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Curse of nightmarish visions."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Improvised, rolling boulder trap."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Unstable ceilings."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Slippery, mold-covered floors."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Intermittent floods."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Reward/treasure: If you survive, you may find the...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Sword of an ancient elvish king."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Largest diamond in this or any other world."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Spellbook of an eccentric illusionist."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Captive elvish princess."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Portal to another realm."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Resting place of a legendary elvish hero."
+                }
+            ]
+        }
+    ],
+    "title": "Feydark Caverns",
+    "use_with": [
+        {
+            "link": "3unfbm",
+            "title": "Caverns"
+        },
+        {
+            "link": "4fsrky",
+            "title": "Gnomes"
+        },
+        {
+            "link": "3snvqq",
+            "title": "Goblins"
+        },
+        {
+            "link": "3vlzrw",
+            "title": "Faeriefolk"
+        },
+        {
+            "link": "3vh7jd",
+            "title": "High elves"
+        },
+        {
+            "link": "3sorre",
+            "title": "Restless undead"
+        },
+        {
+            "link": "3vjsea",
+            "title": "Treefolk"
+        },
+        {
+            "link": "3si4ms",
+            "title": "Witches"
+        },
+        {
+            "link": "3va3dw",
+            "title": "Wood elves"
+        }
+    ]
+}

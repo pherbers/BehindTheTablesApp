@@ -1,0 +1,361 @@
+{
+    "category": "NPCs",
+    "description": "This is a quick method for making a heroic wizard with some suggestions for who the hero is, what the hero is good at, what interests the hero, and what the hero's ultimate goal might be.\n\nThe situation where this makes the most sense to me is if you want to have somewhat disposable PCs and you don't want to spend too much time making the decisions in building a new PC.",
+    "id": "6iu86b",
+    "keywords": [
+        "PC generator",
+        "wizard",
+        "mage",
+        "arcanist",
+        "illusionist",
+        "enchanter",
+        "necromancer"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/comments/6iu86b",
+    "related_tables": [
+        {
+            "link": "6iu521",
+            "title": "Heroic bard"
+        },
+        {
+            "link": "6iu7l0",
+            "title": "Heroic sorcerer"
+        },
+        {
+            "link": "6iu7yk",
+            "title": "Heroic warlock"
+        }
+    ],
+    "tables": [
+        {
+            "subcategory": "Random Heroic Wizard"
+        },
+        {
+            "dice": "d6",
+            "name": "You grew up in a/an…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Border town"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Capital city"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Castle"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Military outpost"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Port city"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Remote monastery"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "In the past, you were a/an…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Acolyte or brewer"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Charlatan or fortune teller"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Circus performer or magician"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Hermit or wanderer"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Sage or merchant"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Smith or stonemason"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "You take pride in…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Brewing potions"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Your eccentric diet"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Discovering ancient secrets"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Reading signs and omens"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Spell duels"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Teaching new students"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "You need improvement on…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Complex rituals"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Drug addiction"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Getting more sleep"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Messy handwriting"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Keeping secrets"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Social anxiety"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "You became an adventurer to…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Answer an ancient riddle"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Avoid punishment"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Escape from a dull life"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Message from a fiend"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Pursue scholarly fame"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Gain vengeance upon an old foe"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Your favorite spells are/involve…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Divinations"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Charms"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Fire, ice, or lightning"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Illusions"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Summoning"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Wards"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "You are especially knowledgeable of…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Alchemy"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Demonology"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Elemental magic"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "History of magic"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Necromancy"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Planar travel"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "You recently read or are carrying a book on…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Ancient rituals"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Bizarre travelogue"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Dragons"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Dream interpretation"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Potion recipes"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Untranslated spellbook"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "You are carrying a/an/the…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Dagger"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Gnarled wooden staff"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Tome"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Wand"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Orb"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Crystal-tipped staff"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "You have a keen interest in…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Card games"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Collecting flowers, seeds, or leaves"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Fine wines, ales, and spirits"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Heroic tales and legends"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Learning people's secrets"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Writing a memoir"
+                }
+            ]
+        }
+    ],
+    "title": "Heroic Wizard",
+    "use_with": [
+        {
+            "link": "3zr0h4",
+            "title": "NPC appearance, personality, faith, and flaws"
+        },
+        {
+            "link": "4hbe7j",
+            "title": "Player character"
+        },
+        {
+            "link": "43xeol",
+            "title": "Alchemical mishaps"
+        },
+        {
+            "link": "4e71lc",
+            "title": "Dinner in a mage academy dining hall"
+        },
+        {
+            "link": "4y5pl2",
+            "title": "Mage's tower"
+        },
+        {
+            "link": "3xyilr",
+            "title": "Secret societies"
+        }
+    ]
+}

@@ -1,0 +1,342 @@
+{
+    "category": "NPCs",
+    "description": "This is a quick method for making a heroic barbarian with some suggestions for who the hero is, what the hero is good at, what interests the hero, and what the hero's ultimate goal might be.\n\nThe situation where this makes the most sense to me is if you want to have somewhat disposable PCs and you don't want to spend too much time making the decisions in building a new PC.",
+    "id": "6iu521",
+    "keywords": [
+        "PC generator",
+        "barbarian",
+        "berserker",
+        "warrior"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/comments/6iu521",
+    "related_tables": [
+        {
+            "link": "6iu628",
+            "title": "Heroic fighter"
+        },
+        {
+            "link": "6iu6uu",
+            "title": "Heroic ranger"
+        }
+    ],
+    "tables": [
+        {
+            "subcategory": "Random Heroic Barbarian"
+        },
+        {
+            "dice": "d6",
+            "name": "You grew up in a/an…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Desert"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Frozen land"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Mountain region"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Remote homestead"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Vast grassland"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Wild jungle"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "In the past, you were a/an…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Acolyte or guardian"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Farmer or herder"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Gladiator or outlaw"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Hunter or huntsman"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Mountaineer or guide"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Sellsword or soldier"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "You take pride in…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Athletic competitions"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Foraging"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Physical endurance"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Slaying monsters"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Tracking beasts or foes"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Weapon maintenance"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "You need improvement on…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Campfire cooking"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Controlling your temper"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Holding your liquor"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Personal hygiene"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Table manners"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Vocabulary"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "You became an adventurer to…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Avoid a family obligation"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Escape from execution"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Locate a legendary beast"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Prove your mettle after failure"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Pursue fame and fortune"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Gain vengeance upon old foe"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Your primary weapon is your…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Flail or morningstar"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Greataxe or battleaxe"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Greatsword or longsword"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Longspear or spear"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Maul or warhammer"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Scimitar or falchion"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "You are also skilled with your…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Bare fists"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Hunting knife or javelins"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Handaxes or blowgun"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Longbow or shortbow"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Shortsword or greatclub"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Wrestling moves"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "You are carrying a/an…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Famous ancestor's weapon"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Hunting trap"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Lucky charm"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Painful memory"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "String of teeth or ears"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Trophy from fallen enemy"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "You are wearing a/an/some…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Loin cloth"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Armor decorated with bones"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Ritualistic scar or tattoo"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Patched leather armor"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Thick hide armor"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Warm furs"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "You have a keen interest in…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Comic tales and jokes"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Learning people's secrets"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Fine wines, ales, and spirits"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Myths and tall tales"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Singing or playing an instrument"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Woodcarving or pottery"
+                }
+            ]
+        }
+    ],
+    "title": "Heroic Barbarian",
+    "use_with": [
+        {
+            "link": "3zr0h4",
+            "title": "NPC appearance, personality, faith, and flaws"
+        },
+        {
+            "link": "4hbe7j",
+            "title": "Player character"
+        },
+        {
+            "link": "3tjdae",
+            "title": "Savage hordes"
+        }
+    ]
+}

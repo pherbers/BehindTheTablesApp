@@ -1,0 +1,355 @@
+{
+    "category": "NPCs",
+    "description": "Use these to make a quick half-breed NPC.",
+    "id": "5zugye",
+    "keywords": [
+        "Half-breed",
+        "mudblood",
+        "half-elf",
+        "half-orc",
+        "half-man",
+        "half-fiend",
+        "hybrid",
+        "crossover",
+        "half-troll",
+        "half-giant",
+        "half-mad",
+        "half-wit",
+        "etc",
+        "etc"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/comments/5zugye",
+    "related_tables": [],
+    "tables": [
+        {
+            "subcategory": "Random Half-Breed"
+        },
+        {
+            "dice": "d6",
+            "name": "Parentage: The person’s…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Mother was a human and father was something else."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Mother was at least half-human and father was something else."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Father was a human and mother was something else."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Father was at least half-human and mother was something else."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Mother and father were both half-human."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Parents died or abandoned him/her long ago without any knowledge."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Bloodline (Common): The person is half (or some other fraction)...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Dragon."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Elf."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Fiend."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Giant."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Ogre. "
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Orc."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Bloodline (Uncommon): The person is half (or some other fraction)...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Celestial."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Dwarf."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Elemental."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Gnoll."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Shadowfolk."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Troll."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Childhood: The person grew up among…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Peaceful humans (d6): 1. crafters; 2. farmers; 3. fishers; 4. herders; 5. miners; 6. religious zealots."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Violent humans (d6): 1. bandits; 2. barbarians; 3. cultists; 4. mercenaries; 5. pirates; 6. thieves."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Nomadic humans (d6): 1. acting troupe; 2. circusfolk; 3. herders; 4. minstrels; 5. pilgrims; 6. traders."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "The people of his/her non-human parent."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Misfits or savages of several races."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Peaceful people of several races."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Coming of age: The person experienced…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A heartbreaking romantic rejection."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "The death of a parent or mentor."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "The destruction of his/her home."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A harsh sentence for committing a crime."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A wrongful criminal conviction."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Taking part in a political or religious revolution."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Training: The person is a/an...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Bard or circus performer."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Knight or sellsword."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Druid or mystic."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Priest or mage."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Thief or swindler."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Warrior or hunter."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Skill: The person is particularly good at...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Fighting."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Sneaking."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Lying."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Persuasion."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Negotiation."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Making friends."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Quirk/flaw: To a fault, the person...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Makes enemies easily."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Feels nervous talking to strangers."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Falls in and out of love frequently."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Compulsively palms small objects."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Can’t resist making sarcastic remarks."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Mistrusts members of a particular race (d6): 1. dwarves; 2. elves; 3. gnomes; 4. goblins; 5. humans; 6. orcs. "
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Possessions: The person is carrying a/an...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Threadbare handkerchief or banner."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Old, well-used weapon."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Heirloom from a grandparent."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Ancient scroll or book."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Unusual or enchanted stone."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Knife hidden in his/her boot or belt."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Ambition: The person would like to…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Solve a mystery surrounding his/her family."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Gain revenge against a bitter rival."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Find a place he/she can call home."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Earn fame and fortune."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Forget the sins of his/her past."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Win the favor of a romantic interest."
+                }
+            ]
+        }
+    ],
+    "title": "Half-Breeds",
+    "use_with": [
+        {
+            "link": "4b9wlm",
+            "title": "Dragons"
+        },
+        {
+            "link": "3vh7jd",
+            "title": "Elves, high"
+        },
+        {
+            "link": "3va3dw",
+            "title": "Elves, wood"
+        },
+        {
+            "link": "4boiw9",
+            "title": "Fiends"
+        },
+        {
+            "link": "5xtmto",
+            "title": "Ogres"
+        },
+        {
+            "link": "4brthj",
+            "title": "Orcs"
+        }
+    ]
+}

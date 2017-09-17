@@ -1,0 +1,362 @@
+{
+    "category": "Monsters",
+    "description": "Use these to make a quick hobgoblin.",
+    "id": "61vldy",
+    "keywords": [
+        "hobgoblin",
+        "great goblin",
+        "foolish consistency"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/comments/61vldy",
+    "related_tables": [],
+    "tables": [
+        {
+            "subcategory": "Random Hobgoblin"
+        },
+        {
+            "dice": "d6",
+            "name": "Hair: The hobgoblin’s hair is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Long and dark."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Wispy and thin."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Light brown and beautifully groomed."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Neatly braided."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Shaved, except for a long top-knot."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Shaved; the hobgoblin’s head is covered with tattoos."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Skin: The hobgoblin’s skin is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Pale green."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Olive."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Greenish yellow."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Brownish yellow."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Brownish orange."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Pinkish orange."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Facial feature: The hobgoblin has…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "One ear missing."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "One eye noticeably larger than the other."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A hideous snaggletooth."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A scar on the forehead."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A pronounced, rounded chin."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "An overly wide nose."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Training: The hobgoblin is a/an...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Archer or skirmisher."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Armorer or fletcher."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Drummer or chanter."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Footsoldier or pikeman."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Forager or cook."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Scout or hunter."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Skill: Even among hobgoblins, the hobgoblin is particularly good at...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Carrying out orders."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Donning armor quickly."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Leading military drills."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Roasting meat."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Sharpening weapons."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Singing marching songs."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Quirk/flaw: The hobgoblin has a tendency to...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Over-eat."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Drink to much."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Laugh too loudly."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Lose its temper."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Nurse a grudge."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Snore loudly when it sleeps."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Armor: The hobgoblin is wearing a/an…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Shirt of boiled leather."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Suit of studded leather armor."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Leather helm and a chain-shirt."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Steel cap and fur-lined hide armor."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Steel helm and scale armor."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Suit of plate armor with several nasty spikes."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Weapon: The hobgoblin is wielding a/an...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Spear."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Mace."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Scimitar."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Longsword."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Battleaxe."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Flail."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Equipment: The hobgoblin is also carrying or wearing a/an…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Longbow and quiver of arrows."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Shortbow and quiver of arrows."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Belt full of throwing knives."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Steel buckler."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Heavy shield."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Case stuffed full of maps or scrolls."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Immediate goal: The hobgoblin is looking for a/an...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Opportunity to impress its superiors."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Greasy meal."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Stiff drink."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Fight it can win."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Easy mark from whom to steal coins or gems."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Chance to avenge the death of a fallen comrade. "
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Past glory: The hobgoblin is proud to have been part of a company that...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Held its fortress against repeated elvish attacks for centuries."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Deposed a wood elf king who reigned over a forest for centuries."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Defended its home from an army of undead servants."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Exterminated the giant clans who plagued a mountain range."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Survived a lengthy imprisonment in a hellish military camp."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Drove a dragon out from under a mountain."
+                }
+            ]
+        }
+    ],
+    "title": "Hobgoblins",
+    "use_with": [
+        {
+            "link": "3unfbm",
+            "title": "Caverns"
+        },
+        {
+            "link": "3snvqq",
+            "title": "Goblin gangs"
+        },
+        {
+            "link": "42rm5s",
+            "title": "Mountains"
+        }
+    ]
+}

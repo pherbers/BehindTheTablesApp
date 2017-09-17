@@ -369,6 +369,7 @@
 		"related_tables": [],
 		"title": "Vampires",
 		"use_with": [
+			"4spk6l",
 			"4ev9sw",
 			"3sh0bv",
 			"427hd8",
@@ -2589,7 +2590,7 @@
 		]
 	},
 	"table_4780bg": {
-		"category": "Objects, Items, and Miscellany",
+		"category": "Magic",
 		"description": "This is far from complete, and there are some awesome resources out there. I might expand it in the future, but for now, it should serve for quickly coming up with a little mechanics-free poison for an assassin, alchemist, or poisoner-type NPC in your game. For mechanical effects, I might pull something from the Alchemical Mishaps table in the absence of something better.",
 		"keywords": [
 			"poisons",
@@ -5188,6 +5189,1084 @@
 			"3xyiqs",
 			"43ufyr",
 			"50t6ir"
+		]
+	},
+	"table_5y84hx": {
+		"category": "NPCs",
+		"description": "Use these to make a quick cobbler NPC. The second-to-last table is geared toward a wandering cobbler, and the last is geared toward a more settled cobbler, but strictly speaking some of the stuff in either table could apply to either flavor of cobbler.",
+		"keywords": [
+			"cobbler",
+			"cordwainer",
+			"shoemaker",
+			"bootmaker",
+			"boots",
+			"soft shoes",
+			"dancing shoes",
+			"enchanted boots",
+			"magic shoes",
+			"happy feet"
+		],
+		"related_tables": [],
+		"title": "Cobblers",
+		"use_with": []
+	},
+	"table_5yfzbw": {
+		"category": "Wilderness",
+		"description": "Use these to make a quick frozen lands region.",
+		"keywords": [
+			"Ice",
+			"frost",
+			"frostfell",
+			"frostvast",
+			"arctic",
+			"antarctic",
+			"tundra",
+			"taiga",
+			"beyond-the-wall",
+			"wildlings",
+			"mance rayder",
+			"night king",
+			"elsa",
+			"snow queen"
+		],
+		"related_tables": [],
+		"title": "Quick Frozen Lands",
+		"use_with": [
+			"3unfbm",
+			"43ufyr",
+			"42rm5s",
+			"3tjdae",
+			"3sorre",
+			"4nbzt3",
+			"4aepj5"
+		]
+	},
+	"table_5yobkq": {
+		"category": "Monsters",
+		"description": "Use these to make a quick frost giant to terrorize your PCs.",
+		"keywords": [
+			"Frost giant",
+			"ice giant",
+			"jötunn"
+		],
+		"related_tables": [
+			"5xtmto"
+		],
+		"title": "Frost Giants",
+		"use_with": [
+			"5yfzbw",
+			"3tjdae",
+			"4nbzt3"
+		]
+	},
+	"table_5yszmn": {
+		"category": "Objects, Items, and Miscellany",
+		"description": "Use these to make a quick dagger, mundane or magical.",
+		"keywords": [
+			"Dagger",
+			"knife",
+			"shiv",
+			"blade",
+			"switchblade",
+			"tooth",
+			"thief",
+			"assassin"
+		],
+		"related_tables": [],
+		"title": "Daggers",
+		"use_with": [
+			"44wqci",
+			"4034w3"
+		]
+	},
+	"table_5z21hm": {
+		"category": "Monsters",
+		"description": "Use these to make a quick fire giant to terrorize your PCs.",
+		"keywords": [
+			"Fire giant",
+			"elemental flame",
+			"imix",
+			"volcanoes",
+			"inferno",
+			"burn baby burn"
+		],
+		"related_tables": [
+			"5yobkq",
+			"5xtmto"
+		],
+		"title": "Fire Giants",
+		"use_with": [
+			"3tjb63",
+			"5xcmqe",
+			"42rm5s"
+		]
+	},
+	"table_5z7ahq": {
+		"category": "Wilderness",
+		"description": "Use these to make a quick temperate grassland region.",
+		"keywords": [
+			"Grassland",
+			"steppe",
+			"prairie",
+			"great plains",
+			"where the buffalo roam"
+		],
+		"related_tables": [
+			"47x04h"
+		],
+		"title": "Quick Temperate Grasslands",
+		"use_with": [
+			"4tguyo",
+			"3zmoy8",
+			"3vspx8",
+			"3t2qzc",
+			"3tjdae",
+			"3sorre",
+			"4aepj5"
+		]
+	},
+	"table_5zfn7w": {
+		"category": "Objects, Items, and Miscellany",
+		"description": "Use these to make a quick shield, mundane or magical.",
+		"keywords": [
+			"Shield",
+			"aegis",
+			"crest",
+			"defense",
+			"captain america"
+		],
+		"related_tables": [
+			"5yszmn"
+		],
+		"title": "Shields",
+		"use_with": []
+	},
+	"table_5zugye": {
+		"category": "NPCs",
+		"description": "Use these to make a quick half-breed NPC.",
+		"keywords": [
+			"Half-breed",
+			"mudblood",
+			"half-elf",
+			"half-orc",
+			"half-man",
+			"half-fiend",
+			"hybrid",
+			"crossover",
+			"half-troll",
+			"half-giant",
+			"half-mad",
+			"half-wit",
+			"etc",
+			"etc"
+		],
+		"related_tables": [],
+		"title": "Half-Breeds",
+		"use_with": [
+			"4b9wlm",
+			"3vh7jd",
+			"3va3dw",
+			"4boiw9",
+			"5xtmto",
+			"4brthj"
+		]
+	},
+	"table_5zz7gt": {
+		"category": "Dungeons/Locations",
+		"description": "Use these to make a quick infernal dungeon.",
+		"keywords": [
+			"inferno",
+			"hades",
+			"underworld",
+			"eternal torment",
+			"nine hells",
+			"seven hells",
+			"all the hells",
+			"hells yeah"
+		],
+		"related_tables": [],
+		"title": "Infernal Dungeons",
+		"use_with": [
+			"4boiw9",
+			"4n03im",
+			"4tl3c6"
+		]
+	},
+	"table_605h4l": {
+		"category": "Monsters",
+		"description": "Use these to make a quick storm giant to befriend, to confuse, or to terrify your PCs.",
+		"keywords": [
+			"Storm titan",
+			"lightning sword",
+			"thunder giant",
+			"boom boom boom"
+		],
+		"related_tables": [
+			"5z21hm",
+			"5yobkq"
+		],
+		"title": "Storm Giants",
+		"use_with": [
+			"3t5sik",
+			"5x6ij0",
+			"4nbzhp"
+		]
+	},
+	"table_60aia7": {
+		"category": "Wilderness",
+		"description": "Use these to make a quick tropical grassland region.",
+		"keywords": [
+			"Grassland",
+			"savanna",
+			"sahel",
+			"where the buffalo roam",
+			"where the lions roam"
+		],
+		"related_tables": [
+			"47x04h",
+			"5z7ahq"
+		],
+		"title": "Quick Tropical Grassland",
+		"use_with": [
+			"4tguyo",
+			"3zmoy8",
+			"3vspx8",
+			"3t2qzc",
+			"3tjdae",
+			"3sorre"
+		]
+	},
+	"table_60ipv7": {
+		"category": "Objects, Items, and Miscellany",
+		"description": "Use these to make a quick insults, toasts, and the like for dwarvish NPCs.",
+		"keywords": [
+			"dwarves",
+			"beards",
+			"meat",
+			"mead"
+		],
+		"related_tables": [],
+		"title": "Dwarvish Phrases",
+		"use_with": [
+			"43vpxa",
+			"4dmepa"
+		]
+	},
+	"table_60r60n": {
+		"category": "Objects, Items, and Miscellany",
+		"description": "Use these to make a quick helm, mundane or magical.",
+		"keywords": [
+			"Helm",
+			"gorget",
+			"plume",
+			"knight",
+			"helmet",
+			"hat",
+			"headgear",
+			"magneto"
+		],
+		"related_tables": [
+			"5yszmn",
+			"5zfn7w"
+		],
+		"title": "Helms",
+		"use_with": []
+	},
+	"table_60ylc6": {
+		"category": "Factions/Groups",
+		"description": "Use these to make a druid circle.",
+		"keywords": [
+			"druid circles",
+			"wildfolk",
+			"outdoorsmen",
+			"reclusive",
+			"naturalists",
+			"hippies",
+			"rockers",
+			"stonehenge",
+			"eleven"
+		],
+		"related_tables": [],
+		"title": "Druid Circles",
+		"use_with": [
+			"45x5jp"
+		]
+	},
+	"table_614gba": {
+		"category": "Dungeons/Locations",
+		"description": "Use these to make a quick dungeon in the Feywild or fey-touched location.",
+		"keywords": [
+			"Feywild",
+			"fey",
+			"faeriefolk",
+			"faeries",
+			"elves",
+			"gnomes",
+			"pixies",
+			"satyrs",
+			"hobgoblins",
+			"ghosts",
+			"witch",
+			"fey realm",
+			"realm of dreams",
+			"thought realm",
+			"fairyland"
+		],
+		"related_tables": [
+			"5zz7gt"
+		],
+		"title": "Feywild Dungeons",
+		"use_with": [
+			"3sh0hz",
+			"4fsrky",
+			"3snvqq",
+			"3vlzrw",
+			"3vh7jd",
+			"3sorre",
+			"3vjsea",
+			"3si4ms",
+			"3va3dw"
+		]
+	},
+	"table_61adtf": {
+		"category": "Factions/Groups",
+		"description": "Use these to make a quick acting troupe to entertain, to bewitch, or to heckle your PCs.",
+		"keywords": [
+			"Actors",
+			"players",
+			"mummers",
+			"mimes",
+			"farce",
+			"satire",
+			"tragedy",
+			"bards",
+			"marlowe",
+			"becket",
+			"godot",
+			"shakespeare",
+			"rosencrantz and guildenstern"
+		],
+		"related_tables": [],
+		"title": "Acting Troupes",
+		"use_with": [
+			"61fsup",
+			"46ma8g",
+			"46m9xc",
+			"4daxw7"
+		]
+	},
+	"table_61fsup": {
+		"category": "NPCs",
+		"description": "Use these to make a quick acting troupe to entertain, to bewitch, or to heckle your PCs.",
+		"keywords": [
+			"Actors",
+			"players",
+			"mummers",
+			"mimes",
+			"farce",
+			"satire",
+			"tragedy",
+			"bards",
+			"marlowe",
+			"becket",
+			"godot",
+			"shakespeare",
+			"rosencrantz and guildenstern"
+		],
+		"related_tables": [],
+		"title": "Actors",
+		"use_with": [
+			"61adtf",
+			"46ma8g",
+			"46m9xc",
+			"4daxw7"
+		]
+	},
+	"table_61ls8l": {
+		"category": "Dungeons/Locations",
+		"description": "Use these to make a quick cavern in the Feydark or fey-touched location.",
+		"keywords": [
+			"Feywild",
+			"feydark",
+			"underdark",
+			"faeriefolk",
+			"elves",
+			"gnomes",
+			"satyrs",
+			"hobgoblins",
+			"ghosts",
+			"liches",
+			"curses",
+			"fey realm",
+			"realm of dreams",
+			"thought realm",
+			"nightmares"
+		],
+		"related_tables": [
+			"614gba"
+		],
+		"title": "Feydark Caverns",
+		"use_with": [
+			"3unfbm",
+			"4fsrky",
+			"3snvqq",
+			"3vlzrw",
+			"3vh7jd",
+			"3sorre",
+			"3vjsea",
+			"3si4ms",
+			"3va3dw"
+		]
+	},
+	"table_61vldy": {
+		"category": "Monsters",
+		"description": "Use these to make a quick hobgoblin.",
+		"keywords": [
+			"hobgoblin",
+			"great goblin",
+			"foolish consistency"
+		],
+		"related_tables": [],
+		"title": "Hobgoblins",
+		"use_with": [
+			"3unfbm",
+			"3snvqq",
+			"42rm5s"
+		]
+	},
+	"table_620bsp": {
+		"category": "Objects, Items, and Miscellany",
+		"description": "Use these to make a quick string instrument, mundane or magical.",
+		"keywords": [
+			"Strings",
+			"minstrel",
+			"singer",
+			"harp",
+			"lute",
+			"lyre",
+			"mandolin",
+			"viol",
+			"violin",
+			"cello",
+			"ukelele",
+			"guitar",
+			"bass",
+			"axe"
+		],
+		"related_tables": [
+			"5yszmn",
+			"60r60n",
+			"5zfn7w"
+		],
+		"title": "String Instruments",
+		"use_with": [
+			"61adtf",
+			"46ma8g",
+			"46m9xc"
+		]
+	},
+	"table_629osp": {
+		"category": "Monsters",
+		"description": "Use these to make a quick stone giant to befriend, to confuse, or to terrify your PCs.",
+		"keywords": [
+			"Earth titan",
+			"stone club",
+			"rock giant",
+			"boom boom boom"
+		],
+		"related_tables": [
+			"5z21hm",
+			"5yobkq",
+			"605h4l"
+		],
+		"title": "Stone Giants",
+		"use_with": [
+			"3unfbm",
+			"42rm5s",
+			"5y0ucp"
+		]
+	},
+	"table_62hoaq": {
+		"category": "Objects, Items, and Miscellany",
+		"description": "Use these to make a quick percussion instrument, mundane or magical.",
+		"keywords": [
+			"Drums",
+			"rhythm section",
+			"marching band",
+			"drum line",
+			"boom",
+			"boom",
+			"clackety clack",
+			"the clackers",
+			"the ghost of gene krupa"
+		],
+		"related_tables": [
+			"5yszmn",
+			"60r60n",
+			"5zfn7w",
+			"620bsp"
+		],
+		"title": "Percussion Instruments",
+		"use_with": [
+			"61adtf",
+			"46ma8g",
+			"46m9xc"
+		]
+	},
+	"table_62p9tw": {
+		"category": "Monsters",
+		"description": "Use these to make a quick dragon.",
+		"keywords": [
+			""
+		],
+		"related_tables": [],
+		"title": "Dragons",
+		"use_with": []
+	},
+	"table_63s2yp": {
+		"category": "NPCs",
+		"description": "Going for something wacky to try and provoke some unusual and/or inspiration for villains that you might want to include in your world. These could be \"miniboss\" style villains who show up at the start of a session (and are dead by the end of it!) or even a recurring villain who has a much grander plan of things. Feel free to roll on these tables (or choose an appealing combination for your liking) and I hope that you get a good use out of this!",
+		"keywords": [
+			"Villains",
+			"Antagonists",
+			"Enemy",
+			"BBEG",
+			"NPC",
+			"Quest",
+			"Plot",
+			"Story"
+		],
+		"related_tables": [],
+		"title": "Recurring Villain Generator",
+		"use_with": []
+	},
+	"table_6525ht": {
+		"category": "Monsters",
+		"description": "Going for something wacky to try and provide you with some inspiration/ideas for reskinned monsters to provide some \"fresh\" experiences for even your veteran players. \"What's that humanoid!\" is a great, pokemon-esque game that players secretly play at the table if they are unsure what it is. You will be pleasantly surprised at how pleasantly surprised your players will be when you start incorporating these into your adventures! Have a request for a Behind The Tables table? Let me know!",
+		"keywords": [
+			"Enemy",
+			"Antagonist",
+			"Humanoid",
+			"Reskin",
+			"Monsters",
+			"Random",
+			"Fresh",
+			"New",
+			"Encounters"
+		],
+		"related_tables": [],
+		"title": "Reskinning Monster Generator - Humanoids",
+		"use_with": []
+	},
+	"table_67kznp": {
+		"category": "Plot",
+		"description": "I got a lot of great feedback I recieved from my Village Quest Generator entry in Behind The Tables. Much of this feedback revolved around interest of a **cow**'s motive or involvement in all of this. So for a bit of fun, here is a adventure plot generator that involves a cow. I hope you enjoy this, and get a little fun out of creating some ridiculous plot hooks.",
+		"keywords": [
+			"Villain",
+			"Subterfuge",
+			"Intrigue",
+			"Mystery",
+			"Quest",
+			"Hooks",
+			"Sidequests",
+			"Adventures"
+		],
+		"related_tables": [],
+		"title": "Cow-Related Village Plot-Hook Generator",
+		"use_with": []
+	},
+	"table_67tak5": {
+		"category": "Plot",
+		"description": "Once again, going for something wacky to try and provoke some unusual and/or corny situations for your players to find themselves in. If you've ever wanted a pretty stock-standard adventure hook, but with a touch of weirdness or originality, look no further! I hope you enjoy this, and get a little fun out of creating these cliche adventure arcs.",
+		"keywords": [
+			"Villain",
+			"Heroes",
+			"Quest",
+			"Hooks",
+			"Sidequests",
+			"Adventurers",
+			"Adventures"
+		],
+		"related_tables": [],
+		"title": "Cliche Adventure Plot Generator",
+		"use_with": []
+	},
+	"table_6bf535": {
+		"category": "Monsters",
+		"description": "Going for something wacky to try and provide you with some inspiration/ideas for reskinned monsters to provide some \"fresh\" experiences for even your veteran players. \"What's that beast!\" is a great, pokemon-esque game that players secretly play at the table if they are unsure what it is. You will be pleasantly surprised at how pleasantly surprised your players will be when you start incorporating these into your adventures! Have a request for a Behind The Tables table? Let me know!",
+		"keywords": [
+			"Enemy",
+			"Antagonist",
+			"Beast",
+			"Reskin",
+			"Monsters",
+			"Random",
+			"Fresh",
+			"New",
+			"Encounters",
+			"Companions"
+		],
+		"related_tables": [],
+		"title": "Reskinning Monster Generator: Beasts",
+		"use_with": []
+	},
+	"table_6eklxm": {
+		"category": "Monsters",
+		"description": "Going for something wacky to try and provide you with some inspiration/ideas for reskinned monsters to provide some \"fresh\" experiences for even your veteran players. Make your players shout \"What the hell is that!\" when you throw a bunch of new monsters at your party. Have a request for a Behind The Tables table? Let me know!",
+		"keywords": [
+			"Enemy",
+			"Antagonist",
+			"Monstrosity",
+			"Reskin",
+			"Monsters",
+			"Random",
+			"New",
+			"Encounters",
+			"Companions"
+		],
+		"related_tables": [],
+		"title": "Reskinning Monster Generator: Monstrosities",
+		"use_with": []
+	},
+	"table_6gx1c8": {
+		"category": "Magic",
+		"description": "I saw a fellow redditor put up his warlock contract online and it gave me the spur to do up a random generator for your own contracts for you to hand to your players. Perhaps they will start to **worry** about the fact that their soul is in such a powerful creature's hands! Have a request for a Behind The Tables table? Let me know!",
+		"keywords": [
+			""
+		],
+		"related_tables": [],
+		"title": "Warlock Contract Generator - Choose Your Patron!",
+		"use_with": []
+	},
+	"table_6ih4sq": {
+		"category": "Objects, Items, and Miscellany",
+		"description": "These tables can be used to generate \"Books For Sale\" listings for a community classified ads post -- maybe there's a bulletin board in your local tavern or inn. The idea of Klargslist, an in-game version of Craigslist, was inspired by an image of an orc \"Missed Connections\" style classified ad on /r/dnd. I plan to expand Klargslist in the future to include other For Sale categories, along with Help Wanted, Services Offered, Missed Connections, Rants and Raves, and of course no community classifieds section is complete without an (ahem) \"Back Page\" section. The overwhelming majority of the content for this generator was taken and modified from [this post](https://www.reddit.com/r/BehindTheTables/comments/43wsio/books_of_all_sorts/) by /u/OrkishBlade. I've really just added the flavor of making these into a classifieds style listing.",
+		"keywords": [
+			"Klargslist",
+			"Craigslist",
+			"books",
+			"items",
+			"mundane items",
+			"for sale",
+			"classified ads"
+		],
+		"related_tables": [
+			"43wsio"
+		],
+		"title": "Klargslist - For Sale Books",
+		"use_with": []
+	},
+	"table_6iu521": {
+		"category": "NPCs",
+		"description": "This is a quick method for making a heroic barbarian with some suggestions for who the hero is, what the hero is good at, what interests the hero, and what the hero's ultimate goal might be. The situation where this makes the most sense to me is if you want to have somewhat disposable PCs and you don't want to spend too much time making the decisions in building a new PC.",
+		"keywords": [
+			"PC generator",
+			"barbarian",
+			"berserker",
+			"warrior"
+		],
+		"related_tables": [
+			"6iu628",
+			"6iu6uu"
+		],
+		"title": "Heroic Barbarian",
+		"use_with": [
+			"3zr0h4",
+			"4hbe7j",
+			"3tjdae"
+		]
+	},
+	"table_6iu58l": {
+		"category": "NPCs",
+		"description": "This is a quick method for making a heroic bard with some suggestions for who the hero is, what the hero is good at, what interests the hero, and what the hero's ultimate goal might be. The situation where this makes the most sense to me is if you want to have somewhat disposable PCs and you don't want to spend too much time making the decisions in building a new PC.",
+		"keywords": [
+			"PC generator",
+			"bard",
+			"singer",
+			"skald"
+		],
+		"related_tables": [
+			"6iu6yz",
+			"6iu86b"
+		],
+		"title": "Heroic Bard",
+		"use_with": [
+			"3zr0h4",
+			"4hbe7j",
+			"62hoaq",
+			"46m9xc",
+			"620bsp"
+		]
+	},
+	"table_6iu5eo": {
+		"category": "NPCs",
+		"description": "This is a quick method for making a heroic cleric with some suggestions for who the hero is, what the hero is good at, what interests the hero, and what the hero's ultimate goal might be. The situation where this makes the most sense to me is if you want to have somewhat disposable PCs and you don't want to spend too much time making the decisions in building a new PC.",
+		"keywords": [
+			"PC generator",
+			"cleric",
+			"priest",
+			"healer"
+		],
+		"related_tables": [
+			"6iu58l",
+			"6iu5xg",
+			"6iu6kh"
+		],
+		"title": "Heroic Cleric",
+		"use_with": [
+			"3zr0h4",
+			"4hbe7j",
+			"3shczv",
+			"3xpb4r"
+		]
+	},
+	"table_6iu5xg": {
+		"category": "NPCs",
+		"description": "This is a quick method for making a heroic druid with some suggestions for who the hero is, what the hero is good at, what interests the hero, and what the hero's ultimate goal might be. The situation where this makes the most sense to me is if you want to have somewhat disposable PCs and you don't want to spend too much time making the decisions in building a new PC.",
+		"keywords": [
+			"PC generator",
+			"druid",
+			"shaman",
+			"beastshifter"
+		],
+		"related_tables": [
+			"6iu5eo",
+			"6iu6uu",
+			"6iu7l0"
+		],
+		"title": "Heroic Druid",
+		"use_with": [
+			"3zr0h4",
+			"4hbe7j",
+			"60ylc6",
+			"45x72u"
+		]
+	},
+	"table_6iu628": {
+		"category": "NPCs",
+		"description": "This is a quick method for making a heroic fighter with some suggestions for who the hero is, what the hero is good at, what interests the hero, and what the hero's ultimate goal might be. The situation where this makes the most sense to me is if you want to have somewhat disposable PCs and you don't want to spend too much time making the decisions in building a new PC.",
+		"keywords": [
+			"PC generator",
+			"fighter",
+			"knight",
+			"fighting-man",
+			"man-at-arms"
+		],
+		"related_tables": [
+			"6iu521",
+			"6iu6kh",
+			"6iu6uu"
+		],
+		"title": "Heroic Fighter",
+		"use_with": [
+			"3zr0h4",
+			"4hbe7j",
+			"3tkdty",
+			"3tjg9d",
+			"3sj8mc"
+		]
+	},
+	"table_6iu6cv": {
+		"category": "NPCs",
+		"description": "This is a quick method for making a heroic monk with some suggestions for who the hero is, what the hero is good at, what interests the hero, and what the hero's ultimate goal might be. The situation where this makes the most sense to me is if you want to have somewhat disposable PCs and you don't want to spend too much time making the decisions in building a new PC.",
+		"keywords": [
+			"PC generator",
+			"monk",
+			"martial artist",
+			"ascetic"
+		],
+		"related_tables": [
+			"6iu628",
+			"6iu5eo",
+			"6iu6kh"
+		],
+		"title": "Heroic Monk",
+		"use_with": [
+			"3zr0h4",
+			"4hbe7j",
+			"40pjmd"
+		]
+	},
+	"table_6iu6kh": {
+		"category": "NPCs",
+		"description": "This is a quick method for making a heroic fighter with some suggestions for who the hero is, what the hero is good at, what interests the hero, and what the hero's ultimate goal might be. The situation where this makes the most sense to me is if you want to have somewhat disposable PCs and you don't want to spend too much time making the decisions in building a new PC.",
+		"keywords": [
+			"PC generator",
+			"paladin",
+			"knight",
+			"crusader",
+			"prophet"
+		],
+		"related_tables": [
+			"6iu5eo",
+			"6iu628",
+			"6iu6cv"
+		],
+		"title": "Heroic Paladin",
+		"use_with": [
+			"3zr0h4",
+			"4hbe7j",
+			"3tjg9d",
+			"3sj8mc",
+			"3xpb4r"
+		]
+	},
+	"table_6iu6uu": {
+		"category": "NPCs",
+		"description": "This is a quick method for making a heroic ranger with some suggestions for who the hero is, what the hero is good at, what interests the hero, and what the hero's ultimate goal might be. The situation where this makes the most sense to me is if you want to have somewhat disposable PCs and you don't want to spend too much time making the decisions in building a new PC.",
+		"keywords": [
+			"PC generator",
+			"ranger",
+			"scout",
+			"guide",
+			"archer"
+		],
+		"related_tables": [
+			"6iu521",
+			"6iu628",
+			"6iu6kh"
+		],
+		"title": "Heroic Ranger",
+		"use_with": [
+			"3zr0h4",
+			"4hbe7j",
+			"60ylc6",
+			"3tjg9d",
+			"3sj8mc",
+			"3t2qzc"
+		]
+	},
+	"table_6iu6yz": {
+		"category": "NPCs",
+		"description": "This is a quick method for making a heroic rogue with some suggestions for who the hero is, what the hero is good at, what interests the hero, and what the hero's ultimate goal might be. The situation where this makes the most sense to me is if you want to have somewhat disposable PCs and you don't want to spend too much time making the decisions in building a new PC.",
+		"keywords": [
+			"PC generator",
+			"rogue",
+			"thief",
+			"assassin",
+			"outlaw"
+		],
+		"related_tables": [
+			"6iu58l",
+			"6iu628",
+			"6iu6uu"
+		],
+		"title": "Heroic Rogue",
+		"use_with": [
+			"3zr0h4",
+			"4hbe7j",
+			"3t0zag",
+			"3t2qzc",
+			"3t5sik",
+			"3t5q2e"
+		]
+	},
+	"table_6iu7l0": {
+		"category": "NPCs",
+		"description": "This is a quick method for making a heroic sorcerer with some suggestions for who the hero is, what the hero is good at, what interests the hero, and what the hero's ultimate goal might be. The situation where this makes the most sense to me is if you want to have somewhat disposable PCs and you don't want to spend too much time making the decisions in building a new PC.",
+		"keywords": [
+			"PC generator",
+			"sorcerer",
+			"conjurer",
+			"scion"
+		],
+		"related_tables": [
+			"6iu5xg",
+			"6iu7yk",
+			"6iu86b"
+		],
+		"title": "Heroic Sorcerer",
+		"use_with": [
+			"3zr0h4",
+			"4hbe7j",
+			"62p9tw",
+			"4y5pl2"
+		]
+	},
+	"table_6iu7yk": {
+		"category": "NPCs",
+		"description": "This is a quick method for making a heroic warlock with some suggestions for who the hero is, what the hero is good at, what interests the hero, and what the hero's ultimate goal might be. The situation where this makes the most sense to me is if you want to have somewhat disposable PCs and you don't want to spend too much time making the decisions in building a new PC.",
+		"keywords": [
+			"PC generator",
+			"warlock",
+			"witch",
+			"hexer",
+			"binder"
+		],
+		"related_tables": [
+			"6iu6yz",
+			"6iu7l0",
+			"6iu86b"
+		],
+		"title": "Heroic Warlock",
+		"use_with": [
+			"3zr0h4",
+			"4hbe7j",
+			"4evdqx",
+			"4boiw9",
+			"3xyilr"
+		]
+	},
+	"table_6iu86b": {
+		"category": "NPCs",
+		"description": "This is a quick method for making a heroic wizard with some suggestions for who the hero is, what the hero is good at, what interests the hero, and what the hero's ultimate goal might be. The situation where this makes the most sense to me is if you want to have somewhat disposable PCs and you don't want to spend too much time making the decisions in building a new PC.",
+		"keywords": [
+			"PC generator",
+			"wizard",
+			"mage",
+			"arcanist",
+			"illusionist",
+			"enchanter",
+			"necromancer"
+		],
+		"related_tables": [
+			"6iu521",
+			"6iu7l0",
+			"6iu7yk"
+		],
+		"title": "Heroic Wizard",
+		"use_with": [
+			"3zr0h4",
+			"4hbe7j",
+			"43xeol",
+			"4e71lc",
+			"4y5pl2",
+			"3xyilr"
+		]
+	},
+	"table_6jqzvs": {
+		"category": "Dungeons/Locations",
+		"description": "Use these to make a quick dungeon in the Shadowfell or shadow-touched location.",
+		"keywords": [
+			"Shadowfell",
+			"shadowfolk",
+			"shadar-kai",
+			"darklings",
+			"ghosts",
+			"witch",
+			"shadow realm",
+			"realm of the dead",
+			"dead realm",
+			"shadow world"
+		],
+		"related_tables": [
+			"614gba",
+			"5zz7gt"
+		],
+		"title": "Shadowfell Dungeon",
+		"use_with": [
+			"3w3gbj",
+			"3snzw5",
+			"40pjmd",
+			"43bxpl",
+			"43k8fr",
+			"3sorre",
+			"3tielc",
+			"3sq5dx",
+			"3si4ms",
+			"427hd8"
+		]
+	},
+	"table_6ujpnr": {
+		"category": "Objects, Items, and Miscellany",
+		"description": "Use these to make a quick ring, mundane or magical.",
+		"keywords": [
+			"Ring",
+			"sauron",
+			"darklord",
+			"frodo",
+			"bilbo",
+			"smeagol",
+			"my precious",
+			"invisibility",
+			"power",
+			"gold",
+			"silver",
+			"diamond",
+			"all-the-single-ladies"
+		],
+		"related_tables": [
+			"5yszmn"
+		],
+		"title": "Rings",
+		"use_with": [
+			"4iq4of",
+			"5loo6y",
+			"60r60n",
+			"41vhpr",
+			"41vjmj",
+			"3xyhdl",
+			"5zfn7w",
+			"4034w3",
+			"3si4ms"
+		]
+	},
+	"table_6zsm8t": {
+		"category": "Dungeons/Locations",
+		"description": "Use these to make a quick sewer-type dungeon for an urban area (or ruined shell of an old city).",
+		"keywords": [
+			"sewer",
+			"muck",
+			"filth",
+			"pipes",
+			"secret of the ooze"
+		],
+		"related_tables": [
+			"5wzioq"
+		],
+		"title": "Sewers",
+		"use_with": [
+			"43w8zc",
+			"3xyiqs",
+			"3su3be",
+			"50t6ir",
+			"3snzw5",
+			"50t6ir",
+			"4splu3",
+			"4nbzeq",
+			"3sqres",
+			"5xhhlw",
+			"4034w3",
+			"3t5q2e",
+			"4daxw7",
+			"3si4ms"
+		]
+	},
+	"table_70b9d7": {
+		"category": "Monsters",
+		"description": "These are some tables for giving bears some flavor. Who'd like to go hunting for a nice warm bearskin rug?",
+		"keywords": [
+			"bear",
+			"grizzly",
+			"black bear",
+			"spectacled bear",
+			"kodiak",
+			"polar bear",
+			"mama bear",
+			"baby bear",
+			"Beorn",
+			"Mormont",
+			"Baloo",
+			"Ditka"
+		],
+		"related_tables": [
+			"4spk6l",
+			"4splu3",
+			"487awj",
+			"4aepj5"
+		],
+		"title": "Bears",
+		"use_with": [
+			"3unfbm",
+			"45x5jp",
+			"3va3dw",
+			"3sgzxb",
+			"3sh0bv",
+			"3snvqq",
+			"3snzw5",
+			"42rm5s",
+			"47x04h",
+			"3va510"
 		]
 	}
 }

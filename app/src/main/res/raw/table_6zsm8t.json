@@ -1,0 +1,443 @@
+{
+    "category": "Dungeons/Locations",
+    "description": "Use these to make a quick sewer-type dungeon for an urban area (or ruined shell of an old city).",
+    "id": "6zsm8t",
+    "keywords": [
+        "sewer",
+        "muck",
+        "filth",
+        "pipes",
+        "secret of the ooze"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/comments/6zsm8t",
+    "related_tables": [
+        {
+            "link": "5wzioq",
+            "title": "Elemental water dungeon"
+        }
+    ],
+    "tables": [
+        {
+            "subcategory": "Random Sewers"
+        },
+        {
+            "dice": "d6",
+            "name": "Age and condition: These tunnels are...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Ancient and built to list; the tunnels have been here for ages and will last for many years."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Ancient and deteriorating; the tunnels are crumbling."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Old and solid; the tunnels the material used to line the tunnels has only minor cracks."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Old and decaying; the material used to line the tunnels has many wide cracks."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Recent and solid; the tunnels were well-engineered and well-built."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Recent and shoddy; the tunnels were hastily built and lined with cheap materials."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Material: The tunnels are built of or lined with...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Wooden planks sealed with pitch."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Baked clay tiles."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Sandstone blocks"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Rough concrete."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Granite."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Marble."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Water level: The tunnels in this place...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Are only filled with ankle-deep muck."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Are always flooded up to the ceiling."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Are always flooded in the lower levels."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Are always flooded up to the waist."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Flood at high tide."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Flood when it rains heavily."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Drain: These tunnels drain off into...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "The city harbor."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "An underground lake."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A canal that leads to the sea."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A nearby swamp."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A wide river."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "An unknown deep place."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Major feature: You see a/an...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Ladder or narrow stair going up."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Giant grate or net."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Handful of wooden crates."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Large pipe or drain leading downward."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Skeleton or decaying corpse."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Filthy nest."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Minor feature: You see a/an/some...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Bubbles rising to the surface of some mucky water."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Empty glass bottle."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Filthy rag floating in some mucky water."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Jagged crack in the tunnel wall."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Constant drip from the ceiling."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Pocket of warm mucky water."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "NPC: You meet a/an…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Harlot's ghost."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Curious child."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Lost circus performer."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Drunken smuggler."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Frightened merfolk."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Shifty evil cultist."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Beast: You meet a/an…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Rat."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Centipede."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Spider."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Monstrous catfish."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Giant turtle."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Crocodile."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Secondary monster: You come upon a/an…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Aberrant beast (roll on beast table)."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Swarm of rats or carnivorous fish."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Kobold."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Wererat."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Ghoul."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Water or mud elemental."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Primary monster: This place is currently ruled by a/an…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Aboleth or gibbering mouther."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Shambling mound."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Hydra."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Filth demon or conniving devil."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Decrepit vampire."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Bog hag."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Traps/hazard: You must survive the…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Green slime."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Boot-sucking sludge."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Poisonous fungus."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Flooding chamber."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Swirling currents."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Curse of rotting death."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Reward/treasure: If you survive, you may find the...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Hidden treasure cache of a band of criminals."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Lost book of dark rituals."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Ancestral weapon of a noble house."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Storied gemstone stolen years ago."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Key to opening an old city gate."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Captive heiress."
+                }
+            ]
+        }
+    ],
+    "title": "Sewers",
+    "use_with": [
+        {
+            "link": "43w8zc",
+            "title": "Brothels"
+        },
+        {
+            "link": "3xyiqs",
+            "title": "Cults"
+        },
+        {
+            "link": "3su3be",
+            "title": "Fish, daily catch"
+        },
+        {
+            "link": "50t6ir",
+            "title": "Kobolds"
+        },
+        {
+            "link": "3snzw5",
+            "title": "Lycanthropes"
+        },
+        {
+            "link": "50t6ir",
+            "title": "Oozes"
+        },
+        {
+            "link": "4splu3",
+            "title": "Rats"
+        },
+        {
+            "link": "4nbzeq",
+            "title": "Sea beasts"
+        },
+        {
+            "link": "3sqres",
+            "title": "Serial killers"
+        },
+        {
+            "link": "5xhhlw",
+            "title": "Swamp"
+        },
+        {
+            "link": "4034w3",
+            "title": "Thieves"
+        },
+        {
+            "link": "3t5q2e",
+            "title": "Urban gangs"
+        },
+        {
+            "link": "4daxw7",
+            "title": "Urban marketplace"
+        },
+        {
+            "link": "3si4ms",
+            "title": "Witches"
+        }
+    ]
+}

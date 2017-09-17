@@ -1,0 +1,260 @@
+{
+    "category": "Plot",
+    "description": "I got a lot of great feedback I recieved from my Village Quest Generator entry in Behind The Tables. Much of this feedback revolved around interest of a **cow**'s motive or involvement in all of this. \n\nSo for a bit of fun, here is a adventure plot generator that involves a cow. \n\nI hope you enjoy this, and get a little fun out of creating some ridiculous plot hooks.",
+    "id": "67kznp",
+    "keywords": [
+        "Villain",
+        "Subterfuge",
+        "Intrigue",
+        "Mystery",
+        "Quest",
+        "Hooks",
+        "Sidequests",
+        "Adventures"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/comments/67kznp",
+    "related_tables": [],
+    "tables": [
+        {
+            "subcategory": "Cow-Related Adventure Plots"
+        },
+        {
+            "dice": "d8",
+            "name": "You've gotta help me - you see, this Cow, from",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "My Farm"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "My Neighbours Farm"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "The Wilderness"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Town"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "The Next Village"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Hell"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "The Abyss"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "My Brother's Farm"
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "is undertaking acts of",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Arson"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Torture"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Kidnapping"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Corruption in Politics"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Treason"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Evil Rituals"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Thievery"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Scheming"
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Raiding and Pillaging"
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Murder"
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "at",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "My Place"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "The Centre Of Town"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "The Local Tavern"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "The Local Church"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "The Neighbour's Place"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "The Edge of the Forest"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "The Cemetary/Graveyard"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A nearby village"
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "We tried stopping this cow, but",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "They outsmart us at every turn"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Whenever we think we've cornered it, it escapes"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "It won the court case, and has legal immunity"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "It kills anyone who question it"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "It's protected by an impressive amount of allies"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Anyone who stands up to it has a terrible curse bestowed upon them"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "It just keeps coming back"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "All of the suspects we capture are just regular cows"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Please, you must help us! I'm afraid it might",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Breed, and over time generate a race of super cows"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Scheme with the other cows in the world and incite a rebellion"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Claim a right to the throne"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Run in the next election"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Eat me"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Create a cow mafia that will revolutionise the world"
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "(The Cow is actually a)",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Messiah Cow, whos existance is the omen of the end times"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Druid, with their own selfish agenda"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Commoner from the town who was cursed to be a cow by a Hag"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "New, dangerous breed of Lycanthrope - A Werecow"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "An ancient dragon who has been true-polymorphed by a rival"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Two Goblins in a \"cow\" costume"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "An illusionary cow created by an Aboleth or similar evil creature"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "An angel, sent to perform a God's deed in secret. "
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "An alien lifeform from a plane far, far away, who is just trying to fit in"
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A regular, up-to-no-good cow"
+                }
+            ]
+        }
+    ],
+    "title": "Cow-Related Village Plot-Hook Generator",
+    "use_with": []
+}

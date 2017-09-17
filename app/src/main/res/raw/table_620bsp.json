@@ -1,0 +1,326 @@
+{
+    "category": "Objects, Items, and Miscellany",
+    "description": "Use these to make a quick string instrument, mundane or magical.",
+    "id": "620bsp",
+    "keywords": [
+        "Strings",
+        "minstrel",
+        "singer",
+        "harp",
+        "lute",
+        "lyre",
+        "mandolin",
+        "viol",
+        "violin",
+        "cello",
+        "ukelele",
+        "guitar",
+        "bass",
+        "axe"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/comments/620bsp",
+    "related_tables": [
+        {
+            "link": "5yszmn",
+            "title": "Daggers"
+        },
+        {
+            "link": "60r60n",
+            "title": "Helms"
+        },
+        {
+            "link": "5zfn7w",
+            "title": "Shields"
+        }
+    ],
+    "tables": [
+        {
+            "subcategory": "Random Stringed Instruments"
+        },
+        {
+            "dice": "d6",
+            "name": "Type: This instrument is a/an…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Cittern."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Fiddle."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Harp."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Lute."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Lyre."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Mandolin."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Material: The back or frame of this instrument is made of...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Ash."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Cherry."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Ebony."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Mahogany."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Maple."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Rosewood."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Strings: The strings of this instrument are made of…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Sheep gut."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Goat gut."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Cow gut."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Ox gut."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Horse gut."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Steel wire. "
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Decorative image: The instrument is adorned with painted or carved image of a/an…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Angel."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Beast (d6): 1. bat; 2. dragon; 3. eagle; 4. lion; 5. nightingale; 6. wolf."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Demon."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Devil."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Female figure (d6): 1. elf-maid; 2. mermaid; 3. nymph; 4. princess; 5. siren; 6. sorceress."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Skull."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Magical music: When properly activated, the instruments provides an extra boost to a bard’s...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Eclectic magical or historical knowledge."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Enchantments."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Illusions."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Inspirational music."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Psychic damage."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Thunder damage."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Special property: The musical instrument...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Causes those who hear it to feel disoriented."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Causes those who hear it to feel an uncontrollable urge to dance."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Fills those who hear it with a feeling of deep sorrow."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Allows the player to grant resistance to damage an ally."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Allows the player to summon minor devils or angels."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Allows the player to communicate with beasts."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Activation: The musical instrument’s magical music or special property activates or amplifies when played…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "In the presence of a specific type of enemy (d6): 1. dragons; 2. giants; 3. fiends; 4. aberrations; 5. fey; 6. celestials."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "By a member of a specific race (d6): 1. elf; 2. gnome; 3. half-elf; 4. human; 5. merfolk; 6. satyr."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "On a plane outside the mortal realm (d6): 1. Abyss; 2. Feywild; 3. Nine Hells; 4. Plane of Air; 5. Plane of Water; 6. Shadowfell."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Under starlight."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Under moonlight."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Underground."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Creator: The instrument was made by a/an…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Elvish master."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Infamous outlaw."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Simple farm boy."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Old woodworker."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Guardian angel."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Tricky devil."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Past owner: The instrument’s most famous owner was a/an…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Elvish battlelord."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Legendary singer."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Celebrated dragonslayer."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Treacherous young lord or lady."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Notorious cult leader."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Handsome rogue."
+                }
+            ]
+        }
+    ],
+    "title": "String Instruments",
+    "use_with": [
+        {
+            "link": "61adtf",
+            "title": "Acting troupes"
+        },
+        {
+            "link": "46ma8g",
+            "title": "Bards"
+        },
+        {
+            "link": "46m9xc",
+            "title": "Songs"
+        }
+    ]
+}

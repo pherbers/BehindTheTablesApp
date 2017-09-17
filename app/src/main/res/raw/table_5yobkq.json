@@ -1,0 +1,337 @@
+{
+    "category": "Monsters",
+    "description": "Use these to make a quick frost giant to terrorize your PCs.",
+    "id": "5yobkq",
+    "keywords": [
+        "Frost giant",
+        "ice giant",
+        "jötunn"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/comments/5yobkq",
+    "related_tables": [
+        {
+            "link": "5xtmto",
+            "title": "Ogres"
+        }
+    ],
+    "tables": [
+        {
+            "subcategory": "Random Frost Giant"
+        },
+        {
+            "dice": "d6",
+            "name": "Hair color: The frost giant’s hair is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Reddish blonde."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Whitish blonde."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Silver grey."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Red."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Reddish brown."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Brown."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Eye color: The frost giant’s eyes are...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Black."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Icy blue."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Deep blue."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Steely grey."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Whitish grey."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Blood red."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Skin color: The frost giant's skin is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Sickly blue."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Bright blue."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Pale blue."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Dark blue."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Bluish grey."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Blue with many blackened burn scars."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Distinguishing feature: The frost giant has…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Long, scraggly hair."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Several tattoos."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Wicked scarring on its chest."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Terrible scars on its face."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "One hand missing."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A peg leg."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Training: The frost giant is a/an...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Axefighter."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Berserker."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Iceshaper."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Scout."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Spearthrower."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Warchanter."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Skill: Even among frost giants, the frost giant is particularly good at...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Decapitating foes."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Tossing dwarves."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Biting."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Conjuring snowstorms."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Shouting."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Taunting foes."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Quirk/flaw: The frost giant frequently...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Tries to carry more plunder than it should."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Grinds its teeth."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Snores especially loud."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Picks fights with its allies."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Eats too much."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Picks its teeth."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Possessions: The frost giant is carrying a/an...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Huge greataxe."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Pair of battleaxes."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Half-dozen spears."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "String of scalps."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Patchwork cloak of humanoid skins."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Unusual, misty crystal."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Immediate goal: The frost giant is looking for a/an...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Bigger weapon."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Sharper weapon."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Opportunity for plunder."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Chance to prove his/her toughness."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Easy meal."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Meal of humanoid flesh."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Accomplishment: The frost giant is especially proud of…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Having eaten an entire horse in one sitting."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Shaving the beards of more than fifty dwarves."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Conquering a village single-handedly."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Slaying a young dragon with only its bare hands."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Stealing a magic warhammer of dwarvish make."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Catching a dozen arrows in its backside and still managing to steal a handful of well-crafted blades from a company of soldiers."
+                }
+            ]
+        }
+    ],
+    "title": "Frost Giants",
+    "use_with": [
+        {
+            "link": "5yfzbw",
+            "title": "Frozen lands"
+        },
+        {
+            "link": "3tjdae",
+            "title": "Savage hordes"
+        },
+        {
+            "link": "4nbzt3",
+            "title": "Winter beasts"
+        }
+    ]
+}

@@ -1,0 +1,321 @@
+{
+    "category": "Monsters",
+    "description": "Going for something wacky to try and provide you with some inspiration/ideas for reskinned monsters to provide some \"fresh\" experiences for even your veteran players. Make your players shout \"What the hell is that!\" when you throw a bunch of new monsters at your party. \n\nHave a request for a Behind The Tables table? Let me know!",
+    "id": "6eklxm",
+    "keywords": [
+        "Enemy",
+        "Antagonist",
+        "Monstrosity",
+        "Reskin",
+        "Monsters",
+        "Random",
+        "New",
+        "Encounters",
+        "Companions"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/comments/6eklxm",
+    "related_tables": [],
+    "tables": [
+        {
+            "subcategory": "Reskinning Monster Generator (Monstrosities)"
+        },
+        {
+            "dice": "d10",
+            "name": "This monster uses the base template of",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Rust Monster"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Grick"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Bulette"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Cockatrice"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Darkmantle"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Phase Spider"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Roper"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Manticore"
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Basilisk"
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Ankheg"
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "Except they don't look like players might imagine...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "They have a serpent's tail instead of hind legs"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Their skin is covered in dragonscales"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "They are a size category larger than the base template"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Their eyes are on stalks"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "If they usually stand on all fours, they instead are bipedal (and vice versa)"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Their skin is dark and rubbery"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Their mouth is far too big for its head"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Their eyes are far too large for its face"
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "They also have another physical advantage to their anatomy:",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A large set of wings"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A second head"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Natural horns, spines, and/or Spikes"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "An extra set of arms"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "An extra set of legs"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A scorpion's tail, with stinger"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Venomous Fangs"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Opposable Thumbs (And boy, do they love using weapons!)"
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "The colour of the creature's skin is a:",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Grey Hue"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Blue Hue"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Green Hue"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Red Hue"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Yellow Hue"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Purple Hue"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Orange Hue"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Brown Hue"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "They have an increased ability attribute",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Strength +6"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Intelligence +6"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Widsom +6"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Dexterity +6"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Constitution +6"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Charisma +6"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "They have adapted physically to the following environment",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Sub-zero Temperatures"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Subterranean underground living"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Living inside a volcano"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Scorching heat in a desert"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Dense Jungle or Thick Forest"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Barren Wasteland and/or marshland"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Beyond all else, they love to",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Attack from the shadows only when safe"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Attack in large packs using swarming overpowering tactics"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Play with it's food (YOU)"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Attack fast and recklessly"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Make it's move when their prey is least expecting an attack"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Stay highly mobile for long-winded skirmish battles"
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Their meat is",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Tasty"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Beef (Gotta love them cows)"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Poisonous"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Cursed"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Tasteless"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Revitalising"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Gooey and snot-like"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Very tough and chewy"
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Sloppy, like drinking an off thickshake"
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Spicy like hot chili!"
+                }
+            ]
+        }
+    ],
+    "title": "Reskinning Monster Generator: Monstrosities",
+    "use_with": []
+}

@@ -1,0 +1,373 @@
+{
+    "category": "Dungeons/Locations",
+    "description": "Use these to make a quick dungeon in the Feywild or fey-touched location.",
+    "id": "614gba",
+    "keywords": [
+        "Feywild",
+        "fey",
+        "faeriefolk",
+        "faeries",
+        "elves",
+        "gnomes",
+        "pixies",
+        "satyrs",
+        "hobgoblins",
+        "ghosts",
+        "witch",
+        "fey realm",
+        "realm of dreams",
+        "thought realm",
+        "fairyland"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/comments/614gba",
+    "related_tables": [
+        {
+            "link": "5zz7gt",
+            "title": "Infernal dungeons"
+        }
+    ],
+    "tables": [
+        {
+            "subcategory": "Random Feywild Dungeon"
+        },
+        {
+            "dice": "d6",
+            "name": "This place is a/an...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Mystic cave."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Maze of tall hedges."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Series of pitch black tunnels."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Forgotten tomb."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Ruin of elvish construction."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Series of interconnected earthy burrows."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "This place is located…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Near a hobgoblin stronghold."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Beneath an elvish palace."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Beneath an ancient elvish ruin."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Deep within a forest or swamp."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Beneath a city in the mortal world."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "In a remote mountain valley in the mortal world."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Major feature: You see a/an...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Statue of an elvish hero."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Altar dedicated to an elvish goddess."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Mural depicting an ancient battlefield."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Magically-crafted colonnade."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Several curtains of silvery mists."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Set of double doors carved with arcane symbols."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Minor feature: You see a/an...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Archery target."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Small statue depicting several pixies."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Rack of swords and spears."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Nest of beautiful, speckled eggs."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Ring of brightly-colored mushrooms."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Handful of floating motes of lights."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "NPC: You meet a/an…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Hobgoblin soldier."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Elvish ranger."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Gnomish herbalist."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Dancing pixie."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Sorrowful dryad."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Rowdy satyr."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Beast: You meet a/an…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Blink dog."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Owlbear."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Phase spider."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Swarm of frogs or rabbits."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Swarm of bats or flies."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Talking beast (d6): 1. bear; 2. eagle; 3. owl; 4. snake; 5. giant toad; 6. wolf."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Secondary Monster: You come upon…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Bugbear thug."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Cyclops."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Displacer beast."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Ghostly warrior."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Goblin sneak."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Restless zombie."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Primary monster: This place is currently ruled by a…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Bog hag."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Night hag."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Baelnorn (lich)."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Sadistic witch."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Hobgoblin commander."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Charming dragon."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Traps/hazard: You must survive the…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Curse of unstoppable dancing. "
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Curse of dreamless sleep."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Curse of nightmarish visions."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Spiked pit trap."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Illusory treasure hoard."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Poisoned arrow traps."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Reward/treasure: If you survive, you may find the...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Crown of an ancient elvish queen."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Sword of an infamous hobgoblin king."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Spellbook of a dangerous necromancer."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Notebooks from a brilliant alchemist’s laboratory."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Crystal of a celebrated seeress."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Helm of a legendary elvish hero."
+                }
+            ]
+        }
+    ],
+    "title": "Feywild Dungeons",
+    "use_with": [
+        {
+            "link": "3sh0hz",
+            "title": "Enchanted forest"
+        },
+        {
+            "link": "4fsrky",
+            "title": "Gnomes"
+        },
+        {
+            "link": "3snvqq",
+            "title": "Goblins"
+        },
+        {
+            "link": "3vlzrw",
+            "title": "Faeriefolk"
+        },
+        {
+            "link": "3vh7jd",
+            "title": "High elves"
+        },
+        {
+            "link": "3sorre",
+            "title": "Restless undead"
+        },
+        {
+            "link": "3vjsea",
+            "title": "Treefolk"
+        },
+        {
+            "link": "3si4ms",
+            "title": "Witches"
+        },
+        {
+            "link": "3va3dw",
+            "title": "Wood elves"
+        }
+    ]
+}

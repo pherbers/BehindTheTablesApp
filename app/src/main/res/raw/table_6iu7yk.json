@@ -1,0 +1,355 @@
+{
+    "category": "NPCs",
+    "description": "This is a quick method for making a heroic warlock with some suggestions for who the hero is, what the hero is good at, what interests the hero, and what the hero's ultimate goal might be.\n\nThe situation where this makes the most sense to me is if you want to have somewhat disposable PCs and you don't want to spend too much time making the decisions in building a new PC.",
+    "id": "6iu7yk",
+    "keywords": [
+        "PC generator",
+        "warlock",
+        "witch",
+        "hexer",
+        "binder"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/comments/6iu7yk",
+    "related_tables": [
+        {
+            "link": "6iu6yz",
+            "title": "Heroic rogue"
+        },
+        {
+            "link": "6iu7l0",
+            "title": "Heroic sorcerer"
+        },
+        {
+            "link": "6iu86b",
+            "title": "Heroic wizard"
+        }
+    ],
+    "tables": [
+        {
+            "subcategory": "Random Heroic Warlock"
+        },
+        {
+            "dice": "d6",
+            "name": "You grew up in a/an…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Border town"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Fishing village"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Large city"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Mining town"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Farming village"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Wild lands"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "In the past, you were a/an…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Charlatan or fortune teller"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Circus performer or magician"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Farmer or herder"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Hermit or peddler"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Sage or acolyte"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Weaver or woodcarver"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "You take pride in…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Brewing potions"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Your eccentric diet"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Discovering ancient secrets"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Your pristine handwriting"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Speaking with ghosts"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Spell duels"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "You need improvement on…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Complex rituals"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Interpreting dreams"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Drug addiction"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Getting more sleep"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Social anxiety"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Reading signs and omens"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "You became an adventurer to…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Avoid execution"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Achieve conquest and power"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Win the love of a great beauty"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Message from your patron"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Pursue fame and fortune"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Gain vengeance upon an old foe"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Your favorite spells are/involve…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Divinations"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Charms"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Hexes and curses"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Pyromancy"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Illusions and tricks"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Summoning"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "You struck a bargain with a/an…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Capricious archfey"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Conniving fiend"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Cruel archfey"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Destructive fiend"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Nightmarish aberration"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Shadowy presence"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "You are especially knowledgeable of…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Alchemy"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Astrology"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Demonology"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Local history"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Poisons"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Necromancy"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "You are carrying a/an/the…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Leatherbound tome"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Hefty rod"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Rune-carved dagger"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Serpentine dagger"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Serrated dagger"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Skin-covered tome"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "You have a keen interest in…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Amorous pursuits"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Collecting bones or pelts"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Gourmet cooking"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Learning people's secrets"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Myths and tall tales"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Writing poetry"
+                }
+            ]
+        }
+    ],
+    "title": "Heroic Warlock",
+    "use_with": [
+        {
+            "link": "3zr0h4",
+            "title": "NPC appearance, personality, faith, and flaws"
+        },
+        {
+            "link": "4hbe7j",
+            "title": "Player character"
+        },
+        {
+            "link": "4evdqx",
+            "title": "Dinner in a witch's hovel"
+        },
+        {
+            "link": "4boiw9",
+            "title": "Fiends"
+        },
+        {
+            "link": "3xyilr",
+            "title": "Secret societies"
+        }
+    ]
+}

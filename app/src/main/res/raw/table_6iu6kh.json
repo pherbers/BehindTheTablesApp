@@ -1,0 +1,355 @@
+{
+    "category": "NPCs",
+    "description": "This is a quick method for making a heroic fighter with some suggestions for who the hero is, what the hero is good at, what interests the hero, and what the hero's ultimate goal might be.\n\nThe situation where this makes the most sense to me is if you want to have somewhat disposable PCs and you don't want to spend too much time making the decisions in building a new PC.",
+    "id": "6iu6kh",
+    "keywords": [
+        "PC generator",
+        "paladin",
+        "knight",
+        "crusader",
+        "prophet"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/comments/6iu6kh",
+    "related_tables": [
+        {
+            "link": "6iu5eo",
+            "title": "Heroic cleric"
+        },
+        {
+            "link": "6iu628",
+            "title": "Heroic fighter"
+        },
+        {
+            "link": "6iu6cv",
+            "title": "Heroic monk"
+        }
+    ],
+    "tables": [
+        {
+            "subcategory": "Random Heroic Paladin"
+        },
+        {
+            "dice": "d6",
+            "name": "You grew up in a/an…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Border town"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Castle"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Holy city"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Port city"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Remote monastery"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Small village"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "In the past, you were a/an…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Acolyte or scholar"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Farmer or miner"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Charlatan or peddler"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Knight or sellsword"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Sailor or fisherman"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Soldier or gladiator"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "You take pride in…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Defending the defenseless"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Fulfilling prophecy"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Gaining new converts"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Horsemanship"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Hunting down unholy foes"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Military history"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "You need improvement on…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Choosing allies"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Controlling temper"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Grief counseling"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Drug addiction"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Social anxiety"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Weapon maintenance"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "You became an adventurer to…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Atone for past sins"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Cleanse the church of heretics"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Follow a saint's example"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Message from a deity"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Rewrite scripture"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Vanquish an ancient evil"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Your primary weapon is/weapons are your…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Battleaxe and shield"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Flail and shield"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Longspear or spear"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Longsword or greatsword"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Sword and shield"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Warhammer and shield"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "You are especially knowledgeable of…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Church hierarchy"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Death and undead"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Demonology"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Healing arts"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "History"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Holy wisdom"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "You are carrying a/an…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Battered oaken shield"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Famous crusader's weapon"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Relic of a favorite martyr"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Variety of medicines"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Shield with a  holy crest"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Trophy from a fallen enemy"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "You are wearing a/an/some…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Fine silk robe"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Garish amulet or chain"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Shiny gilded helm"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Storied battle scars"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Tattoo of a holy icon"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Wool traveler's cloak"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "You have a keen interest in…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Amorous pursuits"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Learning people's secrets"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Fine wines, ales, and spirits"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Heroic tales and legends"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Horse races"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Singing or playing instrument"
+                }
+            ]
+        }
+    ],
+    "title": "Heroic Paladin",
+    "use_with": [
+        {
+            "link": "3zr0h4",
+            "title": "NPC appearance, personality, faith, and flaws"
+        },
+        {
+            "link": "4hbe7j",
+            "title": "Player character"
+        },
+        {
+            "link": "3tjg9d",
+            "title": "Military companies"
+        },
+        {
+            "link": "3sj8mc",
+            "title": "Noble houses"
+        },
+        {
+            "link": "3xpb4r",
+            "title": "Temples"
+        }
+    ]
+}

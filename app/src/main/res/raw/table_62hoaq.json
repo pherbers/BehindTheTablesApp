@@ -1,0 +1,355 @@
+{
+    "category": "Objects, Items, and Miscellany",
+    "description": "Use these to make a quick percussion instrument, mundane or magical.",
+    "id": "62hoaq",
+    "keywords": [
+        "Drums",
+        "rhythm section",
+        "marching band",
+        "drum line",
+        "boom",
+        "boom",
+        "clackety clack",
+        "the clackers",
+        "the ghost of gene krupa"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/comments/62hoaq",
+    "related_tables": [
+        {
+            "link": "5yszmn",
+            "title": "Daggers"
+        },
+        {
+            "link": "60r60n",
+            "title": "Helms"
+        },
+        {
+            "link": "5zfn7w",
+            "title": "Shields"
+        },
+        {
+            "link": "620bsp",
+            "title": "String instruments"
+        }
+    ],
+    "tables": [
+        {
+            "subcategory": "Random Wind Instruments"
+        },
+        {
+            "dice": "d6",
+            "name": "Type: This instrument is a/an…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Set of castanets."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Pair of cymbals."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Single-headed drum."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Two-headed drum."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Pair of maracas."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Tambourine."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Drumhead material: The drumhead of this instrument is made from...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Bear hide."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Cow hide."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Crocodile hide."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Deer hide."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Sheep hide."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "The hide of an unidentifiable beast."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Drum shell material: The drum shell is constructed from…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Birch."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Maple."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Oak."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Mahogany."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Poplar."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Steel."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Drumstick material: The drumstick (or maracas or castanet) are made of…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Ash."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Bone."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Chestnut."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Hickory."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Oak."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Tulipwood."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Decorative image: The instrument is adorned with painted or carved images of…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Angels."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Beasts (d6): 1. badgers; 2. bears; 3. fish; 4. monkeys; 5. lions; 6. wolves."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Devils."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Dragons."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Female figures (d6): 1. banshees; 2. elf-maids; 3. mermaids; 4. night hags; 5. orc-maids; 6. shield maidens."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Skulls."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Special projection: When properly activated, the instruments provides an extra boost to a bard or war chanter’s...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Military or historical knowledge."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Enchantments."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Forced movement effects."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Inspirational music."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Psychic damage."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Thunder damage."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Special property: The musical instrument...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Causes those who hear it to become deafened."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Causes those who hear it to feel an uncontrollable urge to dance."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Fills those who hear it with a feeling of supreme dread."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Allows the player to grant extra movement to an ally."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Allows the player to summon minor devils or angels."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Allows the player to command menial undead."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Activation: The musical instrument’s special projection or special property activates or amplifies when played...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "In the presence of a specific type of enemy (d6): 1. dragons; 2. elves; 3. fiends; 4. giants; 5. fey; 6. undead."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "By a member of a specific race (d6): 1. dwarf; 2. goblinoid; 3. human; 4. lizardfolk; 5. orc; 6. troll."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "On a plane outside the mortal realm (d6): 1. Abyss; 2. Feywild; 3. Nine Hells; 4. Plane of Battle; 5. Plane of Heroes; 6. Shadowfell."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Before dawn."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "At sunset."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Underground."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Creator: The instrument was made by a/an…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Dwarvish master craftsman."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Unlucky soldier."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Carefree singer."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Elvish prince."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Guardian angel."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Tricky devil."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Past owner: The instrument’s most famous owner was a/an…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Dwarvish battlelord."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Legendary knight."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Orkish warlord."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Iron-fisted lord or lady."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Notorious pirate."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Religious zealot."
+                }
+            ]
+        }
+    ],
+    "title": "Percussion Instruments",
+    "use_with": [
+        {
+            "link": "61adtf",
+            "title": "Acting troupes"
+        },
+        {
+            "link": "46ma8g",
+            "title": "Bards"
+        },
+        {
+            "link": "46m9xc",
+            "title": "Songs"
+        }
+    ]
+}

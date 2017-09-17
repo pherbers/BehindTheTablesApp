@@ -126,7 +126,7 @@
             ]
         },
         {
-            "dice": "d10",
+            "dice": "d20",
             "name": "The herbal concoction’s color could be described as...",
             "table_entries": [
                 {

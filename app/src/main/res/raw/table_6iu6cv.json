@@ -1,0 +1,346 @@
+{
+    "category": "NPCs",
+    "description": "This is a quick method for making a heroic monk with some suggestions for who the hero is, what the hero is good at, what interests the hero, and what the hero's ultimate goal might be.\n\nThe situation where this makes the most sense to me is if you want to have somewhat disposable PCs and you don't want to spend too much time making the decisions in building a new PC.",
+    "id": "6iu6cv",
+    "keywords": [
+        "PC generator",
+        "monk",
+        "martial artist",
+        "ascetic"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/comments/6iu6cv",
+    "related_tables": [
+        {
+            "link": "6iu628",
+            "title": "Heroic fighter"
+        },
+        {
+            "link": "6iu5eo",
+            "title": "Heroic cleric"
+        },
+        {
+            "link": "6iu6kh",
+            "title": "Heroic paladin"
+        }
+    ],
+    "tables": [
+        {
+            "subcategory": "Random Heroic Monk"
+        },
+        {
+            "dice": "d6",
+            "name": "You grew up in a/an…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Border town"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Farming village"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Fishing village"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Holy city"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Large city"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Mining town"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "In the past, you were a/an…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Acolyte or hermit"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Brewer or cobbler"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Merchant or magistrate"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Sailor or fisherman"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Smith or carpenter"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Soldier or sellsword"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "You take pride in…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Cooking or brewing"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Helping the poor and needy"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Physical conditioning"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Teaching reading and writing"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Traditional dress or diet"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Value of hard labor"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "You need improvement on…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Drinking problem"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Keeping silent"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Personal hygiene"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Reading signs and omens"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Respecting superiors"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Weight loss"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "You became an adventurer to…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Answer an ancient riddle"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Atone for past sins"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Discover unusual magic"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Escape from a dull life"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Find a long lost mentor"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Locate a sacred ruin"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Your primary weapon is/weapons are your…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Dagger"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Bare fists"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Club"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Quarterstaff"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Shortsword"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Wrestling moves"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "You are especially knowledgeable of…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Anatomy and physiology"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Ancient wisdom"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Death and undeath"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Elemental magic"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Mysticism"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "World history"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "You recently read or are carrying a book on…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Alchemy"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Dream interpretation"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Interplanar travelogue"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Poisoncraft"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Soul magic"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Untranslated scripture"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "You are carrying a/an/the…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Ancient holy scroll"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Mentor's necklace or ring"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Painful memories"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Pocket-sized prayer book"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Prayer beads"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Variety of medicines"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "You have a keen interest in…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Cheap wines and ales"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Fine wines, ales, and spirits"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Gardening or farming"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Myths and tall tales"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Singing or playing an instrument"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Woodcarving or metalwork"
+                }
+            ]
+        }
+    ],
+    "title": "Heroic Monk",
+    "use_with": [
+        {
+            "link": "3zr0h4",
+            "title": "NPC appearance, personality, faith, and flaws"
+        },
+        {
+            "link": "4hbe7j",
+            "title": "Player character"
+        },
+        {
+            "link": "40pjmd",
+            "title": "Monasteries"
+        }
+    ]
+}

@@ -1,0 +1,374 @@
+{
+    "category": "NPCs",
+    "description": "Going for something wacky to try and provoke some unusual and/or inspiration for villains that you might want to include in your world. These could be \"miniboss\" style villains who show up at the start of a session (and are dead by the end of it!) or even a recurring villain who has a much grander plan of things. Feel free to roll on these tables (or choose an appealing combination for your liking) and I hope that you get a good use out of this!",
+    "id": "63s2yp",
+    "keywords": [
+        "Villains",
+        "Antagonists",
+        "Enemy",
+        "BBEG",
+        "NPC",
+        "Quest",
+        "Plot",
+        "Story"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/comments/63s2yp",
+    "related_tables": [],
+    "tables": [
+        {
+            "subcategory": "Recurring Villains"
+        },
+        {
+            "dice": "d20",
+            "name": "The villain is a",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Human"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Elf"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Dwarf"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Halfling"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Orc"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Goblin"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Gnome"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Goliath"
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Genasi"
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Dragon"
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Beholder"
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Illithid"
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "Aboleth"
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "Demon Lord"
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "Devil Lieutenant"
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "Warforged "
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "Dragonborn"
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "Tabaxi"
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "Lizardfolk"
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "Rakshasa"
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "and they are a",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Barbarian"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Bard"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Cleric"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Fighter"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Monk"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Mystic or Artificer"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Paladin"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Ranger"
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Rogue"
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Sorcerer"
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Warlock"
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Wizard"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "They have an extremist ideology that has them utilize",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Aggression and control"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Subterfuge and deception"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Justice and retribution"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Fear"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Greed and Wealth"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Ignorance"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The villain's greatest weapon is their",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Political power"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Skill with spells"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Martial Combat Skill"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Army of minions and followers"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Evil villainous contacts"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Unpredictability"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "This villain's ultimate goal is",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Ruling the world"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Killing their arch nemesis, and all people close to them"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Destroy this world for a greater being/God"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Acquire favour of a greater being/God "
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Living Forever"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Watching the world burn"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Their next step to achieving their goal is to",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Capture the princess and ransom her back to the King"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Kill the King"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Slaughter a village"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Raise an army"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Stockpile a horde of wealth and gold"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Acquire a powerful artifact"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "The villain is notorious for their",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Raiding and pillaging"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Executions and assassinations"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Genocide and mass murder"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Corruption of other powerful people"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Gratuitous public displays of their power"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Sly hand in political endeavors"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "This villain's one weakness is",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Repulsion to the stench of a fruit, vegetable or spice (Eg, garlic)"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Vulnerable to a damage type (Eg, Cold, Fire, Radiant, Thunder, Necrotic, Lightning)"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Their own rash and sporadic nature"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Feeling like they aren't in control"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "He is easily distracted or lured by treasure"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "None of their allies actually like the villain"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "This villain is recurring because of their ability to",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Regenerate even the most fatal of wounds"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Reincarnate in a new body with their old, widened mind and memories"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Reform as a creature of undeath (eg Lich, death knight, vampire)"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Be brought back from the dead by a pact with an evil demon/devil/God"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Stay out of the danger zone and preserve their life"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Talk themselves out of any situation"
+                }
+            ]
+        }
+    ],
+    "title": "Recurring Villain Generator",
+    "use_with": []
+}

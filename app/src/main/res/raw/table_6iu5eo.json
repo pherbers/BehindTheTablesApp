@@ -1,0 +1,350 @@
+{
+    "category": "NPCs",
+    "description": "This is a quick method for making a heroic cleric with some suggestions for who the hero is, what the hero is good at, what interests the hero, and what the hero's ultimate goal might be.\n\nThe situation where this makes the most sense to me is if you want to have somewhat disposable PCs and you don't want to spend too much time making the decisions in building a new PC.",
+    "id": "6iu5eo",
+    "keywords": [
+        "PC generator",
+        "cleric",
+        "priest",
+        "healer"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/comments/6iu5eo",
+    "related_tables": [
+        {
+            "link": "6iu58l",
+            "title": "Heroic bard"
+        },
+        {
+            "link": "6iu5xg",
+            "title": "Heroic druid"
+        },
+        {
+            "link": "6iu6kh",
+            "title": "Heroic paladin"
+        }
+    ],
+    "tables": [
+        {
+            "subcategory": "Random Heroic Cleric"
+        },
+        {
+            "dice": "d6",
+            "name": "You grew up in a/an…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Farming village"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Fishing village"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Holy city"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Large city"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Mining town"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Remote monastery"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "In the past, you were a/an…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Acolyte or scholar"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Brewer or cobbler"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Charlatan or peddler"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Knight or magistrate"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Sailor or fisherman"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Soldier or guard"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "You take pride in…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Fulfilling prophecy"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Gaining new converts"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Helping the poor and needy"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Hunting down unholy foes"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Sacred hymns"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Traditional dress or diet"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "You need improvement on…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Bedside manner"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Grief counseling"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Drinking problem"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Keeping secrets"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Quoting scripture"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Wedding ceremonies"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "You became an adventurer to…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Answer ancient riddle"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Atone for past sins"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Escape from a dull life"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Follow a saint's example"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Obey a message from a deity"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Pursue religious glory"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Your favorite weapon is your…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Club"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Dagger"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Hammer or sword"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Mace"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Quarterstaff"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Spear"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "You are especially knowledgeable of…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Church hierarchy"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Death and undead"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Demonology"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Healing arts"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Local history"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Holy wisdom"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "You are carrying a/an/the…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Ancient holy scroll"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Famous crusader's weapon"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Guilt of horrific crime"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Pocket-sized prayer book"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Relic of favorite martyr"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Variety of medicines"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "You are wearing a/an/some…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Battered, carved helm"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Brightly colored vestments"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Fine silk robe"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Garish amulet or chain"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Ritualistic scar or tattoo"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Tattered vestments"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "You have a keen interest in…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Comic tales and jokes"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Learning people's secrets"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Fine wines, ales, and spirits"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Myths and tall tales"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Singing or playing an instrument"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Woodcarving or metalwork"
+                }
+            ]
+        }
+    ],
+    "title": "Heroic Cleric",
+    "use_with": [
+        {
+            "link": "3zr0h4",
+            "title": "NPC appearance, personality, faith, and flaws"
+        },
+        {
+            "link": "4hbe7j",
+            "title": "Player character"
+        },
+        {
+            "link": "3shczv",
+            "title": "Pantheons"
+        },
+        {
+            "link": "3xpb4r",
+            "title": "Temples"
+        }
+    ]
+}

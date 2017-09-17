@@ -1,0 +1,356 @@
+{
+    "category": "Objects, Items, and Miscellany",
+    "description": "Use these to make a quick shield, mundane or magical.",
+    "id": "5zfn7w",
+    "keywords": [
+        "Shield",
+        "aegis",
+        "crest",
+        "defense",
+        "captain america"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/comments/5zfn7w",
+    "related_tables": [
+        {
+            "link": "5yszmn",
+            "title": "Daggers"
+        }
+    ],
+    "tables": [
+        {
+            "subcategory": "Random Shields"
+        },
+        {
+            "dice": "d6",
+            "name": "Shield shape: The shield is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Rectangular."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Circular."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Elliptical."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Escutcheon."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Square."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Triangular."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Shield material: The shield is made of…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Animal hide stretched over a frame."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Ash."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Hickory."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Oak."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Bronze."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Steel."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Shield feature: The shield has…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Reinforcing steel bands."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Fur-lined leather straps."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Sharp edges."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Spikes."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Gilding."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Visible steel rivets."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Pattern: The shield is adorned with…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Horizontal stripes."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Vertical stripes."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Checker pattern."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Two vertically divided fields."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Two horizontally divided fields."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Counterchanging quadrants."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Image: The shield is adorned with an image of a/an…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Heavenly phenomenon (d6): 1. sun; 2. moon; 3. stars; 4. comet; 5. lightning; 6. rain clouds."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Great beast (d6): 1. kraken; 2. dragon; 3. lion; 4. wolf; 5. boar; 6. stag."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Diminutive beast (d6): 1. badger; 2. snake; 3. bat; 4. rabbit; 5. fox; 6. frog."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Bird (d6): 1. eagle; 2. owl; 3. vulture; 4. swan; 5. rooster; 6. sparrow."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Symbol of war (d6): 1. broadsword; 2. crossed swords; 3. crossed spears; 4. flames; 5. skull; 6. crow."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Plant (d6): 1. oak tree; 2. fir tree; 3. rose; 4. clover; 5. sunflower; 6. briar. "
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Paint color: The shield is painted…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Black."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "White."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Red."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Gold."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Blue."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Green."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Special protection: When properly activated, the shield provides extra protection against...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Acid damage."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Cold damage."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Fire damage."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Necrotic damage."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Lightning damage."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Radiant damage."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Special property: The shield...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Stuns attackers who score a critical hit."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Erupts with a burst of flame when hit."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Creates magical camouflage."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Doubles as a flotation device."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Returns to the wielder’s arm when thrown."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Never breaks."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Activation: The shield’s special protection or special property activates or amplifies…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Against a specific type of enemy (d6): 1. dragons; 2. giants; 3. fiends; 4. aberrations; 5. elementals; 6. undead."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "When wielded by a member of a specific race (d6): 1. high elf; 2. dwarf; 3. 4. goblinoid; 5. lizardfolk; 6. wood elf."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "In sunlight."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "In moonlight."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "In places touched by death."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "In places touched by faerie magic."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Creator: The shield was made by a/an…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Elvish mastercrafter."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Dwarvish armorer."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Young blacksmith."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "One-armed armorer."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Devoted priest."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Reclusive craftsman."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Past wielder: The shield’s most famous wielder was a/an…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Dwarvish battlelord."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Legendary elvish hero."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Brutal outlaw."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Zealous knight."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Celebrated warpriest."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Fearsome warlord."
+                }
+            ]
+        }
+    ],
+    "title": "Shields",
+    "use_with": []
+}

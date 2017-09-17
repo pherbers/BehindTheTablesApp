@@ -1,0 +1,260 @@
+{
+    "category": "Monsters",
+    "description": "Going for something wacky to try and provide you with some inspiration/ideas for reskinned monsters to provide some \"fresh\" experiences for even your veteran players. \"What's that beast!\" is a great, pokemon-esque game that players secretly play at the table if they are unsure what it is. You will be pleasantly surprised at how pleasantly surprised your players will be when you start incorporating these into your adventures!\n\nHave a request for a Behind The Tables table? Let me know!",
+    "id": "6bf535",
+    "keywords": [
+        "Enemy",
+        "Antagonist",
+        "Beast",
+        "Reskin",
+        "Monsters",
+        "Random",
+        "Fresh",
+        "New",
+        "Encounters",
+        "Companions"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/comments/6bf535",
+    "related_tables": [],
+    "tables": [
+        {
+            "subcategory": "Reskinning Monster Generator (Beasts)"
+        },
+        {
+            "dice": "d8",
+            "name": "These monsters use the base template of",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Dire Wolf"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Displacer Beast"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Blink Dog"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Elk"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Giant Eagle"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Cave Bear"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Rhino"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Horse"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "They have an increased ability attribute",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Strength +6"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Intelligence +6"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Widsom +6"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Dexterity +6"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Constitution +6"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Charisma +6"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "They have adapted physically to the following environment",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Sub-zero Temperatures"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Subterranean underground living"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Living inside a volcano"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Scorching heat in a desert"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Dense Jungle or Thick Forest"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Barren Wasteland and/or marshland"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "They have one of the following traits",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Darkvision, Tremorsense, Truesight or Blindsight"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Sharp claws"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Immune to aging effects"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Resistant to a certain damage type"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Faster Movement Speed"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Thicker Hide"
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "They have an advantageous physical anomaly",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A large set of wings"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A second head"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Natural horns, spines, and/or Spikes"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "An extra set of arms"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "An extra set of legs"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Oversized mouths and a dangerous bite"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Venomous Fangs"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Opposable Thumbs"
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "And to make things even crazier, they have",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "An extra set of arms"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "An extra set of legs"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A pair of claws"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A scorpion's tail"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "The ability to grow to a tremendous size"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Spellcasting abilities"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A hive-mind shared throughout the entire species"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "The ability to teleport short distances"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Their meat is",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Tasty"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Of religious value"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Poisonous"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Cursed"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Tasteless"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Revitalising"
+                }
+            ]
+        }
+    ],
+    "title": "Reskinning Monster Generator: Beasts",
+    "use_with": []
+}

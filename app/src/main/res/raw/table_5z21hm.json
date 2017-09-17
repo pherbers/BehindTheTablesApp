@@ -1,0 +1,344 @@
+{
+    "category": "Monsters",
+    "description": "Use these to make a quick fire giant to terrorize your PCs.",
+    "id": "5z21hm",
+    "keywords": [
+        "Fire giant",
+        "elemental flame",
+        "imix",
+        "volcanoes",
+        "inferno",
+        "burn baby burn"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/comments/5z21hm",
+    "related_tables": [
+        {
+            "link": "5yobkq",
+            "title": "Frost giants"
+        },
+        {
+            "link": "5xtmto",
+            "title": "Ogres"
+        }
+    ],
+    "tables": [
+        {
+            "subcategory": "Random Fire Giant"
+        },
+        {
+            "dice": "d6",
+            "name": "Hair color: The fire giant’s hair is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Reddish blonde."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Orange."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Reddish gold."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Fiery red."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Red."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Reddish brown."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Eye color: The fire giant’s eyes are...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Black."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Gold."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Golden brown."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Steely grey."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Silvery grey."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Blood red."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Skin color: The fire giant's skin is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Smoky grey."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Ashen grey."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Sickly grey."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Dark grey."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Burnt black."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Volcanic black."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Distinguishing feature: The fire giant has…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "One eye larger than the other."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Gold teeth."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A permanent limp."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Terrible scars on its face."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "One ear missing."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Unkempt facial hair."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Training: The fire giant is a/an...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Crafter."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Flameshaper."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Pikeman."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Scout."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Shocktrooper."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Warchanter."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Skill: Even among fire giants, the fire giant is particularly good at...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Decapitating foes."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Forging arms and armor."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Composing songs."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Conjuring flames."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Swordplay."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Organizing allies in battle."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Quirk/flaw: The fire giant frequently...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Tries to carry more plunder than it should."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Snores loudly."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Sings a little out of tune."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Picks fights with its allies."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Drinks too much."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Can't help but investigate any magical effects it finds."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Possessions: The fire giant is carrying a/an...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Huge greatsword."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Pair of battleaxes."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Longbow with flaming arrows."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Bag full of rings and trinkets."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Finely-made chainmail shirt."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Strange gemstone that radiates power."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Immediate goal: The fire giant is looking for a/an...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Shinier weapon."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Sharper weapon."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Opportunity for plunder."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Chance to prove its skill in battle."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Easy meal."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Spicy meal."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Accomplishment: The fire giant is especially proud of…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "The bejeweled sword it spent years forging."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "The beautiful song of war it composed."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Eating every halfling in a conquered village."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Slaying a young dragon with only its bare hands."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Stealing a magic greatsword of elvish make."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "The song a satyr wrote about its exploits in an elvish land."
+                }
+            ]
+        }
+    ],
+    "title": "Fire Giants",
+    "use_with": [
+        {
+            "link": "3tjb63",
+            "title": "Flame-scorched desert"
+        },
+        {
+            "link": "5xcmqe",
+            "title": "Elemental fire dungeon"
+        },
+        {
+            "link": "42rm5s",
+            "title": "Mountains"
+        }
+    ]
+}

@@ -1,0 +1,359 @@
+{
+    "category": "NPCs",
+    "description": "This is a quick method for making a heroic ranger with some suggestions for who the hero is, what the hero is good at, what interests the hero, and what the hero's ultimate goal might be.\n\nThe situation where this makes the most sense to me is if you want to have somewhat disposable PCs and you don't want to spend too much time making the decisions in building a new PC.",
+    "id": "6iu6uu",
+    "keywords": [
+        "PC generator",
+        "ranger",
+        "scout",
+        "guide",
+        "archer"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/comments/6iu6uu",
+    "related_tables": [
+        {
+            "link": "6iu521",
+            "title": "Heroic barbarian"
+        },
+        {
+            "link": "6iu628",
+            "title": "Heroic fighter"
+        },
+        {
+            "link": "6iu6kh",
+            "title": "Heroic paladin"
+        }
+    ],
+    "tables": [
+        {
+            "subcategory": "Random Heroic Ranger"
+        },
+        {
+            "dice": "d6",
+            "name": "You grew up in a/an…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Border town"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Castle"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Military outpost"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Remote homestead"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Small village"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Wild lands"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "In the past, you were a/an…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Miner or prospector"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Knight or huntsman"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Outlaw or assassin"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Sailor or fisherman"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Soldier or sellsword"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Woodcutter or guide"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "You take pride in…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Covering tracks"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Foraging"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Setting traps"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Slaying monsters"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Tracking beasts or foes"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Weapon maintenance"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "You need improvement on…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Conversation skills"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Drug addiction"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Herbal remedies"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Personal hygiene"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Table manners"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Trusting allies"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "You became an adventurer to…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Atone for past sins"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Avoid family obligations"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Escape from a dull life"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Win the love of a great beauty"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Pursue fame and fortune"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Gain vengeance upon an old foe"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Your primary weapon is/weapons are your…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Axes"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Crossbow"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Longbow"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Shortbow"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Spears"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Swords"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "You are skilled at hunting and tracking…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Aberrations"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Beasts"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Fiends"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Giants"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Humanoids"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Undead"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "You are an expert at surviving in…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Dense forest"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Deserts"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Hills"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Light forest"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Mountains"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Swamps"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "You are carrying a/an/the…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Famous ancestor's ring"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Glowing stone"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Healing herbs"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Hunting trap"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Unhatched eggs"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Variety of poisons"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "You have a keen interest in…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Botany"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Campfire cooking"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Myths and tall tales"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Singing or playing an instrument"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Training pets"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Woodcarving or gemcutting"
+                }
+            ]
+        }
+    ],
+    "title": "Heroic Ranger",
+    "use_with": [
+        {
+            "link": "3zr0h4",
+            "title": "NPC appearance, personality, faith, and flaws"
+        },
+        {
+            "link": "4hbe7j",
+            "title": "Player character"
+        },
+        {
+            "link": "60ylc6",
+            "title": "Druid circles"
+        },
+        {
+            "link": "3tjg9d",
+            "title": "Military companies"
+        },
+        {
+            "link": "3sj8mc",
+            "title": "Noble houses"
+        },
+        {
+            "link": "3t2qzc",
+            "title": "Outlaw bands"
+        }
+    ]
+}

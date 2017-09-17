@@ -1,0 +1,359 @@
+{
+    "category": "NPCs",
+    "description": "This is a quick method for making a heroic rogue with some suggestions for who the hero is, what the hero is good at, what interests the hero, and what the hero's ultimate goal might be.\n\nThe situation where this makes the most sense to me is if you want to have somewhat disposable PCs and you don't want to spend too much time making the decisions in building a new PC.",
+    "id": "6iu6yz",
+    "keywords": [
+        "PC generator",
+        "rogue",
+        "thief",
+        "assassin",
+        "outlaw"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/comments/6iu6yz",
+    "related_tables": [
+        {
+            "link": "6iu58l",
+            "title": "Heroic bard"
+        },
+        {
+            "link": "6iu628",
+            "title": "Heroic fighter"
+        },
+        {
+            "link": "6iu6uu",
+            "title": "Heroic ranger"
+        }
+    ],
+    "tables": [
+        {
+            "subcategory": "Random Heroic Rogue"
+        },
+        {
+            "dice": "d6",
+            "name": "You grew up in a/an…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Border town"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Capital city"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Castle"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Mining town"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Port city"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Small village"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "In the past, you were a/an…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Charlatan or peddler"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Circus performer or singer"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Pickpocket or thug"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Sailor or pirate"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Soldier or guard"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Woodcutter or cobbler"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "You take pride in…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Climbing and tumbling"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Criminal organizations"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Gems and jewelry"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Knife throwing"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Maintaining good looks"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Trap making"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "You need improvement on…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Gambling addiction"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Holding liquor"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Keeping secrets"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Respecting superiors"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Trusting allies"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Weapon maintenance"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "You became an adventurer to…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Avoid execution"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Avoid imprisonment"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Escape from a life of toil"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Win the love of a great beauty"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Pursue fame and fortune"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Gain vengeance upon an old foe"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Your favorite weapon is/weapons are your…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Brass knuckles"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Club or mace"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Dagger"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Shortbow or crossbow"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Shortsword"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Throwing knives"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Your favorite tool for most situations is a/an/some…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Crowbar"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Disguise"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Lockpicks"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Poison"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Rope"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Torches"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "You are carrying a/an/the…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Lucky charm from childhood"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Guilt of horrific crime"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Famous ancestor's ring"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Coin from foreign land"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Favor from beloved"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Several forged documents"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "You are wearing a/an/some…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Dark cloak with hood"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Fancy silk shirt"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Mustache, real or fake"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Patched leather armor"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Prison tattoo"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Well-worn old boots"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "You have a keen interest in…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Amorous pursuits"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Card games"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Cheap wine and ale"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Dice games"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Fine wines, ales, and spirits"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Singing or playing an instrument"
+                }
+            ]
+        }
+    ],
+    "title": "Heroic Rogue",
+    "use_with": [
+        {
+            "link": "3zr0h4",
+            "title": "NPC appearance, personality, faith, and flaws"
+        },
+        {
+            "link": "4hbe7j",
+            "title": "Player character"
+        },
+        {
+            "link": "3t0zag",
+            "title": "Assassins guilds"
+        },
+        {
+            "link": "3t2qzc",
+            "title": "Outlaw bands"
+        },
+        {
+            "link": "3t5sik",
+            "title": "Pirate crews"
+        },
+        {
+            "link": "3t5q2e",
+            "title": "Urban gangs"
+        }
+    ]
+}

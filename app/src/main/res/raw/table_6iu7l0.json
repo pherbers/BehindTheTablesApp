@@ -1,0 +1,350 @@
+{
+    "category": "NPCs",
+    "description": "This is a quick method for making a heroic sorcerer with some suggestions for who the hero is, what the hero is good at, what interests the hero, and what the hero's ultimate goal might be.\n\nThe situation where this makes the most sense to me is if you want to have somewhat disposable PCs and you don't want to spend too much time making the decisions in building a new PC.",
+    "id": "6iu7l0",
+    "keywords": [
+        "PC generator",
+        "sorcerer",
+        "conjurer",
+        "scion"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/comments/6iu7l0",
+    "related_tables": [
+        {
+            "link": "6iu5xg",
+            "title": "Heroic druid"
+        },
+        {
+            "link": "6iu7yk",
+            "title": "Heroic warlock"
+        },
+        {
+            "link": "6iu86b",
+            "title": "Heroic wizard"
+        }
+    ],
+    "tables": [
+        {
+            "subcategory": "Random Heroic Sorcerer"
+        },
+        {
+            "dice": "d6",
+            "name": "You grew up in a/an…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Desert"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Frozen lands"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Mountains"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Old forest"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Remote island or coast"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Wild jungle"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "In the past, you were a/an…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Acolyte or sage"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Charlatan or circus performer"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Farmer or herder"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Hermit or wanderer"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Miner or trader"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Sailor or fisherman"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "You take pride in…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Displays of strength"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Your eccentric diet"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Explosions"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Discovering ancient secrets"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Interpreting dreams"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Spell duels"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "You need improvement on…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Controlling temper"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Drinking problem"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Drug addiction"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Etiquette and courtesy"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Personal hygiene"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Trusting allies"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "You became an adventurer to…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Answer an ancient riddle"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Achieve conquest and power"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Locate a legendary beast"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Reclaim a long-lost throne"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Uncover origin of your magic bloodline"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Gain vengeance upon an old foe"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Your favorite spells are/involve…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Charms"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Entropomancy"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Pyromancy"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Ice or wind"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Lightning or thunder"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Summoning"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "In your veins runs the blood of a/an…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Celestial"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Dragon"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Elemental lord"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Fiend"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Shadowy being"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Unknown being"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "You are especially knowledgeable of…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Alchemy"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Elemental magic"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Legendary monsters"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Planar travel"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Signs and omens"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Warfare and tactics"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "You are carrying a/an/the…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Crystal-tipped staff"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Heavy wooden staff"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Lightweight staff"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Rune-carved dagger"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Serpentine dagger"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Serrated dagger"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "You have a keen interest in…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Amorous pursuits"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Games of chance"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Fine wines, ales, and spirits"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Heroic tales and legends"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Singing or playing an instrument"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Writing poetry"
+                }
+            ]
+        }
+    ],
+    "title": "Heroic Sorcerer",
+    "use_with": [
+        {
+            "link": "3zr0h4",
+            "title": "NPC appearance, personality, faith, and flaws"
+        },
+        {
+            "link": "4hbe7j",
+            "title": "Player character"
+        },
+        {
+            "link": "62p9tw",
+            "title": "Dragons"
+        },
+        {
+            "link": "4y5pl2",
+            "title": "Mage's tower"
+        }
+    ]
+}

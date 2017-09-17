@@ -1,0 +1,371 @@
+{
+    "category": "Objects, Items, and Miscellany",
+    "description": "Use these to make a quick insults, toasts, and the like for dwarvish NPCs.",
+    "id": "60ipv7",
+    "keywords": [
+        "dwarves",
+        "beards",
+        "meat",
+        "mead"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/comments/60ipv7",
+    "related_tables": [],
+    "tables": [
+        {
+            "subcategory": "Random Dwarvish Phrases"
+        },
+        {
+            "subcategory": "Insults"
+        },
+        {
+            "dice": "d6",
+            "name": "Insult: You...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Beardless..."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Hairless..."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Scrawny..."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Spineless..."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Whiskerless..."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Witless.."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Knock-kneed..."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Little..."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Rat-faced..."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Perfumed..."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Wee..."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Yellow..."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Coward!"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Elf-lover!"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Goblin dropping!"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Troll-bogey!"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Weakling!"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Wine-drinker!"
+                }
+            ]
+        },
+        {
+            "subcategory": "Toasts"
+        },
+        {
+            "dice": "d6",
+            "name": "Toasts: May your beard...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Grow long..."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Never tangle..."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Braid beautifully..."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Drip with mead..."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Smell filthy..."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Grow wide..."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "...and your belly...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Never know a knife."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Be always strong."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Grow round."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Be always full of meat."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Ache only slightly."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Be well-armored."
+                }
+            ]
+        },
+        {
+            "subcategory": "Battle Cries"
+        },
+        {
+            "dice": "d6",
+            "name": "Battle cry: For/by...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "The blood..."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "The beards..."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "The strength..."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "The hammers..."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "The faith..."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "The axes..."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "...of our...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Kings!"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Ancestors!"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Grandfathers!"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Fathers!"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Fallen friends!"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Great Smith!"
+                }
+            ]
+        },
+        {
+            "subcategory": "Oaths"
+        },
+        {
+            "dice": "d6",
+            "name": "Oath: ...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "All-knowing..."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Ever-lasting..."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Ever-loving..."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Great..."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Mighty..."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Wise..."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Forge Father's..."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Earth Mother's..."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Grandfather's..."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Grandmother's..."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Master Smith's..."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Winter Warrior's..."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Bloody..."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Fiery..."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Glittering..."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Shining..."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Stony..."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Wagging..."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Beard!"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Chin!"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Fist!"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Hammer!"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Mug of mead!"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Whiskers!"
+                }
+            ]
+        }
+    ],
+    "title": "Dwarvish Phrases",
+    "use_with": [
+        {
+            "link": "43vpxa",
+            "title": "Dwarves"
+        },
+        {
+            "link": "4dmepa",
+            "title": "Dinner in a dwarvish alehall"
+        }
+    ]
+}

@@ -1,0 +1,326 @@
+{
+    "category": "NPCs",
+    "description": "Use these to make a quick cobbler NPC. The second-to-last table is geared toward a wandering cobbler, and the last is geared toward a more settled cobbler, but strictly speaking some of the stuff in either table could apply to either flavor of cobbler.",
+    "id": "5y84hx",
+    "keywords": [
+        "cobbler",
+        "cordwainer",
+        "shoemaker",
+        "bootmaker",
+        "boots",
+        "soft shoes",
+        "dancing shoes",
+        "enchanted boots",
+        "magic shoes",
+        "happy feet"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/comments/5y84hx",
+    "related_tables": [],
+    "tables": [
+        {
+            "subcategory": "Random Cobbler"
+        },
+        {
+            "dice": "d6",
+            "name": "Premises: The cobbler makes and repairs shoes...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "In the yard in front of the cobbler’s house."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "In the front room of the cobbler’s house."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "In a small storefront on a busy street."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "In a small storefront down a quiet alley."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "On a small cart set up in a market square."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Wherever there is work; the cobbler travels from town to town."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Reputation: The cobbler is known for…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Fast and reliable repairs."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Miraculous repairs of badly damaged footwear."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "High-quality work at fair prices."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Crafting sturdy wooden shoes."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Crafting beautiful leather boots."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Not asking any questions."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Training: The cobbler learned the trade from a/an...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Prison workhouse."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Patient mentor."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Demanding master cordwainer."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Parent who mended shoes out of the home."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Licensed guild craftsman."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Rebellious leatherworker."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Skills: Even among the trade, the cobbler has especially…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Nimble fingers."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Strong fingers."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Tireless hands."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Sharp eyes."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Good business sense."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Friendly service."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Hidden talent: The cobbler is also pretty good at…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Storytelling."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Playing the lute or harp."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Riddles."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Fisticuffs."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Throwing darts or knives."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Brewing beer."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Personality trait: The cobbler…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Always greets customers with a smile."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Has little patience for customers who question his work."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Always murmurs a prayer before and after finishing a job."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Listens patiently and loves to hear everyone’s story."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Is generous and often offers customers something to eat or drink."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Is extremely tidy in both his/her personal hygiene and work."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Quirk/flaw: The cobbler…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Is suspicious of foreigners."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Barely notices his/her surroundings while working."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Can’t help but haggle over prices."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Refuses to negotiate on principle."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Is excessively paranoid about pickpockets and burglars."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Is usually a little drunk."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Goal: The cobbler is looking for a/an...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "New assistant."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Bit of fine leather, wood, or fur."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Replacement for a worn tool."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Easy sale."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Opportunity to sell some fancy dancing shoes."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Person to deliver some finished work."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Cart/pack: The cobbler is carrying or carting around a/an…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Unsettling array of scissors."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Knife carved of bone."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Hammer with an ominous stain."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Dozen or more unfinished boots."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Pile of dry, salted fish."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Number of fine silk ladies’ shoes."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Shop/house: The cobbler’s work space features a/an…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Pair of enchanted boots that are not for sale."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Pair of boots worn by a local hero."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Hidden door."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Burglar alarm on the front door."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Icon of a crafter god."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Portrait of a parent or grandparent."
+                }
+            ]
+        }
+    ],
+    "title": "Cobblers",
+    "use_with": []
+}

@@ -1,0 +1,337 @@
+{
+    "category": "Dungeons/Locations",
+    "description": "Use these to make a quick infernal dungeon.",
+    "id": "5zz7gt",
+    "keywords": [
+        "inferno",
+        "hades",
+        "underworld",
+        "eternal torment",
+        "nine hells",
+        "seven hells",
+        "all the hells",
+        "hells yeah"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/comments/5zz7gt",
+    "related_tables": [],
+    "tables": [
+        {
+            "subcategory": "Random Infernal Dungeon"
+        },
+        {
+            "dice": "d6",
+            "name": "This place is a/an...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Icy cave."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Stone labyrinth."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Series of dark, steamy tunnels."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Iron-walled storage vault."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Evil temple or monastery."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Inescapable prison."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "This place is located…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Near an infernal gate."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Beneath an infernal palace."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "At the edge of an infernal realm."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Deep within an infernal realm."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Beneath a city in the mortal world."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "In a remote location in the mortal world."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Major feature: You see a/an...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Evil altar."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Magically-crafted colonnade."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Large relief depicting twisted humanoids."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Mural depicting skeletons and flames."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Nest belonging to some sort of beast."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Set of double doors carved to resemble the mouth of a great beast."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Minor feature: You see a...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Icon to an evil god."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Small statue of an imp or gargoyle."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Pile of twisted bones."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Row of chains and shackles."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Rack of implements of torture."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Creepy chandelier or wall sconce."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "NPC: You meet a/an…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Hapless prisoner."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Enslaved soul."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Fast-talking imp."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Patrolling spined devil."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Enterprising warlock."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Sycophantic cultist."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Beast: You meet a/an…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Bat."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Raven."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Scorpion."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Serpent."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Stirge."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Wolf."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Secondary Monster: You come upon a/an…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Bearded devil."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Chain devil."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Horned devil."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Erinyes."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Hell hound."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Nightmare."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Primary monster: This place is currently ruled by a/an…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Half-fiend vampire lord."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Ascendant dark sorceress."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Especially clever ice devil."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Particularly ambitious pit fiend."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Fiendish dragon."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Infernal prince."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Traps/hazard: You must survive the…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Scything blades."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Poisonous gas."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Nauseating fumes."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Erupting spouts of fire."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Rivers of flame."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Spiked portcullis traps."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Reward/treasure: If you survive, you may find a/an...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Flaming longsword."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Unbreakable helm."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Tome of infernal summoning."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Rod of shadow and death."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Vast collection of soul gems."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Imprisoned ancient hero."
+                }
+            ]
+        }
+    ],
+    "title": "Infernal Dungeons",
+    "use_with": [
+        {
+            "link": "4boiw9",
+            "title": "Fiends"
+        },
+        {
+            "link": "4n03im",
+            "title": "Infernal beasts"
+        },
+        {
+            "link": "4tl3c6",
+            "title": "Unholy altars"
+        }
+    ]
+}

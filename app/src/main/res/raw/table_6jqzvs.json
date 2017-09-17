@@ -1,0 +1,376 @@
+{
+    "category": "Dungeons/Locations",
+    "description": "Use these to make a quick dungeon in the Shadowfell or shadow-touched location.",
+    "id": "6jqzvs",
+    "keywords": [
+        "Shadowfell",
+        "shadowfolk",
+        "shadar-kai",
+        "darklings",
+        "ghosts",
+        "witch",
+        "shadow realm",
+        "realm of the dead",
+        "dead realm",
+        "shadow world"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/comments/6jqzvs",
+    "related_tables": [
+        {
+            "link": "614gba",
+            "title": "Feywild dungeons"
+        },
+        {
+            "link": "5zz7gt",
+            "title": "Infernal dungeons"
+        }
+    ],
+    "tables": [
+        {
+            "subcategory": "Random Shadowfell Dungeon"
+        },
+        {
+            "dice": "d6",
+            "name": "This place is a/an...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Eerie cave."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Maze of black rock."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Series of pitch black tunnels."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Forgotten tomb."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Crumbling catacomb."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Inescapable prison."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "This place is located…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Near a shadowfolk stronghold."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Beneath a creepy old castle."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Beneath an ancient mausoleum."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Deep within a twisted forest or swamp."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Beneath a corrupt city in the mortal world."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "In a forbidding mountain valley in the mortal world."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Major feature: You see a/an...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Statue of a personification of death."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Altar dedicated to a dead god."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Mural depicting an hellish battlefield."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Ornately decorated stone sarcophagus."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Several curtains of dusty cobwebs."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Set of double doors framed with bones."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Minor feature: You see a/an...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Dusty empty bottle."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Small statue depicting several skeletons."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Set of manacles and chains."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Crack in the wall or ceiling."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Patch of sickly grey mold."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Handful of floating globes of dim light."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "NPC: You meet a/an…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Tricky witch."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Desperate fugitive."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Solitary monk."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Shadowfolk warrior."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Shifty graverobber."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Restless ghost."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Beast: You meet a/an…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Carrion crawler."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Black pudding or blood ooze."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Giant spider or scorpion."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Swarm of rats or crows."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Swarm of bats or flies."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Undead or shadow-touched beast (d6): 1. mastiff; 2. owl; 3. raven; 4. snake; 5. vulture; 6. wolf."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Secondary Monster: You come upon a/an…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Invisible stalker."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Pack of ghouls."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Soul devourer."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Terrifying specter."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Shambling mummy."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Zombie horde."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Primary monster: This place is currently ruled by a/an…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Vampire lord."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Death knight."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Potent lich."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Soul-collecting fiend."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Dread wraith."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Savage werewolf."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Traps/hazard: You must survive the…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Curse of wasting sickness. "
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Curse of nightmare-filled sleep."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Toxic mold spores."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Poisoned dart traps."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Closing walls trap."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Incurable waterborne illness."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Reward/treasure: If you survive, you may find the...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Crown of an ancient king of the dead."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Sword of an infamous pirate captain."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Spellbook of a long-dead necromancer."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Phylactery of a notorious lich."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Large cache of soul gems."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Helm of a villainous warlord."
+                }
+            ]
+        }
+    ],
+    "title": "Shadowfell Dungeon",
+    "use_with": [
+        {
+            "link": "3w3gbj",
+            "title": "Graverobbers"
+        },
+        {
+            "link": "3snzw5",
+            "title": "Lycanthropes"
+        },
+        {
+            "link": "40pjmd",
+            "title": "Monastery"
+        },
+        {
+            "link": "43bxpl",
+            "title": "Nightmares"
+        },
+        {
+            "link": "43k8fr",
+            "title": "Prisons"
+        },
+        {
+            "link": "3sorre",
+            "title": "Restless undead"
+        },
+        {
+            "link": "3tielc",
+            "title": "Shadowy desert"
+        },
+        {
+            "link": "3sq5dx",
+            "title": "Vampires"
+        },
+        {
+            "link": "3si4ms",
+            "title": "Witches"
+        },
+        {
+            "link": "427hd8",
+            "title": "Tombs"
+        }
+    ]
+}

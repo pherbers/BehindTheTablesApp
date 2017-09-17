@@ -1,0 +1,372 @@
+{
+    "category": "Monsters",
+    "description": "Use these to make a quick storm giant to befriend, to confuse, or to terrify your PCs.",
+    "id": "605h4l",
+    "keywords": [
+        "Storm titan",
+        "lightning sword",
+        "thunder giant",
+        "boom boom boom"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/comments/605h4l",
+    "related_tables": [
+        {
+            "link": "5z21hm",
+            "title": "Fire giants"
+        },
+        {
+            "link": "5yobkq",
+            "title": "Frost giants"
+        }
+    ],
+    "tables": [
+        {
+            "subcategory": "Random Storm Giant"
+        },
+        {
+            "dice": "d6",
+            "name": "Hair color: The storm giant’s hair is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Blue black."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Pale purple."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Steely grey."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Blue grey."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Purple grey."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Electric purple."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Eye color: The storm giant’s eyes are...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Seafoam green."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Emerald green."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Greenish gold."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Blue green."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Silvery grey."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Bright purple."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Skin color: The storm giant’s skin is…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Pale grey."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Dark grey."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Purple gray."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Brilliant purple."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Golden brown."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Burnt orange."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Distinguishing feature: The storm giant has…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Long, shaggy hair."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Many tattoos."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A jagged scar on its face."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Thick chest hair."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A missing eye."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Thick mustaches."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Home: The storm giant dwells in a/an…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Undersea palace of coral and stone."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Fortress hidden in a dark ocean trench."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Mountaintop tower."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Castle on a cloud."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Hidden mountain cave."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Secluded coastal cave."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Training: The storm giant is a/an...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Astrologer."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Hammerer."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Mystic sage."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Oneiromancer."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Stormcaller."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Swordfighter."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Skill: Even among storm giants, the storm giant is particularly good at...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Long-term strategy."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Reading omens."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Extorting lesser beings."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Calling down lightning."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Solving riddles."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Swordplay."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Quirk/flaw: The storm giant frequently...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Tries to carry more plunder than it should."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Grinds its teeth."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Snores especially loud."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Picks fights with his/her allies."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Eats too much."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Picks his/her teeth."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Possessions: The storm giant is carrying a/an...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Huge greataxe."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Flashy sword and shining shield."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Enormous steel warhammer."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Crystal of swirling mists."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Wide, jeweled belt."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Fine, silk robe embroidered with gold thread."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Immediate goal: The storm giant is looking for a/an...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Enchanted weapon to add to its collection."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Fine gem to add to its collection."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Quiet place to sit and think."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Report of the goings-on in a far away land."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Skilled debater to help it solve a riddle."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Guest to join it for dinner."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Accomplishment: The storm giant is especially proud of…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "His/her stable full of oversized horses."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Predicting, to the minute, the fall of a great empire."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Saving a village from a religious crusader’s wrath."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Raising a dragon from egg to young adulthood."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Making peace between a dwarvish fiefdom and a goblin kingdom."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Translating an ancient text written in a lost fiendish tongue."
+                }
+            ]
+        }
+    ],
+    "title": "Storm Giants",
+    "use_with": [
+        {
+            "link": "3t5sik",
+            "title": "Pirates"
+        },
+        {
+            "link": "5x6ij0",
+            "title": "Merfolk"
+        },
+        {
+            "link": "4nbzhp",
+            "title": "Storm beasts"
+        }
+    ]
+}

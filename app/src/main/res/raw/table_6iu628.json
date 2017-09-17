@@ -1,0 +1,355 @@
+{
+    "category": "NPCs",
+    "description": "This is a quick method for making a heroic fighter with some suggestions for who the hero is, what the hero is good at, what interests the hero, and what the hero's ultimate goal might be.\n\nThe situation where this makes the most sense to me is if you want to have somewhat disposable PCs and you don't want to spend too much time making the decisions in building a new PC.",
+    "id": "6iu628",
+    "keywords": [
+        "PC generator",
+        "fighter",
+        "knight",
+        "fighting-man",
+        "man-at-arms"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/comments/6iu628",
+    "related_tables": [
+        {
+            "link": "6iu521",
+            "title": "Heroic barbarian"
+        },
+        {
+            "link": "6iu6kh",
+            "title": "Heroic paladin"
+        },
+        {
+            "link": "6iu6uu",
+            "title": "Heroic ranger"
+        }
+    ],
+    "tables": [
+        {
+            "subcategory": "Random Heroic Fighter"
+        },
+        {
+            "dice": "d6",
+            "name": "You grew up in a/an…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Border town"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Castle"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Large city"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Military outpost"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Remote homestead"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Small village"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "In the past, you were a/an…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Farmer or miner"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Gladiator or bandit"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Knight or sellsword"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Sailor or pirate"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Smith or stonemason"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Soldier or guard"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "You take pride in…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Athletic competitions"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Crafting arms and armor"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Healthy diet"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Military history"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Physical training"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Weapon maintenance"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "You need improvement on…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Armor maintenance"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Controlling temper"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Getting more sleep"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Holding liquor"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Saving up coin"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Trusting allies"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "You became an adventurer to…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Avoid punishment"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Escape from life of toil"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Prove mettle after failure"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Pursue fame and fortune"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Secure good marriage"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Vengeance upon old foe"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Your primary weapon is your…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Battleaxe or greataxe"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Flail or morningstar"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Longbow or shortbow"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Longspear or spear"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Longsword or greatsword"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Warhammer or maul"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "You are also skilled with your…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Bare fists"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Daggers"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Handaxes"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Mace"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Shortsword"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Wrestling moves"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "You are carrying a/an…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Famous ancestor's weapon"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Favor from beloved"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Guilt of horrific crime"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Memento of fallen comrade"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Shield with noble crest"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Trophy from fallen enemy"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "You are wearing a/an/some…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Battered, carved helm"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Dark cloak with hood"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Parent's necklace or ring"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Shiny new boots"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Patched leather armor"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Well-oiled chainmail"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "You have a keen interest in…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Amorous pursuits"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Card games"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Dice games"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Fine wines, ales, and spirits"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Heroic tales and legends"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Singing or playing instrument"
+                }
+            ]
+        }
+    ],
+    "title": "Heroic Fighter",
+    "use_with": [
+        {
+            "link": "3zr0h4",
+            "title": "NPC appearance, personality, faith, and flaws"
+        },
+        {
+            "link": "4hbe7j",
+            "title": "Player character"
+        },
+        {
+            "link": "3tkdty",
+            "title": "Mercenary troops"
+        },
+        {
+            "link": "3tjg9d",
+            "title": "Military companies"
+        },
+        {
+            "link": "3sj8mc",
+            "title": "Noble houses"
+        }
+    ]
+}

@@ -1,0 +1,632 @@
+{
+    "category": "Objects, Items, and Miscellany",
+    "description": "These tables can be used to generate \"Books For Sale\" listings for a community classified ads post -- maybe there's a bulletin board in your local tavern or inn.\n\nThe idea of Klargslist, an in-game version of Craigslist, was inspired by an image of an orc \"Missed Connections\" style classified ad on /r/dnd. I plan to expand Klargslist in the future to include other For Sale categories, along with Help Wanted, Services Offered, Missed Connections, Rants and Raves, and of course no community classifieds section is complete without an (ahem) \"Back Page\" section.\n\nThe overwhelming majority of the content for this generator was taken and modified from [this post](https://www.reddit.com/r/BehindTheTables/comments/43wsio/books_of_all_sorts/) by /u/OrkishBlade. I've really just added the flavor of making these into a classifieds style listing.",
+    "id": "6ih4sq",
+    "keywords": [
+        "Klargslist",
+        "Craigslist",
+        "books",
+        "items",
+        "mundane items",
+        "for sale",
+        "classified ads"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/comments/6ih4sq",
+    "related_tables": [
+        {
+            "link": "43wsio",
+            "title": "Books of All Sorts"
+        }
+    ],
+    "tables": [
+        {
+            "subcategory": "Klargslist Books For Sale - If it's got pages, sell it here"
+        },
+        {
+            "dice": "d6",
+            "name": "Eye-catching headline",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Book For Sale -"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "How to Learn"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "The History of"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "The Tome You’re Searching For -"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Secrets of"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "1000 Pages of"
+                }
+            ]
+        },
+        {
+            "dice": "d100",
+            "name": "Mention Item in Headline",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Alchemy and Potions of Healing Tonics"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Alchemy and Potions of Metallurgy"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Alchemy and Potions of Pyromancy"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Alchemy and Potion Recipes"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Art and architecture of Fortresses"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Art and architecture of Palaces"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Art and Painting"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Art and Sketching"
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Art and Sculpture"
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Architecture and Stonemasonry"
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Art and Architecture of Temples and Tombs"
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Astronomy and Comets"
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "Astronomy and Constellations"
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "Astronomy and the Sun"
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "Astronomy and Strange Phenomena"
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "Astrology and Comets"
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "Astrology and Constellations"
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "Astrology and the Moon"
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "Astrology and the Sun"
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "Astrology and Strange Phenomena"
+                },
+                {
+                    "dice_val": "21",
+                    "entry": "Beast Domestication"
+                },
+                {
+                    "dice_val": "22",
+                    "entry": "Beasts and Their Habits"
+                },
+                {
+                    "dice_val": "23",
+                    "entry": "Beast Handling"
+                },
+                {
+                    "dice_val": "24",
+                    "entry": "Beast Husbandry and Wifery"
+                },
+                {
+                    "dice_val": "25",
+                    "entry": "Demonology and Conjuring"
+                },
+                {
+                    "dice_val": "26",
+                    "entry": "Demonology and Exorcism"
+                },
+                {
+                    "dice_val": "27",
+                    "entry": "Demonology and Fiendish Bargains"
+                },
+                {
+                    "dice_val": "28",
+                    "entry": "Demonology and Fiendish Beasts"
+                },
+                {
+                    "dice_val": "29",
+                    "entry": "Demonology and Fiendish Symbols"
+                },
+                {
+                    "dice_val": "30",
+                    "entry": "Divination and Anthropomancy"
+                },
+                {
+                    "dice_val": "31",
+                    "entry": "Divination and Oneiromancy"
+                },
+                {
+                    "dice_val": "32",
+                    "entry": "Divination and Palm Reading"
+                },
+                {
+                    "dice_val": "33",
+                    "entry": "Divination and Tarot Cards"
+                },
+                {
+                    "dice_val": "34",
+                    "entry": "Divination and Tea Leaves"
+                },
+                {
+                    "dice_val": "35",
+                    "entry": "Anatomy and the Healing Arts"
+                },
+                {
+                    "dice_val": "36",
+                    "entry": "Prayers and the Healing Arts"
+                },
+                {
+                    "dice_val": "37",
+                    "entry": "Rituals and the Healing Arts"
+                },
+                {
+                    "dice_val": "38",
+                    "entry": "Surgery and the Healing Arts"
+                },
+                {
+                    "dice_val": "39",
+                    "entry": "Healing Herbs and their Lore"
+                },
+                {
+                    "dice_val": "40",
+                    "entry": "Mushrooms and their Lore"
+                },
+                {
+                    "dice_val": "41",
+                    "entry": "Poisons and Herbal Lore"
+                },
+                {
+                    "dice_val": "42",
+                    "entry": "Roots and Herb Lore"
+                },
+                {
+                    "dice_val": "43",
+                    "entry": "Trees and their Lore"
+                },
+                {
+                    "dice_val": "44",
+                    "entry": "Wildflowers and their Lore"
+                },
+                {
+                    "dice_val": "45",
+                    "entry": "Ancient History"
+                },
+                {
+                    "dice_val": "46",
+                    "entry": "Cultural History"
+                },
+                {
+                    "dice_val": "47",
+                    "entry": "Economic History"
+                },
+                {
+                    "dice_val": "48",
+                    "entry": "Military History"
+                },
+                {
+                    "dice_val": "49",
+                    "entry": "Political History"
+                },
+                {
+                    "dice_val": "50",
+                    "entry": "Ancient Languages and Tongues"
+                },
+                {
+                    "dice_val": "51",
+                    "entry": "Forbidden Languages and Tongues"
+                },
+                {
+                    "dice_val": "52",
+                    "entry": "Exotic Languages and Tongues"
+                },
+                {
+                    "dice_val": "53",
+                    "entry": "Grammar and Punctuation"
+                },
+                {
+                    "dice_val": "54",
+                    "entry": "Translations of Languages of Tongues"
+                },
+                {
+                    "dice_val": "55",
+                    "entry": "Tales of Grand Adventure"
+                },
+                {
+                    "dice_val": "56",
+                    "entry": "Fairy Tales and Other True Fiction"
+                },
+                {
+                    "dice_val": "57",
+                    "entry": "Folk Tales"
+                },
+                {
+                    "dice_val": "58",
+                    "entry": "Murder Mystery Tales"
+                },
+                {
+                    "dice_val": "59",
+                    "entry": "Romantic Tales"
+                },
+                {
+                    "dice_val": "60",
+                    "entry": "Tales of Satire"
+                },
+                {
+                    "dice_val": "61",
+                    "entry": "Gems, Mining, and Mineralogy"
+                },
+                {
+                    "dice_val": "62",
+                    "entry": "Metals, Mining and Mineralogy"
+                },
+                {
+                    "dice_val": "63",
+                    "entry": "Mining, Mineralogy, and the Strategies Thereof"
+                },
+                {
+                    "dice_val": "64",
+                    "entry": "Smithing, Mining, and Mineralogy"
+                },
+                {
+                    "dice_val": "65",
+                    "entry": "Heroic Ballads and Limericks"
+                },
+                {
+                    "dice_val": "66",
+                    "entry": "Love Ballads"
+                },
+                {
+                    "dice_val": "67",
+                    "entry": "Bawdy Tunes and Haiku"
+                },
+                {
+                    "dice_val": "68",
+                    "entry": "Dirges and Laments"
+                },
+                {
+                    "dice_val": "69",
+                    "entry": "Hymns for Humming"
+                },
+                {
+                    "dice_val": "70",
+                    "entry": "Corpses and Necromancy"
+                },
+                {
+                    "dice_val": "71",
+                    "entry": "Lichdom and Necromancy"
+                },
+                {
+                    "dice_val": "72",
+                    "entry": "Spirits, Souls, and Necromancy"
+                },
+                {
+                    "dice_val": "73",
+                    "entry": "Necromancy and Undead Beasts"
+                },
+                {
+                    "dice_val": "74",
+                    "entry": "Vampirism and Necromancy"
+                },
+                {
+                    "dice_val": "75",
+                    "entry": "Comedic Plays"
+                },
+                {
+                    "dice_val": "76",
+                    "entry": "Dramatic Plays"
+                },
+                {
+                    "dice_val": "77",
+                    "entry": "Historical Plays"
+                },
+                {
+                    "dice_val": "78",
+                    "entry": "Romantic Plays"
+                },
+                {
+                    "dice_val": "79",
+                    "entry": "Satirical Plays"
+                },
+                {
+                    "dice_val": "80",
+                    "entry": "Tragic Plays"
+                },
+                {
+                    "dice_val": "81",
+                    "entry": "Epic Poetry"
+                },
+                {
+                    "dice_val": "82",
+                    "entry": "Love Poetry"
+                },
+                {
+                    "dice_val": "83",
+                    "entry": "Lyric Poetry"
+                },
+                {
+                    "dice_val": "84",
+                    "entry": "Poetic Odes and Laments"
+                },
+                {
+                    "dice_val": "85",
+                    "entry": "Prophecies and Omens of the Apocalypse"
+                },
+                {
+                    "dice_val": "86",
+                    "entry": "Foreboding Astronomical Events"
+                },
+                {
+                    "dice_val": "87",
+                    "entry": "Ominous and Prophetic Birds"
+                },
+                {
+                    "dice_val": "88",
+                    "entry": "Ominous and Prophetic Dreams"
+                },
+                {
+                    "dice_val": "89",
+                    "entry": "Ominous and Prophetic Visions"
+                },
+                {
+                    "dice_val": "90",
+                    "entry": "Ominous and Prophetic Weather"
+                },
+                {
+                    "dice_val": "91",
+                    "entry": "Theology and the Afterlife"
+                },
+                {
+                    "dice_val": "92",
+                    "entry": "Rituals and Practices in Theology"
+                },
+                {
+                    "dice_val": "93",
+                    "entry": "Saints, Martyrs, and Theology"
+                },
+                {
+                    "dice_val": "94",
+                    "entry": "Sacred Symbols and Texts"
+                },
+                {
+                    "dice_val": "95",
+                    "entry": "Totally Real Magic and Enchantments"
+                },
+                {
+                    "dice_val": "96",
+                    "entry": "Totally Real Magic and Illusions"
+                },
+                {
+                    "dice_val": "97",
+                    "entry": "Totally Real Magic and Elementalism"
+                },
+                {
+                    "dice_val": "98",
+                    "entry": "Totally Real Magic and Summoning"
+                },
+                {
+                    "dice_val": "99",
+                    "entry": "Totally Real Magic and Teleportation"
+                },
+                {
+                    "dice_val": "100",
+                    "entry": "Totally Real Magic and Warding"
+                }
+            ]
+        },
+        {
+            "dice": "d4",
+            "name": "I’m selling this book because...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "it was purchased as part of a large lot and I have no use for it."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "it has brought nothing but bad luck into my life."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "my shelves are full and it’s time to pare down."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "it belongs to a friend who can’t read or write."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "The book is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "worn and tattered."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "in poor shape. An ink stain obscures a fair amount of the pages."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "accidentally damaged. Various water damage around the edges but readable."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "vandalized. It appears that a good dozen pages have been ripped out."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "deliberately damaged. Towards the middle there is a section hollowed out."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "badly damaged. A lot of the ink has run through water damage and it is nearly illegible."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "ancient. The pages crumble as they turn."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "strange. The pages are blank?"
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "in good shape, but used. There are handwritten notes in the margins of the pages."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "pristine. You can smell the ink drying."
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "The book’s cover is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "missing. The pages are bound with string woven through holes near the spine."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "stained leather. Some sign of wear."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "wooden. The title is carved into the spine."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "paperback."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "animal hide. The fur is still on."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "stone. Iron rings hold it together."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "cast Iron. Hinges keep it bound."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "leather with gemstones embedded in it."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "leather with the title branded on it."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "leather with gilding on the spine."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "torn off. It's kept together by a leather belt."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "tree bark. Dried vine binds it."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "The book is...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "a standalone volume, the author's only published work."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "a standalone volume, the author's only surviving work."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "a standalone volume, written by a prolific but obscure author."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "a standalone volume, written by a well-known author."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "the sequel to a book by the same author."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "a part of a series with 3-9 books."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "a single volume of a larger work with 4-15 volumes."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "an edition of a regularly published book with multiple authors."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "a collection of works by the same author."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "an anthology of works by several authors."
+                }
+            ]
+        }
+    ],
+    "title": "Klargslist - For Sale Books",
+    "use_with": []
+}

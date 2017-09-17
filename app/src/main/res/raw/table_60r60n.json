@@ -1,0 +1,303 @@
+{
+    "category": "Objects, Items, and Miscellany",
+    "description": "Use these to make a quick helm, mundane or magical.",
+    "id": "60r60n",
+    "keywords": [
+        "Helm",
+        "gorget",
+        "plume",
+        "knight",
+        "helmet",
+        "hat",
+        "headgear",
+        "magneto"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/comments/60r60n",
+    "related_tables": [
+        {
+            "link": "5yszmn",
+            "title": "Daggers"
+        },
+        {
+            "link": "5zfn7w",
+            "title": "Shields"
+        }
+    ],
+    "tables": [
+        {
+            "subcategory": "Random Helms"
+        },
+        {
+            "dice": "d6",
+            "name": "Helm material: The helm is made of…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Boiled leather."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Bronze."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Copper."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Iron."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Steel."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Valuable metal (d6): 1. gold-plated steel; 2. silver-plated steel; 3. platinum-plated steel; 4. mithral; 5. adamantine; 6. odium."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Helm feature: The helm has…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Several sharp spikes."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Fur-lined interior."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A mesh facemask."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A solid facemask with a pair of eye holes."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A solid facemask with a single wide eye slit."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "An open face with a protective nose guard."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Decorative feature: The helm is adorned with…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Ancient runes etched into the surface."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A single large feather."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Several feathers."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A horsehair tassel."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "The likeness of a skull."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "The likeness of a beast."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Beast Likeness: The helm is formed in the likeness of a/an...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Dragon."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Lion or tiger."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Wolf or hound."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Stag or bull."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Eagle or owl."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Snake or frog."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Special protection: When properly activated, the helm provides extra protection against...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Enchantments."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Illusions."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Radiant damage."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Necrotic damage."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Psychic damage."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Thunder damage."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Special property: The helm...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Allows the wearer to commune with dead souls or demonic beings."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Erupts with a burst of necrotic or psychic energy when the wearer is hit."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Enhances the wearer’s senses."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Allows the wearer to grant resistance to damage an ally."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Allows the wearer to summon elementals or incorporeal undead."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Allows the wearer to teleport short distances."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Activation: The helm’s special protection or special property activates or amplifies…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Against a specific type of enemy (d6): 1. dragons; 2. giants; 3. fiends; 4. aberrations; 5. fey; 6. celestials."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "When worn by a member of a specific race (d6): 1. dwarf; 2. genie; 3. giant; 4. half-dragon; 5. human; 6. undead."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "On a plane outside the mortal realm (d6): 1. Feywild; 2. Plane of Air; 3. Plane of Earth; 4. Plane of Fire; 5. Plane of Water; 6. Shadowfell."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "In darkness."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "In the realm of a particular elemental lord or arch-fiend."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "In places touched by death."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Creator: The helm was made by a/an…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Severely misunderstood sorcerer."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Dwarvish warpriest."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Simple blacksmith."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Charismatic crusader."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Devoted monk."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Exarch of a deity."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Past wielder: The helm’s most famous wearer was a/an…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Dwarvish battlelord."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Legendary elvish hero."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Famous dragonslayer."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Treacherous knight."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Notorious cult leader."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Fearsome warlord."
+                }
+            ]
+        }
+    ],
+    "title": "Helms",
+    "use_with": []
+}

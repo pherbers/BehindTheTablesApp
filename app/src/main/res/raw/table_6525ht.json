@@ -1,0 +1,337 @@
+{
+    "category": "Monsters",
+    "description": "Going for something wacky to try and provide you with some inspiration/ideas for reskinned monsters to provide some \"fresh\" experiences for even your veteran players. \"What's that humanoid!\" is a great, pokemon-esque game that players secretly play at the table if they are unsure what it is. You will be pleasantly surprised at how pleasantly surprised your players will be when you start incorporating these into your adventures!\n\nHave a request for a Behind The Tables table? Let me know!",
+    "id": "6525ht",
+    "keywords": [
+        "Enemy",
+        "Antagonist",
+        "Humanoid",
+        "Reskin",
+        "Monsters",
+        "Random",
+        "Fresh",
+        "New",
+        "Encounters"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/comments/6525ht",
+    "related_tables": [],
+    "tables": [
+        {
+            "subcategory": "Reskinning Monster Generator (Humanoids)"
+        },
+        {
+            "dice": "d8",
+            "name": "These monsters use the base template of",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Goblins"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Hobgoblins"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Kobolds"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Orcs"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Lizardfolk"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Ogres"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Bugbears"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Gnolls"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "They have an increased ability attribute",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Strength +4"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Intelligence +4"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Wisdom +4"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Dexterity +4"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Constitution +4"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Charisma +4 "
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "They have adapted physically to the following environment",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Sub-zero Temperatures"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Subterranean underground living"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Living inside a volcano"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Scorching heat in a desert"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Dense Jungle or Thick Forest"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Barren Wasteland and/or marshland"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "They are different from the base monster because of their",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Organisation and Discipline"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Aggression and Shock Tactics"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Stealth and Guerrilla Tactics"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Skirmishing tactics"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Supreme Intellect"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Knowledge of their environment"
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "They have the following physical anomaly",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A large set of wings"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A third eye"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Darkvision, Tremorsense, Truesight or Blindsight"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "An extra set of arms"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Sharp claws"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Oversized mouths and a dangerous bite"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Venomous Fangs"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Faster movement speed"
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Thicker skin or hide"
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Webbed Feet and/or Hands"
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "Their weapon of choice is the",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Javelin"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Sling"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Greataxe"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Flail"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Mace"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Greatsword"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Whip"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Crossbow"
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Scythe"
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Trident"
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Pike"
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Shuriken"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "In battles, these clans are usually lead by a",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Elected Chieftain"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Powerful Warlord"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Crafty Tactician"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Skilled Tracker/Bounty Hunter"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Mentally-insane Priest"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A powerful spellcaster"
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "They domesticate the following beasts to hunt with them",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Dire Wolves"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Drakes"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Wyverns"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Giant Spiders"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Blink Dogs"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Gibbering Mouthers"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Giant Apes"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Nagas"
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Displacer Beasts"
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Gricks"
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Panthers"
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Dire Rats"
+                }
+            ]
+        }
+    ],
+    "title": "Reskinning Monster Generator - Humanoids",
+    "use_with": []
+}

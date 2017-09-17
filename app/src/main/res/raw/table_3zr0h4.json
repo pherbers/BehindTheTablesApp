@@ -1147,7 +1147,7 @@
         },
         {
             "dice": "d8",
-            "name": "The person is a...",
+            "name": "Faith: The person is a...",
             "table_entries": [
                 {
                     "dice_val": "1",
@@ -1185,7 +1185,7 @@
         },
         {
             "dice": "d6",
-            "name": "The person is prejudice against...",
+            "name": "Prejudice: The person is prejudice against...",
             "table_entries": [
                 {
                     "dice_val": "1",
@@ -1218,7 +1218,7 @@
         },
         {
             "dice": "d20",
-            "name": "The person...",
+            "name": "Flaw: The person...",
             "table_entries": [
                 {
                     "dice_val": "1",

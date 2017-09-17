@@ -1,0 +1,353 @@
+{
+    "category": "NPCs",
+    "description": "This is a quick method for making a heroic bard with some suggestions for who the hero is, what the hero is good at, what interests the hero, and what the hero's ultimate goal might be.\n\nThe situation where this makes the most sense to me is if you want to have somewhat disposable PCs and you don't want to spend too much time making the decisions in building a new PC.",
+    "id": "6iu58l",
+    "keywords": [
+        "PC generator",
+        "bard",
+        "singer",
+        "skald"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/comments/6iu58l",
+    "related_tables": [
+        {
+            "link": "6iu6yz",
+            "title": "Heroic rogue"
+        },
+        {
+            "link": "6iu86b",
+            "title": "Heroic wizard"
+        }
+    ],
+    "tables": [
+        {
+            "subcategory": "Random Heroic Bard"
+        },
+        {
+            "subcategory": "Heroic Bard"
+        },
+        {
+            "dice": "d6",
+            "name": "You grew up in a/an…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Border town"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Capital city"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Castle"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Mining town"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Port city"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Small village"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "In the past, you were a/an…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Charlatan or peddler"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Circus performer"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Court musician"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Pickpocket or con artist"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Sailor or pirate"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Soldier or guard"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "You take pride in…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Dancing and tumbling"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Impeccable rhythm"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Intricate rhymes"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Knife throwing"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Maintaining good looks"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Quick wit"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "You need improvement on…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Choosing allies"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Drinking problem"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Gambling addiction"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Improvised performances"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Keeping secrets"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Respecting superiors"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "You became an adventurer to…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Answer to ancient riddle"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Avoid imprisonment"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Discover untold tales"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Win the love of a great beauty"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Pursue fame and fortune"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Gain vengeance upon old foe"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Your favorite weapon is your…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Dagger"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Longsword"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Rapier"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Shortbow or crossbow"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Shortsword"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Throwing knives"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Your favorite musical instrument is your…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Dance shoes"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Drum"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Flute"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Harp"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Lute"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Mandolin"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "You are especially knowledgeable of…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Alchemy and pyrotechnics"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Dirty jokes and bawdy songs"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Heroic tales and epics"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Love poetry and ballads"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Military history and anthems"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Planar travel and sacred hymns"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "You are wearing a/an/some…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Dark cloak with hood"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Fancy silk shirt"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Mustache, real or fake"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Sailor's tattoo"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Shiny new boots"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Stylish leather vest"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "You have a keen interest in…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Amorous pursuits"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Card games"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Cheap wine and ale"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Dice games"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Fine wines, ales, and spirits"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Learning people's secrets"
+                }
+            ]
+        }
+    ],
+    "title": "Heroic Bard",
+    "use_with": [
+        {
+            "link": "3zr0h4",
+            "title": "NPC appearance, personality, faith, and flaws"
+        },
+        {
+            "link": "4hbe7j",
+            "title": "Player character"
+        },
+        {
+            "link": "62hoaq",
+            "title": "Percussion instruments"
+        },
+        {
+            "link": "46m9xc",
+            "title": "Songs"
+        },
+        {
+            "link": "620bsp",
+            "title": "String instruments"
+        }
+    ]
+}

@@ -1,0 +1,389 @@
+{
+    "category": "Wilderness",
+    "description": "Use these to make a quick frozen lands region.",
+    "id": "5yfzbw",
+    "keywords": [
+        "Ice",
+        "frost",
+        "frostfell",
+        "frostvast",
+        "arctic",
+        "antarctic",
+        "tundra",
+        "taiga",
+        "beyond-the-wall",
+        "wildlings",
+        "mance rayder",
+        "night king",
+        "elsa",
+        "snow queen"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/comments/5yfzbw",
+    "related_tables": [],
+    "tables": [
+        {
+            "subcategory": "Random Frozen Lands"
+        },
+        {
+            "dice": "d6",
+            "name": "Point of interest: You come upon a/an...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Stone ruin of unknown purpose."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Large, round tent."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Dilapidated wooden house."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Fortress built of ice."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Icy cave."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Abandoned mine."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Landscape: The landscape is dominated by a/an…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Wide plain and a distant mountain range."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Wide plain and a distant shore."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Gently rolling hills."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Mountains after mountains."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Wide valley flanked by mountains."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Unusual formation of ice and rock."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Vegetation: Growing on the land you see...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Broken expanses of coniferous forest."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Mosses and lichens."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Small, hardy bushes and shrubs."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Patches of short, dry grasses."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Tough grasses, poking up through the snow."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Nothing but snow and ice."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Landmark/feature: You see a/an...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Lone, leafless tree."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Deep crevasse."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Stone bluff."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Expanse of tall grass."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Ice formation shaped like a beast."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Series of boulders."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Minor feature: You notice a/an...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Bird call."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Frozen, half-eaten carcass."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Mouse or squirrel scurrying along."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Streak of light in the sky."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Light snowfall."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Patch of lichens."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Daytime encounters: You meet a/an...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Beast (roll on beast table)."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Monster (roll on monster table)."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Beautiful enchantress."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Solitary warrior."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Wide-eyed scholar."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Suspicious hunter."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Nighttime encounters: You meet a/an...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Beast (roll on beast table)."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Monster (roll on monster table)."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Hungry ghoul"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Restless ghost."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Savage beastshifter (roll on beast table)."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Dwarvish refugee."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Beast: You come upon a/an...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Bear."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Fox."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Elk or moose."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Predatory bird (hawk or owl)."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Wolf (gray wolf or dire wolf)."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Yak or ox."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Monster: You come upon a/an...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Wight."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Hill giant."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Troll."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Frost worm (remorhaz)."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Ice elemental."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Winter wolf."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Hazard: You happen upon a/an…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Blizzard with whiteout conditions."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Harsh wind that makes travel difficult."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Ice storm."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Bear trap."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Slippery patch of ice."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Place touched by a sleeping curse."
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "Power center: This region is ruled or menaced by a/an…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Lich."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Frost giant."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "White dragon."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Barbarian clan."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Military company."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Mining guild."
+                }
+            ]
+        }
+    ],
+    "title": "Quick Frozen Lands",
+    "use_with": [
+        {
+            "link": "3unfbm",
+            "title": "Caverns"
+        },
+        {
+            "link": "43ufyr",
+            "title": "Mines"
+        },
+        {
+            "link": "42rm5s",
+            "title": "Mountains"
+        },
+        {
+            "link": "3tjdae",
+            "title": "Savage hordes"
+        },
+        {
+            "link": "3sorre",
+            "title": "Undead, restless"
+        },
+        {
+            "link": "4nbzt3",
+            "title": "Winter beasts"
+        },
+        {
+            "link": "4aepj5",
+            "title": "Wolves"
+        }
+    ]
+}

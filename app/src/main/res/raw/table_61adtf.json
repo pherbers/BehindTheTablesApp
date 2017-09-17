@@ -1,0 +1,276 @@
+{
+    "category": "Factions/Groups",
+    "description": "Use these to make a quick acting troupe to entertain, to bewitch, or to heckle your PCs.",
+    "id": "61adtf",
+    "keywords": [
+        "Actors",
+        "players",
+        "mummers",
+        "mimes",
+        "farce",
+        "satire",
+        "tragedy",
+        "bards",
+        "marlowe",
+        "becket",
+        "godot",
+        "shakespeare",
+        "rosencrantz and guildenstern"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/comments/61adtf",
+    "related_tables": [],
+    "tables": [
+        {
+            "subcategory": "Random Acting Troupe"
+        },
+        {
+            "dice": "d10",
+            "name": "The players travel about…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Aboard a small sailing ship."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Aboard a flatboat or small barge."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "On horseback."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "In a painted wagon, drawn by beautiful horses."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "In an unadorned wagon, drawn by a team of oxen."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "On foot with heavy packs."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "On foot with a handful of pack horses."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "On foot with a handful of pack mules."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "With half the troupe on foot and half mounted on donkeys."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "By mysterious means; no one has seen them arrive and no one has seen them leave."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "The players are known for…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Heartbreaking performances."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Bawdy comic performances."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Moralistic allegories."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Rousing musical numbers."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Fantastic visual effects and illusions."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Acerbic political satire."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Sappy romantic tales."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Crowd-pleasing tales of legendary heroes."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Dangerous stunts."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Throwing the best parties."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "The players advertise their shows by…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A whispering campaign through local pubs."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Performing excerpts on street corners."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Performing excerpts in local pubs."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Posting flyers all about town."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Hiring local harlots to spread the word."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Insulting the local clergy."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Insulting the local authorities."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Giving sweets to children."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Singing a catchy jingle."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Casting a charm spell on locals."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "The players left the last town…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "At the end of a successful run of performances."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "With a promise to return to entertain again soon."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Chased out by an angry mob."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Under threat of imprisonment by a local lord."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Under threat of execution by a local high priest or priestess."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Following a failed assassination attempt by a local crime boss’s lackey."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "After being threatened by a powerful merchant."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "After fleecing a wealthy merchant."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "After fleecing a local crime boss."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Mysteriously; the players can’t explain how the troupe arrived here."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "There are rumors that among the players is someone who…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Can enter people’s dreams."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Can speak with the dead."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Can raise the dead."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Can craft deadly poisons."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Has a vendetta against a local lord or merchant."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Has fiendish blood in his/her veins."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Has draconic blood in his/her veins."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Slew a dragon."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Slew a giant."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Is a notorious outlaw in disguise."
+                }
+            ]
+        }
+    ],
+    "title": "Acting Troupes",
+    "use_with": [
+        {
+            "link": "61fsup",
+            "title": "Actors"
+        },
+        {
+            "link": "46ma8g",
+            "title": "Bards"
+        },
+        {
+            "link": "46m9xc",
+            "title": "Songs"
+        },
+        {
+            "link": "4daxw7",
+            "title": "Urban marketplace"
+        }
+    ]
+}

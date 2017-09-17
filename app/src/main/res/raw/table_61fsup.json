@@ -1,0 +1,230 @@
+{
+    "category": "NPCs",
+    "description": "Use these to make a quick acting troupe to entertain, to bewitch, or to heckle your PCs.",
+    "id": "61fsup",
+    "keywords": [
+        "Actors",
+        "players",
+        "mummers",
+        "mimes",
+        "farce",
+        "satire",
+        "tragedy",
+        "bards",
+        "marlowe",
+        "becket",
+        "godot",
+        "shakespeare",
+        "rosencrantz and guildenstern"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/comments/61fsup",
+    "related_tables": [],
+    "tables": [
+        {
+            "subcategory": "Random Actors"
+        },
+        {
+            "dice": "d10",
+            "name": "Archetype: The actor/actress is…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "An exotic beauty."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A lovely ingenue."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "An aging diva."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A fat lady."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "An effeminate young man."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A tall and gangly young man."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "An extremely handsome man."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A hunky silver fox."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A grey-haired man."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A hairy dwarf."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Skill: The actor/actress is skilled at…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Mending costumes."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Painting sets."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Applying make-up."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Swordplay."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Seductive dancing."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Amusing character voices."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Playing the harp or lute."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Writing new plays."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Campfire cooking."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Out-drinking his/her companions."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Ambition: The actor/actress aspires to…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Earn some gold and retire comfortably."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Live up to his/her family name."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Become a household name throughout the land."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Perform in a world-renowned venue."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Perform in front of royalty."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Gain revenge on a rival who sabotaged his/her career."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Gain revenge on a former lover."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Win back the love of a former sweetheart."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Live a life of merriment and pleasure."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Avoid being recognized by authorities."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "Finest Role: The actor/actress’s companions will tell you his/her finest role was as...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A devoted scholar."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A smelly pirate."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A golden-voiced singer."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A famous warrior."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "An evil wizard/witch."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A determined peasant."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "An idealistic noble."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "An alluring vampire."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A maggot-ridden zombie."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A pyrotechnic puppet of a dragon."
+                }
+            ]
+        }
+    ],
+    "title": "Actors",
+    "use_with": [
+        {
+            "link": "61adtf",
+            "title": "Acting troupes"
+        },
+        {
+            "link": "46ma8g",
+            "title": "Bards"
+        },
+        {
+            "link": "46m9xc",
+            "title": "Songs"
+        },
+        {
+            "link": "4daxw7",
+            "title": "Urban marketplace"
+        }
+    ]
+}

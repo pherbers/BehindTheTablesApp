@@ -1,0 +1,359 @@
+{
+    "category": "Plot",
+    "description": "Once again, going for something wacky to try and provoke some unusual and/or corny situations for your players to find themselves in. If you've ever wanted a pretty stock-standard adventure hook, but with a touch of weirdness or originality, look no further!\n\nI hope you enjoy this, and get a little fun out of creating these cliche adventure arcs.",
+    "id": "67tak5",
+    "keywords": [
+        "Villain",
+        "Heroes",
+        "Quest",
+        "Hooks",
+        "Sidequests",
+        "Adventurers",
+        "Adventures"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/comments/67tak5",
+    "related_tables": [],
+    "tables": [
+        {
+            "subcategory": "Cliche Adventure Plots"
+        },
+        {
+            "dice": "d10",
+            "name": "Heroes are required! You must stop the",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Monster"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "King"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Thief"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Villain"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Peasant"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Cow"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Wizard"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Cultists"
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Pixies"
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Dragon"
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "from",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Destroying the town"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Torturing someone"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Holding someone prisoner"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Gaining an unlikely ally"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Having a falling out with an old friend"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Betraying his superiors"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Stealing"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Hatching a crazy plan"
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Search for a certain someone"
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Bestowing a curse"
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "before they",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Discover the location of the dungeon"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Find the artifact"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Realise it's all an illusion"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Discover how easy being evil is"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Become addicted to causing pain"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Lose their temper"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Learn that they had been lied to"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Know that I am the one they want"
+                }
+            ]
+        },
+        {
+            "dice": "d12",
+            "name": "or else",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "they will destroy the world"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "we all will die"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "we're all doomed"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "There'll be no more vegetable contests"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "I wont have any money to pay you"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "The entire town will starve"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "War will break out"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Alliances will fall"
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A civil war will erupt"
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "We will see a string of murders"
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Our gods will no longer protect us"
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "A new power will rise"
+                }
+            ]
+        },
+        {
+            "dice": "d6",
+            "name": "But if you",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Travel to"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Avoid"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Seek"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Make an ally in"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Meet the stranger in"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Retrieve the magic item from"
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "the",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Meddling Kids"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Town Watch"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "forest"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "river"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "fortress"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "king"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "volcano"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "villain's lair"
+                }
+            ]
+        },
+        {
+            "dice": "d8",
+            "name": "you will find",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "a way to increase your power"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "knowledge"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "valuable insight"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "a way to steel your defences"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "that you can increase your travelling speed"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "a shortcut"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "out the foe's weakness"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "out who the foe's allies are"
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "which will",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Help you save the day"
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Prepare you for the pain"
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Make you immune to the magic"
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Give you a plan B"
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Consolidate any losses"
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Reward you greatly should you succeed"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Etch your name in history"
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Give you an edge"
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Give you some time to spare"
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Allow you to plan your arrival"
+                }
+            ]
+        }
+    ],
+    "title": "Cliche Adventure Plot Generator",
+    "use_with": []
+}
