@@ -1,0 +1,490 @@
+{
+    "category": "Objects, Items, and Miscellany",
+    "description": "This is a table for rapidly generating some mostly mundane goods that one might find being sold out of a stall, off the back of a cart, or from some other display or small shop in an urban marketplace.",
+    "id": "710on6",
+    "keywords": [
+        "city",
+        "market",
+        "square",
+        "bazaar",
+        "plaza",
+        "piazza",
+        "centre",
+        "center",
+        "shopping",
+        "vendor",
+        "booth",
+        "merchant",
+        "peddler",
+        "shop",
+        "shopkeeper",
+        "stall",
+        "cart",
+        "buyer",
+        "seller",
+        "caveat emptor",
+        "useless crap",
+        "useful shit"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/comments/710on6",
+    "related_tables": [
+        {
+            "link": "4eium7",
+            "title": "Mostly useless junk"
+        }
+    ],
+    "tables": [
+        {
+            "subcategory": "Random Vendor Stalls"
+        },
+        {
+            "dice": "d100",
+            "name": "This vendor is selling…",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Ale by the pint."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Amulets and totems."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Apples."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Attractive young slaves (bedmates)."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Axes and hammers."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Bearskin rugs and capes."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Beer by the barrel."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Biscuits and rolls."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Blankets and pillows."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Blessings."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Bouquets of flowers."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Bows and arrows."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "Brass candlesticks, plates, and lamps."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "Brass horns and flutes."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "Cabbages."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "Candles and candlesticks."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "Carrots."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "Carved stone figures."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "Carved wooden figures."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "Ceramic vases and cups."
+                },
+                {
+                    "dice_val": "21",
+                    "entry": "Cheap jewelry and trinkets."
+                },
+                {
+                    "dice_val": "22",
+                    "entry": "Cherries."
+                },
+                {
+                    "dice_val": "23",
+                    "entry": "Clay pots, bowls, cups, and vases."
+                },
+                {
+                    "dice_val": "24",
+                    "entry": "Coal."
+                },
+                {
+                    "dice_val": "25",
+                    "entry": "Copper bowls, spoons, kettles, cups."
+                },
+                {
+                    "dice_val": "26",
+                    "entry": "Corn on the cob."
+                },
+                {
+                    "dice_val": "27",
+                    "entry": "Cotton shirts and pants."
+                },
+                {
+                    "dice_val": "28",
+                    "entry": "Dogs and cats."
+                },
+                {
+                    "dice_val": "29",
+                    "entry": "Domestic slaves (maidservants)."
+                },
+                {
+                    "dice_val": "30",
+                    "entry": "Dried fish."
+                },
+                {
+                    "dice_val": "31",
+                    "entry": "Dried herbs."
+                },
+                {
+                    "dice_val": "32",
+                    "entry": "Dried venison."
+                },
+                {
+                    "dice_val": "33",
+                    "entry": "Dried whole grain."
+                },
+                {
+                    "dice_val": "34",
+                    "entry": "Drums and bells."
+                },
+                {
+                    "dice_val": "35",
+                    "entry": "Exotic spices."
+                },
+                {
+                    "dice_val": "36",
+                    "entry": "Exotic teas."
+                },
+                {
+                    "dice_val": "37",
+                    "entry": "Firewood."
+                },
+                {
+                    "dice_val": "38",
+                    "entry": "Flower seeds."
+                },
+                {
+                    "dice_val": "39",
+                    "entry": "Foreign books."
+                },
+                {
+                    "dice_val": "40",
+                    "entry": "Foreign coins."
+                },
+                {
+                    "dice_val": "41",
+                    "entry": "Fresh bread."
+                },
+                {
+                    "dice_val": "42",
+                    "entry": "Fresh fish."
+                },
+                {
+                    "dice_val": "43",
+                    "entry": "Fruit pies."
+                },
+                {
+                    "dice_val": "44",
+                    "entry": "Glass bottles, jars, vials, and cups."
+                },
+                {
+                    "dice_val": "45",
+                    "entry": "Hardy slaves (laborers)."
+                },
+                {
+                    "dice_val": "46",
+                    "entry": "Hot soup."
+                },
+                {
+                    "dice_val": "47",
+                    "entry": "Iron candlesticks and tools."
+                },
+                {
+                    "dice_val": "48",
+                    "entry": "Iron pots and pans."
+                },
+                {
+                    "dice_val": "49",
+                    "entry": "Knives, forks, spoons and cooking utensils."
+                },
+                {
+                    "dice_val": "50",
+                    "entry": "Lamps, lanterns, and oil."
+                },
+                {
+                    "dice_val": "51",
+                    "entry": "Leather boots and caps."
+                },
+                {
+                    "dice_val": "52",
+                    "entry": "Live poultry."
+                },
+                {
+                    "dice_val": "53",
+                    "entry": "Lutes and fiddles."
+                },
+                {
+                    "dice_val": "54",
+                    "entry": "Manure."
+                },
+                {
+                    "dice_val": "55",
+                    "entry": "Meat pies."
+                },
+                {
+                    "dice_val": "56",
+                    "entry": "Medicinal teas."
+                },
+                {
+                    "dice_val": "58",
+                    "entry": "Onions."
+                },
+                {
+                    "dice_val": "57",
+                    "entry": "Pears and plums."
+                },
+                {
+                    "dice_val": "59",
+                    "entry": "Perfumes and scented oils."
+                },
+                {
+                    "dice_val": "60",
+                    "entry": "Piglets."
+                },
+                {
+                    "dice_val": "61",
+                    "entry": "Poisons and remedies."
+                },
+                {
+                    "dice_val": "62",
+                    "entry": "Polished stones and crystals."
+                },
+                {
+                    "dice_val": "63",
+                    "entry": "Potatoes."
+                },
+                {
+                    "dice_val": "64",
+                    "entry": "Potions."
+                },
+                {
+                    "dice_val": "65",
+                    "entry": "Potted herbs."
+                },
+                {
+                    "dice_val": "66",
+                    "entry": "Quarrels and crossbows."
+                },
+                {
+                    "dice_val": "67",
+                    "entry": "Rats and pigeons."
+                },
+                {
+                    "dice_val": "68",
+                    "entry": "Rope."
+                },
+                {
+                    "dice_val": "69",
+                    "entry": "Rough-cut gems."
+                },
+                {
+                    "dice_val": "70",
+                    "entry": "Saddles and bridles."
+                },
+                {
+                    "dice_val": "71",
+                    "entry": "Salted pork."
+                },
+                {
+                    "dice_val": "72",
+                    "entry": "Saplings."
+                },
+                {
+                    "dice_val": "73",
+                    "entry": "Scented candles."
+                },
+                {
+                    "dice_val": "74",
+                    "entry": "Seasonal berries."
+                },
+                {
+                    "dice_val": "75",
+                    "entry": "Shields and helms."
+                },
+                {
+                    "dice_val": "76",
+                    "entry": "Shiny leather shoes."
+                },
+                {
+                    "dice_val": "77",
+                    "entry": "Silk shirts and scarves."
+                },
+                {
+                    "dice_val": "78",
+                    "entry": "Snakeskin boots."
+                },
+                {
+                    "dice_val": "79",
+                    "entry": "Soap."
+                },
+                {
+                    "dice_val": "80",
+                    "entry": "Stone-ground flour."
+                },
+                {
+                    "dice_val": "81",
+                    "entry": "Sturdy leather shoes."
+                },
+                {
+                    "dice_val": "82",
+                    "entry": "Swords and spears."
+                },
+                {
+                    "dice_val": "83",
+                    "entry": "Tables and chairs."
+                },
+                {
+                    "dice_val": "84",
+                    "entry": "Tankards and mugs."
+                },
+                {
+                    "dice_val": "85",
+                    "entry": "Tarot readings."
+                },
+                {
+                    "dice_val": "86",
+                    "entry": "Torches and rations."
+                },
+                {
+                    "dice_val": "87",
+                    "entry": "Traditional spices."
+                },
+                {
+                    "dice_val": "88",
+                    "entry": "Turnips."
+                },
+                {
+                    "dice_val": "89",
+                    "entry": "Used books."
+                },
+                {
+                    "dice_val": "90",
+                    "entry": "Used horses and ponies."
+                },
+                {
+                    "dice_val": "91",
+                    "entry": "Wagons and carts."
+                },
+                {
+                    "dice_val": "92",
+                    "entry": "Waterskins and wineskins."
+                },
+                {
+                    "dice_val": "93",
+                    "entry": "Whale oil."
+                },
+                {
+                    "dice_val": "94",
+                    "entry": "Wine by the barrel."
+                },
+                {
+                    "dice_val": "95",
+                    "entry": "Wine by the bottle."
+                },
+                {
+                    "dice_val": "96",
+                    "entry": "Wolfskin rugs and capes."
+                },
+                {
+                    "dice_val": "97",
+                    "entry": "Wooden-soled shoes."
+                },
+                {
+                    "dice_val": "98",
+                    "entry": "Wool shirts and caps."
+                },
+                {
+                    "dice_val": "99",
+                    "entry": "Woven baskets."
+                },
+                {
+                    "dice_val": "100",
+                    "entry": "Young horses and ponies."
+                }
+            ]
+        }
+    ],
+    "title": "Mostly Mundane Market Stalls",
+    "use_with": [
+        {
+            "link": "43xgqj",
+            "title": "City landmarks and districts"
+        },
+        {
+            "link": "435djx",
+            "title": "**Coins**"
+        },
+        {
+            "link": "3su3be",
+            "title": "Fish, daily catch"
+        },
+        {
+            "link": "4jn2j9",
+            "title": "Quick city-building"
+        },
+        {
+            "link": "3tkdty",
+            "title": "Reputation and rumors"
+        },
+        {
+            "link": "4psde0",
+            "title": "Shops"
+        },
+        {
+            "link": "3xw3lq",
+            "title": "Street names"
+        },
+        {
+            "link": "4dglp9",
+            "title": "Street food"
+        },
+        {
+            "link": "4daxw7",
+            "title": "Urban marketplace"
+        },
+        {
+            "link": "4cx75p",
+            "title": "**Wines**"
+        }
+    ]
+}

@@ -6268,5 +6268,86 @@
 			"47x04h",
 			"3va510"
 		]
+	},
+	"table_710on6": {
+		"category": "Objects, Items, and Miscellany",
+		"description": "This is a table for rapidly generating some mostly mundane goods that one might find being sold out of a stall, off the back of a cart, or from some other display or small shop in an urban marketplace.",
+		"keywords": [
+			"city",
+			"market",
+			"square",
+			"bazaar",
+			"plaza",
+			"piazza",
+			"centre",
+			"center",
+			"shopping",
+			"vendor",
+			"booth",
+			"merchant",
+			"peddler",
+			"shop",
+			"shopkeeper",
+			"stall",
+			"cart",
+			"buyer",
+			"seller",
+			"caveat emptor",
+			"useless crap",
+			"useful shit"
+		],
+		"related_tables": [
+			"4eium7"
+		],
+		"title": "Mostly Mundane Market Stalls",
+		"use_with": [
+			"43xgqj",
+			"435djx",
+			"3su3be",
+			"4jn2j9",
+			"3tkdty",
+			"4psde0",
+			"3xw3lq",
+			"4dglp9",
+			"4daxw7",
+			"4cx75p"
+		]
+	},
+	"table_73u1id": {
+		"category": "Objects, Items, and Miscellany",
+		"description": "",
+		"keywords": [
+			""
+		],
+		"related_tables": [],
+		"title": "Who will the enemy attack first and why? (d50, could use help expanding to d100)",
+		"use_with": []
+	},
+	"table_74qphu": {
+		"category": "Magic",
+		"description": "These are tables for generating some quick necromantic effects for spellbooks, rituals, and curses.",
+		"keywords": [
+			"necromancy",
+			"necrotic",
+			"death mage",
+			"undead",
+			"lich",
+			"wizard",
+			"dol guldur",
+			"qyburn"
+		],
+		"related_tables": [],
+		"title": "Necromantic Effects",
+		"use_with": [
+			"3sh0bv",
+			"3tielc",
+			"4ev9sw",
+			"4y5pl2",
+			"3w1g84",
+			"3sorre",
+			"427hd8",
+			"4nbzmi",
+			"3si4ms"
+		]
 	}
 }

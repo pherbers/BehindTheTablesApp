@@ -1,0 +1,220 @@
+{
+    "category": "Objects, Items, and Miscellany",
+    "description": "",
+    "id": "73u1id",
+    "keywords": [
+        ""
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/comments/73u1id",
+    "related_tables": [],
+    "tables": [
+        {
+            "dice": "d50",
+            "name": "This enemy...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "**Is racist against Elves.** It will attack a randomly chosen elf in the party, or whoever looks most like an elf."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "**Is racist against Dwarves.** It will attack a randomly chosen dwarf in the party, or whoever looks most like a dwarf."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "**Is afraid of monsters.** It will attack any randomly chosen tiefling, dragonborn, or other monster-like race in the party."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "**Thinks humans are the real monsters.** It will attack any randomly chosen human in the party, or whoever looks most humanlike."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "**Is attracted to bright colors.** It will attack whoever is the most flamboyantly dressed."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "**Is enraged by the color red.** It will attack whoever is wearing the most red (including red skin and tattoos)."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "**Is easily distracted by shiny objects.** It will attack whoever is wearing/carrying the most precious metal, gems, or other shiny material."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "**Is a slut-shamer.** It will attack whoever is showing the most exposed skin."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "**Can’t stand the trends of this generation.** It will attack whoever has the most tattoos and/or piercings."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "**Is in a blind panic.** Roll randomly to decide who it attacks each turn."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "**Has a vicious bloodlust.** Roll randomly to decide who it attacks first, and it will not stop attacking until they are dead."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "**Has a thirst for revenge.** It will attack the first person who makes an attack against it and won't stop attacking until they are dead."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "**Has a short-term memory.** It will attack the last person who made an attack against it, whether it hits or misses."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "**Wants the pain to stop.** It will attack whoever has dealt the most damage to it during the battle."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "**Hates/fears magic.** Will attack anybody it sees using a spell, focusing on whoever is closest."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "**Has tunnel vision.** Will attack whoever is closest to it."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "**Is nearsighted.** Will only attack melee opponents, and seems to not understand where ranged attacks are coming from."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "**Has trouble seeing up close.** Will try to move away from melee attackers, and prefers to attack ranged opponents."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "**Knows how to cripple a party.** Will attack anyone it sees using a healing spell, and won't let up until they are dead."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "**Can smell blood.** It will attack whoever in the group has the lowest current HP."
+                },
+                {
+                    "dice_val": "21",
+                    "entry": "**Can’t smell enough blood.** It will attack whoever in the group has the highest current HP."
+                },
+                {
+                    "dice_val": "22",
+                    "entry": "**Can sense easy prey.** It will attack whoever in the group has the lowest max HP."
+                },
+                {
+                    "dice_val": "23",
+                    "entry": "**Recognizes easy targets.** It will attack whoever in the group has the lowest AC."
+                },
+                {
+                    "dice_val": "24",
+                    "entry": "**Enjoys a challenge.** It will attack whoever in the group looks the most dangerous/threatening."
+                },
+                {
+                    "dice_val": "25",
+                    "entry": "**Recognizes that the bigger they are, the harder they fall.** It will attack whoever is physically the largest."
+                },
+                {
+                    "dice_val": "26",
+                    "entry": "**Laughs at its puny opponents.** It will attack whoever is physically the smallest."
+                },
+                {
+                    "dice_val": "27",
+                    "entry": "**Thinks it can destroy the tank.** It will attack whoever has the highest AC."
+                },
+                {
+                    "dice_val": "28",
+                    "entry": "**Gives up too easily.** It will attack whoever is closest, but will switch to the next closest target if its attack misses."
+                },
+                {
+                    "dice_val": "29",
+                    "entry": "**Is misogynistic.** It will attack the closest female character."
+                },
+                {
+                    "dice_val": "30",
+                    "entry": "**Is misandristic.** It will attack the closest male character."
+                },
+                {
+                    "dice_val": "31",
+                    "entry": "**Fears what it doesn’t understand.** It will attack the most androgynous-looking character, who can’t be identified as male or female."
+                },
+                {
+                    "dice_val": "32",
+                    "entry": "**Is extremely far-sighted.** It will charge at whoever in the group is furthest away."
+                },
+                {
+                    "dice_val": "33",
+                    "entry": "**Goes after slow targets.** It will attack whoever in the group is last in the initiative order."
+                },
+                {
+                    "dice_val": "34",
+                    "entry": "**Makes a snap judgment.** It will attack whoever in the group moves first."
+                },
+                {
+                    "dice_val": "35",
+                    "entry": "**Is threatened by fast movements.** It will attack whoever in the group moved the furthest distance in the last round."
+                },
+                {
+                    "dice_val": "36",
+                    "entry": "**Can’t keep track of moving targets.** It will attack anybody who stands still during their turn."
+                },
+                {
+                    "dice_val": "37",
+                    "entry": "**Believes in the power of teamwork.** It will only attack party members who are already being attacked by one of its allies."
+                },
+                {
+                    "dice_val": "38",
+                    "entry": "**Fears fire.** It will attack whoever uses a fire-based attack, or is carrying a torch or other exposed flame."
+                },
+                {
+                    "dice_val": "39",
+                    "entry": "**Is extremely jealous of beauty.** It will attack whoever in the party is the most beautiful, attempting to scar them."
+                },
+                {
+                    "dice_val": "40",
+                    "entry": "**Wants to beautify the world.** It will attack whoever in the party is the most ugly."
+                },
+                {
+                    "dice_val": "41",
+                    "entry": "**Has a sensitive nose.** It will attack whoever in the party smells the worst."
+                },
+                {
+                    "dice_val": "42",
+                    "entry": "**Can’t stand the smell of alcohol.** It will attack whoever was most recently drunk."
+                },
+                {
+                    "dice_val": "43",
+                    "entry": "**Is startled by loud voices.** It will attack whoever talks/yells the loudest."
+                },
+                {
+                    "dice_val": "44",
+                    "entry": "**Distrusts those who keep quiet.** It will attack whichever character spoke the least this round."
+                },
+                {
+                    "dice_val": "45",
+                    "entry": "**Had a cruel ex-lover with long, beautiful hair.** It will attack whichever character has the longest hair."
+                },
+                {
+                    "dice_val": "46",
+                    "entry": "**Is a tool for the DM to pettily enforce their table rules.** It will attack whichever player (in real life) last looked at their phone or computer."
+                },
+                {
+                    "dice_val": "47",
+                    "entry": "**Was a high school bully who never grew out of it.** It will attack whoever has high Intelligence and low Strength, or seems the most ‘nerdy’."
+                },
+                {
+                    "dice_val": "48",
+                    "entry": "**Was bullied as a child and is resentful.** It will attack whoever has low Intelligence and high Strength, or seems the most like a dumb jock."
+                },
+                {
+                    "dice_val": "49",
+                    "entry": "**Thinks it’s unnatural and wrong for people to fly.** It will attack whoever flies in the air (or just jumps really high)."
+                },
+                {
+                    "dice_val": "50",
+                    "entry": "**Is afraid of sharp objects.** It will move away from anybody brandishing a sword or axe, and will prefer to attack enemies carrying blunt weapons."
+                }
+            ]
+        }
+    ],
+    "title": "Who will the enemy attack first and why? (d50, could use help expanding to d100)",
+    "use_with": []
+}

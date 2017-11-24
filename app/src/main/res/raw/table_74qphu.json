@@ -1,0 +1,467 @@
+{
+    "category": "Magic",
+    "description": "These are tables for generating some quick necromantic effects for spellbooks, rituals, and curses.",
+    "id": "74qphu",
+    "keywords": [
+        "necromancy",
+        "necrotic",
+        "death mage",
+        "undead",
+        "lich",
+        "wizard",
+        "dol guldur",
+        "qyburn"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/comments/74qphu",
+    "related_tables": [],
+    "tables": [
+        {
+            "subcategory": "Random Necromantic Effects"
+        },
+        {
+            "dice": "d100",
+            "name": "The magic allows the caster to...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Detect dead animals in the vicinity."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Detect ghosts."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Detect graves and burial sites."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Discern the direction to a specific lich's phylactery."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Discern the direction to a specific vampire's gravedirt."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Discern the direction to the nearest lich."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Discern the direction to the nearest vampire."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Locate a missing piece of a corpse."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Locate the creator of an undead creature."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Locate the nearest corpse."
+                },
+                {
+                    "dice_val": "11",
+                    "entry": "Calm a malevolent spirit."
+                },
+                {
+                    "dice_val": "12",
+                    "entry": "Command a spirit to whisper a message to a specific person."
+                },
+                {
+                    "dice_val": "13",
+                    "entry": "Command undead to attach a specific person or object."
+                },
+                {
+                    "dice_val": "14",
+                    "entry": "Command undead to defend a person or location."
+                },
+                {
+                    "dice_val": "15",
+                    "entry": "Command undead to flee."
+                },
+                {
+                    "dice_val": "16",
+                    "entry": "Enrage nearby spirits."
+                },
+                {
+                    "dice_val": "17",
+                    "entry": "Touch a corpse; ask a question and receive an answer from the person's memories."
+                },
+                {
+                    "dice_val": "18",
+                    "entry": "Touch a corpse; learn the manner in which the person died."
+                },
+                {
+                    "dice_val": "19",
+                    "entry": "Touch a living person; identify spirits of the dead who are watching that person."
+                },
+                {
+                    "dice_val": "20",
+                    "entry": "Touch a living person; speak with the spirit of one of the person's ancestors."
+                },
+                {
+                    "dice_val": "21",
+                    "entry": "Call forth an eerie dim light."
+                },
+                {
+                    "dice_val": "22",
+                    "entry": "Cause a dead animal to twitch."
+                },
+                {
+                    "dice_val": "23",
+                    "entry": "Cause a pile of bones to shake and clatter."
+                },
+                {
+                    "dice_val": "24",
+                    "entry": "Cause the teetth of a skull to chatter."
+                },
+                {
+                    "dice_val": "25",
+                    "entry": "Snuff out a nearby candle."
+                },
+                {
+                    "dice_val": "26",
+                    "entry": "Snuff out a single campfire or torch."
+                },
+                {
+                    "dice_val": "27",
+                    "entry": "Snuff out all nearby torches and candles."
+                },
+                {
+                    "dice_val": "28",
+                    "entry": "Touch a corpse; the corpse lurches upright when approached by a living creature."
+                },
+                {
+                    "dice_val": "29",
+                    "entry": "Touch a living person; the person becomes firghtened by the sight of a corpse."
+                },
+                {
+                    "dice_val": "30",
+                    "entry": "Touch a living person; the person becomes frightened by the sight of a skull."
+                },
+                {
+                    "dice_val": "31",
+                    "entry": "Touch a living person; the person becomes frightened by the sight of you."
+                },
+                {
+                    "dice_val": "32",
+                    "entry": "Touch a living person; the person receives a vision of his or her own death."
+                },
+                {
+                    "dice_val": "33",
+                    "entry": "Touch a living person; the person receives a vision of the death of a loved one."
+                },
+                {
+                    "dice_val": "34",
+                    "entry": "Conjure a bleak fog."
+                },
+                {
+                    "dice_val": "35",
+                    "entry": "Conjure a frigid wind."
+                },
+                {
+                    "dice_val": "36",
+                    "entry": "Summon a demonic spirit of death and destruction."
+                },
+                {
+                    "dice_val": "37",
+                    "entry": "Summon a host of ghostly warriors."
+                },
+                {
+                    "dice_val": "38",
+                    "entry": "Summon a restless ghost."
+                },
+                {
+                    "dice_val": "39",
+                    "entry": "Summon a soul-mongering devil."
+                },
+                {
+                    "dice_val": "40",
+                    "entry": "Touch a living person; summon the spirit of a deceased loved one.."
+                },
+                {
+                    "dice_val": "41",
+                    "entry": "Animate a pile of mismatched bones."
+                },
+                {
+                    "dice_val": "42",
+                    "entry": "Animate a severed hand or head."
+                },
+                {
+                    "dice_val": "43",
+                    "entry": "Animate several corpses buried in the same cemetery or tomb."
+                },
+                {
+                    "dice_val": "44",
+                    "entry": "Animate the body of a dead animal."
+                },
+                {
+                    "dice_val": "45",
+                    "entry": "Animate the body of a slain giant."
+                },
+                {
+                    "dice_val": "46",
+                    "entry": "Animate the corpse of a recently deceased person."
+                },
+                {
+                    "dice_val": "47",
+                    "entry": "Animate the corpses of the fallen on a battlefield."
+                },
+                {
+                    "dice_val": "48",
+                    "entry": "Animate the dissected organs of a humanoid."
+                },
+                {
+                    "dice_val": "49",
+                    "entry": "Animate the skeletons of those buried in an ancient mass grave."
+                },
+                {
+                    "dice_val": "50",
+                    "entry": "Transform a deceased dragon into a dracolich."
+                },
+                {
+                    "dice_val": "51",
+                    "entry": "Transform one's self into a lich."
+                },
+                {
+                    "dice_val": "52",
+                    "entry": "Transform one's self into a vampire."
+                },
+                {
+                    "dice_val": "53",
+                    "entry": "Graft a patch of skin or flesh onto a person."
+                },
+                {
+                    "dice_val": "54",
+                    "entry": "Graft a severed limb onto a person."
+                },
+                {
+                    "dice_val": "55",
+                    "entry": "Implant a beating heart into a beast."
+                },
+                {
+                    "dice_val": "56",
+                    "entry": "Implant a beating heart into a person."
+                },
+                {
+                    "dice_val": "58",
+                    "entry": "Implant a preserved brain into a beast's skull."
+                },
+                {
+                    "dice_val": "57",
+                    "entry": "Implant a preserved brain into a person's skull."
+                },
+                {
+                    "dice_val": "59",
+                    "entry": "Preserve a person's brain in a jar."
+                },
+                {
+                    "dice_val": "60",
+                    "entry": "Preserve a recently deceased person's body against decay."
+                },
+                {
+                    "dice_val": "61",
+                    "entry": "Preserve a severed eyeball or ear against decay."
+                },
+                {
+                    "dice_val": "62",
+                    "entry": "Preserve a severed hand or limb against decay."
+                },
+                {
+                    "dice_val": "63",
+                    "entry": "Preserve the internal organs of a deceased person against decay."
+                },
+                {
+                    "dice_val": "64",
+                    "entry": "Remove and preserve the beating heart of a person or beast."
+                },
+                {
+                    "dice_val": "65",
+                    "entry": "Banish a soul to the interplanar void."
+                },
+                {
+                    "dice_val": "66",
+                    "entry": "Banish a soul to the Realm of Shadows."
+                },
+                {
+                    "dice_val": "67",
+                    "entry": "Destroy a soul trapped within an object."
+                },
+                {
+                    "dice_val": "68",
+                    "entry": "Fracture one's soul and trap a piece within an object."
+                },
+                {
+                    "dice_val": "69",
+                    "entry": "Trap a soul in a specially prepared bottle."
+                },
+                {
+                    "dice_val": "70",
+                    "entry": "Trap a soul in a valuable gemstone."
+                },
+                {
+                    "dice_val": "71",
+                    "entry": "Touch a container of food; the food molds and spoils."
+                },
+                {
+                    "dice_val": "72",
+                    "entry": "Touch a container of water; the water becomes disease-ridden."
+                },
+                {
+                    "dice_val": "73",
+                    "entry": "Touch a corpse; maggots erupt from the corpse."
+                },
+                {
+                    "dice_val": "74",
+                    "entry": "Touch a corpse; the corpse crumbles to dust."
+                },
+                {
+                    "dice_val": "75",
+                    "entry": "Touch a live plant; the plant instantly wilts."
+                },
+                {
+                    "dice_val": "76",
+                    "entry": "Touch a living person; the person falls deathly ill."
+                },
+                {
+                    "dice_val": "77",
+                    "entry": "Touch a living person; the person's flesh begins to rot within moments."
+                },
+                {
+                    "dice_val": "78",
+                    "entry": "Touch a living person; the person's flesh hardens and shatters."
+                },
+                {
+                    "dice_val": "79",
+                    "entry": "Touch a living person; the person's flesh turns black and necrotic."
+                },
+                {
+                    "dice_val": "80",
+                    "entry": "Touch a skeleton; the bones crumble to dust."
+                },
+                {
+                    "dice_val": "81",
+                    "entry": "Curse a living person; after death, the person will rise as a wight or revenant."
+                },
+                {
+                    "dice_val": "82",
+                    "entry": "Curse a living person; after death, the person's spirit remains in the world as a ghost."
+                },
+                {
+                    "dice_val": "83",
+                    "entry": "Curse a living person; bats follow the person where he or she goes."
+                },
+                {
+                    "dice_val": "84",
+                    "entry": "Curse a living person; maggots and worms follow the person where he or she goes."
+                },
+                {
+                    "dice_val": "85",
+                    "entry": "Curse a living person; one of the person's loved ones dies within 3 days."
+                },
+                {
+                    "dice_val": "86",
+                    "entry": "Curse a living person; rats follow the person where he or she goes."
+                },
+                {
+                    "dice_val": "87",
+                    "entry": "Curse a living person; the person instantly dies and rises as a wight or revenant."
+                },
+                {
+                    "dice_val": "88",
+                    "entry": "Curse a living person; the person instantly dies; his or her soul remains as a ghost."
+                },
+                {
+                    "dice_val": "89",
+                    "entry": "Curse all nearby living people; over many years, their flesh rots and crumbles."
+                },
+                {
+                    "dice_val": "90",
+                    "entry": "Curse all nearby living people; over many years, their flesh turns black and necrotic."
+                },
+                {
+                    "dice_val": "91",
+                    "entry": "Bite a living person; drinking the blood, you gain strength and vigor."
+                },
+                {
+                    "dice_val": "92",
+                    "entry": "Bite a living person; drinking the blood, you learn one of the person's secrets."
+                },
+                {
+                    "dice_val": "93",
+                    "entry": "Cause all nearby living people to fall asleep; you gain access to their dreams."
+                },
+                {
+                    "dice_val": "94",
+                    "entry": "Cause all nearby living people to lose strength; nearby undead creatures move faster."
+                },
+                {
+                    "dice_val": "95",
+                    "entry": "Touch a living person; the person feels disoriented and you can think more clearly."
+                },
+                {
+                    "dice_val": "96",
+                    "entry": "Touch a living person; the person feels exhausted and you feel faster ad stronger."
+                },
+                {
+                    "dice_val": "97",
+                    "entry": "Touch a living person; the person feels ill; nearby undead creatures gain strength."
+                },
+                {
+                    "dice_val": "98",
+                    "entry": "Holding a bone or piece of a corpse; you teleport to the corpse's burial site."
+                },
+                {
+                    "dice_val": "99",
+                    "entry": "Teleport yourself to the nearest burial ground or crypt."
+                },
+                {
+                    "dice_val": "100",
+                    "entry": "Teleport yourself and nearby allies to a specially prepared crypt."
+                }
+            ]
+        }
+    ],
+    "title": "Necromantic Effects",
+    "use_with": [
+        {
+            "link": "3sh0bv",
+            "title": "Forest, haunted"
+        },
+        {
+            "link": "3tielc",
+            "title": "Desert, shadowy"
+        },
+        {
+            "link": "4ev9sw",
+            "title": "Dinner in an undead feasthall"
+        },
+        {
+            "link": "4y5pl2",
+            "title": "Mage's tower"
+        },
+        {
+            "link": "3w1g84",
+            "title": "Necromancers"
+        },
+        {
+            "link": "3sorre",
+            "title": "Restless undead"
+        },
+        {
+            "link": "427hd8",
+            "title": "Tombs"
+        },
+        {
+            "link": "4nbzmi",
+            "title": "Undead beasts"
+        },
+        {
+            "link": "3si4ms",
+            "title": "Witches"
+        }
+    ]
+}
