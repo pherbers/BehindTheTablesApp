@@ -6,6 +6,7 @@
     <dimen name="fab_margin">16dp</dimen>
     <dimen name="text_margin">16dp</dimen>
     <dimen name="table_entry_margin">8dp</dimen>
+    <dimen name="title_shadow_size">8dp</dimen>
     <dimen name="text_vertical_margin">4dp</dimen>
     <dimen name="dice_entry_min_width">40sp</dimen>
     <dimen name="child_view_divider_margin">25sp</dimen>
