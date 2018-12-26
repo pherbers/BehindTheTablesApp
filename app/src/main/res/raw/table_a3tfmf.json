@@ -1,0 +1,485 @@
+{
+    "category": "NPCs",
+    "description": "These are tables for generating an interesting bounty hunter to serve as foe, foil, or ally to your PCs. I may come back to clean up some spots I feel are a little incomplete.",
+    "id": "a3tfmf",
+    "keywords": [
+        "hunter",
+        "tracker",
+        "assassin",
+        "rogue",
+        "thug",
+        "killer",
+        "anti-hero",
+        "outlaw",
+        "we don't need their scum"
+    ],
+    "reference": "https://www.reddit.com/r/BehindTheTables/comments/a3tfmf",
+    "related_tables": [
+        {
+            "link": "44wqci",
+            "title": "Assassins"
+        },
+        {
+            "link": "41bq04",
+            "title": "Sellswords"
+        },
+        {
+            "link": "3sqres",
+            "title": "Serial killers"
+        },
+        {
+            "link": "4034w3",
+            "title": "Thieves"
+        },
+        {
+            "link": "3sj9ub",
+            "title": "Town NPCs"
+        }
+    ],
+    "tables": [
+        {
+            "subcategory": "Random Bounty Hunters"
+        },
+        {
+            "dice": "d10",
+            "name": "The bounty hunter is a/an...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Hardened criminal."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Veteran soldier."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Brash assassin."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Beautiful socialite."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Scruffy-looking peddler."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Religious zealot."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Eccentric scholar."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Ambitious thief."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Intrepid explorer."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Man (or woman) of mystery."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "The bounty hunter is known for his/her...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Ruthlessness."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Efficiency."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Fearlessness."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Brutality."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Good looks."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Good manners."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Bad manners."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Disfiguring scar."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Unusual tattoo."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Unusual size."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "The bounty hunter is particularly adept at tracking down...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Smugglers and swindlers."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Pirates and sailors."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Noble lords and ladies."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Prospectors and explorers."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Thieves and thugs."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Merchants and peddlers."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Singers and circusfolk."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Lost children."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Debtors."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Military deserters."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "The bounty hunter refuses to collect bounties posted by...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Moneylenders."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Noble families."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Merchant guilds."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Crime bosses."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Ship captains."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Warlords"
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Priests and priestesses."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Witches and wizards."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Bastards."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Dwarves."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "The bounty hunter is particularly skilled at...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Breaking and entering."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Disguises."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Forgery."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Torture. "
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Overland tracking."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Infiltrating well-guarded places."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Crafting poisons."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Negotiation."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Staging \"accidents.\""
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Knotting rope."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "The bounty hunter is armed with a/an...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Battleaxe."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Longsword."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Shortsword."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Pair of shortswords."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Pair of handaxes."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Serrated dagger."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Long dagger."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Rapier."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Heavy club."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Whip."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "The bounty hunter also carries...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "A bow and arrows."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "A heavy crossbow."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A hand crossbow."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A blowgun."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A net."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Several bolas."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Several throwing daggers."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Several throwing axes."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "A concealed dagger."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A spear."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "...and...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Several vials of a hallucinogenic poison."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Several vials of a nauseating poison."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "A single dose of a blinding poison."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "A single dose of a deadly poison."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "A length of rope."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "A set of steel shackles."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "A musical instrument (d6): 1. a flute, 2. a drum, 3. a lute, 4. a harp, 5. a fiddle, 6. pan pipes."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "A neatly-kept ledger."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Several trophies from vanquished or captured marks (d6): 1. rings, 2. coins, 3. handkerchiefs, 4. scalps, 5. severed fingers, 6. severed ears."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "A lucky charm (d6): 1. rabbit's foot, 2. horseshoe, 3. silk handkerchief, 4. lace handkerchief, 5. love letter, 6. a shiny stone."
+                }
+            ]
+        },
+        {
+            "dice": "d10",
+            "name": "While not pursuing a bounty, the bounty hunter enjoys...",
+            "table_entries": [
+                {
+                    "dice_val": "1",
+                    "entry": "Sharpening blades."
+                },
+                {
+                    "dice_val": "2",
+                    "entry": "Throwing darts or knives for sport."
+                },
+                {
+                    "dice_val": "3",
+                    "entry": "Dice games."
+                },
+                {
+                    "dice_val": "4",
+                    "entry": "Card games."
+                },
+                {
+                    "dice_val": "5",
+                    "entry": "Writing songs or poems."
+                },
+                {
+                    "dice_val": "6",
+                    "entry": "Reading books."
+                },
+                {
+                    "dice_val": "7",
+                    "entry": "Writing letters to faraway kin."
+                },
+                {
+                    "dice_val": "8",
+                    "entry": "Hunting beasts."
+                },
+                {
+                    "dice_val": "9",
+                    "entry": "Drinking."
+                },
+                {
+                    "dice_val": "10",
+                    "entry": "Patronizing brothels."
+                }
+            ]
+        }
+    ],
+    "title": "Bounty Hunters",
+    "use_with": [
+        {
+            "link": "3t0zag",
+            "title": "Assassins' guilds"
+        },
+        {
+            "link": "3t2qzc",
+            "title": "Outlaw bands"
+        },
+        {
+            "link": "4b8u29",
+            "title": "Reputations of adventurers"
+        },
+        {
+            "link": "4780bg",
+            "title": "Poisons"
+        },
+        {
+            "link": "3tkdty",
+            "title": "Mercenary troops"
+        },
+        {
+            "link": "3t5q2e",
+            "title": "Urban gangs"
+        }
+    ]
+}

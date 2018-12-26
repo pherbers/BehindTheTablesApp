@@ -6349,5 +6349,36 @@
 			"4nbzmi",
 			"3si4ms"
 		]
+	},
+	"table_a3tfmf": {
+		"category": "NPCs",
+		"description": "These are tables for generating an interesting bounty hunter to serve as foe, foil, or ally to your PCs. I may come back to clean up some spots I feel are a little incomplete.",
+		"keywords": [
+			"hunter",
+			"tracker",
+			"assassin",
+			"rogue",
+			"thug",
+			"killer",
+			"anti-hero",
+			"outlaw",
+			"we don't need their scum"
+		],
+		"related_tables": [
+			"44wqci",
+			"41bq04",
+			"3sqres",
+			"4034w3",
+			"3sj9ub"
+		],
+		"title": "Bounty Hunters",
+		"use_with": [
+			"3t0zag",
+			"3t2qzc",
+			"4b8u29",
+			"4780bg",
+			"3tkdty",
+			"3t5q2e"
+		]
 	}
 }
