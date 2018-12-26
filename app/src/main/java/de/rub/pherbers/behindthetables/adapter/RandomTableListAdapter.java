@@ -64,7 +64,11 @@ public class RandomTableListAdapter extends RecyclerView.Adapter<ViewHolder> {
     }
 
     public void collapseTable(RandomTable table) {
+        if(!table.isExpanded())
+            return;
+
         int index = getTablePos(table);
+
         if(index == -1)
             return;
         int indexTo = getTableEntryRange(index);
