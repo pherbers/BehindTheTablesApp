@@ -1,12 +1,12 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 25
-    buildToolsVersion "25.0.2"
+    compileSdkVersion 26
+    buildToolsVersion '28.0.3'
     defaultConfig {
         applicationId "de.rub.pherbers.behindthetables"
         minSdkVersion 17
-        targetSdkVersion 25
+        targetSdkVersion 26
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
@@ -23,20 +23,20 @@ android {
 }
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
-    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    androidTestImplementation('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
-    compile 'com.android.support:appcompat-v7:25.3.1'
-    compile 'com.android.support:design:25.3.1'
-    compile 'com.android.support:support-v4:25.3.1'
-    compile 'com.android.support:recyclerview-v7:25.3.1'
-    compile 'com.jakewharton.timber:timber:4.5.1'
-    compile 'com.android.volley:volley:1.0.0'
-    compile 'com.atlassian.commonmark:commonmark-ext-gfm-tables:0.9.0'
-    compile 'com.ms-square:expandableTextView:0.1.4'
-    compile 'jp.wasabeef:recyclerview-animators:2.2.6'
-    testCompile 'junit:junit:4.12'
-    debugCompile 'com.amitshekhar.android:debug-db:1.0.0'
-    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    implementation 'com.android.support:appcompat-v7:26.1.0'
+    implementation 'com.android.support:design:26.1.0'
+    implementation 'com.android.support:support-v4:26.1.0'
+    implementation 'com.android.support:recyclerview-v7:26.1.0'
+    implementation 'com.jakewharton.timber:timber:4.7.0'
+    implementation 'com.android.volley:volley:1.1.0'
+    implementation 'com.atlassian.commonmark:commonmark-ext-gfm-tables:0.9.0'
+    implementation 'com.ms-square:expandableTextView:0.1.4'
+    implementation 'jp.wasabeef:recyclerview-animators:2.2.6'
+    testImplementation 'junit:junit:4.12'
+    debugImplementation 'com.amitshekhar.android:debug-db:1.0.0'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.3'
 }
