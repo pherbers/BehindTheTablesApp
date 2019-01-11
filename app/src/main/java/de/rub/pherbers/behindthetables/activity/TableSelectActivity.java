@@ -440,6 +440,7 @@ public class TableSelectActivity extends AppCompatActivity implements Navigation
                 break;
             case android.R.id.home:
                 finish();
+                //TODO Why no burger menu?
                 break;
             case R.id.action_random_table:
                 viewTableCollection(new Random());

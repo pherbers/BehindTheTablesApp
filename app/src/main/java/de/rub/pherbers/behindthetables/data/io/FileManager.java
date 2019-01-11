@@ -63,7 +63,7 @@ public class FileManager {
             return deleteDir(dir);
         } catch (Exception e) {
             e.printStackTrace();
-            Timber.i("Failed to delete the cache dir: " + dir.getAbsolutePath(), e);
+            Timber.i(e,"Failed to delete the cache dir: " + dir.getAbsolutePath());
             return false;
         }
     }

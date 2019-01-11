@@ -55,6 +55,7 @@ public class BehindTheTables extends Application {
         Timber.i("Application started. App version: " + currentVer);
 
         //Warming up the DB for future use!
+        //TODO Do this smoother for better first startup experience
         new DBAdapter(this).open().close();
     }
 
