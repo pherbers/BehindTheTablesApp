@@ -6,6 +6,10 @@
         android:fragment="de.rub.pherbers.behindthetables.activity.SettingsActivity$GeneralPreferenceFragment"
         android:icon="@drawable/baseline_settings_black_24"
         android:title="@string/pref_header_general"/>
+    <header
+        android:fragment="de.rub.pherbers.behindthetables.activity.SettingsActivity$AboutPreferenceFragment"
+        android:icon="@drawable/baseline_info_black_24"
+        android:title="@string/pref_header_credits"/>
 
 
 </preference-headers>

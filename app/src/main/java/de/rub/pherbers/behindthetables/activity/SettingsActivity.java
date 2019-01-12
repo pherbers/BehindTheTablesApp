@@ -112,6 +112,21 @@ public class SettingsActivity extends AppCompatPreferenceActivity {
                 }
             });
 
+        }
+    }
+
+
+    @TargetApi(Build.VERSION_CODES.HONEYCOMB)
+    public static class AboutPreferenceFragment extends PreferenceFragment {
+        @Override
+        public void onCreate(Bundle savedInstanceState) {
+            super.onCreate(savedInstanceState);
+            addPreferencesFromResource(R.xml.prefs_credits);
+            setHasOptionsMenu(true);
+
+            bindPreferenceURLAsAction(findPreference("prefs_credits_nilsfo"));
+            bindPreferenceURLAsAction(findPreference("prefs_credits_pherbers"));
+
             bindPreferenceURLAsAction(findPreference("prefs_credits_timber"));
             bindPreferenceURLAsAction(findPreference("prefs_credits_debug_db"));
             bindPreferenceURLAsAction(findPreference("prefs_credits_animators"));
@@ -163,7 +178,8 @@ public class SettingsActivity extends AppCompatPreferenceActivity {
     }
     protected boolean isValidFragment(String fragmentName) {
         return PreferenceFragment.class.getName().equals(fragmentName)
-                || GeneralPreferenceFragment.class.getName().equals(fragmentName);
+                || GeneralPreferenceFragment.class.getName().equals(fragmentName)
+                || AboutPreferenceFragment.class.getName().equals(fragmentName);
     }
 
     /**
