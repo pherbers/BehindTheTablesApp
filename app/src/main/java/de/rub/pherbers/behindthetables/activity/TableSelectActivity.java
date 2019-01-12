@@ -52,8 +52,10 @@ public class TableSelectActivity extends AppCompatActivity implements Navigation
 
     public static final String INSTANCE_SEARCH_QUERY = APP_TAG + "home_search_query";
     public static final String INSTANCE_SCROLL_POSITION = APP_TAG + "home_scroll_position";
+
     public static final String EXTRA_CATEGORY_DISCRIMINATOR = APP_TAG + "extra_category_discriminator";
     public static final String EXTRA_FAVS_ONLY = APP_TAG + "extra_favs_only";
+	public static final String EXTRA_SEARCH_REQUEST_QUERY = APP_TAG + "extra_search_request_query";
 
     private ArrayList<TableFile> foundTables, matchedTables;
     private RecyclerView list;
@@ -72,17 +74,17 @@ public class TableSelectActivity extends AppCompatActivity implements Navigation
         setSupportActionBar(toolbar);
         matchedTables = null;
 
-        //FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-        //fab.setOnClickListener(new View.OnClickListener() {
-        //	@Override
-        //	public void onClick(View view) {
-        //		Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-        //				.setAction("Action", null).show();
-        //	}
-        //});
+        Bundle extras = getIntent().getExtras();
+        if (extras==null){
+        	extras=new Bundle();
+        }
+        favsOnly = extras.getBoolean(EXTRA_FAVS_ONLY,false);
 
-        Intent intent = getIntent();
-        favsOnly = intent.getBooleanExtra(EXTRA_FAVS_ONLY, false);
+		if (extras.containsKey(EXTRA_SEARCH_REQUEST_QUERY)){
+			String query = extras.getString(EXTRA_SEARCH_REQUEST_QUERY);
+			Timber.i("Activity started via search Query: '"+query+"'");
+			bufferedSearchQuery=query;
+		}
 
         ActionBar bar = getSupportActionBar();
         if (bar != null) {
@@ -92,9 +94,9 @@ public class TableSelectActivity extends AppCompatActivity implements Navigation
             if (favsOnly) {
                 bar.setSubtitle(R.string.category_favs);
             } else {
-                if (intent.hasExtra(EXTRA_CATEGORY_DISCRIMINATOR)) {
+                if (extras.containsKey(EXTRA_CATEGORY_DISCRIMINATOR)) {
                     DBAdapter adapter = new DBAdapter(this).open();
-                    Cursor c = adapter.getCategory(intent.getLongExtra(EXTRA_CATEGORY_DISCRIMINATOR, -1));
+                    Cursor c = adapter.getCategory(extras.getLong(EXTRA_CATEGORY_DISCRIMINATOR));
                     if (c.moveToFirst()) {
                         bar.setSubtitle(c.getString(DBAdapter.COL_CATEGORY_TITLE));
                     } else {
@@ -336,11 +338,14 @@ public class TableSelectActivity extends AppCompatActivity implements Navigation
         foundTables = new ArrayList<>();
         discoverTables();
         if (bufferedSearchQuery != null) {
+        	Timber.i("Resuming via search query: '"+bufferedSearchQuery+"'");
             updateDiscoveredFiles(bufferedSearchQuery);
             if (searchView != null) {
                 searchView.setIconified(false);
                 searchView.setQuery(bufferedSearchQuery, false);
             }
+        }else{
+        	Timber.i("No search query carried over from resuming.");
         }
 
         list.scrollToPosition(bufferedScrollPos);
@@ -378,7 +383,7 @@ public class TableSelectActivity extends AppCompatActivity implements Navigation
         if (bufferedSearchQuery == null) {
             searchView.setIconified(true);
         } else {
-            Timber.i("Found this buffered query while setting up the options menu: " + bufferedSearchQuery);
+            Timber.i("Found this buffered query while setting up the options menu: '" + bufferedSearchQuery+"'");
             searchView.setIconified(false);
             searchView.setQuery(bufferedSearchQuery, false);
         }
