@@ -1,5 +1,7 @@
 package de.rub.pherbers.behindthetables.view;
 
+import android.app.Activity;
+import android.content.Context;
 import android.support.v7.widget.RecyclerView.ViewHolder;
 import android.text.Html;
 import android.text.method.LinkMovementMethod;

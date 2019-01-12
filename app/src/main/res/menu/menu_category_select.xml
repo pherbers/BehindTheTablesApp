@@ -22,9 +22,8 @@
 
     <item
         android:id="@+id/action_discover_external"
-        android:icon="@drawable/ic_add_white_48dp"
         android:title="@string/action_discover_external"
-        app:showAsAction="ifRoom"/>
+        app:showAsAction="never"/>
 
     <item
         android:id="@+id/action_category_settings"

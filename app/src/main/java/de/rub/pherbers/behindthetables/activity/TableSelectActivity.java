@@ -210,14 +210,6 @@ public class TableSelectActivity extends AppCompatActivity implements Navigation
         }
         adapter.close();
 
-        //Discovering external JSONs.
-        Timber.i("Attempting to discover external JSON files.");
-        if (ContextCompat.checkSelfPermission(this, Manifest.permission.READ_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED) {
-            //TODO implement external search
-        } else {
-            Timber.i("... but this app has no permission to read the external storage.");
-        }
-
         Timber.i("List of displayed tables [count: " + foundTables.size() + "]: " + Arrays.toString(foundTables.toArray()));
         displayFiles(foundTables);
     }
@@ -230,7 +222,6 @@ public class TableSelectActivity extends AppCompatActivity implements Navigation
         matchedTables = new ArrayList<>();
 
         for (TableFile f : foundTables) {
-            //TODO maybe apply preferences to narrow search creteria?
             if (f.getTitle().toLowerCase().contains(searchQuery)) {
                 matchedTables.add(f);
                 continue;
@@ -249,8 +240,6 @@ public class TableSelectActivity extends AppCompatActivity implements Navigation
                 matchedTables.add(f);
             }
         }
-
-
 
         Timber.i("Already discovered tables: " + Arrays.toString(foundTables.toArray()));
         Timber.i("Discovered tables that match search query: " + Arrays.toString(matchedTables.toArray()));
@@ -436,11 +425,10 @@ public class TableSelectActivity extends AppCompatActivity implements Navigation
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             case R.id.action_table_settings:
-                //TODO Settings?
+                //TODO Display settings here
                 break;
             case android.R.id.home:
                 finish();
-                //TODO Why no burger menu?
                 break;
             case R.id.action_random_table:
                 viewTableCollection(new Random());

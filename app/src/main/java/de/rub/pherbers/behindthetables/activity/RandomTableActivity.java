@@ -1,5 +1,4 @@
 package de.rub.pherbers.behindthetables.activity;
-//TODO move this to package de.rub.pherbers.behindthetables.activiy
 
 import android.Manifest;
 import android.content.DialogInterface;
@@ -22,11 +21,9 @@ import android.webkit.URLUtil;
 import android.widget.ImageButton;
 import android.widget.Toast;
 
-import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
-import java.io.InputStreamReader;
 
 import de.rub.pherbers.behindthetables.R;
 import de.rub.pherbers.behindthetables.adapter.RandomTableListAdapter;
@@ -40,7 +37,7 @@ import de.rub.pherbers.behindthetables.data.TableReader;
 import de.rub.pherbers.behindthetables.imported.nilsfo.FileManager;
 import de.rub.pherbers.behindthetables.sql.DBAdapter;
 import de.rub.pherbers.behindthetables.view.DividerItemDecoration;
-import de.rub.pherbers.behindthetables.view.MyItemAnimator;
+import de.rub.pherbers.behindthetables.imported.wasabeef.MyItemAnimator;
 import timber.log.Timber;
 
 import static de.rub.pherbers.behindthetables.BehindTheTables.APP_TAG;
@@ -64,7 +61,7 @@ public class RandomTableActivity extends AppCompatActivity {
         Intent sourceIntent = getIntent();
         if (!sourceIntent.hasExtra(EXTRA_TABLE_DATABASE_RESOURCE_LOCATION)) {
             Timber.e("This Random Table activity has no Table Database ID in the start intent! Aborting!");
-            //TODO handle this case better
+            Toast.makeText(this,R.string.error_no_table_intent_extra,Toast.LENGTH_LONG).show();
             finish();
             return;
         }
@@ -76,7 +73,7 @@ public class RandomTableActivity extends AppCompatActivity {
 
         if (tableFile == null) {
             Timber.e("Failed to obtain a table file from the DB with the location " + resourceLocation + "! Aborting activity!");
-            //TODO handle this case better
+            Toast.makeText(this,R.string.error_table_not_found,Toast.LENGTH_LONG).show();
             finish();
             return;
         }
@@ -277,52 +274,51 @@ public class RandomTableActivity extends AppCompatActivity {
                 dialogInterface.cancel();
             }
         });
-        builder.setNeutralButton(R.string.action_share_external_file_content, new DialogInterface.OnClickListener() {
-            @Override
-            public void onClick(DialogInterface dialogInterface, int i) {
-                dialogInterface.dismiss();
+        //builder.setNeutralButton(R.string.action_share_external_file_content, new DialogInterface.OnClickListener() {
+        //    @Override
+        //    public void onClick(DialogInterface dialogInterface, int i) {
+        //        dialogInterface.dismiss();
+	    //
+        //        File f = tableFile.getFile();
+        //        StringBuilder builder = new StringBuilder();
+        //        try {
+        //            FileInputStream fstream = new FileInputStream(f);
+        //            BufferedReader br = new BufferedReader(new InputStreamReader(fstream));
+        //            String strLine;
+        //            while ((strLine = br.readLine()) != null) {
+        //                builder.append(strLine);
+        //            }
+        //            br.close();
+        //        } catch (IOException e) {
+        //            e.printStackTrace();
+        //            Timber.e("Failed to read file '" + f.getAbsolutePath() + "'");
+        //            return;
+        //        }
+		//
+        //        Intent sendIntent = new Intent();
+        //        sendIntent.setAction(Intent.ACTION_SEND);
+        //        sendIntent.putExtra(Intent.EXTRA_TEXT, builder.toString());
+        //        sendIntent.setType("text/plain");
+        //        startActivity(Intent.createChooser(sendIntent, getString(R.string.action_share_external_file_content)));
+        //    }
+        //});
 
-                File f = tableFile.getFile();
-                StringBuilder builder = new StringBuilder();
-                try {
-                    FileInputStream fstream = new FileInputStream(f);
-                    BufferedReader br = new BufferedReader(new InputStreamReader(fstream));
-                    String strLine;
-                    while ((strLine = br.readLine()) != null) {
-                        builder.append(strLine);
-                    }
-                    br.close();
-                } catch (IOException e) {
-                    e.printStackTrace();
-                    Timber.e("Failed to read file '" + f.getAbsolutePath() + "'");
-                    //TODO exception handling
-                    return;
-                }
-
-                Intent sendIntent = new Intent();
-                sendIntent.setAction(Intent.ACTION_SEND);
-                sendIntent.putExtra(Intent.EXTRA_TEXT, builder.toString());
-                sendIntent.setType("text/plain");
-                startActivity(Intent.createChooser(sendIntent, getString(R.string.action_share_external_file_content)));
-            }
-        });
-
-        builder.setPositiveButton(R.string.action_share_external_file, new DialogInterface.OnClickListener() {
-            @Override
-            public void onClick(DialogInterface dialogInterface, int i) {
-                dialogInterface.dismiss();
-                File f = tableFile.getFile();
-                Uri uri = Uri.parse(f.getAbsolutePath());
-                String fileType = "application/json";
-
-                Timber.i("Sharing '" + f.getAbsolutePath() + "' -> URI: " + uri + " -> Type: " + fileType);
-                Intent intent = new Intent();
-                intent.putExtra(Intent.EXTRA_STREAM, Uri.parse("file://"+f.getAbsolutePath()));
-                intent.setType(fileType);
-                intent.setAction(Intent.ACTION_SEND);
-                startActivity(Intent.createChooser(intent, getString(R.string.action_share_external_file)));
-            }
-        });
+        //builder.setPositiveButton(R.string.action_share_external_file, new DialogInterface.OnClickListener() {
+        //    @Override
+        //    public void onClick(DialogInterface dialogInterface, int i) {
+        //        dialogInterface.dismiss();
+        //        File f = tableFile.getFile();
+        //        Uri uri = Uri.parse(f.getAbsolutePath());
+        //        String fileType = "application/json";
+		//
+        //        Timber.i("Sharing '" + f.getAbsolutePath() + "' -> URI: " + uri + " -> Type: " + fileType);
+        //        Intent intent = new Intent();
+        //        intent.putExtra(Intent.EXTRA_STREAM, Uri.parse("file://"+f.getAbsolutePath()));
+        //        intent.setType(fileType);
+        //        intent.setAction(Intent.ACTION_SEND);
+        //        startActivity(Intent.createChooser(intent, getString(R.string.action_share_external_file)));
+        //    }
+        //});
 
         builder.show();
     }
@@ -378,8 +374,6 @@ public class RandomTableActivity extends AppCompatActivity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.random_table_activity_menu, menu);
-        // Disable "Open on reddit" if no reference is given
-        // TODO could this be optimised? See code below.
         if (!URLUtil.isValidUrl(table.getReference())) {
             MenuItem item = menu.findItem(R.id.random_table_activity_reference);
             item.setVisible(false);

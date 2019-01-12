@@ -49,7 +49,7 @@ public abstract class DefaultTables {
             e.printStackTrace();
             Timber.e(e, "Failed to fetch meta table information because of an I/O error!");
             return false;
-        }//TODO error handling?
+        }
 
         return true;
     }

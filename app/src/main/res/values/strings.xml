@@ -150,4 +150,7 @@
     <string name="action_share">Share</string>
     <string name="action_share_tables_with">Share table results via:</string>
     <string name="error_nothing_rolled">No table has been rolled yet.</string>
+    <string name="error_no_table_intent_extra">Error: Table to load unknown.</string>
+    <string name="error_table_not_found">Error: Could not find specified table.</string>
+    <string name="error_internal_json_exception">Error: Heavy internal error. Could not read internal table data.</string>
 </resources>

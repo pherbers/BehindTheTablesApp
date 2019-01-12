@@ -133,7 +133,7 @@ public class CategorySelectActivity extends AppCompatActivity implements Adapter
                 @Override
                 public void onClick(DialogInterface dialogInterface, int i) {
                     dialogInterface.dismiss();
-                    //TODO 'more info' here!
+                    //TODO Link to Github wiki
                 }
             });
             builder.show();
@@ -158,7 +158,7 @@ public class CategorySelectActivity extends AppCompatActivity implements Adapter
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             case R.id.action_table_settings:
-                //TODO Settings?
+                //TODO Acess settings here
                 break;
             case R.id.action_debug_reset_db:
                 DBAdapter adapter = new DBAdapter(this).open();
@@ -169,8 +169,7 @@ public class CategorySelectActivity extends AppCompatActivity implements Adapter
                 requestClearFavs();
                 break;
             case R.id.action_category_settings:
-                //TODO Settings?
-                //TODO warum ist das doppelt implementiert?
+                //TODO Access settings here
                 break;
             case R.id.action_discover_external:
                 requestDiscoverExternalFiles();

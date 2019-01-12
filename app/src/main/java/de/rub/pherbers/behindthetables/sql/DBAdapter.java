@@ -6,6 +6,7 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
+import android.widget.Toast;
 
 import java.util.Date;
 import java.util.Observable;
@@ -173,7 +174,7 @@ public class DBAdapter extends Observable {
 
         if (!DefaultTables.discoverDefaultTables(context, this)) {
             Timber.e("Failed to discover default internal data!");
-            //TODO error handling
+            Toast.makeText(context, R.string.error_internal_json_exception,Toast.LENGTH_LONG).show();
         }
     }
 
