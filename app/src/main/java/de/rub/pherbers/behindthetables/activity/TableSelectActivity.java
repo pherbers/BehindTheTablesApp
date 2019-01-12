@@ -425,7 +425,8 @@ public class TableSelectActivity extends AppCompatActivity implements Navigation
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             case R.id.action_table_settings:
-                //TODO Display settings here
+                Intent intent = new Intent(this, SettingsActivity.class);
+                startActivity(intent);
                 break;
             case android.R.id.home:
                 finish();

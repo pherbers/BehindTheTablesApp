@@ -157,19 +157,14 @@ public class CategorySelectActivity extends AppCompatActivity implements Adapter
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
-            case R.id.action_table_settings:
-                //TODO Acess settings here
-                break;
-            case R.id.action_debug_reset_db:
-                DBAdapter adapter = new DBAdapter(this).open();
-                adapter.fillWithDefaultData(this);
-                adapter.close();
-                break;
             case R.id.action_clar_favs:
                 requestClearFavs();
                 break;
             case R.id.action_category_settings:
-                //TODO Access settings here
+                {
+                    Intent intent = new Intent(this, SettingsActivity.class);
+                    startActivity(intent);
+                }
                 break;
             case R.id.action_discover_external:
                 requestDiscoverExternalFiles();
@@ -232,10 +227,6 @@ public class CategorySelectActivity extends AppCompatActivity implements Adapter
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.menu_category_select, menu);
-
-        if (!BehindTheTables.isDebugBuild()) {
-            menu.removeItem(R.id.action_debug_reset_db);
-        }
 
         SearchManager searchManager = (SearchManager) getSystemService(Context.SEARCH_SERVICE);
         searchView = (SearchView) menu.findItem(R.id.action_category_select_search).getActionView();

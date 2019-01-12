@@ -53,6 +53,13 @@
             <meta-data android:name="android.app.default_searchable"
                        android:value=".activity.TableSelectActivity" />
         </activity>
+
+        <activity android:name=".activity.SettingsActivity">
+            android:parentActivityName="de.rub.pherbers.behindthetables.activity.CategorySelectActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="de.rub.pherbers.behindthetables.activity.CategorySelectActivity"/>
+        </activity>
     </application>
 
 </manifest>

@@ -156,4 +156,19 @@
     <string name="info_keywords">Keywords: %1$s</string>
     <string name="info_related">Related: </string>
     <string name="info_use_with">Use with: </string>
+
+    <string name="pref_category_general">General</string>
+    <string name="prefs_reset_database_title">Reset Database</string>
+    <string name="prefs_reset_database_summary">Resets the database to its default values</string>
+    <string name="pref_credits">Credits</string>
+    <string name="prefs_credits_timber" translatable="false"><i>Timber</i> by Jake Wharton</string>
+    <string name="prefs_credits_debug_db" translatable="false">Android Debug Database by Amit Shekhar</string>
+    <string name="share_via">Share via</string>
+    <string name="prefs_reset_db_success">Database reset successful</string>
+    <string name="pref_header_general">General</string>
+    <string name="prefs_credits_nilsfo">NilsFo</string>
+    <string name="pref_developers">Developers</string>
+    <string name="prefs_credits_pherbers">pherbers</string>
+    <string name="prefs_credits_btt">/r/BehindTheTables</string>
+    <string name="prefs_credits_animators">RecyclerView Animators by Wasabeef</string>
 </resources>
