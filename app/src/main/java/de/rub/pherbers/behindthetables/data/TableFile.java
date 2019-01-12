@@ -5,20 +5,16 @@ import android.content.SharedPreferences;
 import android.database.Cursor;
 import android.preference.PreferenceManager;
 import android.support.annotation.NonNull;
-import android.util.ArraySet;
 
 import java.io.File;
-import java.util.ArrayList;
-import java.util.Collections;
 import java.util.Date;
 import java.util.HashSet;
 import java.util.Set;
 
-import de.rub.pherbers.behindthetables.data.io.FileManager;
+import de.rub.pherbers.behindthetables.imported.nilsfo.FileManager;
 import de.rub.pherbers.behindthetables.sql.DBAdapter;
 import timber.log.Timber;
 
-import static de.rub.pherbers.behindthetables.BehindTheTables.APP_TAG;
 import static de.rub.pherbers.behindthetables.BehindTheTables.PREFS_TAG;
 
 /**

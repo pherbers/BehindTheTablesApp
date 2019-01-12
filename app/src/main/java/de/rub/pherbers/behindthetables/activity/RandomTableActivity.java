@@ -37,7 +37,7 @@ import de.rub.pherbers.behindthetables.data.TableCollectionContainer;
 import de.rub.pherbers.behindthetables.data.TableCollectionEntry;
 import de.rub.pherbers.behindthetables.data.TableFile;
 import de.rub.pherbers.behindthetables.data.TableReader;
-import de.rub.pherbers.behindthetables.data.io.FileManager;
+import de.rub.pherbers.behindthetables.imported.nilsfo.FileManager;
 import de.rub.pherbers.behindthetables.sql.DBAdapter;
 import de.rub.pherbers.behindthetables.view.DividerItemDecoration;
 import de.rub.pherbers.behindthetables.view.MyItemAnimator;

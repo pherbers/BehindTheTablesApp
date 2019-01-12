@@ -36,7 +36,7 @@ import de.rub.pherbers.behindthetables.BehindTheTables;
 import de.rub.pherbers.behindthetables.R;
 import de.rub.pherbers.behindthetables.concurrent.task.BuildDBTask;
 import de.rub.pherbers.behindthetables.data.TableFile;
-import de.rub.pherbers.behindthetables.data.io.FileManager;
+import de.rub.pherbers.behindthetables.imported.nilsfo.FileManager;
 import de.rub.pherbers.behindthetables.sql.DBAdapter;
 import de.rub.pherbers.behindthetables.view.dialog.ProgressDialogFragment;
 import timber.log.Timber;

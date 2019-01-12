@@ -4,7 +4,6 @@ import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.os.AsyncTask;
-import android.util.Log;
 
 import org.json.JSONException;
 
@@ -14,7 +13,7 @@ import java.util.ArrayList;
 import java.util.Date;
 
 import de.rub.pherbers.behindthetables.BehindTheTables;
-import de.rub.pherbers.behindthetables.data.io.FileManager;
+import de.rub.pherbers.behindthetables.imported.nilsfo.FileManager;
 import de.rub.pherbers.behindthetables.sql.DBAdapter;
 import de.rub.pherbers.behindthetables.sql.DefaultTables;
 import timber.log.Timber;
