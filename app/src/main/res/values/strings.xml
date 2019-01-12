@@ -171,4 +171,6 @@
     <string name="prefs_credits_pherbers">pherbers</string>
     <string name="prefs_credits_btt">/r/BehindTheTables</string>
     <string name="prefs_credits_animators">RecyclerView Animators by Wasabeef</string>
+    <string name="info_discover_reset_database_dialog">This will delete all custom tables you have imported! Your files will be left untouched. Are you sure?</string>
+    <string name="action_reset_database_dialog">Yes, delete it!</string>
 </resources>

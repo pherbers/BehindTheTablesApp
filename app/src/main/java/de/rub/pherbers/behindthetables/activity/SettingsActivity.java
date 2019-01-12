@@ -3,6 +3,7 @@ package de.rub.pherbers.behindthetables.activity;
 
 import android.annotation.TargetApi;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.res.Configuration;
 import android.net.Uri;
@@ -14,6 +15,7 @@ import android.preference.Preference;
 import android.preference.PreferenceActivity;
 import android.preference.PreferenceFragment;
 import android.preference.PreferenceManager;
+import android.support.v7.app.AlertDialog;
 import android.widget.Toast;
 
 import java.util.List;
@@ -83,11 +85,29 @@ public class SettingsActivity extends AppCompatPreferenceActivity {
             resetDB.setOnPreferenceClickListener(new Preference.OnPreferenceClickListener() {
                 @Override
                 public boolean onPreferenceClick(Preference preference) {
-                    Context context = preference.getContext();
-                    DBAdapter adapter = new DBAdapter(context).open();
-                    adapter.fillWithDefaultData(context);
-                    adapter.close();
-                    Toast.makeText(context, R.string.prefs_reset_db_success, Toast.LENGTH_LONG).show();
+                    final Context context = preference.getContext();
+                    AlertDialog.Builder builder = new AlertDialog.Builder(context);
+                    builder.setTitle(R.string.app_name);
+                    builder.setIcon(R.mipmap.ic_launcher);
+                    builder.setMessage(getString(R.string.info_discover_reset_database_dialog));
+                    builder.setNegativeButton(android.R.string.cancel, new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialogInterface, int i) {
+                            dialogInterface.cancel();
+                        }
+                    });
+                    builder.setPositiveButton(R.string.action_reset_database_dialog, new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialogInterface, int i) {
+                            dialogInterface.dismiss();
+
+                            DBAdapter adapter = new DBAdapter(context).open();
+                            adapter.fillWithDefaultData(context);
+                            adapter.close();
+                            Toast.makeText(context, R.string.prefs_reset_db_success, Toast.LENGTH_LONG).show();
+                        }
+                    });
+                    builder.show();
                     return true;
                 }
             });
