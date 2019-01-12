@@ -153,4 +153,7 @@
     <string name="error_no_table_intent_extra">Error: Table to load unknown.</string>
     <string name="error_table_not_found">Error: Could not find specified table.</string>
     <string name="error_internal_json_exception">Error: Heavy internal error. Could not read internal table data.</string>
+    <string name="info_keywords">Keywords: %1$s</string>
+    <string name="info_related">Related: </string>
+    <string name="info_use_with">Use with: </string>
 </resources>

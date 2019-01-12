@@ -46,7 +46,7 @@ public class RandomTableHeaderViewHolder extends ViewHolder{
         } else {
             itemView.findViewById(R.id.table_info_use_with_scroll).setVisibility(View.VISIBLE);
             TextView txUse = (TextView) itemView.findViewById(R.id.table_info_use_with);
-            setLinkGroup(txUse, "Use with: ", table.getUseWithTables());
+            setLinkGroup(txUse, this.itemView.getContext().getString(R.string.info_use_with), table.getUseWithTables());
         }
 
         if(table.getRelatedTables().isEmpty()) {
@@ -54,17 +54,16 @@ public class RandomTableHeaderViewHolder extends ViewHolder{
         } else {
             itemView.findViewById(R.id.table_info_related_scroll).setVisibility(View.VISIBLE);
             TextView txRelated = (TextView) itemView.findViewById(R.id.table_info_related);
-            setLinkGroup(txRelated, "Related: ", table.getRelatedTables());
+            setLinkGroup(txRelated, this.itemView.getContext().getString(R.string.info_related), table.getRelatedTables());
         }
         if(table.getKeywords().isEmpty()) {
             itemView.findViewById(R.id.table_info_keywords_scroll).setVisibility(View.GONE);
         } else {
             itemView.findViewById(R.id.table_info_keywords_scroll).setVisibility(View.VISIBLE);
             TextView txKeywords = (TextView) itemView.findViewById(R.id.table_info_keywords);
-            //setLinkGroup(txKeywords, table.getKeywords());
-            // TODO: Make keywords link to search
-            // TODO: Externalize Strings
-            txKeywords.setText("Keywords: " + buildCommaSeparatedString(table.getKeywords()));
+
+            txKeywords.setText(this.itemView.getContext().getString(R.string.info_keywords, buildCommaSeparatedString(table.getKeywords())));
+
         }
     }
 
