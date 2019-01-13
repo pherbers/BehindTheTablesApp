@@ -124,6 +124,7 @@ public class SettingsActivity extends AppCompatPreferenceActivity {
             addPreferencesFromResource(R.xml.prefs_credits);
             setHasOptionsMenu(true);
 
+            bindPreferenceURLAsAction(findPreference("prefs_credits_github"));
             bindPreferenceURLAsAction(findPreference("prefs_credits_nilsfo"));
             bindPreferenceURLAsAction(findPreference("prefs_credits_pherbers"));
 

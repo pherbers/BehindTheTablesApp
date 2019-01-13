@@ -3,11 +3,6 @@
       xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <item
-        android:id="@+id/action_clar_favs"
-        android:title="@string/action_clear_favs"
-        app:showAsAction="never"/>
-
-    <item
         android:id="@+id/action_category_select_search"
         android:icon="@drawable/ic_search_white_48dp"
         android:title="@string/action_search"
@@ -17,6 +12,11 @@
     <item
         android:id="@+id/action_discover_external"
         android:title="@string/action_discover_external"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_clar_favs"
+        android:title="@string/action_clear_favs"
         app:showAsAction="never"/>
 
     <item
