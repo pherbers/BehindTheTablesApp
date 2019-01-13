@@ -138,8 +138,7 @@ public class CategorySelectActivity extends AppCompatActivity implements Adapter
     }
 
     private void discoverExternalFiles() {
-        buildDBTask = new BuildDBTask(this, getClass());
-        //buildDBTask.setListener(this);
+        buildDBTask = new BuildDBTask(this, getClass(),false,true);
         AsyncTaskCompat.executeParallel(buildDBTask);
 
         displayBlockingDialog();

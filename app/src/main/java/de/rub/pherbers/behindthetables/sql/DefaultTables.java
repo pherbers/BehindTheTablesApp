@@ -95,7 +95,7 @@ public abstract class DefaultTables {
         long categoryID = handleCategory(adapter, category);
 
         Timber.i(resourceLocation + " -> reddit ID: " + redditID + " title: " + title + ", keywords: " + keywords + ", catgetory: " + category + " (" + categoryID + ")!");
-        adapter.insertTableCollection(resourceLocation, title, description, keywords, useWith, relatedTables, categoryID);
+        adapter.insertOrUpdateTableCollection(resourceLocation, title, description, keywords, useWith, relatedTables, categoryID);
     }
 
     public static long handleCategory(DBAdapter adapter, String category) {
