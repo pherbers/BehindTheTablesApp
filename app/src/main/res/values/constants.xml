@@ -3,5 +3,6 @@
 
     <string translatable="false" name="const_dir_json_resource">Roll tables</string>
     <string translatable="false" name="const_table_identifier">table_</string>
+    <string translatable="false" name="const_custom_table_link">https://github.com/pherbers/BehindTheTablesApp/wiki/Custom-Tables</string>
 
 </resources>
