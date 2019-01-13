@@ -6,8 +6,9 @@
         android:id="@+id/action_table_select_search"
         app:actionViewClass="android.support.v7.widget.SearchView"
         android:icon="@drawable/ic_search_white_48dp"
+        android:iconifiedByDefault="true"
         android:title="@string/action_search"
-        app:showAsAction="ifRoom|collapseActionView"
+        app:showAsAction="always"
         />
 
     <item

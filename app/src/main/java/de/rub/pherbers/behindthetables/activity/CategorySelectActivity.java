@@ -42,6 +42,7 @@ import de.rub.pherbers.behindthetables.view.dialog.ProgressDialogFragment;
 import timber.log.Timber;
 
 import static de.rub.pherbers.behindthetables.BehindTheTables.APP_TAG;
+import static de.rub.pherbers.behindthetables.activity.TableSelectActivity.EXTRA_SEARCH_REQUEST_QUERY;
 import static de.rub.pherbers.behindthetables.concurrent.task.BuildDBTask.INTENT_EXTRA_DB_TASK_FAILED;
 import static de.rub.pherbers.behindthetables.concurrent.task.BuildDBTask.INTENT_EXTRA_DB_TASK_IMPORTED;
 
@@ -52,10 +53,6 @@ public class CategorySelectActivity extends AppCompatActivity implements Adapter
 
     private CategoryAdapter adapter;
     private BuildDBTask buildDBTask;
-    private ProgressDialog blockingDialog;
-    private SearchView searchView;
-
-    private String bufferedSearchQuery;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -141,8 +138,7 @@ public class CategorySelectActivity extends AppCompatActivity implements Adapter
     }
 
     private void discoverExternalFiles() {
-        buildDBTask = new BuildDBTask(this, getClass());
-        //buildDBTask.setListener(this);
+        buildDBTask = new BuildDBTask(this, getClass(),false,true);
         AsyncTaskCompat.executeParallel(buildDBTask);
 
         displayBlockingDialog();
@@ -159,6 +155,9 @@ public class CategorySelectActivity extends AppCompatActivity implements Adapter
         switch (item.getItemId()) {
             case R.id.action_clar_favs:
                 requestClearFavs();
+                break;
+            case R.id.action_category_select_search:
+            	requestSearch();
                 break;
             case R.id.action_category_settings:
                 {
@@ -228,32 +227,13 @@ public class CategorySelectActivity extends AppCompatActivity implements Adapter
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.menu_category_select, menu);
 
-        SearchManager searchManager = (SearchManager) getSystemService(Context.SEARCH_SERVICE);
-        searchView = (SearchView) menu.findItem(R.id.action_category_select_search).getActionView();
-        searchView.setSearchableInfo(searchManager.getSearchableInfo(getComponentName()));
-        searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
-            @Override
-            public boolean onQueryTextSubmit(String query) {
-                updateSearchRequest(query);
-                return false;
-            }
-
-            @Override
-            public boolean onQueryTextChange(String newText) {
-                updateSearchRequest(newText);
-                return false;
-            }
-        });
-        searchView.setSearchableInfo(searchManager.getSearchableInfo(getComponentName()));
-        if (bufferedSearchQuery == null) {
-            searchView.setIconified(true);
-        } else {
-            Timber.e("Found this buffered query while setting up the options menu: " + bufferedSearchQuery);
-            searchView.setIconified(false);
-            searchView.setQuery(bufferedSearchQuery, false);
-        }
-
         return true;
+    }
+
+    private void requestSearch(){
+    	Intent intent = new Intent(this,TableSelectActivity.class);
+    	intent.putExtra(EXTRA_SEARCH_REQUEST_QUERY,"");
+    	startActivity(intent);
     }
 
     private void requestClearFavs() {
@@ -278,10 +258,6 @@ public class CategorySelectActivity extends AppCompatActivity implements Adapter
             }
         });
         builder.show();
-    }
-
-    private void updateSearchRequest(String searchQuery) {
-        Timber.i("CategorySelect: Search query update: "+searchQuery);
     }
 
     @Override
