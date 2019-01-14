@@ -11,6 +11,7 @@ import android.support.v4.content.ContextCompat;
 import android.util.Log;
 
 import com.amitshekhar.DebugDB;
+import com.squareup.leakcanary.LeakCanary;
 
 import java.util.HashSet;
 
@@ -32,6 +33,14 @@ public class BehindTheTables extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
+
+        if (LeakCanary.isInAnalyzerProcess(this)) {
+            // This process is dedicated to LeakCanary for heap analysis.
+            // You should not init your app in this process.
+            return;
+        }
+        LeakCanary.install(this);
+
         if (isDebugBuild()) {
             Timber.plant(new DebugTree());
             Timber.i("Debug-DB URL: " + DebugDB.getAddressLog());

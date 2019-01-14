@@ -3,8 +3,6 @@ package de.rub.pherbers.behindthetables.activity;
 import android.Manifest;
 import android.app.DialogFragment;
 import android.app.FragmentManager;
-import android.app.ProgressDialog;
-import android.app.SearchManager;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -14,10 +12,8 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.support.v4.app.ActivityCompat;
-import android.support.v4.os.AsyncTaskCompat;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.SearchView;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -30,9 +26,6 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import java.io.File;
-import java.net.URI;
-import java.net.URISyntaxException;
-import java.net.URL;
 import java.util.ArrayList;
 import java.util.HashSet;
 
@@ -145,8 +138,8 @@ public class CategorySelectActivity extends AppCompatActivity implements Adapter
     }
 
     private void discoverExternalFiles() {
-        buildDBTask = new BuildDBTask(this, getClass(),false,true);
-        AsyncTaskCompat.executeParallel(buildDBTask);
+        buildDBTask = new BuildDBTask(this, getClass(), false, true);
+        buildDBTask.execute();
 
         displayBlockingDialog();
     }
@@ -155,32 +148,6 @@ public class CategorySelectActivity extends AppCompatActivity implements Adapter
         FragmentManager fragmentManager = getFragmentManager();
         ProgressDialogFragment newFragment = new ProgressDialogFragment();
         newFragment.show(fragmentManager, DIALOG_IDENTIFIER);
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        switch (item.getItemId()) {
-            case R.id.action_clar_favs:
-                requestClearFavs();
-                break;
-            case R.id.action_category_select_search:
-            	requestSearch();
-                break;
-            case R.id.action_category_settings:
-                {
-                    Intent intent = new Intent(this, SettingsActivity.class);
-                    startActivity(intent);
-                }
-                break;
-            case R.id.action_discover_external:
-                requestDiscoverExternalFiles();
-                break;
-            default:
-                Timber.w("Unknown menu item selected.");
-                break;
-        }
-
-        return super.onOptionsItemSelected(item);
     }
 
     private void evaluateImport(String[] imported, String[] failed) {
@@ -231,16 +198,59 @@ public class CategorySelectActivity extends AppCompatActivity implements Adapter
     }
 
     @Override
+    protected void onPause() {
+        super.onPause();
+        if (buildDBTask != null) {
+            Timber.i("There was a build task not finished yet. Canceling.");
+            buildDBTask.cancel(true);
+        }
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        if (buildDBTask != null) {
+            Timber.i("There was a build task not finished yet. Starting again.");
+            discoverExternalFiles();
+        }
+    }
+
+    @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.menu_category_select, menu);
 
         return true;
     }
 
-    private void requestSearch(){
-    	Intent intent = new Intent(this,TableSelectActivity.class);
-    	intent.putExtra(EXTRA_SEARCH_REQUEST_QUERY,"");
-    	startActivity(intent);
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case R.id.action_clar_favs:
+                requestClearFavs();
+                break;
+            case R.id.action_category_select_search:
+                requestSearch();
+                break;
+            case R.id.action_category_settings: {
+                Intent intent = new Intent(this, SettingsActivity.class);
+                startActivity(intent);
+            }
+            break;
+            case R.id.action_discover_external:
+                requestDiscoverExternalFiles();
+                break;
+            default:
+                Timber.w("Unknown menu item selected.");
+                break;
+        }
+
+        return super.onOptionsItemSelected(item);
+    }
+
+    private void requestSearch() {
+        Intent intent = new Intent(this, TableSelectActivity.class);
+        intent.putExtra(EXTRA_SEARCH_REQUEST_QUERY, "");
+        startActivity(intent);
     }
 
     private void requestClearFavs() {
@@ -307,17 +317,17 @@ public class CategorySelectActivity extends AppCompatActivity implements Adapter
             return b;
         }
 
-        @Override
-        public int getCount() {
-            return bufferedCategories.getCount() + 2;
-        }
-
         public boolean isCategoryAll(int i) {
             return i == bufferedCategories.getCount();
         }
 
         public boolean isCategoryFavs(int i) {
             return i == bufferedCategories.getCount() + 1;
+        }
+
+        @Override
+        public int getCount() {
+            return bufferedCategories.getCount() + 2;
         }
 
         @Override
