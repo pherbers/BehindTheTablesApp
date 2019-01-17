@@ -6,7 +6,7 @@
 
     <application
         android:name=".BehindTheTables"
-        android:allowBackup="true"
+        android:allowBackup="false"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
@@ -46,6 +46,7 @@
 
         <activity android:name=".activity.CategorySelectActivity">
             <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
@@ -54,7 +55,8 @@
                        android:value=".activity.TableSelectActivity" />
         </activity>
 
-        <activity android:name=".activity.SettingsActivity">
+        <activity
+            android:name=".activity.SettingsActivity"
             android:parentActivityName="de.rub.pherbers.behindthetables.activity.CategorySelectActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
