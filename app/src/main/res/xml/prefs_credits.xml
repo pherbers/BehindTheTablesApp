@@ -2,6 +2,11 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
 
     <Preference
+        android:key="prefs_version_about"
+        android:summary="@string/app_name"
+        android:title="@string/app_name"/>
+
+    <Preference
         android:key="prefs_credits_github"
         android:summary="https://github.com/pherbers/BehindTheTablesApp"
         android:title="@string/prefs_credits_github"/>

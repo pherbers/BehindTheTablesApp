@@ -175,4 +175,5 @@
     <string name="action_reset_database_dialog">Yes, delete it!</string>
     <string name="pref_header_credits">About</string>
     <string name="prefs_credits_github">Visit us on GitHub</string>
+    <string name="prefs_about_summary">%1$s, version %2$s.</string>
 </resources>

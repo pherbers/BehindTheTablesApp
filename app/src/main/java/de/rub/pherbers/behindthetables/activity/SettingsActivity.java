@@ -5,6 +5,8 @@ import android.annotation.TargetApi;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.pm.PackageInfo;
+import android.content.pm.PackageManager;
 import android.content.res.Configuration;
 import android.net.Uri;
 import android.os.Build;
@@ -123,6 +125,23 @@ public class SettingsActivity extends AppCompatPreferenceActivity {
             super.onCreate(savedInstanceState);
             addPreferencesFromResource(R.xml.prefs_credits);
             setHasOptionsMenu(true);
+
+            int versionCode = 0;
+            String versionName = getString(R.string.error_unknown);
+            String appName = getString(R.string.app_name);
+
+            PackageManager manager = getActivity().getPackageManager();
+            try {
+                PackageInfo info = manager.getPackageInfo(getActivity().getPackageName(), 0);
+                versionName = info.versionName;
+                versionCode = info.versionCode;
+            } catch (PackageManager.NameNotFoundException e) {
+                e.printStackTrace();
+            }
+
+            final int finalVersionCode = versionCode;
+            Preference aboutPreference = findPreference("prefs_version_about");
+            aboutPreference.setSummary(String.format(getString(R.string.prefs_about_summary), appName, versionName));
 
             bindPreferenceURLAsAction(findPreference("prefs_credits_github"));
             bindPreferenceURLAsAction(findPreference("prefs_credits_nilsfo"));

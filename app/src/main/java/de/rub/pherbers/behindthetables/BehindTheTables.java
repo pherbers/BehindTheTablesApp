@@ -1,13 +1,10 @@
 package de.rub.pherbers.behindthetables;
 
-import android.Manifest;
 import android.app.Application;
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 import android.preference.PreferenceManager;
-import android.support.v4.app.ActivityCompat;
-import android.support.v4.content.ContextCompat;
 import android.util.Log;
 
 import com.amitshekhar.DebugDB;
@@ -29,6 +26,12 @@ public class BehindTheTables extends Application {
     public static final String APP_TAG = "de.rub.btt.";
     public static final String PREFS_TAG = APP_TAG + "prefs_";
     public static final String PREFS_LAST_KNOWN_VERSION = PREFS_TAG + "last_known_version";
+
+    public static void clearFavs(Context context) {
+        SharedPreferences.Editor editor = PreferenceManager.getDefaultSharedPreferences(context).edit();
+        editor.putStringSet(TableFile.PREFS_FAVORITE_TABLES, new HashSet<String>());
+        editor.apply();
+    }
 
     @Override
     public void onCreate() {
@@ -57,7 +60,7 @@ public class BehindTheTables extends Application {
             e.printStackTrace();
         }
         if (lastVer != 0 && lastVer != currentVer) {
-            VersionManager.onVersionChange(this, lastVer, currentVer);
+            new VersionManager(this).onVersionChange(lastVer, currentVer);
         }
 
         prefs.edit().putInt(PREFS_LAST_KNOWN_VERSION, currentVer).apply();
@@ -66,12 +69,6 @@ public class BehindTheTables extends Application {
         //Warming up the DB for future use!
         //TODO Do this smoother for better first startup experience
         new DBAdapter(this).open().close();
-    }
-
-    public static void clearFavs(Context context) {
-        SharedPreferences.Editor editor = PreferenceManager.getDefaultSharedPreferences(context).edit();
-        editor.putStringSet(TableFile.PREFS_FAVORITE_TABLES, new HashSet<String>());
-        editor.apply();
     }
 
     public static boolean isDebugBuild() {

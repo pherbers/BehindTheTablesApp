@@ -10,14 +10,20 @@ import timber.log.Timber;
 
 public class VersionManager {
 
-	public static void onVersionChange(Context context, int oldVersion, int newVersion) {
-		Timber.i("App version changed! " + oldVersion + " -> " + newVersion);
+    private Context context;
 
-		switch (newVersion) {
-			default:
-				Timber.w("Unknown version change!");
-				break;
-		}
-	}
+    public VersionManager(Context context) {
+        this.context = context;
+    }
+
+    public void onVersionChange(int oldVersion, int newVersion) {
+        Timber.i("App version changed! " + oldVersion + " -> " + newVersion);
+
+        switch (newVersion) {
+            default:
+                Timber.w("Unknown version change!");
+                break;
+        }
+    }
 
 }
