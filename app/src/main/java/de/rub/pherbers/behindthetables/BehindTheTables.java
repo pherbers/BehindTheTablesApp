@@ -51,16 +51,17 @@ public class BehindTheTables extends Application {
             Timber.plant(new ReleaseTree());
         }
 
+        VersionManager manager = new VersionManager(this);
         SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(this);
         int lastVer = prefs.getInt(PREFS_LAST_KNOWN_VERSION, 0);
         int currentVer = 0;
         try {
-            currentVer = getPackageManager().getPackageInfo(getPackageName(), 0).versionCode;
+            currentVer = manager.getVersionCode();
         } catch (PackageManager.NameNotFoundException e) {
             e.printStackTrace();
         }
         if (lastVer != 0 && lastVer != currentVer) {
-            new VersionManager(this).onVersionChange(lastVer, currentVer);
+            manager.onVersionChange(lastVer, currentVer);
         }
 
         prefs.edit().putInt(PREFS_LAST_KNOWN_VERSION, currentVer).apply();

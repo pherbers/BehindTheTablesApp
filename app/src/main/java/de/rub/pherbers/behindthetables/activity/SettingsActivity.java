@@ -5,16 +5,13 @@ import android.annotation.TargetApi;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
-import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.content.res.Configuration;
 import android.net.Uri;
 import android.os.Build;
-
 import android.os.Bundle;
 import android.preference.ListPreference;
 import android.preference.Preference;
-import android.preference.PreferenceActivity;
 import android.preference.PreferenceFragment;
 import android.preference.PreferenceManager;
 import android.support.v7.app.AlertDialog;
@@ -24,7 +21,7 @@ import java.util.List;
 
 import de.rub.pherbers.behindthetables.R;
 import de.rub.pherbers.behindthetables.sql.DBAdapter;
-import timber.log.Timber;
+import de.rub.pherbers.behindthetables.util.VersionManager;
 
 public class SettingsActivity extends AppCompatPreferenceActivity {
 
@@ -75,6 +72,29 @@ public class SettingsActivity extends AppCompatPreferenceActivity {
         listener.onPreferenceChange(preference, PreferenceManager.getDefaultSharedPreferences(preference.getContext()).getString(preference.getKey(), preference.getContext().getString(R.string.error_unknown)));
     }
 
+    /**
+     * {@inheritDoc}
+     */
+    @Override
+    public boolean onIsMultiPane() {
+        return isXLargeTablet(this);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    @Override
+    @TargetApi(Build.VERSION_CODES.HONEYCOMB)
+    public void onBuildHeaders(List<Header> target) {
+        loadHeadersFromResource(R.xml.prefs_headers, target);
+    }
+
+    protected boolean isValidFragment(String fragmentName) {
+        return PreferenceFragment.class.getName().equals(fragmentName)
+                || GeneralPreferenceFragment.class.getName().equals(fragmentName)
+                || AboutPreferenceFragment.class.getName().equals(fragmentName);
+    }
+
     @TargetApi(Build.VERSION_CODES.HONEYCOMB)
     public static class GeneralPreferenceFragment extends PreferenceFragment {
         @Override
@@ -117,7 +137,6 @@ public class SettingsActivity extends AppCompatPreferenceActivity {
         }
     }
 
-
     @TargetApi(Build.VERSION_CODES.HONEYCOMB)
     public static class AboutPreferenceFragment extends PreferenceFragment {
         @Override
@@ -126,15 +145,14 @@ public class SettingsActivity extends AppCompatPreferenceActivity {
             addPreferencesFromResource(R.xml.prefs_credits);
             setHasOptionsMenu(true);
 
+            VersionManager manager = new VersionManager(getContext());
             int versionCode = 0;
             String versionName = getString(R.string.error_unknown);
             String appName = getString(R.string.app_name);
 
-            PackageManager manager = getActivity().getPackageManager();
             try {
-                PackageInfo info = manager.getPackageInfo(getActivity().getPackageName(), 0);
-                versionName = info.versionName;
-                versionCode = info.versionCode;
+                versionName = manager.getVersionName();
+                versionCode = manager.getVersionCode();
             } catch (PackageManager.NameNotFoundException e) {
                 e.printStackTrace();
             }
@@ -195,28 +213,6 @@ public class SettingsActivity extends AppCompatPreferenceActivity {
             }
             return true;
         }
-    }
-    protected boolean isValidFragment(String fragmentName) {
-        return PreferenceFragment.class.getName().equals(fragmentName)
-                || GeneralPreferenceFragment.class.getName().equals(fragmentName)
-                || AboutPreferenceFragment.class.getName().equals(fragmentName);
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    @Override
-    @TargetApi(Build.VERSION_CODES.HONEYCOMB)
-    public void onBuildHeaders(List<Header> target) {
-        loadHeadersFromResource(R.xml.prefs_headers, target);
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    @Override
-    public boolean onIsMultiPane() {
-        return isXLargeTablet(this);
     }
 
 }

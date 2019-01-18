@@ -1,6 +1,8 @@
 package de.rub.pherbers.behindthetables.util;
 
 import android.content.Context;
+import android.content.pm.PackageInfo;
+import android.content.pm.PackageManager;
 
 import timber.log.Timber;
 
@@ -24,6 +26,18 @@ public class VersionManager {
                 Timber.w("Unknown version change!");
                 break;
         }
+    }
+
+    public String getVersionName() throws PackageManager.NameNotFoundException {
+        PackageManager manager = context.getPackageManager();
+        PackageInfo info = manager.getPackageInfo(context.getPackageName(), 0);
+        return info.versionName;
+    }
+
+    public int getVersionCode() throws PackageManager.NameNotFoundException {
+        PackageManager manager = context.getPackageManager();
+        PackageInfo info = manager.getPackageInfo(context.getPackageName(), 0);
+        return info.versionCode;
     }
 
 }
