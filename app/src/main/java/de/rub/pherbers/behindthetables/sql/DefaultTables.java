@@ -8,10 +8,8 @@ import org.json.JSONObject;
 
 import java.io.BufferedReader;
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
-import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.Reader;
 import java.util.Iterator;
@@ -36,7 +34,7 @@ public abstract class DefaultTables {
                 JSONObject tableInfo = meta.getJSONObject(raw_filename);
                 String redditID = raw_filename.replace("table_", "");
 
-                insertTable(raw_filename, redditID, tableInfo, adapter);
+                insertOrUpdateTable(raw_filename, redditID, tableInfo, adapter);
                 //int id = context.getResources().getIdentifier(raw_filename, "raw", context.getPackageName());
                 //Timber.i("Read through the meta.json. Filename: " + raw_filename + " -> '" + title + "'. Resource ID: " + id);
                 //adapter.insertRow(title,String.valueOf(id),"",0);
@@ -66,11 +64,11 @@ public abstract class DefaultTables {
         return new JSONObject(out.toString());
     }
 
-    public static void insertTable(File file, DBAdapter adapter) throws IOException, JSONException {
-        insertTable(file.getAbsolutePath(), "", readJSONFile(new FileReader(file)), adapter);
+    public static void insertOrUpdateTable(File file, DBAdapter adapter) throws IOException, JSONException {
+        insertOrUpdateTable(file.getAbsolutePath(), "", readJSONFile(new FileReader(file)), adapter);
     }
 
-    public static void insertTable(String resourceLocation, String redditID, JSONObject table, DBAdapter adapter) throws JSONException {
+    public static void insertOrUpdateTable(String resourceLocation, String redditID, JSONObject table, DBAdapter adapter) throws JSONException {
         String title = table.getString("title");
         String category = table.getString("category");
 
@@ -94,7 +92,7 @@ public abstract class DefaultTables {
 
         long categoryID = handleCategory(adapter, category);
 
-        Timber.i(resourceLocation + " -> reddit ID: " + redditID + " title: " + title + ", keywords: " + keywords + ", catgetory: " + category + " (" + categoryID + ")!");
+        Timber.v(resourceLocation + " -> reddit ID: " + redditID + " title: " + title + ", keywords: " + keywords + ", catgetory: " + category + " (" + categoryID + ")!");
         adapter.insertOrUpdateTableCollection(resourceLocation, title, description, keywords, useWith, relatedTables, categoryID);
     }
 

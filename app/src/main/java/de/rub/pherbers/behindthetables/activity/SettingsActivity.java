@@ -5,6 +5,7 @@ import android.annotation.TargetApi;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 import android.content.res.Configuration;
 import android.net.Uri;
@@ -15,12 +16,10 @@ import android.preference.Preference;
 import android.preference.PreferenceFragment;
 import android.preference.PreferenceManager;
 import android.support.v7.app.AlertDialog;
-import android.widget.Toast;
 
 import java.util.List;
 
 import de.rub.pherbers.behindthetables.R;
-import de.rub.pherbers.behindthetables.sql.DBAdapter;
 import de.rub.pherbers.behindthetables.util.VersionManager;
 
 public class SettingsActivity extends AppCompatPreferenceActivity {
@@ -122,11 +121,7 @@ public class SettingsActivity extends AppCompatPreferenceActivity {
                         @Override
                         public void onClick(DialogInterface dialogInterface, int i) {
                             dialogInterface.dismiss();
-
-                            DBAdapter adapter = new DBAdapter(context).open();
-                            adapter.fillWithDefaultData(context);
-                            adapter.close();
-                            Toast.makeText(context, R.string.prefs_reset_db_success, Toast.LENGTH_LONG).show();
+                            resetDB();
                         }
                     });
                     builder.show();
@@ -134,6 +129,16 @@ public class SettingsActivity extends AppCompatPreferenceActivity {
                 }
             });
 
+        }
+
+        public void resetDB() {
+            SharedPreferences.Editor editor = PreferenceManager.getDefaultSharedPreferences(getActivity()).edit();
+            editor.putInt(CategorySelectActivity.PREFERENCES_REQUEST_DB_UPDATE_TEXT, R.string.info_db_setup_reset);
+            editor.apply();
+
+            Intent intent = new Intent(getActivity(), CategorySelectActivity.class);
+            intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+            startActivity(intent);
         }
     }
 

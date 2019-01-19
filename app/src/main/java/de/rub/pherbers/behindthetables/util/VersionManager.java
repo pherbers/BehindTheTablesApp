@@ -1,9 +1,13 @@
 package de.rub.pherbers.behindthetables.util;
 
 import android.content.Context;
+import android.content.SharedPreferences;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
+import android.preference.PreferenceManager;
 
+import de.rub.pherbers.behindthetables.R;
+import de.rub.pherbers.behindthetables.activity.CategorySelectActivity;
 import timber.log.Timber;
 
 /**
@@ -23,9 +27,25 @@ public class VersionManager {
 
         switch (newVersion) {
             default:
-                Timber.w("Unknown version change!");
+                Timber.w("Unknown version change! Let's reset the DB, just in case!");
+                placeDBTaskRequest();
                 break;
         }
+    }
+
+    public void onFirstTimeStartup() {
+        Timber.i("Welcome to BTT! Performing first time code!");
+        placeDBTaskRequest(R.string.info_first_time_setup);
+    }
+
+    public void placeDBTaskRequest() {
+        placeDBTaskRequest(R.string.info_db_setup_generic);
+    }
+
+    public void placeDBTaskRequest(int textID) {
+        SharedPreferences.Editor editor = PreferenceManager.getDefaultSharedPreferences(context).edit();
+        editor.putInt(CategorySelectActivity.PREFERENCES_REQUEST_DB_UPDATE_TEXT, textID);
+        editor.apply();
     }
 
     public String getVersionName() throws PackageManager.NameNotFoundException {

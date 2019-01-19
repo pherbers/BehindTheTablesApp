@@ -27,6 +27,7 @@ import android.widget.Toast;
 
 import java.io.File;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashSet;
 
 import de.rub.pherbers.behindthetables.BehindTheTables;
@@ -39,7 +40,9 @@ import de.rub.pherbers.behindthetables.view.dialog.ProgressDialogFragment;
 import timber.log.Timber;
 
 import static de.rub.pherbers.behindthetables.BehindTheTables.APP_TAG;
+import static de.rub.pherbers.behindthetables.BehindTheTables.PREFS_TAG;
 import static de.rub.pherbers.behindthetables.activity.TableSelectActivity.EXTRA_SEARCH_REQUEST_QUERY;
+import static de.rub.pherbers.behindthetables.concurrent.task.BuildDBTask.INTENT_EXTRA_DB_QUENCH_UPDATE_REQUEST;
 import static de.rub.pherbers.behindthetables.concurrent.task.BuildDBTask.INTENT_EXTRA_DB_TASK_FAILED;
 import static de.rub.pherbers.behindthetables.concurrent.task.BuildDBTask.INTENT_EXTRA_DB_TASK_IMPORTED;
 
@@ -47,7 +50,8 @@ public class CategorySelectActivity extends AppCompatActivity implements Adapter
 
     public static final int EXTERNAL_STORAGE_REQUEST_CODE = 1;
     public static final String DIALOG_IDENTIFIER = APP_TAG + "category_dialog";
-
+    public static final String PREFERENCES_REQUEST_DB_UPDATE_TEXT = PREFS_TAG + "request_db_update_text";
+    public static final int PREFERENCES_REQUEST_DB_UPDATE_SKIP = -1;
     private CategoryAdapter adapter;
     private BuildDBTask buildDBTask;
 
@@ -65,9 +69,14 @@ public class CategorySelectActivity extends AppCompatActivity implements Adapter
             Timber.i("Checking the intent extras. Has TASK_IMPORTED: " + intent.hasExtra(INTENT_EXTRA_DB_TASK_IMPORTED) + ", TASK_FAILED: " + intent.hasExtra(INTENT_EXTRA_DB_TASK_FAILED));
 
             if (intent.hasExtra(INTENT_EXTRA_DB_TASK_IMPORTED)) {
+                boolean quench = intent.getBooleanExtra(INTENT_EXTRA_DB_QUENCH_UPDATE_REQUEST, true);
+                if (quench) {
+                    PreferenceManager.getDefaultSharedPreferences(this).edit().putInt(PREFERENCES_REQUEST_DB_UPDATE_TEXT, PREFERENCES_REQUEST_DB_UPDATE_SKIP).apply();
+                }
+
                 String[] imported = intent.getStringArrayExtra(INTENT_EXTRA_DB_TASK_IMPORTED);
                 String[] failed = intent.getStringArrayExtra(INTENT_EXTRA_DB_TASK_FAILED);
-                Timber.i("Checking the resulting file arrays: Imported: " + imported + " Failed: " + failed);
+                Timber.i("Checking the resulting file arrays: Imported: " + Arrays.toString(imported) + " Failed: " + Arrays.toString(failed));
 
                 intent.removeExtra(INTENT_EXTRA_DB_TASK_IMPORTED);
                 intent.removeExtra(INTENT_EXTRA_DB_TASK_FAILED);
@@ -119,17 +128,14 @@ public class CategorySelectActivity extends AppCompatActivity implements Adapter
                 @Override
                 public void onClick(DialogInterface dialogInterface, int i) {
                     dialogInterface.dismiss();
-                    discoverExternalFiles();
-
+                    discoverExternalFiles(false, true, false, R.string.info_db_setup_external);
                 }
             });
             builder.setNeutralButton(R.string.action_more_info, new DialogInterface.OnClickListener() {
                 @Override
                 public void onClick(DialogInterface dialogInterface, int i) {
                     dialogInterface.dismiss();
-
                     Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(getString(R.string.const_custom_table_link)));
-
                     startActivity(browserIntent);
                 }
             });
@@ -137,16 +143,27 @@ public class CategorySelectActivity extends AppCompatActivity implements Adapter
         }
     }
 
-    private void discoverExternalFiles() {
-        buildDBTask = new BuildDBTask(this, getClass(), false, true);
-        buildDBTask.execute();
+    public void checkForDBUpdateRequest() {
+        SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(this);
+        int textID = preferences.getInt(PREFERENCES_REQUEST_DB_UPDATE_TEXT, R.string.info_db_setup_generic);
+        if (textID == PREFERENCES_REQUEST_DB_UPDATE_SKIP) return;
 
-        displayBlockingDialog();
+        discoverExternalFiles(true, true, true, textID);
     }
 
-    private void displayBlockingDialog() {
+    private void discoverExternalFiles(boolean includeDefaults, boolean includeExternal, boolean quenchSetupRequest, int messageID) {
+        Timber.i("Executing a new request to discover DB files! Include defaults: " + includeDefaults + ". Include externals: " + includeExternal + ". QuenchSetupRequest: " + quenchSetupRequest + ". Message: '" + getString(messageID) + "'.");
+        Timber.i("Request stack trace:\n" + Arrays.toString(Thread.currentThread().getStackTrace()));
+        buildDBTask = new BuildDBTask(this, getClass(), includeDefaults, includeExternal, quenchSetupRequest);
+        buildDBTask.execute();
+
+        displayBlockingDialog(messageID);
+    }
+
+    private void displayBlockingDialog(int messageID) {
         FragmentManager fragmentManager = getFragmentManager();
         ProgressDialogFragment newFragment = new ProgressDialogFragment();
+        newFragment.setMessageID(messageID);
         newFragment.show(fragmentManager, DIALOG_IDENTIFIER);
     }
 
@@ -198,24 +215,6 @@ public class CategorySelectActivity extends AppCompatActivity implements Adapter
     }
 
     @Override
-    protected void onPause() {
-        super.onPause();
-        if (buildDBTask != null) {
-            Timber.i("There was a build task not finished yet. Canceling.");
-            buildDBTask.cancel(true);
-        }
-    }
-
-    @Override
-    protected void onResume() {
-        super.onResume();
-        if (buildDBTask != null) {
-            Timber.i("There was a build task not finished yet. Starting again.");
-            discoverExternalFiles();
-        }
-    }
-
-    @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.menu_category_select, menu);
 
@@ -234,8 +233,8 @@ public class CategorySelectActivity extends AppCompatActivity implements Adapter
             case R.id.action_category_settings: {
                 Intent intent = new Intent(this, SettingsActivity.class);
                 startActivity(intent);
+                break;
             }
-            break;
             case R.id.action_discover_external:
                 requestDiscoverExternalFiles();
                 break;
@@ -301,6 +300,8 @@ public class CategorySelectActivity extends AppCompatActivity implements Adapter
             bufferedCategories = adapter.getAllCategories(DBAdapter.KEY_CATEGORY_TITLE);
             adapter.close();
 
+            checkForDBUpdateRequest();
+
             Timber.i("Displaying category tiles. Count: " + getCount());
         }
 
@@ -365,7 +366,7 @@ public class CategorySelectActivity extends AppCompatActivity implements Adapter
 
             String text = getItem(i);
 
-            Timber.i("Displaying category button on position " + i + " -> '" + text + "'.");
+            Timber.v("Displaying category button on position " + i + " -> '" + text + "'.");
             tv.setText(getItem(i));
 
             return tv;

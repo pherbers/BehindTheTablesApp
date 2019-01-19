@@ -63,6 +63,9 @@ public class BehindTheTables extends Application {
         if (lastVer != 0 && lastVer != currentVer) {
             manager.onVersionChange(lastVer, currentVer);
         }
+        if (lastVer==0){
+            manager.onFirstTimeStartup();
+        }
 
         prefs.edit().putInt(PREFS_LAST_KNOWN_VERSION, currentVer).apply();
         Timber.i("Application started. App version: " + currentVer);

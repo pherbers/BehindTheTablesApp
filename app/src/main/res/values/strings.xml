@@ -176,4 +176,8 @@
     <string name="pref_header_credits">About</string>
     <string name="prefs_credits_github">Visit us on GitHub</string>
     <string name="prefs_about_summary">%1$s, version %2$s.</string>
+    <string name="info_first_time_setup">Thanks for using this app! Performing first time setup!</string>
+    <string name="info_db_setup_reset">Performing a full reset and repair. Please wait.</string>
+    <string name="info_db_setup_generic">Loading app data. Please wait.</string>
+    <string name="info_db_setup_external">Looking for external data. Please wait.</string>
 </resources>
