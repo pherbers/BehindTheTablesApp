@@ -174,6 +174,7 @@ public class SettingsActivity extends AppCompatPreferenceActivity {
             bindPreferenceURLAsAction(findPreference("prefs_credits_debug_db"));
             bindPreferenceURLAsAction(findPreference("prefs_credits_animators"));
             bindPreferenceURLAsAction(findPreference("prefs_credits_btt"));
+            bindPreferenceURLAsAction(findPreference("prefs_credits_leakcanary"));
         }
     }
 

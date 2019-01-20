@@ -163,14 +163,15 @@
     <string name="prefs_reset_db_success">Table reset successful</string>
     <string name="pref_credits">Credits</string>
     <string name="prefs_credits_timber" translatable="false"><i>Timber</i> by Jake Wharton</string>
-    <string name="prefs_credits_debug_db" translatable="false">Android Debug Database by Amit Shekhar</string>
+    <string name="prefs_credits_debug_db" translatable="false"><i>Android</i> Debug Database by Amit Shekhar</string>
     <string name="share_via">Share via</string>
     <string name="pref_header_general">General</string>
     <string name="prefs_credits_nilsfo">NilsFo</string>
     <string name="pref_developers">Developers</string>
     <string name="prefs_credits_pherbers">pherbers</string>
     <string name="prefs_credits_btt">/r/BehindTheTables</string>
-    <string name="prefs_credits_animators">RecyclerView Animators by Wasabeef</string>
+    <string name="prefs_credits_animators"><i>RecyclerView Animators</i> by Wasabeef</string>
+    <string name="prefs_credits_leakcanary"><i>LeakCanary</i> by Square, Inc.</string>
     <string name="info_discover_reset_database_dialog">This will delete all custom tables you have imported! Your files will be left untouched. Are you sure?</string>
     <string name="action_reset_database_dialog">Yes, delete it!</string>
     <string name="pref_header_credits">About</string>

@@ -48,5 +48,11 @@
             android:key="prefs_credits_debug_db"
             android:summary="https://github.com/amitshekhariitbhu/Android-Debug-Database"
             android:title="@string/prefs_credits_debug_db"/>
+
+        <Preference
+            android:key="prefs_credits_leakcanary"
+            android:summary="https://github.com/square/leakcanary"
+            android:title="@string/prefs_credits_leakcanary"/>
+
     </PreferenceCategory>
 </PreferenceScreen>
