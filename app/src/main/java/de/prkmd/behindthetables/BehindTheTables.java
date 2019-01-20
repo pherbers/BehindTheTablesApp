@@ -7,13 +7,9 @@ import android.content.pm.PackageManager;
 import android.preference.PreferenceManager;
 import android.util.Log;
 
-import com.amitshekhar.DebugDB;
-import com.squareup.leakcanary.LeakCanary;
-
 import java.util.HashSet;
 
 import de.prkmd.behindthetables.data.TableFile;
-import de.prkmd.behindthetables.sql.DBAdapter;
 import de.prkmd.behindthetables.util.VersionManager;
 import timber.log.Timber;
 
@@ -37,16 +33,14 @@ public class BehindTheTables extends Application {
     public void onCreate() {
         super.onCreate();
 
-        if (LeakCanary.isInAnalyzerProcess(this)) {
-            // This process is dedicated to LeakCanary for heap analysis.
-            // You should not init your app in this process.
-            return;
-        }
-        LeakCanary.install(this);
+        //if (LeakCanary.isInAnalyzerProcess(this)) {
+        //    return;
+        //}
+        //LeakCanary.install(this);
 
         if (isDebugBuild()) {
             Timber.plant(new DebugTree());
-            Timber.i("Debug-DB URL: " + DebugDB.getAddressLog());
+            //Timber.i("Debug-DB URL: " + DebugDB.getAddressLog());
         } else {
             Timber.plant(new ReleaseTree());
         }
@@ -63,7 +57,7 @@ public class BehindTheTables extends Application {
         if (lastVer != 0 && lastVer != currentVer) {
             manager.onVersionChange(lastVer, currentVer);
         }
-        if (lastVer==0){
+        if (lastVer == 0) {
             manager.onFirstTimeStartup();
         }
 

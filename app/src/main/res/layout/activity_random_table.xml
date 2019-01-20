@@ -28,14 +28,15 @@
         android:layout_gravity="top|start"
         android:layout_margin="16dp"
         android:clickable="true"
+        android:focusable="true"
         android:onClick="diceRollAction"
+        android:scaleType="center"
         android:tint="@color/colorLightPrimary"
         app:backgroundTint="@color/colorPrimary"
         app:fabSize="normal"
         app:layout_anchor="@+id/include"
         app:layout_anchorGravity="bottom|right"
-        app:srcCompat="@drawable/dice_reroll_100"
-        android:scaleType="center"/>
+        app:srcCompat="@drawable/dice_reroll_100" />
 
     <include
         android:id="@+id/include"
