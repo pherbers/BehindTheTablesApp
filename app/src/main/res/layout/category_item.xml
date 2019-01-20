@@ -12,7 +12,7 @@
         android:layout_margin="5dp"
         android:gravity="center"
         android:text="Category X"
-        android:background="@drawable/category_item_drawable"
+        android:background="@drawable/category_item_ripple"
         android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
 
 </LinearLayout>

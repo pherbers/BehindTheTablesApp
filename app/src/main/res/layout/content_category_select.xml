@@ -33,7 +33,8 @@
         android:paddingBottom="5dp"
         android:paddingTop="5dp"
         android:stretchMode="columnWidth"
-        android:verticalSpacing="5dp" />
+        android:verticalSpacing="5dp"
+        android:listSelector="#00000000"/>
 
     <!--
               android:verticalSpacing="10dp"
