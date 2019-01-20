@@ -68,7 +68,7 @@ public class RandomTableHeaderViewHolder extends ViewHolder{
     }
 
     private void setLinkGroup(TextView tx, String prefix, List<TableLink> links) {
-        tx.setText(Html.fromHtml(prefix + buildCommaSeparatedLinkString(links)));
+        tx.setText(Html.fromHtml(prefix + " " + buildCommaSeparatedLinkString(links)));
         tx.setMovementMethod(TableLinkMovementMethod.getInstance());
     }
 
