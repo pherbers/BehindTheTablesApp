@@ -35,7 +35,6 @@ public class FileManager {
 
     public File getOriginDir() {
         File f = Environment.getExternalStorageDirectory();
-        //TODO does this parent file thing work?
 
         if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.KITKAT) {
             f = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOCUMENTS);

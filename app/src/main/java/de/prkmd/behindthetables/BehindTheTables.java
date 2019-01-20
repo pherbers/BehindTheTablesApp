@@ -69,10 +69,6 @@ public class BehindTheTables extends Application {
 
         prefs.edit().putInt(PREFS_LAST_KNOWN_VERSION, currentVer).apply();
         Timber.i("Application started. App version: " + currentVer);
-
-        //Warming up the DB for future use!
-        //TODO Do this smoother for better first startup experience
-        new DBAdapter(this).open().close();
     }
 
     public static boolean isDebugBuild() {

@@ -89,12 +89,14 @@ public class BuildDBTask extends AsyncTask<Void, Void, Boolean> {
             }
         }
 
-        for (int i = 0; i < 10; i++) {
-            Timber.i("Sleeping stage... " + i);
-            try {
-                Thread.sleep(250); //TODO remove debug sleep
-            } catch (InterruptedException e) {
-                e.printStackTrace();
+        if (BehindTheTables.isDebugBuild()) {
+            for (int i = 0; i < 10; i++) {
+                Timber.i("Sleeping stage... " + i);
+                try {
+                    Thread.sleep(250);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
             }
         }
 

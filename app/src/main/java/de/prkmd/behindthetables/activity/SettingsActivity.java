@@ -46,7 +46,7 @@ public class SettingsActivity extends AppCompatPreferenceActivity {
         });
     }
 
-    public static void bindPreferenceURLAsAction(Preference preference, final Uri uri) {
+    public static void bindPreferenceURLAsAction(Preference preference, Uri uri) {
         bindPreferenceURLAsAction(preference, uri, false);
     }
 
@@ -150,7 +150,7 @@ public class SettingsActivity extends AppCompatPreferenceActivity {
             addPreferencesFromResource(R.xml.prefs_credits);
             setHasOptionsMenu(true);
 
-            VersionManager manager = new VersionManager(getContext());
+            VersionManager manager = new VersionManager(getActivity());
             int versionCode = 0;
             String versionName = getString(R.string.error_unknown);
             String appName = getString(R.string.app_name);
@@ -162,9 +162,9 @@ public class SettingsActivity extends AppCompatPreferenceActivity {
                 e.printStackTrace();
             }
 
-            final int finalVersionCode = versionCode;
             Preference aboutPreference = findPreference("prefs_version_about");
             aboutPreference.setSummary(String.format(getString(R.string.prefs_about_summary), appName, versionName));
+            bindPreferenceURLAsAction(aboutPreference, Uri.parse(getString(R.string.const_google_play_url)));
 
             bindPreferenceURLAsAction(findPreference("prefs_credits_github"));
             bindPreferenceURLAsAction(findPreference("prefs_credits_nilsfo"));
