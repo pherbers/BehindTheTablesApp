@@ -15,7 +15,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/table_info_description"
         app:maxCollapsedLines="5"
-        android:text="@string/sample_description"
+        android:text="@string/app_name"
         app:expandDrawable="@drawable/ic_arrow_drop_down_black_24dp"
         app:collapseDrawable="@drawable/ic_arrow_drop_up_black_24dp">
         <TextView
