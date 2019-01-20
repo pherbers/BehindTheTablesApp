@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="de.rub.pherbers.behindthetables">
+    package="de.prkmd.behindthetables">
 
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
@@ -41,7 +41,7 @@
 
         <provider
             android:name=".util.TableSearchRecentSuggestionsProvider"
-            android:authorities="de.rub.btt.TableSearchSuggestionProvider"
+            android:authorities="de.prkmd.behindthetables.TableSearchSuggestionProvider"
             android:exported="false" />
 
         <activity android:name=".activity.CategorySelectActivity">
@@ -57,10 +57,10 @@
 
         <activity
             android:name=".activity.SettingsActivity"
-            android:parentActivityName="de.rub.pherbers.behindthetables.activity.CategorySelectActivity">
+            android:parentActivityName="de.prkmd.behindthetables.activity.CategorySelectActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="de.rub.pherbers.behindthetables.activity.CategorySelectActivity"/>
+                android:value="de.prkmd.behindthetables.activity.CategorySelectActivity"/>
         </activity>
     </application>
 

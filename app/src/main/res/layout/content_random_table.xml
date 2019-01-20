@@ -10,7 +10,7 @@
     android:paddingRight="0sp"
     android:paddingTop="0sp"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="de.rub.pherbers.behindthetables.activity.RandomTableActivity"
+    tools:context="de.prkmd.behindthetables.activity.RandomTableActivity"
     tools:showIn="@layout/activity_random_table"
     android:orientation="vertical"
     android:background="@color/colorTableOdd">

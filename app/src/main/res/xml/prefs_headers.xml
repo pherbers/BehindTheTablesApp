@@ -3,11 +3,11 @@
     <!-- These settings headers are only used on tablets. -->
 
     <header
-        android:fragment="de.rub.pherbers.behindthetables.activity.SettingsActivity$GeneralPreferenceFragment"
+        android:fragment="de.prkmd.behindthetables.activity.SettingsActivity$GeneralPreferenceFragment"
         android:icon="@drawable/baseline_settings_black_24"
         android:title="@string/pref_header_general"/>
     <header
-        android:fragment="de.rub.pherbers.behindthetables.activity.SettingsActivity$AboutPreferenceFragment"
+        android:fragment="de.prkmd.behindthetables.activity.SettingsActivity$AboutPreferenceFragment"
         android:icon="@drawable/baseline_info_black_24"
         android:title="@string/pref_header_credits"/>
 
