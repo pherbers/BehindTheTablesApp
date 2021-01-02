@@ -10,7 +10,7 @@
     tools:context="de.prkmd.behindthetables.activity.TableSelectActivity"
     tools:showIn="@layout/app_bar_home">
 
-    <android.support.v7.widget.RecyclerView
+    <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/home_table_file_list"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
