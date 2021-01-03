@@ -1,11 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#b78763</color>
-    <color name="colorPrimaryDark">#b36f3d</color>
+    <color name="colorPrimary">@color/colorSignaturePrimary</color>
+    <color name="colorPrimaryDark">@color/colorSignaturePrimaryDark</color>
     <color name="colorAccent">#4ec6ff</color>
+    <color name="colorPrimaryLight">#FFf1efed</color>
     <color name="colorLightPrimary">#e7dfd9</color>
+
     <color name="colorTableOdd">#FFf1efed</color>
     <color name="colorTableEven">#FFe7dfd9</color>
     <color name="colorTableHighlight">#FFe9cfbc</color>
+
+    <color name="colorLabelCategory">@color/colorTableHighlight</color>
     <color name="colorLink">#3e51fc</color>
+
+
+    <!-- Base application theme. Do not overwrite. -->
+    <color name="colorSignaturePrimary">#b78763</color>
+    <color name="colorSignaturePrimaryDark">#b36f3d</color>
 </resources>
