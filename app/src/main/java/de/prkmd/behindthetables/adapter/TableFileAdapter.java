@@ -55,7 +55,7 @@ public class TableFileAdapter extends RecyclerView.Adapter<TableFileAdapter.Hold
             //        });
             //int size = holder.titleTF.getMeasuredHeight() / 4;
             //img.setBounds(0, 0, size, size);
-            Drawable img = getContext().getResources().getDrawable(R.drawable.ic_star_black_18dp);
+            Drawable img = getContext().getResources().getDrawable(R.drawable.baseline_star_text_18);
             holder.titleTF.setCompoundDrawablesRelativeWithIntrinsicBounds(img, null, null, null);
         }
 

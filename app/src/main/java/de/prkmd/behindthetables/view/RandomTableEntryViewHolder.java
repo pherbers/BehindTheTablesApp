@@ -37,6 +37,7 @@ public class RandomTableEntryViewHolder extends ViewHolder implements View.OnCli
 
         if(table.getRolledIndex() == childPosition) {
             itemView.setBackgroundColor(itemView.getContext().getResources().getColor(R.color.colorTableHighlight));
+            //TODO: Idea: Write selected item text in bold?
         } else if (childPosition % 2 == 0) {
             itemView.setBackgroundColor(itemView.getContext().getResources().getColor(R.color.colorTableEven));
         } else {

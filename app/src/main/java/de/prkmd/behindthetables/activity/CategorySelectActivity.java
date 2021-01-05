@@ -184,7 +184,7 @@ public class CategorySelectActivity extends AppCompatActivity implements Adapter
             AlertDialog.Builder builder = new AlertDialog.Builder(this);
             builder.setTitle(R.string.info_imports_failed_title);
             builder.setMessage(getString(R.string.info_imports_failed_text, String.valueOf(failedCount), String.valueOf(importedCount), percent + "%", formatFileList(failed)));
-            builder.setIcon(R.drawable.ic_warning_black_48dp);
+            builder.setIcon(R.drawable.baseline_warning_dialog_48);
             builder.setNegativeButton(android.R.string.ok, new DialogInterface.OnClickListener() {
                 @Override
                 public void onClick(DialogInterface dialogInterface, int i) {
@@ -257,7 +257,7 @@ public class CategorySelectActivity extends AppCompatActivity implements Adapter
         int count = preferences.getStringSet(TableFile.PREFS_FAVORITE_TABLES, new HashSet<String>()).size();
 
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
-        builder.setIcon(R.drawable.ic_star_black_48dp);
+        builder.setIcon(R.drawable.baseline_star_dialog_48);
         builder.setTitle(R.string.app_name);
         builder.setMessage(getString(R.string.action_clear_favs_detail, count));
         builder.setNegativeButton(android.R.string.cancel, new DialogInterface.OnClickListener() {
