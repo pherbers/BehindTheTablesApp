@@ -1,41 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
-      xmlns:app="http://schemas.android.com/apk/res-auto">
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <item
         android:id="@+id/random_table_activity_fav"
         android:icon="@drawable/baseline_star_outline_menu_24"
         android:title="@string/action_fav"
-        app:showAsAction="ifRoom"/>
+        app:showAsAction="ifRoom" />
     <item
         android:id="@+id/random_table_activity_unfav"
         android:icon="@drawable/baseline_star_menu_24"
         android:title="@string/action_unfav"
-        app:showAsAction="ifRoom"/>
+        app:showAsAction="ifRoom" />
     <item
         android:id="@+id/action_share_table"
-        android:title="@string/action_share"
         android:icon="@drawable/baseline_share_24"
-        app:showAsAction="ifRoom"/>
-
+        android:title="@string/action_share"
+        app:showAsAction="ifRoom" />
     <item
         android:id="@+id/random_table_activity_collapse_all"
         android:title="@string/action_collapse_all"
-        app:showAsAction="never"/>
+        app:showAsAction="never" />
     <item
         android:id="@+id/random_table_activity_expand_all"
         android:title="@string/action_expand_all"
-        app:showAsAction="never"/>
+        app:showAsAction="never" />
     <item
         android:id="@+id/random_table_activity_reference"
         android:title="@string/action_open_on_reddit"
-        app:showAsAction="never"/>
+        app:showAsAction="never" />
     <item
         android:id="@+id/action_external_file_info"
+        android:icon="@drawable/baseline_custom_table_local_24"
         android:title="@string/action_externa_file_info"
-        app:showAsAction="never"/>
+        app:showAsAction="ifRoom" />
     <item
         android:id="@+id/random_table_activity_reset"
         android:title="@string/action_reset_table"
-        app:showAsAction="never"/>
+        app:showAsAction="never" />
 </menu>
