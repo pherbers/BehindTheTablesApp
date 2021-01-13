@@ -2,8 +2,11 @@ package de.prkmd.behindthetables;
 
 import android.app.Application;
 import android.content.Context;
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
+import android.net.Uri;
+import android.os.Build;
 import android.preference.PreferenceManager;
 import android.util.Log;
 
@@ -81,5 +84,18 @@ public class BehindTheTables extends Application {
         protected boolean isLoggable(String tag, int priority) {
             return !(priority == Log.VERBOSE || priority == Log.DEBUG || priority == Log.INFO);
         }
+    }
+
+    public static Intent buildAppMarketIntent(Context context){
+        String packageName = context.getPackageName();
+        Uri uri = Uri.parse("market://details?id=" + packageName);
+        Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+
+        intent.addFlags(Intent.FLAG_ACTIVITY_NO_HISTORY |
+                Intent.FLAG_ACTIVITY_MULTIPLE_TASK);
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+            intent.addFlags(Intent.FLAG_ACTIVITY_NEW_DOCUMENT);
+        }
+        return intent;
     }
 }
