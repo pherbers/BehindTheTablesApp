@@ -15,16 +15,39 @@ import android.preference.ListPreference;
 import android.preference.Preference;
 import android.preference.PreferenceFragment;
 import android.preference.PreferenceManager;
+import android.util.Log;
+import android.widget.Toast;
+
 import androidx.appcompat.app.AlertDialog;
 
+import java.util.Date;
 import java.util.List;
 
+import de.prkmd.behindthetables.BehindTheTables;
 import de.prkmd.behindthetables.R;
 import de.prkmd.behindthetables.util.VersionManager;
+import timber.log.Timber;
 
 public class SettingsActivity extends AppCompatPreferenceActivity {
 
+    public static final int LAST_UPDATE_DATE_UNKNOWN = -1;
     public static final SettingsBindPreferenceSummaryToValueListener defaultListener = new SettingsBindPreferenceSummaryToValueListener();
+
+    private static int getUpdateDays(Context context) {
+        Date now = new Date();
+        Date lastUpdate = null;
+        try {
+            lastUpdate = VersionManager.getCurrentVersionDate(context);
+        } catch (Exception e) {
+            e.printStackTrace();
+            Timber.e(e);
+            return LAST_UPDATE_DATE_UNKNOWN;
+        }
+
+        long diffTime = now.getTime() - lastUpdate.getTime();
+        long diffDays = diffTime / (1000 * 60 * 60 * 24);
+        return (int) diffDays;
+    }
 
     private static boolean isXLargeTablet(Context context) {
         return (context.getResources().getConfiguration().screenLayout
@@ -161,10 +184,42 @@ public class SettingsActivity extends AppCompatPreferenceActivity {
             } catch (PackageManager.NameNotFoundException e) {
                 e.printStackTrace();
             }
+            final int finalVersionCode = versionCode;
 
-            Preference aboutPreference = findPreference("prefs_version_about");
-            aboutPreference.setSummary(String.format(getString(R.string.prefs_about_summary), appName, versionName));
-            bindPreferenceURLAsAction(aboutPreference, Uri.parse(getString(R.string.const_google_play_url)));
+            Preference viewOnPlayStore = findPreference("prefs_view_in_playstore");
+            //viewOnPlayStore.setSummary(String.format(getString(R.string.prefs_about_summary), appName, versionName));
+            viewOnPlayStore.setOnPreferenceClickListener(new Preference.OnPreferenceClickListener() {
+                @Override
+                public boolean onPreferenceClick(Preference preference) {
+                    Context context = getActivity();
+                    Intent playStoreIntent = BehindTheTables.buildAppMarketIntent(context);
+                    try {
+                        context.startActivity(playStoreIntent);
+                    }
+                    catch (Exception e){
+                        Timber.e(e);
+                        Toast.makeText(context,R.string.error_internal_error,Toast.LENGTH_LONG).show();
+                    }
+                    return false;
+                }
+            });
+
+            Preference changeLogPreference = findPreference("prefs_view_changelog");
+            int lastUpdateDays = getUpdateDays(getActivity());
+            String lastUpdateText = getString(R.string.error_internal_error);
+            if (lastUpdateDays == LAST_UPDATE_DATE_UNKNOWN) {
+                Timber.w("Failed to get the last date this app was updated! Doing nothing, as this will result in the text that an error occured!");
+            } else {
+                lastUpdateText = String.valueOf(lastUpdateDays);
+            }
+            changeLogPreference.setSummary(getString(R.string.prefs_view_changelog_summary,versionName,lastUpdateText));
+            changeLogPreference.setOnPreferenceClickListener(new Preference.OnPreferenceClickListener() {
+                @Override
+                public boolean onPreferenceClick(Preference preference) {
+                    VersionManager.displayVersionUpdateNews(preference.getContext(), finalVersionCode);
+                    return false;
+                }
+            });
 
             bindPreferenceURLAsAction(findPreference("prefs_credits_github"));
             bindPreferenceURLAsAction(findPreference("prefs_credits_nilsfo"));

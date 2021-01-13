@@ -12,7 +12,6 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="action_reset_table">Reset</string>
     <string name="action_open_on_reddit">Open in reddit</string>
-    <string name="error_unknown"><![CDATA[<Error: Unknown>]]></string>
     <string name="info_index_indicator">#%1$d</string>
     <string name="action_toggle_fav">Toggle favourite</string>
     <string name="action_search">Search</string>
@@ -22,6 +21,7 @@
     <string name="search_query_support_fav_tag">favorites</string>
     <string name="action_fav_detail">Do you want to add \'%1$s\' to your favorites?</string>
     <string name="action_unfav_detail">Do you want to remove \'%1$s\' from your favorites?</string>
+    <string name="action_view_in_playstore">View on GooglePlay</string>
 
     <string name="info_added_to_favs">\'%1$s\' added to favorites.</string>
     <string name="info_removed_from_favs">\'%1$s\' removed from favorites.</string>
@@ -31,6 +31,7 @@
     <string name="category_all">All categories</string>
     <string name="category_favs">Favorites only</string>
     <string name="action_again">Try again</string>
+    <string name="action_dismiss">Dismiss</string>
     <string name="action_random_table">I\'m feeling lucky</string>
     <string name="action_discover_external">Custom tables</string>
     <string name="action_discover_external_dialog">Import tables now</string>
@@ -44,6 +45,7 @@
     <string name="unit_gb" translatable="false">GB</string>
     <string name="unit_tb" translatable="false">TB</string>
 
+    <string name="info_changelog_version">Changes in Version %1$s</string>
     <string name="info_imports_failed_title">Import failed!</string>
     <string name="info_imports_failed_text">Failed to import %1$s file(s) out of %2$s found file(s) (%3$s failure)!\nThe other files were imported without problems.\n\nList of files causing trouble:\n%4$s</string>
     <string name="info_imports_nothing_found">No custom files to import found on in the external storage of this device.</string>
@@ -61,15 +63,25 @@
     <string name="error_no_table_intent_extra">Error: Table to load unknown.</string>
     <string name="error_table_not_found">Error: Could not find specified table.</string>
     <string name="error_internal_json_exception">Error: Heavy internal error. Could not read internal table data.</string>
+    <string name="error_internal_error">An internal error occurred.</string>
+    <string name="error_unknown"><![CDATA[<Error: Unknown>]]></string>
+
     <string name="info_keywords">Keywords: %1$s</string>
     <string name="info_related">Related: </string>
     <string name="info_use_with">Use with: </string>
+
+    <string name="info_update_news">Update news</string>
+    <string name="action_feedback">Rate &amp; Feedback</string>
+    <string name="info_thanks_for_using_this_app">Thanks for using Behind The Tables!</string>
+    <string name="error_no_update_highlight">No highlight feature found.</string>
+    <string name="action_full_changelog">Full changelog</string>
 
     <string name="pref_category_general">General</string>
     <string name="prefs_reset_database_title">Reset all Tables</string>
     <string name="prefs_reset_database_summary">Resets all tables to their defaults and removes custom tables.</string>
     <string name="prefs_reset_db_success">Table reset successful</string>
     <string name="pref_credits">Credits</string>
+    <string name="pref_libraries">Libraries used</string>
     <string name="prefs_credits_timber" translatable="false"><i>Timber</i> by Jake Wharton</string>
     <string name="prefs_credits_debug_db" translatable="false"><i>Android</i> Debug Database by Amit Shekhar</string>
     <string name="share_via">Share via</string>
@@ -83,13 +95,15 @@
     <string name="info_discover_reset_database_dialog">This will delete all custom tables you have imported! Your files will be left untouched. Are you sure?</string>
     <string name="action_reset_database_dialog">Yes, delete it!</string>
     <string name="pref_header_credits">About</string>
-    <string name="prefs_credits_github">Visit us on GitHub</string>
+    <string name="prefs_credits_github">View this App on GitHub</string>
+    <string name="pref_about">About this App</string>
     <string name="prefs_about_summary">%1$s, version %2$s.\nTap to view this app on <i>Google Play</i>.</string>
     <string name="info_first_time_setup">Thanks for using this app! Performing first time setup!</string>
     <string name="info_db_setup_reset">Performing a full reset and repair. Please wait.</string>
     <string name="info_db_setup_generic">Loading app data. Please wait.</string>
     <string name="info_db_setup_external">Looking for external data. Please wait.</string>
     <string name="action_toggler">Toggle description</string>
+
     <string name="title_activity_random_table_edit">RandomTableEdit</string>
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">First Fragment</string>
@@ -105,4 +119,9 @@
     <string name="action_edit_metadata">Edit</string>
     <string name="action_edit">Edit</string>
     <string name="action_add_new_table">Add new table</string>
+
+    <string name="util_concat_dash" translatable="false">%1$s - %2$s</string>
+    <string name="prefs_view_changelog">View Changelog</string>
+    <string name="prefs_view_changelog_summary">App version %1$s. Last update was %2$s day(s) ago.</string>
+
 </resources>

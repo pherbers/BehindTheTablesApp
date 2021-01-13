@@ -1,0 +1,12 @@
+{
+  "2": {
+    "date": "01.01.2021",
+    "version": "1.1.0",
+    "text": "-Implemented dark mode\n-Added this dialog to keep you informed about changes and new features. You can view this changelog again in the 'about' section in the app settings!\n-Minor improvements and bug fixes"
+  },
+  "1": {
+    "date": "20.01.2019",
+    "version": "1.0.0",
+    "text": "-Initial release"
+  }
+}

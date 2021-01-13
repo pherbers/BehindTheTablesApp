@@ -1,15 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <Preference
-        android:key="prefs_version_about"
-        android:summary="@string/app_name"
-        android:title="@string/app_name"/>
 
     <Preference
         android:key="prefs_credits_github"
         android:summary="https://github.com/pherbers/BehindTheTablesApp"
-        android:title="@string/prefs_credits_github"/>
+        android:title="@string/prefs_credits_github" />
+
+    <PreferenceCategory
+        android:key="pref_cat_about"
+        android:title="@string/pref_about">
+        <Preference
+            android:key="prefs_view_in_playstore"
+            android:title="@string/action_view_in_playstore" />
+        <Preference
+            android:key="prefs_view_changelog"
+            android:summary="@string/error_internal_error"
+            android:title="@string/prefs_view_changelog" />
+    </PreferenceCategory>
 
     <PreferenceCategory
         android:key="pref_cat_developers"
@@ -18,41 +26,41 @@
         <Preference
             android:key="prefs_credits_nilsfo"
             android:summary="https://github.com/NilsFo"
-            android:title="@string/prefs_credits_nilsfo"/>
+            android:title="@string/prefs_credits_nilsfo" />
 
         <Preference
             android:key="prefs_credits_pherbers"
             android:summary="https://github.com/pherbers"
-            android:title="@string/prefs_credits_pherbers"/>
+            android:title="@string/prefs_credits_pherbers" />
     </PreferenceCategory>
 
     <PreferenceCategory
         android:key="pref_cat_credits"
-        android:title="@string/pref_credits">
+        android:title="@string/pref_libraries">
         <Preference
             android:key="prefs_credits_btt"
             android:summary="https://reddit.com/r/behindthetables"
-            android:title="@string/prefs_credits_btt"/>
+            android:title="@string/prefs_credits_btt" />
 
         <Preference
             android:key="prefs_credits_animators"
             android:summary="https://github.com/wasabeef/recyclerview-animators"
-            android:title="@string/prefs_credits_animators"/>
+            android:title="@string/prefs_credits_animators" />
 
         <Preference
             android:key="prefs_credits_timber"
             android:summary="https://github.com/JakeWharton/timber"
-            android:title="@string/prefs_credits_timber"/>
+            android:title="@string/prefs_credits_timber" />
 
         <Preference
             android:key="prefs_credits_debug_db"
             android:summary="https://github.com/amitshekhariitbhu/Android-Debug-Database"
-            android:title="@string/prefs_credits_debug_db"/>
+            android:title="@string/prefs_credits_debug_db" />
 
         <Preference
             android:key="prefs_credits_leakcanary"
             android:summary="https://github.com/square/leakcanary"
-            android:title="@string/prefs_credits_leakcanary"/>
+            android:title="@string/prefs_credits_leakcanary" />
 
     </PreferenceCategory>
 </PreferenceScreen>
