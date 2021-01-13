@@ -13,6 +13,11 @@
         android:title="@string/action_unfav"
         app:showAsAction="ifRoom"/>
     <item
+        android:id="@+id/random_table_activity_edit"
+        android:icon="@drawable/baseline_edit_white_48"
+        android:title="@string/action_edit"
+        app:showAsAction="ifRoom"/>
+    <item
         android:id="@+id/action_share_table"
         android:title="@string/action_share"
         android:icon="@drawable/ic_share_white_48dp"

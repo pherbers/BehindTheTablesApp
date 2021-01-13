@@ -90,4 +90,19 @@
     <string name="info_db_setup_generic">Loading app data. Please wait.</string>
     <string name="info_db_setup_external">Looking for external data. Please wait.</string>
     <string name="action_toggler">Toggle description</string>
+    <string name="title_activity_random_table_edit">RandomTableEdit</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="edit_table_entry_btn">Edit entry</string>
+    <string name="action_delete_table">Delete table</string>
+    <string name="action_edit_save">Save</string>
+    <string name="action_edit_metadata">Edit</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_add_new_table">Add new table</string>
 </resources>

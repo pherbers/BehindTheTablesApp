@@ -63,6 +63,8 @@ public class TableSelectActivity extends AppCompatActivity implements Navigation
     private int bufferedScrollPos;
     private boolean favsOnly;
 
+    private String activeCategory; // Holds the active category, but only if actually filtering by category.
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -95,7 +97,8 @@ public class TableSelectActivity extends AppCompatActivity implements Navigation
                     DBAdapter adapter = new DBAdapter(this).open();
                     Cursor c = adapter.getCategory(extras.getLong(EXTRA_CATEGORY_DISCRIMINATOR));
                     if (c.moveToFirst()) {
-                        bar.setSubtitle(c.getString(DBAdapter.COL_CATEGORY_TITLE));
+                        activeCategory = c.getString(DBAdapter.COL_CATEGORY_TITLE);
+                        bar.setSubtitle(activeCategory);
                     } else {
                         bar.setSubtitle(R.string.category_all);
                     }
@@ -436,6 +439,9 @@ public class TableSelectActivity extends AppCompatActivity implements Navigation
             case R.id.action_random_table:
                 viewTableCollection(new Random());
                 break;
+            case R.id.action_add_new_table:
+                actionNewTable();
+                break;
             default:
                 Timber.w("Unknown menu item selected.");
                 break;
@@ -443,6 +449,15 @@ public class TableSelectActivity extends AppCompatActivity implements Navigation
 
         return super.onOptionsItemSelected(item);
     }
+
+    private void actionNewTable() {
+        Intent intent = new Intent(this, RandomTableEditActivity.class);
+
+        if(activeCategory != null && !activeCategory.isEmpty())
+            intent.putExtra("Category", activeCategory);
+        startActivity(intent);
+    }
+
 
     @SuppressWarnings("StatementWithEmptyBody")
     @Override

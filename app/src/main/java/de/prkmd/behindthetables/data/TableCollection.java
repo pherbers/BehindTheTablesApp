@@ -1,5 +1,6 @@
 package de.prkmd.behindthetables.data;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -18,9 +19,17 @@ public class TableCollection {
     private List<TableLink> useWithTables = null;
     private List<String> keywords = null;
 
-    public TableCollection(String title, List<TableCollectionEntry> tables) {
-        this.title = title;
-        this.tables = tables;
+    public TableCollection() {
+        // Creates a default empty table
+        this.title = "New Table Collection";
+        this.reference = "";
+        this.description = "An empty table";
+        this.id = TableCollectionContainer.getTableCollectionContainer().getNewID();
+        this.category = "Custom";
+        tables = new ArrayList<>();
+        relatedTables = new ArrayList<>();
+        useWithTables = new ArrayList<>();
+        keywords = new ArrayList<>();
     }
 
     public TableCollection(String title, List<TableCollectionEntry> tables, String reference, String description, String category, String id, List<TableLink> relatedTables, List<TableLink> useWithTables, List<String> keywords) {

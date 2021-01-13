@@ -2,8 +2,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="de.prkmd.behindthetables">
 
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-
     <application
         android:name=".BehindTheTables"
         android:allowBackup="false"
@@ -18,7 +16,17 @@
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".activity.TableSelectActivity"/>
+                android:value=".activity.TableSelectActivity" />
+        </activity>
+        <activity
+            android:name=".activity.RandomTableEditActivity"
+            android:label="@string/title_activity_random_table_edit"
+            android:parentActivityName=".activity.RandomTableActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="adjustResize">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activity.RandomTableActivity" />
         </activity>
         <activity
             android:name=".activity.TableSelectActivity"
@@ -32,36 +40,38 @@
 
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".activity.CategorySelectActivity"/>
-
+                android:value=".activity.CategorySelectActivity" />
             <meta-data
                 android:name="android.app.searchable"
                 android:resource="@xml/table_select_searchable" />
         </activity>
 
-        <provider
-            android:name=".util.TableSearchRecentSuggestionsProvider"
-            android:authorities="de.prkmd.behindthetables.TableSearchSuggestionProvider"
-            android:exported="false" />
-
         <activity android:name=".activity.CategorySelectActivity">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
 
-            <meta-data android:name="android.app.default_searchable"
-                       android:value=".activity.TableSelectActivity" />
+            <meta-data
+                android:name="android.app.default_searchable"
+                android:value=".activity.TableSelectActivity" />
         </activity>
 
         <activity
             android:name=".activity.SettingsActivity"
-            android:parentActivityName="de.prkmd.behindthetables.activity.CategorySelectActivity">
+            android:parentActivityName=".activity.CategorySelectActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="de.prkmd.behindthetables.activity.CategorySelectActivity"/>
+                android:value="de.prkmd.behindthetables.activity.CategorySelectActivity" />
         </activity>
+        <provider
+            android:name=".util.TableSearchRecentSuggestionsProvider"
+            android:authorities="de.prkmd.behindthetables.TableSearchSuggestionProvider"
+            android:exported="false" />
     </application>
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
 </manifest>

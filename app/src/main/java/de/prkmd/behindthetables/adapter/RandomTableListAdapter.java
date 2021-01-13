@@ -1,6 +1,8 @@
 package de.prkmd.behindthetables.adapter;
 
 import android.content.Context;
+
+import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.recyclerview.widget.RecyclerView.ViewHolder;
 import android.view.LayoutInflater;
@@ -23,44 +25,9 @@ import de.prkmd.behindthetables.view.RandomTableViewHolder;
  * Created by Patrick on 11.03.2017.
  */
 
-public class RandomTableListAdapter extends RecyclerView.Adapter<ViewHolder> {
-
-    private TableCollection tableCollection;
-    private ArrayList<ListItem> flatRepr;
-    private Context context;
-
-    private final static int VIEW_HEADER = 0;
-    private final static int VIEW_SUBCATEGORY = 1;
-    private final static int VIEW_TABLE_TITLE = 2;
-    private final static int VIEW_TABLE_ENTRY = 3;
-
+public class RandomTableListAdapter extends TreeListAdapter {
     public RandomTableListAdapter(Context context, TableCollection tableCollection) {
-        this.context = context;
-        this.tableCollection = tableCollection;
-        flatRepr = new ArrayList<>();
-        rebuildArray();
-        setHasStableIds(true);
-    }
-
-    private void rebuildArray() {
-        flatRepr.clear();
-        // First item is always the description, represented by the table collection itself
-        flatRepr.add(new DescriptionItem(tableCollection));
-
-        for(TableCollectionEntry collectionEntry: tableCollection.getTables()) {
-            if(collectionEntry instanceof RandomTable) {
-                RandomTable randomTable = (RandomTable) collectionEntry;
-                flatRepr.add(new TableTitleItem(randomTable));
-                if((randomTable).isExpanded())
-                    for(TableEntry tableEntry: (randomTable).getEntries()) {
-                        flatRepr.add(new TableEntryItem(tableEntry, randomTable));
-                    }
-                else if((randomTable).getRolledIndex() >= 0)
-                    flatRepr.add(new TableEntryItem((randomTable).getEntries().get((randomTable).getRolledIndex()), randomTable));
-            } else if(collectionEntry instanceof SubcategoryEntry) {
-                flatRepr.add(new SubcategoryItem((SubcategoryEntry) collectionEntry));
-            }
-        }
+        super(context, tableCollection);
     }
 
     public void collapseTable(RandomTable table) {
@@ -121,6 +88,22 @@ public class RandomTableListAdapter extends RecyclerView.Adapter<ViewHolder> {
         table.setExpanded(true);
     }
 
+    public void resetTable(RandomTable table) {
+
+        int index = getTablePos(table);
+
+        if(index == -1) {
+            return;
+        }
+        int indexTo = getTableEntryRange(index);
+        flatRepr.subList(index + 1, indexTo + 1).clear();
+
+        notifyItemRangeRemoved(index + 1, indexTo - index);
+
+        table.setRolledIndex(-1);
+        table.setExpanded(false);
+    }
+
     public void rollTable(RandomTable table) {
         int prev = table.getRolledIndex();
         table.roll();
@@ -152,38 +135,8 @@ public class RandomTableListAdapter extends RecyclerView.Adapter<ViewHolder> {
             notifyItemChanged(index + prev + 1);
     }
 
-    private int getTablePos(RandomTable table) {
-        for(int i = 0; i < flatRepr.size(); i++) {
-            ListItem li = flatRepr.get(i);
-            if(li instanceof TableTitleItem && li.equals(table))
-                return i;
-        }
-        return -1;
-    }
-
-    private int getTableEntryRange(int index) {
-        int i = index + 1;
-        while(i < flatRepr.size()) {
-            ListItem li = flatRepr.get(i);
-            if(!(li instanceof TableEntryItem))
-                break;
-            i++;
-        }
-        return i - 1;
-    }
-
     @Override
-    public long getItemId(int position) {
-        return flatRepr.get(position).getID();
-    }
-
-    @Override
-    public int getItemCount() {
-        return flatRepr.size();
-    }
-
-    @Override
-    public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
+    public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         ViewHolder v = null;
         if(viewType == VIEW_TABLE_TITLE) {
             v = createRandomTableViewHolder(context, parent);
@@ -197,20 +150,6 @@ public class RandomTableListAdapter extends RecyclerView.Adapter<ViewHolder> {
         return v;
     }
 
-    @Override
-    public int getItemViewType(int position) {
-        return flatRepr.get(position).getViewType();
-    }
-
-    @Override
-    public void onBindViewHolder(ViewHolder holder, int position) {
-        flatRepr.get(position).bindData(holder);
-    }
-
-    @Override
-    public void onViewDetachedFromWindow(ViewHolder holder) {
-
-    }
 
     private RandomTableHeaderViewHolder createRandomTableHeaderViewHolder(Context context, ViewGroup parent) {
         return new RandomTableHeaderViewHolder(LayoutInflater.from(context).inflate(R.layout.table_info_layout, parent, false));
@@ -226,13 +165,7 @@ public class RandomTableListAdapter extends RecyclerView.Adapter<ViewHolder> {
     }
 
 
-    private interface ListItem {
-        int getViewType();
-        void bindData(ViewHolder viewHolder);
-        int getID();
-    }
-
-    private class DescriptionItem implements ListItem {
+    static class DescriptionItem implements ListItem {
 
         TableCollection tableCollection;
 
@@ -263,7 +196,7 @@ public class RandomTableListAdapter extends RecyclerView.Adapter<ViewHolder> {
         }
     }
 
-    private class SubcategoryItem implements ListItem {
+    static class SubcategoryItem implements ListItem {
 
         SubcategoryEntry subcategoryEntry;
 
@@ -294,7 +227,7 @@ public class RandomTableListAdapter extends RecyclerView.Adapter<ViewHolder> {
         }
     }
 
-    private class TableTitleItem implements ListItem {
+    static class TableTitleItem implements ListItem {
 
         RandomTable randomTable;
 
@@ -324,7 +257,7 @@ public class RandomTableListAdapter extends RecyclerView.Adapter<ViewHolder> {
         }
     }
 
-    private class TableEntryItem implements ListItem {
+    static class TableEntryItem implements ListItem {
         TableEntry tableEntry;
         RandomTable table;
 

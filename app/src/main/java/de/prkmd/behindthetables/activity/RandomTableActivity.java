@@ -222,6 +222,8 @@ public class RandomTableActivity extends AppCompatActivity {
             case R.id.action_external_file_info:
                 requestFileFinfoDialog();
                 break;
+            case R.id.random_table_activity_edit:
+                actionEdit();
             default:
                 Timber.w("Unknown menu in RandomTableActivity");
                 break;
@@ -240,10 +242,9 @@ public class RandomTableActivity extends AppCompatActivity {
     }
 
     public void resetTable() {
-        for (int i = 1; i < listAdapter.getItemCount(); i++) {
-            if (table.getTables().get(i) instanceof RandomTable) {
-                ((RandomTable) table.getTables().get(i)).setRolledIndex(-1);
-                redrawListAtPos(i);
+        for(TableCollectionEntry t: table.getTables()) {
+            if (t instanceof RandomTable) {
+                listAdapter.resetTable((RandomTable) t);
             }
         }
     }
@@ -371,25 +372,16 @@ public class RandomTableActivity extends AppCompatActivity {
         startActivity(Intent.createChooser(sendIntent, getString(R.string.action_share_tables_with)));
     }
 
+    public void actionEdit() {
+        Intent intent = new Intent(this, RandomTableEditActivity.class);
+
+        intent.putExtra(RandomTableActivity.EXTRA_TABLE_DATABASE_RESOURCE_LOCATION, tableFile.getResourceLocation());
+        startActivity(intent);
+    }
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.random_table_activity_menu, menu);
-        if (!URLUtil.isValidUrl(table.getReference())) {
-            MenuItem item = menu.findItem(R.id.random_table_activity_reference);
-            item.setVisible(false);
-            item.setEnabled(false);
-        }
-
-        Timber.i("onCreateOptionsMenu() called -> tableFile is fav? " + tableFile.isFavorite(this));
-        if (tableFile.isFavorite(this)) {
-            menu.removeItem(R.id.random_table_activity_fav);
-        } else {
-            menu.removeItem(R.id.random_table_activity_unfav);
-        }
-
-        if (!tableFile.isExternal()) {
-            menu.removeItem(R.id.action_external_file_info);
-        }
 
         return true;
     }

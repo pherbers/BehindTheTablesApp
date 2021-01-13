@@ -238,12 +238,21 @@ public class CategorySelectActivity extends AppCompatActivity implements Adapter
             case R.id.action_discover_external:
                 requestDiscoverExternalFiles();
                 break;
+            case R.id.action_add_new_table:
+                actionNewTable();
+                break;
             default:
                 Timber.w("Unknown menu item selected.");
                 break;
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    private void actionNewTable() {
+        Intent intent = new Intent(this, RandomTableEditActivity.class);
+
+        startActivity(intent);
     }
 
     private void requestSearch() {
