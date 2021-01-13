@@ -283,7 +283,7 @@ public class TableSelectActivity extends AppCompatActivity implements Navigation
         int icon;
         int message;
         if (file.isFavorite(this)) {
-            icon = R.drawable.ic_star_border_black_48dp;
+            icon = R.drawable.baseline_star_outline_dialog_48;
             message = R.string.action_unfav_detail;
             builder.setPositiveButton(R.string.action_unfav, new DialogInterface.OnClickListener() {
                 @Override
@@ -294,7 +294,7 @@ public class TableSelectActivity extends AppCompatActivity implements Navigation
                 }
             });
         } else {
-            icon = R.drawable.ic_star_black_48dp;
+            icon = R.drawable.baseline_star_dialog_48;
             message = R.string.action_fav_detail;
             builder.setPositiveButton(R.string.action_fav, new DialogInterface.OnClickListener() {
                 @Override

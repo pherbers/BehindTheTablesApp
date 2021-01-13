@@ -43,49 +43,14 @@ public class TableFileAdapter extends RecyclerView.Adapter<TableFileAdapter.Hold
 
         holder.titleTF.setCompoundDrawablesRelative(null, null, null, null);
         if (file.isFavorite(getContext())) {
-            //holder.titleTF.getViewTreeObserver()
-            //        .addOnGlobalLayoutListener(new ViewTreeObserver.OnGlobalLayoutListener() {
-            //            @Override
-            //            public void onGlobalLayout() {
-            //                Drawable img = getContext().getResources().getDrawable(R.drawable.ic_star_black_48dp);
-            //                img.setBounds(0, 0, 20, holder.titleTF.getMeasuredHeight());
-            //                holder.titleTF.setCompoundDrawables(img, null, null, null);
-            //                //holder.titleTF.removeOnLayoutChangeListener();
-            //            }
-            //        });
-            //int size = holder.titleTF.getMeasuredHeight() / 4;
-            //img.setBounds(0, 0, size, size);
-            Drawable img = getContext().getResources().getDrawable(R.drawable.ic_star_black_18dp);
+            Drawable img = getContext().getResources().getDrawable(R.drawable.baseline_star_text_18);
             holder.titleTF.setCompoundDrawablesRelativeWithIntrinsicBounds(img, null, null, null);
         }
-
-        //applyFavToButton(file, holder);
-        //holder.pathTF.setOnClickListener(new View.OnClickListener() {
-        //    @Override
-        //    public void onClick(View view) {
-        //        Timber.i("Click event on fav-button for '" + file.getTitle() + "'!");
-        //        file.setFav(!file.isFav());
-        //        applyFavToButton(file, holder);
-        //
-        //        DBAdapter adapter = new DBAdapter(getContext());
-        //        adapter.open();
-        //        file.saveToDB(adapter);
-        //        adapter.close();
-        //    }
-        //});
     }
 
     private Context getContext() {
         return context;
     }
-
-    //private void applyFavToButton(TableFile file, Holder holder) {
-    //    if (file.isFav()) {
-    //        holder.favBT.setImageDrawable(context.getResources().getDrawable(R.drawable.ic_star_black_48dp));
-    //    } else {
-    //        holder.favBT.setImageDrawable(context.getResources().getDrawable(R.drawable.ic_star_border_black_48dp));
-    //    }
-    //}
 
     @Override
     public int getItemCount() {
