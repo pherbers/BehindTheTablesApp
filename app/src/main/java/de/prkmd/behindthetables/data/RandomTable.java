@@ -128,4 +128,9 @@ public class RandomTable implements TableCollectionEntry {
     public String toString() {
         return name;
     }
+
+    public void addNewEntry() {
+        entries.add(new TableEntry(entries.size(), "", maxDiceValue+1));
+        maxDiceValue++;
+    }
 }
