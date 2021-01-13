@@ -78,7 +78,7 @@ public class RandomTableEditActivity extends AppCompatActivity {
                 } catch (IOException e) {
                     new AlertDialog.Builder(this)
                             .setTitle(R.string.app_name)
-                            .setIcon(R.drawable.ic_warning_black_48dp)
+                            .setIcon(R.drawable.baseline_warning_dialog_48)
                             .setMessage(getString(R.string.table_file_ioexception, tableFile.getResourceLocation()))
                             .setCancelable(false)
                             .setPositiveButton(android.R.string.ok, new DialogInterface.OnClickListener() {

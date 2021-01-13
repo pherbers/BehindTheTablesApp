@@ -382,7 +382,22 @@ public class RandomTableActivity extends AppCompatActivity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.random_table_activity_menu, menu);
+        if (!URLUtil.isValidUrl(table.getReference())) {
+            MenuItem item = menu.findItem(R.id.random_table_activity_reference);
+            item.setVisible(false);
+            item.setEnabled(false);
+        }
 
+        Timber.i("onCreateOptionsMenu() called -> tableFile is fav? " + tableFile.isFavorite(this));
+        if (tableFile.isFavorite(this)) {
+            menu.removeItem(R.id.random_table_activity_fav);
+        } else {
+            menu.removeItem(R.id.random_table_activity_unfav);
+        }
+
+        if (!tableFile.isExternal()) {
+            menu.removeItem(R.id.action_external_file_info);
+        }
         return true;
     }
 
