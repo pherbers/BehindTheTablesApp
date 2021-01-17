@@ -40,6 +40,7 @@ public class FileManager {
             f = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOCUMENTS);
         }
         f = new File(f, context.getString(R.string.app_name));
+        f = context.getFilesDir();
 
         Timber.v("Requested Origin File. Location: " + f.getAbsolutePath());
         if (!f.exists()) {

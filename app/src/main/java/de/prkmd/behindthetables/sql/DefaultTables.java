@@ -48,6 +48,12 @@ public abstract class DefaultTables {
             Timber.e(e, "Failed to fetch meta table information because of an I/O error!");
             return false;
         }
+        catch (Throwable t){
+            t.printStackTrace();
+            Timber.e(t);
+            Timber.e("Failed to fetch meta table information because of gernal error fuckery!");
+            return false;
+        }
 
         return true;
     }
