@@ -33,7 +33,7 @@ import de.prkmd.behindthetables.data.TableCollection;
 import de.prkmd.behindthetables.data.TableCollectionContainer;
 import de.prkmd.behindthetables.data.TableCollectionEntry;
 import de.prkmd.behindthetables.data.TableFile;
-import de.prkmd.behindthetables.data.TableReader;
+import de.prkmd.behindthetables.data.TableIO;
 import de.prkmd.behindthetables.imported.nilsfo.FileManager;
 import de.prkmd.behindthetables.sql.DBAdapter;
 import de.prkmd.behindthetables.view.DividerItemDecoration;
@@ -82,9 +82,9 @@ public class RandomTableActivity extends AppCompatActivity {
         if (!tableCollectionContainer.containsKey(resourceLocation)) {
             try {
                 if (tableFile.isExternal()) {
-                    table = TableReader.readTable(new FileInputStream(tableFile.getFile()));
+                    table = TableIO.readTable(new FileInputStream(tableFile.getFile()));
                 } else {
-                    table = TableReader.readTable(getResources().openRawResource(tableFile.getResourceID(this)));
+                    table = TableIO.readTable(getResources().openRawResource(tableFile.getResourceID(this)));
                 }
                 tableCollectionContainer.put(resourceLocation, table);
             } catch (IOException e) {

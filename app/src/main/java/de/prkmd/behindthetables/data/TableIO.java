@@ -1,13 +1,20 @@
 package de.prkmd.behindthetables.data;
 
+import android.util.JsonWriter;
+
 import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 
+import java.io.FileOutputStream;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.io.OutputStream;
+import java.io.OutputStreamWriter;
+import java.io.Writer;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -15,7 +22,7 @@ import java.util.List;
  * Created by Patrick on 11.03.2017.
  */
 
-public abstract class TableReader {
+public abstract class TableIO {
 
     public static TableCollection readTable(InputStream is) throws IOException {
         String title;
@@ -103,5 +110,84 @@ public abstract class TableReader {
 
         RandomTable table = new RandomTable(title, dice, index, entries);
         return table;
+    }
+
+    public static void writeTableCollection(TableCollection tc, FileOutputStream out) throws IOException {
+
+        JsonWriter w = new JsonWriter(new OutputStreamWriter(out));
+        w.beginObject();
+
+        w.name("title").value(tc.getTitle());
+
+        w.name("category").value(tc.getCategory());
+
+        w.name("description").value(tc.getDescription());
+
+        w.name("id").value(tc.getId());
+
+        if(!tc.getReference().isEmpty())
+            w.name("reference").value(tc.getReference());
+
+        w.name("keywords");
+        writeStringArray(w, tc.getKeywords());
+
+        w.name("use_with");
+        w.beginArray();
+        for (TableLink tl :
+                tc.getUseWithTables()) {
+            w.name("title").value(tl.getLinkTitle());
+            w.name("link").value(tl.getLinkId());
+        }
+        w.endArray();
+
+        w.name("related_tables");
+        w.beginArray();
+        for (TableLink tl :
+                tc.getRelatedTables()) {
+            w.name("title").value(tl.getLinkTitle());
+            w.name("link").value(tl.getLinkId());
+        }
+        w.endArray();
+
+        w.name("tables");
+        w.beginArray();
+        for (TableCollectionEntry tce: tc.getTables()) {
+            if(tce instanceof SubcategoryEntry) {
+                w.beginObject();
+                w.name("subcategory").value(((SubcategoryEntry)tce).getText());
+                w.endObject();
+            } else if(tce instanceof RandomTable) {
+                writeTable(w, (RandomTable) tce);
+            }
+        }
+
+        w.endArray();
+        w.endObject();
+        w.close();
+    }
+
+    private static void writeStringArray(JsonWriter writer, List<String> strings) throws IOException {
+        writer.beginArray();
+        for (String value : strings) {
+            writer.value(value);
+        }
+        writer.endArray();
+    }
+
+    private static void writeTable(JsonWriter w, RandomTable t) throws IOException {
+        w.beginObject();
+
+        w.name("name").value(t.getName());
+        w.name("dice").value(t.getDice());
+
+        w.name("table_entries");
+        w.beginArray();
+        for(TableEntry e: t.getEntries()) {
+            w.name("entry").value(e.getText());
+            w.name("dice_val").value(e.getDiceString());
+        }
+        w.endArray();
+
+        w.endObject();
     }
 }
