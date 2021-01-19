@@ -102,6 +102,9 @@ public class RandomTableEditActivity extends AppCompatActivity {
             // Create empty Table
 
             table = new TableCollection();
+            if(sourceIntent.hasExtra("Name")) {
+                table.setTitle(sourceIntent.getStringExtra("Name"));
+            }
             if(sourceIntent.hasExtra("Category")) {
                 table.setCategory(sourceIntent.getStringExtra("Category"));
             }
@@ -114,7 +117,7 @@ public class RandomTableEditActivity extends AppCompatActivity {
             getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         }
 
-        setTitle(table.getTitle());
+        setTitle(getString(R.string.edit_table_appbar_title, table.getTitle()));
 
         listView = findViewById(R.id.random_table_edit_list);
         LinearLayoutManager layoutManager = new LinearLayoutManager(this);

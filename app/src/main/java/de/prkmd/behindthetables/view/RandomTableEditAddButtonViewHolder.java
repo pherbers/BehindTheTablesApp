@@ -1,14 +1,12 @@
 package de.prkmd.behindthetables.view;
 
 import android.view.View;
-import android.widget.Button;
 import android.widget.ImageButton;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 import de.prkmd.behindthetables.R;
 import de.prkmd.behindthetables.adapter.RandomTableEditListAdapter;
-import de.prkmd.behindthetables.data.RandomTable;
 
 public class RandomTableEditAddButtonViewHolder extends RecyclerView.ViewHolder {
     RandomTableEditListAdapter adapter;
@@ -29,7 +27,7 @@ public class RandomTableEditAddButtonViewHolder extends RecyclerView.ViewHolder 
 
     public void OnClick() {
         if(adapter.getState() == RandomTableEditListAdapter.STATE.EDIT_COLLECTION) {
-            adapter.addNewTableCollection();
+            adapter.addNewTable();
         }
         else {
             adapter.addNewTableEntry();

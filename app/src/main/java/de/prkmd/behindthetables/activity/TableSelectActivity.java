@@ -40,6 +40,7 @@ import de.prkmd.behindthetables.data.TableFile;
 import de.prkmd.behindthetables.data.TableFileComparator;
 import de.prkmd.behindthetables.sql.DBAdapter;
 import de.prkmd.behindthetables.util.TableSearchRecentSuggestionsProvider;
+import de.prkmd.behindthetables.view.dialog.NewTableCollectionDialogFragment;
 import de.prkmd.behindthetables.view.listener.RecyclerItemClickListener;
 import timber.log.Timber;
 
@@ -451,11 +452,7 @@ public class TableSelectActivity extends AppCompatActivity implements Navigation
     }
 
     private void actionNewTable() {
-        Intent intent = new Intent(this, RandomTableEditActivity.class);
-
-        if(activeCategory != null && !activeCategory.isEmpty())
-            intent.putExtra("Category", activeCategory);
-        startActivity(intent);
+        new NewTableCollectionDialogFragment(this, activeCategory).show(getSupportFragmentManager(), "newTableCollection");
     }
 
 

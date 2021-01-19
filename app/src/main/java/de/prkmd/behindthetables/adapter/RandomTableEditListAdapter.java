@@ -194,7 +194,7 @@ public class RandomTableEditListAdapter extends RecyclerView.Adapter<RecyclerVie
         }
     }
 
-    public void addNewTableCollection() {
+    public void addNewTable() {
         if(state == STATE.EDIT_COLLECTION) {
             String new_table_string = context.getString(R.string.new_empty_table_text);
             tableCollection.addNewTable(new_table_string);

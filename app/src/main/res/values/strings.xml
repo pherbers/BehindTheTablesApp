@@ -69,6 +69,7 @@
     <string name="info_keywords">Keywords: %1$s</string>
     <string name="info_related">Related: </string>
     <string name="info_use_with">Use with: </string>
+    <string name="edit_table_appbar_title">Edit table: %1$s</string>
 
     <string name="info_update_news">Update news</string>
     <string name="action_feedback">Rate &amp; Feedback</string>
@@ -124,5 +125,9 @@
     <string name="prefs_view_changelog">View Changelog</string>
     <string name="prefs_view_changelog_summary">App version %1$s. Last update was %2$s day(s) ago.</string>
     <string name="new_empty_table_text">New Table</string>
+    <string name="new_table_collection">New Table Collection</string>
+    <string name="cancel">Cancel</string>
+    <string name="add_new">Add new</string>
+    <string name="add_new_table_collection">Add New Table Collection</string>
 
 </resources>

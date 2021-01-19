@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorTableOdd"
+    android:orientation="vertical"
+    android:paddingStart="@dimen/text_margin"
+    android:paddingTop="@dimen/text_vertical_margin"
+    android:paddingEnd="@dimen/text_margin"
+    android:paddingBottom="@dimen/text_margin">
+
+    <com.ms.square.android.expandabletextview.ExpandableTextView
+        android:id="@+id/table_info_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        app:collapseDrawable="@drawable/ic_arrow_drop_up_24dp"
+        app:expandDrawable="@drawable/ic_arrow_drop_down_24dp"
+        app:maxCollapsedLines="5">
+
+        <TextView
+            android:id="@id/expandable_text"
+            style="?android:attr/textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/text_vertical_margin"
+            android:layout_marginBottom="0dp"
+
+            android:textColorLink="@color/colorLink" />
+
+        <ImageButton
+            android:id="@id/expand_collapse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="0dp"
+            android:layout_marginBottom="@dimen/text_vertical_margin"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/action_toggler"
+            android:padding="0dp"
+            android:tint="@android:color/darker_gray"
+            app:srcCompat="@drawable/ic_arrow_drop_down_24dp" />
+
+
+    </com.ms.square.android.expandabletextview.ExpandableTextView>
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Use with:"
+        android:visibility="gone" />
+
+    <HorizontalScrollView
+        android:id="@+id/table_info_use_with_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:overScrollMode="never"
+        android:paddingTop="@dimen/text_vertical_margin"
+        android:paddingBottom="@dimen/text_vertical_margin"
+        android:requiresFadingEdge="horizontal"
+        android:scrollbars="none">
+
+        <TextView
+            android:id="@+id/table_info_use_with"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:maxLines="1"
+            android:scrollHorizontally="true"
+            android:text=""
+            android:textColorLink="@color/colorLink" />
+
+    </HorizontalScrollView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Related:"
+        android:visibility="gone" />
+
+    <HorizontalScrollView
+        android:id="@+id/table_info_related_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:overScrollMode="never"
+        android:paddingTop="@dimen/text_vertical_margin"
+        android:paddingBottom="@dimen/text_vertical_margin"
+        android:requiresFadingEdge="horizontal"
+        android:scrollbars="none">
+
+        <TextView
+            android:id="@+id/table_info_related"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:maxLines="1"
+            android:scrollHorizontally="true"
+            android:text=""
+            android:textColorLink="@color/colorLink" />
+
+    </HorizontalScrollView>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Keywords:"
+        android:visibility="gone" />
+
+    <HorizontalScrollView
+        android:id="@+id/table_info_keywords_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:overScrollMode="never"
+        android:paddingTop="@dimen/text_vertical_margin"
+        android:paddingBottom="@dimen/text_vertical_margin"
+        android:requiresFadingEdge="horizontal"
+        android:scrollbars="none">
+
+        <TextView
+            android:id="@+id/table_info_keywords"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:maxLines="1"
+            android:scrollHorizontally="true"
+            android:text=""
+            android:textColorLink="@color/colorLink" />
+
+    </HorizontalScrollView>
+
+</LinearLayout>
