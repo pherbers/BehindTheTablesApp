@@ -177,8 +177,8 @@ public class RandomTableEditListAdapter extends RecyclerView.Adapter<RecyclerVie
     }
 
     public void finishEditTable() {
-        //activeTable.trim();
-        //activeTable.fixDiceValues();
+        activeTable.trim();
+        activeTable.fixDiceValues();
         activeTable = null;
         state = STATE.EDIT_COLLECTION;
 

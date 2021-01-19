@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.os.FileUtils;
 import android.os.PersistableBundle;
 import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Toast;
 
@@ -174,6 +175,22 @@ public class RandomTableEditActivity extends AppCompatActivity {
             save();
             super.onBackPressed();
         }
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+        switch (item.getItemId()) {
+            case android.R.id.home:
+                onBackPressed();
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
+        }
+    }
+
+    public void saveAndExit(View view) {
+        save();
+        onBackPressed();
     }
 
     public void save() {
