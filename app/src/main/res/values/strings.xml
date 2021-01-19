@@ -129,5 +129,8 @@
     <string name="cancel">Cancel</string>
     <string name="add_new">Add new</string>
     <string name="add_new_table_collection">Add New Table Collection</string>
+    <string name="edit_table_title">Edit table title</string>
+    <string name="table_title">Table title</string>
+    <string name="ok">OK</string>
 
 </resources>

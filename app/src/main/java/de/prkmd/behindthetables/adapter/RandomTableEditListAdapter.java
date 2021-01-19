@@ -1,5 +1,6 @@
 package de.prkmd.behindthetables.adapter;
 
+import android.app.Activity;
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.ViewGroup;
@@ -7,6 +8,7 @@ import android.view.ViewGroup;
 import java.util.ArrayList;
 
 import androidx.annotation.NonNull;
+import androidx.fragment.app.FragmentActivity;
 import androidx.recyclerview.widget.RecyclerView;
 import de.prkmd.behindthetables.R;
 import de.prkmd.behindthetables.data.RandomTable;
@@ -26,7 +28,7 @@ import timber.log.Timber;
 public class RandomTableEditListAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
 
     protected TableCollection tableCollection;
-    protected Context context;
+    protected FragmentActivity context;
     protected RandomTable activeTable;
 
     public enum STATE {
@@ -41,7 +43,7 @@ public class RandomTableEditListAdapter extends RecyclerView.Adapter<RecyclerVie
     public final static int VIEW_TABLE_ENTRY = 3;
     public final static int VIEW_ADD_BTN = 4;
 
-    public RandomTableEditListAdapter(Context context, TableCollection tableCollection) {
+    public RandomTableEditListAdapter(FragmentActivity context, TableCollection tableCollection) {
         this.context = context;
         this.tableCollection = tableCollection;
         setHasStableIds(true);
@@ -75,14 +77,14 @@ public class RandomTableEditListAdapter extends RecyclerView.Adapter<RecyclerVie
             } else {
                 TableCollectionEntry entry = tableCollection.getTables().get(position - 1);
                 if(entry instanceof RandomTable) {
-                    ((RandomTableEditViewHolder)holder).bindData((RandomTable) entry, this);
+                    ((RandomTableEditViewHolder)holder).bindData((RandomTable) entry, this, position, context);
                 } else if (entry instanceof SubcategoryEntry) {
                     ((RandomTableSubcategoryViewHolder)holder).bindData((SubcategoryEntry) entry);
                 }
             }
         } else {
             if(position == 0) {
-                ((RandomTableEditViewHolder)holder).bindData(activeTable, this);
+                ((RandomTableEditViewHolder)holder).bindData(activeTable, this, position, context);
             } else if(position == activeTable.getEntries().size() + 1) {
                 // Do nothing
             } else {
