@@ -133,4 +133,39 @@ public class RandomTable implements TableCollectionEntry {
         entries.add(new TableEntry(entries.size(), "", maxDiceValue+1));
         maxDiceValue++;
     }
+
+    /***
+     * Removes empty entries at the back of the table and returns the new size.
+     * @return The new number of tables.
+     */
+    public int trim() {
+        for(int i = entries.size() - 1; i > 0; i--) {
+            if(entries.get(i).isEmpty()) {
+                entries.remove(i);
+            }
+            else
+                break;
+        }
+        return entries.size();
+    }
+
+    public void fixDiceValues() {
+        int i = 0;
+        for(TableEntry e: entries) {
+            if(e.getDiceValueTo() > -1) {
+                nonUniformDiceEntries = true;
+
+                i++;
+                int range = Math.abs(e.getDiceValueTo() - e.getDiceValue());
+                e.setDiceValue(i);
+                i += range;
+                e.setDiceValueTo(i);
+            } else {
+                i++;
+                e.setDiceValue(i);
+            }
+        }
+        maxDiceValue = i;
+        dice = "1d" + maxDiceValue;
+    }
 }

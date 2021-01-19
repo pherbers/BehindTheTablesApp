@@ -14,6 +14,7 @@ import de.prkmd.behindthetables.data.SubcategoryEntry;
 import de.prkmd.behindthetables.data.TableCollection;
 import de.prkmd.behindthetables.data.TableCollectionEntry;
 import de.prkmd.behindthetables.data.TableEntry;
+import de.prkmd.behindthetables.view.RandomTableEditAddButtonViewHolder;
 import de.prkmd.behindthetables.view.RandomTableEditEntryViewHolder;
 import de.prkmd.behindthetables.view.RandomTableEditViewHolder;
 import de.prkmd.behindthetables.view.RandomTableEntryViewHolder;
@@ -38,6 +39,7 @@ public class RandomTableEditListAdapter extends RecyclerView.Adapter<RecyclerVie
     public final static int VIEW_SUBCATEGORY = 1;
     public final static int VIEW_TABLE_TITLE = 2;
     public final static int VIEW_TABLE_ENTRY = 3;
+    public final static int VIEW_ADD_BTN = 4;
 
     public RandomTableEditListAdapter(Context context, TableCollection tableCollection) {
         this.context = context;
@@ -57,6 +59,8 @@ public class RandomTableEditListAdapter extends RecyclerView.Adapter<RecyclerVie
             v = createRandomTableSubcategoryViewHolder(context, parent);
         } else if(viewType == VIEW_TABLE_ENTRY) {
             v = createRandomTableEntryViewHolder(context, parent);
+        } else if(viewType == VIEW_ADD_BTN) {
+            v = createRandomTableAddBtnViewHolder(context, parent);
         }
         return v;
     }
@@ -66,6 +70,8 @@ public class RandomTableEditListAdapter extends RecyclerView.Adapter<RecyclerVie
         if(state == STATE.EDIT_COLLECTION) {
             if(position == 0) {
                 ((RandomTableHeaderViewHolder)holder).bindData(tableCollection);
+            } else if(position == tableCollection.getTables().size() + 1) {
+                // Do nothing
             } else {
                 TableCollectionEntry entry = tableCollection.getTables().get(position - 1);
                 if(entry instanceof RandomTable) {
@@ -77,6 +83,8 @@ public class RandomTableEditListAdapter extends RecyclerView.Adapter<RecyclerVie
         } else {
             if(position == 0) {
                 ((RandomTableEditViewHolder)holder).bindData(activeTable, this);
+            } else if(position == activeTable.getEntries().size() + 1) {
+                // Do nothing
             } else {
                 TableEntry entry = activeTable.getEntries().get(position - 1);
                 ((RandomTableEditEntryViewHolder)holder).bindData(entry, activeTable);
@@ -89,6 +97,8 @@ public class RandomTableEditListAdapter extends RecyclerView.Adapter<RecyclerVie
         if(state == STATE.EDIT_COLLECTION) {
             if(position == 0) {
                 return tableCollection.getId().hashCode();
+            } else if(position == tableCollection.getTables().size() + 1) {
+                return VIEW_ADD_BTN;
             } else {
                 TableCollectionEntry entry = tableCollection.getTables().get(position - 1);
                 return entry.hashCode();
@@ -96,6 +106,8 @@ public class RandomTableEditListAdapter extends RecyclerView.Adapter<RecyclerVie
         } else {
             if(position == 0) {
                 return activeTable.hashCode();
+            } else if(position == activeTable.getEntries().size() + 1) {
+                return VIEW_ADD_BTN;
             } else {
                 TableEntry entry = activeTable.getEntries().get(position - 1);
                 return entry.hashCode();
@@ -108,7 +120,10 @@ public class RandomTableEditListAdapter extends RecyclerView.Adapter<RecyclerVie
         if(state == STATE.EDIT_COLLECTION) {
             if(position == 0) {
                 return VIEW_HEADER;
-            } else {
+            } else if(position == tableCollection.getTables().size() + 1) {
+                return VIEW_ADD_BTN;
+            }
+            else {
                 TableCollectionEntry entry = tableCollection.getTables().get(position - 1);
                 if(entry instanceof RandomTable) {
                     return VIEW_TABLE_TITLE;
@@ -119,6 +134,8 @@ public class RandomTableEditListAdapter extends RecyclerView.Adapter<RecyclerVie
         } else {
             if(position == 0) {
                 return VIEW_TABLE_TITLE;
+            } else if(position == activeTable.getEntries().size() + 1) {
+                return VIEW_ADD_BTN;
             } else {
                 return VIEW_TABLE_ENTRY;
             }
@@ -143,6 +160,10 @@ public class RandomTableEditListAdapter extends RecyclerView.Adapter<RecyclerVie
         return new RandomTableEditEntryViewHolder(LayoutInflater.from(context).inflate(R.layout.table_entry_edit_layout, parent, false), this);
     }
 
+    private RandomTableEditAddButtonViewHolder createRandomTableAddBtnViewHolder(Context context, ViewGroup parent) {
+        return new RandomTableEditAddButtonViewHolder(LayoutInflater.from(context).inflate(R.layout.table_edit_add_button, parent, false), this);
+    }
+
     public void editTable(RandomTable table) {
         if(!tableCollection.getTables().contains(table)) {
             Timber.e("Unknown table " + table + " in active Table Collection " + tableCollection);
@@ -156,6 +177,8 @@ public class RandomTableEditListAdapter extends RecyclerView.Adapter<RecyclerVie
     }
 
     public void finishEditTable() {
+        //activeTable.trim();
+        //activeTable.fixDiceValues();
         activeTable = null;
         state = STATE.EDIT_COLLECTION;
 
@@ -165,13 +188,43 @@ public class RandomTableEditListAdapter extends RecyclerView.Adapter<RecyclerVie
     @Override
     public int getItemCount() {
         if(state == STATE.EDIT_COLLECTION) {
-            return tableCollection.getTables().size() + 1;
+            return tableCollection.getTables().size() + 2;
         } else {
-            return activeTable.size() + 1;
+            return activeTable.size() + 2;
+        }
+    }
+
+    public void addNewTableCollection() {
+        if(state == STATE.EDIT_COLLECTION) {
+            String new_table_string = context.getString(R.string.new_empty_table_text);
+            tableCollection.addNewTable(new_table_string);
+            notifyItemInserted(getItemCount() - 2);
+        } else {
+            throw new IllegalStateException("Tried to add a new random table, but table editor is in state " + state.toString());
+        }
+    }
+
+    public void addNewTableEntry() {
+        if(state == STATE.EDIT_TABLE) {
+            activeTable.addNewEntry();
+            notifyItemInserted(getItemCount() - 2);
+        } else {
+            throw new IllegalStateException("Tried to add a new random table, but table editor is in state " + state.toString());
         }
     }
 
     public STATE getState() {
         return state;
+    }
+
+    public TableCollection getTableCollection() {
+        return tableCollection;
+    }
+
+    public RandomTable getActiveTable() {
+        if(state == STATE.EDIT_TABLE)
+            return activeTable;
+        else
+            return null;
     }
 }

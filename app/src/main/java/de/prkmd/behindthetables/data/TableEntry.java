@@ -19,6 +19,10 @@ public class TableEntry {
     private static final Pattern singleNumberRegex = Pattern.compile("^(\\d+)$");
     private static final Pattern doubleNumberRegex = Pattern.compile("^(\\d+)\\s*-\\s*(\\d+)$");
 
+    public TableEntry() {
+        text = "";
+    }
+
     public TableEntry(int entryPosition, String text, int diceValue) {
         this.entryPosition = entryPosition;
         this.text = text;
@@ -87,5 +91,9 @@ public class TableEntry {
     @Override
     public String toString() {
         return getText();
+    }
+
+    public boolean isEmpty() {
+        return text.isEmpty();
     }
 }

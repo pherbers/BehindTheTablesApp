@@ -21,6 +21,8 @@ import android.webkit.URLUtil;
 import android.widget.ImageButton;
 import android.widget.Toast;
 
+import com.google.gson.JsonParseException;
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -87,7 +89,7 @@ public class RandomTableActivity extends AppCompatActivity {
                     table = TableIO.readTable(getResources().openRawResource(tableFile.getResourceID(this)));
                 }
                 tableCollectionContainer.put(resourceLocation, table);
-            } catch (IOException e) {
+            } catch (IOException|IllegalStateException| JsonParseException e) {
                 new AlertDialog.Builder(this)
                         .setTitle(R.string.app_name)
                         .setIcon(R.drawable.baseline_warning_dialog_48)

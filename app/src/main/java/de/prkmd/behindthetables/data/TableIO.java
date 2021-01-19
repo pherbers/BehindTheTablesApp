@@ -24,7 +24,7 @@ import java.util.List;
 
 public abstract class TableIO {
 
-    public static TableCollection readTable(InputStream is) throws IOException {
+    public static TableCollection readTable(InputStream is) throws IOException,IllegalStateException {
         String title;
         List<TableCollectionEntry> tables;
         String reference = null;
@@ -125,29 +125,39 @@ public abstract class TableIO {
 
         w.name("id").value(tc.getId());
 
-        if(!tc.getReference().isEmpty())
+        if(tc.getReference() != null && !tc.getReference().isEmpty())
             w.name("reference").value(tc.getReference());
 
-        w.name("keywords");
-        writeStringArray(w, tc.getKeywords());
-
-        w.name("use_with");
-        w.beginArray();
-        for (TableLink tl :
-                tc.getUseWithTables()) {
-            w.name("title").value(tl.getLinkTitle());
-            w.name("link").value(tl.getLinkId());
+        if(tc.getKeywords() != null && !tc.getKeywords().isEmpty()) {
+            w.name("keywords");
+            writeStringArray(w, tc.getKeywords());
         }
-        w.endArray();
 
-        w.name("related_tables");
-        w.beginArray();
-        for (TableLink tl :
-                tc.getRelatedTables()) {
-            w.name("title").value(tl.getLinkTitle());
-            w.name("link").value(tl.getLinkId());
+        if(tc.getUseWithTables() != null && !tc.getUseWithTables().isEmpty()) {
+            w.name("use_with");
+            w.beginArray();
+            for (TableLink tl :
+                    tc.getUseWithTables()) {
+                w.beginObject();
+                w.name("title").value(tl.getLinkTitle());
+                w.name("link").value(tl.getLinkId());
+                w.endObject();
+            }
+            w.endArray();
         }
-        w.endArray();
+
+        if(tc.getRelatedTables() != null && !tc.getRelatedTables().isEmpty()) {
+            w.name("related_tables");
+            w.beginArray();
+            for (TableLink tl :
+                    tc.getRelatedTables()) {
+                w.beginObject();
+                w.name("title").value(tl.getLinkTitle());
+                w.name("link").value(tl.getLinkId());
+                w.endObject();
+            }
+            w.endArray();
+        }
 
         w.name("tables");
         w.beginArray();
@@ -183,8 +193,10 @@ public abstract class TableIO {
         w.name("table_entries");
         w.beginArray();
         for(TableEntry e: t.getEntries()) {
+            w.beginObject();
             w.name("entry").value(e.getText());
             w.name("dice_val").value(e.getDiceString());
+            w.endObject();
         }
         w.endArray();
 

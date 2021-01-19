@@ -62,6 +62,9 @@ public class BuildDBTask extends AsyncTask<Void, Void, Boolean> {
     @Override
     protected Boolean doInBackground(Void... voids) {
         Timber.i("Setting up a new database now. Including internal files: " + includeDefaults + ". Externals: " + externalTableFiles);
+
+        adapter.fillWithDefaultData(context);
+
         boolean b = true;
         if (includeDefaults) {
             b = DefaultTables.discoverDefaultTables(context, adapter);

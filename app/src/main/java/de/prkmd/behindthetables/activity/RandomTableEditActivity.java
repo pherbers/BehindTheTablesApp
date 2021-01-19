@@ -9,11 +9,14 @@ import android.view.Menu;
 import android.view.View;
 import android.widget.Toast;
 
+import com.google.gson.JsonParseException;
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
@@ -21,6 +24,7 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 import de.prkmd.behindthetables.R;
 import de.prkmd.behindthetables.adapter.RandomTableEditListAdapter;
+import de.prkmd.behindthetables.data.RandomTable;
 import de.prkmd.behindthetables.data.TableCollection;
 import de.prkmd.behindthetables.data.TableCollectionContainer;
 import de.prkmd.behindthetables.data.TableFile;
@@ -75,7 +79,7 @@ public class RandomTableEditActivity extends AppCompatActivity {
                         table = TableIO.readTable(getResources().openRawResource(tableFile.getResourceID(this)));
                     }
                     tableCollectionContainer.put(resourceLocation, table);
-                } catch (IOException e) {
+                } catch (IOException|IllegalStateException|JsonParseException e) {
                     new AlertDialog.Builder(this)
                             .setTitle(R.string.app_name)
                             .setIcon(R.drawable.baseline_warning_dialog_48)
@@ -121,22 +125,38 @@ public class RandomTableEditActivity extends AppCompatActivity {
         listView.addItemDecoration(mDividerItemDecoration);
 
         RecyclerView.ItemAnimator animator = new MyItemAnimator();
-        animator.setAddDuration(100);
+        animator.setAddDuration(50);
         animator.setChangeDuration(100);
         listView.setItemAnimator(animator);
+
     }
 
     @Override
     protected void onStop() {
-        saveAndExit(listView);
-
+        save();
         super.onStop();
     }
 
 
     @Override
-    public void onSaveInstanceState(Bundle outState, PersistableBundle outPersistentState) {
-        super.onSaveInstanceState(outState, outPersistentState);
+    protected void onSaveInstanceState(@NonNull Bundle outState) {
+        save();
+        if(listAdapter.getState() == RandomTableEditListAdapter.STATE.EDIT_COLLECTION)
+            outState.putInt("adapterState", -1);
+        else
+            outState.putInt("adapterState", table.getTables().indexOf(listAdapter.getActiveTable()));
+        super.onSaveInstanceState(outState);
+    }
+
+    @Override
+    protected void onRestoreInstanceState(@NonNull Bundle savedInstanceState) {
+        if(savedInstanceState != null) {
+            int savedTableIndex = savedInstanceState.getInt("adapterState");
+            if(savedTableIndex >= 0) {
+                listAdapter.editTable((RandomTable)table.getTables().get(savedTableIndex));
+            }
+        }
+        super.onRestoreInstanceState(savedInstanceState);
     }
 
     @Override
@@ -150,11 +170,13 @@ public class RandomTableEditActivity extends AppCompatActivity {
     public void onBackPressed() {
         if(listAdapter.getState() == RandomTableEditListAdapter.STATE.EDIT_TABLE)
             listAdapter.finishEditTable();
-        else
+        else {
+            save();
             super.onBackPressed();
+        }
     }
 
-    public void saveAndExit(View view) {
+    public void save() {
         DBAdapter adapter = new DBAdapter(this).open();
 
         StringBuilder sb = new StringBuilder();

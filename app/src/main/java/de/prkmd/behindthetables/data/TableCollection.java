@@ -122,4 +122,10 @@ public class TableCollection {
                 ((RandomTable)table).roll();
         }
     }
+
+    public void addNewTable(String name) {
+        List<TableEntry> l = new ArrayList<>();
+        l.add(new TableEntry());
+        tables.add(new RandomTable(name, "1d1", tables.size(), l));
+    }
 }

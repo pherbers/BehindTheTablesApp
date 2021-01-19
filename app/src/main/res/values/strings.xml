@@ -123,5 +123,6 @@
     <string name="util_concat_dash" translatable="false">%1$s - %2$s</string>
     <string name="prefs_view_changelog">View Changelog</string>
     <string name="prefs_view_changelog_summary">App version %1$s. Last update was %2$s day(s) ago.</string>
+    <string name="new_empty_table_text">New Table</string>
 
 </resources>
