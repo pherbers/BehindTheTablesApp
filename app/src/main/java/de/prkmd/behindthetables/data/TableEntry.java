@@ -80,6 +80,10 @@ public class TableEntry {
         return entryPosition;
     }
 
+    public void setEntryPosition(int entryPosition) {
+        this.entryPosition = entryPosition;
+    }
+
     public String getDiceString() {
         if(diceValueTo > -1) {
             return diceValue + " - " + diceValueTo;

@@ -280,6 +280,7 @@ public class RandomTableEditListAdapter extends RecyclerView.Adapter<RecyclerVie
                     targetPos = adapterTargetPos - 1;
                 }
                 Collections.swap(entries, fromPos, targetPos);
+                activeTable.fixDiceValues();
                 notifyItemMoved(adapterFromPos, adapterTargetPos);
             }
             return true;

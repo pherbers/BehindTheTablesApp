@@ -151,6 +151,7 @@ public class RandomTable implements TableCollectionEntry {
 
     public void fixDiceValues() {
         int i = 0;
+        int j = 0;
         for(TableEntry e: entries) {
             if(e.getDiceValueTo() > -1) {
                 nonUniformDiceEntries = true;
@@ -164,6 +165,8 @@ public class RandomTable implements TableCollectionEntry {
                 i++;
                 e.setDiceValue(i);
             }
+            e.setEntryPosition(j);
+            j++;
         }
         maxDiceValue = i;
         dice = "1d" + maxDiceValue;
