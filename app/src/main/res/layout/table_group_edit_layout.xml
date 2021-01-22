@@ -15,7 +15,7 @@
         android:layout_marginStart="@dimen/table_entry_margin"
         android:layout_weight="1"
         android:fontFamily="sans-serif"
-        android:text="The tower's shape is approximately that of..."
+        android:text=""
         android:textAppearance="@android:style/TextAppearance.Medium" />
 
     <View
@@ -35,6 +35,6 @@
         android:focusableInTouchMode="false"
         android:padding="5dp"
         android:tint="@android:color/darker_gray"
-        app:srcCompat="@drawable/baseline_edit_black_24" />
+        app:srcCompat="@drawable/baseline_settings_24" />
 
 </LinearLayout>

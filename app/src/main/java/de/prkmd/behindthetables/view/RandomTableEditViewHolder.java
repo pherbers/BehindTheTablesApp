@@ -1,22 +1,16 @@
 package de.prkmd.behindthetables.view;
 
 import android.app.Activity;
-import android.app.AlertDialog;
-import android.content.Context;
-import android.view.LayoutInflater;
 import android.view.View;
-import android.view.ViewGroup;
 import android.widget.ImageButton;
-import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import androidx.fragment.app.FragmentActivity;
 import androidx.recyclerview.widget.RecyclerView;
 import de.prkmd.behindthetables.R;
 import de.prkmd.behindthetables.adapter.RandomTableEditListAdapter;
-import de.prkmd.behindthetables.adapter.RandomTableListAdapter;
 import de.prkmd.behindthetables.data.RandomTable;
-import de.prkmd.behindthetables.view.dialog.EditTableTitleDialogFragment;
+import de.prkmd.behindthetables.view.dialog.TextInputDialogFragment;
 
 public class RandomTableEditViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener, View.OnLongClickListener {
 
@@ -25,8 +19,6 @@ public class RandomTableEditViewHolder extends RecyclerView.ViewHolder implement
     private ImageButton button;
 
     private RandomTableEditListAdapter adapter;
-
-    private int pos;
 
     public RandomTableEditViewHolder(View itemView) {
         super(itemView);
@@ -46,7 +38,17 @@ public class RandomTableEditViewHolder extends RecyclerView.ViewHolder implement
             @Override
             public void onClick(View v) {
                 if(itemView.getContext() instanceof Activity) {
-                    new EditTableTitleDialogFragment(table, adapter, pos).show(context.getSupportFragmentManager(), "editTableDialog");
+                    new TextInputDialogFragment(
+                            context.getString(R.string.edit_table_title),
+                            context.getString(R.string.table_title),
+                            table.getName(),
+                            new TextInputDialogFragment.TextEditListener() {
+                        @Override
+                        public void onClick(String text, boolean hasChanged) {
+                            table.setName(text.trim());
+                            adapter.notifyItemChanged(pos);
+                        }
+                    }).show(context.getSupportFragmentManager(), "tableEditTitleDialog");
                 }
             }
         });

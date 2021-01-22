@@ -8,25 +8,24 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.WindowManager;
 import android.widget.EditText;
+import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.DialogFragment;
 import de.prkmd.behindthetables.R;
-import de.prkmd.behindthetables.adapter.RandomTableEditListAdapter;
-import de.prkmd.behindthetables.data.RandomTable;
 
-public class EditTableTitleDialogFragment extends DialogFragment {
-    private final RandomTable table;
-    private final RandomTableEditListAdapter adapter;
-    private final int pos;
+public class TextInputDialogFragment extends DialogFragment {
 
-    public EditTableTitleDialogFragment(RandomTable table, RandomTableEditListAdapter adapter, int pos) {
-        this.table = table;
-        this.adapter = adapter;
-        this.pos = pos;
+    private final String hint, text, title;
+    private final TextEditListener listener;
+
+    public TextInputDialogFragment(String title, String hint, String text, TextEditListener listener) {
+        this.hint = hint;
+        this.text = text;
+        this.title = title;
+        this.listener = listener;
     }
-
 
     @NonNull
     @Override
@@ -37,8 +36,13 @@ public class EditTableTitleDialogFragment extends DialogFragment {
 
         // Inflate and set the layout for the dialog
         // Pass null as the parent view because its going in the dialog layout
-        View v = inflater.inflate(R.layout.dialog_edit_table_title, null);
-        final EditText editText = v.findViewById(R.id.edit_text_table_title);
+        View v = inflater.inflate(R.layout.dialog_edit_string, null);
+        final TextView titleView = v.findViewById(R.id.edit_dialog_title);
+        titleView.setText(title);
+
+        final EditText editText = v.findViewById(R.id.edit_dialog_string);
+        editText.setHint(hint);
+        editText.setText(text);
         editText.requestFocus();
 
         builder.setView(v)
@@ -46,13 +50,13 @@ public class EditTableTitleDialogFragment extends DialogFragment {
                 .setPositiveButton(R.string.ok, new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
-                        table.setName(editText.getText().toString());
-                        adapter.notifyItemChanged(pos);
+                        String t = editText.getText().toString();
+                        listener.onClick(t, !t.equals(text));
                     }
                 })
                 .setNegativeButton(R.string.cancel, new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int id) {
-                        EditTableTitleDialogFragment.this.getDialog().cancel();
+                        TextInputDialogFragment.this.getDialog().cancel();
                     }
                 });
         Dialog d = builder.create();
@@ -60,5 +64,7 @@ public class EditTableTitleDialogFragment extends DialogFragment {
         return d;
     }
 
-
+    public interface TextEditListener {
+        public void onClick(String text, boolean hasChanged);
+    }
 }

@@ -49,6 +49,8 @@ public class RandomTableEditActivity extends AppCompatActivity {
     private RandomTableEditListAdapter listAdapter;
     private TableFile tableFile;
 
+    private boolean deleteTable = false;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -186,6 +188,9 @@ public class RandomTableEditActivity extends AppCompatActivity {
             case android.R.id.home:
                 onBackPressed();
                 return true;
+            case R.id.random_table_edit_delete:
+                requestDelete();
+                return true;
             default:
                 return super.onOptionsItemSelected(item);
         }
@@ -197,6 +202,8 @@ public class RandomTableEditActivity extends AppCompatActivity {
     }
 
     public void save() {
+        if(deleteTable)
+            return;
         DBAdapter adapter = new DBAdapter(this).open();
 
         StringBuilder sb = new StringBuilder();
@@ -241,5 +248,49 @@ public class RandomTableEditActivity extends AppCompatActivity {
                 );
         adapter.close();
 
+    }
+
+    public void requestDelete() {
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setMessage(getString(R.string.delete_table_dialog_message, table.getTitle()));
+        builder.setTitle(R.string.delete_table_dialog_title);
+        builder.setNegativeButton(getString(R.string.delete_table_dialog_no), null);
+        builder.setPositiveButton(getString(R.string.delete_table_dialog_yes), new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                delete();
+            }
+        });
+        builder.create().show();
+
+    }
+
+    public void delete() {
+        deleteTable = true;
+
+        FileManager fileManager = new FileManager(this);
+        File extDir = fileManager.getExternalTableDir();
+        File filepath = new File(extDir, table.getId() + ".json");
+
+        if(filepath.exists())
+            if(filepath.delete())
+                Timber.i("Deleted file %s", filepath);
+            else
+                Timber.e("Could not delete %s", filepath);
+        else
+            Timber.i("No file to delete at %s", filepath);
+
+        DBAdapter adapter = new DBAdapter(this).open();
+
+        if(adapter.deleteTableCollection(filepath.toString()))
+            Timber.i("Deleted %s from table database", filepath.toString());
+        else
+            Timber.i("Tried to delete %s from table database, but failed (possibly because it never was in the database)", filepath.toString());
+        adapter.close();
+
+        // TODO proper navigation
+        Intent intent = new Intent(this, CategorySelectActivity.class);
+        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_NEW_TASK);
+        startActivity(intent);
     }
 }

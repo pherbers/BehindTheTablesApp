@@ -18,11 +18,9 @@ import de.prkmd.behindthetables.data.TableCollectionEntry;
 import de.prkmd.behindthetables.data.TableEntry;
 import de.prkmd.behindthetables.view.RandomTableEditAddButtonViewHolder;
 import de.prkmd.behindthetables.view.RandomTableEditEntryViewHolder;
+import de.prkmd.behindthetables.view.RandomTableEditHeaderViewHolder;
 import de.prkmd.behindthetables.view.RandomTableEditViewHolder;
-import de.prkmd.behindthetables.view.RandomTableEntryViewHolder;
-import de.prkmd.behindthetables.view.RandomTableHeaderViewHolder;
 import de.prkmd.behindthetables.view.RandomTableSubcategoryViewHolder;
-import de.prkmd.behindthetables.view.RandomTableViewHolder;
 import timber.log.Timber;
 
 public class RandomTableEditListAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
@@ -71,7 +69,7 @@ public class RandomTableEditListAdapter extends RecyclerView.Adapter<RecyclerVie
     public void onBindViewHolder(@NonNull RecyclerView.ViewHolder holder, int position) {
         if(state == STATE.EDIT_COLLECTION) {
             if(position == 0) {
-                ((RandomTableHeaderViewHolder)holder).bindData(tableCollection);
+                ((RandomTableEditHeaderViewHolder)holder).bindData(tableCollection, this, context);
             } else if(position == tableCollection.getTables().size() + 1) {
                 // Do nothing
             } else {
@@ -147,7 +145,7 @@ public class RandomTableEditListAdapter extends RecyclerView.Adapter<RecyclerVie
 
 
     private RecyclerView.ViewHolder createRandomTableHeaderViewHolder(Context context, ViewGroup parent) {
-        return new RandomTableHeaderViewHolder(LayoutInflater.from(context).inflate(R.layout.table_info_layout, parent, false));
+        return new RandomTableEditHeaderViewHolder(LayoutInflater.from(context).inflate(R.layout.table_info_edit_layout, parent, false));
     }
 
     private RecyclerView.ViewHolder createRandomTableSubcategoryViewHolder(Context context, ViewGroup parent) {

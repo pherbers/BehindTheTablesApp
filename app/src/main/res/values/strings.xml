@@ -132,5 +132,18 @@
     <string name="edit_table_title">Edit table title</string>
     <string name="table_title">Table title</string>
     <string name="ok">OK</string>
+    <string name="description">Description</string>
+    <string name="edit_description">Edit Description</string>
+    <string name="edit_category">Edit category</string>
+    <string name="category">Category</string>
+    <string name="edit_keywords">Edit keywords (separated with commas)</string>
+    <string name="keywords_example">keyword1, keyword2, ...</string>
+    <string name="no_description">No description</string>
+    <string name="no_category">No category</string>
+    <string name="no_keywords">No keywords</string>
+    <string name="delete_table_dialog_message">Are you sure you want to permanently delete the table %1$s?</string>
+    <string name="delete_table_dialog_title">Delete Table</string>
+    <string name="delete_table_dialog_no">No, go back!</string>
+    <string name="delete_table_dialog_yes">Yes, delete it</string>
 
 </resources>
