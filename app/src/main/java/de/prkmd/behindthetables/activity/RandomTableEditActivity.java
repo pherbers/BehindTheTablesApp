@@ -21,6 +21,7 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
+import androidx.recyclerview.widget.ItemTouchHelper;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 import de.prkmd.behindthetables.R;
@@ -125,10 +126,13 @@ public class RandomTableEditActivity extends AppCompatActivity {
         LinearLayoutManager layoutManager = new LinearLayoutManager(this);
         listView.setLayoutManager(layoutManager);
 
+
         listAdapter = new RandomTableEditListAdapter(this, table);
+        listAdapter.attachTouch(listView);
         listView.setAdapter(listAdapter);
         DividerItemDecoration mDividerItemDecoration = new DividerItemDecoration(this, layoutManager.getOrientation());
         listView.addItemDecoration(mDividerItemDecoration);
+
 
         RecyclerView.ItemAnimator animator = new MyItemAnimator();
         animator.setAddDuration(50);

@@ -11,6 +11,7 @@ import de.prkmd.behindthetables.R;
 import de.prkmd.behindthetables.adapter.RandomTableEditListAdapter;
 import de.prkmd.behindthetables.data.RandomTable;
 import de.prkmd.behindthetables.view.dialog.TextInputDialogFragment;
+import timber.log.Timber;
 
 public class RandomTableEditViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener, View.OnLongClickListener {
 
@@ -64,6 +65,8 @@ public class RandomTableEditViewHolder extends RecyclerView.ViewHolder implement
 
     @Override
     public boolean onLongClick(View v) {
-        return false;
+        Timber.i("Long Click on item %s", table);
+        adapter.getItemTouchHelper().startDrag(this);
+        return true;
     }
 }

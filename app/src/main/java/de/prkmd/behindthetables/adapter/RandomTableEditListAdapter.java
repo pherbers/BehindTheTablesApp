@@ -6,9 +6,12 @@ import android.view.LayoutInflater;
 import android.view.ViewGroup;
 
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.FragmentActivity;
+import androidx.recyclerview.widget.ItemTouchHelper;
 import androidx.recyclerview.widget.RecyclerView;
 import de.prkmd.behindthetables.R;
 import de.prkmd.behindthetables.data.RandomTable;
@@ -28,6 +31,7 @@ public class RandomTableEditListAdapter extends RecyclerView.Adapter<RecyclerVie
     protected TableCollection tableCollection;
     protected FragmentActivity context;
     protected RandomTable activeTable;
+    private ItemTouchHelper itemTouchHelper;
 
     public enum STATE {
         EDIT_COLLECTION, EDIT_TABLE
@@ -226,5 +230,83 @@ public class RandomTableEditListAdapter extends RecyclerView.Adapter<RecyclerVie
             return activeTable;
         else
             return null;
+    }
+
+    public class ItemMoveCallback extends ItemTouchHelper.Callback {
+
+        @Override
+        public int getMovementFlags(@NonNull RecyclerView recyclerView, @NonNull RecyclerView.ViewHolder viewHolder) {
+            int type = viewHolder.getItemViewType();
+            if( (type == VIEW_TABLE_TITLE && state == STATE.EDIT_COLLECTION) ||
+                (type == VIEW_TABLE_ENTRY && state == STATE.EDIT_TABLE)) {
+                return makeMovementFlags(ItemTouchHelper.UP | ItemTouchHelper.DOWN, 0);
+            } else {
+                return 0;
+            }
+        }
+
+        @Override
+        public boolean onMove(@NonNull RecyclerView recyclerView, @NonNull RecyclerView.ViewHolder viewHolder, @NonNull RecyclerView.ViewHolder target) {
+            int adapterFromPos = viewHolder.getAdapterPosition();
+
+            if(state == STATE.EDIT_COLLECTION) {
+                List<TableCollectionEntry> tables = tableCollection.getTables();
+                int fromPos = adapterFromPos - 1;
+                int targetPos, adapterTargetPos;
+                if(target.getItemViewType() == VIEW_HEADER) {
+                    targetPos = 0;
+                    adapterTargetPos = 1;
+                } else if(target.getItemViewType() == VIEW_ADD_BTN) {
+                    targetPos = tables.size() - 1;
+                    adapterTargetPos = getItemCount() - 1;
+                } else {
+                    adapterTargetPos = target.getAdapterPosition();
+                    targetPos = adapterTargetPos - 1;
+                }
+                Collections.swap(tables, fromPos, targetPos);
+                notifyItemMoved(adapterFromPos, adapterTargetPos);
+            } else {
+                List<TableEntry> entries = activeTable.getEntries();
+                int fromPos = adapterFromPos - 1;
+                int targetPos, adapterTargetPos;
+                if(target.getItemViewType() == VIEW_TABLE_TITLE) {
+                    targetPos = 0;
+                    adapterTargetPos = 1;
+                } else if(target.getItemViewType() == VIEW_ADD_BTN) {
+                    targetPos = entries.size() - 1;
+                    adapterTargetPos = getItemCount() - 1;
+                } else {
+                    adapterTargetPos = target.getAdapterPosition();
+                    targetPos = adapterTargetPos - 1;
+                }
+                Collections.swap(entries, fromPos, targetPos);
+                notifyItemMoved(adapterFromPos, adapterTargetPos);
+            }
+            return true;
+        }
+
+        @Override
+        public boolean isLongPressDragEnabled() {
+            return true;
+        }
+
+        @Override
+        public boolean isItemViewSwipeEnabled() {
+            return false;
+        }
+
+        @Override
+        public void onSwiped(@NonNull RecyclerView.ViewHolder viewHolder, int direction) {
+
+        }
+    }
+
+    public ItemTouchHelper getItemTouchHelper() {
+        return itemTouchHelper;
+    }
+
+    public void attachTouch(RecyclerView view) {
+        itemTouchHelper = new ItemTouchHelper(new ItemMoveCallback());
+        itemTouchHelper.attachToRecyclerView(view);
     }
 }
