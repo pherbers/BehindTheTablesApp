@@ -10,6 +10,7 @@ import java.util.Collections;
 import java.util.List;
 
 import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import androidx.fragment.app.FragmentActivity;
 import androidx.recyclerview.widget.ItemTouchHelper;
 import androidx.recyclerview.widget.RecyclerView;
@@ -282,6 +283,12 @@ public class RandomTableEditListAdapter extends RecyclerView.Adapter<RecyclerVie
                 Collections.swap(entries, fromPos, targetPos);
                 activeTable.fixDiceValues();
                 notifyItemMoved(adapterFromPos, adapterTargetPos);
+                if(viewHolder instanceof RandomTableEditEntryViewHolder) {
+                    ((RandomTableEditEntryViewHolder) viewHolder).updateNumberAndColor();
+                }
+                if(target instanceof RandomTableEditEntryViewHolder) {
+                    ((RandomTableEditEntryViewHolder) target).updateNumberAndColor();
+                }
             }
             return true;
         }

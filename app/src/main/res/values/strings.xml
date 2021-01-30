@@ -133,11 +133,14 @@
     <string name="table_title">Table title</string>
     <string name="ok">OK</string>
     <string name="description">Description</string>
+    <string name="description_text">Description: %1$s</string>
     <string name="edit_description">Edit Description</string>
     <string name="edit_category">Edit category</string>
     <string name="category">Category</string>
+    <string name="category_text">Category: %1$s</string>
     <string name="edit_keywords">Edit keywords (separated with commas)</string>
     <string name="keywords_example">keyword1, keyword2, ...</string>
+    <string name="keywords_text">Keywords: %1$s</string>
     <string name="no_description">No description</string>
     <string name="no_category">No category</string>
     <string name="no_keywords">No keywords</string>

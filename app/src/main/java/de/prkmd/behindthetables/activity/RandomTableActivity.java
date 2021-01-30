@@ -136,6 +136,12 @@ public class RandomTableActivity extends AppCompatActivity {
         super.onStop();
     }
 
+    @Override
+    protected void onResume() {
+        super.onResume();
+        listAdapter.updateAll();
+    }
+
     public void diceRollAction(View mView) {
         ImageButton btn = (ImageButton) findViewById(R.id.floatingActionButton);
         Animation anim = AnimationUtils.loadAnimation(this, R.anim.dice_button_rotator);

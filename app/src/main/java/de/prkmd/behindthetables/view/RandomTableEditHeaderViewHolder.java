@@ -33,9 +33,9 @@ public class RandomTableEditHeaderViewHolder extends RecyclerView.ViewHolder {
 
         TextView categoryText = itemView.findViewById(R.id.category_text);
         if(tableCollection.getCategory().isEmpty())
-            categoryText.setText(R.string.no_category);
+            categoryText.setText(context.getString(R.string.category_text, context.getString(R.string.no_category)));
         else
-            categoryText.setText(tableCollection.getCategory());
+            categoryText.setText(context.getString(R.string.category_text, tableCollection.getCategory()));
 
         ImageButton categoryEditButton = itemView.findViewById(R.id.category_edit_button);
         categoryEditButton.setOnClickListener(new View.OnClickListener() {
@@ -58,9 +58,9 @@ public class RandomTableEditHeaderViewHolder extends RecyclerView.ViewHolder {
 
         TextView descriptionText = itemView.findViewById(R.id.description_text);
         if(tableCollection.getDescription().isEmpty())
-            descriptionText.setText(R.string.no_description);
+            descriptionText.setText(context.getString(R.string.description_text, context.getString(R.string.no_description)));
         else
-            descriptionText.setText(tableCollection.getDescription());
+            descriptionText.setText(context.getString(R.string.description_text, tableCollection.getDescription()));
 
         ImageButton descriptionEditButton = itemView.findViewById(R.id.description_edit_button);
         descriptionEditButton.setOnClickListener(new View.OnClickListener() {
@@ -84,9 +84,9 @@ public class RandomTableEditHeaderViewHolder extends RecyclerView.ViewHolder {
         ImageButton keywordsEditButton = itemView.findViewById(R.id.keywords_edit_button);
         TextView keywordsText = itemView.findViewById(R.id.keywords_text);
         if(tableCollection.getKeywords().size() == 0)
-            keywordsText.setText(R.string.no_keywords);
+            keywordsText.setText(context.getString(R.string.keywords_text, context.getString(R.string.no_keywords)));
         else
-            keywordsText.setText(concatStringList(tableCollection.getKeywords()));
+            keywordsText.setText(context.getString(R.string.keywords_text, concatStringList(tableCollection.getKeywords())));
 
         keywordsEditButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -115,10 +115,10 @@ public class RandomTableEditHeaderViewHolder extends RecyclerView.ViewHolder {
     }
 
     private static String concatStringList(List<String> strings) {
-        return concatStringList(strings, ',');
+        return concatStringList(strings, ", ");
     }
 
-    private static String concatStringList(List<String> strings, char delimeter) {
+    private static String concatStringList(List<String> strings, String delimeter) {
         String out;
         if(!strings.isEmpty()) {
             StringBuilder sb = new StringBuilder();

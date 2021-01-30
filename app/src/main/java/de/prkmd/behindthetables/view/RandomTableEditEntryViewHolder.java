@@ -38,18 +38,7 @@ public class RandomTableEditEntryViewHolder extends RecyclerView.ViewHolder {
         this.table = table;
         this.tableEntry = tableEntry;
 
-        TextView diceentry = (TextView) itemView.findViewById(R.id.table_entry_dice_value);
-
-        final int childPosition = tableEntry.getEntryPosition();
-        setDiceEntry(diceentry, tableEntry);
-
-        if (childPosition % 2 == 0) {
-            itemView.setBackgroundColor(itemView.getContext().getResources().getColor(R.color.colorTableEven));
-        } else {
-            itemView.setBackgroundColor(itemView.getContext().getResources().getColor(R.color.colorTableOdd));
-        }
-
-        textWatcher.isLast = childPosition == table.getEntries().size() - 1;
+        updateNumberAndColor();
 
         editText.setText(tableEntry.getText());
         if(table.getEntries().get(table.getEntries().size() - 1) == tableEntry) {
@@ -95,6 +84,22 @@ public class RandomTableEditEntryViewHolder extends RecyclerView.ViewHolder {
         InputMethodManager imm = (InputMethodManager) itemView.getContext().getSystemService(Context.INPUT_METHOD_SERVICE);
         imm.showSoftInput(editText, InputMethodManager.SHOW_IMPLICIT);
         editText.setSelection(0);
+    }
+
+    public void updateNumberAndColor() {
+
+        TextView diceentry = (TextView) itemView.findViewById(R.id.table_entry_dice_value);
+
+        final int childPosition = tableEntry.getEntryPosition();
+        setDiceEntry(diceentry, tableEntry);
+
+        if (childPosition % 2 == 0) {
+            itemView.setBackgroundColor(itemView.getContext().getResources().getColor(R.color.colorTableEven));
+        } else {
+            itemView.setBackgroundColor(itemView.getContext().getResources().getColor(R.color.colorTableOdd));
+        }
+
+        textWatcher.isLast = childPosition == table.getEntries().size() - 1;
     }
 
     private class ItemTextWatcher implements TextWatcher {

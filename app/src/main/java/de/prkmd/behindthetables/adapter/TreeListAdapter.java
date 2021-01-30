@@ -102,4 +102,9 @@ public abstract class TreeListAdapter extends RecyclerView.Adapter<RecyclerView.
         void bindData(RecyclerView.ViewHolder viewHolder);
         int getID();
     }
+
+    public void updateAll() {
+        rebuildArray();
+        notifyDataSetChanged();
+    }
 }
