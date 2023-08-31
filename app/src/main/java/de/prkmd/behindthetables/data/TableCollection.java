@@ -25,7 +25,7 @@ public class TableCollection {
         this.reference = "";
         this.description = "An empty table";
         this.id = TableCollectionContainer.getTableCollectionContainer().getNewID();
-        this.category = "Custom";
+        this.category = "Your Tables";
         tables = new ArrayList<>();
         relatedTables = new ArrayList<>();
         useWithTables = new ArrayList<>();
