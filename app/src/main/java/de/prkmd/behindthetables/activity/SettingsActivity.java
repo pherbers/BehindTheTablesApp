@@ -23,6 +23,7 @@ import androidx.appcompat.app.AlertDialog;
 import java.util.Date;
 import java.util.List;
 
+import androidx.appcompat.app.AppCompatDelegate;
 import de.prkmd.behindthetables.BehindTheTables;
 import de.prkmd.behindthetables.R;
 import de.prkmd.behindthetables.util.VersionManager;
@@ -94,6 +95,22 @@ public class SettingsActivity extends AppCompatPreferenceActivity {
         listener.onPreferenceChange(preference, PreferenceManager.getDefaultSharedPreferences(preference.getContext()).getString(preference.getKey(), preference.getContext().getString(R.string.error_unknown)));
     }
 
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        switch(PreferenceManager.getDefaultSharedPreferences(this).getString("prefs_dark_mode", "Auto")) {
+            case "On":
+                AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES);
+                break;
+            case "Off":
+                AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO);
+                break;
+            default:
+                AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_FOLLOW_SYSTEM);
+                break;
+        }
+    }
+
     /**
      * {@inheritDoc}
      */
@@ -124,6 +141,27 @@ public class SettingsActivity extends AppCompatPreferenceActivity {
             super.onCreate(savedInstanceState);
             addPreferencesFromResource(R.xml.prefs_general);
             setHasOptionsMenu(true);
+
+            final ListPreference darkModePref = (ListPreference)findPreference("prefs_dark_mode");
+            darkModePref.setSummary(darkModePref.getValue());
+            darkModePref.setOnPreferenceChangeListener((Preference preference, Object newValue) -> {
+                if(darkModePref.getValue().equals(newValue))
+                    return false;
+                darkModePref.setSummary(newValue.toString());
+                switch(newValue.toString()) {
+                    case "On":
+                        AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES);
+                        break;
+                    case "Off":
+                        AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO);
+                        break;
+                    default:
+                        AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_FOLLOW_SYSTEM);
+                        break;
+                }
+                getActivity().recreate();
+                return true;
+            });
 
             final Preference resetDB = findPreference("prefs_reset_database");
             resetDB.setOnPreferenceClickListener(new Preference.OnPreferenceClickListener() {

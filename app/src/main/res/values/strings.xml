@@ -139,7 +139,7 @@
     <string name="category">Category</string>
     <string name="category_text">Category: %1$s</string>
     <string name="edit_keywords">Edit keywords (separated with commas)</string>
-    <string name="keywords_example">keyword1, keyword2, ...</string>
+    <string name="keywords_example">keyword1, keyword2, …</string>
     <string name="keywords_text">Keywords: %1$s</string>
     <string name="no_description">No description</string>
     <string name="no_category">No category</string>
@@ -148,5 +148,16 @@
     <string name="delete_table_dialog_title">Delete Table</string>
     <string name="delete_table_dialog_no">No, go back!</string>
     <string name="delete_table_dialog_yes">Yes, delete it</string>
+    <string name="prefs_dark_mode_title">Dark Mode</string>
+    <string-array name="pref_dark_mode_titles">
+        <item>Auto</item>
+        <item>On</item>
+        <item>Off</item>
+    </string-array>
+    <string-array name="pref_dark_mode_values">
+        <item>Auto</item>
+        <item>On</item>
+        <item>Off</item>
+    </string-array>
 
 </resources>

@@ -8,7 +8,7 @@
 
     <color name="colorTableOdd">#484848</color>
     <color name="colorTableEven">#323232</color>
-    <color name="colorTableHighlight">#000000</color>
+    <color name="colorTableHighlight">#4B6470</color>
     <color name="colorLabelCategory">#242424</color>
 
     <color name="colorLink">@color/colorSignaturePrimary</color>
