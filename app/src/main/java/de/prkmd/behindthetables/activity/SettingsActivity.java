@@ -6,6 +6,7 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.content.res.Configuration;
 import android.net.Uri;
@@ -98,7 +99,7 @@ public class SettingsActivity extends AppCompatPreferenceActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        switch(PreferenceManager.getDefaultSharedPreferences(this).getString("prefs_dark_mode", "Auto")) {
+        switch(PreferenceManager.getDefaultSharedPreferences(this).getString("prefs_dark_mode", "Off")) {
             case "On":
                 AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES);
                 break;
@@ -211,17 +212,19 @@ public class SettingsActivity extends AppCompatPreferenceActivity {
             addPreferencesFromResource(R.xml.prefs_credits);
             setHasOptionsMenu(true);
 
-            VersionManager manager = new VersionManager(getActivity());
             int versionCode = 0;
             String versionName = getString(R.string.error_unknown);
             String appName = getString(R.string.app_name);
 
+            PackageManager manager = getActivity().getPackageManager();
             try {
-                versionName = manager.getVersionName();
-                versionCode = manager.getVersionCode();
+                PackageInfo info = manager.getPackageInfo(getActivity().getPackageName(), 0);
+                versionName = info.versionName;
+                versionCode = info.versionCode;
             } catch (PackageManager.NameNotFoundException e) {
                 e.printStackTrace();
             }
+
             final int finalVersionCode = versionCode;
 
             Preference viewOnPlayStore = findPreference("prefs_view_in_playstore");

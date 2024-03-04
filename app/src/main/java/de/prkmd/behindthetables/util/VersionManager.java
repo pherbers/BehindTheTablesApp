@@ -5,7 +5,6 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
-import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.net.Uri;
 import android.os.Build;
@@ -15,6 +14,8 @@ import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import androidx.appcompat.app.AlertDialog;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -28,66 +29,35 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Iterator;
 
-import androidx.appcompat.app.AlertDialog;
-import de.prkmd.behindthetables.BehindTheTables;
 import de.prkmd.behindthetables.R;
-import de.prkmd.behindthetables.activity.CategorySelectActivity;
 import timber.log.Timber;
 
 /**
- * Created by Nils on 24.03.2017.
+ * Created by Nils on 13.05.2017.
  */
 
-public class VersionManager {
+public abstract class VersionManager {
+
+    public static final String PREFERENCE_APP_LAUNCHED_ALL_TIME = "prefs_app_launched_all_time";
+    public static final String PREFERENCE_APP_LAUNCHED_THIS_VERSION = "prefs_app_launched_this_version";
 
     public static final String VERSION_RELEASE_DATE_PATTERN = "dd.MM.yyyy";
     public static final int CURRENT_VERSION_UNKNOWN = -1;
 
-    private static JSONObject cachedChangeLog;
-    private Context context;
+    private static JSONObject changeLog;
 
-    public VersionManager(Context context) {
-        this.context = context;
-    }
-
-    public void onVersionChange(int oldVersion, int newVersion) {
+    public static void onVersionChange(Context context, int oldVersion, int newVersion) {
         Timber.i("App version changed! " + oldVersion + " -> " + newVersion);
 
+        // Checking for every 'new' version specifically, in case big changes must be made that are not downward compatible.
         switch (newVersion) {
             default:
-                Timber.w("Unknown version change! Let's reset the DB, just in case!");
-                placeDBTaskRequest();
+                Timber.w("This version has no special changes!");
                 break;
         }
 
-        displayVersionUpdateNews(context, newVersion);
-    }
-
-    public void onFirstTimeStartup() {
-        Timber.i("Welcome to BTT! Performing first time code!");
-        placeDBTaskRequest(R.string.info_first_time_setup);
-    }
-
-    public void placeDBTaskRequest() {
-        placeDBTaskRequest(R.string.info_db_setup_generic);
-    }
-
-    public void placeDBTaskRequest(int textID) {
-        SharedPreferences.Editor editor = PreferenceManager.getDefaultSharedPreferences(context).edit();
-        editor.putInt(CategorySelectActivity.PREFERENCES_REQUEST_DB_UPDATE_TEXT, textID);
-        editor.apply();
-    }
-
-    public String getVersionName() throws PackageManager.NameNotFoundException {
-        PackageManager manager = context.getPackageManager();
-        PackageInfo info = manager.getPackageInfo(context.getPackageName(), 0);
-        return info.versionName;
-    }
-
-    public int getVersionCode() throws PackageManager.NameNotFoundException {
-        PackageManager manager = context.getPackageManager();
-        PackageInfo info = manager.getPackageInfo(context.getPackageName(), 0);
-        return info.versionCode;
+        // Showing the version update changes as a dialog window
+        VersionManager.displayVersionUpdateNews(context, newVersion);
     }
 
     public static void displayVersionUpdateNews(final Context context, final int version) {
@@ -129,14 +99,9 @@ public class VersionManager {
                     //dateText=context.getString(R.string.error_unknown);
                 }
 
-                try {
-                    Date d = jasonDatePattern.parse(dateText);
-                    builder.append(" (");
-                    builder.append(utils.formatDateAbsolute(d));
-                    builder.append(")");
-                } catch (ParseException e) {
-                    e.printStackTrace();
-                }
+                builder.append(" (");
+                builder.append(dateText);
+                builder.append(")");
 
                 builder.append("\n");
                 builder.append(currentVersion.getString("text"));
@@ -156,73 +121,23 @@ public class VersionManager {
         dialog.show();
     }
 
-
-    private static AlertDialog buildChangelogDialog(final Context context, final String title, final String text, boolean showAllButton, final String allText) {
-        LayoutInflater inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-        View v = inflater.inflate(R.layout.dialog_changelog, null, false);
-
-        TextView nameTF = (TextView) v.findViewById(R.id.dialog_changelog_fragment_name);
-        TextView changelogTF = (TextView) v.findViewById(R.id.dialog_changelog_fragment_changelog);
-        nameTF.setText(title);
-        changelogTF.setText(text);
-
-        AlertDialog.Builder dialogBuilder = new AlertDialog.Builder(context);
-        dialogBuilder.setIcon(R.mipmap.ic_launcher);
-        dialogBuilder.setTitle(R.string.info_update_news);
-        dialogBuilder.setView(v);
-
-        if (showAllButton) {
-            dialogBuilder.setNegativeButton(R.string.action_full_changelog,
-                    new DialogInterface.OnClickListener() {
-                        public void onClick(DialogInterface dialog, int whichButton) {
-                            dialog.dismiss();
-                            buildChangelogDialog(context, context.getString(R.string.action_full_changelog), allText, false, allText).show();
-                        }
-                    }
-            );
+    public static JSONObject getChanceLog(Context context) throws IOException, JSONException {
+        if (changeLog != null) {
+            return changeLog;
         }
-        dialogBuilder.setPositiveButton(R.string.action_dismiss,
-                new DialogInterface.OnClickListener() {
-                    public void onClick(DialogInterface dialog, int whichButton) {
-                        dialog.dismiss();
-                    }
-                }
-        );
-        dialogBuilder.setNeutralButton(R.string.action_feedback, new DialogInterface.OnClickListener() {
-            @Override
-            public void onClick(DialogInterface dialog, int which) {
-                dialog.dismiss();
-                Intent goToMarket = BehindTheTables.buildAppMarketIntent(context);
-                try {
-                    context.startActivity(goToMarket);
-                } catch (ActivityNotFoundException e) {
-                    Timber.e(e);
-                    String packageName = context.getPackageName();
-                    context.startActivity(new Intent(Intent.ACTION_VIEW,
-                            Uri.parse("http://play.google.com/store/apps/details?id=" + packageName)));
-                }
-            }
-        });
-        return dialogBuilder.create();
+
+        InputStream inputStream = context.getResources().openRawResource(R.raw.version_changelog);
+        BufferedReader reader = new BufferedReader(new InputStreamReader(inputStream));
+
+        String str = "";
+        StringBuilder builder = new StringBuilder();
+        while ((str = reader.readLine()) != null) {
+            builder.append(str);
+        }
+
+        changeLog = new JSONObject(builder.toString());
+        return getChanceLog(context);
     }
-
-	public static JSONObject getChanceLog(Context context) throws IOException, JSONException {
-		if (cachedChangeLog != null) {
-			return cachedChangeLog;
-		}
-
-		InputStream inputStream = context.getResources().openRawResource(R.raw.version_changelog);
-		BufferedReader reader = new BufferedReader(new InputStreamReader(inputStream));
-
-		String str = "";
-		StringBuilder builder = new StringBuilder();
-		while ((str = reader.readLine()) != null) {
-			builder.append(str);
-		}
-
-		cachedChangeLog = new JSONObject(builder.toString());
-		return getChanceLog(context);
-	}
 
     public static int getCurrentVersion(Context context) {
         try {
@@ -249,5 +164,59 @@ public class VersionManager {
         return d;
     }
 
+    private static AlertDialog buildChangelogDialog(final Context context, final String title, final String text, boolean showAllButton, final String allText) {
+        LayoutInflater inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+        View v = inflater.inflate(R.layout.dialog_changelog, null, false);
 
+        TextView nameTF = (TextView) v.findViewById(R.id.dialog_changelog_fragment_name);
+        TextView changelogTF = (TextView) v.findViewById(R.id.dialog_changelog_fragment_changelog);
+        nameTF.setText(title);
+        changelogTF.setText(text);
+
+        AlertDialog.Builder dialogBuilder = new AlertDialog.Builder(context);
+        dialogBuilder.setIcon(R.mipmap.ic_launcher);
+        dialogBuilder.setTitle(R.string.info_update_news);
+        dialogBuilder.setView(v);
+        if (showAllButton) {
+            dialogBuilder.setNegativeButton(R.string.action_full_changelog,
+                    new DialogInterface.OnClickListener() {
+                        public void onClick(DialogInterface dialog, int whichButton) {
+                            dialog.dismiss();
+                            buildChangelogDialog(context, context.getString(R.string.action_full_changelog), allText, false, allText).show();
+                        }
+                    }
+            );
+        }
+        dialogBuilder.setPositiveButton(R.string.action_dismiss,
+                new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int whichButton) {
+                        dialog.dismiss();
+                    }
+                }
+        );
+        dialogBuilder.setNeutralButton(R.string.action_feedback, new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                dialog.dismiss();
+                String packageName = context.getPackageName();
+                Uri uri = Uri.parse("market://details?id=" + packageName);
+                Intent goToMarket = new Intent(Intent.ACTION_VIEW, uri);
+                // To count with Play market backstack, After pressing back button,
+                // to taken back to our application, we need to add following flags to intent.
+                goToMarket.addFlags(Intent.FLAG_ACTIVITY_NO_HISTORY |
+                        Intent.FLAG_ACTIVITY_MULTIPLE_TASK);
+                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+                    goToMarket.addFlags(Intent.FLAG_ACTIVITY_NEW_DOCUMENT);
+                }
+                try {
+                    context.startActivity(goToMarket);
+                } catch (ActivityNotFoundException e) {
+                    Timber.e(e);
+                    context.startActivity(new Intent(Intent.ACTION_VIEW,
+                            Uri.parse("http://play.google.com/store/apps/details?id=" + packageName)));
+                }
+            }
+        });
+        return dialogBuilder.create();
+    }
 }

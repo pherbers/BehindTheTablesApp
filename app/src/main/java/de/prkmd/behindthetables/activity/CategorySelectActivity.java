@@ -40,11 +40,13 @@ import de.prkmd.behindthetables.concurrent.task.BuildDBTask;
 import de.prkmd.behindthetables.data.TableFile;
 import de.prkmd.behindthetables.imported.nilsfo.FileManager;
 import de.prkmd.behindthetables.sql.DBAdapter;
+import de.prkmd.behindthetables.util.VersionManager;
 import de.prkmd.behindthetables.view.dialog.NewTableCollectionDialogFragment;
 import de.prkmd.behindthetables.view.dialog.ProgressDialogFragment;
 import timber.log.Timber;
 
 import static de.prkmd.behindthetables.BehindTheTables.APP_TAG;
+import static de.prkmd.behindthetables.BehindTheTables.PREFS_LAST_KNOWN_VERSION;
 import static de.prkmd.behindthetables.BehindTheTables.PREFS_TAG;
 import static de.prkmd.behindthetables.activity.TableSelectActivity.EXTRA_SEARCH_REQUEST_QUERY;
 import static de.prkmd.behindthetables.concurrent.task.BuildDBTask.INTENT_EXTRA_DB_QUENCH_UPDATE_REQUEST;
@@ -98,6 +100,18 @@ public class CategorySelectActivity extends AppCompatActivity implements Adapter
                 evaluateImport(imported, failed);
             }
         }
+
+
+        //Version change check & changelog
+        SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(this);
+        int lastVer = prefs.getInt(PREFS_LAST_KNOWN_VERSION, 0);
+        int currentVer = VersionManager.getCurrentVersion(this);
+        if (lastVer != 0 && lastVer != currentVer && currentVer != VersionManager.CURRENT_VERSION_UNKNOWN) {
+            VersionManager.onVersionChange(this, lastVer, currentVer);
+        }
+
+        prefs.edit().putInt(PREFS_LAST_KNOWN_VERSION, currentVer).apply();
+        Timber.i("Application started. App version: %s", currentVer);
 
         gridView.setOnItemClickListener(this);
     }

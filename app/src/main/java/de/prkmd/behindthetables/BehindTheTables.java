@@ -13,7 +13,6 @@ import android.util.Log;
 import java.util.HashSet;
 
 import de.prkmd.behindthetables.data.TableFile;
-import de.prkmd.behindthetables.util.VersionManager;
 import timber.log.Timber;
 
 /**
@@ -47,25 +46,6 @@ public class BehindTheTables extends Application {
         } else {
             Timber.plant(new ReleaseTree());
         }
-
-        VersionManager manager = new VersionManager(this);
-        SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(this);
-        int lastVer = prefs.getInt(PREFS_LAST_KNOWN_VERSION, 0);
-        int currentVer = 0;
-        try {
-            currentVer = manager.getVersionCode();
-        } catch (PackageManager.NameNotFoundException e) {
-            e.printStackTrace();
-        }
-        if (lastVer != 0 && lastVer != currentVer) {
-            manager.onVersionChange(lastVer, currentVer);
-        }
-        if (lastVer == 0) {
-            manager.onFirstTimeStartup();
-        }
-
-        prefs.edit().putInt(PREFS_LAST_KNOWN_VERSION, currentVer).apply();
-        Timber.i("Application started. App version: " + currentVer);
     }
 
     public static boolean isDebugBuild() {
