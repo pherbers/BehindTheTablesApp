@@ -2,16 +2,18 @@ package de.prkmd.behindthetables.activity;
 
 import android.content.res.Configuration;
 import android.os.Bundle;
+import android.os.PersistableBundle;
 import android.preference.PreferenceActivity;
+import android.view.MenuInflater;
+import android.view.View;
+import android.view.ViewGroup;
+
 import androidx.annotation.LayoutRes;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatDelegate;
 import androidx.appcompat.widget.Toolbar;
-import android.view.MenuInflater;
-import android.view.View;
-import android.view.ViewGroup;
 
 /**
  * A {@link PreferenceActivity} which implements and proxies the necessary calls
@@ -22,10 +24,10 @@ public abstract class AppCompatPreferenceActivity extends PreferenceActivity {
     private AppCompatDelegate mDelegate;
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    public void onCreate(@Nullable Bundle savedInstanceState, @Nullable PersistableBundle persistentState) {
         getDelegate().installViewFactory();
         getDelegate().onCreate(savedInstanceState);
-        super.onCreate(savedInstanceState);
+        super.onCreate(savedInstanceState, persistentState);
     }
 
     @Override

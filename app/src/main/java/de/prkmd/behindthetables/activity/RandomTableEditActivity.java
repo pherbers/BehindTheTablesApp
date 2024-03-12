@@ -3,8 +3,6 @@ package de.prkmd.behindthetables.activity;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
-import android.os.FileUtils;
-import android.os.PersistableBundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -21,7 +19,6 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
-import androidx.recyclerview.widget.ItemTouchHelper;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 import de.prkmd.behindthetables.R;
@@ -224,7 +221,7 @@ public class RandomTableEditActivity extends AppCompatActivity {
         }
 
         if(table.getCategory().isEmpty())
-            table.setCategory("My Tables");
+            table.setCategory("⭐ My Tables");
         long catId = adapter.existsCategory(table.getCategory());
         if (catId == DBAdapter.CATEGORY_NOT_FOUND) {
             catId = adapter.insertCategory(table.getCategory());

@@ -20,11 +20,21 @@ public class TextInputDialogFragment extends DialogFragment {
     private final String hint, text, title;
     private final TextEditListener listener;
 
+    private boolean deletable = false;
+
     public TextInputDialogFragment(String title, String hint, String text, TextEditListener listener) {
         this.hint = hint;
         this.text = text;
         this.title = title;
         this.listener = listener;
+    }
+
+    public TextInputDialogFragment(String title, String hint, String text, TextEditListener listener, boolean deletable) {
+        this.hint = hint;
+        this.text = text;
+        this.title = title;
+        this.listener = listener;
+        this.deletable = true;
     }
 
     @NonNull
@@ -59,6 +69,15 @@ public class TextInputDialogFragment extends DialogFragment {
                         TextInputDialogFragment.this.getDialog().cancel();
                     }
                 });
+
+        if(deletable)
+            builder.setNeutralButton(R.string.delete, new DialogInterface.OnClickListener() {
+                @Override
+                public void onClick(DialogInterface dialogInterface, int which) {
+                    listener.onClick("", true);
+                }
+            });
+
         Dialog d = builder.create();
         d.getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_ADJUST_PAN|WindowManager.LayoutParams.SOFT_INPUT_STATE_VISIBLE);
         return d;

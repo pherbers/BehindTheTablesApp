@@ -4,7 +4,6 @@ import android.app.Application;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
-import android.content.pm.PackageManager;
 import android.net.Uri;
 import android.os.Build;
 import android.preference.PreferenceManager;
@@ -34,11 +33,6 @@ public class BehindTheTables extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
-
-        //if (LeakCanary.isInAnalyzerProcess(this)) {
-        //    return;
-        //}
-        //LeakCanary.install(this);
 
         if (isDebugBuild()) {
             Timber.plant(new DebugTree());

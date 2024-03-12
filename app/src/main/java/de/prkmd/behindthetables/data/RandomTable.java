@@ -134,6 +134,11 @@ public class RandomTable implements TableCollectionEntry {
         maxDiceValue++;
     }
 
+    public void removeEntry(TableEntry tableEntry) {
+        entries.remove(tableEntry);
+        fixDiceValues();
+    }
+
     /***
      * Removes empty entries at the back of the table and returns the new size.
      * @return The new number of tables.

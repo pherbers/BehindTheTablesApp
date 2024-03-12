@@ -10,14 +10,7 @@ import android.content.SharedPreferences;
 import android.database.Cursor;
 import android.net.Uri;
 import android.os.Bundle;
-import android.preference.Preference;
-import android.preference.PreferenceDataStore;
 import android.preference.PreferenceManager;
-
-import androidx.appcompat.app.AppCompatDelegate;
-import androidx.core.app.ActivityCompat;
-import androidx.appcompat.app.AlertDialog;
-import androidx.appcompat.app.AppCompatActivity;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -34,6 +27,10 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashSet;
 
+import androidx.appcompat.app.AlertDialog;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatDelegate;
+import androidx.core.app.ActivityCompat;
 import de.prkmd.behindthetables.BehindTheTables;
 import de.prkmd.behindthetables.R;
 import de.prkmd.behindthetables.concurrent.task.BuildDBTask;
@@ -66,7 +63,7 @@ public class CategorySelectActivity extends AppCompatActivity implements Adapter
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_category_select);
-        switch(PreferenceManager.getDefaultSharedPreferences(this).getString("prefs_dark_mode", "Auto")) {
+        switch(PreferenceManager.getDefaultSharedPreferences(this).getString("prefs_dark_mode", "Off")) {
             case "On":
                 AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES);
                 break;
@@ -114,6 +111,13 @@ public class CategorySelectActivity extends AppCompatActivity implements Adapter
         Timber.i("Application started. App version: %s", currentVer);
 
         gridView.setOnItemClickListener(this);
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        adapter.queryDB();
+        adapter.notifyDataSetChanged();
     }
 
     @Override
@@ -201,7 +205,7 @@ public class CategorySelectActivity extends AppCompatActivity implements Adapter
         int failedCount = failed.length;
 
         if (importedCount == 0) {
-            Toast.makeText(this, R.string.info_imports_nothing_found, Toast.LENGTH_LONG).show();
+            // Toast.makeText(this, R.string.info_imports_nothing_found, Toast.LENGTH_LONG).show();
             return;
         }
 
@@ -330,15 +334,19 @@ public class CategorySelectActivity extends AppCompatActivity implements Adapter
 
         public CategoryAdapter(Context context) {
             this.context = context;
-            DBAdapter adapter = new DBAdapter(context);
 
+            queryDB();
+
+            Timber.i("Displaying category tiles. Count: " + getCount());
+        }
+
+        private void queryDB() {
+            DBAdapter adapter = new DBAdapter(context);
             adapter.open();
             bufferedCategories = adapter.getAllCategories(DBAdapter.KEY_CATEGORY_TITLE);
             adapter.close();
 
             checkForDBUpdateRequest();
-
-            Timber.i("Displaying category tiles. Count: " + getCount());
         }
 
         public Bundle getTableInfo(int position) {
@@ -402,7 +410,7 @@ public class CategorySelectActivity extends AppCompatActivity implements Adapter
 
             String text = getItem(i);
 
-            Timber.v("Displaying category button on position " + i + " -> '" + text + "'.");
+            //Timber.v("Displaying category button on position " + i + " -> '" + text + "'.");
             tv.setText(getItem(i));
 
             return tv;

@@ -12,18 +12,18 @@ import android.content.res.Configuration;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
+import android.os.PersistableBundle;
 import android.preference.ListPreference;
 import android.preference.Preference;
 import android.preference.PreferenceFragment;
 import android.preference.PreferenceManager;
-import android.util.Log;
 import android.widget.Toast;
-
-import androidx.appcompat.app.AlertDialog;
 
 import java.util.Date;
 import java.util.List;
 
+import androidx.annotation.Nullable;
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatDelegate;
 import de.prkmd.behindthetables.BehindTheTables;
 import de.prkmd.behindthetables.R;
@@ -97,9 +97,9 @@ public class SettingsActivity extends AppCompatPreferenceActivity {
     }
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        switch(PreferenceManager.getDefaultSharedPreferences(this).getString("prefs_dark_mode", "Off")) {
+    public void onCreate(Bundle savedInstanceState, @Nullable PersistableBundle persistentState) {
+        super.onCreate(savedInstanceState, persistentState);
+        /*switch(PreferenceManager.getDefaultSharedPreferences(this).getString("prefs_dark_mode", "Off")) {
             case "On":
                 AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES);
                 break;
@@ -109,7 +109,7 @@ public class SettingsActivity extends AppCompatPreferenceActivity {
             default:
                 AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_FOLLOW_SYSTEM);
                 break;
-        }
+        }*/
     }
 
     /**
@@ -124,7 +124,6 @@ public class SettingsActivity extends AppCompatPreferenceActivity {
      * {@inheritDoc}
      */
     @Override
-    @TargetApi(Build.VERSION_CODES.HONEYCOMB)
     public void onBuildHeaders(List<Header> target) {
         loadHeadersFromResource(R.xml.prefs_headers, target);
     }
@@ -135,7 +134,6 @@ public class SettingsActivity extends AppCompatPreferenceActivity {
                 || AboutPreferenceFragment.class.getName().equals(fragmentName);
     }
 
-    @TargetApi(Build.VERSION_CODES.HONEYCOMB)
     public static class GeneralPreferenceFragment extends PreferenceFragment {
         @Override
         public void onCreate(Bundle savedInstanceState) {
@@ -145,6 +143,7 @@ public class SettingsActivity extends AppCompatPreferenceActivity {
 
             final ListPreference darkModePref = (ListPreference)findPreference("prefs_dark_mode");
             darkModePref.setSummary(darkModePref.getValue());
+            darkModePref.setDefaultValue("Off");
             darkModePref.setOnPreferenceChangeListener((Preference preference, Object newValue) -> {
                 if(darkModePref.getValue().equals(newValue))
                     return false;

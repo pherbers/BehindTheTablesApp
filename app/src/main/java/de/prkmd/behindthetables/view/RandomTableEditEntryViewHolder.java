@@ -3,6 +3,7 @@ package de.prkmd.behindthetables.view;
 import android.content.Context;
 import android.text.Editable;
 import android.text.TextWatcher;
+import android.view.KeyEvent;
 import android.view.View;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.EditText;
@@ -31,7 +32,15 @@ public class RandomTableEditEntryViewHolder extends RecyclerView.ViewHolder {
         editText = (EditText) itemView.findViewById(R.id.table_edit_entry_text);
         textWatcher = new ItemTextWatcher();
         editText.addTextChangedListener(textWatcher);
-//        itemView.setOnClickListener(this);
+        editText.setOnKeyListener(new View.OnKeyListener() {
+            @Override
+            public boolean onKey(View v, int keyCode, KeyEvent event) {
+                if(keyCode == KeyEvent.KEYCODE_DEL) {
+                    adapter.removeTableEntry(tableEntry);
+                }
+                return false;
+            }
+        });
     }
 
     public void bindData(TableEntry tableEntry, RandomTable table) {

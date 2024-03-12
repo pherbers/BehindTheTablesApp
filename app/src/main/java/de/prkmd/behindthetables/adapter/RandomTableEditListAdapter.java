@@ -1,16 +1,13 @@
 package de.prkmd.behindthetables.adapter;
 
-import android.app.Activity;
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.ViewGroup;
 
-import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
 import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
 import androidx.fragment.app.FragmentActivity;
 import androidx.recyclerview.widget.ItemTouchHelper;
 import androidx.recyclerview.widget.RecyclerView;
@@ -33,6 +30,7 @@ public class RandomTableEditListAdapter extends RecyclerView.Adapter<RecyclerVie
     protected FragmentActivity context;
     protected RandomTable activeTable;
     private ItemTouchHelper itemTouchHelper;
+
 
     public enum STATE {
         EDIT_COLLECTION, EDIT_TABLE
@@ -209,10 +207,35 @@ public class RandomTableEditListAdapter extends RecyclerView.Adapter<RecyclerVie
         }
     }
 
+    public void removeTable(TableCollectionEntry entry) {
+        if(state == STATE.EDIT_COLLECTION) {
+            int index = tableCollection.getTables().indexOf(entry);
+            if(index != -1) {
+                tableCollection.removeTable(entry);
+                notifyItemRemoved(index + 1);
+            }
+        } else {
+            throw new IllegalStateException("Tried to remove a table, but table editor is in state " + state.toString());
+        }
+    }
+
     public void addNewTableEntry() {
         if(state == STATE.EDIT_TABLE) {
             activeTable.addNewEntry();
             notifyItemInserted(getItemCount() - 2);
+        } else {
+            throw new IllegalStateException("Tried to add a new random table, but table editor is in state " + state.toString());
+        }
+    }
+
+    public void removeTableEntry(TableEntry tableEntry) {
+        if(state == STATE.EDIT_TABLE) {
+            int index = activeTable.getEntries().indexOf(tableEntry);
+            if (index != -1) {
+                activeTable.removeEntry(tableEntry);
+                notifyItemRemoved(index + 1);
+                notifyItemRangeChanged(index + 1, getItemCount());
+            }
         } else {
             throw new IllegalStateException("Tried to add a new random table, but table editor is in state " + state.toString());
         }

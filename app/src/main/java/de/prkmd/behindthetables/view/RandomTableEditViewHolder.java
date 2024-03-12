@@ -1,6 +1,7 @@
 package de.prkmd.behindthetables.view;
 
 import android.app.Activity;
+import android.app.AlertDialog;
 import android.view.View;
 import android.widget.ImageButton;
 import android.widget.TextView;
@@ -39,17 +40,31 @@ public class RandomTableEditViewHolder extends RecyclerView.ViewHolder implement
             @Override
             public void onClick(View v) {
                 if(itemView.getContext() instanceof Activity) {
+                    TextInputDialogFragment.TextEditListener dialog = new TextInputDialogFragment.TextEditListener() {
+                        @Override
+                        public void onClick(String text, boolean hasChanged) {
+                            if(text.isEmpty()) {  // Delete table
+                                AlertDialog.Builder builder = new AlertDialog.Builder(context);
+                                builder.setTitle(R.string.delete_table);
+                                builder.setMessage(R.string.delete_table_sure);
+                                builder.setPositiveButton(R.string.delete, (dialogInterface, i) -> {
+                                    adapter.removeTable(table);
+                                });
+                                builder.setNegativeButton(R.string.cancel, (dialogInterface, i) -> {});
+                                builder.show();
+                            } else {
+                                table.setName(text.trim());
+                            }
+                            adapter.notifyItemChanged(pos);
+                        }
+                    };
                     new TextInputDialogFragment(
                             context.getString(R.string.edit_table_title),
                             context.getString(R.string.table_title),
                             table.getName(),
-                            new TextInputDialogFragment.TextEditListener() {
-                        @Override
-                        public void onClick(String text, boolean hasChanged) {
-                            table.setName(text.trim());
-                            adapter.notifyItemChanged(pos);
-                        }
-                    }).show(context.getSupportFragmentManager(), "tableEditTitleDialog");
+                            dialog,
+                            true
+                    ).show(context.getSupportFragmentManager(), "tableEditTitleDialog");
                 }
             }
         });

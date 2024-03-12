@@ -127,6 +127,7 @@
     <string name="new_empty_table_text">New Table</string>
     <string name="new_table_collection">New Table Collection</string>
     <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
     <string name="add_new">Add new</string>
     <string name="add_new_table_collection">Add New Table Collection</string>
     <string name="edit_table_title">Edit table title</string>
@@ -144,11 +145,13 @@
     <string name="no_description">No description</string>
     <string name="no_category">No category</string>
     <string name="no_keywords">No keywords</string>
-    <string name="delete_table_dialog_message">Are you sure you want to permanently delete the table %1$s?</string>
+    <string name="delete_table_dialog_message">Are you sure you want to permanently delete the table collection %1$s?</string>
     <string name="delete_table_dialog_title">Delete Table</string>
     <string name="delete_table_dialog_no">No, go back!</string>
     <string name="delete_table_dialog_yes">Yes, delete it</string>
     <string name="prefs_dark_mode_title">Dark Mode</string>
+    <string name="delete_table">Delete Table</string>
+    <string name="delete_table_sure">This will delete the table with all its entries. This cannot be undone. Are you sure?</string>
     <string-array name="pref_dark_mode_titles">
         <item>Auto</item>
         <item>On</item>

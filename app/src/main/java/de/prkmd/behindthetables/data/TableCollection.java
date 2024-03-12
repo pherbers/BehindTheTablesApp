@@ -128,4 +128,8 @@ public class TableCollection {
         l.add(new TableEntry());
         tables.add(new RandomTable(name, "1d1", tables.size(), l));
     }
+
+    public void removeTable(TableCollectionEntry entry) {
+        tables.remove(entry);
+    }
 }
