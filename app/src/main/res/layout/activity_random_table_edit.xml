@@ -10,33 +10,33 @@
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:theme="@style/AppTheme.AppBarOverlay">
+        android:theme="@style/AppTheme.ActionBar">
 
         <androidx.appcompat.widget.Toolbar
             android:id="@+id/random_table_toolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             android:background="@color/colorPrimary"
-            app:popupTheme="@style/AppTheme.PopupOverlay" />
+            app:popupTheme="@style/AppTheme.ActionBar" />
 
     </com.google.android.material.appbar.AppBarLayout>
 
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
         android:id="@+id/floatingActionButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="top|start"
+        android:layout_gravity="bottom|end"
         android:layout_margin="16dp"
         android:clickable="true"
         android:focusable="true"
         android:onClick="saveAndExit"
-        android:scaleType="center"
-        android:tint="@color/colorLightPrimary"
+        android:text="Save"
+        android:textColor="@color/colorLightPrimary"
         app:backgroundTint="@color/colorPrimary"
-        app:fabSize="normal"
+        app:icon="@drawable/baseline_save_black_24"
+        app:iconTint="@color/colorLightPrimary"
         app:layout_anchor="@+id/include"
-        app:layout_anchorGravity="bottom|right"
-        app:srcCompat="@drawable/baseline_save_black_48" />
+        app:layout_anchorGravity="bottom|right" />
 
     <include
         android:id="@+id/include"

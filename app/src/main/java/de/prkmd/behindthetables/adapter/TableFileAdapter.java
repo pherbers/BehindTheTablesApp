@@ -39,7 +39,7 @@ public class TableFileAdapter extends RecyclerView.Adapter<TableFileAdapter.Hold
 
         holder.flavorTF.setText(file.getDescription());
         holder.titleTF.setText(file.getTitle());
-        holder.indexTF.setText(context.getString(R.string.info_index_indicator, (position + 1)));
+        //holder.indexTF.setText(context.getString(R.string.info_index_indicator, (position + 1)));
 
         holder.titleTF.setCompoundDrawablesRelative(null, null, null, null);
         if (file.isFavorite(getContext())) {
@@ -58,7 +58,7 @@ public class TableFileAdapter extends RecyclerView.Adapter<TableFileAdapter.Hold
     }
 
     class Holder extends RecyclerView.ViewHolder implements View.OnClickListener {
-        protected TextView titleTF, indexTF, flavorTF;
+        protected TextView titleTF, flavorTF;
         //protected ImageButton favBT;
 
         public Holder(View view) {
@@ -66,7 +66,7 @@ public class TableFileAdapter extends RecyclerView.Adapter<TableFileAdapter.Hold
 
             flavorTF = (TextView) view.findViewById(R.id.table_file_flavor);
             titleTF = (TextView) view.findViewById(R.id.table_file_title);
-            indexTF = (TextView) view.findViewById(R.id.table_file_index);
+            // indexTF = (TextView) view.findViewById(R.id.table_file_index);
 
             //this.favBT = (ImageButton) view.findViewById(R.id.table_file_list_fav_bt);
         }

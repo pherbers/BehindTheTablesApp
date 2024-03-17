@@ -3,12 +3,14 @@ package de.prkmd.behindthetables.activity;
 import android.Manifest;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.graphics.drawable.Drawable;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.PersistableBundle;
 import androidx.core.app.ActivityCompat;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.content.ContextCompat;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.appcompat.widget.Toolbar;
@@ -123,6 +125,11 @@ public class RandomTableActivity extends AppCompatActivity {
         listAdapter = new RandomTableListAdapter(this, table);
         listView.setAdapter(listAdapter);
         DividerItemDecoration mDividerItemDecoration = new DividerItemDecoration(this, layoutManager.getOrientation());
+
+        Drawable divider = ContextCompat.getDrawable(getBaseContext(), R.drawable.recycler_horizontal_divider);
+        if(divider != null)
+            mDividerItemDecoration.setDrawable(divider);
+
         listView.addItemDecoration(mDividerItemDecoration);
 
         RecyclerView.ItemAnimator animator = new MyItemAnimator();

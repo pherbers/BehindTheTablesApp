@@ -115,10 +115,12 @@ public abstract class VersionManager {
             return;
         }
 
-        Timber.i("Version info found: " + versionName + " -> " + changelog.replace("\n", "") + " everything: " + wholeChangelog.replace("\n", ""));
-        AlertDialog dialog = buildChangelogDialog(context, context.getString(R.string.info_changelog_version, versionName), changelog, true, wholeChangelog);
-        dialog.getWindow().setLayout(LinearLayout.LayoutParams.WRAP_CONTENT, LinearLayout.LayoutParams.WRAP_CONTENT);
-        dialog.show();
+        if(changelog != null) {
+            Timber.i("Version info found: " + versionName + " -> " + changelog.replace("\n", "") + " everything: " + wholeChangelog.replace("\n", ""));
+            AlertDialog dialog = buildChangelogDialog(context, context.getString(R.string.info_changelog_version, versionName), changelog, true, wholeChangelog);
+            dialog.getWindow().setLayout(LinearLayout.LayoutParams.WRAP_CONTENT, LinearLayout.LayoutParams.WRAP_CONTENT);
+            dialog.show();
+        }
     }
 
     public static JSONObject getChanceLog(Context context) throws IOException, JSONException {

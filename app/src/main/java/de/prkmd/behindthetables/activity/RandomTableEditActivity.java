@@ -2,6 +2,7 @@ package de.prkmd.behindthetables.activity;
 
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -19,6 +20,7 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
+import androidx.core.content.ContextCompat;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 import de.prkmd.behindthetables.R;
@@ -128,6 +130,11 @@ public class RandomTableEditActivity extends AppCompatActivity {
         listAdapter.attachTouch(listView);
         listView.setAdapter(listAdapter);
         DividerItemDecoration mDividerItemDecoration = new DividerItemDecoration(this, layoutManager.getOrientation());
+
+        Drawable divider = ContextCompat.getDrawable(getBaseContext(), R.drawable.recycler_horizontal_divider);
+        if(divider != null)
+            mDividerItemDecoration.setDrawable(divider);
+
         listView.addItemDecoration(mDividerItemDecoration);
 
 

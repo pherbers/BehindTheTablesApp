@@ -29,13 +29,13 @@
         android:text="@string/error_unknown"
         android:textAppearance="@android:style/TextAppearance.Small" />
 
-    <TextView
+    <!--<TextView
         android:id="@+id/table_file_index"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:maxLines="1"
         android:text="@string/error_unknown"
-        android:textAppearance="@android:style/TextAppearance.Small" />
+        android:textAppearance="@android:style/TextAppearance.Small" />-->
 </LinearLayout>
 
     <!--

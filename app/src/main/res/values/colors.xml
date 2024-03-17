@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Base application theme. Do not overwrite. -->
+    <color name="colorSignaturePrimary">#b78763</color>
+    <color name="colorSignaturePrimaryDark">#b36f3d</color>
+
+    <!--Theme Light-->
     <color name="colorPrimary">@color/colorSignaturePrimary</color>
     <color name="colorPrimaryDark">@color/colorSignaturePrimaryDark</color>
     <color name="colorAccent">#4ec6ff</color>
@@ -13,8 +18,25 @@
     <color name="colorLabelCategory">@color/colorTableHighlight</color>
     <color name="colorLink">#3e51fc</color>
 
+    <color name="colorText">#292421</color>
+    <color name="colorDivider">#D3C7C0</color>
 
-    <!-- Base application theme. Do not overwrite. -->
-    <color name="colorSignaturePrimary">#b78763</color>
-    <color name="colorSignaturePrimaryDark">#b36f3d</color>
+    <!--Theme Dark-->
+    <color name="dark_colorPrimary">#121212</color>
+    <color name="dark_colorPrimaryDark">#000000</color>
+    <color name="dark_colorPrimaryLight">#484848</color>
+    <color name="dark_colorAccent">@color/colorSignaturePrimaryDark</color>
+    <color name="dark_colorLightPrimary">@color/colorSignaturePrimary</color>
+
+    <color name="dark_colorTableOdd">#484848</color>
+    <color name="dark_colorTableEven">#323232</color>
+    <color name="dark_colorTableHighlight">#4B6470</color>
+
+    <color name="dark_colorLabelCategory">#242424</color>
+    <color name="dark_colorLink">@color/colorSignaturePrimary</color>
+
+    <color name="dark_colorText">#FFFFFF</color>
+    <color name="dark_colorDivider">#373737</color>
+
+
 </resources>

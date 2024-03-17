@@ -1,19 +1,27 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.DayNight">
+    <style name="AppTheme" parent="Theme.Material3.Light">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColor">@color/colorText</item>
+        <item name="android:actionMenuTextColor">@color/colorText</item>
+        <item name="android:popupMenuStyle">@color/colorText</item>
+        <item name="android:textColorPrimary">@color/colorText</item>
+        <item name="android:textColorSecondary">@color/colorText</item>
     </style>
 
-    <style name="AppTheme.ActionBar" parent="@android:style/Widget.Holo.Light.ActionBar">
+    <style name="AppTheme.ActionBar" parent="ThemeOverlay.MaterialComponents.ActionBar">
         <item name="android:titleTextStyle">@style/AppTheme.ActionBar.Text</item>
+        <item name="android:textColor">@color/colorText</item>
+        <item name="android:textColorPrimary">@color/colorPrimaryLight</item>
+        <item name="android:textColorSecondary">@color/colorPrimaryLight</item>
     </style>
 
     <style name="AppTheme.ActionBar.Text" parent="@android:style/TextAppearance">
-        <item name="android:textColor">@color/colorLightPrimary</item>
+        <item name="android:textColor">@color/colorPrimaryLight</item>
     </style>
 
     <style name="AppTheme.NoActionBar">
@@ -21,8 +29,10 @@
         <item name="windowNoTitle">true</item>
     </style>
 
-    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.DayNight.ActionBar"/>
 
-    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.DayNight"/>
+    <style name="AppTheme.TextAppearance.AppCompat.Small" parent="TextAppearance.AppCompat.Small">
+        <item name="android:textColor">@color/colorText</item>
+        <item name="android:textColorLink">@color/colorLink</item>
+    </style>
 
 </resources>

@@ -1,20 +1,17 @@
 package de.prkmd.behindthetables.adapter;
 
 import android.content.Context;
-
-import androidx.annotation.NonNull;
-import androidx.recyclerview.widget.RecyclerView;
-import androidx.recyclerview.widget.RecyclerView.ViewHolder;
 import android.view.LayoutInflater;
 import android.view.ViewGroup;
 
 import java.util.ArrayList;
 
+import androidx.annotation.NonNull;
+import androidx.recyclerview.widget.RecyclerView.ViewHolder;
 import de.prkmd.behindthetables.R;
 import de.prkmd.behindthetables.data.RandomTable;
 import de.prkmd.behindthetables.data.SubcategoryEntry;
 import de.prkmd.behindthetables.data.TableCollection;
-import de.prkmd.behindthetables.data.TableCollectionEntry;
 import de.prkmd.behindthetables.data.TableEntry;
 import de.prkmd.behindthetables.view.RandomTableEntryViewHolder;
 import de.prkmd.behindthetables.view.RandomTableHeaderViewHolder;

@@ -27,9 +27,11 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashSet;
 
+import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.app.AppCompatDelegate;
+import androidx.appcompat.widget.Toolbar;
 import androidx.core.app.ActivityCompat;
 import de.prkmd.behindthetables.BehindTheTables;
 import de.prkmd.behindthetables.R;
@@ -65,13 +67,13 @@ public class CategorySelectActivity extends AppCompatActivity implements Adapter
         setContentView(R.layout.activity_category_select);
         switch(PreferenceManager.getDefaultSharedPreferences(this).getString("prefs_dark_mode", "Off")) {
             case "On":
-                AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES);
+                //setTheme(R.style.AppTheme_DayNight);
                 break;
             case "Off":
-                AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO);
+                //setTheme(R.style.AppTheme);
                 break;
             default:
-                AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_FOLLOW_SYSTEM);
+                //setTheme(R.style.AppTheme_DayNight);
                 break;
         }
         GridView gridView = (GridView) findViewById(R.id.category_list_view);
@@ -111,11 +113,19 @@ public class CategorySelectActivity extends AppCompatActivity implements Adapter
         Timber.i("Application started. App version: %s", currentVer);
 
         gridView.setOnItemClickListener(this);
+
+        Toolbar toolbar = findViewById(R.id.category_select_toolbar);
+        setSupportActionBar(toolbar);
+        
+        ActionBar bar = getSupportActionBar();
+        if (bar != null) {
+            bar.setTitle(R.string.app_name);
+        }
     }
 
     @Override
-    protected void onResume() {
-        super.onResume();
+    protected void onRestart() {
+        super.onRestart();
         adapter.queryDB();
         adapter.notifyDataSetChanged();
     }
@@ -181,7 +191,7 @@ public class CategorySelectActivity extends AppCompatActivity implements Adapter
         int textID = preferences.getInt(PREFERENCES_REQUEST_DB_UPDATE_TEXT, R.string.info_db_setup_generic);
         if (textID == PREFERENCES_REQUEST_DB_UPDATE_SKIP) return;
 
-        discoverExternalFiles(true, true, true, textID);
+        discoverExternalFiles(true, true, true, R.string.info_db_setup_generic);
     }
 
     private void discoverExternalFiles(boolean includeDefaults, boolean includeExternal, boolean quenchSetupRequest, int messageID) {
@@ -337,7 +347,7 @@ public class CategorySelectActivity extends AppCompatActivity implements Adapter
 
             queryDB();
 
-            Timber.i("Displaying category tiles. Count: " + getCount());
+            checkForDBUpdateRequest();
         }
 
         private void queryDB() {
@@ -346,7 +356,7 @@ public class CategorySelectActivity extends AppCompatActivity implements Adapter
             bufferedCategories = adapter.getAllCategories(DBAdapter.KEY_CATEGORY_TITLE);
             adapter.close();
 
-            checkForDBUpdateRequest();
+            Timber.i("Displaying category tiles. Count: " + getCount());
         }
 
         public Bundle getTableInfo(int position) {

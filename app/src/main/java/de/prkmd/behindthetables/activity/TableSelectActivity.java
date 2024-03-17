@@ -6,10 +6,13 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.database.Cursor;
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.provider.SearchRecentSuggestions;
 import com.google.android.material.navigation.NavigationView;
+
+import androidx.core.content.ContextCompat;
 import androidx.core.view.GravityCompat;
 import androidx.core.view.MenuItemCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
@@ -135,6 +138,9 @@ public class TableSelectActivity extends AppCompatActivity implements Navigation
 
         DividerItemDecoration dividerItemDecoration = new DividerItemDecoration(list.getContext(),
                 layoutManager.getOrientation());
+        Drawable divider = ContextCompat.getDrawable(getBaseContext(), R.drawable.recycler_horizontal_divider);
+        if(divider != null)
+            dividerItemDecoration.setDrawable(divider);
         list.addItemDecoration(dividerItemDecoration);
 
         if (savedInstanceState != null) {
