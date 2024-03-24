@@ -9,6 +9,7 @@ import android.content.SharedPreferences;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.content.res.Configuration;
+import android.database.Cursor;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
@@ -19,14 +20,21 @@ import android.preference.PreferenceFragment;
 import android.preference.PreferenceManager;
 import android.widget.Toast;
 
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.io.OutputStream;
+import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.List;
+import java.util.Locale;
+import java.util.zip.ZipEntry;
+import java.util.zip.ZipOutputStream;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AlertDialog;
-import androidx.appcompat.app.AppCompatDelegate;
 import de.prkmd.behindthetables.BehindTheTables;
 import de.prkmd.behindthetables.R;
+import de.prkmd.behindthetables.sql.DBAdapter;
 import de.prkmd.behindthetables.util.VersionManager;
 import timber.log.Timber;
 
@@ -141,28 +149,6 @@ public class SettingsActivity extends AppCompatPreferenceActivity {
             addPreferencesFromResource(R.xml.prefs_general);
             setHasOptionsMenu(true);
 
-            final ListPreference darkModePref = (ListPreference)findPreference("prefs_dark_mode");
-            darkModePref.setSummary(darkModePref.getValue());
-            darkModePref.setDefaultValue("Off");
-            darkModePref.setOnPreferenceChangeListener((Preference preference, Object newValue) -> {
-                if(darkModePref.getValue().equals(newValue))
-                    return false;
-                darkModePref.setSummary(newValue.toString());
-                switch(newValue.toString()) {
-                    case "On":
-                        AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES);
-                        break;
-                    case "Off":
-                        AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO);
-                        break;
-                    default:
-                        AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_FOLLOW_SYSTEM);
-                        break;
-                }
-                getActivity().recreate();
-                return true;
-            });
-
             final Preference resetDB = findPreference("prefs_reset_database");
             resetDB.setOnPreferenceClickListener(new Preference.OnPreferenceClickListener() {
                 @Override
@@ -189,6 +175,18 @@ public class SettingsActivity extends AppCompatPreferenceActivity {
                     return true;
                 }
             });
+            final Preference backupTables = findPreference("prefs_backup_custom_tables");
+            backupTables.setOnPreferenceClickListener(preference -> {
+                requestBackupTables(preference.getContext());
+                return true;
+            });
+
+            final Preference restoreFromBackup = findPreference("prefs_restore_custom_tables");
+            restoreFromBackup.setOnPreferenceClickListener(preference -> {
+                restoreFromBackup(preference.getContext());
+                return true;
+            });
+
 
         }
 
@@ -200,6 +198,85 @@ public class SettingsActivity extends AppCompatPreferenceActivity {
             Intent intent = new Intent(getActivity(), CategorySelectActivity.class);
             intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
             startActivity(intent);
+        }
+
+        static final int BACKUP_WRITE_REQUEST_CODE = 451;
+        public void requestBackupTables(Context context)  {
+            Intent saveIntent = new Intent(Intent.ACTION_CREATE_DOCUMENT);
+
+            String formattedDate = new SimpleDateFormat("yyyy-MM-dd_HH:mm:ss", Locale.US).format(new Date());
+
+            saveIntent.setType("application/zip");
+            saveIntent.putExtra(Intent.EXTRA_TITLE, "BTT_Backup_" + formattedDate + ".zip");
+
+            context.startActivity(saveIntent);
+            startActivityForResult(saveIntent, BACKUP_WRITE_REQUEST_CODE);
+        }
+
+        public int backupTables(Context context, Uri backupURI) throws IOException {
+            OutputStream outputStream = context.getContentResolver().openOutputStream(backupURI);
+
+            DBAdapter adapter = new DBAdapter(context).open();
+            Cursor customTables = adapter.getAllCustomTableCollections();
+            ZipOutputStream outStream = new ZipOutputStream(outputStream);
+
+            int nExportedTables = 0;
+
+            while(!customTables.isAfterLast()) {
+                String tableFileLocation = customTables.getString(0);
+                String fileName = tableFileLocation.substring(tableFileLocation.lastIndexOf("/") + 1);
+
+                Timber.tag("Preferences_Backup").i("Backing up table file %s", fileName);
+
+                outStream.putNextEntry(new ZipEntry(fileName));
+
+                FileInputStream inStream = new FileInputStream(tableFileLocation);
+                // Transfer bytes from in to out
+                byte[] buf = new byte[1024];
+                int len;
+                while ((len = inStream.read(buf)) > 0) {
+                    outStream.write(buf, 0, len);
+                }
+                inStream.close();
+
+                customTables.moveToNext();
+
+                nExportedTables++;
+            }
+            outStream.close();
+
+            Timber.tag("Preferences_Backup").i("Backed up %d tables to %s", nExportedTables, backupURI);
+
+            adapter.close();
+            outputStream.close();
+
+            return nExportedTables;
+        }
+
+        public void restoreFromBackup(Context context) {
+
+        }
+
+        @Override
+        public void onActivityResult(int requestCode, int resultCode, Intent data) {
+            if(requestCode == BACKUP_WRITE_REQUEST_CODE && resultCode == RESULT_OK) {
+                Uri backupLocation = data.getData();
+                try {
+                    int nExported = backupTables(getActivity().getApplicationContext(), backupLocation);
+                    if(nExported > 0)
+                        Toast.makeText(getActivity().getApplicationContext(),
+                            getString(R.string.prefs_backup_success, nExported),
+                            Toast.LENGTH_SHORT).show();
+                    else
+                        Toast.makeText(getActivity().getApplicationContext(),
+                                R.string.prefs_backup_noop,
+                                Toast.LENGTH_SHORT).show();
+                } catch (IOException e) {
+                    Toast.makeText(getActivity().getApplicationContext(),
+                            R.string.prefs_backup_error,
+                            Toast.LENGTH_SHORT).show();
+                }
+            }
         }
     }
 

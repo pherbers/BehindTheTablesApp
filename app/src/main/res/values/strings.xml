@@ -79,7 +79,7 @@
 
     <string name="pref_category_general">General</string>
     <string name="prefs_reset_database_title">Reset all Tables</string>
-    <string name="prefs_reset_database_summary">Resets all tables to their defaults and removes custom tables.</string>
+    <string name="prefs_reset_database_summary">Resets all tables to their defaults and removes custom tables. Make sure to create a backup first.</string>
     <string name="prefs_reset_db_success">Table reset successful</string>
     <string name="pref_credits">Credits</string>
     <string name="pref_libraries">Libraries used</string>
@@ -152,6 +152,13 @@
     <string name="prefs_dark_mode_title">Dark Mode</string>
     <string name="delete_table">Delete Table</string>
     <string name="delete_table_sure">This will delete the table with all its entries. This cannot be undone. Are you sure?</string>
+    <string name="prefs_backup_custom_tables_title">Backup Custom Tables</string>
+    <string name="prefs_backup_custom_tables_summary">Backup all your created tables.</string>
+    <string name="prefs_restore_custom_tables_title">Restore from Backup</string>
+    <string name="prefs_restore_custom_tables_summary">Restore your custom tables from a backup.</string>
+    <string name="prefs_backup_error">Error: Could not write backup file</string>
+    <string name="prefs_backup_success">Successfully exported %1$d custom tables.</string>
+    <string name="prefs_backup_noop">No tables to export.</string>
     <string-array name="pref_dark_mode_titles">
         <item>Auto</item>
         <item>On</item>

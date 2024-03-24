@@ -281,6 +281,15 @@ public class DBAdapter extends Observable {
 		return c;
 	}
 
+	public synchronized Cursor getAllCustomTableCollections() {
+		String where = "resource_location LIKE '%.json'";
+		Cursor c = db.query(true, DATABASE_TABLE_TABLE_COLLECTION, ALL_KEYS_TABLE_COLLECTION, where, null, null, null, null, null);
+		if (c != null) {
+			c.moveToFirst();
+		}
+		return c;
+	}
+
 	public synchronized Cursor getAllCategories() {
 		return getAllCategories(null);
 	}

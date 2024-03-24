@@ -6,12 +6,20 @@
         android:key="pref_cat_general"
         android:title="@string/pref_category_general">
 
-        <ListPreference
+        <!--<ListPreference
             android:key="prefs_dark_mode"
             android:title="@string/prefs_dark_mode_title"
             android:entries="@array/pref_dark_mode_titles"
             android:entryValues="@array/pref_dark_mode_values"
-            android:defaultValue="Off"/>
+            android:defaultValue="Off"/>-->
+        <Preference
+            android:key="prefs_backup_custom_tables"
+            android:summary="@string/prefs_backup_custom_tables_summary"
+            android:title="@string/prefs_backup_custom_tables_title"/>
+        <Preference
+            android:key="prefs_restore_custom_tables"
+            android:summary="@string/prefs_restore_custom_tables_summary"
+            android:title="@string/prefs_restore_custom_tables_title"/>
         <Preference
             android:key="prefs_reset_database"
             android:summary="@string/prefs_reset_database_summary"
