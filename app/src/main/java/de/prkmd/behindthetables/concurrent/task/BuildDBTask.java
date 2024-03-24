@@ -92,7 +92,7 @@ public class BuildDBTask extends AsyncTask<Void, Void, Boolean> {
             }
         }
 
-        if (BehindTheTables.isDebugBuild()) {
+        /*if (BehindTheTables.isDebugBuild()) {
             for (int i = 0; i < 10; i++) {
                 Timber.i("Sleeping stage... " + i);
                 try {
@@ -101,7 +101,7 @@ public class BuildDBTask extends AsyncTask<Void, Void, Boolean> {
                     e.printStackTrace();
                 }
             }
-        }
+        }*/
 
         return b;
     }
@@ -172,7 +172,8 @@ public class BuildDBTask extends AsyncTask<Void, Void, Boolean> {
     }
 
     public boolean isAbleToRequestPermissions() {
-        return context instanceof Activity;
+//        return context instanceof Activity;
+        return true;
     }
 
     @Deprecated

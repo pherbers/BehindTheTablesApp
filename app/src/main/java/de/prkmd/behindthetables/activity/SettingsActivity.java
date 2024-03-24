@@ -20,20 +20,26 @@ import android.preference.PreferenceFragment;
 import android.preference.PreferenceManager;
 import android.widget.Toast;
 
+import java.io.File;
 import java.io.FileInputStream;
+import java.io.FileOutputStream;
 import java.io.IOException;
+import java.io.InputStream;
 import java.io.OutputStream;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.List;
 import java.util.Locale;
 import java.util.zip.ZipEntry;
+import java.util.zip.ZipInputStream;
 import java.util.zip.ZipOutputStream;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AlertDialog;
 import de.prkmd.behindthetables.BehindTheTables;
 import de.prkmd.behindthetables.R;
+import de.prkmd.behindthetables.concurrent.task.BuildDBTask;
+import de.prkmd.behindthetables.imported.nilsfo.FileManager;
 import de.prkmd.behindthetables.sql.DBAdapter;
 import de.prkmd.behindthetables.util.VersionManager;
 import timber.log.Timber;
@@ -183,17 +189,25 @@ public class SettingsActivity extends AppCompatPreferenceActivity {
 
             final Preference restoreFromBackup = findPreference("prefs_restore_custom_tables");
             restoreFromBackup.setOnPreferenceClickListener(preference -> {
-                restoreFromBackup(preference.getContext());
+                requestRestoreFromBackup(preference.getContext());
                 return true;
             });
-
-
         }
 
         public void resetDB() {
             SharedPreferences.Editor editor = PreferenceManager.getDefaultSharedPreferences(getActivity()).edit();
             editor.putInt(CategorySelectActivity.PREFERENCES_REQUEST_DB_UPDATE_TEXT, R.string.info_db_setup_reset);
             editor.apply();
+
+            FileManager fm = new FileManager(getActivity().getApplicationContext());
+            File externalTableDir = fm.getExternalTableDir();
+            File[] externalFiles = externalTableDir.listFiles();
+            if(externalFiles != null)
+                for (File f :
+                        externalFiles) {
+                    if(f.getName().endsWith(".json"))
+                        f.delete();
+                }
 
             Intent intent = new Intent(getActivity(), CategorySelectActivity.class);
             intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
@@ -211,6 +225,7 @@ public class SettingsActivity extends AppCompatPreferenceActivity {
 
             context.startActivity(saveIntent);
             startActivityForResult(saveIntent, BACKUP_WRITE_REQUEST_CODE);
+
         }
 
         public int backupTables(Context context, Uri backupURI) throws IOException {
@@ -253,8 +268,60 @@ public class SettingsActivity extends AppCompatPreferenceActivity {
             return nExportedTables;
         }
 
-        public void restoreFromBackup(Context context) {
+        static final int BACKUP_READ_REQUEST_CODE = 452;
+        public void requestRestoreFromBackup(Context context) {
+            Timber.tag("Preferences_Backup").i("Requesting Restore from Backup");
+            Intent importIntent = new Intent(Intent.ACTION_GET_CONTENT);
 
+            importIntent.addCategory(Intent.CATEGORY_OPENABLE);
+            importIntent.setType("application/zip");
+
+            context.startActivity(importIntent);
+            startActivityForResult(Intent.createChooser(importIntent, "Choose backup file"), BACKUP_READ_REQUEST_CODE);
+        }
+
+        public void restoreFromBackup(Context context, Uri backupURI) throws IOException{
+            Timber.tag("Preferences_Backup").i("Reading backup from %s", backupURI);
+
+            InputStream inputStream = context.getContentResolver().openInputStream(backupURI);
+
+            FileManager fm = new FileManager(getActivity().getApplicationContext());
+            File externalTableDir = fm.getExternalTableDir();
+
+            ZipInputStream zipin = new ZipInputStream(inputStream);
+            ZipEntry zf = zipin.getNextEntry();
+
+            int nImportedTables = 0;
+
+            while(zf != null) {
+                String zfName = zf.getName();
+                Timber.tag("Preferences_Backup").i("Extracting %s", zfName);
+                File f = new File(externalTableDir, zfName);
+                FileOutputStream fos = new FileOutputStream(f);
+
+                byte[] buf = new byte[1024];
+                int len;
+                while ((len = zipin.read(buf)) > 0) {
+                    fos.write(buf, 0, len);
+                }
+
+                fos.close();
+                zf = zipin.getNextEntry();
+
+                nImportedTables++;
+            }
+
+            inputStream.close();
+
+            Timber.tag("Preferences_Backup").i("Launching build DB task");
+            BuildDBTask buildDBTask = new BuildDBTask(getActivity().getApplicationContext(), null, false, true, false);
+            int finalNImportedTables = nImportedTables;
+            buildDBTask.setListener((success, foundFiles, errorFiles) -> {
+                Toast.makeText(getActivity().getApplicationContext(),
+                        getString(R.string.prefs_backup_restore_success, finalNImportedTables),
+                        Toast.LENGTH_LONG).show();
+            });
+            buildDBTask.execute();
         }
 
         @Override
@@ -266,15 +333,25 @@ public class SettingsActivity extends AppCompatPreferenceActivity {
                     if(nExported > 0)
                         Toast.makeText(getActivity().getApplicationContext(),
                             getString(R.string.prefs_backup_success, nExported),
-                            Toast.LENGTH_SHORT).show();
+                            Toast.LENGTH_LONG).show();
                     else
                         Toast.makeText(getActivity().getApplicationContext(),
                                 R.string.prefs_backup_noop,
-                                Toast.LENGTH_SHORT).show();
+                                Toast.LENGTH_LONG).show();
                 } catch (IOException e) {
                     Toast.makeText(getActivity().getApplicationContext(),
                             R.string.prefs_backup_error,
-                            Toast.LENGTH_SHORT).show();
+                            Toast.LENGTH_LONG).show();
+                }
+            }
+            else if(requestCode == BACKUP_READ_REQUEST_CODE && resultCode == RESULT_OK) {
+                Uri backupLocation = data.getData();
+                try {
+                    restoreFromBackup(getActivity().getApplicationContext(), backupLocation);
+                } catch (IOException e) {
+                    Toast.makeText(getActivity().getApplicationContext(),
+                            R.string.prefs_backup_restore_error,
+                            Toast.LENGTH_LONG).show();
                 }
             }
         }

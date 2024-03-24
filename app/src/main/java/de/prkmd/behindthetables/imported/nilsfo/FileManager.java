@@ -100,13 +100,15 @@ public class FileManager {
     }
 
     public boolean hasPermission(Activity activity) {
-        return ContextCompat.checkSelfPermission(activity,
+        /*return ContextCompat.checkSelfPermission(activity,
                 Manifest.permission.WRITE_EXTERNAL_STORAGE)
-                == PackageManager.PERMISSION_GRANTED;
+                == PackageManager.PERMISSION_GRANTED;*/
+        return true;
     }
 
     public boolean hasPermission() {
-        return hasPermission((Activity) context);
+        // return hasPermission((Activity) context);
+        return true;
     }
 
     public File getExternalTableDir() {

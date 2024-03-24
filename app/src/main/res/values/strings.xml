@@ -159,6 +159,8 @@
     <string name="prefs_backup_error">Error: Could not write backup file</string>
     <string name="prefs_backup_success">Successfully exported %1$d custom tables.</string>
     <string name="prefs_backup_noop">No tables to export.</string>
+    <string name="prefs_backup_restore_error">ERROR: Backup could not be read.</string>
+    <string name="prefs_backup_restore_success">Successfully imported %1$d tables.</string>
     <string-array name="pref_dark_mode_titles">
         <item>Auto</item>
         <item>On</item>
